@@ -1,0 +1,70 @@
+.titulo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 110%;
+	font-weight: normal;
+	color: #CC0000;
+	font-style: italic;
+}
+.subtitulo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 80%;
+	font-weight: normal;
+	color: #CC0000;
+	font-style: italic;
+}
+.decorrido {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	line-height: 130%;
+	font-weight: normal;
+	color: #333333;
+	text-align: justify;
+	filter: Blur(Add=1, Direction=0, Strength=1);
+}
+.decorridostrong {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	line-height: 130%;
+	font-weight: bold;
+	color: #333333;
+	filter: Blur(Add=1, Direction=0, Strength=1);
+}
+.italic {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	line-height: 18px;
+	font-weight: normal;
+	color: #666666;
+	font-style: italic;
+	text-align: left;
+}
+.pie {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 66%;
+	line-height: 100%;
+	font-weight: normal;
+	color: #999999;
+}
+.piered {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 60%;
+	line-height: 100%;
+	font-weight: normal;
+	color: #CC0000;
+	text-align: justify;
+}
+.piechiquitito {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 60%;
+	line-height: 100%;
+	font-weight: normal;
+	color: #666666;
+	font-style: normal;
+}
+.courier {
+	font-family: "Courier New", Courier, mono;
+	font-size: 70%;
+	line-height: 105%;
+	font-weight: normal;
+	color: #666666;
+}
