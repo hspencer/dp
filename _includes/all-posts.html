@@ -1,0 +1,27 @@
+<div class="all-posts">
+    {% for post in site.posts %}
+    <div class="post-excerpt">
+      <a href="{{ post.url | relative_url }}">
+        <span class="title">{{ post.title }}</span>
+        <p class="meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%d-%m-%Y" }}
+          </time>
+        </p>
+        {% if post.youtube %}
+          {% if post.youtube contains "youtu.be" %}
+            <!-- Para URLs cortas (https://youtu.be/ID) -->
+            {% assign video_id = post.youtube | split: "/" | last | split: "?" | first %}
+          {% elsif post.youtube contains "watch?v=" %}
+            <!-- Para URLs largas (https://www.youtube.com/watch?v=ID) -->
+            {% assign video_id = post.youtube | split: "v=" | last | split: "&" | first %}
+          {% endif %}
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ video_id }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+        {% endif %}
+        <p class="excerpt">{{ post.content | truncatewords: 80 | strip_newlines }}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>

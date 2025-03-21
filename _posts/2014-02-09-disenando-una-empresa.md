@@ -3,8 +3,7 @@ layout: post
 permalink: /?p=1650
 title: "Dise\xF1ando una Empresa"
 description: None
-date: 0000-00-00 00:00:00 -0000
-last_modified_at: 0000-00-00 00:00:00 -0000
+date: 2014-02-09 13:00:00
 publish: false
 pin: false
 categories:
