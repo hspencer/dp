@@ -1,0 +1,135 @@
+<script type="application/processing">
+
+int numX = 3;
+int numY = 3;
+int margen = 100;
+
+int px = 10; // escala del pixel
+
+int W = (5 * numX)*px + (5 * (numX -1))*px + (2 * margen) + 5 * numX; 
+int H = (5 * numY)*px + (5 * (numY -1))*px + (2 * margen) + 5 * numY; 
+
+int count;
+
+Invader[] av;
+
+void setup() {
+  size(W, H);
+  //println("size = "+W+','+H);
+  av = new Invader[numX*numY];
+  noSmooth();
+  noLoop();
+  rectMode(CENTER);
+}
+
+void generate() {
+  count = 0;
+
+  float spacerY = ((float)height - (2 * margen))/((float)(numY*2) - 1); 
+  float spacerX =  ((float)width - (2 * margen))/((float)(numX*2) - 1);
+
+  for (int i = 0; i < numY; i ++) {
+    for (int j = 0; j < numX; j ++) {
+      av[count] = new Invader(spacerX, margen + (float)2*j*spacerX, margen + (float)2*i*spacerY);
+      count++;
+    }
+  }
+}
+
+void draw() {
+  generate();
+  background(255);
+  for (int i = 0; i < count; i++) {
+    av[i].displayInv();
+  }
+}
+
+void keyPressed() {
+  redraw();
+}
+
+class Block{
+  boolean on;
+  Block(){
+    on = gen();
+  }
+
+  boolean gen(){
+    boolean state;
+    float num = random(1);
+    if(num > 0.5){
+      state = true;
+    }
+    else{
+      state = false;
+    }
+    return state;
+  }
+
+  void display(float side, float x, float y){
+    if(on){
+      fill(0);
+      if(px > 3){
+        stroke(255);
+        strokeWeight(1);
+      }
+      else{
+        noStroke();
+      }
+      rectMode(CORNER);
+      rect(x, y, side, side);
+    }
+  }
+}
+
+class BlockCol{
+  Block[] elem;
+
+  BlockCol(){
+    elem = new Block[5];
+    for (int i = 0; i < elem.length; i++){
+      elem[i] = new Block();
+    }
+  }
+
+  void displayCol(float side, float x, float y){
+    for(int i = 0; i < 5; i++){
+      elem[i].display(side, x, y + i * side);      
+    }
+  }
+}
+
+class Invader{
+  BlockCol[] col;
+  float side, x, y;
+
+  Invader(float side, float x, float y){
+    this.side = side;
+    this.x = x;
+    this.y = y;
+    col = new BlockCol[3];
+    for(int i = 0; i < 3; i++){
+      col[i] = new BlockCol();
+    }
+  }
+
+  void displayInv(){
+    col[0].displayCol(side/5, x, y);
+    col[1].displayCol(side/5, x + side/5, y);
+    col[2].displayCol(side/5, x + 2 * side/5, y);
+    //col[3].displayCol(side/5, x + 3 * side/5, y);
+    col[2].displayCol(side/5, x + 3 * side/5, y);
+    col[1].displayCol(side/5, x + 4 * side/5, y);
+    col[0].displayCol(side/5, x + 5 * side/5, y);
+  } 
+}
+
+
+</script>
+
+<div class='tcenter'><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="422" height="300" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowScriptAccess" value="always" /><param name="src" value="http://static.issuu.com/webembed/viewers/style1/v1/IssuuViewer.swf?mode=preview&amp;previewLayout=white&amp;username=hspencer&amp;docName=invaders&amp;documentId=080731140352-0cd585556ec349e5af371ff93260f5a4&amp;autoFlip=true&amp;backgroundColor=ffffff&amp;layout=white" /><embed type="application/x-shockwave-flash" width="422" height="300" src="http://static.issuu.com/webembed/viewers/style1/v1/IssuuViewer.swf?mode=preview&amp;previewLayout=white&amp;username=hspencer&amp;docName=invaders&amp;documentId=080731140352-0cd585556ec349e5af371ff93260f5a4&amp;autoFlip=true&amp;backgroundColor=ffffff&amp;layout=white" allowscriptaccess="always"></embed></object></div>
+Como este sitio trata de la <a title="el colofón explica esto" href="http://www.herbertspencer.net/about/colofon/">doble página</a> traigo esta aplicación: <a title="Servicio de publicación para documentos de impresión" href="http://issuu.com/">Issuu</a>.
+
+<p>Mis amigos más fundamentalistas dirán que es pura nostalgia por la página, otros dirán que se trata de otra aplicación que declara la supremacía absoluta de Internet sobre los otros medios de comunicación; porque es capaz de contenerlos a todos.</p>
+
+<p>En fin, si esta discusión no te interesa, sólo <a href="http://herbertspencer.net/wp-content/uploads/2008/07/marcianitos1.zip">baja el código</a> para hacer tus propios marcianitos.</p>

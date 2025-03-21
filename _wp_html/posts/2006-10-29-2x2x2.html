@@ -1,0 +1,94 @@
+<iframe width="498" height="550" scrolling="no" frameborder="0" src="http://www.openprocessing.org/visuals/iframe.php?visualID=7132&width=470&height=470"></iframe>
+
+Los arreglos <strong>2x2</strong> son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje <strong>X</strong> puede representar 'lo privado' (-x) y 'lo público' (+x) y el eje <strong>Y</strong> puede referirse a la relación 'adquirir/consumir' (-y) 'crear/generar'(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas "áreas grises".
+
+A partir de esta "cancha" podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar "rolls", etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo privado como la participación en la generación de contenidos. Imagino que para poder construir una buen modelo 2x2 hay que validar las impresiones personales en una discusión grupal, calibrando todas estas ubicaciones para dejarlas lo menos arbitrarias posibles. <a href="http://www.maya.com/web/how/how_expertanalysis.mtml">Aquí­</a> hay un ejemplo que encontré (no es muy bueno pero sirve para que entiendan la idea) y <a href="http://www.herbertspencer.net/thesis/images/c/c5/2x2_opportunity.jpg">aquí­</a> hay otro que hice yo, para identificar un área de oportunidad para un proyecto especí­fico.
+
+Normalmente la información representada en estos modelos es de naturaleza cualitativa y está sujeta a la percepción del diseñador en el sentido de la exactitud de su ubicación. En el fondo corresponde a un profundo proceso de sí­ntesis y el arreglo bidimensional (2x2) resultante permite identificar oportunidades para diseñar en áreas no exploradas por los productos existentes (esto se aplica al ejemplo particular que estoy dando, pero pueden ser utilizados para otra cosa, por cierto).
+
+Lo que hice aquí­ es un experimento en <a href="http://www.processing.org">processing</a> que construye un 2x2x2. Se trata de un intento de construir una relación entre 3 dimensiones semánticas y permitir la construcción de un modelo que sea consistente con las tres simultáneamente. El hecho de que la secuencia entre las distintas vistas (x,y), (y,z), (x,z), etc. esté animada, constituye la clave cognitiva para que el lector pueda hacer el puente entre cada una de ellas. Este ejemplo no representa ninguna relación en particular, tan sólo se trata de puntos dispuestos al azar (en una función de ruido espefí­cicamente); la idea es comprobar si una representación de esta naturaleza ofrece la coherencia y legibilidad necesaria como para construir un argumento a partir de ella. A disposición de ustedes les dejo el código para que jueguen. <a title="modelos conceptuales para los diversos modos de actividad física" href="http://www.herbertspencer.net/processing/conceptual_models/">Aquí también hay un ejemplo aplicado</a>.
+
+<code> </code>
+<pre>// navigate with keys 1..6
+// press SPACE to regenerate the from
+
+void setup(){
+  size(400,400,P3D);
+}
+
+// camera variables
+float distancia = 600.0;
+int delayer = 10;
+float currentX = 0.0;
+float currentY = 0.0;
+float currentZ = distancia;
+float nextX;
+float nextY;
+float nextZ;
+boolean flying = false;
+
+//drawing variables
+int axisLenght = 300;
+int cube = 350;
+int numDots = 225;
+float[] dotX = new float[numDots];
+float[] dotY = new float[numDots];
+float[] dotZ = new float[numDots];
+float[] dotRadius = new float[numDots];
+boolean dots = false;
+
+void draw(){
+  background(255);
+  camera(currentX, currentY, currentZ, 0, 0, 0, 0, 1, 0); //setup camera, target and 'up'
+
+  if(flying == true) {
+    currentX += (nextX - currentX)/delayer;
+    currentY += (nextY - currentY)/delayer;
+    currentZ += (nextZ - currentZ)/delayer;
+    if( dist(currentX,currentY,currentZ,nextX,nextY,nextZ) &lt; 1) {
+      //currentX = nextX;
+      //currentY = nextY;
+      //currentZ = nextZ;
+      flying = false;
+    }
+  }
+  // 3 AXIS IN RGB
+  stroke(255,0,0,100); //color + alpha
+  line(-axisLenght, 0, 0, axisLenght, 0, 0); //RED X
+  stroke(0,255,0,100);
+  line(0, -axisLenght, 0, 0, axisLenght, 0); //GREEN Y
+  stroke(0,0,255,100);
+  line(0, 0, -axisLenght, 0, 0, axisLenght); //BLUE Z
+
+  if(dots == false){// generate the dots only once
+    generateDots();
+    dots = true;
+  }
+  drawDots();
+}
+
+// the random values for the spheres
+void generateDots() {
+
+  int rand = (int)random(1000);
+
+  for(int i = 0; i &lt; numDots; i ++){
+
+    float xgen = i;
+    float ygen = i+rand;
+    float zgen = i+2*rand;
+
+    // the noise function (by Ken Perlin) provides a continous randomness
+    dotX[i] = (noise(xgen/80.0)*600)-300;
+    dotY[i] = (noise(ygen/80.0)*600)-300;
+    dotZ[i] = (noise(zgen/80.0)*600)-300;
+    dotRadius[i] = noise(xgen/10.0)*60;
+  }
+}
+
+// draw the translucent spheres
+void drawDots(){
+  sphereDetail(8);
+fill(#CC0000, 40);// color + alpha of the spheres
+  noStroke();
+  for(int i=0; i</pre>
