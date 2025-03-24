@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2007/04/mediafranca-parte-1/
 title: MediaFranca, parte 1
 description: None
@@ -8,11 +8,11 @@ last_modified_at: 2007-04-07 15:36:56 -0000
 publish: true
 pin: false
 categories:
-- "investigaci\xF3n"
+- "investigación"
 tags:
 - concepto
-- "dise\xF1o de interacci\xF3n"
-- "investigaci\xF3n"
+- "diseño de interacción"
+- "investigación"
 ---
 ![MediaFranca Logo](http://www.herbertspencer.net/wp/wp-content/uploads/2007/05/mf_logo.png)
 

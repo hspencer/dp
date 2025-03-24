@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2009/12/galexia-espacio-y-navegacion-semantica/
-title: "Galexia: Espacio y Navegaci\xF3n Sem\xE1ntica"
+title: "Galexia: Espacio y Navegación Semántica"
 description: None
 date: 2009-12-18 12:36:03 -0000
 last_modified_at: 2009-12-18 12:36:03 -0000
@@ -11,9 +11,9 @@ categories:
 - escuela
 tags:
 - archivos digitales
-- "dise\xF1o de interacci\xF3n"
-- "Dise\xF1o de Interfaz"
-- "Dise\xF1o Gr\xE1fico"
+- "diseño de interacción"
+- "Diseño de Interfaz"
+- "Diseño Gráfico"
 - espacio
 - Internet
 - repositorios digitales

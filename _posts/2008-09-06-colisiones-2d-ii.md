@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/09/colisiones-2d-ii/
 title: Colisiones 2D - II
 description: None

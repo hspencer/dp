@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2014/01/el-arte-de-saber-preguntar/
 title: El arte de saber preguntar
 description: None
@@ -10,10 +10,10 @@ pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2014/01/Captura-de-pantalla-2018-11-05-a-las-17.40.08.png
 categories:
-- "investigaci\xF3n"
+- "investigación"
 tags:
 - citisent
-- "investigaci\xF3n"
+- "investigación"
 - modelos mentales
 - query
 ---

@@ -1,18 +1,18 @@
 ---
-layout: post
+layout: posts
 permalink: /2025/02/prologo-de-pictonet/
-title: "Pr\xF3logo de PictoNet"
+title: "Prólogo de PictoNet"
 description: None
 date: 2025-02-27 05:43:22 -0000
 last_modified_at: 2025-03-21 03:00:19 -0000
 publish: true
 pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2025/02/Captura-desde-2025-02-27-18-49-46.png
+  path: /assets/uploads/2025/02/Captura-desde-2025-02-27-18-49-46.png
   alt: Pictonet SVG editor
 categories:
 - notas
-tags: []
+tags: [tesis, llm]
 ---
 A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunitaria. Diría que ese es el hilo conductor de todo: cierta idea respecto a la “activación social” que determinada plataforma permite o habilita.
 
@@ -31,8 +31,6 @@ Esta composición facilita la comprensión de interacciones cotidianas al desglo
 De esta experiencia con PICTOS (donde ya hemos implementado estos apoyos en más de 600 trámites reales) surge **[PictoNet](https://github.com/hspencer/pictonet)**. Esta será mi investigación doctoral (basada en la praxis) que me mantendrá ocupado en los próximos 3 años.
 
 ### ¿Qué es PictoNet?
-
-**¿Qué es PictoNet?**
 
 **PictoNet** es un proyecto de investigación y desarrollo que explora cómo crear un sistema de comunicación visual para personas con discapacidad intelectual, autismo u otras condiciones que afectan el lenguaje. Busca ofrecer una alternativa basada en pictogramas (dibujos simples con significado) que pueda adaptarse a cada persona y contexto.
 

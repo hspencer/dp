@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/
-title: "La Experiencia del Taller de Primer A\xF1o de Dise\xF1o"
+title: "La Experiencia del Taller de Primer Año de Diseño"
 description: None
 date: 2009-12-29 16:15:35 -0000
 last_modified_at: 2009-12-29 16:15:35 -0000
@@ -10,17 +10,17 @@ pin: false
 categories:
 - escuela
 tags:
-- "abstracci\xF3n"
+- "abstracción"
 - dibujo
-- "dise\xF1o"
-- "expresi\xF3n"
+- "diseño"
+- "expresión"
 - grabado
 - grilla
-- "impresi\xF3n"
+- "impresión"
 - Isla Mocha
 - taller
-- "traves\xEDa"
-- "xilograf\xEDa"
+- "travesía"
+- "xilografía"
 ---
 Al taller de primer año se le pide constituirse como la construcción de una experiencia de entrada al Oficio del Diseño.  
 Si nos remitimos a las etimologías, la pablabra **Diseño** , que es tanto sustantivo como verbo, significa dibujo (o boceto, croquis), en un sentido de _designio_ , de dibujo anticipatorio. Se trata, entonces, **del oficio de dibujar los dibujos que anticipan aquello que todavía no es**.

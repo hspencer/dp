@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/07/marcianitos/
 title: Marcianitos
 description: None
@@ -18,4 +18,4 @@ Como este sitio trata de la [doble página](http://www.herbertspencer.net/about/
 
 Mis amigos más fundamentalistas dirán que es pura nostalgia por la página, otros dirán que se trata de otra aplicación que declara la supremacía absoluta de Internet sobre los otros medios de comunicación; porque es capaz de contenerlos a todos.
 
-En fin, si esta discusión no te interesa, sólo [baja el código](http://herbertspencer.net/wp-content/uploads/2008/07/marcianitos1.zip) para hacer tus propios marcianitos.
+En fin, si esta discusión no te interesa, sólo [baja el código](/assets/uploads/2008/07/marcianitos1.zip) para hacer tus propios marcianitos.

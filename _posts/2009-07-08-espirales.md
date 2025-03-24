@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2009/07/espirales/
 title: Espirales
 description: None

@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2004/11/travesia-a-iruya/
-title: "Traves\xEDa a Iruya"
+title: "Travesía a Iruya"
 description: None
 date: 2004-11-05 19:12:48 -0000
 last_modified_at: 2004-11-05 19:12:48 -0000
@@ -10,7 +10,7 @@ pin: false
 categories:
 - escuela
 tags:
-- "Dise\xF1o Gr\xE1fico"
+- "Diseño Gráfico"
 ---
 _nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptible_
 

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: posts
 permalink: /2015/07/topologoscopio/
 title: Topologoscopio
-description: "Instalaci\xF3n de dise\xF1o y arquitectura en la muestra \"Work in Progress\"\
+description: "Instalación de diseño y arquitectura en la muestra \"Work in Progress\"\
   \ organizada por la FADEU, PUC. Abril de 2015"
 date: 2015-07-08 22:51:26 -0000
 last_modified_at: 2015-08-02 22:32:09 -0000
@@ -14,7 +14,7 @@ categories:
 - code
 - escuela
 - imagen
-- "investigaci\xF3n"
+- "investigación"
 - notas
 tags:
 - ciudad

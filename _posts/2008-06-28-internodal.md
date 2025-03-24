@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/06/internodal/
 title: Internodal
 description: None

@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2010/06/disenar-un-servicio/
-title: "Dise\xF1ar un Servicio"
+title: "Diseñar un Servicio"
 description: None
 date: 2010-06-16 18:24:47 -0000
 last_modified_at: 2010-06-16 18:24:47 -0000
@@ -10,13 +10,13 @@ pin: false
 categories:
 - escuela
 tags:
-- "dise\xF1o"
-- "dise\xF1o de servicios"
-- "Dise\xF1o Gr\xE1fico"
+- "diseño"
+- "diseño de servicios"
+- "Diseño Gráfico"
 - lenguaje
 - Modelos Visuales
-- "Observaci\xF3n"
-- "Respresentaci\xF3n"
+- "Observación"
+- "Respresentación"
 - Servicio de Salud
 ---
 **Jueves 10 de Junio de 2010 Exámen de los talleres de 6ª y 7ª Etapa de Diseño Gráfico, Cuarto año.** Este taller aborda un campo de diseño llamado “diseño de servicios”. En este campo, la atención se pone en la relación de los objetos de diseño; cómo, siendo reunidos y orquestados a la luz de un servicio, construyen como tiempo y una experiencia para las personas que los viven. Es decir, trata la misma materia (editorial, señalética, interfaz, etc) pero construye una mirada distinta sobre ella, pues se trata de un diseño de segundo orden. Al enfocarse en el diseño de una sistema es preciso enfocarse en aspectos más inmateriales y emergentes (como la comunicación dentro y fuera de él, la transparencia de sus procesos, la hospitalidad de su lenguaje, el tono de su lenguaje, sus relaciones, las percepciones y lecturas que desde él emergen, etc.), cuidando siempre de construir, directa o indirectamente, la experiencia de las personas que lo viven y padecen cuando lo recorren.

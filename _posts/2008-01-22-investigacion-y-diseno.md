@@ -1,14 +1,14 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/01/investigacion-y-diseno/
-title: "Investigaci\xF3n y Dise\xF1o"
+title: "Investigación y Diseño"
 description: None
 date: 2008-01-22 12:57:23 -0000
 last_modified_at: 2008-01-22 12:57:23 -0000
 publish: true
 pin: false
 categories:
-- "investigaci\xF3n"
+- "investigación"
 tags:
 - debate
 - design research

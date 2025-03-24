@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2007/05/civilscope/
 title: Civilscope
 description: None
@@ -15,7 +15,7 @@ tags:
 - mapas
 - processing
 - tool
-- "visualizaci\xF3n"
+- "visualización"
 ---
 ![Civilscope Logo](http://www.herbertspencer.net/wp/wp-content/uploads/2007/05/square-logo.gif)
 

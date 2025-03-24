@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2010/11/mesh-network/
 title: Mesh Network
 seo_title: Mesh Network, an example
@@ -12,9 +12,9 @@ pin: false
 categories:
 - code
 tags:
-- "cat\xE1strofe"
+- "catástrofe"
 - concepto
-- "ilustraci\xF3n"
+- "ilustración"
 - mesh
 - network
 - processing.js

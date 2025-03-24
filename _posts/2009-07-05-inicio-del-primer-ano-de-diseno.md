@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2009/07/inicio-del-primer-ano-de-diseno/
-title: "Inicio del Primer A\xF1o de Dise\xF1o"
+title: "Inicio del Primer Año de Diseño"
 description: None
 date: 2009-07-05 19:18:07 -0000
 last_modified_at: 2009-07-05 19:18:07 -0000
@@ -13,10 +13,10 @@ tags:
 - cuaderno
 - cubo
 - dibujo
-- "dise\xF1o"
+- "diseño"
 - gesto
 - manos
-- "p\xE1gina"
+- "página"
 ---
 [![Exposición Primer Año de Diseño](http://www.ead.pucv.cl/wp-content/archivos/2009/07/lamina_02-605x403.jpg)](http://www.ead.pucv.cl/wp-content/archivos/2009/07/lamina_02.jpg "Exposición Primer Año de Diseño")
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/08/voluntarios-para-iv-seminario-de-ai/
 title: Voluntarios para IV Seminario de AI
 description: None
@@ -12,7 +12,7 @@ categories:
 tags:
 - AI
 - Estudiantes
-- "organizaci\xF3n"
+- "organización"
 - seminario
 - Trabajos
 ---

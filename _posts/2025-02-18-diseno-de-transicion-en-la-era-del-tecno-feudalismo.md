@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/
-title: "Dise\xF1o de transici\xF3n en la era del tecno feudalismo"
+title: "Diseño de transición en la era del tecno feudalismo"
 description: None
 date: 2025-02-18 07:49:58 -0000
 last_modified_at: 2025-03-21 01:25:07 -0000
@@ -10,14 +10,14 @@ pin: false
 image:
   path: "http://www.herbertspencer.net/wp-content/uploads/2025/02/Captura-de-pantalla-2025-02-18-a-las-9.43.51\u202F\
     p.m.jpg"
-  alt: "Malla federada, ilustraci\xF3n"
+  alt: "Malla federada, ilustración"
 categories:
 - notas
 tags:
 - capital
-- "Dise\xF1o para la Democracia"
+- "Diseño para la Democracia"
 - Internet
-- "investigaci\xF3n"
+- "investigación"
 - social capital
 - tecnofeudalismo
 ---

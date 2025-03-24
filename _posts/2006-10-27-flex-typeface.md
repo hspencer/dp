@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2006/10/flex-typeface/
 title: Flex Typeface
 description: None
@@ -10,9 +10,9 @@ pin: false
 categories:
 - code
 tags:
-- "interpolaci\xF3n"
+- "interpolación"
 - letras
 - processing
-- "tipograf\xEDa"
+- "tipografía"
 ---
-Este diseño está altamente influenciado por la fuente **Stuv** , diseñada por [Flor.o](http://www.profesores.ucv.cl/manuelsanfuentes/) (ir a la letra 't' de tipografí­as, y está disponible para bajarse). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la **[Super Tipo Veloz](http://www.superveloz.net/)** de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas.
+Este diseño está altamente influenciado por la fuente **Stuv**, diseñada por [Flor.o](http://www.profesores.ucv.cl/manuelsanfuentes/) (ir a la letra 't' de tipografí­as, y está disponible para bajarse). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la **[Super Tipo Veloz](http://www.superveloz.net/)** de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas.

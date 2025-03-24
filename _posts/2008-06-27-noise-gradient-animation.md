@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/06/noise-gradient-animation/
 title: Noise Gradient Animation
 description: None

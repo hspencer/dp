@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2007/12/paradigmas-ixd/
-title: "Paradigmas del Dise\xF1o de Interacci\xF3n"
+title: "Paradigmas del Diseño de Interacción"
 description: None
 date: 2007-12-10 12:54:04 -0000
 last_modified_at: 2007-12-10 12:54:04 -0000
@@ -10,7 +10,7 @@ pin: false
 categories:
 - notas
 tags:
-- "dise\xF1o de interacci\xF3n"
+- "diseño de interacción"
 - theory
 ---
 Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacción por su lado, en estos pocos años, está marcando un sentido evolutivo:

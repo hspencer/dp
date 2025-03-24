@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/02/teselador/
 title: Teselador
 description: None
@@ -10,20 +10,20 @@ pin: false
 categories:
 - escuela
 tags:
-- "Dise\xF1o Gr\xE1fico"
+- "Diseño Gráfico"
 - examen
 - tesela
 - unidad discreta
 ---
-![teselas equiláteras](http://herbertspencer.net/wp-content/uploads/2008/02/teselador1.gif)
+![teselas equiláteras](/assets/uploads/2008/02/teselador1.gif)
 
 En el contexto de la [travesía a Purmamarca 2007](http://www.flickr.com/photos/herbert-spencer/sets/72157603195788888/ "Fotos de la Travesía en Flickr"), desarrollé un pequeño programa para dibujar con baldosas triangulares.
 
 El _quid_ del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que **emerge** desde un orden concluso.
 
-* [Teselador – Windows](http://herbertspencer.net/wp-content/uploads/2008/02/teselador_windows1.zip "Teselador - Windows")
-* [Teselador – Mac](http://herbertspencer.net/wp-content/uploads/2008/02/teselador_macosx1.zip "Teselador - Mac")
-* [Teselador – Linux](http://herbertspencer.net/wp-content/uploads/2008/02/teselador_linux1.zip "Teselador - Linux")
+* [Teselador – Windows](/assets/uploads/2008/02/teselador_windows1.zip "Teselador - Windows")
+* [Teselador – Mac](/assets/uploads/2008/02/teselador_macosx1.zip "Teselador - Mac")
+* [Teselador – Linux](/assets/uploads/2008/02/teselador_linux1.zip "Teselador - Linux")
 
 _(Texto leído en el acto de exámen del Primer Año Diseño. Diciembre, 2007. Se comienza el examen leyendo el poema “Infinito” de Giaccomo Leopardi, traducción de Godofredo Iommi en Poemas Leídos en los Talleres de la Escuela de Arquitectura 1980-1981)_
 

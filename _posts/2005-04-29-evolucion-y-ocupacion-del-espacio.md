@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2005/04/evolucion-y-ocupacion-del-espacio/
-title: "Evoluci\xF3n y Ocupaci\xF3n del Espacio"
+title: "Evolución y Ocupación del Espacio"
 description: None
 date: 2005-04-30 03:27:45 -0000
 last_modified_at: 2005-04-30 03:27:45 -0000
@@ -10,7 +10,7 @@ pin: false
 categories:
 - escuela
 tags:
-- "Dise\xF1o Gr\xE1fico"
+- "Diseño Gráfico"
 ---
 > Exposición:
 >

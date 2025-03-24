@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2009/11/personas-no-usuarios/
 title: Personas, no Usuarios
 description: None
@@ -10,9 +10,9 @@ pin: false
 categories:
 - escuela
 tags:
-- "Difusi\xF3n"
-- "dise\xF1o de servicios"
-- "Dise\xF1o Web"
+- "Difusión"
+- "diseño de servicios"
+- "Diseño Web"
 - Internet
 - web
 ---

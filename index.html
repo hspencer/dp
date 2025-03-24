@@ -1,12 +1,16 @@
 ---
-layout: default
-title: doble página
+layout: home
+title: Scaramanga
 ---
 
-<div class="grid-carousel">
-
-  {% include all-posts.html %}
-
+<div>
+  <span class='posts'>
+    {% for post in site.posts %}
+      {% if post.title %}
+        <a class='post' href='{{ post.permalink | relative_url }}'>{{ post.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </span>
 </div>
 
 

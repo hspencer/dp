@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/10/taller-de-obra-suelo-teselado/
 title: 'Taller de Obra: Suelo Teselado'
 description: None
@@ -11,7 +11,7 @@ categories:
 - escuela
 tags:
 - Ciudad Abierta
-- "dise\xF1o"
+- "diseño"
 - Holcim
 - Polpaico
 - Taller de Obras

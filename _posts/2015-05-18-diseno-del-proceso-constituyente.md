@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2015/05/diseno-del-proceso-constituyente/
-title: "Dise\xF1o del Proceso Constituyente"
+title: "Diseño del Proceso Constituyente"
 description: None
 date: 2015-05-18 15:56:46 -0000
 last_modified_at: 2015-08-02 21:58:42 -0000
@@ -10,13 +10,13 @@ pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2015/05/001210.png
 categories:
-- "investigaci\xF3n"
+- "investigación"
 - notas
 tags:
-- "deliberaci\xF3n digital"
-- "Dise\xF1o para la Democracia"
+- "deliberación digital"
+- "Diseño para la Democracia"
 - MediaFranca
-- "Participaci\xF3n Ciudadana"
+- "Participación Ciudadana"
 - TEP
 ---
 El proceso constituyente, que ha prometido ser altamente inclusivo y participativo, no puede pensarse hoy omitiendo la realidad que impone una sociedad en red, mediada por el software social viviendo bajo los códigos estéticos y performáticos del diseño de interacción.

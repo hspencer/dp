@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2024/09/reflexiones-de-un-migrante-inexistente/
 title: Reflexiones de un migrante inexistente
 description: None
@@ -8,14 +8,14 @@ last_modified_at: 2025-02-18 09:21:05 -0000
 publish: true
 pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2024/09/los-4.png
+  path: /assets/uploads/2024/09/los-4.png
 categories:
 - notas
 tags: []
 ---
 ##### _Lecciones de Kafka, Arendt, Illich y Maturana_
 
-![Franz Kafka, Hannah Arendt, Ivan Illich y Humberto Maturana](/assets/wp-content/uploads/2024/09/los-4-890x610.png)
+![Franz Kafka, Hannah Arendt, Ivan Illich y Humberto Maturana](/assets/uploads/2024/09/los-4.png)
 
 Hay algo profundamente inquietante en ser suprimido por un sistema. Un día eres una persona con identidad, una historia personal y una serie de logros. Al siguiente, te reduces a una cadena de números en un proceso burocrático que no reconoce tu existencia ni te otorga voz. Me encuentro exactamente en esa situación, parado en la intersección del diseño, los sistemas y la dignidad humana, frente a la maquinaria kafkiana de un sistema de inmigración. Esto no es solo una narrativa personal; ilustra cómo los sistemas que diseñamos moldean nuestras interacciones, identidades e, incluso, nuestro valor como individuos. Se trata de cómo los sistemas, si no se supervisan adecuadamente, nos despojan de agencia, mérito y humanidad.
 

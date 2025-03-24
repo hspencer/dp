@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/08/ecosistemas-de-informacion/
-title: "Ecosistemas de Informaci\xF3n"
+title: "Ecosistemas de Información"
 description: None
 date: 2008-08-10 23:06:15 -0000
 last_modified_at: 2008-08-10 23:06:15 -0000
@@ -10,7 +10,7 @@ pin: false
 categories:
 - notas
 tags:
-- "dise\xF1o de interacci\xF3n"
+- "diseño de interacción"
 - organization design
 - systems thinking
 - tecnology

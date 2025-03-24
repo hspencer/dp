@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2009/08/presentacion-de-proyectos-de-grafica-digital/
-title: "Presentaci\xF3n de Proyectos de Gr\xE1fica Digital"
+title: "Presentación de Proyectos de Gráfica Digital"
 description: None
 date: 2009-08-04 02:02:33 -0000
 last_modified_at: 2009-08-04 02:02:33 -0000
@@ -10,11 +10,11 @@ pin: false
 categories:
 - escuela
 tags:
-- "dise\xF1o de interacci\xF3n"
-- "Dise\xF1o de Interfaz"
-- "dise\xF1o de servicios"
-- "Dise\xF1o Gr\xE1fico"
-- "Gr\xE1fica Digital"
+- "diseño de interacción"
+- "Diseño de Interfaz"
+- "diseño de servicios"
+- "Diseño Gráfico"
+- "Gráfica Digital"
 ---
 [![Imagen Afiche Expo](http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250-260x260.png)](http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250.png "Imagen Afiche Expo - Proyectos de Gráfica Digital 2009")El curso de **Gráfica Digital** busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha diseñado 6 espacios de interacción en la forma de servicios digitales, los cuales serán presentados el día **lunes 17 de Agosto** en la Sala de primer año de Arquitectura.
 

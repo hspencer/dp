@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2011/01/travesia-tubul-arauco/
-title: "Traves\xEDa Tubul, Arauco"
+title: "Travesía Tubul, Arauco"
 description: None
 date: 2011-01-07 13:32:32 -0000
 last_modified_at: 2011-01-07 13:32:32 -0000
@@ -13,11 +13,11 @@ tags:
 - borde
 - botes
 - caleta
-- "dise\xF1o"
+- "diseño"
 - lugar
 - mar
 - plaza
-- "traves\xEDa"
+- "travesía"
 - tubul
 ---
 > **[Travesía Tubul](http://wiki.ead.pucv.cl/index.php/Traves%C3%ADa_Tubul) **

@@ -10,7 +10,7 @@ pin: false
 categories: []
 tags: []
 ---
-![Pendragon - \[dp\]](http://herbertspencer.net/wp/wp-content/uploads/2006/08/pendragon.png) El tema Pendragon intenta construir la doble página de un libro abierto y presenta claras alegorí­as de la industria gráfica tradicional como las cruces de calce y las marcas de impresión: trae el libro a la pantalla. El lado izquierdo funciona como í­ndice, como mirada retirada y contexto; el lado derecho despliega el contenido.**Download** [Pendragon Theme (ver 0.1)](http://herbertspencer.net/wp/wp-content/uploads/2006/07/pendragon.zip) **Instrucciones** Si ud. quiere utilizar este tema para su propio sitio debe tener las siguientes consideraciones:
+![Pendragon - \[dp\]](/assets/uploads/2006/08/pendragon.png) El tema Pendragon intenta construir la doble página de un libro abierto y presenta claras alegorí­as de la industria gráfica tradicional como las cruces de calce y las marcas de impresión: trae el libro a la pantalla. El lado izquierdo funciona como í­ndice, como mirada retirada y contexto; el lado derecho despliega el contenido.**Download** [Pendragon Theme (ver 0.1)](/assets/uploads/2006/07/pendragon.zip) **Instrucciones** Si ud. quiere utilizar este tema para su propio sitio debe tener las siguientes consideraciones:
 
   1. copiar el archivo [minmax.js](http://www.herbertspencer.net/wp/wp-content/uploads/2008/02/minmax.js). Este archivo está a cargo de contrlar los anchos para IE.
   2. Modificar header.php, archivo incluí­do en Pendragon. Tendrás que modificar el _head_ y reemplazar los campos necesarios para que puedas personalizar el sitio con tus datos

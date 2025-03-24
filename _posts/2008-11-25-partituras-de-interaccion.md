@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/11/partituras-de-interaccion/
-title: "Partituras de Interacci\xF3n"
+title: "Partituras de Interacción"
 description: None
 date: 2008-11-25 22:24:15 -0000
 last_modified_at: 2008-11-25 22:24:15 -0000
@@ -10,11 +10,11 @@ pin: false
 categories:
 - escuela
 - imagen
-- "investigaci\xF3n"
+- "investigación"
 tags:
-- "dise\xF1o de interacci\xF3n"
+- "diseño de interacción"
 - graphic notation
-- "notaci\xF3n gr\xE1fica"
+- "notación gráfica"
 - visual language
 ---
 Este lenguaje visual propone un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.

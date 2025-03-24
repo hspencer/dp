@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/07/manejando-la-complejidad/
 title: Manejando la Complejidad
 description: None

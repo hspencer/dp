@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2007/05/mediafranca-parte-2/
 title: MediaFranca, parte 2
 description: None
@@ -8,12 +8,12 @@ last_modified_at: 2007-05-08 15:48:35 -0000
 publish: true
 pin: false
 categories:
-- "investigaci\xF3n"
+- "investigación"
 tags:
 - concepto
 - design for citizenship
 - design for democracy
-- "dise\xF1o de interacci\xF3n"
+- "diseño de interacción"
 - social interaction
 ---
   

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2011/01/seminario-ciudad-abierta/
 title: Seminario Ciudad Abierta
 description: None

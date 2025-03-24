@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2006/10/con%c2%a7tel-sharing-marginalia/
-title: "con\xA7tel: sharing marginalia"
+title: "con§tel: sharing marginalia"
 description: None
 date: 2006-10-29 15:22:44 -0000
 last_modified_at: 2006-10-29 15:22:44 -0000
@@ -10,8 +10,8 @@ pin: false
 categories:
 - escuela
 tags:
-- "Dise\xF1o Gr\xE1fico"
-- "interacci\xF3n"
+- "Diseño Gráfico"
+- "interacción"
 ---
 ##### con§tel: an environment to support creativity through shared marginalia
 

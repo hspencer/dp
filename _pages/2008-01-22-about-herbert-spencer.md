@@ -2,16 +2,16 @@
 layout: page
 permalink: /about-herbert-spencer/
 title: Herbert Spencer
-seo_title: "Acerca de m\xED: Herbert Spencer en {dp} - doble p\xE1gina"
-description: "Herbert Spencer es dise\xF1ador, emprendedor y profesor de Dise\xF1\
-  o de Interacci\xF3n en la Escuela de Arquitectura y Dise\xF1o de la Pontificia Universidad\
-  \ Cat\xF3lica de Valpara\xEDso."
+seo_title: "Acerca de mí: Herbert Spencer en {dp} - doble página"
+description: "Herbert Spencer es diseñador, emprendedor y profesor de Diseñ\
+  o de Interacción en la Escuela de Arquitectura y Diseño de la Pontificia Universidad\
+  \ Católica de Valparaíso."
 date: 2008-01-22 14:29:52 -0000
 last_modified_at: 2024-02-21 04:17:57 -0000
 publish: true
 pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2008/01/4120596368_b4ba6edc28_o.png
+  path: /assets/uploads/2008/01/4120596368_b4ba6edc28_o.png
 categories: []
 tags: []
 ---

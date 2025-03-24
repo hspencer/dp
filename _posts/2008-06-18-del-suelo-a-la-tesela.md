@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/06/del-suelo-a-la-tesela/
 title: Del Suelo a la Tesela
 description: None
@@ -10,7 +10,7 @@ pin: false
 categories:
 - escuela
 tags:
-- "dise\xF1o"
+- "diseño"
 - obra
 - suelo
 - taller

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2014/11/slitscan-sideways/
 title: 'Sideways: Slitscan for Urban Travellers'
 description: Sideways is a very small program created with Processing that creates
@@ -11,7 +11,7 @@ pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2014/11/sideways.jpg
 categories:
-- "Sin categor\xEDa"
+- "Sin categoría"
 tags:
 - city
 - continuity
@@ -37,7 +37,7 @@ tags:
 ### Examples
 
 left side:  
-[![2014116114933_izq](http://herbertspencer.net/wp-content/uploads/2014/11/2014116114933_izq-1010x130.png)](http://herbertspencer.net/wp-content/uploads/2014/11/2014116114933_izq.png)  
+[![2014116114933_izq](/assets/uploads/2014/11/2014116114933_izq-1010x130.png)](/assets/uploads/2014/11/2014116114933_izq.png)  
 right side:  
-[![2014116114933_der](http://herbertspencer.net/wp-content/uploads/2014/11/2014116114933_der-1010x130.png)](http://herbertspencer.net/wp-content/uploads/2014/11/2014116114933_der.png)  
+[![2014116114933_der](/assets/uploads/2014/11/2014116114933_der-1010x130.png)](/assets/uploads/2014/11/2014116114933_der.png)  
 For more information on the topic, check this [Informal Catalogue of Slit-Scan Video Artworks and Research](http://www.flong.com/texts/lists/slit_scan/) created by Golan Levin.

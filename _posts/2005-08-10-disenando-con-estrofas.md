@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2005/08/disenando-con-estrofas/
-title: "Dise\xF1ando con Estrofas"
+title: "Diseñando con Estrofas"
 description: None
 date: 2005-08-10 21:24:11 -0000
 last_modified_at: 2005-08-10 21:24:11 -0000
@@ -10,7 +10,7 @@ pin: false
 categories:
 - escuela
 tags:
-- "Dise\xF1o Gr\xE1fico"
+- "Diseño Gráfico"
 ---
 La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores de los incontables buscadores existentes. La visibilidad y por tanto la disponibilidad de lo publicado estará en directa relación con la trasparencia estructural de las páginas o documentos. Estas condiciones estimulan a diseñadores a obedecer y diseñar respetando los estándares sugeridos por el [W3C](http://www.w3c.org/ "World Wide Web Consortium") (World Wide Web Consortium) para poder definitivamente asentar las directrices de este medio que comienza a ordenarse.  
   

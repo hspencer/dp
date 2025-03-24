@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2005/06/examen-del-taller-de-cuarto-ano/
-title: "Ex\xE1men del Taller de Cuarto A\xF1o"
+title: "Exámen del Taller de Cuarto Año"
 description: None
 date: 2005-06-09 20:39:55 -0000
 last_modified_at: 2005-06-09 20:39:55 -0000
@@ -10,7 +10,7 @@ pin: false
 categories:
 - escuela
 tags:
-- "Dise\xF1o Gr\xE1fico"
+- "Diseño Gráfico"
 ---
 ### 1\. De lo simultáneo y lo continuo
 

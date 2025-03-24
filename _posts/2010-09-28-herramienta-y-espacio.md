@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2010/09/herramienta-y-espacio/
 title: Herramienta y Espacio
 description: None
@@ -9,15 +9,15 @@ publish: true
 pin: false
 categories:
 - escuela
-- "investigaci\xF3n"
+- "investigación"
 tags:
-- "dise\xF1o"
-- "dise\xF1o de servicios"
-- "Dise\xF1o para la Democracia"
-- "interacci\xF3n"
+- "diseño"
+- "diseño de servicios"
+- "Diseño para la Democracia"
+- "interacción"
 - Internet
 - lo abierto
-- "lo p\xFAblico"
+- "lo público"
 - MediaFranca
 - Servicio de Salud
 ---

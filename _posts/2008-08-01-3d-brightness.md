@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/08/3d-brightness/
 title: 3D Brightness
 description: None

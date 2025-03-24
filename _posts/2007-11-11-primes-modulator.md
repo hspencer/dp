@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2007/11/primes-modulator/
-title: "Modulador de N\xFAmeros Primos"
+title: "Modulador de Números Primos"
 description: None
 date: 2007-11-12 05:27:29 -0000
 last_modified_at: 2017-02-26 16:38:24 -0000

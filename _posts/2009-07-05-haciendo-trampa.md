@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2009/07/haciendo-trampa/
 title: Haciendo Trampa
 description: None
@@ -11,7 +11,7 @@ categories:
 - notas
 tags:
 - cheating
-- "dise\xF1o de servicios"
+- "diseño de servicios"
 - pain management
 ---
 > **γνοστι τε αυτϖν** (nosce te ipsum) Esta inscripción, puesta por los siete sabios en el frontispicio del templo de Delfos, es clásica en el pensamiento griego. Muchos pensadores la han adoptado al igual que Sócrates y Platón, como uno de los principios de sus enseñanzas: "_Cuando conoces a las personas, te vuelves inteligente; cuando te conoces a tí mismo, te vuelves un iluminado_ "

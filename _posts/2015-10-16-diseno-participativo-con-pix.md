@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: posts
 permalink: /2015/10/diseno-participativo-con-pix/
-title: "Dise\xF1o Participativo con PiX: una Aproximaci\xF3n desde la Narrativa"
-seo_title: "Dise\xF1o Participativo con PiX"
-description: "El dise\xF1o participativo puede ser una herramienta muy poderosa si\
+title: "Diseño Participativo con PiX: una Aproximación desde la Narrativa"
+seo_title: "Diseño Participativo con PiX"
+description: "El diseño participativo puede ser una herramienta muy poderosa si\
   \ se emplea bien"
 date: 2015-10-16 13:58:21 -0000
 last_modified_at: 2023-08-22 12:49:42 -0000
@@ -12,12 +12,12 @@ pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2015/10/pix-collab.jpg
 categories:
-- "investigaci\xF3n"
+- "investigación"
 tags:
 - brief
-- "codise\xF1o"
-- "dise\xF1o participativo"
-- "metodolog\xEDa de dise\xF1o"
+- "codiseño"
+- "diseño participativo"
+- "metodología de diseño"
 - PiX
 ---
 El co-diseño y el diseño participativo, son metodologías poderosas al minuto de buscar generar y validar en forma simultánea nuevos conceptos de diseño. Ciertamente una de las mayores dificultades en la creación productos o servicios (o su rediseño) consiste en identificar correctamente las necesidades de los usuarios finales. Pero no se trata solamente de enforcarse y en lo negativo, como lo son las necesidades desatendidas y las subsecuentes frustraciones; sino ir más allá para poder construir experiencias potentes, fluidas y significativas para las personas en su relación con los servicios. Más allá de una mera reparación de las transacciones fallidas el diseño viene a resignificar los diálogos entre las personas y los servicios (y sus respectivas marcas). No hay que partir de los problemas, mejor partamos desde los sueños.

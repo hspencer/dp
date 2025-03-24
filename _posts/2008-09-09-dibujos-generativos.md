@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/09/dibujos-generativos/
 title: Dibujos Generativos
 description: None
@@ -10,10 +10,10 @@ pin: false
 categories:
 - escuela
 tags:
-- "dise\xF1o"
+- "diseño"
 - experimental
 - lenguaje
-- "matem\xE1ticas"
+- "matemáticas"
 - processing
 ---
 **Lenguaje Computacional Cero**(o LC0) es un nuevo módulo dentro de la asignatura del Taller de Diseño para el Primer Año. Dentro de este ramo se introduce a los alumnos a la programación gráfica como un modo de acceder al lenguaje de la abstracción desde el rigor de los algoritmos matemáticos. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se familiarizarán con algoritmos básicos, geometría computacional y simulación cinemática.

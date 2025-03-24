@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2013/12/la-observacion-en-diseno/
-title: "La Observaci\xF3n en Dise\xF1o"
+title: "La Observación en Diseño"
 description: None
 date: 2013-12-12 18:17:02 -0000
 last_modified_at: 2014-10-27 18:35:25 -0000
@@ -12,12 +12,12 @@ image:
 categories:
 - escuela
 tags:
-- "Dise\xF1o Gr\xE1fico"
+- "Diseño Gráfico"
 - Modelos Visuales
-- "notaci\xF3n gr\xE1fica"
-- "Observaci\xF3n"
-- "representaci\xF3n"
-- "teor\xEDa"
+- "notación gráfica"
+- "Observación"
+- "representación"
+- "teoría"
 ---
 ### Exámen del Taller de 7ª Etapa
 

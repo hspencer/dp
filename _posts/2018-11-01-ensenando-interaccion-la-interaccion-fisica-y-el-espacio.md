@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio/
-title: "Ense\xF1ando Interacci\xF3n"
+title: "Enseñando Interacción"
 description: None
 date: 2018-11-01 20:15:05 -0000
 last_modified_at: 2024-02-21 03:36:22 -0000
@@ -11,11 +11,11 @@ image:
   path: http://www.herbertspencer.net/wp-content/uploads/2018/11/travesia2016_Montevideo_cseverin-064-small-2681.jpg
 categories:
 - escuela
-- "investigaci\xF3n"
+- "investigación"
 tags:
-- "educaci\xF3n"
-- "interacci\xF3n"
-- "teor\xEDa"
+- "educación"
+- "interacción"
+- "teoría"
 ---
 #### la interacción física y el espacio expositivo
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/06/marcianitos-2/
 title: Marcianitos
 description: None

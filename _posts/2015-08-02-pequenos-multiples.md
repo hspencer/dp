@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: posts
 permalink: /2015/08/pequenos-multiples/
-title: "Peque\xF1os M\xFAltiples"
-seo_title: "Visualizaci\xF3n por \"peque\xF1os m\xFAltiples\""
+title: "Pequeños Múltiples"
+seo_title: "Visualización por \"pequeños múltiples\""
 description: None
 date: 2015-08-02 23:48:30 -0000
 last_modified_at: 2015-08-05 19:50:18 -0000
@@ -15,7 +15,7 @@ categories:
 - imagen
 tags:
 - citisent
-- "visualizaci\xF3n"
+- "visualización"
 ---
 Había una vez una empresa llamada **[CitiSent](https://vimeo.com/61097795)** , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país ((a este servicio lo llamamos _CitiPulse_)).
 

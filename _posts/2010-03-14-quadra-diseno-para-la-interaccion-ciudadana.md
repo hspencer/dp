@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2010/03/quadra-diseno-para-la-interaccion-ciudadana/
-title: "Quadra: Dise\xF1o para la Interacci\xF3n Ciudadana"
+title: "Quadra: Diseño para la Interacción Ciudadana"
 description: None
 date: 2010-03-14 23:28:45 -0000
 last_modified_at: 2010-03-14 23:28:45 -0000
@@ -11,15 +11,15 @@ image:
   path: http://www.herbertspencer.net/wp-content/uploads/2010/03/quadraThumbs1.png
 categories:
 - escuela
-- "investigaci\xF3n"
+- "investigación"
 tags:
 - ciudad
-- "dise\xF1o de interacci\xF3n"
-- "Dise\xF1o Gr\xE1fico"
-- "Dise\xF1o para la Democracia"
+- "diseño de interacción"
+- "Diseño Gráfico"
+- "Diseño para la Democracia"
 - Internet
 - MediaFranca
-- "Participaci\xF3n Ciudadana"
+- "Participación Ciudadana"
 ---
 > “El territorio ya no precede al mapa, ni lo sobrevive. De aquí en adelante, es el mapa el que precede al territorio, es el mapa el que engendra el territorio”.
 

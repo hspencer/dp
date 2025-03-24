@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2003/07/axis-mundae/
 title: Axis Mundae
 description: None
@@ -10,8 +10,8 @@ pin: false
 categories:
 - escuela
 tags:
-- "Dise\xF1o Gr\xE1fico"
-- "interacci\xF3n"
+- "Diseño Gráfico"
+- "interacción"
 ---
 #####
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/02/buscando-un-nombre/
 title: buscando un nombre
 description: None
@@ -13,13 +13,13 @@ tags:
 - processing
 - tool
 ---
-![duwa](http://herbertspencer.net/wp-content/uploads/2008/02/duwa1.gif)
+![duwa](/assets/uploads/2008/02/duwa1.gif)
 
 En muy poco tiempo más seré nuevamente padre, esta vez de una [niña](http://www.flickr.com/photos/herbert-spencer/2233829830/ "ecografía 3D de la nena"). El problema es que no se nos ocurre qué nombre ponerle. Hemos buscado miles, pero mi decepción fue mayor al ver que todos mis esfuerzos creativos no eran más que [el lugar común que todos transitan](http://www.registrocivil.cl/Servicios/Estadisticas/Archivos/NombresComunes/Nombres_Annos.htm "Estadísticas del Registro Civil para los nombres más comunes en Chile"). Entonces se me ocurrió que podría tener un nombre inventado, nuevo. Para eso hice un programa llamado **nameGenerator** que genera nombres a partir de distintos patrones de consonates y vocales:
 
-* [nameGenerator para Mac](http://herbertspencer.net/wp-content/uploads/2008/02/namegeneratormacosx1.zip "nameGenerator para Mac")
-* [nameGenerator para Linux](http://herbertspencer.net/wp-content/uploads/2008/02/namegeneratorlinux1.zip "NameGenerator para Linux")
-* [nameGenerator para Windows](http://herbertspencer.net/wp-content/uploads/2008/02/namegeneratorwindows1.zip "NameGenerator para Windows")
+* [nameGenerator para Mac](/assets/uploads/2008/02/namegeneratormacosx1.zip "nameGenerator para Mac")
+* [nameGenerator para Linux](/assets/uploads/2008/02/namegeneratorlinux1.zip "NameGenerator para Linux")
+* [nameGenerator para Windows](/assets/uploads/2008/02/namegeneratorwindows1.zip "NameGenerator para Windows")
 
 ### Instrucciones
 

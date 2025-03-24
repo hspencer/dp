@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/05/despues-de-investigar/
-title: "Despu\xE9s de Investigar"
+title: "Después de Investigar"
 description: None
 date: 2008-05-05 12:48:57 -0000
 last_modified_at: 2008-05-05 12:48:57 -0000
@@ -27,6 +27,6 @@ El proceso de sintetización de la información recabada durante el proceso de i
 
 Estas técnicas buscan **visualizar una respuesta** que emerga a partir de los datos. Se trata entonces de un tipo de pensamiento —o modo de proceder— que **piensa directamente haciendo**. Como dije anteriormente, este sintetización se realiza en sesiones (normalmente llamadas de _brainstorming_) que constituyen el link entre hallazgos e implicancias. Cabe destacar que este proceso es crítico dentro de una compañía de diseño y es fundamental construir **objetos fronterizos** que permitan formalizar el diálogo interdisciplinario y que, además, funcionen como los "entregables" de la investigación, ya que los diseñadores que siguen a partir de este punto, no pueden volver a leer la información _cruda_ y necesitan información _cocinada_ por expertos. El problema surge cuando estas reuniones no pueden llevarse a cabo (al menos sincrónicamente) y la información debe transmitirse en forma de _entregable_. Pero, como dije antes, no existen estándares para estos objetos que sirvan como testimonio en esta posta: se trata de un problema de visualización y síntesis.
 
-[![proceso de diseño](http://herbertspencer.net/wp-content/uploads/2008/04/desing_process1.jpg)](http://herbertspencer.net/wp-content/uploads/2008/04/desing_process1.jpg) (1) brief (2) generación (3) proposición
+[![proceso de diseño](/assets/uploads/2008/04/desing_process1.jpg)](/assets/uploads/2008/04/desing_process1.jpg) (1) brief (2) generación (3) proposición
 
 Si entendemos este diagrama como un proceso genérico de diseño que comienza como un encargo que —normalmente— intenta integrar las dimensiones comerciales, sociales y tecnológicas (los tres ejes rojos); nos damos cuenta que la fase intermedia, aquella en la cual se generan los conceptos básicos a implementar, requiere necesariamente de la **sintetización exploratoria** como diagnóstico inicial que permita una **visión del total**. Sólo a partir de esta comprensión estaremos en buen pie para comenzar a prototipar proposiciones de diseño.

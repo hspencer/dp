@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2006/08/honeydew-agent/
 title: Honeydew Agent
 description: None
@@ -8,17 +8,17 @@ last_modified_at: 2006-08-22 16:42:13 -0000
 publish: true
 pin: false
 categories:
-- "investigaci\xF3n"
+- "investigación"
 tags:
 - agent
 - calendar
-- "dise\xF1o de interacci\xF3n"
+- "diseño de interacción"
 - project
 - scheduling
 ---
-![Honeydew Logo](http://web.archive.org/web/20061013125929/http://herbertspencer.net/wp/wp-content/uploads/2006/08/honeydew_logo_small.jpg)****
+![Honeydew Logo](http://web.archive.org/web/20061013125929//assets/uploads/2006/08/honeydew_logo_small.jpg)****
 
-[![](http://herbertspencer.net/wp-content/uploads/2006/08/honeydew_logo_small1.png)](http://herbertspencer.net/wp-content/uploads/2006/08/honeydew_logo_small1.png)
+[![](/assets/uploads/2006/08/honeydew_logo_small1.png)](/assets/uploads/2006/08/honeydew_logo_small1.png)
 
 **Honeydew Agent** es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama _agente_ pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.
 
@@ -37,7 +37,7 @@ El diseño de interacción se centró en la complejidad social de las interaccio
 * **Método de Agregado** : El iniciador de la negociación reúne todos los tiempos disponibles e identifica las posibles instancias de coincidencia. Este modelo centra la responsabilidad en una persona y requiere mucho tiempo para recolectar y confirmar la información
 * **Método de Negociación** : El iniciador ofrece una cantidad cerrada de posibilidades. Las contrapartes pueden elegir o realizar contraofertas.
 
-Nuestro modelo corresponde a una combinación de estos dos métodos: el iniciador ofrece opciones basado en las preferencias de las contrapartes. De este modo, el conjunto inicial de opciones tiene más posibilidades de ser aceptado. A partir de estas opciones “informadas” los demás involucrados pueden elejir o hacer contraofertas siguiendo el modelo de negociación. Asimismo, consideramos a las preferencias como una envolvente (_envelope_ siguiendo la metáfora de los editores de sonido) del calendario, ponderando los tiempos de disponibilidad con distinta intensidad. [![](http://herbertspencer.net/wp-content/uploads/2006/08/screenshot_preferences11.jpg)](http://herbertspencer.net/wp-content/uploads/2006/08/screenshot_preferences11.jpg) Este modo de espeficicar las preferencias a través de gradientes permite desarrollar un lenguaje visual consistente a lo largo del software para expresar “calidades de tiempos” y garantiza el seteo de preferencias sólidas, sin vacíos, pues la gradiente representa una función **spline**. Ud. puede ver los prototipos funcionales [**aquí**](http://web.archive.org/web/20061013125929/http://www.herbertspencer.net/projects/honeydew/).
+Nuestro modelo corresponde a una combinación de estos dos métodos: el iniciador ofrece opciones basado en las preferencias de las contrapartes. De este modo, el conjunto inicial de opciones tiene más posibilidades de ser aceptado. A partir de estas opciones “informadas” los demás involucrados pueden elejir o hacer contraofertas siguiendo el modelo de negociación. Asimismo, consideramos a las preferencias como una envolvente (_envelope_ siguiendo la metáfora de los editores de sonido) del calendario, ponderando los tiempos de disponibilidad con distinta intensidad. [![](/assets/uploads/2006/08/screenshot_preferences11.jpg)](/assets/uploads/2006/08/screenshot_preferences11.jpg) Este modo de espeficicar las preferencias a través de gradientes permite desarrollar un lenguaje visual consistente a lo largo del software para expresar “calidades de tiempos” y garantiza el seteo de preferencias sólidas, sin vacíos, pues la gradiente representa una función **spline**. Ud. puede ver los prototipos funcionales [**aquí**](http://web.archive.org/web/20061013125929/http://www.herbertspencer.net/projects/honeydew/).
 
 ### Instrucciones
 

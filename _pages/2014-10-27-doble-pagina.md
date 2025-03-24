@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /about/doble-pagina/
-title: "Doble P\xE1gina"
-seo_title: "Wordpress Theme: Doble P\xE1gina"
-description: "\"Doble P\xE1gina\" (or simply 'dp') is wordpress theme based on a double\
+title: "Doble Página"
+seo_title: "Wordpress Theme: Doble Página"
+description: "\"Doble Página\" (or simply 'dp') is wordpress theme based on a double\
   \ page spread, specially carfted for designers. Available for download on Github."
 date: 2014-10-27 13:59:50 -0000
 last_modified_at: 2018-11-01 20:34:40 -0000

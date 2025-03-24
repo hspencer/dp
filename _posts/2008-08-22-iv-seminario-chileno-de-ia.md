@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/08/iv-seminario-chileno-de-ia/
 title: IV Seminario Chileno de IA
 description: None
@@ -10,7 +10,7 @@ pin: false
 categories:
 - escuela
 tags:
-- "Arquitectura de la Informaci\xF3n"
+- "Arquitectura de la Información"
 - conferencia
 - convocatoria
 - Destacados

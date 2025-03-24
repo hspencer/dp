@@ -1,0 +1,73 @@
+title: "{dp} - doble página"
+author: "Herbert Spencer"
+description: Un espacio para la experimentación y la reflexión
+baseurl: "" # Deja esto vacío si es tu sitio principal
+url: "https://hspencer.github.io/dp"
+feed:
+  path: "feed.xml" # Esto es opcional; jekyll-feed usa este nombre por defecto
+
+# Habilitar la publicación de posts con fechas futuras
+future: true
+
+# Configuración de construcción
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  enable_coderay: false
+  parse_block_html: true
+  parse_span_html: true
+  html_to_native: false
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-sass-converter
+  - jekyll-assets
+
+# Sass stuff
+sass:
+  load_paths: 
+    - .
+    - _sass
+  style: compressed
+  syntax: scss  
+
+# Directorios personalizados
+include:
+  - _sass
+  - assets/css
+
+# Excluir archivos y carpetas
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Colecciones
+collections:
+  pages:
+    output: true
+    permalink: /pages/:title/
+  posts:
+    output: true
+    permalink: /posts/:title/
+
+# Valores predeterminados para el front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "posts"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# no github default theme
+theme: null

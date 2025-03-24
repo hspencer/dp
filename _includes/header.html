@@ -1,0 +1,13 @@
+<header>
+    <h1 id="title"><a href="/">{{ site.title }}</a></h1>
+    <nav id="main">
+
+    </nav>
+        {% for page in site.pages %}
+        <div class="pages">
+            <a href="{{ page.url | relative_url }}">
+            </a>
+        </div>
+        {% endfor %}
+    </nav>
+</header>

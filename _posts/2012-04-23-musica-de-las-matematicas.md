@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2012/04/musica-de-las-matematicas/
-title: "M\xFAsica de las Matem\xE1ticas"
+title: "Música de las Matemáticas"
 description: None
 date: 2012-04-23 20:22:25 -0000
 last_modified_at: 2014-10-31 19:43:39 -0000
@@ -11,7 +11,7 @@ categories:
 - escuela
 tags:
 - incompletitud
-- "matem\xE1ticas"
+- "matemáticas"
 - Taller de Amereida
 ---
 Les voy a contar una historia hoy día: Bajo la superficie del mundo yacen las reglas descritas por la ciencia. O, al menos, el mundo avanza como si así fuera. Pero bajo todas estas reglas, existen reglas más profundas, una matriz abstracta de matemática pura que permite el lenguaje capaz de explicar las reglas que –a su vez la ciencia– explican la naturaleza, el mundo, el universo. Estas reglas se constituyen como el último orden, el último juego de certidumbres, de fundamentos, que nos permiten urdir nuestro entendimiento y nuestras verdades. Este primer orden es lo que llamamos “música de las matemáticas”.

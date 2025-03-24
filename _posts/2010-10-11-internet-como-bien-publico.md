@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 permalink: /2010/10/internet-como-bien-publico/
-title: "Internet como Bien P\xFAblico"
+title: "Internet como Bien Público"
 description: None
 date: 2010-10-12 05:34:41 -0000
 last_modified_at: 2015-04-07 03:17:49 -0000
@@ -10,14 +10,14 @@ pin: false
 categories:
 - notas
 tags:
-- "bien p\xFAblico"
+- "bien público"
 - free Internet
 - Internet
 - MediaFranca
 - public good
 - social capital
 ---
-[![](http://herbertspencer.net/wp-content/uploads/2010/10/mesh-network1-655x610.jpg)](http://herbertspencer.net/wp-content/uploads/2010/10/mesh-network1.jpg)
+[![](/assets/uploads/2010/10/mesh-network1-655x610.jpg)](/assets/uploads/2010/10/mesh-network1.jpg)
 
 Me parece que la WWW se nos presenta, cada día más, como el medio por el cual se contruye nuestro **espacio público** y nuestra **cotidianidad social**. Para la mayoría de mis amigos, esta afirmación no es solamente obvia sino ya algo añeja. Uno puede constatar cómo nuestra narrativa social se va escribiendo en la Red, en un soporte con memoria que construye el espejo con el que nos miramos. Este medio permite una mayor apertura en comparación con los viejos _mass media_ , facilitando la producción abierta de contenidos y de conversaciones en una cierta libertad de expresión, además de permitir la colaboración masiva en proyectos tan emblemáticos como Wikipedia, entre otros cientos.
 

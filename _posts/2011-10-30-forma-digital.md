@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2011/10/forma-digital/
 title: Forma Digital
 description: None
@@ -12,11 +12,11 @@ image:
 categories:
 - notas
 tags:
-- "dise\xF1o"
+- "diseño"
 - forma
-- "teor\xEDa"
+- "teoría"
 ---
-[caption id="attachment_1172" align="alignnone" width="154"][![](http://herbertspencer.net/wp-content/uploads/2011/10/image001-154x240.png)](http://herbertspencer.net/wp-content/uploads/2011/10/image001.png) La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948.[/caption] Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma tiene una correspondencia física directa con su función y performance. Se trata de un objeto que puede leerse y entenderse desde su forma mecánica. Con posterioridad a eso, gracias al transistor y posteriormente al circuito integrado, la forma gestual asociada a su función quedó completamente desarticulada de su forma física. Se trató del comienzo de una época de las “formas en libertad”, ya que se dejaba de estar determinado por su estructura mecánica del objeto para diseñarlo su comporamiento. La afirmación: “los computadores pueden ser transformados en cualquier cosa”, a propósito del divorcio entre forma y función, es un tanto confusa. La naturaleza de la función abarca muchas esferas prácticas y una traducción literal alegórica-simbólica se hace imposible en situaciones que carecen de antecedentes. Si bien las formas tecnológicas han alcanzado cierto reposo en su permanente mutabilidad ((La forma convensional de los computadores portátiles se ha mantenido estructuralmente incólume desde su insersión en el mercado en 1988, siguendo el esquema de la máquina de escribir usando el espacio para la hoja de papel con la pantalla.)), creo que se debe, en gran medida a que se ha alcazado una penetración cultural mayor que exige una mayor inercia pero, sobre todo observamos una postura funcionalista, especialmente determinada por los requierimientos energéticos, performativos y ergonómicos.
+[caption id="attachment_1172" align="alignnone" width="154"][![](/assets/uploads/2011/10/image001-154x240.png)](/assets/uploads/2011/10/image001.png) La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948.[/caption] Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma tiene una correspondencia física directa con su función y performance. Se trata de un objeto que puede leerse y entenderse desde su forma mecánica. Con posterioridad a eso, gracias al transistor y posteriormente al circuito integrado, la forma gestual asociada a su función quedó completamente desarticulada de su forma física. Se trató del comienzo de una época de las “formas en libertad”, ya que se dejaba de estar determinado por su estructura mecánica del objeto para diseñarlo su comporamiento. La afirmación: “los computadores pueden ser transformados en cualquier cosa”, a propósito del divorcio entre forma y función, es un tanto confusa. La naturaleza de la función abarca muchas esferas prácticas y una traducción literal alegórica-simbólica se hace imposible en situaciones que carecen de antecedentes. Si bien las formas tecnológicas han alcanzado cierto reposo en su permanente mutabilidad ((La forma convensional de los computadores portátiles se ha mantenido estructuralmente incólume desde su insersión en el mercado en 1988, siguendo el esquema de la máquina de escribir usando el espacio para la hoja de papel con la pantalla.)), creo que se debe, en gran medida a que se ha alcazado una penetración cultural mayor que exige una mayor inercia pero, sobre todo observamos una postura funcionalista, especialmente determinada por los requierimientos energéticos, performativos y ergonómicos.
 
 > It is the pervading law of all things organic and inorganic, Of all things physical and metaphysical, Of all things human and all things super-human, Of all true manifestations of the head, Of the heart, of the soul, That the life is recognizable in its expression, That form ever follows function. This is the law.
 >

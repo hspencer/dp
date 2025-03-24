@@ -1,0 +1,40 @@
+@use 'variables' as vars;
+
+body{
+    background-color: vars.$color-white;
+    font-size: 22px;
+    font-family: vars.$font-serif;
+    color: vars.$color-fg;
+    margin: 0 auto;
+    padding: 1.52em;
+}
+
+header{
+    font-family: vars.$font-sans;
+    h1{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+#dp{
+    background-color: vars.$color-bg;
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    gap: 2em;
+    padding: 1.52em;
+    border-radius: .78ex;
+}
+
+
+img{
+    mix-blend-mode: multiply;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        background-color: yellow;
+    }
+}

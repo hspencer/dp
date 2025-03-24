@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/06/taller-abierto-de-processing/
 title: Taller Abierto de Processing
 description: None

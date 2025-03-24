@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 permalink: /2008/08/iv-seminario-chileno-de-ai/
 title: IV Seminario Chileno de AI
 description: None
@@ -10,7 +10,7 @@ pin: false
 categories:
 - notas
 tags:
-- "Arquitectura de la Informaci\xF3n"
+- "Arquitectura de la Información"
 - experiencia
 - IA
 - Information Architecture

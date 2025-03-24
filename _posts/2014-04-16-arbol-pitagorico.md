@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: posts
 permalink: /2014/04/arbol-pitagorico/
-title: "\xC1rbol Pitag\xF3rico"
-description: "Ejemplo de recursividad usando Processing en un \xE1rbol pitag\xF3rico;\
-  \ una estructura recursiva construida con tri\xE1ngulos rect\xE1ngulos y sus catetos\
+title: "Árbol Pitagórico"
+description: "Ejemplo de recursividad usando Processing en un árbol pitagórico;\
+  \ una estructura recursiva construida con triángulos rectángulos y sus catetos\
   \ cuadrados"
 date: 2014-04-16 16:42:41 -0000
 last_modified_at: 2015-08-02 21:23:07 -0000
@@ -14,8 +14,8 @@ image:
 categories:
 - code
 tags:
-- "dise\xF1o de interacci\xF3n"
-- "Pit\xE1goras"
+- "diseño de interacción"
+- "Pitágoras"
 - processing
 ---
 En Febrero recién pasado tuve el honor de formar parte del primer programa de [maestría en diseño de interacción](http://interaccion.veritas.cr/home/index.php "Interacción en Veritas"), en Costa Rica. En esa ocación tuve el placer de colarme en el curso de [Tomás de Camino](http://www.personal.psu.edu/tzd1/Tomas_de_Camino_Homepage/Home.html "sitio de Tomás") a de introducción a la programación. Acá les dejo uno de los primeros ejercicios del curso:
