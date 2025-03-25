@@ -1,24 +1,24 @@
-@use 'variables'as vars;
+@import 'variables';
 
 body {
-    background-color: vars.$color-body-bg;
+    background-color: $color-body-bg;
     font-size: 22px;
-    font-family: vars.$font-serif;
-    color: vars.$color-text;
+    font-family: $font-serif;
+    color: $color-text;
     margin: 0 auto;
-    padding: 0 vars.$padding vars.$padding vars.$padding;
+    padding: 0 $padding $padding $padding;
 }
 
 header {
-    font-family: vars.$font-sans;
-    font-size: vars.$font-size-small;
+    font-family: $font-sans;
+    font-size: $font-size-small;
 
     .navbar {
         display: flex;
         margin: .26rem .26rem 0 .26rem;
         justify-content: space-between;
         align-items: center;
-        padding: vars.$padding 0;
+        padding: $padding 0;
 
         h1 {
             font-weight: 600;
@@ -31,23 +31,23 @@ header {
             margin-left: 1rem;
             text-decoration: none;
             cursor: pointer;
-            color: vars.$color-text;
+            color: $color-text;
         }
 
         a {
-            color: vars.$color-text;
+            color: $color-text;
             text-decoration: none;
             &:hover{
                 cursor: pointer;
-                color: vars.$color-link;
+                color: $color-link;
             }
         }
     }
 
     nav#main {
-        background-color: vars.$color-dp-bg;
+        background-color: $color-dp-bg;
         border-radius: 1ex;
-        padding: vars.$padding;
+        padding: $padding;
         position: absolute;
         z-index: 1000;
         right: 1.5rem;
@@ -64,7 +64,7 @@ header {
                 a {
                     display: inline-block;
                     padding: 1ex 1em;
-                    color: vars.$color-link;
+                    color: $color-link;
                     text-transform: uppercase;
                     text-decoration: none;
                 }
@@ -75,8 +75,8 @@ header {
 
 
 #dp {
-    background-color: vars.$color-dp-bg;
-    background: vars.$page-gradient;
+    background-color: $color-dp-bg;
+    background: $page-gradient;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -87,7 +87,7 @@ header {
     >* {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
-        // outline: 1px dashed vars.$color-soft-line;
+        // outline: 1px dashed $color-soft-line;
     }
 
 
@@ -99,7 +99,7 @@ header {
 
     a {
         text-decoration: none;
-        color: vars.$color-link;
+        color: $color-link;
     }
 
     sidebar {
@@ -111,7 +111,7 @@ header {
 
         time {
             display: block;
-            font-family: vars.$font-sans;
+            font-family: $font-sans;
             font-size: 12px;
             text-align: right;
         }
@@ -128,10 +128,10 @@ header {
     article {
 
         h1, h2, h3, h4, h5, h6{
-            font-family: vars.$font-sans;
+            font-family: $font-sans;
             font-weight: 700;
             font-size: 80%;
-            color: vars.$color-title;
+            color: $color-title;
         }
 
         code {
@@ -140,7 +140,7 @@ header {
         }
 
         hr {
-            border-top: 1px dashed vars.$color-soft-line;
+            border-top: 1px dashed $color-soft-line;
             border-bottom: none;
             mix-blend-mode: multiply;
         }
@@ -176,7 +176,7 @@ header {
 @media (max-width: 768px) {
     #dp {
         display: block;
-        background: vars.$color-dp-bg;
+        background: $color-dp-bg;
     }
 }
 
@@ -187,7 +187,7 @@ header {
 }
 
 .mt-container {
-    font-size: vars.$font-size-small;
+    font-size: $font-size-small;
     filter: invert(1) hue-rotate(180deg);
     mix-blend-mode: multiply;
     border-radius: 1.5ex;
@@ -207,7 +207,7 @@ header {
     }
 
     .mt-content {
-        font-family: vars.$font-sans;
+        font-family: $font-sans;
         line-height: 1.2;
     }
     .mt-post-avatar{
@@ -216,16 +216,16 @@ header {
 }
 
 footer {
-    margin: vars.$padding 0;
+    margin: $padding 0;
     p{
         margin: 0;
         text-align: center;
-        font-family: vars.$font-sans;
-        font-size: vars.$font-size-small;
+        font-family: $font-sans;
+        font-size: $font-size-small;
 
         a{
             text-decoration: none;
-            color: vars.$color-link;
+            color: $color-link;
         }
     }
 }
@@ -252,7 +252,7 @@ footer {
     p{
         margin: 0;
         font-size: .76rem;
-        font-family: vars.$font-sans;
+        font-family: $font-sans;
         line-height: 105%;
     }
 }
@@ -264,7 +264,7 @@ poem {
     font-size: 0.85rem;         // más pequeño
     line-height: 1.4;
     margin: 1.5em 0;
-    font-family: vars.$font-serif; // si usas una fuente específica
+    font-family: $font-serif; // si usas una fuente específica
 }
 
 .paginacion {

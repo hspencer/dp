@@ -15,9 +15,16 @@ bundle exec jekyll serve --host 0.0.0.0 --livereload
 ### cosas de migración 
 
 ```
-
 chmod +x reparar_permisos.sh
 ./reparar_permisos.sh
+```
+
+### rbenv para github
+
+```
+rbenv versions
+
+
 ```
 
 ### ToDo
