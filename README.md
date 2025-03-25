@@ -11,7 +11,12 @@ Esta rama (la 3.10) está retrasada para ser compatible con github. Utiliza la g
 
 ```
 bundle exec jekyll serve --host 0.0.0.0 --livereload
+
+rm -rf _site .jekyll-cache .jekyll-metadata
+
 ```
+
+
 ### cosas de migración 
 
 ```

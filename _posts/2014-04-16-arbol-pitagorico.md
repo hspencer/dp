@@ -7,10 +7,10 @@ description: "Ejemplo de recursividad usando Processing en un árbol pitagórico
   \ cuadrados"
 date: 2014-04-16 16:42:41 -0000
 last_modified_at: 2015-08-02 21:23:07 -0000
+image:
+  path: /assets/uploads/2014/04/arbol-pitagoras.png
 publish: true
 pin: false
-p5:
-  script: /assets/p5/pytagoras.js
 categories:
 - code
 tags:
@@ -24,3 +24,7 @@ En Febrero recién pasado tuve el honor de formar parte del primer programa de [
 Esta vez me pude colar curso de [Tomás de Camino](http://www.personal.psu.edu/tzd1/Tomas_de_Camino_Homepage/Home.html "sitio de Tomás") a de introducción a la programación. Acá les dejo uno de los primeros ejercicios del curso. 
 
 Para agregar o quitar niveles de recursión debes presionar las teclas `a` y `z`. El código está publicado [acá](http://www.openprocessing.org/sketch/136927 "Recursive Hypotenuse in OpenProcessing").
+
+<div id='p5'></div>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+<script src="{{ site.baseurl }}/assets/p5/pytagoras.js"></script>

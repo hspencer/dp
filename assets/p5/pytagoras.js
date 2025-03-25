@@ -1,7 +1,7 @@
 /*
  * Recursive Hypotenuse
  * by Herbert Spencer
- * February 2014
+ * February 2014 - udpated
  */
 
 let ang;    // this is the global angle
@@ -9,13 +9,14 @@ let levels; // this is the amount of tree levels or how many times we will call 
 let cnv;
 
 function setup() {
-  cnv = createCanvas(document.getElementById('p5').offsetWidth, 500);
+  cnv = createCanvas(document.getElementById('p5').offsetWidth, 360);
+  cnv.parent('p5');
+
   noStroke();
   smooth();
   levels = 3;       // start with something small
   mouseX = width/2; // place the mouse in the middle
   mouseY = height*0.7;
-  
 }
 
 function draw() {
@@ -25,7 +26,7 @@ function draw() {
   // the global angle can be modified by de 'x' movement of the mouse
   ang = map(mouseX, 0, width, -HALF_PI, 0); 
   levels = round(map(mouseY, 0, height, 10, 0));
-  levels = constrain(levels, 0, 16);
+  levels = constrain(levels, 1, 12);
   
   // this is where we call the recursive function
   hypotenuse(width/2 - 35, height, width/2 + 35, height, levels);
