@@ -176,6 +176,7 @@ header {
 @media (max-width: 768px) {
     #dp {
         display: block;
+        background: vars.$color-dp-bg;
     }
 }
 
