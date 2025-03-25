@@ -2,6 +2,7 @@
 ---
 
 @charset "UTF-8";
+@use 'sass:math';
 
-@import "base";
+@forward "base";
 
