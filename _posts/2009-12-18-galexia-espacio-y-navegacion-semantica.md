@@ -17,8 +17,9 @@ tags:
 - espacio
 - Internet
 - repositorios digitales
+image:
+  path: https://wiki-ead.b-cdn.net/images/d/df/Galexia_P%C3%A1gina_001.png
 ---
-[![Galexia: Portada](http://www.ead.pucv.cl/wp-content/archivos/2009/12/galexia_portada-605x454.PNG)](http://www.ead.pucv.cl/wp-content/archivos/2009/12/galexia_portada.PNG "Galexia: Portada")
 
 ### Senderos de la Memoria
 

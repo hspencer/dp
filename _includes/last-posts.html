@@ -1,11 +1,42 @@
-<div class="last-posts">
-    {% for post in site.posts limit: 4 %}
-    <div class="post-item">
+<div class="last-posts" id="last-posts">
+  {% assign posts = site.posts | sort: "date" | reverse %}
+  {% for post in posts %}
+    <a href="{{ post.url | relative_url }}" class="post-item" data-page="{{ forloop.index0 | divided_by: 6 }}">
       {% if post.image %}
-      <img src="{{ post.image.path | relative_url }}" alt="{{ post.title | escape }}">
+        <img src="{{ post.image.path | relative_url }}" alt="{{ post.title | escape }}">
       {% endif %}
       <h2>{{ post.title }}</h2>
       <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
-    </div>
-    {% endfor %}
-  </div> 
+    </a>
+  {% endfor %}
+</div>
+
+<div class="paginacion" id="paginacion"></div>
+
+<script>
+  const itemsPerPage = 6;
+  const items = [...document.querySelectorAll('.post-item')];
+  const totalPages = Math.ceil(items.length / itemsPerPage);
+  const pagination = document.getElementById('paginacion');
+
+  function showPage(page) {
+    items.forEach((el, i) => {
+      el.style.display = Math.floor(i / itemsPerPage) === page ? 'block' : 'none';
+    });
+
+    pagination.innerHTML = '';
+    for (let i = 0; i < totalPages; i++) {
+      const dot = document.createElement(i === page ? 'span' : 'a');
+      dot.className = i === page ? 'actual' : '';
+      dot.href = "#";
+      dot.innerHTML = '&nbsp;';
+      dot.onclick = (e) => {
+        e.preventDefault();
+        showPage(i);
+      };
+      pagination.appendChild(dot);
+    }
+  }
+
+  showPage(0);
+</script>

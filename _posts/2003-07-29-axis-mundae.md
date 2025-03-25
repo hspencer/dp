@@ -13,27 +13,29 @@ tags:
 - "Diseño Gráfico"
 - "interacción"
 ---
-#####
 
 ### Instrucciones al lector:
 
 Este poema está construído a partir de todas las continuidades posibles en la figura de los nueve puntos y las 72 conectivas. En la tabla, los números de 2 dígitos; por ejemplo el “54“, resume la frase: “desde el 5 al 4“.
 
-Para leer se recomienda al lector saltear en la lectura encadenando consecutivamente número entero y conectiva. Cuando el lector decida terminar su recorrido, está invitado a leer el [ø](http://www.ead.pucv.cl/2003/axis-mundae/#0).
+Para leer se recomienda al lector saltear en la lectura encadenando consecutivamente número entero y conectiva. Cuando el lector decida terminar su recorrido, está invitado a leer el [ø](#0).
 
-[9p](http://www.ead.pucv.cl/2003/axis-mundae/#9p) | [19](http://www.ead.pucv.cl/2003/axis-mundae/#19) | [29](http://www.ead.pucv.cl/2003/axis-mundae/#29) | [39](http://www.ead.pucv.cl/2003/axis-mundae/#39) | [49](http://www.ead.pucv.cl/2003/axis-mundae/#49) | [59](http://www.ead.pucv.cl/2003/axis-mundae/#59) | [69](http://www.ead.pucv.cl/2003/axis-mundae/#69) | [79](http://www.ead.pucv.cl/2003/axis-mundae/#79) | [89](http://www.ead.pucv.cl/2003/axis-mundae/#89) | [**9**](http://www.ead.pucv.cl/2003/axis-mundae/#9)  
+[9p](#9p) | [19](#19) | [29](#29) | [39](#39) | [49](#49) | [59](#59) | [69](#69) | [79](#79) | [89](#89) | [**9**](#9)  
 ---|---|---|---|---|---|---|---|---|---  
-[8p](http://www.ead.pucv.cl/2003/axis-mundae/#8p) | [18](http://www.ead.pucv.cl/2003/axis-mundae/#18) | [28](http://www.ead.pucv.cl/2003/axis-mundae/#28) | [38](http://www.ead.pucv.cl/2003/axis-mundae/#38) | [48](http://www.ead.pucv.cl/2003/axis-mundae/#48) | [58](http://www.ead.pucv.cl/2003/axis-mundae/#58) | [68](http://www.ead.pucv.cl/2003/axis-mundae/#68) | [78](http://www.ead.pucv.cl/2003/axis-mundae/#78) | [**8**](http://www.ead.pucv.cl/2003/axis-mundae/#8) | [98](http://www.ead.pucv.cl/2003/axis-mundae/#98)  
-[7p](http://www.ead.pucv.cl/2003/axis-mundae/#7p) | [17](http://www.ead.pucv.cl/2003/axis-mundae/#17) | [27](http://www.ead.pucv.cl/2003/axis-mundae/#27) | [37](http://www.ead.pucv.cl/2003/axis-mundae/#37) | [47](http://www.ead.pucv.cl/2003/axis-mundae/#47) | [57](http://www.ead.pucv.cl/2003/axis-mundae/#57) | [67](http://www.ead.pucv.cl/2003/axis-mundae/#67) | [**7**](http://www.ead.pucv.cl/2003/axis-mundae/#7) | [87](http://www.ead.pucv.cl/2003/axis-mundae/#87) | [97](http://www.ead.pucv.cl/2003/axis-mundae/#97)  
-[6p](http://www.ead.pucv.cl/2003/axis-mundae/#6p) | [16](http://www.ead.pucv.cl/2003/axis-mundae/#16) | [26](http://www.ead.pucv.cl/2003/axis-mundae/#26) | [36](http://www.ead.pucv.cl/2003/axis-mundae/#36) | [46](http://www.ead.pucv.cl/2003/axis-mundae/#46) | [56](http://www.ead.pucv.cl/2003/axis-mundae/#56) | [**6**](http://www.ead.pucv.cl/2003/axis-mundae/#6) | [76](http://www.ead.pucv.cl/2003/axis-mundae/#76) | [86](http://www.ead.pucv.cl/2003/axis-mundae/#86) | [96](http://www.ead.pucv.cl/2003/axis-mundae/#96)  
-[5p](http://www.ead.pucv.cl/2003/axis-mundae/#5p) | [15](http://www.ead.pucv.cl/2003/axis-mundae/#15) | [25](http://www.ead.pucv.cl/2003/axis-mundae/#25) | [35](http://www.ead.pucv.cl/2003/axis-mundae/#35) | [45](http://www.ead.pucv.cl/2003/axis-mundae/#45) | [**5**](http://www.ead.pucv.cl/2003/axis-mundae/#5) | [65](http://www.ead.pucv.cl/2003/axis-mundae/#65) | [75](http://www.ead.pucv.cl/2003/axis-mundae/#75) | [85](http://www.ead.pucv.cl/2003/axis-mundae/#85) | [95](http://www.ead.pucv.cl/2003/axis-mundae/#95)  
-[4p](http://www.ead.pucv.cl/2003/axis-mundae/#4p) | [14](http://www.ead.pucv.cl/2003/axis-mundae/#14) | [24](http://www.ead.pucv.cl/2003/axis-mundae/#24) | [34](http://www.ead.pucv.cl/2003/axis-mundae/#34) | [**4**](http://www.ead.pucv.cl/2003/axis-mundae/#4) | [54](http://www.ead.pucv.cl/2003/axis-mundae/#54) | [64](http://www.ead.pucv.cl/2003/axis-mundae/#64) | [74](http://www.ead.pucv.cl/2003/axis-mundae/#74) | [84](http://www.ead.pucv.cl/2003/axis-mundae/#84) | [94](http://www.ead.pucv.cl/2003/axis-mundae/#94)  
-[3p](http://www.ead.pucv.cl/2003/axis-mundae/#3p) | [13](http://www.ead.pucv.cl/2003/axis-mundae/#13) | [23](http://www.ead.pucv.cl/2003/axis-mundae/#23) | [**3**](http://www.ead.pucv.cl/2003/axis-mundae/#3) | [43](http://www.ead.pucv.cl/2003/axis-mundae/#43) | [53](http://www.ead.pucv.cl/2003/axis-mundae/#53) | [63](http://www.ead.pucv.cl/2003/axis-mundae/#63) | [73](http://www.ead.pucv.cl/2003/axis-mundae/#73) | [83](http://www.ead.pucv.cl/2003/axis-mundae/#83) | [93](http://www.ead.pucv.cl/2003/axis-mundae/#93)  
-[2p](http://www.ead.pucv.cl/2003/axis-mundae/#2p) | [12](http://www.ead.pucv.cl/2003/axis-mundae/#12) | [**2**](http://www.ead.pucv.cl/2003/axis-mundae/#2) | [32](http://www.ead.pucv.cl/2003/axis-mundae/#32) | [42](http://www.ead.pucv.cl/2003/axis-mundae/#42) | [52](http://www.ead.pucv.cl/2003/axis-mundae/#52) | [62](http://www.ead.pucv.cl/2003/axis-mundae/#62) | [72](http://www.ead.pucv.cl/2003/axis-mundae/#72) | [82](http://www.ead.pucv.cl/2003/axis-mundae/#82) | [92](http://www.ead.pucv.cl/2003/axis-mundae/#92)  
-[1p](http://www.ead.pucv.cl/2003/axis-mundae/#1p) | [**1**](http://www.ead.pucv.cl/2003/axis-mundae/#1) | [21](http://www.ead.pucv.cl/2003/axis-mundae/#21) | [31](http://www.ead.pucv.cl/2003/axis-mundae/#31) | [41](http://www.ead.pucv.cl/2003/axis-mundae/#41) | [51](http://www.ead.pucv.cl/2003/axis-mundae/#51) | [61](http://www.ead.pucv.cl/2003/axis-mundae/#61) | [71](http://www.ead.pucv.cl/2003/axis-mundae/#71) | [81](http://www.ead.pucv.cl/2003/axis-mundae/#81) | [91](http://www.ead.pucv.cl/2003/axis-mundae/#91)  
-[**ø**](http://www.ead.pucv.cl/2003/axis-mundae/#0) | [1u](http://www.ead.pucv.cl/2003/axis-mundae/#1u) | [2u](http://www.ead.pucv.cl/2003/axis-mundae/#2u) | [3u](http://www.ead.pucv.cl/2003/axis-mundae/#3u) | [4u](http://www.ead.pucv.cl/2003/axis-mundae/#4u) | [5u](http://www.ead.pucv.cl/2003/axis-mundae/#5u) | [6u](http://www.ead.pucv.cl/2003/axis-mundae/#6u) | [7u](http://www.ead.pucv.cl/2003/axis-mundae/#7u) | [8u](http://www.ead.pucv.cl/2003/axis-mundae/#8u) | [9u](http://www.ead.pucv.cl/2003/axis-mundae/#9u)  
+[8p](#8p) | [18](#18) | [28](#28) | [38](#38) | [48](#48) | [58](#58) | [68](#68) | [78](#78) | [**8**](#8) | [98](#98)  
+[7p](#7p) | [17](#17) | [27](#27) | [37](#37) | [47](#47) | [57](#57) | [67](#67) | [**7**](#7) | [87](#87) | [97](#97)  
+[6p](#6p) | [16](#16) | [26](#26) | [36](#36) | [46](#46) | [56](#56) | [**6**](#6) | [76](#76) | [86](#86) | [96](#96)  
+[5p](#5p) | [15](#15) | [25](#25) | [35](#35) | [45](#45) | [**5**](#5) | [65](#65) | [75](#75) | [85](#85) | [95](#95)  
+[4p](#4p) | [14](#14) | [24](#24) | [34](#34) | [**4**](#4) | [54](#54) | [64](#64) | [74](#74) | [84](#84) | [94](#94)  
+[3p](#3p) | [13](#13) | [23](#23) | [**3**](#3) | [43](#43) | [53](#53) | [63](#63) | [73](#73) | [83](#83) | [93](#93)  
+[2p](#2p) | [12](#12) | [**2**](#2) | [32](#32) | [42](#42) | [52](#52) | [62](#62) | [72](#72) | [82](#82) | [92](#92)  
+[1p](#1p) | [**1**](#1) | [21](#21) | [31](#31) | [41](#41) | [51](#51) | [61](#61) | [71](#71) | [81](#81) | [91](#91)  
+[**ø**](#0) | [1u](#1u) | [2u](#2u) | [3u](#3u) | [4u](#4u) | [5u](#5u) | [6u](#6u) | [7u](#7u) | [8u](#8u) | [9u](#9u)  |
+
   
-[.1.](http://www.ead.pucv.cl/2003/axis-mundae/#index)[La Luz de lo Visible](http://www.ead.pucv.cl/2003/axis-mundae/#index)El eje induce al cielo
+[.1.](#1)[La Luz de lo Visible](#index)
+
+El eje induce al cielo
 
 a recogerle desde los hilos
 
@@ -43,9 +45,9 @@ y será devuelto íntegro el cuerpo
 
 luego del quiebre.
 
-[Inicia Sí](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Inicia Sí](#12)
 
-[1 al 2](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[1 al 2](#index)
 
 Puesto que el punto que inicia
 
@@ -59,9 +61,9 @@ decía de sí
 
 el pasaje
 
-[Mi](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Mi](#13)
 
-[1 al 3](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[1 al 3](#index)
 
 Entre nudo, trazo y tiro
 
@@ -75,9 +77,9 @@ si la hora
 
 place.
 
-[Hey !!](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Hey !!](#14)
 
-[1 al 4](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[1 al 4](#index)
 
 Un brinco estrecha la distancia
 
@@ -89,9 +91,9 @@ estira y prolonga
 
 sin cesar.
 
-[Quizá Su](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Quizá Su](#15)
 
-[1 al 5](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[1 al 5](#index)
 
 Le liga una rueda enrarecida
 
@@ -103,9 +105,9 @@ parecido a su contrario
 
 en el arribo
 
-[Tal Fue Que](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Tal Fue Que](#16)
 
-[1 al 6](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[1 al 6](#index)
 
 Cuando suma paralela y lineatura
 
@@ -119,9 +121,9 @@ de una realidad
 
 amenazante
 
-[El Árbol](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Árbol](#17)
 
-[1 al 7](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[1 al 7](#index)
 
 Uno punto y todo
 
@@ -135,9 +137,9 @@ deshace el ansia
 
 indispensable
 
-[Verdad](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Verdad](#18)
 
-[1 al 8](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[1 al 8](#index)
 
 Cada lazo enciende
 
@@ -153,9 +155,9 @@ adentro
 
 del enjambre
 
-[El Porvenir](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Porvenir](#19)
 
-[1 al 9](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[1 al 9](#index)
 
 Cantidades iban solas
 
@@ -169,9 +171,9 @@ y viceversa
 
 al colofón
 
-[.2.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.2.](#2)
 
-[El Número Uno](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Número Uno](#index)
 
 La sortida
 
@@ -185,9 +187,9 @@ la soledad
 
 y la casa nueva
 
-[Y En Tris](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Y En Tris](#21)
 
-[2 al 1](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[2 al 1](#index)
 
 Mientras hoy la luz retiene
 
@@ -199,9 +201,9 @@ y el sueño
 
 venía de la tarde
 
-[Se Da](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Se Da](#23)
 
-[2 al 3](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[2 al 3](#index)
 
 Lo más entrañable
 
@@ -217,9 +219,9 @@ y la noche
 
 esclarece.
 
-[Decae](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Decae](#24)
 
-[2 al 4](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[2 al 4](#index)
 
 En el prisma se trasluce
 
@@ -231,9 +233,9 @@ y el que sabe andar
 
 persiste.
 
-[De](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[De](#25)
 
-[2 al 5](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[2 al 5](#index)
 
 El signo que al párrafo
 
@@ -249,9 +251,9 @@ la osadía
 
 del viento.
 
-[La Ruta Si](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Ruta Si](#26)
 
-[2 al 6](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[2 al 6](#index)
 
 Que ver que imagina
 
@@ -265,9 +267,9 @@ el golpe
 
 la fuerza y las paces.
 
-[Volvió](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Volvió](#27)
 
-[2 al 7](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[2 al 7](#index)
 
 La ruta instruye al caminante
 
@@ -281,9 +283,9 @@ en el umbral
 
 su parsimonia.
 
-[No Sea](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[No Sea](#28)
 
-[2 al 8](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[2 al 8](#index)
 
 Parecía encontrar un alta
 
@@ -299,9 +301,9 @@ y quieta
 
 el arma.
 
-[Él](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Él](#29)
 
-[2 al 9](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[2 al 9](#index)
 
 En el cinto leía
 
@@ -317,9 +319,9 @@ el amante
 
 que conduce.
 
-[.3.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.3.](#3)
 
-[La Oda del Orden](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Oda del Orden](#index)
 
 Estado así se reconforta
 
@@ -329,9 +331,9 @@ abre la luz
 
 y las atemporalidades.
 
-[Y a La](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Y a La](#31)
 
-[3 al 1](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[3 al 1](#index)
 
 El soplo del cielo
 
@@ -345,9 +347,9 @@ y el débil
 
 receptor.
 
-[Sólo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Sólo](#32)
 
-[3 al 2](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[3 al 2](#index)
 
 Trazado del ángel que
 
@@ -361,9 +363,9 @@ que mortal
 
 perece.
 
-[O Qué](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[O Qué](#34)
 
-[3 al 4](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[3 al 4](#index)
 
 En la cual ella entrega
 
@@ -377,9 +379,9 @@ y el pasmo
 
 capital.
 
-[Mar Por](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Mar Por](#35)
 
-[3 al 5](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[3 al 5](#index)
 
 El paso sucesivo y anhelante
 
@@ -393,9 +395,9 @@ como un cardo
 
 persistente.
 
-[Las Más](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Las Más](#36)
 
-[3 al 6](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[3 al 6](#index)
 
 Pareciera que al ojo
 
@@ -409,9 +411,9 @@ los centros
 
 y sus lazos.
 
-[Digo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Digo](#37)
 
-[3 al 7](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[3 al 7](#index)
 
 Por vialidad el grandor
 
@@ -425,9 +427,9 @@ hace del éxtasis
 
 un conglomerado.
 
-[Alzóse](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Alzóse](#38)
 
-[3 al 8](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[3 al 8](#index)
 
 Ellos partieron en las medianías
 
@@ -441,11 +443,11 @@ y desaparecía
 
 aquí y allá.
 
-[](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[](#index)
 
-[Abre Ó](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Abre Ó](#39)
 
-[3 al 9](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[3 al 9](#index)
 
 Los vastos tramos y las minucias
 
@@ -459,9 +461,9 @@ que aquí
 
 se olvida.
 
-[.4.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.4.](#4)
 
-[Las Partes del Cuerpo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Las Partes del Cuerpo](#index)
 
 ¿Qué deja de hacerse?
 
@@ -477,9 +479,9 @@ levantó el ancla
 
 de las virtudes.
 
-[La Edad](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Edad](#41)
 
-[4 al 1](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[4 al 1](#index)
 
 El tenor del enjambre
 
@@ -497,9 +499,9 @@ se da
 
 por doquier.
 
-[El Axioma Que](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Axioma Que](#42)
 
-[4 al 2](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[4 al 2](#index)
 
 Da la idea que uno ronda
 
@@ -513,9 +515,9 @@ de causar
 
 alejamientos.
 
-[Virtus](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Virtus](#43)
 
-[4 al 3](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[4 al 3](#index)
 
 Todo por verle apareciendo
 
@@ -529,9 +531,9 @@ que promete
 
 la esperanza.
 
-[El Eje](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Eje](#45)
 
-[4 al 5](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[4 al 5](#index)
 
 Luz que agudiza las líneas
 
@@ -545,9 +547,9 @@ reinciden
 
 de nuevo.
 
-[O No](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[O No](#46)
 
-[4 al 6](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[4 al 6](#index)
 
 A su vez ella fuera de sí
 
@@ -563,9 +565,9 @@ las flores pintadas
 
 por mí.
 
-[Devino](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Devino](#47)
 
-[4 al 7](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[4 al 7](#index)
 
 Ellos saben rodear las estancias
 
@@ -579,9 +581,9 @@ de su
 
 juventud.
 
-[O las Alas](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[O las Alas](#48)
 
-[4 al 8](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[4 al 8](#index)
 
 Quizá todo perdía
 
@@ -599,9 +601,9 @@ el sendero
 
 del orbe.
 
-[Por Uno](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Por Uno](#49)
 
-[4 al 9](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[4 al 9](#index)
 
 El hogar tardaría
 
@@ -617,9 +619,9 @@ de dulce
 
 promesa.
 
-[.5.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.5.](#5)
 
-[El Oscuro Mar](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Oscuro Mar](#index)
 
 Todo profano
 
@@ -631,9 +633,9 @@ y el nuevo auxilio sirviendo al mundo
 
 sin pleitesías.
 
-[Entre](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Entre](#51)
 
-[5 al 1](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[5 al 1](#index)
 
 Le enviaría en su senda
 
@@ -645,9 +647,9 @@ el acta del pueblo
 
 y la nueva bandera
 
-[Al Hall](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Al Hall](#52)
 
-[5 al 2](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[5 al 2](#index)
 
 Al doble del río
 
@@ -663,9 +665,9 @@ y un
 
 astro.
 
-[Sin la Ciudad](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Sin la Ciudad](#53)
 
-[5 al 3](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[5 al 3](#index)
 
 Este mismo remanso
 
@@ -679,9 +681,9 @@ y entre
 
 medio.
 
-[Si Hace](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Si Hace](#54)
 
-[5 al 4](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[5 al 4](#index)
 
 El mazo en la mano
 
@@ -695,9 +697,9 @@ en la suma
 
 acertaba.
 
-[E Impide](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[E Impide](#56)
 
-[5 al 6](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[5 al 6](#index)
 
 Pero había más
 
@@ -715,9 +717,9 @@ en la mira
 
 elegancias.
 
-[Sin Ir](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Sin Ir](#57)
 
-[5 al 7](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[5 al 7](#index)
 
 Extravío
 
@@ -733,9 +735,9 @@ y olvido
 
 de sí.
 
-[Para Sí](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Para Sí](#58)
 
-[5 al 8](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[5 al 8](#index)
 
 Centrado en la fila que ordena
 
@@ -751,11 +753,11 @@ al fiel
 
 precedente.
 
-[](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[](#index)
 
-[Ve Y](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Ve Y](#59)
 
-[5 al 9](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[5 al 9](#index)
 
 No fue tiempo el instante
 
@@ -771,9 +773,9 @@ paciencia
 
 infinita.
 
-[.6.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.6.](#6)
 
-[El Instante Infinito](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Instante Infinito](#index)
 
 No hay más urgencia
 
@@ -787,9 +789,9 @@ en ascuas quedas
 
 mudó su boca.
 
-[Llamó](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Llamó](#61)
 
-[6 al 1](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[6 al 1](#index)
 
 Un dios debe haber
 
@@ -805,9 +807,9 @@ piedad
 
 quite el sable.
 
-[Como Si](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Como Si](#62)
 
-[6 al 2](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[6 al 2](#index)
 
 Cómo estas cifras
 
@@ -823,9 +825,9 @@ las naves
 
 solas.
 
-[Enmudeció](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Enmudeció](#63)
 
-[6 al 3](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[6 al 3](#index)
 
 Si así se pertenece
 
@@ -841,9 +843,9 @@ sin pausa
 
 cesaría.
 
-[¿Sabe?](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[¿Sabe?](#64)
 
-[6 al 4](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[6 al 4](#index)
 
 Fuera de qué
 
@@ -859,9 +861,9 @@ de un
 
 sin par
 
-[A](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[A](#65)
 
-[6 al 5](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[6 al 5](#index)
 
 El mejor y el menor
 
@@ -877,9 +879,9 @@ como un triste
 
 cardenal.
 
-[Todo su Extremo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Todo su Extremo](#67)
 
-[6 al 7](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[6 al 7](#index)
 
 Sin astucia no sucumbe
 
@@ -893,9 +895,9 @@ que rige virtud
 
 y verdades.
 
-[(…)](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[(…)](#68)
 
-[6 al 8](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[6 al 8](#index)
 
 Devuelve retoma
 
@@ -909,9 +911,9 @@ un nuevo país
 
 por delante.
 
-[Más Todo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Más Todo](#69)
 
-[6 al 9](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[6 al 9](#index)
 
 Pues que avista
 
@@ -927,9 +929,9 @@ su cara
 
 evidente.
 
-[.7.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.7.](#7)
 
-[La Mano del Mundo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Mano del Mundo](#index)
 
 Y se detuvo en la sustancia
 
@@ -941,9 +943,9 @@ sin sus piedades eran no más
 
 que una apariencia.
 
-[Ir En](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Ir En](#71)
 
-[7 al 1](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[7 al 1](#index)
 
 Que cuando va
 
@@ -961,9 +963,9 @@ en la
 
 era.
 
-[Buh !](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Buh !](#72)
 
-[7 al 2](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[7 al 2](#index)
 
 Este tiempo que gasta
 
@@ -981,9 +983,9 @@ sin que se den
 
 por vencidas.
 
-[Que Fin](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Que Fin](#73)
 
-[7 al 3](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[7 al 3](#index)
 
 Este rezo por flujo
 
@@ -999,9 +1001,9 @@ en la siega
 
 el secano.
 
-[Cual](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Cual](#74)
 
-[7 al 4](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[7 al 4](#index)
 
 Punto aparte
 
@@ -1015,9 +1017,9 @@ que dan a las crías
 
 prestancia.
 
-[Su](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Su](#75)
 
-[7 al 5](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[7 al 5](#index)
 
 Valga el esfuerzo
 
@@ -1033,9 +1035,9 @@ su fe
 
 puesta a punto.
 
-[Bella No](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Bella No](#76)
 
-[7 al 6](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[7 al 6](#index)
 
 Y reincide de nuevo
 
@@ -1051,9 +1053,9 @@ deshace
 
 el aliento.
 
-[Veladuras](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Veladuras](#78)
 
-[7 al 8](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[7 al 8](#index)
 
 En el día perfecto
 
@@ -1071,9 +1073,9 @@ en el plan
 
 consiguiente.
 
-[Y](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Y](#79)
 
-[7 al 9](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[7 al 9](#index)
 
 La vera que todo
 
@@ -1091,9 +1093,9 @@ detiene
 
 el fraseo.
 
-[.8.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.8.](#8)
 
-[El Espejo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Espejo](#index)
 
 Fuera de dios
 
@@ -1107,9 +1109,9 @@ y cuando le hubo visto
 
 tierra nació.
 
-[Arista](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Arista](#81)
 
-[8 al 1](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[8 al 1](#index)
 
 Pernocta su noche
 
@@ -1125,9 +1127,9 @@ que hace frente
 
 a las loas.
 
-[Temo Por](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Temo Por](#82)
 
-[8 al 2](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[8 al 2](#index)
 
 Si al cabo y a tientas
 
@@ -1145,9 +1147,9 @@ si acaso
 
 deceso.
 
-[Capital](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Capital](#83)
 
-[8 al 3](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[8 al 3](#index)
 
 Esperar no debiese ninguno
 
@@ -1165,9 +1167,9 @@ de la dicha
 
 infinita.
 
-[Usted](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Usted](#84)
 
-[8 al 4](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[8 al 4](#index)
 
 Una pequeña gracia
 
@@ -1183,9 +1185,9 @@ el yugo
 
 trucado.
 
-[Ninguno Fue](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Ninguno Fue](#85)
 
-[8 al 5](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[8 al 5](#index)
 
 Es pues ya suficiente
 
@@ -1203,9 +1205,9 @@ que
 
 sí.
 
-[Piedad](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Piedad](#86)
 
-[8 al 6](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[8 al 6](#index)
 
 El mar imposible
 
@@ -1223,9 +1225,9 @@ ahora que ya
 
 me convence.
 
-[Dió](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Dió](#87)
 
-[8 al 7](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[8 al 7](#index)
 
 El factor que acompaña
 
@@ -1241,9 +1243,9 @@ en sí
 
 pura esencia.
 
-[La Creación](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Creación](#89)
 
-[8 al 9](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[8 al 9](#index)
 
 Ni primera o real
 
@@ -1261,9 +1263,9 @@ que culpe al lector
 
 de saltar en sucesos.
 
-[.9.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.9.](#9)
 
-[El Diálogo de las Criaturas](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Diálogo de las Criaturas](#index)
 
 Viene diciendo pretos en negros
 
@@ -1277,9 +1279,9 @@ aldabán
 
 gerano dos tres.
 
-[Uno de Nuevo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Uno de Nuevo](#91)
 
-[9 al 1](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[9 al 1](#index)
 
 Turno sigue
 
@@ -1293,9 +1295,9 @@ en el decurso
 
 irrepetible.
 
-[Sea Que](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Sea Que](#92)
 
-[9 al 2](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[9 al 2](#index)
 
 Dice el mensaje
 
@@ -1309,9 +1311,9 @@ solaz
 
 la omisión.
 
-[Si](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Si](#93)
 
-[9 al 3](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[9 al 3](#index)
 
 Trina doble
 
@@ -1329,9 +1331,9 @@ suyo
 
 lo hace.
 
-[¿Cómo?](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[¿Cómo?](#94)
 
-[9 al 4](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[9 al 4](#index)
 
 De un rictus
 
@@ -1345,9 +1347,9 @@ o al
 
 finiquito.
 
-[Algo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Algo](#95)
 
-[9 al 5](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[9 al 5](#index)
 
 Si lenta duda
 
@@ -1363,9 +1365,9 @@ jugado
 
 e ido.
 
-[No](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[No](#96)
 
-[9 al 6](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[9 al 6](#index)
 
 Tendida y docta
 
@@ -1381,9 +1383,9 @@ llamar sentido
 
 a lo discreto.
 
-[Zas](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Zas](#97)
 
-[9 al 7](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[9 al 7](#index)
 
 Ideal maestro
 
@@ -1399,9 +1401,9 @@ y suyo el que toma
 
 por diestro.
 
-[Allá](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Allá](#98)
 
-[9 al 8](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[9 al 8](#index)
 
 Índice electo
 
@@ -1419,9 +1421,9 @@ sin que
 
 perezca.
 
-[.Ø.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.Ø.](#0)
 
-[Fuera del Eter](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Fuera del Eter](#index)
 
 no caduca el término
 
@@ -1439,9 +1441,9 @@ al unísono.
 
 ### Los 9, leídos como personajes
 
-[.1.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.1.](#1p)
 
-[El Fiel Testigo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Fiel Testigo](#index)
 
 quien atiende paso a paso
 
@@ -1463,9 +1465,9 @@ lo ciego
 
 se hace claro.
 
-[.2.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.2.](#2p)
 
-[El Pensador Cabal](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Pensador Cabal](#index)
 
 si liga
 
@@ -1485,9 +1487,9 @@ en el cantar
 
 al hacedor.
 
-[.3.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.3.](#3p)
 
-[El Orfebre de Siempre](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Orfebre de Siempre](#index)
 
 de lo disperso toma de aquí
 
@@ -1509,9 +1511,9 @@ y la ópera queda
 
 en divina ordenanza.
 
-[.4.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.4.](#4p)
 
-[El Restaurador Imprescindible](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Restaurador Imprescindible](#index)
 
 se pide que imponga
 
@@ -1541,9 +1543,9 @@ y sanada
 
 lo sea.
 
-[.5.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.5.](#5p)
 
-[El Menudo Lingüista](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Menudo Lingüista](#index)
 
 cuánta lengua distinta
 
@@ -1565,9 +1567,9 @@ que hoy
 
 se disipan.
 
-[.6.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.6.](#6p)
 
-[El Novel Poeta](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Novel Poeta](#index)
 
 en la voz que divisa
 
@@ -1585,9 +1587,9 @@ un fugaz tenle todo
 
 y poquito.
 
-[.7.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.7.](#7p)
 
-[El Sembrador Calzado](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Sembrador Calzado](#index)
 
 ese extremo que toma
 
@@ -1607,9 +1609,9 @@ y crecidas
 
 en flor.
 
-[.8.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.8.](#8p)
 
-[El Relator de Sí](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Relator de Sí](#index)
 
 está quien se mira y se ve
 
@@ -1627,9 +1629,9 @@ y lo habiendo a su espalda
 
 viviendo.
 
-[.9.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.9.](#9p)
 
-[El Regidor de Palabra](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Regidor de Palabra](#index)
 
 el que rige y legisla
 
@@ -1653,9 +1655,9 @@ el mayor y el menor
 
 y mi misma persona.
 
-[.Ø.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.Ø.](#0p)
 
-[Nadie Si Cabe](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[Nadie Si Cabe](#index)
 
 lapsus
 
@@ -1683,7 +1685,7 @@ antes de amarse.
 
 * * *
 
-[.1.](http://www.ead.pucv.cl/2003/axis-mundae/#index)[El Universo](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.1.](#1u)[El Universo](#index)
 
 Construimos un universo del 1 al 9, más el 0;
 
@@ -1699,9 +1701,9 @@ esto es La Oda del Orden, la restricción nos da el orden y el campo
 
 de juego.
 
-[.2.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.2.](#2u)
 
-[El Entremedio](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Entremedio](#index)
 
 La poesía requiere el vínculo entre los
 
@@ -1713,9 +1715,9 @@ se ha dibujado otro verso que conmemore ese instante del transcurso, por
 
 eso Instante Infinito.
 
-[.3.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.3.](#3u)
 
-[La Disyunción](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Disyunción](#index)
 
 Tipográficamente también hay una estancia,
 
@@ -1727,9 +1729,9 @@ entre ellos juegan a las mismas relaciones que en nuestros conectores.
 
 El poema brinca connaturalmente de un natural a otro.
 
-[.4.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.4.](#4u)
 
-[El Desconocido](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Desconocido](#index)
 
 Amereida en la pg. 142 dice: “faltan palabras
 
@@ -1743,9 +1745,9 @@ abren, faltan porque nunca acaban; faltan porque es preciso esclarecer
 
 la travesía.
 
-[.5.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.5.](#5u)
 
-[La Solicitud](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Solicitud](#index)
 
 La poesía cuando es jugada se diferencia de
 
@@ -1757,9 +1759,9 @@ al cotidiano; la poesía hecha por todos, axioma del Conde de Lautreamont,
 
 pide de cada cual su memoria y su integridad, su mano, su jugada.
 
-[.6.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.6.](#6u)
 
-[La Invención](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Invención](#index)
 
 Todo oficio permite, además de lo propio, otra
 
@@ -1775,9 +1777,9 @@ la abertura. Ha de ser El Espejo; el rostro de uno mismo que la poesía
 
 intenta develar.
 
-[.7.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.7.](#7u)
 
-[El Reconocimiento](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[El Reconocimiento](#index)
 
 El acto que provoca en el lector el salto del exterior
 
@@ -1791,9 +1793,9 @@ el acto ejecutándose in-situ La Luz de lo Visible. La interioridad
 
 el presente hace patente el uno a uno& así ha de leerse.
 
-[.8.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.8.](#8u)
 
-[La Hospitalidad](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Hospitalidad](#index)
 
 Y danzan las partes al ritmo en que impera el habla.
 
@@ -1805,11 +1807,11 @@ criatura cuando ella expresa su carencia y la totalidad en la falta del
 
 otro -su complemento-; palabra que permite el diálogo.
 
-[](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[](#index)
 
-[.9.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.9.](#9u)
 
-[La Restauración](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Restauración](#index)
 
 Tal acto pide del cuerpo su ejercicio, voluntad y voluptuosidad;
 
@@ -1823,19 +1825,19 @@ hasta sus combinatorias no infinitas. El autor y el lector se integran
 
 en una persona: el auctor; tal jugada& y se rectifican uno al otro.
 
-[.Ø.](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[.Ø.](#0u)
 
-[La Comprensión](http://www.ead.pucv.cl/2003/axis-mundae/#index)
+[La Comprensión](#index)
 
 Sepa el lector que aquí no cesa, que la elección
 
 ha sido suerte de manos dignas. Tómese ya lo que afuera queda y
 
-canta silente lo que se ha dicho& No cae en la cuenta pues no le tiene
+canta silente lo que se ha dicho: "No cae en la cuenta pues no le tiene
 
 y nunca le tuvo; estaba fuera; iba cantando de una en una antes que hiciera
 
-decena entera.. Y ahí estaba, Fuera del Éter, fuera de sí
+decena entera." Y ahí estaba, Fuera del Éter, fuera de sí
 
 y lejos de todo haciendo al son rimar la lid de este poema y leyendo,
 

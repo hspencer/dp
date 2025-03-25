@@ -8,7 +8,7 @@ last_modified_at: 2018-11-01 17:08:02 -0000
 publish: true
 pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2008/01/5694299383_c7847bf8b5_o1.jpg
+  path: /assets/uploads/2008/01/5694299383_c7847bf8b5_o1.jpg
 categories:
 - escuela
 tags:
@@ -53,22 +53,21 @@ El sentido de la iteración en el taller (que definimos como el constante diálo
 
 El encuentro con la técnica hubo de darse en el lenguaje numérico de las matemáticas. Cada una de estas variaciones trae de suyo definiciones constructivas específicas que involucran el reconocimiento de nuevas dimensiones. A modo de ejemplo, el caso de la Figura 1, se trata de el mapeo o transformación de coordenadas de encuadre [x1, y1, x2, y2] a [x1’, y1’, x2’, y2’]; en el caso de la Figura 2, se trata de la definición de un punto de origen [x, y, z] y rotaciones en los ejes x e y. Y en caso de la Figura 3, parametrizar en una ley de proporciones y niveles, para redibujar el total en cada una de sus partes. La dimensión numérica es fundamental porque ella permite establecer la continuidad de la transformación de la forma, entre el hecho concreto y el cuanto abstracto. Junto con esto, se le encarga a los alumnos acoplar, de forma congruente, esta transformación a una gestualidad humana. El pensamiento técnico para el diseño, entonces, radica en la comprensión simultánea de los fenómenos propios de la experiencia humana (impresión y expresión) con variables abstractas que permitan vincular la realidad tangible al dispositivo técnico, cuyo régimen constructivo obedece a una esquemática de componentes electrónicos, configurables y programables. Espacio de interpretación gestual-objetual (temporalmente continua): 
 
-![caption id="attachment_2113" align="aligncenter" width="470"](/assets/uploads/2017/02/Fig-4-470x274.jpg)](/assets/uploads/2017/02/Fig-4.jpg) 
+![Cubo con pivote-control mapeando una dimensión](/assets/uploads/2017/02/Fig-4.jpg)
 
 Fig. 4 - Control que desarrolla el pivoteo en una rótula (der.), descalce y dial (izq.)
 
-![caption id="attachment_2114" align="aligncenter" width="470"](/assets/uploads/2017/02/Fig-5-470x214.png)](/assets/uploads/2017/02/Fig-5.png) 
+![Control con torsión frontal a dos manos](/assets/uploads/2017/02/Fig-5.png)
 
 Fig. 5 - Control que desarrolla la idea de la pintura como entidad tridimensional, “objetivizando” la manipulación en una suerte de réplica abstracta en miniatura.
 
-![caption id="attachment_2115" align="aligncenter" width="470"](/assets/uploads/2017/02/Fig-6-470x265.jpg)](/assets/uploads/2017/02/Fig-6.jpg) 
+![Control Mondrian](/assets/uploads/2017/02/Fig-6.jpg)
 
 Fig. 6 - Control que iconiza las dimensiones manipulables utilizando el mismo lenguaje pictórico, en una suerte de extensión formal.
 
 finimos entonces el espacio de la interfaz como el campo de comunicación entre persona y sistema, donde el calce con el gesto y la transformación ejecutada permite acoplar cognitivamente a la persona con el fenómeno, situándola dentro de este flujo circular entre expresión e impresión. 
 
-![caption id="attachment_2117" align="aligncenter" width="353"](/assets/uploads/2017/02/Fig-C-353x340.png)](/assets/uploads/2017/02/Fig-C.png) 
-
+![caption id="attachment_2117" align="aligncenter" width="353"](/assets/uploads/2017/02/Fig-C.png)
 Fig. C
 
  sentido técnico, entonces, lo definimos como un _logos intrínseco_ al diseño, pues define y conforma un propósito, del mismo modo que lo hace un algoritmo. Se trata del espacio especulativo y de apertura que le da sentido y significación (utilidad y valor) al proyecto, _es_ diseño en el sentido de definir la pre-imagen (o _designio_ ((El designio debe ser preferiblemente poético. Tal vez no se trate de una (pre) imagen sino de un desconocido que se construye en el transcurso. La imagen se define en el transcurso o dialéctica de las partes. El lenguaje, es aquí, el campo del diseño.)) ). Desde el taller reconocemos que esta libertad conceptual y de apertura propia de toda invención debe rimar con el lenguaje abstracto del _cuanto_ y del número, de las jerarquías y la esquemática propia de las configuraciones técnológicas. En este sentido no se requiere conocer y gobernar a cabalidad cada una de estas entidades ((Lo que corresponde al diálogo con otras disciplinas, sino comprender su rol y su ubicación dentro de la figura mayor.)) sino operar en un meta-nivel, más abstracto que orienta y define el sentido del constructo. Acceder a este _logos técnico_ otorga la libertad para operar en un campo más complejo vinculando sentido y materialización, arte y ciencia.

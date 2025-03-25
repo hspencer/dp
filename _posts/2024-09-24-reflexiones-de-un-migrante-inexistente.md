@@ -13,9 +13,7 @@ categories:
 - notas
 tags: []
 ---
-##### _Lecciones de Kafka, Arendt, Illich y Maturana_
-
-![Franz Kafka, Hannah Arendt, Ivan Illich y Humberto Maturana](/assets/uploads/2024/09/los-4.png)
+##### Lecciones de Kafka, Arendt, Illich y Maturana
 
 Hay algo profundamente inquietante en ser suprimido por un sistema. Un día eres una persona con identidad, una historia personal y una serie de logros. Al siguiente, te reduces a una cadena de números en un proceso burocrático que no reconoce tu existencia ni te otorga voz. Me encuentro exactamente en esa situación, parado en la intersección del diseño, los sistemas y la dignidad humana, frente a la maquinaria kafkiana de un sistema de inmigración. Esto no es solo una narrativa personal; ilustra cómo los sistemas que diseñamos moldean nuestras interacciones, identidades e, incluso, nuestro valor como individuos. Se trata de cómo los sistemas, si no se supervisan adecuadamente, nos despojan de agencia, mérito y humanidad.
 
@@ -47,7 +45,7 @@ En mi caso, la decisión del sistema de inmigración no solo me afectó a mí: a
 
 Aquí es importante subrayar la idea de responsabilidad en el error. Los sistemas no solo deben tener en cuenta la posibilidad de cometer errores, sino también la responsabilidad de cumplir el propósito para el cual fueron diseñados. El formato o la forma del sistema no debe ser lo crucial; lo fundamental es que el propósito sea visible y siempre se cumpla. Cuando el propósito es relegado en favor de la forma, los sistemas tienden a perpetuar injusticias y errores sin ofrecer una vía de corrección. Un sistema bien diseñado debe mantener la vista fija en su propósito, permitiendo siempre una alineación entre lo que pretende lograr y cómo lo hace.
 
-![](/assets/wp-content/uploads/2024/09/papers-please.png)Fotograma del juego indie "Papers Please", el juego del control de inmigración.
+![Fotograma del juego indie "Papers Please", el juego del control de inmigración.](/assets/wp-content/uploads/2024/09/papers-please.png)
 
 **Nuevas Bases**
 
