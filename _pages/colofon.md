@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/doble-pagina/
 title: "Doble Página"
-seo_title: "Wordpress Theme: Doble Página"
+seo_title: "Cologón de Doble Página"
 description: "\"Doble Página\" (or simply 'dp') is wordpress theme based on a double\
   \ page spread, specially carfted for designers. Available for download on Github."
 date: 2014-10-27 13:59:50 -0000
@@ -12,6 +12,8 @@ pin: false
 categories: []
 tags: []
 ---
+
+
 **Actualización Noviembre 2018:** El Tema {dp} ya no es mantenido por el autor y estoy utilizando el tema [Cols de Wordpress](https://wordpress.com/theme/cols) para mantener la doble página como principio visual de este sitio.
 
 Este sitio, montado sobre [Wordpress](http://wordpress.org), utiliza el tema **{dp}** [disponible en github](http://www.github.com/hspencer/dp) bajo una licencia artística de libre disposición pudiendo ser utilizado como base para la creación de un tema nuevo.

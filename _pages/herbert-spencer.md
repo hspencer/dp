@@ -27,4 +27,6 @@ Actualmente, me desempeño como profesor en la Escuela de Arquitectura y Diseño
 
 Este es un camino de constante aprendizaje y exploración, donde el diseño construye el espacio entre la tecnología y las experiencias humanas.
 
+{% include perfil.html %}
+
 {% include mastodon.html %}
