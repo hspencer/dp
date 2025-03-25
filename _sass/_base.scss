@@ -1,24 +1,24 @@
-@import 'variables';
+@use 'variables'as vars;
 
 body {
-    background-color: $color-body-bg;
+    background-color: vars.$color-body-bg;
     font-size: 22px;
-    font-family: $font-serif;
-    color: $color-text;
+    font-family: vars.$font-serif;
+    color: vars.$color-text;
     margin: 0 auto;
-    padding: 0 $padding $padding $padding;
+    padding: vars.$padding;
 }
 
 header {
-    font-family: $font-sans;
-    font-size: $font-size-small;
+    font-family: vars.$font-sans;
+    font-size: vars.$font-size-small;
 
     .navbar {
         display: flex;
         margin: .26rem .26rem 0 .26rem;
         justify-content: space-between;
         align-items: center;
-        padding: $padding 0;
+        padding: vars.$padding 0;
 
         h1 {
             font-weight: 600;
@@ -31,23 +31,23 @@ header {
             margin-left: 1rem;
             text-decoration: none;
             cursor: pointer;
-            color: $color-text;
+            color: vars.$color-text;
         }
 
         a {
-            color: $color-text;
+            color: vars.$color-text;
             text-decoration: none;
             &:hover{
                 cursor: pointer;
-                color: $color-link;
+                color: vars.$color-link;
             }
         }
     }
 
     nav#main {
-        background-color: $color-dp-bg;
+        background-color: vars.$color-dp-bg;
         border-radius: 1ex;
-        padding: $padding;
+        padding: vars.$padding;
         position: absolute;
         z-index: 1000;
         right: 1.5rem;
@@ -64,7 +64,7 @@ header {
                 a {
                     display: inline-block;
                     padding: 1ex 1em;
-                    color: $color-link;
+                    color: vars.$color-link;
                     text-transform: uppercase;
                     text-decoration: none;
                 }
@@ -75,8 +75,8 @@ header {
 
 
 #dp {
-    background-color: $color-dp-bg;
-    background: $page-gradient;
+    background-color: vars.$color-dp-bg;
+    background: vars.$page-gradient;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -87,7 +87,7 @@ header {
     >* {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
-        // outline: 1px dashed $color-soft-line;
+        // outline: 1px dashed vars.$color-soft-line;
     }
 
 
@@ -99,7 +99,7 @@ header {
 
     a {
         text-decoration: none;
-        color: $color-link;
+        color: vars.$color-link;
     }
 
     sidebar {
@@ -111,13 +111,14 @@ header {
 
         time {
             display: block;
-            font-family: $font-sans;
+            font-family: vars.$font-sans;
             font-size: 12px;
             text-align: right;
         }
 
         figure {
             margin: 0;
+            text-align: center;
 
             img {
                 border-radius: .5ex;
@@ -128,10 +129,10 @@ header {
     article {
 
         h1, h2, h3, h4, h5, h6{
-            font-family: $font-sans;
+            font-family: vars.$font-sans;
             font-weight: 700;
             font-size: 80%;
-            color: $color-title;
+            color: vars.$color-title;
         }
 
         code {
@@ -140,7 +141,7 @@ header {
         }
 
         hr {
-            border-top: 1px dashed $color-soft-line;
+            border-top: 1px dashed vars.$color-soft-line;
             border-bottom: none;
             mix-blend-mode: multiply;
         }
@@ -176,7 +177,7 @@ header {
 @media (max-width: 768px) {
     #dp {
         display: block;
-        background: $color-dp-bg;
+        background: vars.$color-dp-bg;
     }
 }
 
@@ -187,7 +188,7 @@ header {
 }
 
 .mt-container {
-    font-size: $font-size-small;
+    font-size: vars.$font-size-small;
     filter: invert(1) hue-rotate(180deg);
     mix-blend-mode: multiply;
     border-radius: 1.5ex;
@@ -207,7 +208,7 @@ header {
     }
 
     .mt-content {
-        font-family: $font-sans;
+        font-family: vars.$font-sans;
         line-height: 1.2;
     }
     .mt-post-avatar{
@@ -216,16 +217,16 @@ header {
 }
 
 footer {
-    margin: $padding 0;
+    margin: vars.$padding 0;
     p{
         margin: 0;
         text-align: center;
-        font-family: $font-sans;
-        font-size: $font-size-small;
+        font-family: vars.$font-sans;
+        font-size: vars.$font-size-small;
 
         a{
             text-decoration: none;
-            color: $color-link;
+            color: vars.$color-link;
         }
     }
 }
@@ -252,19 +253,9 @@ footer {
     p{
         margin: 0;
         font-size: .76rem;
-        font-family: $font-sans;
+        font-family: vars.$font-sans;
         line-height: 105%;
     }
-}
-
-poem {
-    display: block;
-    white-space: pre;           // respeta saltos y espacios
-    color: darkorange;          // naranjo oscuro
-    font-size: 0.85rem;         // más pequeño
-    line-height: 1.4;
-    margin: 1.5em 0;
-    font-family: $font-serif; // si usas una fuente específica
 }
 
 .paginacion {
@@ -292,3 +283,30 @@ poem {
     }
   }
   
+  .axis-table{
+    font-family: vars.$font-sans;
+    font-size: vars.$font-size-small;
+    text-align: center;
+
+    th, td{
+        padding: .5ex;
+
+        a:hover{
+            background-color: vars.$color-bg;
+        }
+    }
+  }
+
+  .center-poem{
+    
+    h2{text-align: center;}
+
+    .poem{
+        font-family: vars.$font-serif;
+        white-space-collapse: pre;
+        text-align: center;
+        font-size: 90%;
+        line-height: 145%;
+    }
+
+  }
