@@ -1,13 +1,34 @@
 <header>
-    <h1 id="title"><a href="/">{{ site.title }}</a></h1>
-    <nav id="main">
+    <div class="navbar">
+        <h1 id="title"><a href="/">{{ site.title }}</a></h1>
+    
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
 
-    </nav>
-        {% for page in site.pages %}
-        <div class="pages">
-            <a href="{{ page.url | relative_url }}">
-            </a>
-        </div>
+    <nav id="main" hidden>
+      <ul>
+        {% assign pages_list = site.pages | where_exp: "p", "p.title" %}
+        {% for page in pages_list %}
+          <li>
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          </li>
         {% endfor %}
+      </ul>
     </nav>
-</header>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+  </header>

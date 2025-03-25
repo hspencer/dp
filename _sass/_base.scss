@@ -1,40 +1,180 @@
-@use 'variables' as vars;
+@use 'variables'as vars;
 
-body{
-    background-color: vars.$color-white;
+body {
+    background-color: vars.$color-body-bg;
     font-size: 22px;
     font-family: vars.$font-serif;
-    color: vars.$color-fg;
+    color: vars.$color-text;
     margin: 0 auto;
     padding: 1.52em;
 }
 
-header{
+header {
     font-family: vars.$font-sans;
-    h1{
-        font-size: 12px;
-        font-weight: 400;
+    font-size: vars.$font-size-small;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            font-weight: 600;
+            font-size: inherit;
+            display: inline-block;
+        }
+
+        #toggle-nav {
+            display: inline-block;
+            margin-left: 1rem;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        a{text-decoration: none;}
+    }
+
+    nav#main {
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        position: absolute;
+        z-index: 1000;
+        right: 1.5rem;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin: 0.25rem 0;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }
 
-#dp{
-    background-color: vars.$color-bg;
+#dp {
+    background-color: vars.$color-dp-bg;
     display: grid;
-    grid-template-columns: 50fr 50fr;
-    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     padding: 1.52em;
     border-radius: .78ex;
-}
 
+    >* {
+        min-width: 0; // evita que el contenido fuerce el ancho
+        overflow-wrap: break-word;
+        outline: 1px dashed vars.$color-soft-line;
+       }
 
-img{
-    mix-blend-mode: multiply;
-    max-width: 100%;
-}
-
-a{
-    text-decoration: none;
-    &:hover{
-        background-color: yellow;
+    @media (max-width: 768px) {
+        #dp {
+            display: block;
+        }
     }
+    img {
+        mix-blend-mode: multiply;
+        max-width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: vars.$color-link;
+    }
+
+    sidebar {
+        .title {
+            font-weight: 100;
+            font-size: 3rem;
+            margin: 0 0 .5em 0;
+        }
+
+        time {
+            display: block;
+            font-family: vars.$font-sans;
+            font-size: 12px;
+            text-align: right;
+        }
+
+        figure {
+            margin: 0;
+            img{
+                border-radius: .5ex;
+            }
+        }
+    }
+
+    article {
+
+        code {
+            font-size: .78rem;
+            line-height: 100%;
+        }
+
+        hr {
+            border-top: 1px dashed vars.$color-soft-line;
+            border-bottom: none;
+            mix-blend-mode: multiply;
+        }
+
+        .footnotes {
+            font-size: 0.85em;
+            margin-top: 2rem;
+
+            ol {
+                padding-left: 1.5rem;
+            }
+
+            a.footnote-ref {
+                text-decoration: none;
+            }
+
+            a.footnote-back {
+                margin-left: 0.5rem;
+                text-decoration: none;
+            }
+        }
+
+        #comments {
+            mix-blend-mode: multiply;
+        }
+    }
+}
+
+
+.mt-container .mt-body .mt-post:nth-of-type(n + 4) {
+    display: none;
+}
+
+.mt-container {
+    font-size: vars.$font-size-small;
+    background-color: transparent !important;
+
+    .mt-post {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        border-bottom: 1px dashed #ccc;
+    }
+
+    .mt-header,
+    .mt-footer {
+        display: none; // oculta avatar, fecha, botones, etc.
+    }
+
+    .mt-content {
+        line-height: 1.4;
+    }
+
+    .mt-media {
+        display: none; // oculta imágenes si quieres algo más limpio
+    }
+}
+
+footer{
+    font-family: vars.$font-sans;
+    font-size: vars.$font-size-small;
 }

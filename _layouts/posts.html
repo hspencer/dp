@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-    {% include head.html %}
-<body>
-
+  {% include head.html %}
+  <body>
     {% include header.html %}
-    
+
     <main id="dp">
-        <sidebar>
-            <h1>{{ page.title }}</h1>
-        </sidebar>
-        
-        <article>
-            {{ content | markdownify}}
-        </article>
-        
+      <sidebar>
+        <h1 class="title">{{ page.title }}</h1>
+
+        {% if page.image %}
+          <figure>
+            <img src="{{ page.image.path | relative_url }}" alt="{{ page.image.alt }}">
+          </figure>
+        {% endif %}
+
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%-d %B %Y" }}
+        </time>
+      </sidebar>
+
+      <article>
+        {{ content | convert_footnotes | markdownify }}
+        {% include comments.html %}
+      </article>
     </main>
-    
+
     {% include footer.html %}
-</body>
+  </body>
 </html>

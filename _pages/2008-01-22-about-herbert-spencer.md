@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about-herbert-spencer/
+permalink: /about/herbert-spencer/
 title: Herbert Spencer
 seo_title: "Acerca de mí: Herbert Spencer en {dp} - doble página"
 description: "Herbert Spencer es diseñador, emprendedor y profesor de Diseñ\
