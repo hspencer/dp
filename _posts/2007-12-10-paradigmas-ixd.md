@@ -7,6 +7,9 @@ date: 2007-12-10 12:54:04 -0000
 last_modified_at: 2007-12-10 12:54:04 -0000
 publish: true
 pin: false
+image:
+  path: /assets/uploads/2007/10/interaccion.png
+  alt: "modelo de interacción"
 categories:
 - notas
 tags:
@@ -17,7 +20,7 @@ Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacc
 
 ## La Performatividad del Objeto
 
-Algunos teóricos en la década del 70 complejizaron la idea Heideggeriana del objeto y de la cosa que "es siendo" incorporando la noción de _performatividad_. Las cosas ahora podí­an "hacer cosas" de manera autónoma o semi-autónoma. Por tanto, adquirieron un ánima que les confirió agencia y práctica: las máquinas comenzaron a ser vista como unas entidades capaces de transformar su entorno, instaurando un primer discurso pro-robótico. El debate derivado de estética de la performatividad de la cosa se abrió en posibilidades cuestionó también la noción de autor; la función productiva del "hacer cosas" dejó de ser la un atributo exclusivo en la poética del autor.  ![Modelo BÃ¡sico de InteracciÃ³n](http://www.herbertspencer.net/wp/wp-content/uploads/2007/12/interaccion.png)
+Algunos teóricos en la década del 70 complejizaron la idea Heideggeriana del objeto y de la cosa que "es siendo" incorporando la noción de _performatividad_. Las cosas ahora podí­an "hacer cosas" de manera autónoma o semi-autónoma. Por tanto, adquirieron un ánima que les confirió agencia y práctica: las máquinas comenzaron a ser vista como unas entidades capaces de transformar su entorno, instaurando un primer discurso pro-robótico. El debate derivado de estética de la performatividad de la cosa se abrió en posibilidades cuestionó también la noción de autor; la función productiva del "hacer cosas" dejó de ser la un atributo exclusivo en la poética del autor. 
 
 ## La Usabilidad
 

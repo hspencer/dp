@@ -6,7 +6,7 @@ body {
     font-family: vars.$font-serif;
     color: vars.$color-text;
     margin: 0 auto;
-    padding: 1.52em;
+    padding: 0 vars.$padding vars.$padding vars.$padding;
 }
 
 header {
@@ -17,6 +17,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: vars.$padding 0;
 
         h1 {
             font-weight: 600;
@@ -29,17 +30,27 @@ header {
             margin-left: 1rem;
             text-decoration: none;
             cursor: pointer;
+            color: vars.$color-text;
         }
 
-        a{text-decoration: none;}
+        a {
+            color: vars.$color-text;
+            text-decoration: none;
+            &:hover{
+                cursor: pointer;
+                color: vars.$color-link;
+            }
+        }
     }
 
     nav#main {
-        padding: 0.5rem;
-        margin-top: 0.5rem;
+        background-color: vars.$color-dp-bg;
+        border-radius: 1ex;
+        padding: vars.$padding;
         position: absolute;
         z-index: 1000;
         right: 1.5rem;
+        box-shadow: 0 0 10px #00000022;
 
         ul {
             list-style: none;
@@ -50,6 +61,10 @@ header {
                 margin: 0.25rem 0;
 
                 a {
+                    display: inline-block;
+                    padding: 1ex 1em;
+                    color: vars.$color-link;
+                    text-transform: uppercase;
                     text-decoration: none;
                 }
             }
@@ -57,25 +72,25 @@ header {
     }
 }
 
+
 #dp {
     background-color: vars.$color-dp-bg;
+    background: vars.$page-gradient;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 6rem;
     padding: 1.52em;
     border-radius: .78ex;
+    box-shadow: 0 0 10px #00000022;
 
     >* {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
-        outline: 1px dashed vars.$color-soft-line;
-       }
-
-    @media (max-width: 768px) {
-        #dp {
-            display: block;
-        }
+        // outline: 1px dashed vars.$color-soft-line;
     }
+
+
+
     img {
         mix-blend-mode: multiply;
         max-width: 100%;
@@ -102,13 +117,21 @@ header {
 
         figure {
             margin: 0;
-            img{
+
+            img {
                 border-radius: .5ex;
             }
         }
     }
 
     article {
+
+        h1, h2, h3, h4, h5, h6{
+            font-family: vars.$font-sans;
+            font-weight: 700;
+            font-size: 80%;
+            color: vars.$color-title;
+        }
 
         code {
             font-size: .78rem;
@@ -145,6 +168,13 @@ header {
     }
 }
 
+@media (max-width: 768px) {
+    #dp {
+        display: block;
+    }
+}
+
+/* mastodon */
 
 .mt-container .mt-body .mt-post:nth-of-type(n + 4) {
     display: none;
@@ -174,7 +204,17 @@ header {
     }
 }
 
-footer{
-    font-family: vars.$font-sans;
+footer {
+    margin: vars.$padding 0;
+    p{
+        margin: 0;
+        text-align: center;
+        font-family: vars.$font-sans;
     font-size: vars.$font-size-small;
+
+    a{
+        text-decoration: none;
+        color: vars.$color-link;
+    }
+    }
 }

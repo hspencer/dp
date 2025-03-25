@@ -10,10 +10,10 @@ date: 2008-01-22 14:29:52 -0000
 last_modified_at: 2024-02-21 04:17:57 -0000
 publish: true
 pin: false
-image:
-  path: /assets/uploads/2008/01/4120596368_b4ba6edc28_o.png
 categories: []
 tags: []
+p5:
+  script: /assets/p5/timeline.js
 ---
 Me llamo Herbert Spencer González, diseñador gráfico formado en los albores de la era digital, testigo y partícipe de las transformaciones radicales en nuestra profesión. La llegada de Internet redefinió la publicación y la comunicación gráfica, impulsándonos a explorar nuevas formas de interacción y comprensión.
 
@@ -26,3 +26,5 @@ En los últimos años, mi atención se ha dirigido hacia la revolución de la in
 Actualmente, me desempeño como profesor en la Escuela de Arquitectura y Diseño PUCV, donde imparto talleres de diseño avanzado. Además, aplico mi experiencia como consultor de diseño en estrategia, interacción y experiencia de usuario. Mi formación en Diseño de Interacción en Carnegie Mellon y mi investigación en notación y modelación de valor en diseño de experiencias continúan nutriendo mi práctica y enseñanza.
 
 Este es un camino de constante aprendizaje y exploración, donde el diseño construye el espacio entre la tecnología y las experiencias humanas.
+
+{% include mastodon.html %}

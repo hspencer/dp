@@ -1,0 +1,11 @@
+<div class="last-posts">
+    {% for post in site.posts limit: 4 %}
+    <div class="post-item">
+      {% if post.image %}
+      <img src="{{ post.image.path | relative_url }}" alt="{{ post.title | escape }}">
+      {% endif %}
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+    </div>
+    {% endfor %}
+  </div> 
