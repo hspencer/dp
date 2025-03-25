@@ -7,14 +7,9 @@ Este sitio ha tenido un largo recorrido. Comenzó en 2003 como mi carpeta person
 Migré todo a jekyll y lo voy a mantener en Github.
 
 
-Esta rama (la 3.10) está retrasada para ser compatible con github. Utiliza la gema especial.
-
 ```
 bundle exec jekyll serve --host 0.0.0.0 --livereload
 ```
-
-
-
 ### cosas de migración 
 
 ```
@@ -22,6 +17,7 @@ bundle exec jekyll serve --host 0.0.0.0 --livereload
 chmod +x reparar_permisos.sh
 ./reparar_permisos.sh
 ```
+
 ### ToDo
 
 - citePage
