@@ -6,7 +6,7 @@ body {
     font-family: vars.$font-serif;
     color: vars.$color-text;
     margin: 0 auto;
-    padding: 0 vars.$padding vars.$padding vars.$padding;
+    padding: vars.$padding;
 }
 
 header {
@@ -118,6 +118,7 @@ header {
 
         figure {
             margin: 0;
+            text-align: center;
 
             img {
                 border-radius: .5ex;
@@ -257,16 +258,6 @@ footer {
     }
 }
 
-poem {
-    display: block;
-    white-space: pre;           // respeta saltos y espacios
-    color: darkorange;          // naranjo oscuro
-    font-size: 0.85rem;         // más pequeño
-    line-height: 1.4;
-    margin: 1.5em 0;
-    font-family: vars.$font-serif; // si usas una fuente específica
-}
-
 .paginacion {
     display: flex;
     justify-content: center;
@@ -292,3 +283,30 @@ poem {
     }
   }
   
+  .axis-table{
+    font-family: vars.$font-sans;
+    font-size: vars.$font-size-small;
+    text-align: center;
+
+    th, td{
+        padding: .5ex;
+
+        a:hover{
+            background-color: vars.$color-bg;
+        }
+    }
+  }
+
+  .center-poem{
+    
+    h2{text-align: center;}
+
+    .poem{
+        font-family: vars.$font-serif;
+        white-space-collapse: pre;
+        text-align: center;
+        font-size: 90%;
+        line-height: 145%;
+    }
+
+  }
