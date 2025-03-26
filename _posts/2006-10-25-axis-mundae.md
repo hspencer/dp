@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2006/10/axis-mundane/
 title: Axis Mundane
-description: None
 date: 2006-10-25 15:43:41 -0000
 last_modified_at: 2006-10-25 15:43:41 -0000
 publish: true
-pin: false
 categories:
 - code
 tags:

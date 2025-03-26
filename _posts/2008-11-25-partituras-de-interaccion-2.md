@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/11/partituras-de-interaccion-2/
 title: "Partituras de Interacción"
-description: None
 date: 2008-11-25 22:04:15 -0000
 last_modified_at: 2008-11-25 22:04:15 -0000
 publish: true
-pin: false
 categories:
 - escuela
 - "investigación"

@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/02/teselador/
 title: Teselador
-description: None
 date: 2008-02-29 19:26:58 -0000
 last_modified_at: 2008-02-29 19:26:58 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

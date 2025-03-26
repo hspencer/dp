@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/08/voluntarios-para-iv-seminario-de-ai/
 title: Voluntarios para IV Seminario de AI
-description: None
 date: 2008-08-26 16:09:15 -0000
 last_modified_at: 2008-08-26 16:09:15 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

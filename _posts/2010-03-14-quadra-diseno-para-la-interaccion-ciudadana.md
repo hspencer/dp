@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2010/03/quadra-diseno-para-la-interaccion-ciudadana/
 title: "Quadra: Diseño para la Interacción Ciudadana"
-description: None
 date: 2010-03-14 23:28:45 -0000
 last_modified_at: 2010-03-14 23:28:45 -0000
 publish: true
-pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2010/03/quadraThumbs1.png
 categories:

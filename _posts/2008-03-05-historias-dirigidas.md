@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/03/historias-dirigidas/
 title: 'Historias Dirigidas: Interpretando Experiencias'
-description: None
 date: 2008-03-06 01:17:17 -0000
 last_modified_at: 2008-03-06 01:17:17 -0000
 publish: true
-pin: false
 categories:
 - "investigación"
 tags:

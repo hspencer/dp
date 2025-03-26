@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/08/iv-seminario-chileno-de-ai/
 title: IV Seminario Chileno de AI
-description: None
 date: 2008-08-25 00:57:01 -0000
 last_modified_at: 2008-08-25 00:57:01 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

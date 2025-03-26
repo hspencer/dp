@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2005/01/de-como-una-cosa-se-junta-con-otra/
 title: "De cómo una cosa se junta con otra"
-description: None
 date: 2005-01-10 19:15:56 -0000
 last_modified_at: 2005-01-10 19:15:56 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

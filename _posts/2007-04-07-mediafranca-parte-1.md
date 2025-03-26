@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2007/04/mediafranca-parte-1/
 title: MediaFranca, parte 1
-description: None
 date: 2007-04-07 15:36:56 -0000
 last_modified_at: 2007-04-07 15:36:56 -0000
 publish: true
-pin: false
 categories:
 - "investigación"
 tags:

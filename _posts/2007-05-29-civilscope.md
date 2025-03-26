@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2007/05/civilscope/
 title: Civilscope
-description: None
 date: 2007-05-29 15:32:59 -0000
 last_modified_at: 2007-05-29 15:32:59 -0000
 publish: true
-pin: false
 categories:
 - code
 - imagen

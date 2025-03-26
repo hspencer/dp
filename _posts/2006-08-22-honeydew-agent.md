@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2006/08/honeydew-agent/
 title: Honeydew Agent
-description: None
 date: 2006-08-22 16:42:13 -0000
 last_modified_at: 2006-08-22 16:42:13 -0000
 publish: true
-pin: false
 categories:
 - "investigación"
 tags:

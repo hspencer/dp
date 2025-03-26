@@ -8,7 +8,6 @@ description: "El diseño participativo puede ser una herramienta muy poderosa si
 date: 2015-10-16 13:58:21 -0000
 last_modified_at: 2023-08-22 12:49:42 -0000
 publish: true
-pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2015/10/pix-collab.jpg
 categories:

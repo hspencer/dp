@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/06/marcianitos-2/
 title: Marcianitos
-description: None
 date: 2008-06-28 00:56:23 -0000
 last_modified_at: 2022-01-31 19:22:12 -0000
 publish: true
-pin: false
 vimeo:
   url: https://vimeo.com/1245376?share=copy
 categories:

@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/10/taller-de-obra-suelo-teselado/
 title: 'Taller de Obra: Suelo Teselado'
-description: None
 date: 2008-10-02 02:27:59 -0000
 last_modified_at: 2008-10-02 02:27:59 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

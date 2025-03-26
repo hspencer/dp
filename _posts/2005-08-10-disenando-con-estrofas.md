@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2005/08/disenando-con-estrofas/
 title: "Diseñando con Estrofas"
-description: None
 date: 2005-08-10 21:24:11 -0000
 last_modified_at: 2005-08-10 21:24:11 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

@@ -28,8 +28,8 @@ chmod +x reparar_permisos.sh
 
 ```
 rbenv versions
-
-
+rbenv install 2.7.6
+rbenv local 2.7.6
 ```
 
 ### ToDo
@@ -38,3 +38,17 @@ rbenv versions
 - Arreglar Axis Mundae y revisar todos los posts en general
 - formatear para footnotes
 - hacer el colofón
+
+
+### Gestión del sidebar en los posts
+
+```
+---
+title: Mi Post
+sidebar: >
+  <div class="extra-info">
+    <p>Este post fue presentado en el seminario 2025.</p>
+    {% include compartir.html %}
+  </div>
+---
+```

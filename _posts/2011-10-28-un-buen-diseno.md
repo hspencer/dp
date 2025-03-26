@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2011/10/un-buen-diseno/
 title: "Un Buen Diseño"
-description: None
 date: 2011-10-28 22:52:56 -0000
 last_modified_at: 2011-10-28 22:52:56 -0000
 publish: true
-pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2011/10/stmaryplate2big1.jpg
 categories:

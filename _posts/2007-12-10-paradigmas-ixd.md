@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2007/12/paradigmas-ixd/
 title: "Paradigmas del Diseño de Interacción"
-description: None
 date: 2007-12-10 12:54:04 -0000
 last_modified_at: 2007-12-10 12:54:04 -0000
 publish: true
-pin: false
 image:
   path: /assets/uploads/2007/10/interaccion.png
   alt: "modelo de interacción"

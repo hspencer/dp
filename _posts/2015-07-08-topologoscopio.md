@@ -7,7 +7,6 @@ description: "Instalación de diseño y arquitectura en la muestra \"Work in Pro
 date: 2015-07-08 22:51:26 -0000
 last_modified_at: 2015-08-02 22:32:09 -0000
 publish: true
-pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2015/07/IMG_7336.jpg
 categories:

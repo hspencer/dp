@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/08/iv-seminario-chileno-de-ia/
 title: IV Seminario Chileno de IA
-description: None
 date: 2008-08-22 17:16:12 -0000
 last_modified_at: 2008-08-22 17:16:12 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

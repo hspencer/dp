@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2009/04/transparencia-radical/
 title: Transparencia Radical
-description: None
 date: 2009-04-21 23:44:25 -0000
 last_modified_at: 2009-04-21 23:44:25 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

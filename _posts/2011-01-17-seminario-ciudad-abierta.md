@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2011/01/seminario-ciudad-abierta/
 title: Seminario Ciudad Abierta
-description: None
 date: 2011-01-17 20:24:38 -0000
 last_modified_at: 2011-01-17 20:24:38 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

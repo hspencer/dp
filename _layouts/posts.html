@@ -7,7 +7,6 @@
     <main id="dp">
       <sidebar>
         <h1 class="title">{{ page.title }}</h1>
-
         {% if page.image %}
           <figure>
             <img src="{{ page.image.path | relative_url }}" alt="{{ page.image.alt }}">
@@ -23,6 +22,12 @@
         <time datetime="{{ page.date | date_to_xmlschema }}">
           {{ page.date | date: "%-d %B %Y" }}
         </time>
+
+        {% include citar.html %}
+        
+        {% if page.sidebar %}
+          {{ page.sidebar }}
+        {% endif %}
       </sidebar>
 
       <article>

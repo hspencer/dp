@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/09/todo-depende-del-cristal-con-que-se-mire/
 title: Todo depende del cristal con que se mire
-description: None
 date: 2008-09-30 14:42:50 -0000
 last_modified_at: 2008-09-30 14:42:50 -0000
 publish: true
-pin: false
 categories:
 - imagen
 - notas

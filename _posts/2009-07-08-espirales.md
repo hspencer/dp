@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2009/07/espirales/
 title: Espirales
-description: None
 date: 2009-07-09 03:35:23 -0000
 last_modified_at: 2015-08-02 22:10:40 -0000
 publish: true
-pin: false
 categories:
 - code
 tags:

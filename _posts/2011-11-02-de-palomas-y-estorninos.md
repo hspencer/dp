@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2011/11/de-palomas-y-estorninos/
 title: De Palomas y Estorninos
-description: None
 date: 2011-11-02 10:33:01 -0000
 last_modified_at: 2014-11-01 02:10:25 -0000
 publish: true
-pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2011/11/palomas-estorninos.png
 categories:

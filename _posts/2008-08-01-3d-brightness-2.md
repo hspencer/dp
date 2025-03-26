@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/08/3d-brightness-2/
 title: 3D Brightness
-description: None
 date: 2008-08-01 22:16:18 -0000
 last_modified_at: 2008-08-01 22:16:18 -0000
 publish: true
-pin: false
 categories:
 - imagen
 tags: []

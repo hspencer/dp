@@ -8,7 +8,6 @@ description: This is an interactive demosntration depicting a mesh network at wo
 date: 2010-11-30 21:42:19 -0000
 last_modified_at: 2015-08-02 21:30:39 -0000
 publish: true
-pin: false
 categories:
 - code
 tags:

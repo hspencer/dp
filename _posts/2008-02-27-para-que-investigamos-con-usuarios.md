@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/02/para-que-investigamos-con-usuarios/
 title: "Para qué investigamos con usuarios"
-description: None
 date: 2008-02-28 03:41:38 -0000
 last_modified_at: 2008-02-28 03:41:38 -0000
 publish: true
-pin: false
 categories:
 - "investigación"
 tags:

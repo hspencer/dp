@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2005/04/evolucion-y-ocupacion-del-espacio/
 title: "Evolución y Ocupación del Espacio"
-description: None
 date: 2005-04-30 03:27:45 -0000
 last_modified_at: 2005-04-30 03:27:45 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

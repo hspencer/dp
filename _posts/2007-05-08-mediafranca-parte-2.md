@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2007/05/mediafranca-parte-2/
 title: MediaFranca, parte 2
-description: None
 date: 2007-05-08 15:48:35 -0000
 last_modified_at: 2007-05-08 15:48:35 -0000
 publish: true
-pin: false
 categories:
 - "investigación"
 tags:

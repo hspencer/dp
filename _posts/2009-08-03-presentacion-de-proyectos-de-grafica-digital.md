@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2009/08/presentacion-de-proyectos-de-grafica-digital/
 title: "Presentación de Proyectos de Gráfica Digital"
-description: None
 date: 2009-08-04 02:02:33 -0000
 last_modified_at: 2009-08-04 02:02:33 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

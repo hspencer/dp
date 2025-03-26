@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/
 title: "La Experiencia del Taller de Primer Año de Diseño"
-description: None
 date: 2009-12-29 16:15:35 -0000
 last_modified_at: 2009-12-29 16:15:35 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

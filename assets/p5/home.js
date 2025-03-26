@@ -35,7 +35,8 @@ function stopTouchScrolling(canvas){
 }
 
 function setup() {
-  cnv = createCanvas(document.getElementById('p5').offsetWidth, 600);
+  let h = document.getElementById('last-posts').offsetHeight - 100;
+  cnv = createCanvas(document.getElementById('p5').offsetWidth, h);
   cnv.parent('p5');
   stopTouchScrolling(document.getElementById('p5'));
   textFont('Barlow');

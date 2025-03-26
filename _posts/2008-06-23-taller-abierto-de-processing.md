@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/06/taller-abierto-de-processing/
 title: Taller Abierto de Processing
-description: None
 date: 2008-06-23 17:48:27 -0000
 last_modified_at: 2008-06-23 17:48:27 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

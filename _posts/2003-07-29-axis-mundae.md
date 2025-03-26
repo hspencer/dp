@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2003/07/axis-mundae/
 title: Axis Mundae
-description: None
 date: 2003-07-29 15:32:58 -0000
 last_modified_at: 2003-07-29 15:32:58 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

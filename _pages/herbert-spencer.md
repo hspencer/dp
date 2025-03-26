@@ -9,7 +9,6 @@ description: "Herbert Spencer es diseñador, emprendedor y profesor de Diseñ\
 date: 2008-01-22 14:29:52 -0000
 last_modified_at: 2024-02-21 04:17:57 -0000
 publish: true
-pin: false
 categories: []
 tags: []
 p5:

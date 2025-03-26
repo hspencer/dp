@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/10/como-disenar-democracia-en-la-red/
 title: "Cómo diseñar democracia en la red"
-description: None
 date: 2008-10-23 13:30:54 -0000
 last_modified_at: 2008-10-23 13:30:54 -0000
 publish: true
-pin: false
 categories:
 - "investigación"
 - notas

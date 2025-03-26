@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2017/02/numeros-modulares/
 title: "Números Modulares"
-description: None
 date: 2017-02-26 18:00:42 -0000
 last_modified_at: 2018-11-05 01:11:32 -0000
 publish: true
-pin: false
 image:
   path: http://www.herbertspencer.net/wp-content/uploads/2017/02/Captura-de-pantalla-2018-11-01-a-las-13.50.49.png
 categories:

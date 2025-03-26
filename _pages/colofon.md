@@ -8,7 +8,6 @@ description: "\"Doble Página\" (or simply 'dp') is wordpress theme based on a d
 date: 2014-10-27 13:59:50 -0000
 last_modified_at: 2018-11-01 20:34:40 -0000
 publish: true
-pin: false
 categories: []
 tags: []
 ---
