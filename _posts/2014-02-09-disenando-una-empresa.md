@@ -1,6 +1,6 @@
 ---
 layout: posts
-permalink: /?p=1650
+permalink: /2014/02/Diseñando-una-Empresa
 title: "Diseñando una Empresa"
 description: None
 date: 2014-02-09 13:00:00

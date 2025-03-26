@@ -13,7 +13,7 @@ tags:
 - "Diseño Gráfico"
 - "interacción"
 image:
-  path: /assets/uploads/2003/07/axis-mundae.png
+  path: /assets/uploads/axis-9.gif
 ---
 
 <p style="font-family: Barlow; font-size: 60%"><b>Instrucciones al lector:</b>
@@ -234,81 +234,85 @@ Este poema está construído a partir de todas las continuidades posibles en la 
 <td><a href="#9u">9u</a>
 </td></tr></tbody></table>
 
+<br><br><br>
+
+
 <div class="center-poem">
-<h1><span class="mw-headline" id="1">1</span></h1>
+
+<h2><span class="mw-headline" id="1">1</span></h2>
 <h3><span class="mw-headline" id="La_Luz_de_lo_Visible">La Luz de lo Visible</span></h3>
-<div class="poem">
+<p class="poem">
 El eje induce al cielo
 a recogerle desde los hilos
 alzando el salto que los partiría en el sacrificio
 y será devuelto íntegro el cuerpo
 luego del quiebre.
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="1_al_2">1 al 2</span></h2>
 <h3><span id="Inicia_S.C3.AD"></span><span class="mw-headline" id="Inicia_Sí">Inicia Sí</span></h3>
-<div class="poem">
+<p class="poem">
 Puesto que el punto que inicia
 ya dio sus alardes a la estrofa
 y prima el valuarte
 legión primitiva
 decía de sí
 el pasaje
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
 <h2><span class="mw-headline" id="1_al_3">1 al 3</span></h2>
 <h3><span class="mw-headline" id="Mi">Mi</span></h3>
-<div class="poem">
+<p class="poem">
 Entre nudo, trazo y tiro
 neutra eterna que no desciende
 hace cifra y deja al día
 a su merced
 si la hora
 place
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="1_al_4">1 al 4</span></h2>
 <h3><span id="Hey_.21.21"></span><span class="mw-headline" id="Hey_!!">Hey&#160;!!</span></h3>
-<div class="poem">
+<p class="poem">
 Un brinco estrecha la distancia
 si aviso decomisa la conciencia
 el orden dinamiza
 estira y prolonga
 sin cesar
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="1_al_5">1 al 5</span></h2>
 <h3><span id="Quiz.C3.A1_Su"></span><span class="mw-headline" id="Quizá_Su">Quizá Su</span></h3>
-<div class="poem">
+<p class="poem">
 Le liga una rueda enrarecida
 una cinta que no deja
 de tener un símil
 parecido a su contrario
 en el arribo
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
 <h2><span class="mw-headline" id="1_al_6">1 al 6</span></h2>
 <h3><span class="mw-headline" id="Tal_Fue_Que">Tal Fue Que</span></h3>
-<div class="poem">
+<p class="poem">
 Cuando suma paralela y lineatura
 el edén deja el río en las cruzadas
 este sí
 este no
 de una realidad
 amenazante
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="1_al_7">1 al 7</span></h2>
 <h3><span id="El_.C3.81rbol"></span><span class="mw-headline" id="El_Árbol">El Árbol</span></h3>
-<div class="poem">
+<p class="poem">
 Uno punto y todo
 alimenta y recoge de la siembra
 la raíz de un fruto dulce
 que en la boca
 deshace el ansia
 indispensable
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="1_al_8">1 al 8</span></h2>
 <h3><span class="mw-headline" id="Verdad">Verdad</span></h3>
-<div class="poem">
+<p class="poem">
 Cada lazo enciende
 el sucesivo acontecer
 la índole consiente
@@ -316,45 +320,45 @@ al bienvenido
 que ciego se debate
 adentro
 del enjambre
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="1_al_9">1 al 9</span></h2>
 <h3><span class="mw-headline" id="El_Porvenir">El Porvenir</span></h3>
-<div class="poem">
+<p class="poem">
 Cantidades iban solas
 deleitando a algún lector
 que va saltando
 del apéndice a la notación
 y viceversa
 al colofón
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
-<h1><span class="mw-headline" id="2">2</span></h1>
+<h2><span class="mw-headline" id="2">2</span></h2>
 <h3><span id="El_N.C3.BAmero_Uno"></span><span class="mw-headline" id="El_Número_Uno">El Número Uno</span></h3>
-<div class="poem">
+<p class="poem">
 La sortida
 el genocidio del árbol y la identidad
 el Stilo Nuovo
 el pedido y la complacencia
 la soledad
 y la casa nueva
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
 <h2><span class="mw-headline" id="2_al_1">2 al 1</span></h2>
 <h3><span class="mw-headline" id="Y_En_Tris">Y En Tris</span></h3>
-<div class="poem">
+<p class="poem">
 Mientras hoy la luz retiene
 amanece en la memoria
 lo que era un precedente
 y el sueño
 venía de la tarde
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
 <h2><span class="mw-headline" id="2_al_3">2 al 3</span></h2>
 <h3><span class="mw-headline" id="Se_Da">Se Da</span></h3>
-<div class="poem">
+<p class="poem">
 Lo más entrañable
 era ir
 de uno al otro lado
@@ -362,19 +366,19 @@ comprendiendo
 que la media luna llena todo
 y la noche
 esclarece.
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="2_al_4">2 al 4</span></h2>
 <h3><span class="mw-headline" id="Decae">Decae</span></h3>
-<div class="poem">
+<p class="poem">
 En el prisma se trasluce
 la sagrada intimidad
 del paso a paso
 y el que sabe andar
 persiste
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="2_al_5">2 al 5</span></h2>
 <h3><span class="mw-headline" id="De">De</span></h3>
-<div class="poem">
+<p class="poem">
 El signo que al párrafo
 ilumina
 advierte que alguno
@@ -382,30 +386,30 @@ cursó de soslayo
 perfil por perfil
 la osadía
 del viento
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="2_al_6">2 al 6</span></h2>
 <h3><span class="mw-headline" id="La_Ruta_Si">La Ruta Si</span></h3>
-<div class="poem">
+<p class="poem">
 Que ver que imagina
 verdear el paseo
 tomarle la mano
 y llevar a la historia
 el golpe
 la fuerza y las paces
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="2_al_7">2 al 7</span></h2>
 <h3><span id="Volvi.C3.B3"></span><span class="mw-headline" id="Volvió">Volvió</span></h3>
-<div class="poem">
+<p class="poem">
 La ruta instruye al caminante
 y emancipa su fervor
 abriendo puertas
 y velando
 en el umbral
 su parsimonia
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="2_al_8">2 al 8</span></h2>
 <h3><span class="mw-headline" id="No_Sea">No Sea</span></h3>
-<div class="poem">
+<p class="poem">
 Parecía encontrar un alta
 voz
 el retiro que lo lleva
@@ -413,12 +417,12 @@ en el instante
 a dejar la boca muda
 y quieta
 el arma
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
 <h2><span class="mw-headline" id="2_al_9">2 al 9</span></h2>
 <h3><span id=".C3.89l"></span><span class="mw-headline" id="Él">Él</span></h3>
-<div class="poem">
+<p class="poem">
 En el cinto leía
 la feliz culminación
 que hubo partido
@@ -427,98 +431,97 @@ y sigue en sus remansos
 el amante
 que conduce
 </p>
-</div>
-<h1><span class="mw-headline" id="3">3</span></h1>
+<h2><span class="mw-headline" id="3">3</span></h2>
 <h3><span class="mw-headline" id="La_Oda_del_Orden">La Oda del Orden</span></h3>
-<div class="poem">
+<p class="poem">
 Estado así se reconforta
 y lo que es secreto deja de serlo
 abre la luz
 y las atemporalidades
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="3_al_1">3 al 1</span></h2>
 <h3><span class="mw-headline" id="Y_a_La">Y a La</span></h3>
-<div class="poem">
+<p class="poem">
 El soplo del cielo
 difundía las causas
 del caso crucial
 uno fuerte
 y el débil
 receptor
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="3_al_2">3 al 2</span></h2>
 <h3><span id="S.C3.B3lo"></span><span class="mw-headline" id="Sólo">Sólo</span></h3>
-<div class="poem">
+<p class="poem">
 Trazado del ángel que
 descubre
 un alero en un recodo
 cerca de la vida
 que mortal
 perece
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="3_al_4">3 al 4</span></h2>
 <h3><span id="O_Qu.C3.A9"></span><span class="mw-headline" id="O_Qué">O Qué</span></h3>
-<div class="poem">
+<p class="poem">
 En la cual ella entrega
 hace y contempla
 el día culminado
 entre la dicha
 y el pasmo
 capital
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="3_al_5">3 al 5</span></h2>
 <h3><span class="mw-headline" id="Mar_Por">Mar Por</span></h3>
-<div class="poem">
+<p class="poem">
 El paso sucesivo y anhelante
 en cada premisa
 el mundo pacifica
 la región en que se yace
 como un cardo
 persistente
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="3_al_6">3 al 6</span></h2>
 <h3><span id="Las_M.C3.A1s"></span><span class="mw-headline" id="Las_Más">Las Más</span></h3>
-<div class="poem">
+<p class="poem">
 Pareciera que al ojo
 se vinieran todos juntos
 los que extreman
 y los más íntimos
 los centros
 y sus lazos
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="3_al_7">3 al 7</span></h2>
 <h3><span class="mw-headline" id="Digo">Digo</span></h3>
-<div class="poem">
+<p class="poem">
 Por vialidad el grandor
 que al menos especula
 fascina
 hasta que el llanto
 hace del éxtasis
 un conglomerado
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="3_al_8">3 al 8</span></h2>
 <h3><span id="Alz.C3.B3se"></span><span class="mw-headline" id="Alzóse">Alzóse</span></h3>
-<div class="poem">
+<p class="poem">
 Ellos partieron en las medianías
 donde no había retensión
 y lo inanimado
 aparecía
 y desaparecía
 aquí y allá
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="3_al_9">3 al 9</span></h2>
 <h3><span id="Abre_.C3.93"></span><span class="mw-headline" id="Abre_Ó">Abre Ó</span></h3>
-<div class="poem">
+<p class="poem">
 Los vastos tramos y las minucias
 como animales encaramados
 lejos del sitio
 del nacimiento
 que aquí
 se olvida
-</div> <a href="#Índice">↑</a>
-<h1><span class="mw-headline" id="4">4</span></h1>
+</p> <a href="#Índice">↑</a>
+<h2><span class="mw-headline" id="4">4</span></h2>
 <h3><span class="mw-headline" id="Las_Partes_del_Cuerpo">Las Partes del Cuerpo</span></h3>
-<div class="poem">
+<p class="poem">
 ¿Qué deja de hacerse?
 …
 adeus mes creaturas
@@ -526,10 +529,10 @@ mis individuos
 jamás lo comprendido
 levantó el ancla
 de las virtudes
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="4_al_1">4 al 1</span></h2>
 <h3><span class="mw-headline" id="La_Edad">La Edad</span></h3>
-<div class="poem">
+<p class="poem">
 El tenor del enjambre
 conduce a una sola
 a ser reina
@@ -538,40 +541,40 @@ la flor
 que en la vida
 se da
 por doquier
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="4_al_2">4 al 2</span></h2>
 <h3><span class="mw-headline" id="El_Axioma_Que">El Axioma Que</span></h3>
-<div class="poem">
+<p class="poem">
 Da la idea que uno ronda
 entre las zarzas
 y divisa un horizonte
 que no cesa
 de causar
 alejamientos
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="4_al_3">4 al 3</span></h2>
 <h3><span class="mw-headline" id="Virtus">Virtus</span></h3>
-<div class="poem">
+<p class="poem">
 Todo por verle apareciendo
 de una vez y para siempre
 quedándose y aliviando
 la espera
 que promete
 la esperanza
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="4_al_5">4 al 5</span></h2>
 <h3><span class="mw-headline" id="El_Eje">El Eje</span></h3>
-<div class="poem">
+<p class="poem">
 Luz que agudiza las líneas
 del roble
 que rinde homenaje a la sombra
 y paciente las tintas
 reinciden
 de nuevo
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="4_al_6">4 al 6</span></h2>
 <h3><span class="mw-headline" id="O_No">O No</span></h3>
-<div class="poem">
+<p class="poem">
 A su vez ella fuera de sí
 cantaba y se iba
 delgada y silente
@@ -579,20 +582,20 @@ tomando
 aquí y allá
 las flores pintadas
 por mí
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="4_al_7">4 al 7</span></h2>
 <h3><span class="mw-headline" id="Devino">Devino</span></h3>
-<div class="poem">
+<p class="poem">
 Ellos saben rodear las estancias
 eterna bondad del gentío
 era el genio que lo levantaba
 al seno aparente
 de su
 juventud
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="4_al_8">4 al 8</span></h2>
 <h3><span class="mw-headline" id="O_las_Alas">O las Alas</span></h3>
-<div class="poem">
+<p class="poem">
 Quizá todo perdía
 su parte
 un santo tendió
@@ -601,10 +604,10 @@ besando los suelos
 que habían abierto
 el sendero
 del orbe
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="4_al_9">4 al 9</span></h2>
 <h3><span class="mw-headline" id="Por_Uno">Por Uno</span></h3>
-<div class="poem">
+<p class="poem">
 El hogar tardaría
 en hacerse la casa
 las fuerzas que adentro
@@ -612,30 +615,30 @@ alzaban el fuego
 vestían la escena
 de dulce
 promesa
-</div> <a href="#Índice">↑</a>
-<h1><span class="mw-headline" id="5">5</span></h1>
+</p> <a href="#Índice">↑</a>
+<h2><span class="mw-headline" id="5">5</span></h2>
 <h3><span class="mw-headline" id="El_Oscuro_Mar">El Oscuro Mar</span></h3>
-<div class="poem">
+<p class="poem">
 Todo profano
 mortal prudencia
 la supresión dignificada
 y el nuevo auxilio sirviendo al mundo
 sin pleitesías
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
 <h2><span class="mw-headline" id="5_al_1">5 al 1</span></h2>
 <h3><span class="mw-headline" id="Entre">Entre</span></h3>
-<div class="poem">
+<p class="poem">
 Le enviaría en su senda
 llevar la encomienda
 la casa que funda
 el acta del pueblo
 y la nueva bandera
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="5_al_2">5 al 2</span></h2>
 <h3><span class="mw-headline" id="Al_Hall">Al Hall</span></h3>
-<div class="poem">
+<p class="poem">
 Al doble del río
 cruzaban las barcas
 y andaban silentes
@@ -643,30 +646,30 @@ las lobas
 los niños
 y un
 astro
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="5_al_3">5 al 3</span></h2>
 <h3><span class="mw-headline" id="Sin_la_Ciudad">Sin la Ciudad</span></h3>
-<div class="poem">
+<p class="poem">
 Este mismo remanso
 en el lado que el codo indicaba
 principio
 final
 y entre
 medio
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="5_al_4">5 al 4</span></h2>
 <h3><span class="mw-headline" id="Si_Hace">Si Hace</span></h3>
-<div class="poem">
+<p class="poem">
 El mazo en la mano
 regía las suertes
 y el grupo que daba
 suspensa
 en la suma
 acertaba
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="5_al_6">5 al 6</span></h2>
 <h3><span class="mw-headline" id="E_Impide">E Impide</span></h3>
-<div class="poem">
+<p class="poem">
 Pero había más
 que nada
 uno o dos
@@ -675,10 +678,10 @@ sin tocarse
 y gozar
 en la mira
 elegancias
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="5_al_7">5 al 7</span></h2>
 <h3><span class="mw-headline" id="Sin_Ir">Sin Ir</span></h3>
-<div class="poem">
+<p class="poem">
 Extravío
 que pierde en el hilo
 la piedra que hacía el suceso
@@ -686,10 +689,10 @@ y en las cuentas
 sembraron hastío
 y olvido
 de sí
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="5_al_8">5 al 8</span></h2>
 <h3><span id="Para_S.C3.AD"></span><span class="mw-headline" id="Para_Sí">Para Sí</span></h3>
-<div class="poem">
+<p class="poem">
 Centrado en la fila que ordena
 distancia prudente
 uno el otro
@@ -697,10 +700,10 @@ el hombro
 tendía la mano
 al fiel
 precedente
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="5_al_9">5 al 9</span></h2>
 <h3><span class="mw-headline" id="Ve_Y">Ve Y</span></h3>
-<div class="poem">
+<p class="poem">
 No fue tiempo el instante
 ni marcar día a día
 el resto que falta
@@ -708,22 +711,21 @@ y hacer del entero
 congruente
 paciencia
 infinita
-</div> <a href="#Índice">↑</a>
-<p>
-</p>
-<h1><span class="mw-headline" id="6">6</span></h1>
+</p> <a href="#Índice">↑</a>
+
+<h2><span class="mw-headline" id="6">6</span></h2>
 <h3><span class="mw-headline" id="El_Instante_Infinito">El Instante Infinito</span></h3>
-<div class="poem">
+<p class="poem">
 No hay más urgencia
 ese misterio detuvo el tiempo y lo extendió
 dejó regir la integridad
 restituyendo lo que quebrado
 en ascuas quedas
 mudó su boca
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="6_al_1">6 al 1</span></h2>
 <h3><span id="Llam.C3.B3"></span><span class="mw-headline" id="Llamó">Llamó</span></h3>
-<div class="poem">
+<p class="poem">
 Un dios debe haber
 en el sitio que falta
 y no puede tenerse
@@ -731,12 +733,12 @@ ni asirse de veras
 salvo que en uno
 piedad
 quite el sable
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
 <h2><span class="mw-headline" id="6_al_2">6 al 2</span></h2>
 <h3><span class="mw-headline" id="Como_Si">Como Si</span></h3>
-<div class="poem">
+<p class="poem">
 Cómo estas cifras
 todo lo hablan
 sin que lo digan
@@ -744,10 +746,10 @@ y visten las aguas
 como un remar
 las naves
 solas
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="6_al_3">6 al 3</span></h2>
 <h3><span id="Enmudeci.C3.B3"></span><span class="mw-headline" id="Enmudeció">Enmudeció</span></h3>
-<div class="poem">
+<p class="poem">
 Si así se pertenece
 a la instancia a que se llega
 y se ama a quien reside
@@ -755,10 +757,10 @@ si allá
 nos dirigiésemos
 sin pausa
 cesaría
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="6_al_4">6 al 4</span></h2>
 <h3><span id=".C2.BFSabe.3F"></span><span class="mw-headline" id="¿Sabe?">¿Sabe?</span></h3>
-<div class="poem">
+<p class="poem">
 Fuera de qué
 si adentro estaba bien
 la recompensa
@@ -766,10 +768,10 @@ la estadía
 en medio
 de un
 sin par
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="6_al_5">6 al 5</span></h2>
 <h3><span class="mw-headline" id="A">A</span></h3>
-<div class="poem">
+<p class="poem">
 El mejor y el menor
 gracia encima
 ése toma
@@ -777,32 +779,32 @@ lo redacta
 y crece en demasía
 como un triste
 cardenal
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <p>
 </p>
 <h2><span class="mw-headline" id="6_al_7">6 al 7</span></h2>
 <h3><span class="mw-headline" id="Todo_su_Extremo">Todo su Extremo</span></h3>
-<div class="poem">
+<p class="poem">
 Sin astucia no sucumbe
 doquier le hila
 sin traba
 el tinglado
 que rige virtud
 y verdades
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="6_al_8">6 al 8</span></h2>
 <h3><span id=".28.E2.80.A6.29"></span><span class="mw-headline" id="(…)">(…)</span></h3>
-<div class="poem">
+<p class="poem">
 Devuelve retoma
 e integra
 el mar que allí adentro
 supone que haya
 un nuevo país
 por delante
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="6_al_9">6 al 9</span></h2>
 <h3><span id="M.C3.A1s_Todo"></span><span class="mw-headline" id="Más_Todo">Más Todo</span></h3>
-<div class="poem">
+<p class="poem">
 Pues que avista
 cercano o lejos
 casi un símil de sí
@@ -810,19 +812,19 @@ que va deleitando
 al fuero que luce
 su cara
 evidente
-</div> <a href="#Índice">↑</a>
-<h1><span class="mw-headline" id="7">7</span></h1>
+</p> <a href="#Índice">↑</a>
+<h2><span class="mw-headline" id="7">7</span></h2>
 <h3><span class="mw-headline" id="La_Mano_del_Mundo">La Mano del Mundo</span></h3>
-<div class="poem">
+<p class="poem">
 Y se detuvo en la sustancia
 cuando el aire dejó despiertas
 a las bellezas sin sus bondades
 sin sus piedades eran no más
 que una apariencia
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="7_al_1">7 al 1</span></h2>
 <h3><span class="mw-headline" id="Ir_En">Ir En</span></h3>
-<div class="poem">
+<p class="poem">
 Que cuando va
 viene presto dejando
 un sitio y su huella
@@ -831,10 +833,10 @@ nos dice su adiós
 y su marca perdura
 en la
 era
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="7_al_2">7 al 2</span></h2>
 <h3><span id="Buh_.21"></span><span class="mw-headline" id="Buh_!">Buh&#160;!</span></h3>
-<div class="poem">
+<p class="poem">
 Este tiempo que gasta
 y deshace los días que el sol
 ya no muestra
@@ -843,10 +845,10 @@ sino que contempla
 las cosas
 sin que se den
 por vencidas
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="7_al_3">7 al 3</span></h2>
 <h3><span class="mw-headline" id="Que_Fin">Que Fin</span></h3>
-<div class="poem">
+<p class="poem">
 Este rezo por flujo
 
 que vierte
@@ -855,20 +857,20 @@ el orden que no ha de vencer
 reverdece
 en la siega
 el secano
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="7_al_4">7 al 4</span></h2>
 <h3><span class="mw-headline" id="Cual">Cual</span></h3>
-<div class="poem">
+<p class="poem">
 Punto aparte
 jamás deja fuera
 el don que condice al entuerto
 y trenza las ubres
 que dan a las crías
 prestancia
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="7_al_5">7 al 5</span></h2>
 <h3><span class="mw-headline" id="Su">Su</span></h3>
-<div class="poem">
+<p class="poem">
 Valga el esfuerzo
 la flor que en la mano
 se pierde
@@ -876,10 +878,10 @@ deambula sin traba
 quien rige en la siembra
 su fe
 puesta a punto
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="7_al_6">7 al 6</span></h2>
 <h3><span class="mw-headline" id="Bella_No">Bella No</span></h3>
-<div class="poem">
+<p class="poem">
 Y reincide de nuevo
 sin culpa que espante
 en la rama que gusta
@@ -887,10 +889,10 @@ tener ese fruto
 que pronto
 deshace
 el aliento
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="7_al_8">7 al 8</span></h2>
 <h3><span class="mw-headline" id="Veladuras">Veladuras</span></h3>
-<div class="poem">
+<p class="poem">
 En el día perfecto
 huída descanso
 y su siesta
@@ -899,10 +901,10 @@ aquel y este otro
 reside el sentido
 en el plan
 consiguiente
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="7_al_9">7 al 9</span></h2>
 <h3><span class="mw-headline" id="Y">Y</span></h3>
-<div class="poem">
+<p class="poem">
 La vera que todo
 atiende y recuerda
 el alero que guarda
@@ -911,20 +913,20 @@ el éter que cunde
 en el cese
 detiene
 el fraseo
-</div> <a href="#Índice">↑</a>
-<h1><span class="mw-headline" id="8">8</span></h1>
+</p> <a href="#Índice">↑</a>
+<h2><span class="mw-headline" id="8">8</span></h2>
 <h3><span class="mw-headline" id="El_Espejo">El Espejo</span></h3>
-<div class="poem">
+<p class="poem">
 Fuera de dios
 obra maestra
 se transmutaba lo claro en nulo
 y en la piedra estaba fría la sangre
 y cuando le hubo visto
 tierra nació
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="8_al_1">8 al 1</span></h2>
 <h3><span class="mw-headline" id="Arista">Arista</span></h3>
-<div class="poem">
+<p class="poem">
 Pernocta su noche
 y desierto amanece
 si todo recobra
@@ -932,10 +934,10 @@ la nada que pierde
 e ingresa a la faz
 que hace frente
 a las loas
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="8_al_2">8 al 2</span></h2>
 <h3><span class="mw-headline" id="Temo_Por">Temo Por</span></h3>
-<div class="poem">
+<p class="poem">
 Si al cabo y a tientas
 el uno que viene
 que falta y no está
@@ -944,10 +946,10 @@ que hizo
 que el pie anunciara
 si acaso
 deceso
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="8_al_3">8 al 3</span></h2>
 <h3><span class="mw-headline" id="Capital">Capital</span></h3>
-<div class="poem">
+<p class="poem">
 Esperar no debiese ninguno
 la puerta reabre
 el discurso
@@ -956,10 +958,10 @@ incitaba
 fijaba el umbral
 de la dicha
 infinita
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="8_al_4">8 al 4</span></h2>
 <h3><span class="mw-headline" id="Usted">Usted</span></h3>
-<div class="poem">
+<p class="poem">
 Una pequeña gracia
 observada y bebida
 con ágil pasión reluciente
@@ -967,10 +969,10 @@ vertió palmo a palmo
 del fruto silvestre
 el yugo
 trucado
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="8_al_5">8 al 5</span></h2>
 <h3><span class="mw-headline" id="Ninguno_Fue">Ninguno Fue</span></h3>
-<div class="poem">
+<p class="poem">
 Es pues ya suficiente
 mi paz mi terror
 mi silencio
@@ -979,10 +981,10 @@ las teas latentes
 que dicen
 que
 sí
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="8_al_6">8 al 6</span></h2>
 <h3><span class="mw-headline" id="Piedad">Piedad</span></h3>
-<div class="poem">
+<p class="poem">
 El mar imposible
 ola y ola
 decanta
@@ -991,10 +993,10 @@ que miden la escuadra
 tajante y tunante
 ahora que ya
 me convence
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="8_al_7">8 al 7</span></h2>
 <h3><span id="Di.C3.B3"></span><span class="mw-headline" id="Dió">Dió</span></h3>
-<div class="poem">
+<p class="poem">
 El factor que acompaña
 brutal caminata
 pide a ello
@@ -1002,10 +1004,10 @@ lo aún sin que sepa
 ese mosto que guarda
 en sí
 pura esencia
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="8_al_9">8 al 9</span></h2>
 <h3><span id="La_Creaci.C3.B3n"></span><span class="mw-headline" id="La_Creación">La Creación</span></h3>
-<div class="poem">
+<p class="poem">
 Ni primera o real
 tenga en tanto
 ni tardía evidencia
@@ -1014,40 +1016,40 @@ vienes tú a pedir
 un receso
 que culpe al lector
 de saltar en sucesos
-</div> <a href="#Índice">↑</a>
-<h1><span class="mw-headline" id="9">9</span></h1>
+</p> <a href="#Índice">↑</a>
+<h2><span class="mw-headline" id="9">9</span></h2>
 <h3><span id="El_Di.C3.A1logo_de_las_Criaturas"></span><span class="mw-headline" id="El_Diálogo_de_las_Criaturas">El Diálogo de las Criaturas</span></h3>
-<div class="poem">
+<p class="poem">
 Viene diciendo pretos en negros
 una secuencia
 boca que mueva
 nunca despierta
 aldabán
 gerano dos tres
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="9_al_1">9 al 1</span></h2>
 <h3><span class="mw-headline" id="Uno_de_Nuevo">Uno de Nuevo</span></h3>
-<div class="poem">
+<p class="poem">
 Turno sigue
 y vuelta uno
 habla de sí y comunica
 escena y rostro
 en el decurso
 irrepetible
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="9_al_2">9 al 2</span></h2>
 <h3><span class="mw-headline" id="Sea_Que">Sea Que</span></h3>
-<div class="poem">
+<p class="poem">
 Dice el mensaje
 plegar el vientre
 correr la suerte en buena hora
 y salvas saludan
 solaz
 la omisión
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="9_al_3">9 al 3</span></h2>
 <h3><span class="mw-headline" id="Si">Si</span></h3>
-<div class="poem">
+<p class="poem">
 Trina doble
 quien dócil place
 en crear las durmientes
@@ -1056,20 +1058,20 @@ cuando en la vista
 al par electo
 suyo
 lo hace
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="9_al_4">9 al 4</span></h2>
 <h3><span id=".C2.BFC.C3.B3mo.3F"></span><span class="mw-headline" id="¿Cómo?">¿Cómo?</span></h3>
-<div class="poem">
+<p class="poem">
 De un rictus
 tener por cierto
 ser balanceado
 irrevocable tempranamente
 o al
 finiquito
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="9_al_5">9 al 5</span></h2>
 <h3><span class="mw-headline" id="Algo">Algo</span></h3>
-<div class="poem">
+<p class="poem">
 Si lenta duda
 el dial que signa
 y marca un calce
@@ -1077,10 +1079,10 @@ hay algo fuera
 semi maestro
 jugado
 e ido
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="9_al_6">9 al 6</span></h2>
 <h3><span class="mw-headline" id="No">No</span></h3>
-<div class="poem">
+<p class="poem">
 Tendida y docta
 la caravana
 cruzar presiente
@@ -1088,10 +1090,10 @@ el tramo aldaba
 y conectivas de lo dispar
 llamar sentido
 a lo discreto
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="9_al_7">9 al 7</span></h2>
 <h3><span class="mw-headline" id="Zas">Zas</span></h3>
-<div class="poem">
+<p class="poem">
 Ideal maestro
 el numeral
 que convierte al juego
@@ -1099,10 +1101,10 @@ en la región de las suertes nuevas
 que mío el ausente
 y suyo el que toma
 por diestro
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
 <h2><span class="mw-headline" id="9_al_8">9 al 8</span></h2>
 <h3><span id="All.C3.A1"></span><span class="mw-headline" id="Allá">Allá</span></h3>
-<div class="poem">
+<p class="poem">
 Índice electo
 compaginarse las hojas solas
 se solicita
@@ -1111,10 +1113,10 @@ la vocación
 que infinita vence
 sin que
 perezca
-</div> <a href="#Índice">↑</a>
-<h1><span id=".E2.88.85"></span><span class="mw-headline" id="∅">∅</span></h1>
+</p> <a href="#Índice">↑</a>
+<h2><span id=".E2.88.85"></span><span class="mw-headline" id="∅">∅</span></h2>
 <h3><span id="Fuera_del_.C3.89ter"></span><span class="mw-headline" id="Fuera_del_Éter">Fuera del Éter</span></h3>
-<div class="poem">
+<p class="poem">
 no caduca el término
 y nos acompaña en su dilación eterna
 que la memoria alimenta como el horizonte
@@ -1124,5 +1126,294 @@ que por un instante se dejaron ver
 al unísono
 
 { 123456789 }
-</div> <a href="#Índice">↑</a>
+</p> <a href="#Índice">↑</a>
+
+
+<!-- Usa white-space: pre en el CSS para preservar la indentación y las líneas tal como se muestran aquí. -->
+<!-- Los 9, leídos como personajes -->
+
+<h2 id="1p">1p</h2>
+<h3>El Fiel Testigo</h3>
+<p class="poem">
+quien atiende paso a paso la fe
+            que da su testimonio
+en él la verdad
+    hoy cesa su temblar
+reposa
+y esclarece los sucesos
+tanto que
+        lo ciego
+            se hace claro
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="2p">2p</h2>
+<h3>El Pensador Cabal</h3>
+<p class="poem">
+si liga
+hace al todo
+unificarse
+portador de la cifra
+que reúne
+en el estrado
+recoge y guarda ahí
+en el cantar
+al hacedor
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="3p">3p</h2>
+<h3>El Orfebre de Siempre</h3>
+<p class="poem">
+de lo disperso toma de aquí
+allá también lo distraído
+la joya luce
+clarín celebra
+compuesto entonces
+pura mano
+compón lo hallado
+en lo disperso
+y la ópera queda
+en divina ordenanza.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="4p">4p</h2>
+<h3>El Restaurador Imprescindible</h3>
+<p class="poem">
+se pide que imponga
+salud
+y juvencia lozana
+así sea
+a sí mismo
+el pedido revive al cuerpo
+vital abrazo
+que cura al falto
+pues
+vela que cada región
+sea encienda
+se quede en su juicio
+y sanada
+lo sea
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="5p">5p</h2>
+<h3>El Menudo Lingüista</h3>
+<p class="poem">
+cuánta lengua distinta
+decir desconoce
+y en raíz su sentido
+esclarece en la niebla
+que sin más dilucida
+y distingue en lo ignoto
+a los astros haciendo la luz
+en las mismas marismas
+que hoy
+se disipan
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="6p">6p</h2>
+<h3>El Novel Poeta</h3>
+<p class="poem">
+en la voz que divisa
+el momento perfecto
+un tiempo que nutre
+palabra y andado reluce
+¿a quién le dice
+si es él?
+un fugaz tenle todo
+y poquito
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="7p">7p</h2>
+<h3>El Sembrador Calzado</h3>
+<p class="poem">
+ese extremo que toma
+del nido preciado
+el fruto mas digno
+y semillas dispersas
+en el surco labrado
+queda siembra en las tierras
+augurio paciente
+y crecidas
+en flor
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="8p">8p</h2>
+<h3>El Relator de Sí</h3>
+<p class="poem">
+está quien se mira y se ve
+está el que se ve y reconoce
+ahí está si mismo
+diciendo al cronista
+                relato en el hecho
+                            la vista en el frente
+y lo habiendo a su espalda
+                        viviendo
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="9p">9p</h2>
+<h3>El Regidor de Palabra</h3>
+<p class="poem">
+el que rige y legisla
+a las hordas inermes
+y advierte presencias
+quien sea
+que él
+se dignase
+o palabra real
+del registro
+y así vive y convive
+el mayor y el menor
+y mi misma persona
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="∅p">∅p</h2>
+<h3>Nadie Si Cabe</h3>
+<p class="poem">
+lapsus
+        &
+             ud. sabe
+la dolencia que aguarda
+la llamada enllamarada
+estaba él y su dedicación
+la numeralia y el contador
+el dándose cuenta
+de lo acontecido
+la noche buena
+que le acompaña
+antes de amarse
+</p>
+<a href="#Índice">↑</a>
+
+<!-- Los 9 universos -->
+
+<h2 id="1u">1u</h2>
+<h3>El Universo</h3>
+<p class="poem poemu poe">
+Construimos un universo del 1 al 9, más el 0; entendemos que esto es una restricción; 
+sino como; por ejemplo, necesitamos un campo finito, atrapable para tejer a partir de él 
+las relaciones que nos posibiliten una comprensión del infinito.
+A ello llamamos el quantum del 9 pues nos interesa la no repetición, esto es La Oda del Orden, 
+la restricción nos da el orden y el campo de juego.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="2u">2u</h2>
+<h3>El Entremedio</h3>
+<p class="poem poemu">
+La poesía requiere el vínculo entre los versos, 
+así como en la phalène las conectivas reúnen a las palabras; 
+se ha hecho que entre verso y verso (número y número) 
+se ha dibujado otro verso que conmemore ese instante del transcurso, 
+por eso Instante Infinito.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="3u">3u</h2>
+<h3>La Disyunción</h3>
+<p class="poem poemu">
+Tipográficamente también hay una estancia, diremos instancia, 
+pues con estos 9 más 0 dígitos podemos construir un infinito. 
+El número Uno es esta unidad; las probabilidades entre ellos 
+juegan a las mismas relaciones que en nuestros conectores.
+El poema brinca connaturalmente de un natural a otro.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="4u">4u</h2>
+<h3>El Desconocido</h3>
+<p class="poem poemu">
+Amereida en la pg. 142 dice: “faltan palabras para la forma de nombrar la andada”; 
+sin duda por eso dibujamos, para dar nombre a lo andado y así tener palabra; 
+así dilucidamos, entonces El Oscuro Mar se clarifica; faltan palabras porque ellas abren, 
+faltan porque nunca acaban; faltan porque es preciso esclarecer la travesía.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="5u">5u</h2>
+<h3>La Solicitud</h3>
+<p class="poem poemu">
+La poesía cuando es jugada se diferencia de la literatura, 
+interviene lo que vulgarmente llamamos vida: esto es La Mano del Mundo, 
+la que toma partido y es vivida como un acto semejante al cotidiano; 
+la poesía hecha por todos, axioma del Conde de Lautreamont, pide de cada cual su memoria 
+y su integridad, su mano, su jugada.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="6u">6u</h2>
+<h3>La Invención</h3>
+<p class="poem poemu">
+Todo oficio permite, además de lo propio, otra cosa; 
+posibilita una nueva actividad humana, un quehacer que antes no era posible, 
+el zapatero que finamente enguanta el pie abre el mundo al caminante, 
+a los viajeros a los peregrinos. 
+Los oficios hacen expresiva la posibilidad del ha-lugar, 
+la poesía canta a esta instancia de la abertura. 
+Ha de ser El Espejo; el rostro de uno mismo que la poesía intenta develar.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="7u">7u</h2>
+<h3>El Reconocimiento</h3>
+<p class="poem poemu">
+El acto que provoca en el lector el salto del exterior a su intimidad 
+exige de una poética que manifiesta lo extraordinario. 
+Se establece un vínculo en el lector que hace de eje entre su mundanidad y lo celeste; 
+esto restituye al cuerpo luego del quiebre; 
+está el acto ejecutándose in-situ La Luz de lo Visible. 
+La interioridad el presente hace patente el uno a uno& 
+así ha de leerse.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="8u">8u</h2>
+<h3>La Hospitalidad</h3>
+<p class="poem poemu">
+Y danzan las partes al ritmo en que impera el habla. 
+El Diálogo de las Criaturas se posibilita por una palabra 
+que hace regir las suertes nuevas; 
+lo ya creado no basta si no se hospeda en otra criatura 
+cuando ella expresa su carencia 
+y la totalidad en la falta del otro -su complemento-; 
+palabra que permite el diálogo.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="9u">9u</h2>
+<h3>La Restauración</h3>
+<p class="poem poemu">
+Tal acto pide del cuerpo su ejercicio, voluntad y voluptuosidad; 
+el poeta a flor de labios libera por su boca lo inescrito y ahí dicho; 
+el oidor retiene el retumbar de la palabra poética. 
+Las Partes del Cuerpo como las partes de un todo 
+juegan desde su unicidad hasta sus combinatorias no infinitas. 
+El autor y el lector se integran en una persona: el auctor; 
+tal jugada& y se rectifican uno al otro.
+</p>
+<a href="#Índice">↑</a>
+
+<h2 id="øu">.Ø.</h2>
+<h3>La Comprensión</h3>
+<p class="poem poemu">
+Sepa el lector que aquí no cesa, 
+que la elección ha sido suerte de manos dignas. 
+Tómese ya lo que afuera queda y canta silente lo que se ha dicho& 
+No cae en la cuenta pues no le tiene y nunca le tuvo; 
+estaba fuera; iba cantando de una en una antes que hiciera decena entera.. 
+Y ahí estaba, Fuera del Éter, fuera de sí y lejos de todo 
+haciendo al son rimar la lid de este poema 
+y leyendo, cómo si no, esas palabras que describieron tenerse cerca, 
+contigüidad, llamadas prestas que en fin& 
+vacías; y hacen del cero la diferencia.
+</p>
+<a href="#Índice">↑</a>
+
 </div>

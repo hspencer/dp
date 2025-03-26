@@ -9,11 +9,11 @@ body {
 
 header {
     font-family: $font-sans;
-    font-size: .85rem;
+    font-size: 0.85rem;
 
     .navbar {
         display: flex;
-        margin: .7rem .26rem .5rem .26rem;
+        margin: 0.7rem 0.26rem 0.5rem 0.26rem;
         justify-content: space-between;
         align-items: center;
 
@@ -34,7 +34,7 @@ header {
         a {
             color: $color-text;
             text-decoration: none;
-            &:hover{
+            &:hover {
                 cursor: pointer;
                 color: $color-link;
             }
@@ -70,7 +70,6 @@ header {
     }
 }
 
-
 #dp {
     background-color: $color-dp-bg;
     background: $page-gradient;
@@ -78,16 +77,14 @@ header {
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
     padding: 1.52em;
-    border-radius: .78ex;
+    border-radius: 0.78ex;
     box-shadow: 0 0 10px #00000022;
 
-    >* {
+    > * {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
         // outline: 1px dashed $color-soft-line;
     }
-
-
 
     img {
         mix-blend-mode: multiply;
@@ -103,7 +100,7 @@ header {
         .title {
             font-weight: 100;
             font-size: 3rem;
-            margin: 0 0 .5em 0;
+            margin: 0 0 0.5em 0;
         }
 
         time {
@@ -118,14 +115,18 @@ header {
             text-align: center;
 
             img {
-                border-radius: .5ex;
+                border-radius: 0.5ex;
             }
         }
     }
 
     article {
-
-        h1, h2, h3, h4, h5, h6{
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-family: $font-sans;
             font-weight: 700;
             font-size: 80%;
@@ -133,7 +134,7 @@ header {
         }
 
         code {
-            font-size: .78rem;
+            font-size: 0.78rem;
             line-height: 100%;
         }
 
@@ -142,9 +143,9 @@ header {
             border-bottom: none;
             mix-blend-mode: multiply;
         }
-        sup{
+        sup {
             display: inline-block;
-            margin-top: -.5ex;
+            margin-top: -0.5ex;
             font-weight: bold;
         }
         .footnotes {
@@ -168,6 +169,42 @@ header {
         #comments {
             mix-blend-mode: multiply;
         }
+
+        
+        .center-poem {
+            h2,
+            h3 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+            h3 {
+                font-family: $font-serif !important;
+                color: rgb(187, 31, 3) !important;
+            }
+    
+            .language-plaintext.highlighter-rouge {
+                pre {
+                    white-space: normal;
+                }
+            }
+            .poem {
+                white-space: pre;
+                font-family: $font-serif;
+                text-align: center;
+                font-size: 90%;
+                line-height: 145%;
+
+                &.poemu{
+                    white-space: normal;
+                    font-size: 80%;
+                    line-height: 110%;
+                }
+
+            }
+        }
+        
     }
 }
 
@@ -189,10 +226,12 @@ header {
     filter: invert(1) hue-rotate(180deg);
     mix-blend-mode: multiply;
     border-radius: 1.5ex;
-    box-shadow: inset 0 0 27px rgba(255, 255, 255, 0.539), inset 0 0 3px #FFF;
+    box-shadow:
+        inset 0 0 27px rgba(255, 255, 255, 0.539),
+        inset 0 0 3px #fff;
     max-height: 60vh;
     overflow: hidden !important;
-    
+
     .mt-post {
         margin-bottom: 1rem;
         padding: 0.5rem;
@@ -208,50 +247,49 @@ header {
         font-family: $font-sans;
         line-height: 1.2;
     }
-    .mt-post-avatar{
+    .mt-post-avatar {
         filter: invert(1) hue-rotate(180deg);
     }
 }
 
 footer {
     margin: $padding 0;
-    p{
+    p {
         margin: 0;
         text-align: center;
         font-family: $font-sans;
         font-size: $font-size-small;
 
-        a{
+        a {
             text-decoration: none;
             color: $color-link;
         }
     }
 }
 
-.last-posts{
+.last-posts {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: masonry;
     gap: 1rem;
-    
-    a{
+
+    a {
         display: inline-block;
-        &:hover{
+        &:hover {
             border-radius: 3px;
             background-color: white;
             outline: 5px solid white;
         }
-        img{
+        img {
             border-radius: 3px;
         }
-
     }
-    h2{
+    h2 {
         margin: 0;
     }
-    p{
+    p {
         margin: 0;
-        font-size: .76rem;
+        font-size: 0.76rem;
         font-family: $font-sans;
         line-height: 105%;
     }
@@ -262,50 +300,39 @@ footer {
     justify-content: center;
     margin-top: 2rem;
     gap: 0.5rem;
-  
+
     a,
     span {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      display: inline-block;
-      background: #ccc;
-      transition: background 0.2s;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        background: #ccc;
+        transition: background 0.2s;
     }
-  
+
     a:hover {
-      background: #999;
+        background: #999;
     }
-  
+
     .actual {
-      background: #333;
+        background: #333;
     }
-  }
-  
-  .axis-table{
+}
+
+.axis-table {
     font-family: $font-sans;
     font-size: $font-size-small;
     text-align: center;
 
-    th, td{
-        padding: .5ex;
-
-        a:hover{
-            background-color: $color-bg;
+    th,
+    td {
+        padding: 1ex;
+        a{
+            color: rgb(187, 31, 3) !important;
+        }
+        a:hover {
+            background-color: white
         }
     }
-  }
-
-  .center-poem{
-    
-    h2{text-align: center;}
-
-    .poem{
-        font-family: $font-serif;
-        white-space-collapse: pre;
-        text-align: center;
-        font-size: 90%;
-        line-height: 145%;
-    }
-
-  }
+}
