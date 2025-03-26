@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Herbert Spencer | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Herbert Spencer</h1>
+
+        
+
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+        <div id="p5"></div>
+        <script src="/dp/assets/p5/timeline.js"></script>
+        
+
+        
+        
+
+      </sidebar>
+
+      <article>
+        <p>Me llamo Herbert Spencer González, diseñador gráfico formado en los albores de la era digital, testigo y partícipe de las transformaciones radicales en nuestra profesión. La llegada de Internet redefinió la publicación y la comunicación gráfica, impulsándonos a explorar nuevas formas de interacción y comprensión.</p>
+
+<p>El diseño gráfico, siempre en evolución, nos llevó desde la poiética de la forma hasta la retórica de los públicos. A medida que el diseño digital cobraba protagonismo, mi enfoque se centró en el usuario, en su contexto y necesidades, en un diseño de segundo orden, donde la forma es resultado de la empatía y comprensión.</p>
+
+<p>Con el advenimiento de la Web 2.0, presenciamos la transformación de las estructuras editoriales hacia plataformas colaborativas y sociales, reflejando una democratización en la organización y creación de contenido.</p>
+
+<p>En los últimos años, mi atención se ha dirigido hacia la revolución de la inteligencia artificial. He profundizado en la accesibilidad cognitiva, explorando el diseño visual y lingüístico desde la perspectiva de la discapacidad intelectual. Mi investigación se enfoca en desarrollar herramientas que faciliten la conexión y comunicación, no solo entre personas sino también con sistemas y entornos digitales.</p>
+
+<p>Actualmente, me desempeño como profesor en la Escuela de Arquitectura y Diseño PUCV, donde imparto talleres de diseño avanzado. Además, aplico mi experiencia como consultor de diseño en estrategia, interacción y experiencia de usuario. Mi formación en Diseño de Interacción en Carnegie Mellon y mi investigación en notación y modelación de valor en diseño de experiencias continúan nutriendo mi práctica y enseñanza.</p>
+
+<p>Este es un camino de constante aprendizaje y exploración, donde el diseño construye el espacio entre la tecnología y las experiencias humanas.</p>
+
+<section id="perfil">
+  <h2>Herbert Spencer</h2>
+  <ul>
+    <li>
+      <a href="https://wiki.ead.pucv.cl/Herbert_Spencer" target="_blank" rel="noopener">Perfil académico en Casiopea</a>
+    </li>
+    <li>
+      <a href="http://herbertspencer.net" target="_blank" rel="noopener">{dp} – doble página</a>
+      &middot; Reflexiones y experimentos
+    </li>
+    <li>
+      <a href="https://github.com/hspencer" target="_blank" rel="noopener">GitHub · @hspencer</a>
+      &middot; Repositorios y proyectos
+    </li>
+    <li>
+      <a href="https://editor.p5js.org/hspencer/sketches" target="_blank" rel="noopener">p5.js Web Editor</a>
+      &middot; Sketches a lo largo de los años
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/herbertspencer/" target="_blank" rel="noopener">LinkedIn</a>
+    </li>
+    <li>
+      <a href="https://vimeo.com/hspencer" target="_blank" rel="noopener">Vimeo · Videos y registros</a>
+    </li>
+    <li>
+      <a href="https://bloom.surf/@hspencer" target="_blank" rel="me noopener">Mastodon · @hspencer@bloom.surf</a>
+    </li>
+  </ul>
+</section>
+
+<!-- _includes/mastodon.html -->
+<!-- Mastodon embed -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@idotj/mastodon-embed-timeline@4.4.2/dist/mastodon-timeline.min.css" integrity="sha256-1UGgxsonaMCfOEnVOL89aMKSo3GEAmaRP0ISbsWa6lU=" crossorigin="anonymous" />
+
+<script src="https://cdn.jsdelivr.net/npm/@idotj/mastodon-embed-timeline@4.4.2/dist/mastodon-timeline.umd.js" integrity="sha256-E6WPG6iq+qQIzvu3HPJJxoAeRdum5siq13x4ITjyxu8=" crossorigin="anonymous"></script>
+
+<div id="mt-container" class="mt-container">
+  <div class="mt-body" role="feed">
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="language-plaintext highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&amp;lt;div class="mt-loading-spinner"&amp;gt;&amp;lt;/div&amp;gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+</code></pre></div>    </div>
+  </div>
+</div>
+
+<script>
+  const myTimeline = new MastodonTimeline.Init({
+    instanceUrl: "https://bloom.surf/",
+    timelineType: "profile",
+    userId: "110091151937405742",
+    profileName: "@hspencer",
+    theme: "light",
+    limit: 4, // <- límite de toots
+  });
+</script>
+
+
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

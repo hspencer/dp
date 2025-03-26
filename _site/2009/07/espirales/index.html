@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Espirales | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Espirales</h1>
+        
+
+        
+        <time datetime="2009-07-09T15:35:23+12:00">
+          9 July 2009
+        </time>
+
+        
+
+        <a id="btn-citar-espirales" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-espirales" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2009, July 9). <em>Espirales</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2009/07/espirales/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Espirales</em>." <em>{dp} - doble página</em>, 9 July 2009, 
+        http://localhost:4000/2009/07/espirales/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Espirales</em>." {dp} - doble página. Publicado el 9 de July de 2009. 
+        http://localhost:4000/2009/07/espirales/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-espirales");
+    const modal = document.getElementById("modal-citar-espirales");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espacios se acumulan, amplifican o suavizan.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>[p5js canvas] Spiral[] s; int numSpirals = 12; void setup(){ size(380, 500); smooth(); s = new Spiral[numSpirals]; for(int i = 0; i &lt; numSpirals; i++){ s[i] = new Spiral(random(width/7, width<em>6/7), random(height/7, height</em>6/7)); } noFill(); strokeWeight(0.5); } void draw(){ background(255); for(int i = 0; i &lt; numSpirals; i++){ s[i].draw(); } } class Polar{ float ang, dim; Polar(float a, float d){ ang = a; dim = d; } } class Spiral{ ArrayList polar; int angSteps; float angInc; float ang; float amp, sp; float ox, oy; boolean grow; int seed; color st; float alfa = 255; int fadeSteps; Spiral(float x, float y){ polar = new ArrayList(); reset(); ox = x; oy = y; ang = TWO_PI; } void draw(){ if(grow) { calc(); } else{ fade(); } pushMatrix(); translate(ox, oy); stroke(st, alfa); beginShape(); for(int i = 0; i &lt; polar.size(); i++){ Polar p = (Polar)polar.get(i); float x = cos(p.ang) <em>p.dim; float y = sin(p.ang)</em> p.dim; curveVertex(x,y); if(x+ox &gt; width</td>
+      <td> </td>
+      <td>x+ox &lt; 0</td>
+      <td> </td>
+      <td>y+oy &gt; height</td>
+      <td> </td>
+      <td>y+oy &lt; 0){ grow = false; } } endShape(); popMatrix(); } void calc(){ noiseSeed(seed); float num = (float)millis()/100; int z = polar.size(); if(z &gt; angSteps){ Polar a = (Polar)polar.get(z-angSteps); Polar p = new Polar(ang, a.dim + sp + noise(num)<em>amp); polar.add(p); } else{ Polar p = new Polar(ang, noise(num)</em>amp + sp<em>((float)z/(float)angSteps)); polar.add(p); } ang += angInc; } void fade(){ alfa -= 255/(float)fadeSteps; if (alfa &lt;= 5) reset(); } void reset(){ polar.clear(); ox = random(width/7, width</em>6/7); oy = random(height/7, height*6/7); grow = true; alfa = 255; amp = random(2, 10); sp = random(0.9, 4); seed = (int)random(100000); st = color(random(10, 50), random(10, 40), random(10, 26)); if(round(random(10)) % 2 == 0) angInc *= -1; fadeSteps = round(random(25, 50)); angSteps = round(random(24, 120)); angInc = TWO_PI / (float)angSteps; } } [/p5js]</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Veo como las familias de espirales se multiplican, cruzan y entrelazan. Tal vez así la sensación de no hacer nada desaparezca.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

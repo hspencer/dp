@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Forma Digital | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Forma Digital</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2011/10/image001.png" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2011-10-31T12:15:02+13:00">
+          31 October 2011
+        </time>
+
+        
+
+        <a id="btn-citar-forma-digital" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-forma-digital" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2011, October 31). <em>Forma Digital</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2011/10/forma-digital/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Forma Digital</em>." <em>{dp} - doble página</em>, 31 October 2011, 
+        http://localhost:4000/2011/10/forma-digital/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Forma Digital</em>." {dp} - doble página. Publicado el 31 de October de 2011. 
+        http://localhost:4000/2011/10/forma-digital/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-forma-digital");
+    const modal = document.getElementById("modal-citar-forma-digital");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>[caption id=”attachment_1172” align=”alignnone” width=”154”]<a href="/assets/uploads/2011/10/image001.png"><img src="/assets/uploads/2011/10/image001-154x240.png" alt="" /></a> La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948.[/caption] Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma tiene una correspondencia física directa con su función y performance. Se trata de un objeto que puede leerse y entenderse desde su forma mecánica. Con posterioridad a eso, gracias al transistor y posteriormente al circuito integrado, la forma gestual asociada a su función quedó completamente desarticulada de su forma física. Se trató del comienzo de una época de las “formas en libertad”, ya que se dejaba de estar determinado por su estructura mecánica del objeto para diseñarlo su comporamiento. La afirmación: “los computadores pueden ser transformados en cualquier cosa”, a propósito del divorcio entre forma y función, es un tanto confusa. La naturaleza de la función abarca muchas esferas prácticas y una traducción literal alegórica-simbólica se hace imposible en situaciones que carecen de antecedentes. Si bien las formas tecnológicas han alcanzado cierto reposo en su permanente mutabilidad ((La forma convensional de los computadores portátiles se ha mantenido estructuralmente incólume desde su insersión en el mercado en 1988, siguendo el esquema de la máquina de escribir usando el espacio para la hoja de papel con la pantalla.)), creo que se debe, en gran medida a que se ha alcazado una penetración cultural mayor que exige una mayor inercia pero, sobre todo observamos una postura funcionalista, especialmente determinada por los requierimientos energéticos, performativos y ergonómicos.</p>
+
+<blockquote>
+  <p>It is the pervading law of all things organic and inorganic, Of all things physical and metaphysical, Of all things human and all things super-human, Of all true manifestations of the head, Of the heart, of the soul, That the life is recognizable in its expression, That form ever follows function. This is the law.</p>
+
+  <p><strong>Louis Sullivan</strong> , fragmento de “The Tall Office Building Artistically Considered”, publicado por Lippincott’s Magazine (Marzo 1896).</p>
+</blockquote>
+
+<p>Si debemos considerar a una fuerza opuesta a este sentido funcionalista ((Dejando de lado todos los casos de objetos de simulación o engaño, de decoración fantasiosa o directamente falsa, o productos aspiracionales para aparentar, ya que no los considero de interés mayor.)), ésta debe ser la inercia significativa de las imágenes referentes. Así, la necesidad por establecer correspondencias con lo conocido, hace necesario generar la innovación a partir de una imagen existente. El diseñador debe llevar el pulso cultural de las imágenes y desplazar su centro para traer lo nuevo. Aquí debemos hacer una distinción entre apariencia y estructura. La apariencia es fácil de modificar, lo difícil es cambiar la estructura que evoluciona con mayor inercia. Podemos hablar de naturalidad en un gesto referido a una intención pero sobre un soporte y con una forma sin precedentes. La interfaces gestuales se inscriben en este ámbito ya que podemos definir sin mayores dificultades lo pertinente de tal o cual gesto para realizar determinada acción de un modo altamente innovador: innovamos en la apariencia pero mantenemos la estructura cultural y cognitiva intacta. El iPad, en este sentido, no ha traído innovación cultural profunda sino que ha abierto oportunidades para nuevas actividades y nuevos modos de lograr las cosas. Su éxito radica en la naturalidad y su innovación cultural se produce desde su uso y aceptación no disrruptiva de los esquemas mentales profundos de las personas. Una innovación exéntrica estructuralmente tiene grandes posibilidades de fracaso. En este sentido, la función que abre lo tecnológicamente sin precedentes, debe ceder terreno a la convensión, para que pueda ser comprendido (o leído) de manera exitosa. El video a continuación muestra a un bebé interactuando con las revistas de la misma manera en que lo hace con un iPad. Esta naturalidad de intención-acción tiene ciertamente un impacto negativo en lo antiguo que aparece frustrante para un nativo digital. Este tipo de problemas requiere que re-inventemos lo análogo para reconstruir el valor de lo físico desde su riqueza y misterio.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

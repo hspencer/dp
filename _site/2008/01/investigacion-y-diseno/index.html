@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Investigación y Diseño | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Investigación y Diseño</h1>
+        
+
+        
+        <time datetime="2008-01-23T01:57:23+13:00">
+          23 January 2008
+        </time>
+
+        
+
+        <a id="btn-citar-investigacion-y-diseno" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-investigacion-y-diseno" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, January 23). <em>Investigación y Diseño</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2008/01/investigacion-y-diseno/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Investigación y Diseño</em>." <em>{dp} - doble página</em>, 23 January 2008, 
+        http://localhost:4000/2008/01/investigacion-y-diseno/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Investigación y Diseño</em>." {dp} - doble página. Publicado el 23 de January de 2008. 
+        http://localhost:4000/2008/01/investigacion-y-diseno/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-investigacion-y-diseno");
+    const modal = document.getElementById("modal-citar-investigacion-y-diseno");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Hace ya bastante tiempo que vengo viendo cómo la Ciencia adquiere más y más fuerza por sobre el Arte en términos de validación del discurso. No quiero caer en el fome y manoseado debate entre el Arte y la Ciencia para definir un espacio para el Diseño, sino tratar de comprender el sentido de esta tendencia. Llama la atención ver cómo el Diseño, cuando quiere formalizar y divulgar su conociemiento, ya sea por medio de publicaciones o seminarios, adopta una postura cientí­fica para validarse. En el mundo académico el conocimiento se comparte en un formato estándar. Dicha <em>modularización</em> (los “ladrillos”) obliga a construir argumentos en un formato tipo, idealmente que sea fácil de leer y hojear; de escanear rápidamente con la mirada, que permita extraerle lo de valor con un simple vistazo y que ofrezca capas diseñadas para las distintas velocidades de lectores. Lo ideal, y lo que se mide, es el <strong>factor de impacto</strong> de cada uno de estos ladrillos. Esta practicidad reduce a un la lí­nea discursiva:</p>
+
+<div class="language-plaintext highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code>        qué   --   cómo   --   por qué   --   conclusiones
+                           (sólo a veces,
+                             optativo)
+</code></pre>
+  </div>
+</div>
+
+<p>Otro factor importante es que la investigación genere productos, es decir, se busca la <strong>aplicabilidad del conocimiento</strong>. Existe la creencia de que sin aplicabilidad, no hay valor. Para que algo sea aplicable debemos extraer alguna ley abstracta de la materia, algo que podamos andar “inyectándole” después a la realidad, algo extrí­nseco y aplicable; ojalá en forma de producto. En realidad, este punto es el menos malo porque favorece al diseño en cuanto oficio eminentemente productivo de artefactos. El problema es que no son ni esencialmente cientí­ficos ni esencialmente técnicos y su aporte (o innovación) no tienen el alma puesta en eso. El problema es el cí­rculo vicioso excluyente:</p>
+
+<div class="language-plaintext highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code>        --&gt; ser doctor --&gt;  tener publicaciones  --¬
+       |                                           |
+        ---------- ganarse un fondecyt  &lt;-----------
+</code></pre>
+  </div>
+</div>
+
+<p>El error está, a mi juicio, en la <strong>monocultura epistemológica</strong> (cientí­fica-tecnológica) que se impone desde arriba, desde las polí­ticas paí­s, desde los acuerdos internacionales para las universidades, desde lás métricas de financiamiento, etc. <strong>que excluye y dificulta</strong> a otras formas de pensamiento. Este error es parecido a lo que ocurre en agricultura con los monocultivos que arrasan la biodiversidad y en definitiva matan la tierra. La innovación emerge justamente desde estos intersticios, desde los diálogos inter-disciplinares, desde las incongruencias teóricas, desde las ranuras de los modelos. Creo que la estrategia del paí­s no puede ser copiar los modelos investigativos del hemisferio norte; a ese juego no podemos jugar en igualdad de condiciones. La táctica es implementar, ensamblar, articular, contextualizar la tecnologí­a desarrollada por otros (tenemos que aceptar que la tecnologí­a se genera en otros lados) y tener voz de autoridad en las cuestiones éticas y polí­ticas que devienen de la delegación del poder humano en estas tecnologí­as. Por eso debemos apoyar los movimientos de software libre, códigos abiertos, contenidos transparentes, tecnologí­a reversible, cultura RW (read-write), etc. Esta debe ser nuestra táctica para aproximarnos a <a href="http://es.wikipedia.org/wiki/Singularidad_tecnol%C3%B3gica">la singularidad tecnológica</a>. Algo que hay que mirar:</p>
+
+<ul>
+  <li><a href="http://es.wikipedia.org/wiki/Paul_Feyerabend" title="FilÃ³sofo y crÃ­tico del mÃ©todo cientÃ­fico">Paul Feyerabend</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Epistemological_anarchism" title="TeorÃ­a epistemolÃ³gica sostenida por Paul Feyerabend">Anarquismo Epistemológico</a></li>
+</ul>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

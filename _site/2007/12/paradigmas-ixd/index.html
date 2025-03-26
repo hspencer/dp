@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Paradigmas del Diseño de Interacción | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Paradigmas del Diseño de Interacción</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2007/10/interaccion.png" alt="modelo de interacción">
+          </figure>
+        
+
+        
+        <time datetime="2007-12-11T01:54:04+13:00">
+          11 December 2007
+        </time>
+
+        
+
+        <a id="btn-citar-paradigmas-ixd" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-paradigmas-ixd" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2007, December 11). <em>Paradigmas del Diseño de Interacción</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2007/12/paradigmas-ixd/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Paradigmas del Diseño de Interacción</em>." <em>{dp} - doble página</em>, 11 December 2007, 
+        http://localhost:4000/2007/12/paradigmas-ixd/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Paradigmas del Diseño de Interacción</em>." {dp} - doble página. Publicado el 11 de December de 2007. 
+        http://localhost:4000/2007/12/paradigmas-ixd/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-paradigmas-ixd");
+    const modal = document.getElementById("modal-citar-paradigmas-ixd");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacción por su lado, en estos pocos años, está marcando un sentido evolutivo:</p>
+
+<h2 id="la-performatividad-del-objeto">La Performatividad del Objeto</h2>
+
+<p>Algunos teóricos en la década del 70 complejizaron la idea Heideggeriana del objeto y de la cosa que “es siendo” incorporando la noción de <em>performatividad</em>. Las cosas ahora podí­an “hacer cosas” de manera autónoma o semi-autónoma. Por tanto, adquirieron un ánima que les confirió agencia y práctica: las máquinas comenzaron a ser vista como unas entidades capaces de transformar su entorno, instaurando un primer discurso pro-robótico. El debate derivado de estética de la performatividad de la cosa se abrió en posibilidades cuestionó también la noción de autor; la función productiva del “hacer cosas” dejó de ser la un atributo exclusivo en la poética del autor.</p>
+
+<h2 id="la-usabilidad">La Usabilidad</h2>
+
+<p>El problema inicial (algo así­ como el pecado original de los 80s y 90s) del diseño de interacción (inicialmente comprendido como la interacción hombre-máquina) era la de mapear el intento humano con el comportamiento de la máquina: cómo anticipar y articular la espectativa del usuario humano con la respuesta de la máquina y vice-versa. En realidad el problema de la <em>usabilidad</em> en el diseño de interacción guarda una correspondencia con el problema de la <em>legibilidad</em> en la gráfica: es una condición básica, que de no cumplirse, transforma al producto en algo falso, carente de sentido. Este paradigma se basa en elaborar una teorí­a para determinar cierta “ergonomí­a cognitiva” del producto digital. La mayor crí­tica al paradigma de la usabilidad es que no puede constituirse como un norte en la estrategia de diseño: ninguna innovación puede surgir de una aproximación ergonómica. Sin embargo, el valor de la usabilidad hoy dí­a se mide en cuanto accesibilidad. Tras ella están los valores de la libertad de elegir, de la democratización, de la resposabilidad social y el respeto por los estándares.</p>
+
+<h2 id="experiencia-y-emoción">Experiencia y Emoción</h2>
+
+<p>Si bien la usabilidad se centra en el artefacto comunicacional y operativo, este nuevo paradigma desplaza el centro gravitatorio del diseño hacia la persona para quien está dirigido el producto: a la audiencia del modelo retórico. Entonces el <strong>producto no es el producto</strong> sino el tiempo que él despliega en el usuario como la integridad (gestalt) de la experiencia. Por cierto que esta mirada, llamada también “diseño centrado en las personas” se constituye como una aproximación más compleja pues su centro yace en la elusiva fenomenologí­a de la percepción subjetiva, de las impresiones personales encadenadas en la memoria. La performatividad se revisa en cuanto demora de una experiencia y el diseño se ocupa de la cuidadosa coreografí­a de tiempos, continuidades y comportamientos embebidos en los sistemas.</p>
+
+<h2 id="el-software-social">El Software Social</h2>
+
+<p>También conocido como la Web 2.0 surge como reacción de la <em>nodificación</em> impuesta por la red. El pensamiento discreto sobre el cual se basan todas las redes (nodos y conectores) obligó a ver el diagrama abstracto de protocolos que sostení­an a este espacio, el ser latente en su flujo interno. La potencia de la red en cuanto registro táctico de una memoria colectiva, así­ como plataforma que se construye en el flujo de su propia conversación aíún no despliega toda su potencia. La red ha distorsionado nuestra noción de espacio y de tiempo, ha cambiado el significado de participación y colectividad, ha democratizado las herramientas de producción y ha descentralizado los discursos; todo esto al costo de una increí­ble sobrecarga de información.</p>
+
+<h2 id="diseño-para-la-destreza">Diseño para la Destreza</h2>
+
+<p>El diseño preocupado de la usabilidad, por ejemplo, intenta facilitarle la vida al usuario. Un diseño centrado en las personas busca “redondear” la experiencia de uso. Las aplicaciones sociales apuntan a construir la presencia del usuario en una comunidad, modelando su participación. Pero ninguno de estos paradigmas intenta, intrí­nsecamente, de servir como un elemento catalizador en la construcción de la persona detrás del usuario: no lo hace un mejor ciudadano, o un mejor padre o hermano, no lo educa, no lo ayuda a trascender su situación actual. ¿Pero debe el diseño realmente aspirar a eso? ¿no es acaso la aspiración más imperialista hasta ahora del oficio? El diseño debe aspirar a lo más alto de la persona. Debe diseñar pensando en los “power users”, no porque alguien se tiene que hacer cargo de ellos, sino que todos podemos convertirnos en diestros “usuarios poderosos”. He ahí­ una nueva ética para el diseño.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

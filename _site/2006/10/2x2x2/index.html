@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>2x2x2 | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">2x2x2</h1>
+        
+
+        
+        <time datetime="2006-10-30T04:34:24+13:00">
+          30 October 2006
+        </time>
+
+        
+
+        <a id="btn-citar-2x2x2" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-2x2x2" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2006, October 30). <em>2x2x2</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2006/10/2x2x2/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>2x2x2</em>." <em>{dp} - doble página</em>, 30 October 2006, 
+        http://localhost:4000/2006/10/2x2x2/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>2x2x2</em>." {dp} - doble página. Publicado el 30 de October de 2006. 
+        http://localhost:4000/2006/10/2x2x2/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-2x2x2");
+    const modal = document.getElementById("modal-citar-2x2x2");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Los arreglos <strong>2x2</strong> son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje <strong>X</strong> puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje <strong>Y</strong> puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”. A partir de esta “cancha” podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar “rolls”, etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo privado como la participación en la generación de contenidos. Imagino que para poder construir una buen modelo 2x2 hay que validar las impresiones personales en una discusión grupal, calibrando todas estas ubicaciones para dejarlas lo menos arbitrarias posibles. <a href="http://www.maya.com/web/how/how_expertanalysis.mtml">Aquí­</a> hay un ejemplo que encontré (no es muy bueno pero sirve para que entiendan la idea) y <a href="http://www.herbertspencer.net/thesis/images/c/c5/2x2_opportunity.jpg">aquí­</a> hay otro que hice yo, para identificar un área de oportunidad para un proyecto especí­fico. Normalmente la información representada en estos modelos es de naturaleza cualitativa y está sujeta a la percepción del diseñador en el sentido de la exactitud de su ubicación. En el fondo corresponde a un profundo proceso de sí­ntesis y el arreglo bidimensional (2x2) resultante permite identificar oportunidades para diseñar en áreas no exploradas por los productos existentes (esto se aplica al ejemplo particular que estoy dando, pero pueden ser utilizados para otra cosa, por cierto). Lo que hice aquí­ es un experimento en <a href="http://www.processing.org">processing</a> que construye un 2x2x2. Se trata de un intento de construir una relación entre 3 dimensiones semánticas y permitir la construcción de un modelo que sea consistente con las tres simultáneamente. El hecho de que la secuencia entre las distintas vistas (x,y), (y,z), (x,z), etc. esté animada, constituye la clave cognitiva para que el lector pueda hacer el puente entre cada una de ellas. Este ejemplo no representa ninguna relación en particular, tan sólo se trata de puntos dispuestos al azar (en una función de ruido espefí­cicamente); la idea es comprobar si una representación de esta naturaleza ofrece la coherencia y legibilidad necesaria como para construir un argumento a partir de ella. A disposición de ustedes les dejo el código para que jueguen. <a href="http://www.herbertspencer.net/processing/conceptual_models/" title="modelos conceptuales para los diversos modos de actividad física">Aquí también hay un ejemplo aplicado</a>. ``</p>
+
+<div class="language-plaintext highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code>// navigate with keys 1..6
+// press SPACE to regenerate the from
+
+void setup(){
+  size(400,400,P3D);
+}
+
+// camera variables
+float distancia = 600.0;
+int delayer = 10;
+float currentX = 0.0;
+float currentY = 0.0;
+float currentZ = distancia;
+float nextX;
+float nextY;
+float nextZ;
+boolean flying = false;
+
+//drawing variables
+int axisLenght = 300;
+int cube = 350;
+int numDots = 225;
+float[] dotX = new float[numDots];
+float[] dotY = new float[numDots];
+float[] dotZ = new float[numDots];
+float[] dotRadius = new float[numDots];
+boolean dots = false;
+
+void draw(){
+  background(255);
+  camera(currentX, currentY, currentZ, 0, 0, 0, 0, 1, 0); //setup camera, target and 'up'
+
+  if(flying == true) {
+    currentX += (nextX - currentX)/delayer;
+    currentY += (nextY - currentY)/delayer;
+    currentZ += (nextZ - currentZ)/delayer;
+    if( dist(currentX,currentY,currentZ,nextX,nextY,nextZ) &lt; 1) {
+      //currentX = nextX;
+      //currentY = nextY;
+      //currentZ = nextZ;
+      flying = false;
+    }
+  }
+  // 3 AXIS IN RGB
+  stroke(255,0,0,100); //color + alpha
+  line(-axisLenght, 0, 0, axisLenght, 0, 0); //RED X
+  stroke(0,255,0,100);
+  line(0, -axisLenght, 0, 0, axisLenght, 0); //GREEN Y
+  stroke(0,0,255,100);
+  line(0, 0, -axisLenght, 0, 0, axisLenght); //BLUE Z
+
+  if(dots == false){// generate the dots only once
+    generateDots();
+    dots = true;
+  }
+  drawDots();
+}
+
+// the random values for the spheres
+void generateDots() {
+
+  int rand = (int)random(1000);
+
+  for(int i = 0; i &lt; numDots; i ++){
+
+    float xgen = i;
+    float ygen = i+rand;
+    float zgen = i+2*rand;
+
+    // the noise function (by Ken Perlin) provides a continous randomness
+    dotX[i] = (noise(xgen/80.0)*600)-300;
+    dotY[i] = (noise(ygen/80.0)*600)-300;
+    dotZ[i] = (noise(zgen/80.0)*600)-300;
+    dotRadius[i] = noise(xgen/10.0)*60;
+  }
+}
+
+// draw the translucent spheres
+void drawDots(){
+  sphereDetail(8);
+fill(#CC0000, 40);// color + alpha of the spheres
+  noStroke();
+  for(int i=0; i
+</code></pre>
+  </div>
+</div>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

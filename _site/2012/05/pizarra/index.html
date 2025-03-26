@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Pizarra | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Pizarra</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2012/05/pizarra0021.jpg" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2012-05-16T02:37:23+12:00">
+          16 May 2012
+        </time>
+
+        
+
+        <a id="btn-citar-pizarra" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-pizarra" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2012, May 16). <em>Pizarra</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2012/05/pizarra/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Pizarra</em>." <em>{dp} - doble página</em>, 16 May 2012, 
+        http://localhost:4000/2012/05/pizarra/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Pizarra</em>." {dp} - doble página. Publicado el 16 de May de 2012. 
+        http://localhost:4000/2012/05/pizarra/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-pizarra");
+    const modal = document.getElementById("modal-citar-pizarra");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Uno de los problemas más frecuentes con que me topo al momento de hacer clases es la incompatibilidad entre el proyector y la pizarra. Cada día, y con más frecuencia, se requiere de un proyector (datashow) para presentar, demostrar código, traer referentes, indicar procedimientos, revisar casos, etc. El proyector ya es –digámoslo así– un commodity indispensable y que se echa de menos con facilidad.</p>
+
+<p>Pero la dimensión que trae el dibujo o el acto de dibujar en la pizarra, en paralelo y reforzando el discurso es fundamental. Sobre todo en diseño. Mostrar un esquema de un Keynote no es igual a dibujarlo. Gracias a <a href="https://play.google.com/store/apps/details?id=com.omgpop.dstfree&amp;hl=es" title="DrawSomething on Google Store">DrawSomething</a> hemos aprendido que el proceso del dibujo dice tanto como el dibujo mismo, la secuencia va desplegando el significado porque tiene su propio discurso.</p>
+
+<p>La iluminación tampoco ayuda: el proyector requiere de una luz atenuada, la pizarra, luz incidente (sobre todo si es negra).</p>
+
+<p>Desarrollé, para el curso <a href="http://wiki.ead.pucv.cl/index.php/Imagen_Escrita_2012">Imagen Escrita</a> una aplicación elemental en Processing para tener una pizarra proyectable. Esta aplicación es a su vez, la base para desarrollar herramientas aumentadas de dibujo más complejas.</p>
+
+<p>Les comparto esta aplciación porque últimamente me ha servido mucho, incluso en reuniones de diseño, para discutir wireframes, esquemas y demases. Espero que les sirva.</p>
+
+<h4 id="instrucciones-del-teclado">Instrucciones del teclado</h4>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">(m)</code> - cambia de pizarrón negro a pizarra blanca</li>
+  <li><code class="language-plaintext highlighter-rouge">(z)</code> - deshace el último trazo. Se puede usar iterativamente hasta que no quede ninguno.</li>
+  <li><code class="language-plaintext highlighter-rouge">(ESPACIO)</code> - borra todo</li>
+  <li><code class="language-plaintext highlighter-rouge">(s)</code> graba la pizarra a una imagen en la carpeta ‘img’ relativa a la ruta de la aplicación</li>
+</ul>
+
+<p><strong>Actualización</strong> : El programa de la Pizarra se encuentra disponible para descargar en <a href="https://github.com/hspencer/pizarra">Github</a>, entre las mejoras: ahora se pueden hacer líneas rectas con <code class="language-plaintext highlighter-rouge">SHIFT</code> y tiene compatibilidad para tablets.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

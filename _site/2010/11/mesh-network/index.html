@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Mesh Network | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Mesh Network</h1>
+        
+
+        
+        <time datetime="2010-12-01T10:42:19+13:00">
+          1 December 2010
+        </time>
+
+        
+
+        <a id="btn-citar-mesh-network" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-mesh-network" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2010, December 1). <em>Mesh Network</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2010/11/mesh-network/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Mesh Network</em>." <em>{dp} - doble página</em>, 1 December 2010, 
+        http://localhost:4000/2010/11/mesh-network/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Mesh Network</em>." {dp} - doble página. Publicado el 1 de December de 2010. 
+        http://localhost:4000/2010/11/mesh-network/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-mesh-network");
+    const modal = document.getElementById("modal-citar-mesh-network");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Esta ilustración fue generada para explicar el funcionamiento de una red enmallada (mesh network) en cuanto figura de distribución y conexión entre nodos. La aplicación práctica de esta red fue discutida en el <a href="http://herbertspencer.net/2010/10/internet-como-bien-publico/">post anterior</a>, describiendo la necesidad de una arquitectura de red resistente a cataclismos como el pasado terremoto y donde todos los nodos aportan, yendo más allá de ser meros clientes. Una red pública es aquella donde cada participante expande su alcance por el simple hecho de pertenecer.</p>
+
+<p>[p5js code canvas] void setup() { size(500, 500); NODES = new ArrayList(); for (int i = 0; i &lt; numNodes; i++) { Node n = new Node(random(margin, width-margin), random(margin, height-margin)); if (random(1) &gt;0.25) { n.device = true; } else { n.r <em>= 1.5; } NODES.add(n); } newNode = false; smooth(); } void draw() { background(255); if (newNode) { NODES.add(current); newNode = false; } for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); n.calc(); n.renderLinks(); } for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); n.calc(); if (n.device) { n.renderDevice(); } else { n.renderNode(); } } } class Node { int id; // the ID of this node float x, y; // position float r; // radius float signal; // ammount of signal boolean on; // is it on? boolean over; // is the mouse over this one? ArrayList nodes; // list of nodes that are connected to this one boolean device = false; float angle, step; Node(float X, float Y) { count++; id = count; x = X; y = Y; signal = 0; on = true; nodes = new ArrayList(); r = 7.0; angle = random(TWO_PI); step = random(1); } void renderNode() { if (over) { noFill(); stroke(linkColor); strokeWeight(.50); ellipse(x, y, nodeScope, nodeScope); fill(nodeFillColor); stroke(nodeStrokeColor); } else { fill(nodeFillColor, 150); stroke(nodeStrokeColor, 50); } if (on) { strokeWeight(3); } else { strokeWeight(0.5); } ellipse(x, y, r, r); } void renderDevice() { move(); if (over) { noFill(); stroke(linkColor); strokeWeight(.5); ellipse(x, y, nodeScope, nodeScope); fill(deviceFillColor); stroke(deviceStrokeColor); } else { fill(deviceFillColor, 150); stroke(deviceStrokeColor, 150); } if (on) { strokeWeight(1); } else { noStroke(); } ellipse(x, y, r, r); } void renderLinks() { if (on) { stroke(linkColor, 100); for (int i = 0; i &lt; nodes.size (); i++) { Node n = (Node)nodes.get(i); float d = dist(x, y, n.x, n.y); float sw = map(d, r, nodeScope, 5, 0.1); sw = constrain(sw, 0.01, 20); strokeWeight(sw); line(x, y, n.x, n.y); } } } void calc() { nodes.clear(); for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); if (id != n.id) { float nodeDist = dist(x, y, n.x, n.y); if (nodeDist &lt;= nodeScope &amp;&amp; n.on) { nodes.add(n); } } } } void move() { noiseSeed(id); angle += (noise((float)millis()/100.0) - .5)</em> HALF_PI; x += cos(angle)<em>step; y += sin(angle)</em>step; } } boolean OVER; ArrayList NODES; int numNodes = 50; int count = 0; float margin = 100; float nodeScope = 60; boolean newNode; Node current; color nodeFillColor = #F06E1D; color nodeStrokeColor = #8E3E0B; color linkColor = color(86, 115, 124, 80); color deviceFillColor = #1FCCFF; color deviceStrokeColor = #02A8D8; void keyPressed() { if (key == ‘a’) { nodeScope += 5; println(“node scope = “+nodeScope); } if (key == ‘z’) { nodeScope -= 5; println(“node scope = “+nodeScope); } if (key == ‘ ‘) { for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); n.on = !n.on; } } if (key == ‘x’) { setup(); } nodeScope = constrain(nodeScope, 5, width); } void mouseMoved() { float d; for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); d = dist(mouseX, mouseY, n.x, n.y); if (n.r*1.5 &gt;= d) { OVER = true; n.over = true; current = n; } else { OVER = false; n.over = false; } } } void mouseDragged() { if (OVER) { if (current.over) { current.x = mouseX; current.y = mouseY; } } } void mouseReleased() { if (current.over &amp;&amp; mouseButton==RIGHT) { current.on = !current.on; } } [/p5js]</p>
+
+<h3 id="cómo-funciona">Cómo funciona</h3>
+
+<ul>
+  <li>arrastre nodos para reconfigurar la red</li>
+  <li>teclas <strong>a</strong> y <strong>z</strong> modifican el alcance de cada nodo</li>
+  <li>botón derecho sobre el nodo lo enciende o apaga</li>
+  <li>tecla <strong>i</strong> sirve para invertir encendido/apagado de todos los nodos</li>
+  <li><strong>x</strong> regenera la distribución de nodos</li>
+</ul>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

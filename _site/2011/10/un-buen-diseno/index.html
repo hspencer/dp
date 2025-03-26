@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Un Buen Diseño | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Un Buen Diseño</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2011/10/stmaryplate2big1.jpg" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2011-10-29T11:52:56+13:00">
+          29 October 2011
+        </time>
+
+        
+
+        <a id="btn-citar-un-buen-diseno" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-un-buen-diseno" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2011, October 29). <em>Un Buen Diseño</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2011/10/un-buen-diseno/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Un Buen Diseño</em>." <em>{dp} - doble página</em>, 29 October 2011, 
+        http://localhost:4000/2011/10/un-buen-diseno/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Un Buen Diseño</em>." {dp} - doble página. Publicado el 29 de October de 2011. 
+        http://localhost:4000/2011/10/un-buen-diseno/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-un-buen-diseno");
+    const modal = document.getElementById("modal-citar-un-buen-diseno");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Un buen diseño corresponde a un trabajo profundo de integración y equilibrio de diversos factores para finalmente cifrarlos y materializarlos en una forma, ya sea física o etérea, atomizada o distribuida y compleja (como lo es un sistema). Entiendo la noción de “estética” como un <em>modo de ser</em> de la forma y su expresión, y como tal –modo de ser– sujeto a un contexto cultural: es a partir de un modo de ser que se puede leer su caracter estético. En diseño, la relación diseñador-contexto es completamente asimétrica y desequilibrada: el contexto pesa muchísimo más que el diseñador. El “buen diseño” interpreta completamente su entorno y suprime al autor o “genio” que firma el trabajo, más común en el campo arte. Es decir, es preciso conocer <strong>la imagen que el mundo tiene de la cosa</strong> que se va a diseñar, es necesario conocer dónde y cómo se inserta, qué connotaciones tiene y cuales son los códigos culturales que la gobiernan, así como las fuerzas culturales que allí la situaron de antemano. Solamente a partir de una mirada conciente de esto (ya sea por medio del descubrimiento o la interpretación justa) el diseñador podrá desplazar esa imagen de su centro –sólo ligeramente, que tiene mayor inercia mientras mayor tradición cultural exista– para originar <em>verdadera innovación</em>. El buen diseño, en ese sentido, corresponde a una buena forma de interpretar el presente e imaginar el futuro desde un <strong>lenguaje propio</strong> , en cuanto apropiable y apropiado. <a href="/assets/uploads/2011/10/image021.jpg"><img src="/assets/uploads/2011/10/image021-453x340.jpg" alt="" /></a> El caso del movimiento muralista mejicano ofrece un ejemplo de una proposición de imagen de mundo que reconstruye el imaginario colectivo, instaurando con esto un lenguage (o un género) discursivo abundante y rico, con su propia gramática y su propia narrativa, y, además, dando respuesta desde el arte a un movimiento social originado años antes, desde la revolución zapatista. <a href="/assets/uploads/2011/10/image011.jpg"><img src="/assets/uploads/2011/10/image011-453x340.jpg" alt="" /></a> El desplazamiento de lo conocido a la desconocido forma un <strong>vector de cambio</strong> que apunta hacia donde el diseño quiere ir. Este “hacia dónde” es definido por la estrategia del modelo de negocios (o nueva imagen de mundo) que tenga el diseñador o su mandante. Este sentido le imprime un profundo carácter ético al trabajo del diseño ya que es responsable –no siempre se toma el peso de esto, ni se piensa– de las consecuencias del mundo que construye. El diseño no solamende debe ser bello; debe ser además verdadero y bueno (además de útil, deseable, usable, apropiable, y un largo etc). El lenguaje del diseño, entendido como el <strong>modo de ser</strong> constituye lo que se entiende por estética del diseño, ya que vuelve el hecho intelectual en experiencia. Al hablar de estética del diseño, se lo adcribe tácitamente a un determinado <strong>linaje cultural</strong>. Frecuentemente este lenguaje es rebalsado hacia las narrativas que trata, cuando la imágen del mundo que presenta es lo suficientemente consistente y fuerte; de este modo la forma y la narrativa se pueden entender como sucesos intercambiables ((“El medio es el mensaje”, según M. McLuhan.)). [caption id=”attachment_1165” align=”alignnone” width=”470” caption=”El caso de Black &amp; Decker constituye un claro ejemplo de la consolidación de una estética como un lenguaje transversal a sus productos industriales.”]<a href="/assets/uploads/2011/10/image001.jpg"><img src="/assets/uploads/2011/10/image001-470x261.jpg" alt="" /></a>[/caption]   Justamente, es esta comunión entre lenguaje y contenido (forma y palabra / espacio y tiempo) la que permite transversalizar el trabajo para pensar los sistemas. Se requiere de un lenguaje, por ejemplo, para abordar el diseño de una imagen corporativa. No se trata simplemente de la producción de una imagen y tratarla como un patrón que recorra los diversos géneros discursivos en los que la institución habla, sino que es un modo de volver la experiencia de esa organización algo consistente a través de los múltiples puntos de contacto que provee. Ahora, para responder certeramente la pregunta (¿Qué es buen diseño?), el origen de esta estética alude necesariamente a la visión del mundo “por venir” que propone el régimen corporativo (en este caso) como una forma de estrategia para comunicar un anhelo, encarnados en la cultura interna y sus valores. La estética, aquí entendida como la cualidad de la experiencia proyectada, debe ser un atisbo que insinúa un total mayor, una nueva imagen de mundo. El buen diseño, entonces, se plantea como un pequeño fragmento de algo mayor, de un propósito que tiene una imagen del hombre, de su cultura y del mundo donde se inscribe. Un buen diseño es un buen propósito materializado en pequeños fragmentos consistentes entre sí.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

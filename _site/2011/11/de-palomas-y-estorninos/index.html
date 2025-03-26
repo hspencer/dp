@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>De Palomas y Estorninos | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">De Palomas y Estorninos</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2011/11/palomas-estorninos.png" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2011-11-02T23:33:01+13:00">
+          2 November 2011
+        </time>
+
+        
+
+        <a id="btn-citar-de-palomas-y-estorninos" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-de-palomas-y-estorninos" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2011, November 2). <em>De Palomas y Estorninos</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2011/11/de-palomas-y-estorninos/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>De Palomas y Estorninos</em>." <em>{dp} - doble página</em>, 2 November 2011, 
+        http://localhost:4000/2011/11/de-palomas-y-estorninos/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>De Palomas y Estorninos</em>." {dp} - doble página. Publicado el 2 de November de 2011. 
+        http://localhost:4000/2011/11/de-palomas-y-estorninos/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-de-palomas-y-estorninos");
+    const modal = document.getElementById("modal-citar-de-palomas-y-estorninos");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Las recientes movilizaciones ciudadanas en Chile y en el mundo, en su transversalidad y convocatoria, han puesto en cuestión el esquema de conversación social aportándonos con experiencias muchas veces directas (desde dentro, digamos) y rectificadoras de algunas premisas teóricas que teníamos equivocadas. Entre ellas, el supuesto deterioro del capital social –que pensábamos– se concentraba entre los más jóvenes. La aparente apatía juvenil, observada por diversos estudios durante los últimos años, no resultó ser otra cosa que una profunda desesperanza e impotencia producto de la desconfianza hacia un sistema sin canales viables para la participación, manifestándose este año en oleadas sucesivas de movilizaciones que han girado en torno a temas-eje ((Son temas como las causas medioambiental, temas más genéricos como la antiglobalización o el capitalismo o temas puntuales como la educación.)), activado a la esfera pública de una forma inédita. Hemos sido testigos de cómo los temas configuran públicos en torno a ellos (y no al revés) de forma veloz y altamente volátil, en términos de la energía que pueden desplegar en corto tiempo.  Este “estado de movilización” es transversal en muchas sociedades modernas y ha llegado para quedarse. Ejemplo de esto son: el 15M, la primavera árabe, el movimiento de los indignados, el movimiento estudiantil en Chile, los recientes desórdenes en Londres, las diferentes instancias de los actos <em>#Occupy</em> –, sólo por nombrar algunos. La hebra común que los vincula en muchos casos se refiere al descontento social, con una insuficiente o nula canalización de los anhelos civiles hacia las políticas públicas imperantes o un gran anhelo de vida democrática de calidad con formas concretas de aportar y de ser reconocido. Esto se ha reflejado en la fuerte voluntad de participación directa de la ciudadanía, ahora empoderada por las herramientas digitales, fundamentalmente a través del uso de las redes sociales que, aunque pueden en ocasiones banalizar los procesos de debate y participación, se han constituido en un nueva ágora pública, desestimando los canales de participación tradicionales y abogando por un modo más transparente y reversible para el diálogo ciudadano. El co-diseño, o diseño participativo se ha instalado como un modo válido para enfrentar este problema. Este post, entonces, describe las dinámicas y procesos observados durante el desarrollo de las movilizaciones sociales iniciadas por los estudiantes chilenos y secundadas por distintos actores y sectores políticos. He querido establecer medidas de eficacia constructiva, identificando los riesgos y oportunidades implícitos en la naturaleza volátil y compleja de estas dinámicas; mi interés radica en identificar patrones de interacción social y de colaboración para traducirlos en un modelo mayor que permita aportar a la comunidad de diseñadores y desarrolladores de plataformas de gobierno electrónico. Diseñar para la inclusión y el involucramiento ciudadano de los jóvenes es de vital importancia, pues han sido históricamente los protagonistas de los cambios sociales y culturales. En el último tiempo han estado a la vanguardia del uso y (re)creación de la web 2.0. Sin embargo, diseñar para favorecer la deliberación —etapa necesaria para un proceso democrático— es el paso que falta en esta sostenida tendencia hacia el empoderamiento del usuario/ciudadano precisamente porque tenemos extrema facilidad para la divergencia (entiendida desde el valor del pluralismo) pero extremas dificultades para converger o entrar en una dinámica propositiva. No existen ni los canales ni los mecanismos para una deliberación ciudadana donde se revisen con seriedad los eventuales traslapes de propuestas y se integre a los participantes en un proyecto común.</p>
+
+<h3 id="caso-de-estudio-las-movilizaciones-estudiantiles">Caso de estudio: las movilizaciones estudiantiles</h3>
+
+<p>Nuestro trabajo de investigación se ha centrado en comprender a los jóvenes en su relación con el poder y sus patrones de interacción social y tecnológica por medio de entrevistas semi-estructuradas, observaciones en terreno, sesiones de diseño participativo y co-creación. En el último tiempo, a raíz de las movilizaciones estudiantiles en Chile, nos ha tocado observar muy de cerca –incluso participando en– estas dinámicas deliberativas. Resulta de vital importancia reconocer el <em>nosotros</em> como una co-construcción. Este <em>nosotros</em> , en el caso de los estudiantes, se formaliza en la estructura de gobierno que supone un acuerdo anterior. A lo largo de las movilizaciones estudiantiles este cuerpo de estudiantes sufrió, a lo menos, 6 mutaciones en su estructura interna. Toda la energía, el sentido de aporte individual y las propuestas de cambio debieron abandonarse en un debate muchísimo más básico: la validación de la estructura de gobierno. Es decir, la carencia de una estructura o de un protocolo básico de funcionamiento impidió que floreciera algo a partir del colectivo; así de radical resulta ser la necesidad de estructura. Lamentablemente, una vez finalizado el paro, el cuerpo de estudiantes no logró acordar ninguna forma de gobierno interno quedando delegado a la federación de estudiantes de manera tácita. <a href="/assets/uploads/2011/11/pasos-gobierno-escuela1.png"><img src="/assets/uploads/2011/11/pasos-gobierno-escuela1-767x610.png" alt="" /></a> Este esquema muestra los diferentes estados de gobierno durante los meses Junio-Septiembre de 2011 de la e[ad] Escuela de Arquitectura y Diseño de la PUCV ((Este estudio fue realizado por alumnos de 4º año de diseño gráfico en septiembre de 2011 luego de 3 meses de paro. <a href="http://wiki.ead.pucv.cl/index.php/Modelos_Visuales_de_Gobierno_Estudiantil" title="Modelo visual del gobierno estudiantil">Más información</a>)). Estas movilizaciones no han estado carentes de fuertes autocríticas, teniendo muchas veces que reformularse estructuralmente para asegurar su continuidad. El debate interno del cuerpo estudiantil se dirime por un lado entre una estructura piramidal jerárquica basada en vocerías y mecanismos de representatividad por medio de votaciones, y por otro lado, un modelo distribuido en delegados por grupos, enfocados en trabajos concretos, sin representantes y con una fuerte horizontalidad. Estos dos modelos fueron denominados “modelo palomas” y “modelo estorninos” respectivamente, debido a sus fuertes similitudes con las dinámicas grupales mostradas en los distintos tipos de bandadas. El <strong>modelo palomas</strong> (<em>top-down</em>) es eficiente en para construir el tamaño y la identidad de la figura total del movimiento. Es capaz de instalarse como contraparte a la institucionalidad pero es todavía insuficiente para construir espacio de diálogo en el debate social mayor, donde los protagonistas son los representantes jerárquicos, figuras mediáticas reconocidas a nivel nacional. A ellos se les delega el poder de acción que “consulta” permanentemente con las bases mediante un sistema reglado de votaciones. Este proceso es lento y desplaza la discusión significativa hacia las cúpulas dejando a las bases con la función de presión, algunas veces violenta. A nivel de la experiencia individual, la palabra y la acción quedan desarticuladas, lo que vuelve la participación en un acto simbólico, marcado por un sentido mucho más emocional que racional: el pertenecer, sentirse identificado y apoyar una causa mayor. La envergadura de la causa imprime, inevitablemente, un caracter de poca trascendencia en la acción individual, generando un sentido tácito de impotencia cuando la participación se vuelve simbólica. El <strong>modelo estorninos</strong> (<em>bottom-up</em>) define un espacio de acción acotado, excluyéndose del gran debate de manera directa, pero estableciendo dinámicas participativas en torno a ejes o proyectos de trabajo que pueden entregar frutos concretos. Se declara tácitamente una “frontera de consernimiento” que filtra el discurso sin asidero ni consecuencia directa posible. Si bien su trabajo puede alinearse a la causa mayor del movimiento, sus acciones creativas son esencialmente autónomas y descentralizadas, obedeciendo primeramente a los contextos y necesidades inmediatas. La identidad del grupo mayor se declara en primera instancia desde una condición preexistente –la pertenencia– y se construye como colectivo en virtud de un trabajo común que debe re-formularse, cada vez. Por este sentido, este tipo de organización es más frágil ya que demanda más trabajo para mantener su pulso y su tamaño. La dinámica de la asamblea debilita al modelo estorninos, ya que la supremacía de palabra por sobre la acción merma la voluntad por participar. Finalmente se termina produciendo una dinámica meritocrática medida en base a los aportes concretos y liderazgos de los individuos en cada uno de los proyectos en que participa. <a href="/assets/uploads/2011/11/image0081.png"><img src="/assets/uploads/2011/11/image0081.png" alt="" /></a> La diferencia de los modelos define un rol distinto del liderazgo. El modelo jerárquico define líderes que pivotean y canalizan la comunicación, mientras que el modelo horizontal requiere líderes atractores que construyan ejes de trabajo. Pienso que la clave está en la definición de un modelo de interacción mixto (de adhocracia) que:</p>
+
+<ul>
+  <li>permita la emergencia de liderazgos en torno a temas-eje</li>
+  <li>permita y reconozca las iniciativas individuales dentro de estos grupos de trabajo emergentes, a partir de mecanismos de valoración y adscripción democrática</li>
+  <li>que el reconocimiento a las personas esté basado en sus aportes reconocidos y validados por sus pares</li>
+  <li>que las instituciones, por medio de sus autoridades, reconozcan los temas emergentes y a los líderes (entendidos como aquellas personas que han aportado con propuestas o se han adscrito a grupos de trabajo) sin generar estructuras paralelas de gobierno.</li>
+  <li>valide una estructura interna</li>
+</ul>
+
+<p>La relación con la tecnología entre los estudiantes de educación secundaria y universitaria es difícil de generalizar. Sin embargo, podemos afirmar que los nuevos servicios son mirados con desconfianza inicial pero rápidamente se apropian de ellos como canales alternativos de difusión y notificación. Las redes social (principalmente Twitter y Facebook) son empleados de esta forma, mientras los sitios Web institucionales (frecuentemente montados en Wordpress) sirven para debates públicos más estructurados. Todavía no se emplean servicios para la votación y, en un primer muestreo, se expresó un rechazo hacia esta forma deliberativa producto de la desconfianza que proyecta como una “caja negra” difícil de fiscalizar.</p>
+
+<h3 id="la-experiencia-democrática">La Experiencia Democrática</h3>
+
+<p>Se entiede <em>experiencia</em> como la interacción entre el individuo y su entorno diseñado. Esta interacción se comprende como un viaje con etapas sucesivas que construyen un sentido de unidad y coherencia. Esta unidad es completa si las etapas llegan a consumarse; y será significativa en cuanto sea emocional y estética. La noción de co-experiencia expande este modelo para incorporar la dimensión social y colectiva de la consumación de un acto colectivo. Esta realidad transforma la realidad consecutiva y sincrónica de la experiencia individual en un fenómeno distribuido y desenfocado, con ciertos hitos significativos (consensuados) que marcan el tiempo y avance de –en este caso– la co-experiencia del proceso democrático.</p>
+
+<p><a href="/assets/uploads/2011/11/image0051.png"><img src="/assets/uploads/2011/11/image0051-813x610.png" alt="" /></a> Este es el modelo de experiencia básico, entendido como el acoplamiento entre la acción y su significado. Podemos reconocer, por lo menos, cuatro modelos tácticos para la construcción de democracia digital. Estas tácticas operan como patrones definidos de interacción digital, y han sido probados en diversos lugares y situaciones del mundo. En primer lugar, está la noción de <strong>democracia directa o plebiscitaria</strong>. Se prefiere rechazar este modelo como alternativa de gobierno debido a su peligrosa inconsistencia y poca sustentabilidad en la implementación de las decisiones. La evidencia sugiere que el apoyo a la democracia directa se ve correlacionada positivamente con el grado de insatisfacción hacia las instituciones democráticas de carácter representativo. En efecto, una de las razones para la promoción del modelo directo plebiscitario es el fortalecimiento y legitimación decisión en situaciones en que la institucionalidad falla. Este modelo se critica por su carácter tecno-populista que no asegura la viabilidad de las decisiones y falla en alinear correctamente las aspiraciones con los compromisos implícitos en ellas. Sin embargo, cabe destacar que esta estrategia es sumamente provechosa para consensuar los temas relevantes de la agenda pública, es decir, como estrategia de <em>crowdsourcing</em> para detectar el sentido de importancia y urgencia para constituir una agenda valorizada desde las prioridades democráticamente establecidas. Tal vez el observar las discrepancias entre los temas emergentes (<em>bottom-up</em>) y los temas de la agenda oficial (<em>top-down)</em> pueda servir como indicador de legitimidad. En segundo lugar están <strong>comunidades en línea</strong> , fortalecidas y empoderadas por la rápida absorción y masividad de redes sociales como Facebook o Twitter. Hay muchas más comunidades digitales de lo que comúnmente se cree, las que se constituyen como una red cívica autónoma. Este modo de interacción constituye un verdadero género discursivo público que facilita la colaboración y la coordinación de un modo altamente flexible. Uno de los principales problemas es la falta de foco de las discusiones que, al ser abiertas y sin una moderación declarada de antemano, suelen contaminarse con ruido de información banal que desvía la atención y tiende a diluir en la superficialidad los asuntos cívicos. En tercer lugar, los gobiernos están utilizando cada vez más <strong>técnicas de minería de datos y visualización de información</strong> como una forma de medir la opinión pública. La mayoría de los experimentos en democracia digital llevados a cabo por diversos gobiernos, incluyen herramientas de este tipo. La más fuerte crítica a este enfoque es la volatilidad y superficialidad de la información recabada. Monitorizar las sitios y ciertas palabras clave en Internet no permite acceder al proceso profundo de la formación de la opinión pública. El proyecto MediaFranca busca enfocarse en un cuarto modelo de democracia digital que es, sin duda, uno de los más difíciles de diseñar y construir: <strong>sostener la participación ciudadana a lo largo de procesos deliberativos</strong>. El énfasis aquí está puesto sobre el “elemento de deliberación” dentro de la democracia. Esto tiene poco que ver con la innovación tecnológica y mucho que ver con nuevas ideas sobre cómo enriquecer el proceso democrático como un experiencia social (co-experiencia) con formas y cualidades significativas. Entre las dimensiones necesarias para la inclusión y participación ciudadana podemos mencionar, a modo de una normativa básica:</p>
+
+<ol>
+  <li>Definición del tamaño del “nosotros”. El acotar el universo inmediatamente define el alcance de las decisiones y el tipo de asuntos a discutir.</li>
+  <li>Acceso a información balanceada, tiene que ver con la apertura, disponibilidad y acceso a las fuentes. Sin duda, este es uno de los aspectos más fuertes de la Red.</li>
+  <li>Mantener una agenda abierta a nuevos asuntos que puedan emerger. La agenda flexible puede entenderse también como una agenda autorregulada mediante mecanismos de valoración colectiva.</li>
+  <li>Tiempo para considerar los temas, lo que hace preciso definir plazos y metas (moderar, de algún modo).</li>
+  <li>Sistema libre de manipulación o coerción (reversible, sincronizable y verificable por cualquiera de las partes)</li>
+  <li>Entorno de discusión basado en reglas (transparencia absoluta de los mecanismos de priorización, adscripción, votación, reconocimiento, etc.)</li>
+  <li>Gran quórum de participación e inclusión en la discusión (proporcional al recorte)</li>
+  <li>Posibilidades de interacción libre entre los participantes, es decir que la plataforma no monopolice la conversación sino que facilite el intercambio y el desarrollo de la conversación en entornos <em>offline</em>.</li>
+  <li>Reconocimiento de las diferencias entre los participantes, pero el rechazo a los prejuicios basados en estatus (Edwards, 2002).</li>
+</ol>
+
+<h3 id="mediafranca">MediaFranca</h3>
+
+<p>Sobre el proceso de la experiencia de las personas, MediaFranca propone una estructura de participación basada en flujos de interacción.  <em>Estados</em> | <strong>Publicación</strong> | <strong>Participación</strong> | <strong>Deliberación</strong> | <strong>Gestión</strong><br />
+—|—|—|—|—<br />
+<em>modo de la experiencia</em> |  documental testimonial individual |  conversacional constructiva co-experiencia |  reflexiva contemplativa |  inmersiva inclusiva colaborativa<br />
+<em>dinámica de interacción</em> |  informar reportar denunciar |  consultar argumentar apoyar/rechazar |  votar adscribir |  comprometer trabajar reclutar<br />
+<em>objetivos</em> |  construir una imagen equilibrada y exhaustiva de la realidad a partir del reporte y el punto de vista |  modelar el sentido colectivo de relevancia estableciendo una agenda prioritaria |  construir acuerdos abierto y pluralistas |  depositar la responsabilidad final en la comunidad involudrada<br />
+__ |  construcción de registro público |  co-creación<br />
+<em>herramientas</em> |  perfil de identidad publicación multiformato |  visualización adscripción suscripción conversación |  valoración evaluación apoyo/rechazo |  coordinación colaboración administración incentivo<br />
+<em>servicios existentes</em> |  blogging microblogging comunidades de opinión |  redes sociales wikis |  herramientas de votación y relevancia (+1) |  servicios de gestión de proyectos Google docs wikis<br />
+Nuestro modelo distingue 4 estados dentro de la macro (co)experiencia democrática. Cada uno de estos estados puede abordarse desde el Diseño como experiencias finitas, cada una de ellas con una forma de culminación propia. El modelo contempla desde el levantamiento de temas hasta la gestión de una iniciativa a través de herramientas ad-hoc. Esta estructura perfila los procesos mencionados como estados de participación abiertos, no obligatorios, según la tipología de personas y sus intereses locales, clasificando cada <em>acción ciudadana</em> en las instancias de:</p>
+
+<ol>
+  <li><strong>Publicación</strong> : levantamiento de temas</li>
+  <li><strong>Participación</strong> : enriquecimiento del diálogo, <em>feedback</em> colectivo</li>
+  <li><strong>Deliberación</strong> : Participación indirecta</li>
+  <li><strong>Gestión</strong> : Participación directa.</li>
+</ol>
+
+<p><a href="/assets/uploads/2011/11/image0071.png"><img src="/assets/uploads/2011/11/image0071.png" alt="" /></a> En primera instancia, diseñar un espacio democrático requiere permitir su maleabilidad estructural. Diseñar para una maleabilidad estructural significa permitir un proceso de co-evolución con los participantes. Si la maleabilidad se refiere a la capacidad de alterar los artefactos del ecosistema, la maleabilidad estructural se refiere a la capacidad de modificar el espacios donde se da la interacción, modificar las condiciones ambientales. Aquí, sin la intervención del diseñador, las acciones que emergen dentro de ciertos contextos pueden modificar las condiciones del sistema en el que se insertan. La gente ya no es más consumidora dentro de espacios o sistemas predefinidos sino que se vuelven co-creadores de espacios <em>convivenciales</em>. El enfoque anticipatorio del diseño como proyección (que prevé) o como planificación, se mueve hacia otra estrategia de producción y de compromiso con su comunidad de uso (el público) mediante el reconocimiento de sus limitaciones y dejando la puerta abierta a constantes modificaciones, asumiendo un modo conversacional o de <em>control blando</em> , refiriéndose al cambio programado dentro de un sistema complejo. Normalmente las acciones ejercidas deben esperar un tiempo para ver los efectos de la acción. Esto se debe principalmente a que la naturaleza de la interacción social no se refiere únicamente a los actos comunicativos o transaccionales a nivel individual sino también a la modulación dinámica de energías materiales y sociales. Otro aspecto clave de una red que empodera la acción social es permitir la reversibilidad de sus relaciones. Cuando se trata de tecnología, la reversibilidad no es otra cosa que la moral puesta en práctica. Diseñar para el diálogo puede ser entendido como apoyar los procesos co-evolutivos mediante relaciones dialécticas. A la gente se le permite hablar de vuelta, comentar, elaborar sobre lo ya constituido; pero de un modo transparente y siempre reversible, que evita a toda costa la imposición de construcciones, procesos o ideas. Esta forma –ideal, por cierto– busca permitir la emergencia te ideas y tópicos democráticamente relevantes y tiene lugar a escala humana, en comunidades y grupos pequeños donde los valores esenciales son los significados comunes, el pensamiento colectivo y, por lo tanto, la propiedad y el bien común. Al involucrarnos en interacciones sociales, buscamos un sentido de propósito y de trascendencia a nuestros actos; necesitamos ver la consecuencia de nuestras acciones si aspiramos a que otros elaboren y construyan sobre ellas. La trascendencia, en este sentido, apunta a nuestra habilidad para generar aportes significativos en nuestras comunidades; aporte con un valor intrínseco suficiente como para que sean recibidos y reconocidos positivamente. Una herramienta que permita acciones trascendentes de sus participantes les permitirá transformar su contexto en oposición a la construcción de contextos que imponen acciones y condicionan y limitan a las personas. El modelo de MediaFranca hace un especial hincapié en la etapa deliberativa y en normar los procesos vinculantes. apuntando a la motivación a través de la construcción del perfil ciudadano, grado de participación-influencia, y la realización, mediante la recomendación inteligente de oportunidades y soluciones legales según las características de las conversaciones. Construir un modelo deliberativo en base a la votación, no asume la diversidad de intereses ciudadanos en cada uno de estos estados, más bien, excluye a quienes no deseen participar del resto de las instancias. Una persona podrá sentirse atraída levantando temas locales, conectando conversaciones, pero no gestionando la realización de un proyecto. Si apuntamos a una autorregulación de los mecanismos vinculantes tenderemos, sin duda, a una suerte de meritocracia (Bishay, 2010), donde las personas tendrán necesariamente mayor injerencia sobre aquellos asuntos sobre los cuales han invertido tiempo y trabajo. Sobre la motivación y el incremento en la sinergia de las conversaciones, hacer público un perfil ciudadano de acuerdo al nivel de participación, genera una reputación e influencia que desincentiva la publicación de información banal. Cada persona con su identidad ciudadana, del mismo modo que lo hace con su perfil en las redes sociales ya que forma parte del mismo ecosistema. Distinguir la participación a través del reconocimiento de personas, aumenta la relación horizontal y la importancia del empoderamiento cívico a través de la representatividad. Un espacio de interacción social reglado define, en virtud de su estructura mecánica de protocolos y procedimientos, un determinismo estructural. Ya hemos discutido que lo que emerja como comportamiento masivo es complejo de prever y por eso se hace necesario irlo construyendo permanentemente de forma dialógica. El sistema propuesto busca hacer “rimar” la palabra y la acción. En términos políticos esto significa desincentivar el clientelismo y promover el empoderamiento orientado en acción y proyecto. Son los proyectos los que construirán un “anillo público” a su alrededor, un pequeño “nosotros” que se articula en pos de una visión compartida del futuro, por muy pequeño y humilde que sea el alcance del proyecto entre manos. Si bien los servicios digitales son altamente sofisticados en los algoritmos que los gobiernan, la mecánica democracia no debe serlo. Muy por el contrario, debe ser transparente y comprensible; no como una caja negra sino como un cubo blanco. Una elección democrática de define con una claridad aritmética, sus mecanismos son comprensibles y fácilmente verificables. En este sentido, la complejidad que abre la tecnología es –paradójicamente– la simpleza que se requiere para no obscurecer ni delegar en cajas negras la co-creación de un futuro común.</p>
+
+<h3 id="conclusiones">Conclusiones</h3>
+
+<p>Los diseñadores debemos comprender nuestro rol como posibilitadores o habilitadores, o más precisamente, de sembradores de condiciones dentro de sistemas dinámicos. Como consecuencia de esto, el diseño ya no puede ser entendido como una actividad de planificación (de pre-ver), sino en cambio, como el diálogo permanente de ajuste de los flujos de comunicación, habilitación y uso. Dentro de esta forma del diseño, la cultura, los productos, los servicios y los sistemas son concebidos en integración. Las dualidades arte-ciencia, sujeto-objeto, poética-política aparecen como conceptos trampa que amenazan con desbalancear el frágil equilibrio que requieren estas configuraciones. La búsqueda por la coherencia unívoca se muda por otra forma de coherencia más compleja, cuya imagen está en constante transformación y ajuste; no se trata de una imagen que deba perseguirse sino de una relación abierta que se busca sostener y conquistar continuamente. En el contexto actual de servicios Web, resulta complejo plantear una solución genérica o “bala de plata” si no existe un compromiso institucional mayor que aborde el problemas como el acceso, la neutralidad, la transparencia de los datos públicos, la arquitectura propietaria de la Red, entre otros. Este texto hace un llamado a los gobiernos para que lideren iniciativas de integración y de estándares para una nueva generación de servicios ciudadanos desde la óptica del metadiseño. Sin embargo, mientras se requiera de mejoras incrementales al sistema, no perdamos de vista el sentido profundo de la experiencia ciudadana a cambio de una mirada más pragmática y cortoplacista de los servicios Web vinculados a modelos de negocios inmediatos de carácter corporativo. Nos damos cuenta que se necesita una mirada más holística y sabia para el oficio del diseño, donde reconocemos la importancia del diseño participativo e inclusivo, asumiendo nuevos modos de co-creación más flexible y adaptable, para estar a la altura de los problemas de sustentabilidad social que el futuro nos depara.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

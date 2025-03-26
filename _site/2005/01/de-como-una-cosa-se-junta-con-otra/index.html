@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>De cómo una cosa se junta con otra | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">De cómo una cosa se junta con otra</h1>
+        
+
+        
+        <time datetime="2005-01-11T08:15:56+13:00">
+          11 January 2005
+        </time>
+
+        
+
+        <a id="btn-citar-de-como-una-cosa-se-junta-con-otra" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-de-como-una-cosa-se-junta-con-otra" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2005, January 11). <em>De cómo una cosa se junta con otra</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2005/01/de-como-una-cosa-se-junta-con-otra/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>De cómo una cosa se junta con otra</em>." <em>{dp} - doble página</em>, 11 January 2005, 
+        http://localhost:4000/2005/01/de-como-una-cosa-se-junta-con-otra/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>De cómo una cosa se junta con otra</em>." {dp} - doble página. Publicado el 11 de January de 2005. 
+        http://localhost:4000/2005/01/de-como-una-cosa-se-junta-con-otra/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-de-como-una-cosa-se-junta-con-otra");
+    const modal = document.getElementById("modal-citar-de-como-una-cosa-se-junta-con-otra");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <h4 id="exámen-de-primer-año-diseño--15-de-diciembre-de-2004">Exámen de Primer Año Diseño – 15 de diciembre de 2004</h4>
+
+<p>Nosotros venimos de un estudio que se origina en una pregunta, una pregunta acerca del encuentro entre una cosa y otra, de cómo ellas son a la vez y de cómo se encadenan conformando figuras mayores. ¿Cómo es esto?</p>
+
+<p>Sin entrar en los detalles de la peripecia del taller, quisiera precisar el hilván del estudio durante las primeras etapas, anteriores a la travesía:</p>
+
+<p>Partimos por el estudio del encuentro entre tierra y mar, no como espacio límite sino como espesor de vinculación, siempre renovándose en transformación. Desde él avanzamos ensanchando dicho espesor hasta topar con el fondo de la quebrada Tomás Ramos y el muelle Pratt, sólo para volverlo más evidente y poder distinguir más partes en él. Allí, en el recorrido, el encuentro se transforma en el estudio de la secuencia, en el misterio de hilvanar momentos discretos, desde las secuencias de dibujos: ¿qué es lo que se mantiene? ¿Qué cambia? ¿Dónde está el traspaso entre uno y otro? Luego, en un afán por acceder a un lenguaje formal abstracto quisimos establecer la continuidad en pasos discretos desde el tetraedro al icosaedro. También, en una entrada en la literatura, específicamente en el género del cuento, accedemos a hilvanes más complejos, verificando la no necesaria linealidad de la sintaxis discursiva. ¿Cómo es que se “pegan” todas las partes narrativas?, ¿cómo se encadenan a pesar de los giros súbitos, las transformaciones, los grandes saltos y los bruscos cambios de espacio? En este terreno, podríamos decir, del montaje, pareciera que no hay reglas, siempre se transgreden. La única medida a salvo es la propia verificación del sentido, al abrigo de la interioridad del lector.</p>
+
+<p>Al parecer – y así nos preguntamos muchas veces los profesores – elegimos una entrada ambiciosa para acceder al oficio, pero, sin duda, una entrada esclarecedora al momento de dar cuenta su sentido como constructor de mundo.</p>
+
+<p>Recuerdo que nos dijimos, en más de una ocasión en la mesa del Diseño, sumidos en nuestros afanes por esclarecer y conciliar una partida como reconocimiento común del proto-diseño; que el Oficio, en cuanto construcción de mundo, reside en el aire que sostiene la conversación de un grupo de personas cualesquiera, entre sus gestos y miradas, en la urbanidad del saludo, en el punto invisible donde convergen estas miradas o los obliga a girar la cabeza, en tal o cual dirección: hacia aquel afiche o hacia el escaño de una plaza, o hacia el suelo, donde cae entre brasas de un cigarrillo. En este aire frágil y pasajero, se percibe por un instante la luz divina que ilumina a los hombres en una fracción de eternidad: allí reside la celebración y la fiesta.</p>
+
+<p>El diseño, entonces, se constituye como el oficio que provoca, modifica y cuida ese aire, el aire que sostiene los actos de los hombres. Tal fue el enunciado del taller y así se presentó el oficio del Diseño.</p>
+
+<p>¿Qué significa esto?</p>
+
+<p>Que apuntamos más allá del término material de la obra, más allá de mera la proeza constructiva, más allá de las voluptuosidades de la forma. Apuntamos al cumplimiento más alto, el de la celebración y enaltecimiento de la condición humana, cumplimiento donde la obra cobra sentido.</p>
+
+<p>Por eso nuestro afán por perseguir la sintaxis unificadora de las secuencias, por eso nuestra pregunta por la continuidad del relato en los cuentos y encontrar el hilván discursivo que siempre elude las linealidades obvias, También por eso, nuestra primera empresa ambiciosa fue construir cortos animados cuadro a cuadro, a partir de escenarios construidos al modo de pequeños estudios fotográficos de luz controlada. La dimensión visual se constituyó como la interpretación semántica de las imágenes otorgadas por la poesía y aglutinadas por la música que se trenzaba dulcemente en el flujo del tiempo. Quisimos lograr una obra audiovisual en un tiempo absoluto, como coronación del estudio recorrido que comienza en el dibujo y el escrito (lo proto audiovisual en el dibujo que se ve y la palabra que se oye)</p>
+
+<p>Desde esta partida esencial nos vamos encontrando con los elementos del oficio; es desde lo esencial que llegamos a lo elemental, pues los elementos del oficio requieren de un suelo para posarse y vincularse como estudio. Debemos tener un continente para darle contenido. Este debate entre continente y contenido es lo propio del montaje de las secuencias, y nos acompaña en nuestra travesía, en el signo escultórico, en el álbum de Iruya, el las exposiciones y en los actos. Porque no es la mera suma y combinatoria de unidades la que nos completa la figura. Las unidades discretas (las teselas en la obra) se bastan a sí mismas sólo en su vocación de vínculo, pero no en la conformación del cuerpo mayor, porque éste sería sólo la resultante del tedio de una combinatoria.</p>
+
+<p>Sin embargo, sospechamos que el secreto unificador, como voluntad, más allá de las consistencias formales, está a la espera de quien lo asiste, como habitante, lector o testigo.</p>
+
+<h4 id="fragmento-del-poema-a-la-vez-de-godofredo-iommi">(fragmento del poema “A la vez” de Godofredo Iommi)</h4>
+
+<h5 id="se-pueden-describir-bordes-sus-juegos">Se pueden describir bordes. Sus juegos</h5>
+<p>significativos atraen indicando lo<br />
+que aluden, sin poderlo presentar.<br />
+Ese filo<br />
+se deja oír como un comienzo<br />
+entre un bajo continuo e inaudible<br />
+y la descripción construida<br />
+que escurre en él.</p>
+
+<h6 id="dime">Dime…</h6>
+<p>… la suposición arbitraria del<br />
+régimen axiomático ¿permite<br />
+un comienzo?</p>
+
+<h6 id="se-diría-que-el-algoritmo">Se diría que el algoritmo</h6>
+<p>se precia de llevarlo consigo,<br />
+construirlo en su juego…</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

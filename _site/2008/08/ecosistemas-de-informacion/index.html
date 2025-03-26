@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Ecosistemas de Información | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Ecosistemas de Información</h1>
+        
+
+        
+        <time datetime="2008-08-11T11:06:15+12:00">
+          11 August 2008
+        </time>
+
+        
+
+        <a id="btn-citar-ecosistemas-de-informacion" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-ecosistemas-de-informacion" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, August 11). <em>Ecosistemas de Información</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2008/08/ecosistemas-de-informacion/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Ecosistemas de Información</em>." <em>{dp} - doble página</em>, 11 August 2008, 
+        http://localhost:4000/2008/08/ecosistemas-de-informacion/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Ecosistemas de Información</em>." {dp} - doble página. Publicado el 11 de August de 2008. 
+        http://localhost:4000/2008/08/ecosistemas-de-informacion/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-ecosistemas-de-informacion");
+    const modal = document.getElementById("modal-citar-ecosistemas-de-informacion");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Una de las grandes dificultades que existe al momento de plantear la estrategia de un proyecto de comunicación a través de Internet, radica en las implicancias que esta <em>punta del iceberg</em> —la interfaz Web— tiene en la cultura interna de la organización, porque no se trata de un cambio “cosmético” sino que tiene que <strong>reflejar transparentemente</strong> el modo de ser de la organización o empresa. Conocida es la frase que dice: “La arquitectura de la información es la cola que mueve al perro”, de Louis Rosenfeld. Plantear un proyecto Web como un <strong>cambio cultural dentro de la organización</strong> es políticamente torpe y kamikaze. Nadie va a querer cambiar su cultura interna, menos si es alguien externo quien lo dice (el consultor de diseño).</p>
+
+<h2 id="el-pensamiento-estanco">El Pensamiento Estanco</h2>
+
+<p>El problema radica —principalmente en las grandes organizaciones— en que los emprendimientos comunicacionales son comprendidos como proyectos acotados a un área o departamento (generalmente marketing o comunicaciones). Además del pensamiento estanco que limita el horizonte del proyecto, éste queda de rehén en manos de los ingenieros que determinan “lo que se puede hacer y lo que está fuera de alcance tecnológico”. Es triste pero cierto; vivimos en un mundo <strong>tecno-determinado</strong> donde las ideas y los sueños están sujetos a la voluntad de los ingenieros que son muy buenos resolviendo problemas pero muy malos imaginando otras posibilidades; porque la tecnología ha avanzado al punto que “casi todo se puede”, lo que falta son las ganas de hacerlo.</p>
+
+<p>Todos los proyectos que involucren <strong>Arquitectura de la Información, serán por definición transversales al orden organizacional</strong> y no pueden ser pensados como un proyecto compartimentalizado, cosmético o de cáscara. Cualquier reajuste al orden de la información, afectará los flujos de comunicación y, por lo tanto, repercutirán en la médula misma de la organización, en su modo de ser, de “interfacear” con las personas, de proveer sus servicios, etc.</p>
+
+<h2 id="el-pensamiento-ecológico">El Pensamiento Ecológico</h2>
+
+<p>Hablar de ecosistemas de información —o información ecológica (googlee: “information ecologies” y verá)— tiene que ver con entender cómo está cambiando la perspectiva que tiene la gente respecto de la tecnología. En particular, la pregunta apunta a entender cómo la gente usa la tecnología en un “contexto localizado” y cómo eso impacta en el como vivimos, jugamos, trabajamos y nos relacionamos; impacta todas las esferas y niveles de la vida humana. El objetivo de quienes sostienen la idea de pensar la información desde un punto de vista ecológico es<strong>crear una discusión balanceada</strong> acerca la tecnología comprendiendo las finas ebras de la interdependencia, identificando un “bajo continuo” y madurando una mirada lúcida —por lo tanto, crítica— y sobre todo, humana. El problema radica en que nuestra perspectiva de la tecnología (o de la gente en general) es muy limitada. Esto produce principalmente <strong>3 creencias populares</strong> que terminan implementando tecnologías <strong>carentes de corazón</strong> :</p>
+
+<ol>
+  <li>La tecnología se acelera exponencialmente y no tenemos nada que hacer, sólo tratar de mantenernos actualizados y no quedarnos atrás</li>
+  <li>La diseminación de procesos automatizados minará la destreza, el juicio y el oficio de las futuras generaciones de trabajadores</li>
+  <li>La eficiencia mecánica en comparación al desempeño de las personas desconocerá siempre la riqueza del ser humano</li>
+</ol>
+
+<p>Este modo de percibir la tecnología está bastante diseminado y se evidencia en el lenguaje y en las <strong>métaforas</strong> utilizadas para referirse a la tecnología:</p>
+
+<ol>
+  <li><strong>Tecnología como Herramienta</strong> se refiere a la tecnología que se acomoda a la mano y a la mente de los individuos (ergonomía, usabilidad). Pensar en ella como una herramienta es útil cuando diseñamos para capacidades humanas y necesidades específicas. La crítica a este enfoque es que rara vez toma en cuenta las coordenadas sociales, organizacionales, políticas o emocionales más complejas asociadas al contexto de uso.</li>
+  <li><strong>Tecnología como Texto</strong> piensa en la forma que contiene significado y que comunica algo dependiendo de la situación. Es útil al momento de debatir la construcción de significados y evidenciar los tácitos de la comunicación, así como definir el rol del diseñador. Tiene que ver con pensar el diseño de la tecnología como la construcción de un guión que está embebido en la forma. La crítica a esta visión radica en la mirada determinista que contiene al usuario dentro de esquemas previsibles y cerrados.</li>
+  <li><strong>Tecnología como Sistema</strong> es la mirada más amplia que comprende la interrelaciones y dependencias. La sintetización que suele ocurrir para volver comunicable esta mirada, suele incurrir en simplificaciones extremas que dejan de lado los detalles importantes.</li>
+</ol>
+
+<p>Tal vez exista una cuarta mirada, la que entiende la <strong>tecnología como una ecología</strong>. La metáfora para entender esta mirada se ilustra como un sistema vivo de relaciones e interdependencias complejas, dentro del cual existe la diversidad, la co-evolución y la localización de las acciones. Podríamos entender esta partida semejante a la mirada sistémica pero más concentrada en los detalles y particularidades de sus componentes. Esta mirada comprende la relación con la tecnología como la construcción de un <strong>sistema autopoiético</strong> que vive en la constante renovación de sus componentes en virtud de la evolución simbiótica entre hombres y tecnología, que toma la forma de la conversación en red; lo que <a href="http://www.inteco.cl/articulos/005/doc_esp4.htm" title="Las Contribuciones de Humberto Maturana a las Ciencias de la Complejidad y la Psicología">Humberto Maturana llama “<em>leguajear</em> “</a>.</p>
+
+<p>En este paradigma, <strong>la noción de localidad es crucial</strong> ya que constituye el origen de la diversidad. Sin diversidad no hay ecosistema. Son los componentes diversos los que co-evolucionan en su interacción. Hay gente que llama a estos componentes los <strong>replicantes de tercer orden</strong> (genes, memes y ahora: <a href="http://www.ted.com/talks/view/id/269/" title="Charla de Susan Blackmore en TED"><em>temes</em></a>).</p>
+
+<h3 id="entonces">Entonces…</h3>
+
+<p>Estos nuevos esquemas de pensamiento para comprender la tecnología y nuestra relación con ella son difícilmente transformables en valor inmediato. Pero podemos identificar implicancias directas a nuestro trabajo de diseño:</p>
+
+<ul>
+  <li><strong>Trabajar comprendiendo los valores fundamentale</strong> s: hay que entender lo que a la gente le importa y por qué; qué emociones están en juego y que grado de dependencia y delegación existe con la tecnología: explorar y sintetizar.</li>
+  <li><strong>Estar atento y curioso</strong> , gatillar la discusión y el debate —siempre desde una mirada crítica— nuestra relación con la tecnología: comunicar.</li>
+  <li><strong>Enfocarse en los intersticios estratégicos</strong> : siempre preguntarse ¿por qué?, sobre todo en las preguntas que nos tocan desde nuestra realidad local, desde nuestro propio contexto. Es a partir de estas situaciones-ejemplo que podemos generar conceptos que parecieran estar dirigidos sólo a nosotros mismos pero que en la práctica pueden tener un alcance muchísimo mayor.</li>
+</ul>
+
+<h4 id="hay-que-leer">Hay que leer:</h4>
+
+<ul>
+  <li><a href="http://www.amazon.com/Information-Ecologies-Using-Technology-Heart/dp/0262640422/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1213301191&amp;sr=8-1">Information Ecologies: Using Technology With Heart</a> escrito por <a href="http://darrouzet-nardi.net/bonnie/index.html">Bonnie Nardi</a> y <a href="http://anthro.ucsc.edu/directory/details.php?id=70">Vicky O’Day</a>, ambas investigadoras interesadas en la relación de la tecnología y las personas.</li>
+  <li><a href="http://electricinsomnia.com/">El blog de Imran Sobh</a>, amigo y ex-compañero de postgrado en CMU. El hace una brillante síntesis del libro que es el cupable de este post.</li>
+  <li><a href="http://www.americanscientist.org/bookshelf/pub/what-are-techno-memes-anyway" title="más acerca de techno-memes">¿What are techno-memes, anyway?</a></li>
+</ul>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

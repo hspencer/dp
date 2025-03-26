@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Para qué investigamos con usuarios | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Para qué investigamos con usuarios</h1>
+        
+
+        
+        <time datetime="2008-02-28T16:41:38+13:00">
+          28 February 2008
+        </time>
+
+        
+
+        <a id="btn-citar-para-que-investigamos-con-usuarios" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-para-que-investigamos-con-usuarios" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, February 28). <em>Para qué investigamos con usuarios</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2008/02/para-que-investigamos-con-usuarios/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Para qué investigamos con usuarios</em>." <em>{dp} - doble página</em>, 28 February 2008, 
+        http://localhost:4000/2008/02/para-que-investigamos-con-usuarios/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Para qué investigamos con usuarios</em>." {dp} - doble página. Publicado el 28 de February de 2008. 
+        http://localhost:4000/2008/02/para-que-investigamos-con-usuarios/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-para-que-investigamos-con-usuarios");
+    const modal = document.getElementById("modal-citar-para-que-investigamos-con-usuarios");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>En términos generales, en todo proceso de diseño podemos distinguir 3 momentos o fases características:</p>
+<ol>
+  <li>la fase exploratoria, donde se conocen a los usuarios y se define el territorio en juego</li>
+  <li>la fase generativa, donde se plantean las ideas y conceptos a desarrollar</li>
+  <li>y la fase evaluativa, donde se mide el producto o servicio respecto de los usuarios</li>
+</ol>
+
+<p>Está claro que la transición entre una y otra no se da de manera nítida y existen traslapes y dependencias conocidas. Sin embargo, lo que resulta determinante en el proceso, es la solidez de la fase exploratoria pues es desde ella que se fundamenta todo el proyecto hacia adelante. <img src="/assets/uploads/2008/02/fases1.jpg" alt="Las 3 fases en el proceso de diseño" /> O dicho de otro modo, mientras mejor esté abordada la fase exploratoria, mejor y más consistentes serán los conceptos generados en la fase propositiva. También es importante hacer notar que la investigación con usuarios puede (y a mi juicio, debe) estar presente en cada una de las fases, aquí nombro sólo algunos:</p>
+
+<h3 id="fase-exploratoria">Fase Exploratoria</h3>
+
+<ul>
+  <li>Observación</li>
+  <li>Entrevistas</li>
+  <li>Narrativas Dirigidas (prometo escribir un post acerca de esto más adelante)</li>
+  <li>Encuestas</li>
+  <li>Investigación Bibliográfica (¿para qué inventar la pólvora denuevo?)</li>
+</ul>
+
+<h3 id="fase-generativa">Fase Generativa</h3>
+
+<ul>
+  <li>Cuadernillos, bitácoras y diarios con cámaras desechables</li>
+  <li>Sessiones participativas de co-diseño con usuarios (<a href="http://www.maketools.com/" title="MakeTools, metodología de diseño participativo ideada por Liz Sanders">makeTools</a>)</li>
+  <li>Sesiones de validación de conceptos</li>
+</ul>
+
+<h3 id="fase-evaluativa">Fase Evaluativa</h3>
+
+<ul>
+  <li>Sesiones de validación de <em>escenarios</em></li>
+  <li>Test con prototipos de papel (wireframes funcionales “a mano”)</li>
+  <li>Eyetracking</li>
+  <li>Análisis Heurístico</li>
+</ul>
+
+<p>En Chile estamos <a href="http://www.eyetracking.cl/" title="Eyetracking en Chile">comenzando a evangelizar</a> para tomar seriamente estas metodologías, pero recién estamos entendiendo la investigación como evaluación. ¿Que pasa con las fases más fundamentales y tempranas del proceso? Un buen diseño es aquel que comprende el secreto del usuario, que es capaz de interpretarlo. Para lograr ese grado de empatía, la fase exploratoria busca acceder y construir los <strong>modelos mentales</strong> que enmarcan el comportamiento del usuario. Si el diseño del producto final interpreta correctamente el modelo mental del usuario, no existirá colisión entre espectativas y respuesta del sistema, la curva de aprendizaje será menor y el producto será altamente “apropiable”.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

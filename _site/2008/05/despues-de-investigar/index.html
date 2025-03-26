@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Después de Investigar | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Después de Investigar</h1>
+        
+
+        
+        <time datetime="2008-05-06T00:48:57+12:00">
+          6 May 2008
+        </time>
+
+        
+
+        <a id="btn-citar-despues-de-investigar" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-despues-de-investigar" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, May 6). <em>Después de Investigar</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2008/05/despues-de-investigar/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Después de Investigar</em>." <em>{dp} - doble página</em>, 6 May 2008, 
+        http://localhost:4000/2008/05/despues-de-investigar/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Después de Investigar</em>." {dp} - doble página. Publicado el 6 de May de 2008. 
+        http://localhost:4000/2008/05/despues-de-investigar/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-despues-de-investigar");
+    const modal = document.getElementById("modal-citar-despues-de-investigar");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Está claro que la <strong>investigación exploratoria</strong> con usuarios adquiere cada vez más valor en los proyectos (aunque todavía, para los ojos del cliente, sea muy difícil justificarla y formalizarla dentro de una Gantt). Esta investigación preliminar nos permite definir el territorio de acción y comprender los <a href="http://www.darcy.cl/usabilidad/%c2%bfque-son-los-modelos-mentales/" title="Lo que Darcy dice">modelos mentales</a> de las personas involucradas. Sólo desde ahí podremos avanzar en definiciones de valor para el diseño. Dentro de una oficina de diseño —como <a href="http://www.ayerviernes.com" title="AyerViernes S.A.">AyerViernes</a>— el proceso de investigación se instala cada vez más como una pieza clave dentro del proceso creativo; cada vez se hace más patente el valor que trae un agudo conocimiento de las personas para construir diseños eficaces, apropiables y queribles. El desafío entonces no radica en elegir una metodología de investigación adecuada, sino más bien en cómo leemos en la información obtenida <strong>implicancias para el diseño</strong>.</p>
+
+<h3 id="desde-los-datos-a-la-información">Desde los Datos a la Información</h3>
+
+<p>La investigación con usuarios suele producir montañas de material de diversa índole: transcripciones de entrevistas, grabaciones de audio, fotografías de los espacios de trabajo, fotografías de herramientas y artefactos, estadísticas de encuestas, cuestionarios… y la lista sigue. Como paréntesis, hay que recordar que en un proceso así trabaja un equipo multidisciplinario y que, si bien cada uno conoce el estado del proyecto, la especialización es algo inevitable dada la complejidad y la magnitud del trabajo. Es imprescindible saber hacerse buenas preguntas y definir nítidamente una estrategia de investigación, pero en este escenario el <em>quid</em> del asunto es ser capaces de <strong>hacer el link</strong> entre los hallazgos y las implicancias.</p>
+
+<h3 id="desde-la-información-a-la-comunicación">Desde la Información a la Comunicación</h3>
+
+<p>El proceso de sintetización de la información recabada durante el proceso de investigación se procesa en reuniones entre los investigadores y los diseñadores. Normalmente frente a una pizarra, los investigadores “narran” sus hallazgos. Dentro de este proceso podríamos identificar diferentes técnicas:</p>
+
+<ul>
+  <li><strong>Mapas de afinidad</strong> : Los investigadores identifican conceptos o procesos significativos anotándolos en notas <em>post-it</em>. En la medida que se van añadiendo en la pizarra, se comienzan a agrupar —naturalmente, casi— en categorías, nubes o ‘clusters’. Esta primera vizualización permite identificar las dimensiones fundamentales del proyecto, como primer paso hacia una síntesis.</li>
+  <li><strong><a href="http://es.wikipedia.org/wiki/Mapa_conceptual" title="Definición en Wikipedia">Mapas Conceptuales</a></strong> : Corresponden a representaciones <em>negociables</em> de conocimiento. Se articulan conceptos con parabras conectoras (normalmente verbos que definen una relación direccionada) formando “<a href="http://en.wikipedia.org/wiki/Triple" title="Definición en Wikipedia \(inglés\)">tripletas</a>” como en RDF. Estas frases relacionales pueden cruzarse en la medida que los conceptos sean re-utilizados por otras frases. Estas representaciones ayudan a ver el total de forma integrada y permiten identificar nodos críticos dentro de un sistema.</li>
+</ul>
+
+<p>Estas técnicas buscan <strong>visualizar una respuesta</strong> que emerga a partir de los datos. Se trata entonces de un tipo de pensamiento —o modo de proceder— que <strong>piensa directamente haciendo</strong>. Como dije anteriormente, este sintetización se realiza en sesiones (normalmente llamadas de <em>brainstorming</em>) que constituyen el link entre hallazgos e implicancias. Cabe destacar que este proceso es crítico dentro de una compañía de diseño y es fundamental construir <strong>objetos fronterizos</strong> que permitan formalizar el diálogo interdisciplinario y que, además, funcionen como los “entregables” de la investigación, ya que los diseñadores que siguen a partir de este punto, no pueden volver a leer la información <em>cruda</em> y necesitan información <em>cocinada</em> por expertos. El problema surge cuando estas reuniones no pueden llevarse a cabo (al menos sincrónicamente) y la información debe transmitirse en forma de <em>entregable</em>. Pero, como dije antes, no existen estándares para estos objetos que sirvan como testimonio en esta posta: se trata de un problema de visualización y síntesis.</p>
+
+<p><a href="/assets/uploads/2008/04/desing_process1.jpg"><img src="/assets/uploads/2008/04/desing_process1.jpg" alt="proceso de diseño" /></a> (1) brief (2) generación (3) proposición</p>
+
+<p>Si entendemos este diagrama como un proceso genérico de diseño que comienza como un encargo que —normalmente— intenta integrar las dimensiones comerciales, sociales y tecnológicas (los tres ejes rojos); nos damos cuenta que la fase intermedia, aquella en la cual se generan los conceptos básicos a implementar, requiere necesariamente de la <strong>sintetización exploratoria</strong> como diagnóstico inicial que permita una <strong>visión del total</strong>. Sólo a partir de esta comprensión estaremos en buen pie para comenzar a prototipar proposiciones de diseño.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Dibujos Generativos | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Dibujos Generativos</h1>
+        
+
+        
+        <time datetime="2008-09-10T05:31:08+12:00">
+          10 September 2008
+        </time>
+
+        
+
+        <a id="btn-citar-dibujos-generativos" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-dibujos-generativos" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, September 10). <em>Dibujos Generativos</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2008/09/dibujos-generativos/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Dibujos Generativos</em>." <em>{dp} - doble página</em>, 10 September 2008, 
+        http://localhost:4000/2008/09/dibujos-generativos/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Dibujos Generativos</em>." {dp} - doble página. Publicado el 10 de September de 2008. 
+        http://localhost:4000/2008/09/dibujos-generativos/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-dibujos-generativos");
+    const modal = document.getElementById("modal-citar-dibujos-generativos");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p><strong>Lenguaje Computacional Cero</strong>(o LC0) es un nuevo módulo dentro de la asignatura del Taller de Diseño para el Primer Año. Dentro de este ramo se introduce a los alumnos a la programación gráfica como un modo de acceder al lenguaje de la abstracción desde el rigor de los algoritmos matemáticos. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se familiarizarán con algoritmos básicos, geometría computacional y simulación cinemática.</p>
+
+<p>La alfabetización digital, entendida en la mayoría de los casos como la capacidación para el uso de programas, sólo resuleve la mitad del problema: el saber <em>leer</em>. Saber <em>escribir</em> , tiene implicancias mucho más profundas, porque significa ser capaz de expresar y llevar adelante las ideas propias. Para un diseñador este distingo es fundamental ya que debe comprender el lenguaje <strong>desde ambos lados</strong> para poder construir y diseñar; y el medio digital permite esa maleabilidad.</p>
+
+<p>En este curso usamos el entorno de desarrollo <a href="http://www.processing.org/" title="Página del proyecto opensource Processing">Processing</a> para construir dibujos generados a partir de máquinas autónomatas. Estos proyectos tienen una versión impresa en PDF y un corto de video, ambos generados completamente a partir de código. Todos los videos están disponibles en nuestro <a href="http://vimeo.com/groups/LC0" title="LCO en Vimeo">grupo de vimeo</a> y los programas en <a href="http://www.ead.pucv.cl/processing/2008">http://www.ead.pucv.cl/processing/2008</a>.</p>
+
+<p><a href="http://vimeo.com/groups/3037/videos/1694568?pg=embed&amp;sec=1694568">Genesis_proyecto</a> de <a href="http://vimeo.com/user735269?pg=embed&amp;sec=1694568">Serrano Daniel</a> en <a href="http://vimeo.com/?pg=embed&amp;sec=1694568">Vimeo</a>.</p>
+
+<p><a href="http://vimeo.com/1696036?pg=embed&amp;sec=1696036">reflejo con fondo blanco</a> de <a href="http://vimeo.com/user720309?pg=embed&amp;sec=1696036">Daniela Labra</a> en <a href="http://vimeo.com/?pg=embed&amp;sec=1696036">Vimeo</a>.</p>
+
+<p><a href="http://vimeo.com/groups/3037/videos/1694123?pg=embed&amp;sec=1694123">El Efecto de la Luz y El Viento</a> de <a href="http://vimeo.com/user716571?pg=embed&amp;sec=1694123">Nicolás Abarca</a> en <a href="http://vimeo.com/?pg=embed&amp;sec=1694123">Vimeo</a>.</p>
+
+<p><a href="http://vimeo.com/groups/3037/videos/1687283?pg=embed&amp;sec=1687283">Ramificaciones</a> de <a href="http://vimeo.com/user708572?pg=embed&amp;sec=1687283">Fernanda Ladrón de Guevara</a> en <a href="http://vimeo.com/?pg=embed&amp;sec=1687283">Vimeo</a>.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

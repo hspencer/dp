@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Pixograms Icon Webfont | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Pixograms Icon Webfont</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2014/10/pixograms.gif" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2014-10-31T01:00:53+13:00">
+          31 October 2014
+        </time>
+
+        
+
+        <a id="btn-citar-pixograms-icon-webfont" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-pixograms-icon-webfont" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2014, October 31). <em>Pixograms Icon Webfont</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2014/10/pixograms-icon-webfont/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Pixograms Icon Webfont</em>." <em>{dp} - doble página</em>, 31 October 2014, 
+        http://localhost:4000/2014/10/pixograms-icon-webfont/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Pixograms Icon Webfont</em>." {dp} - doble página. Publicado el 31 de October de 2014. 
+        http://localhost:4000/2014/10/pixograms-icon-webfont/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-pixograms-icon-webfont");
+    const modal = document.getElementById("modal-citar-pixograms-icon-webfont");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Las <a href="http://herbertspencer.net/2008/11/partituras-de-interaccion-2/" title="Partituras de Interacción">partituras de interacción</a>, introducidas el 2008 como un sistema de notación gráfica para el diseño de experiencia, han sido adoptadas por muchos profesionales y equipos de diseño sobre todo en el contexto nacional. Este año, hemos decidido darles un ajuste construyendo una herramienta que facilite su creación. Una de las mayores dificultades para ser adoptadas dentro de las metodologías de trabajo, y su posterior consolidación en el tiempo, radica en el tiempo que involucra crearlas ya que actualmente sólo disponemos de plantillas para Illustrator y Omnigraffle.</p>
+
+<p>El avance es crear una aplicación que te permita <em>escribir las partituras</em> , con la fluidez de un compositor. Para esto estamos creando una <a href="http://eadpucv.github.io/pix" title="PiX">aplicación web</a>. La dependencia principal de esa aplicación es una tipografía de íconos que trabaja con ligaduras llamada <strong><a href="http://eadpucv.github.io/pixograms" title="PiXograms">Pixograms</a></strong> , que define un lenguaje visual básico para construir partituras de interacción o PiX –como las hemos llamado–. Dentro de los íconos tenemos diferentes categorías, como acciones de alto nivel (compartir, valorar, enviar, etc.), gestos touch, objetos comunes, respuestas del servidor y elementos abstractos, entre otros.</p>
+
+<p>La idea de esta familia iconográfica comenzó con una lógica de íconos apilados, queriendo definir una suerte de “lenguaje aglutinante” iconográfico para construir ideogramas a partir de las diferentes combinaciones de palabras. Si bien una aproximación de este tipo podría ser más consistente y compleja como lenguaje, resultó ser poco viable como primer paso en la definición de una herramienta. Entonces, a partir de esa idea decidimos simplificar los íconos para que fueran nombrados con una sola palabra que fuese fácil de aprender y recordar. La versión actual cuenta con los aportes de <a href="http://wiki.ead.pucv.cl/index.php/Melany_Marin">Melany Marin</a> e <a href="http://wiki.ead.pucv.cl/index.php/Ingrid_C%C3%A9spedes">Ingrid Céspedes</a> quienes sintetizaron y clasificaron el juego de íconos.</p>
+
+<p><a href="/assets/uploads/2014/10/pixograms-sprites.png"><img src="/assets/uploads/2014/10/pixograms-sprites-470x293.png" alt="pixograms-sprites" /></a></p>
+
+<p>Esta webfont está creada con <a href="https://github.com/sapegin/grunt-webfont">grunt-webfont</a> y con <a href="http://blog.hugo.solar/2014/08/crear-webfonts-ligaduras-con-svg-mediante-grunt-webfont/">la valiosa ayuda de Hugo Solar</a>, quien nos está ayudando a desarrollar el servicio de partituras PiX. El proyecto, bajo licencia artística, permite que otros puedan tomar esta familia como base para otros proyectos de diseño. Esperamos ir actualizando esta familia en la medida que las partituras requieran expandir su lenguaje incorporando más conceptos y objetos.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

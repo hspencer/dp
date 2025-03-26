@@ -67,7 +67,7 @@ header {
                     color: $color-text;
                     text-transform: uppercase;
                     text-decoration: none;
-                    &:hover{
+                    &:hover {
                         color: $color-link;
                     }
                 }
@@ -126,6 +126,21 @@ header {
                 border-radius: 0.5ex;
             }
         }
+        a.btn-citar {
+            position: absolute;
+            bottom: 0;
+            display: inline-block;
+            line-height: 0;
+            font-size: 3rem;
+            cursor: pointer;
+            border-radius: 5px;
+            color: $color-soft-line;
+            text-shadow: -1px -1px 2px white;
+
+            &:hover {
+                color: $color-link;
+            }
+        }
     }
 
     article {
@@ -164,18 +179,18 @@ header {
             word-break: break-word;
         }
 
-        table{
+        table {
             background-color: rgba(255, 255, 255, 0.504);
             font-size: 70%;
             font-family: $font-sans;
             border-collapse: collapse;
-            thead{
+            thead {
                 border-bottom: 2px solid $color-soft-line;
             }
-            tbody{
-                tr{
+            tbody {
+                tr {
                     border-top: 1px solid $color-soft-line;
-                    td{
+                    td {
                         padding: 1ex;
                         vertical-align: text-top;
                     }
@@ -213,13 +228,12 @@ header {
                 &:hover {
                     border-radius: 3px;
                     background-color: white;
-                    outline: 5px solid white;
+                    outline: 1ex solid white;
                 }
 
                 img {
                     border-radius: 3px;
                 }
-
             }
 
             h2 {
@@ -230,7 +244,7 @@ header {
 
             p {
                 margin: 0;
-                font-size: .76rem;
+                font-size: 0.76rem;
                 font-family: $font-sans;
                 line-height: 105%;
                 text-align: left;
@@ -241,7 +255,6 @@ header {
             mix-blend-mode: multiply;
         }
 
-        
         .center-poem {
             h2,
             h3 {
@@ -254,7 +267,7 @@ header {
                 font-family: $font-serif !important;
                 color: rgb(187, 31, 3) !important;
             }
-    
+
             .language-plaintext.highlighter-rouge {
                 pre {
                     white-space: normal;
@@ -267,15 +280,13 @@ header {
                 font-size: 90%;
                 line-height: 145%;
 
-                &.poemu{
+                &.poemu {
                     white-space: normal;
                     font-size: 80%;
                     line-height: 110%;
                 }
-
             }
         }
-        
     }
 }
 
@@ -302,7 +313,6 @@ header {
         inset 0 0 3px #fff;
     max-height: 60vh;
     overflow: hidden !important;
-
 
     .mt-post {
         margin-bottom: 1rem;
@@ -333,9 +343,10 @@ footer {
         font-size: $font-size-small;
 
         a {
-        a {
-            text-decoration: none;
-            color: $color-link;
+            a {
+                text-decoration: none;
+                color: $color-link;
+            }
         }
     }
 }
@@ -374,7 +385,6 @@ footer {
     margin-top: 2rem;
     gap: 0.5rem;
 
-
     a,
     span {
         width: 10px;
@@ -391,12 +401,10 @@ footer {
         transition: background 0.2s;
     }
 
-
     a:hover {
         background: #999;
         background: #999;
     }
-
 
     .actual {
         background: #333;
@@ -404,8 +412,6 @@ footer {
     }
 }
 
-.axis-table {
-}
 
 .axis-table {
     font-family: $font-sans;
@@ -415,11 +421,66 @@ footer {
     th,
     td {
         padding: 1ex;
-        a{
+        a {
             color: rgb(187, 31, 3) !important;
         }
         a:hover {
-            background-color: white
+            background-color: white;
+        }
+    }
+}
+
+.modal-citar {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.479); // fondo oscuro semitransparente
+
+    .modal-contenido {
+        background-color: $color-dp-bg;
+        margin: 10% auto;
+        padding: 2rem;
+        border: 1px solid #0000006d;
+        width: 93%;
+        max-width: 600px;
+        border-radius: 1ex;
+        position: relative;
+        font-size: 85%;
+
+        h3 {
+            margin-top: 0;
+            font-weight: 200;
+        }
+
+        h4 {
+            font-family: $font-sans;
+            font-weight: 500;
+            font-size: .65rem;
+            color: $color-title;
+            text-transform: uppercase;
+        }
+
+        p{
+            margin-left: 2em;
+        }
+    }
+
+    .modal-cerrar {
+        color: $color-text;
+        position: absolute;
+        top: .5rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            color: $color-link;
         }
     }
 }

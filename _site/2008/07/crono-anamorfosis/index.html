@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Crono-anamorfosis | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Crono-anamorfosis</h1>
+        
+
+        
+        <time datetime="2008-07-09T10:34:03+12:00">
+          9 July 2008
+        </time>
+
+        
+
+        <a id="btn-citar-crono-anamorfosis" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-crono-anamorfosis" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, July 9). <em>Crono-anamorfosis</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2008/07/crono-anamorfosis/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Crono-anamorfosis</em>." <em>{dp} - doble página</em>, 9 July 2008, 
+        http://localhost:4000/2008/07/crono-anamorfosis/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Crono-anamorfosis</em>." {dp} - doble página. Publicado el 9 de July de 2008. 
+        http://localhost:4000/2008/07/crono-anamorfosis/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-crono-anamorfosis");
+    const modal = document.getElementById("modal-citar-crono-anamorfosis");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p><img src="/assets/uploads/2008/07/timescan-normal1.png" alt="secuencia" /> Nuestra comprensión del tiempo es discreta, es decir concebimos la suceción de “instantes” como el único modo de reconstruir el flujo del tiempo. Cada vez que grabamos un video, recolectamos una gran catidad de fotogramas que luego son reproducidos —normalmente— a la misma velocidad con la que fueron captados. Tenemos entonces un <em>solido</em> o <em>volumen</em> de fotogramas cuyo espesor corresponde al tiempo. Siempre que reproducimos el video, elegimos verlo en sucesivos cortes transversales perpendiculares al tiempo, tratando de volver a esos instantes fotográficos. Pero ¿podemos verlo de otro modo? ¿qué ocurriría si elegimos ver este sólido de tiempo haciendo un corte con una inclinación ligeramente distinta? <img src="/assets/uploads/2008/07/timescan-inclinado1.png" alt="secuencia inclinada con anamorfosis temporal" /> Por ejemplo, imaginemos que el programa que captura video va almacenando un <em>buffer</em> de fotogramas que tiene un espesor igual al alto en pixeles del fotograma (aquí en el esquema: y = z). Es decir, si tengo un fotograma de 320 pixeles de ancho por 240 pixeles de alto, tengo un buffer de 240 fotogramas de espesor. Entonces el fotograma actual puede construirse a partir de la diagonal de este volumen: la primera línea es la actual, la segunda es de 1 fotograma atrás, la tercera de 2 fotogramas atras, y así hasta completar el alto de la imágen.  <a href="http://www.vimeo.com/1304091?pg=embed&amp;sec=1304091">TimeTwist</a> de <a href="http://www.vimeo.com/hspencer?pg=embed&amp;sec=1304091">Herbert Spencer</a> en <a href="http://vimeo.com?pg=embed&amp;sec=1304091">Vimeo</a>.</p>
+
+<h4 id="código">Código</h4>
+
+<p>El código presentado a continuación fue generado para captura en tiempo real en el entorno <a href="http://www.processing.org/" title="Baja processing si no lo tienes">processing</a>. Se debe tener en consideración que el programa <strong>requiere mucha memoria RAM</strong> para ejecutarse por lo que se hace necesario modificar las preferencias de processing (ojalá más de 1GB). Esto dependerá del tamaño de captura. Normalmente las cámaras para videoconferencias integradas admiten un máximo de 640 x 480. Este código no está optimizado, ojo. Si hacen algo con el código pongan el link para ver los experimentos en los comentarios de más abajo ¡Suerte! Bajar: <a href="http://www.herbertspencer.net/wp/wp-content/uploads/2008/07/timetwist.pde">timetwist</a>.pde</p>
+
+<h4 id="referencias">Referencias</h4>
+
+<ul>
+  <li><a href="http://www.zbigvision.com/The4Dim.html" title="Sitio de Zbig">Zbig Rybczynski</a></li>
+  <li><a href="http://www.flong.com/texts/lists/slit_scan/" title="catálogo informal de Golan Levin">Flong</a>, en una recopilación completa de <strong>slitscan</strong> (catálogo informal)</li>
+</ul>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

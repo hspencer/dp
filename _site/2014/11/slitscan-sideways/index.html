@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Sideways: Slitscan for Urban Travellers | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Sideways: Slitscan for Urban Travellers</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2014/11/sideways.jpg" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2014-11-13T08:33:42+13:00">
+          13 November 2014
+        </time>
+
+        
+
+        <a id="btn-citar-slitscan-sideways" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-slitscan-sideways" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2014, November 13). <em>Sideways: Slitscan for Urban Travellers</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2014/11/slitscan-sideways/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Sideways: Slitscan for Urban Travellers</em>." <em>{dp} - doble página</em>, 13 November 2014, 
+        http://localhost:4000/2014/11/slitscan-sideways/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Sideways: Slitscan for Urban Travellers</em>." {dp} - doble página. Publicado el 13 de November de 2014. 
+        http://localhost:4000/2014/11/slitscan-sideways/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-slitscan-sideways");
+    const modal = document.getElementById("modal-citar-slitscan-sideways");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p><strong>Sideways</strong> is a very small program created with <a href="http://www.processing.org">Processing</a> that creates 2 <a href="http://en.wikipedia.org/wiki/Slit-scan_photography">slitscan</a> bitmaps from a single video. The video must be a first-person road shoot so both sides (left &amp; right) are created from the edges.</p>
+
+<h2 id="instructions"><a href="https://github.com/hspencer/sideways#instructions"></a>instructions</h2>
+
+<ul>
+  <li>open the sketch in <a href="http://www.processing.org">Processing</a>. Download the program if necessary</li>
+  <li>import your video to the sketch or place it in the <code class="language-plaintext highlighter-rouge">/data</code> directory</li>
+  <li>update <code class="language-plaintext highlighter-rouge">filename</code> and <code class="language-plaintext highlighter-rouge">extension</code> variables accordingly</li>
+</ul>
+
+<h2 id="important-variables"><a href="https://github.com/hspencer/sideways#important-variables"></a>important variables</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">scanBorderOffset</code> is the sample distance from the edge</li>
+  <li><code class="language-plaintext highlighter-rouge">scanWidth</code> is the slice width</li>
+  <li><code class="language-plaintext highlighter-rouge">widthFactor</code> is the multiplier of the output width</li>
+</ul>
+
+<p><a href="https://github.com/hspencer/sideways" title="Sideways of Github">Check the Repo in Github</a></p>
+
+<h3 id="examples">Examples</h3>
+
+<p>left side:<br />
+<a href="/assets/uploads/2014/11/2014116114933_izq.png"><img src="/assets/uploads/2014/11/2014116114933_izq-1010x130.png" alt="2014116114933_izq" /></a><br />
+right side:<br />
+<a href="/assets/uploads/2014/11/2014116114933_der.png"><img src="/assets/uploads/2014/11/2014116114933_der-1010x130.png" alt="2014116114933_der" /></a><br />
+For more information on the topic, check this <a href="http://www.flong.com/texts/lists/slit_scan/">Informal Catalogue of Slit-Scan Video Artworks and Research</a> created by Golan Levin.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

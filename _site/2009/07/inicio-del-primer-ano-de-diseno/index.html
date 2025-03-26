@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Inicio del Primer Año de Diseño | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Inicio del Primer Año de Diseño</h1>
+        
+
+        
+        <time datetime="2009-07-06T07:18:07+12:00">
+          6 July 2009
+        </time>
+
+        
+
+        <a id="btn-citar-inicio-del-primer-ano-de-diseno" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-inicio-del-primer-ano-de-diseno" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2009, July 6). <em>Inicio del Primer Año de Diseño</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2009/07/inicio-del-primer-ano-de-diseno/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Inicio del Primer Año de Diseño</em>." <em>{dp} - doble página</em>, 6 July 2009, 
+        http://localhost:4000/2009/07/inicio-del-primer-ano-de-diseno/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Inicio del Primer Año de Diseño</em>." {dp} - doble página. Publicado el 6 de July de 2009. 
+        http://localhost:4000/2009/07/inicio-del-primer-ano-de-diseno/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-inicio-del-primer-ano-de-diseno");
+    const modal = document.getElementById("modal-citar-inicio-del-primer-ano-de-diseno");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/lamina_02.jpg" title="Exposición Primer Año de Diseño"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/lamina_02-605x403.jpg" alt="Exposición Primer Año de Diseño" /></a></p>
+
+<p>Al diseño: Año 1, Etapa I:</p>
+
+<ol>
+  <li><strong>Escuchando los exámenes de los otros talleres, caigo en la cuenta de un tema que los recorre. Se trata del <em>otro</em> , aquel destinatario de la obra. A diferencia de ellos, nuestro taller, antes de asumir una tarea para otro, debe permitirnos a nosotros mismos hacernos de un lenguaje.</strong>
+    <ul>
+      <li>Ese lenguaje es una invensión que nos obliga a replantearnos cosas tan nítidas y cotidianas como dibujar. Aquí, una dificultad: los prejuicios que se anteponen a lo visto. Decimos (nuevamente) que mediante el dibujo de observación nos forzarnos a convertir la impresión en expresión, dándose esta transformación en el acto mismo del dibujo, al unísono. Recrear lo que se está viendo, mientras se lo está viendo, es la primera y más grande abstracción.<a href="http://www.ead.pucv.cl/wp-content/galeria/ronda-2009-t1/186_exposiciones.jpg" title="Inicio del Primer Año de Diseño"><img src="http://www.ead.pucv.cl/wp-content/galeria/ronda-2009-t1/thumbs/thumbs_186_exposiciones.jpg" alt="186_exposiciones.jpg" /></a></li>
+    </ul>
+  </li>
+  <li><strong>Ese lenguaje es abstracto, porque viene del dibujo, que recrea la visto; es decir, transforma la impresión en expresión en el acto mismo de dibujar, al unísono</strong>
+    <ul>
+      <li>Abstracción de decidir lo que ve, lo que se toma, lo que se requiere para que la cosa aparezca en la superficie blanca, lo que se requiere para que el dibujo hable por sí solo y pueda tocar a otro, para que traiga a presencia aquello que se vió. Elemental pero complejo, porque se trata de una disposición espiritual interna; más que intelectual. No quiero ahondar en esa veta (la espiritual) porque resulta problemático para abordarlo como estudio (pero es una realidad).</li>
+    </ul>
+  </li>
+  <li><strong>Ese lenguaje es en el espacio, porque se juega en los órdenes materiales. Y por eso, nos permite estudiar la materia.</strong>
+    <ul>
+      <li>Para abordarlo como estudio, tenemos que distinguir y nombrar todas sus dimensiones implícitas, tenemos que caer en la cuenta de la sintaxis interna.</li>
+    </ul>
+  </li>
+  <li><strong>Ese lenguaje-espacio, en nosotros, avanzó desde el dibujo plano hacia el espacio tridimensional, nos llevó al estudio de la sintaxis particular entre la luz de la línea con la luz del pliegue. Nos abrió un espacio nuevo.<a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/notaciones.jpg" title="Pliegues y notaciones"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/notaciones-260x173.jpg" alt="Pliegues y notaciones" /></a></strong>
+    <ul>
+      <li>En el taller vamos expandiendo el espacio del dibujo para construirnos nuestro propio espacio creativo; nos modificamos su soporte, lo hacemos parte de un dibujo tridimensional. Líneas, achurados, blancos, recortes, pliegues, luces, texturas, ritmos, etc. Y en este sentido, el taller se inventa un espacio para operar en él. Estudiamos los distintos modos de dibujar, sin con contornos; sólo con achurados de luces, otros con papel karft, para ubicarlo en un gris luminoso y así poder abordar las sombras y las luces por separado, con tinta blanca y negra, con pliegue y corte, sin tinta, etc.</li>
+    </ul>
+  </li>
+  <li><strong>Este lenguaje-espacio nos permitió estudiar el aparecer</strong>
+    1. El aparecer de un punto notable de la cuidad, mientras se avanza en su encuentro
+    <ol>
+      <li>Lo discreto de la secuencia, o lo que resuena entre cada paso</li>
+    </ol>
+  </li>
+  <li>El aparecer del rostro del otro, mientras se ilumina gradualmente
+    <ol>
+      <li>Secuencias en transformación, hacia un reconocimiento
+        <ol>
+          <li>El aparecer del gesto reconocible de las manos</li>
+        </ol>
+      </li>
+      <li>Secuencia como partitura de la continuidad, paso de lo discreto a lo contínuo. Mayor fineza para ver aparecer.</li>
+    </ol>
+  </li>
+  <li><strong>Intuímos que tratar esta materia —el aparecer— nos acerca también al misterio poético de la creatividad, clave para entrar al oficio.</strong></li>
+</ol>
+
+<h2 id="líneas-de-estudio-primer-trimestre">Líneas de estudio Primer Trimestre</h2>
+
+<h3 id="a-aspectos-desde-donde-se-aborda-el-estudio-inicial-del-diseño">A. Aspectos desde donde se aborda el estudio inicial del Diseño:</h3>
+
+<ol>
+  <li>Observación a través de un dibujo anotado de la realidad que se tiene más próxima y más distante (esta vez la ciudad de Valparaíso).<a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/manos_carton_01.jpg" title="Momento discreto del gesto"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/manos_carton_01-260x173.jpg" alt="Momento discreto del gesto" /></a></li>
+  <li>Paso la forma; límite entre la figuración y abstracción (aquí el concepto de Representación se anuncia como la vía de “apropiación” y “presentación” de la realidad –nota para el curso de re-Presentación.</li>
+  <li>La materialidad: el papel, el pliego, el pliegue. Orden y geometría de la superficie (2 dimensiones) al volumen (3 dimensiones).</li>
+  <li>Antecesor y sucesor: la ubicación del alumno con respecto a su entorno, o total, o taller. (Aquí se anticipa la relación con las matemáticas en cuanto a número y conjunto).</li>
+  <li>De lo discreto y lo continuo en cuanto continuidad y ritmo del acto observado; se trata del gesto que acontece en un tiempo… se sucede.</li>
+</ol>
+
+<h3 id="b-aspectos-visibles-que-conforman-el-proyecto">B. Aspectos visibles que conforman el proyecto.</h3>
+
+<ol>
+  <li><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/lamina.jpg" title="Dibujos de los gestos de la mano"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/lamina-260x173.jpg" alt="Dibujos de los gestos de la mano" /></a>La estela, un largo de 1 a 1,2 m que recoge la continuidad de un gesto que la mano ejecuta y su modo de aparecimiento.</li>
+  <li>Momento discreto: dentro de la estela se reconoce ese gesto distinguido. Al interior de un cubo de aristas negras se da formalmente un instante discreto que “revela” –muestra– el gesto en cuanto a un momento de la sucesión.</li>
+  <li>Lectura y luz: La letra tipográfica (Helvetica) como titular y el manuscrito como notación. Luces y sombras denotan instantes y voluntades hacia la forma con achurado y superficies desde el blanco al negro.<a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/achurados.jpg" title="Interior del cuerpo achurado"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/achurados-260x173.jpg" alt="Interior del cuerpo achurado" /></a></li>
+  <li>Vínculos luminosos: Recogen y dan forma a la continuidad de la expresión; los cubos estelas se reunen en trazos vinculados por un prisma de papel diamante que reune los lenguajes formales de cada estela.</li>
+  <li>Lámina de Estudio: Esta como un índice del devenir del Taller y que es la base referencial de lo anotado en la estela.</li>
+  <li>Carpeta y Cuaderno del Taller: Se reune la documentación dibujada y anotada a lo largo del trimestre.</li>
+</ol>
+
+<h3 id="c-cuaderno-anotaciones-para-la-elaboración-del-presente-examen">C. Cuaderno anotaciones para la elaboración del presente examen</h3>
+
+<p>Las presentes páginas presentan el modo “observativo” y notacional de las coordenadas que se entrelazan cuando se aborda el estudio en su momento de término o exposición como lo es el presente examen. Se tiene que un diseñador recurre a múltiples relaciones que le van siendo constituyentes en el discurso que fundamente y constituye su quehacer.</p>
+
+<h4 id="pg-la-mano">Pg. La Mano</h4>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Dedos</td>
+      <td>Palma, campo de la imagen proyectada en el examen; tema que viene en la Presentación del Segundo Trimestre</td>
+      <td>Parte inferior agregada posteriormente, todo lo demás es dibujo de alumno del taller.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/mano_w.jpg" title="Palma Mano Sintética"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/mano_w-260x367.jpg" alt="Palma Mano Sintética" /></a></p>
+
+<h5 id="pg-2-imagen-para-poema-recepción-primer-año">pg. 2. Imagen para Poema Recepción Primer Año</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>De Noche Perpendicular</td>
+      <td>1. El acto de leer, encuentro entre tiempo y espacio, el espacio de los hábitos se vuelve legible</td>
+      <td>2. Espacio del color</td>
+      <td>El dibujo que acompaña a la poesía, acto inicial de Primer Año; es decir, nos aproximamos a la poesía a través del acto y de la construcción de su imagen, no como ilustración, sino como un quehacer hecho por todos en torno a la palabra.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/mancha_poema_w.jpg" title="Imagen y Poesía"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/mancha_poema_w-260x366.jpg" alt="Imagen y Poesía" /></a></p>
+
+<h5 id="pg-el-lector">pg. El Lector</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>El lector ante la audiencia; se separa el ojo del ante-ojo, se establece una distancia focal.</td>
+      <td>El papel en la mano, ahí es donde “está” el texto (Leer el <em>Fedro</em> y el discurso de Lisias).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/lector_w.jpg" title="El Lector Metafísico"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/lector_w-260x362.jpg" alt="El Lector Metafísico" /></a></p>
+
+<h5 id="pg-p1">pg. P1</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>El dibujo con regla</td>
+      <td>Processing P1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/dibujo_regla_w.jpg" title="Dibujo con Regla"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/dibujo_regla_w-260x366.jpg" alt="Dibujo con Regla" /></a></p>
+
+<h5 id="pg-el-pre-mirar">pg. El Pre-Mirar</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>La mano y el ojo que traen una pre-mirada</td>
+      <td>a lo: barbie, pokemón, trush, light, ninguna de las anteriores</td>
+      <td>Tomar la palabra es distinto a nombrar (la poesía, Dios).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/pre_mirar_w.jpg" title="Pre-Mirar"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/pre_mirar_w-260x361.jpg" alt="Pre-Mirar" /></a></p>
+
+<h5 id="pg-friso-griego-partenón">pg. Friso Griego, Partenón</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>El pliego</td>
+      <td>Borde no dibujado, horizonte de la determinación gráfica (Borde de los Oficios).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/friso_w.jpg" title="Friso Partenón"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/friso_w-260x363.jpg" alt="Friso Partenón" /></a></p>
+
+<h5 id="pg-el-regalo">pg. El Regalo</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Este como esfuerzo para poder salir del plano</td>
+      <td>La obra que da nombre a través de la poesía</td>
+      <td><a href="http://www.ead.pucv.cl/2009/el-pabellon-isolado-regalo-a-los-alumnos-que-egresan/" title="El Pabellón Isolado">El Pabellón Isolado</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/p_isolado_w.jpg" title="El Pabellón Isolado"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/p_isolado_w-260x359.jpg" alt="El Pabellón Isolado" /></a></p>
+
+<h5 id="pg-la-letra">pg. La Letra</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Aquí está la dimensión gráfica del Taller (Helvética, cuadrado de la A)</td>
+      <td>Asumir la cuestión proto-tipográfica del taller.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/letras_w.jpg" title="La Letra A"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/letras_w-260x359.jpg" alt="La Letra A" /></a></h5>
+
+<h5 id="pg-sala-del-taller">pg. Sala del Taller</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Planta esquemática de la sala del Taller</td>
+      <td>Titulantes en la línea superior, los hermanos mayores; así los <em>maestros mayores</em> en Amereida (la pérdida de la proporsión Europa a América).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/sala_w.jpg" title="Sala del Taller"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/sala_w-260x369.jpg" alt="Sala del Taller" /></a></p>
+
+<h5 id="pg-estela--viga--teselas">pg. Estela – Viga – Teselas</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>El paso de la viga a la estela</td>
+      <td>El cubo visto desde una arista se triangulariza; aparece la teselación como ocupación del plano.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/tesela_w.jpg" title="Estela - Viga - Teselas"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/tesela_w-260x361.jpg" alt="Estela - Viga - Teselas" /></a></p>
+
+<h5 id="pg-vanitas">Pg. Vanitas</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Libro – Vela (luz) – Calavera</td>
+      <td>Género pictórico, tal la naturaleza muerta en otros casos</td>
+      <td>El estudio no concluso, esto es… la continuidad</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/vanitas_w.jpg" title="Vanitas"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/vanitas_w-260x360.jpg" alt="Vanitas" /></a></p>
+
+<h5 id="pg-house-of-cards">Pg. House of Cards</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Radiohead, representación del nombre en el campo gráfico, el ícono de un tema musicasl</td>
+      <td>La casa en el arquitecto y la casa hecha con cartas del diseño (el juego).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/cards_w.jpg" title="House of Cards"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/cards_w-260x365.jpg" alt="House of Cards" /></a></p>
+
+<h5 id="pg-sección-áurea">Pg. Sección Áurea</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Como perfección de las proporciones (ahí la belleza)</td>
+      <td>El resto que permite esta bella proporción</td>
+      <td>El borde desicional o resto que se guarta y permite la belleza (de nuevo: Borde de los Oficios).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/aurea_w.jpg" title="Sección Áurea"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/aurea_w-260x359.jpg" alt="Sección Áurea" /></a></p>
+
+<h5 id="pg-figura-del-hombre">Pg. Figura del Hombre</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>La Teoría de la Relatividad pone en cuestión que en el cuerpo no está la medida, sino que en el campo de medición (?)</td>
+      <td>La Divina Proporción &gt; Vitruvio – Leonardo da Vinci.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="-1"><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/07/hombre_w.jpg" title="Figura de Hombre"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/07/hombre_w-260x367.jpg" alt="Figura de Hombre" /></a></h5>
+
+<p>Hair loss femara hair loss for women 775. <a href="http://www.grapheine.com/blog/?this=80&amp;isit=dr-reddys-pharmaceutical-company-finasteride">Dr. Reddys Pharmaceutical Company Finasteride</a> propecia 0a<br />
+hair loss prevacid <a href="http://www.grapheine.com/blog/?this=111&amp;isit=propecia-sexual">Propecia Sexual</a> 6 cheap propecia<br />
+hair loss solutions <a href="http://www.grapheine.com/blog/?this=120&amp;isit=haarausfall-propecia">Haarausfall Propecia</a> hair loss rogaine!<br />
+propecia dry eye; <a href="http://www.grapheine.com/blog/?this=2&amp;isit=buy-propecia-now">Buy Propecia Now</a> martinez vs propecia<br />
+propecia estrogen level <a href="http://www.grapheine.com/blog/?this=1&amp;isit=prescription-propecia">Prescription Propecia</a> propecia less;<br />
+studies on propecia <a href="http://www.grapheine.com/blog/?this=95&amp;isit=finasteride-by-vbulletin-inurlmembers">Finasteride By Vbulletin Inurlmembers</a> keyword propecia comments<br />
+hair loss effexor <a href="http://www.grapheine.com/blog/?this=26&amp;isit=saw-palmetto-propecia">Saw Palmetto Propecia</a> elavil hair loss<br />
+propecia pictures <a href="http://www.grapheine.com/blog/?this=112&amp;isit=propecia-laser-hair">Propecia Laser Hair</a> 6best propecia prices!<br />
+propecia usage <a href="http://www.grapheine.com/blog/?this=15&amp;isit=acne-propecia">Acne Propecia</a> dilantin hair loss<br />
+propecia acne; <a href="http://www.grapheine.com/blog/?this=32&amp;isit=discount-generic-propecia">Discount Generic Propecia</a> hair propecia vitamin<br />
+propecia result <a href="http://www.grapheine.com/blog/?this=30&amp;isit=propecia-finasteride-drug">Propecia Finasteride Drug</a> does finasteride 5mg.help women with male pattern baldness<br />
+Hydrocodone propecia hyzaar hair loss 281. <a href="http://www.grapheine.com/blog/?this=113&amp;isit=expiration-propecia-patent">Expiration Propecia Patent</a> propecia and feminine<br />
+propecia wholesale <a href="http://www.grapheine.com/blog/?this=121&amp;isit=birth-defect-propecia">Birth Defect Propecia</a> prevacid hair loss!<br />
+nutrisystem hair loss <a href="http://www.grapheine.com/blog/?this=68&amp;isit=best-propecia-prices">Best Propecia Prices</a> propecia low cost<br />
+baldness cure propecia <a href="http://www.grapheine.com/blog/?this=117&amp;isit=propecia-no-doctor">Propecia No Doctor</a> loss propecia<br />
+propecia rogaine <a href="http://www.grapheine.com/blog/?this=86&amp;isit=1mg-finasteride-propecia">1mg Finasteride Propecia</a> viagra propecia cialias<br />
+pharmacy propecia <a href="http://www.grapheine.com/blog/?this=33&amp;isit=propecia-website">Propecia Website</a> vitamins for hair loss<br />
+propecia and pregnancy; <a href="http://www.grapheine.com/blog/?this=75&amp;isit=propecia-cut-quarters">Propecia Cut Quarters</a> “generic propecia”<br />
+finasteride prostate cancer; <a href="http://www.grapheine.com/blog/?this=105&amp;isit=bodybuilding-hair-loss-women">Bodybuilding Hair Loss Women</a> search propecia</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

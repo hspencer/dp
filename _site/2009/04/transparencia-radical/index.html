@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Transparencia Radical | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Transparencia Radical</h1>
+        
+
+        
+        <time datetime="2009-04-22T11:44:25+12:00">
+          22 April 2009
+        </time>
+
+        
+
+        <a id="btn-citar-transparencia-radical" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-transparencia-radical" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2009, April 22). <em>Transparencia Radical</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2009/04/transparencia-radical/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Transparencia Radical</em>." <em>{dp} - doble página</em>, 22 April 2009, 
+        http://localhost:4000/2009/04/transparencia-radical/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Transparencia Radical</em>." {dp} - doble página. Publicado el 22 de April de 2009. 
+        http://localhost:4000/2009/04/transparencia-radical/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-transparencia-radical");
+    const modal = document.getElementById("modal-citar-transparencia-radical");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p><a href="/assets/uploads/2009/04/conical-intersect-19751.jpg"><img src="/assets/uploads/2009/04/conical-intersect-19751.jpg" alt="Intersección Cónica, Gordon Matta-Clark, 1975" /></a> Roberto Matta imaginaba a un ser que tenía el poder de volver las cosas transparentes y que permitiesen al resto <em>ver</em>. Lo llamaba <em>el ver-tor (o virteur)</em> , el Gran Transparente. Es la imagen del artista como vidente ((ver también: Arthur Rimabaud, Cartas del Vidente)) que desde su mirada pura es capaz de revelar a los demás las estructuras subyacentes (a veces insoportables, crudas y avasalladoras), los grandes <em>totems</em> de la sociedad ocultados tras las apariencias. Cada época tiene su propia poética, una espiritualidad especial y precisa que le permite comprender y reapasionar al mundo. Según Wassily Kandisky ((De lo Espiritual en el Arte, <em>Über das Geistige in der Kunst</em> , 1952)) esta espiritualidad tiene forma de un triángulo apoyado en su base. El triángulo avanza lentamente hacia arriba y hacia adelante, tirado por una élite espiritual (los artistas). Al cabo de algún tiempo, lo que era comprendido y valorado por una minoría, pasa a ser patrimonio de todo el resto de nosotros; nos apropiamos de los códigos, hacemos nuestra esa visión y expresión. Creo que eso es lo que ha pasado con la transparencia, como concepto y como valor artístico. Ha sido absorbida (para bien, espero) en su totalidad por la sociedad. Como diría Kandinsky, ha llegado a la base del triángulo y hoy es moneda de cambio, casi un <em>commodity</em>. La transparencia ha llegado a la vida diaria como valor que perseguir y construir, al estado como exigencia, a la política como un deber ético y a la <a href="http://en.wikipedia.org/wiki/Radical_transparency" title="Concepto ya reconocido en inglés, ver definición de Wikipedia">administración</a> en general como una estrategia de sostenibilidad. Ahora la transparencia es algo exijible a los organismos públicos (casi un commodity, como decía antes, expresado en el “sticker” de “gobierno transparente” en cada sitio del estado). Sin embargo, me preocupa qué es lo que se entiende por transparencia y hacia dónde apunta esta iniciativa. Como concepto, es potentísimo y eso nos indica que vivimos en tiempos extraordinarios, casi épicos. Por eso debemos construir —entre todos, ojalá— el sentido de la transparencia.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

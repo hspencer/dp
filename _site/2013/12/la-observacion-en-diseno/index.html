@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>La Observación en Diseño | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">La Observación en Diseño</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2013/12/wet-sheets-1936.jpg" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2013-12-13T07:17:02+13:00">
+          13 December 2013
+        </time>
+
+        
+
+        <a id="btn-citar-la-observacion-en-diseno" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-la-observacion-en-diseno" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2013, December 13). <em>La Observación en Diseño</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2013/12/la-observacion-en-diseno/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>La Observación en Diseño</em>." <em>{dp} - doble página</em>, 13 December 2013, 
+        http://localhost:4000/2013/12/la-observacion-en-diseno/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>La Observación en Diseño</em>." {dp} - doble página. Publicado el 13 de December de 2013. 
+        http://localhost:4000/2013/12/la-observacion-en-diseno/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-la-observacion-en-diseno");
+    const modal = document.getElementById("modal-citar-la-observacion-en-diseno");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <h3 id="exámen-del-taller-de-7ª-etapa">Exámen del Taller de 7ª Etapa</h3>
+
+<p><strong>Nota</strong> : El taller de 7ª etapa de diseño gráfico trabajó, durante este tercer trimestre con las profesoras Michele Wilkomirsky y Macarena Álamos investigando y desarrollando un sistema de comunicación para la Ciudad Abierta de Amereida. El planteamiento, originado como un auto-encargo, desemboca en un proyecto que el taller aborda como una obra entre todos. A continuación doy cuenta de este proyecto, y de la materia que nos abre dentro del diseño gráfico; o más bien, las preguntas que nos deja abierta señalando el camino que debemos continuar.</p>
+
+<p><strong>Marginalia</strong> :</p>
+
+<ul>
+  <li><a href="http://www.ead.pucv.cl/carreras/una-clase-de-la-observacion/" title="Clase de Fabio Cruz">Una clase de la observación</a>, por Fabio Cruz</li>
+  <li><a href="http://ead.pucv.cl:8080/rid=1MDLKP4SH-29V4Z7J-B9/La%20observaci%C3%B3n%20arquitect%C3%B3nica.cmap">Un mapa conceptual de dicha clase</a>, realizado por el autor</li>
+</ul>
+
+<h4 id="su-materia">Su Materia</h4>
+
+<p>El diseño, dentro de su quehacer, involucra e integra muchas materias (materiales, artísticas, plásticas, psicosociales, económicas, culturales, comunicacionales, legales y un largo etcétera). El diseñador ha conocerlas, considerarlas e integrarlas, pero no le son propias. Lo propio del diseño, su conocimiento, radica en el diseñar mismo; en su modo de proceder, de informarse, de colaborar y, por supuesto, de materializar y dar forma. En este sentido, la observación, entendida como “la vía poética-creativa de llegar a la forma”, es la materia que siempre acompañará a todo taller.</p>
+
+<h4 id="su-orientación">Su Orientación</h4>
+
+<p>Fabio Cruz, en su clase de observación (<a href="http://www.ead.pucv.cl/carreras/una-clase-de-la-observacion/" title="Clase de Fabio Cruz">editada en el sitio de la escuela</a>), distingue 3 momentos, precedidos todos ellos –o detonados, más bien– por un encargo de un externo, de un otro, una solicitud que abre una ocasión. Estos momentos son:</p>
+
+<ol>
+  <li>El tiempo de la observación, que constituye el fundamento (el tiempo del croquis)</li>
+  <li>La dilucidación del <em>acto</em> , que define la meta-actividad o función que engloba todo</li>
+  <li>La disputa de la forma, de cómo se resuelve la(s) pieza(s) gráfica(s) dando cabida a este <em>acto</em></li>
+</ol>
+
+<p>El el caso del diseño gráfico, que aparece como una constante en todos los proyectos, es éste “sujeto a editar” es (casi siempre) una organización. Es para una organización –de personas, por supuesto– es que hay que construir una voz, un relato y un modo de relatar, un lenguaje visual, un modo de comunicar e interactuar, etc. Es una situación donde las piezas gráficas conocidas están estructuras desde una figura anterior que les da coherencia. Son la superficie de algo mayor, son la punta del iceberg. La observación del diseño debe dilucidar este acto mayor que implica una organización. El croquis de observación tradicional, que observa al habitar humano, los espacios y las luces en las que se inserta, etc; no es suficiente. Necesitamos más dimensiones, u otras dimensiones. Además de habitar la extensión común y corriente, habitamos una “extensión inextensa” como la que recorrió el poeta Dante en su travesía entre el infierno y el cielo. Se hace necesario un modo de ver, de registrar, de relacionar y de fijar que nos permita penetrar en esta realidad. En una suerte de triangulación matemática, similar al trabajo de los primeros cartógrafos que debían deducir un mapa a partir de observaciones parciales de la costa, mediciones estelares y temporales, de vientos y corrientes. Ese mapa –nunca antes visto– era sólo comparable a cómo nosotros, seres humanos, nos imaginabamos observados por un Dios que está en el cielo. ¿Cómo es este mapa? ¿Cómo ha de darse este juego “del pensar algebraico” para desencadenar otro lenguaje? Tampoco hay que olvidar que el sentido poético de la observación es elogiar, para poder entrar en la maravilla del ver por primera vez, para poder crear otra realidad. Es desde una mirada de elogio es que podemos realmente originar. Es por esto, que para nosotros, diseñadores gráficos embarcados por este encargo en la construcción de un sistema complejo de comunicación, que debe reconocer a la corporación cultural amereida con un planteamiento propio, con un patrimonio cultural y material (la Ciudad Abierta), con extensión natural (el parque eco-cultural), con su contexto urbano y legal; debemos tener una figura o imagen que nos permita desencadenar obras gráficas: imagen, arquitectura de contenidos, sitio web, sistema de señalética y regalo para quienes la visitan. Creo que la clave de esto puede estar en la pintura. Los cubistas o surrealistas (no lo se), en este ánimo de ver más allá, comenzaron un lenguaje de elogio y de invensión de la mirada. En este sentido, Heidegger nombra esta voluntad por acceder a esta verdad como <em>aletheia</em> , y para nosotros, <strong>dibujos para dilucidar</strong>. Este lenguaje de modelos articula el paso hacia la disputa de la forma.</p>
+
+<h4 id="su-forma">Su forma</h4>
+
+<p>Ha de darse en el continuo diálogo entre la mente que abstae-decide y la mano que interpreta y ejecuta, en una constante iteración que va refinando y precisando la forma, alcanzando su justeza y alivianando su estructura. El taller es una organización, un órgano. Pero, para que opere como tal, debe compartir esta nueva observación, y por ello, se hace preciso que se constituya como lenguaje. Éste es el camino que ya emprendimos.</p>
+
+<p><strong>12 de Diciembre de 2013</strong></p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

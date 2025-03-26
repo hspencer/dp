@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Partituras de Interacción | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Partituras de Interacción</h1>
+        
+
+        
+        <time datetime="2008-11-26T11:24:15+13:00">
+          26 November 2008
+        </time>
+
+        
+
+        <a id="btn-citar-partituras-de-interaccion" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-partituras-de-interaccion" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, November 26). <em>Partituras de Interacción</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2008/11/partituras-de-interaccion/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Partituras de Interacción</em>." <em>{dp} - doble página</em>, 26 November 2008, 
+        http://localhost:4000/2008/11/partituras-de-interaccion/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Partituras de Interacción</em>." {dp} - doble página. Publicado el 26 de November de 2008. 
+        http://localhost:4000/2008/11/partituras-de-interaccion/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-partituras-de-interaccion");
+    const modal = document.getElementById("modal-citar-partituras-de-interaccion");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Este lenguaje visual propone un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.</p>
+
+<h3 id="descargar">Descargar</h3>
+
+<ul>
+  <li><a href="http://wiki.ead.pucv.cl/images/c/c1/Alfa_2.0.stencil.zip">Plantilla para Omnigraffle</a></li>
+  <li><a href="http://www.herbertspencer.net/archivo/interaction-score.gstencil.zip"><strong>Plantilla Omnigraffle 2</strong></a>, versión correjida y aumentada (nueva)</li>
+  <li><a href="http://wiki.ead.pucv.cl/images/8/83/Alfa_2.0.ait.zip">Archivo Illustrator CS3</a></li>
+</ul>
+
+<p>Estos archivos están bajo licencia <a href="http://creativecommons.org/licenses/by-sa/2.0/cl/" title="Licencia del trabajo">Creative Commons Atribución-Licenciar Igual 2.0 Chile</a> desarrollado en la <strong>e[ad] Escuela de Arquitectura y Diseño</strong> por <strong>Katherine Exss</strong> (2007-2008) y <strong>Nicole Dupré</strong> (2008) como proyecto de título de Diseño Gráfico. <strong>Update</strong> : La última versión de las partituras se encuentra en <a href="https://github.com/hspencer/Partituras-de-Interaccion">Github</a>.</p>
+
+<h3 id="introducción">Introducción</h3>
+
+<p>La complejidad de un proyecto de desarrollo Web requiere de una metodología escalonada que normalmente es abordada por un equipo multidisciplinario. Dentro de este proceso podemos distinguir:</p>
+
+<ol>
+  <li>Estrategia</li>
+  <li>Investigación de usuarios</li>
+  <li>Definición de arquitectura de información</li>
+  <li>Definición de interacción</li>
+  <li>Diseño de interfaz</li>
+  <li>Producción</li>
+  <li>Testeo</li>
+</ol>
+
+<p>A lo largo de este proceso, los lenguajes de representación y formalización (mapas de navegación, wireframes, esquemas de datos, diagramas de flujo, etc.) van marcando cada etapa pero carecemos de un sistema que permita transversalizar el producto final: la experiencia del usuario. Este lenguaje propone un sistema de notación que pueda acompañar el proyecto desde la etapa de estrategia (alto grado de abstracción) hasta la etapa final de implementación en código (alto grado de especificidad), permitiendo a cada actor del proyecto (estrategas, diseñadores y programadores) comprender el total y cuidar el cumplimiento de la visión original. Se trata de un sistema que permite coreografiar y orquestar cuidadamente el díagolo en continuidad entre la persona y el servicio.</p>
+
+<h3 id="cómo-funciona">Cómo funciona</h3>
+
+<p>Las partituras de interacción descomponen el diálogo entre la persona y el servicio en 3 distintas capas horizontales:</p>
+
+<ol>
+  <li><strong>Acciones del usuario</strong> : la intensionalidad del usuario expresada en sus acciones concretas <em>———————— línea de interacción ————————</em></li>
+  <li><strong>Contacto directo</strong> : los elementos de interfaz que permiten al usuario ejecutar tales acciones <em>———————— línea de visibilidad ————————</em></li>
+  <li><strong>Proceso</strong> : las funciones que permiten al sistema (servidor) dar respuesta en el diálogo con el usuario</li>
+</ol>
+
+<p>Cada módulo de interacción se compone como un compás en esta partitura. Estos compases (o patrones de interacción) permiten ensamblarse para verificar la lógica y la calidad de la experiencia en determinados escenarios de uso, así como detectar incosistencias o puntos críticos en el servicio. Esperamos que esta herramienta se constituya como una ayuda para el desarrollo de aplicaciones y servicios para Internet, así como un facilitador del diálogo dentro de los equipos de diseño. Este proyecto se encuentra en fase de evaluación, por lo tanto, para poder avanzar en su afinación es de vital contar con tus comentarios.</p>
+
+<h4 id="links">Links</h4>
+
+<ul>
+  <li><a href="http://wiki.ead.pucv.cl/index.php/Lenguajes_Visuales_para_la_Interacci%C3%B3n" title="en Wiki Casiopea">Documentación de Katherine Exss</a></li>
+  <li><a href="http://wiki.ead.pucv.cl/index.php/Partituras_de_Interacci%C3%B3n" title="en Wiki Casiopea">Documentación de Nicole Dupré</a></li>
+</ul>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

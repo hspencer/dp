@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Diseñando con Estrofas | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Diseñando con Estrofas</h1>
+        
+
+        
+        <time datetime="2005-08-11T09:24:11+12:00">
+          11 August 2005
+        </time>
+
+        
+
+        <a id="btn-citar-disenando-con-estrofas" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-disenando-con-estrofas" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2005, August 11). <em>Diseñando con Estrofas</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2005/08/disenando-con-estrofas/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Diseñando con Estrofas</em>." <em>{dp} - doble página</em>, 11 August 2005, 
+        http://localhost:4000/2005/08/disenando-con-estrofas/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Diseñando con Estrofas</em>." {dp} - doble página. Publicado el 11 de August de 2005. 
+        http://localhost:4000/2005/08/disenando-con-estrofas/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-disenando-con-estrofas");
+    const modal = document.getElementById("modal-citar-disenando-con-estrofas");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores de los incontables buscadores existentes. La visibilidad y por tanto la disponibilidad de lo publicado estará en directa relación con la trasparencia estructural de las páginas o documentos. Estas condiciones estimulan a diseñadores a obedecer y diseñar respetando los estándares sugeridos por el <a href="http://www.w3c.org/" title="World Wide Web Consortium">W3C</a> (World Wide Web Consortium) para poder definitivamente asentar las directrices de este medio que comienza a ordenarse.</p>
+
+<p>Es por esto, que <a href="http://www.cursos.ucv.cl/arq48300/" title="Gráfica Digital 2005">este año 2005</a>, la asignatura de <a href="http://www.ead.pucv.cl/asignaturas/area-tecnica/grafica-digital/" title="Descripción de la Asignatura">Gráfica Digital</a> se ha adentrado hacia la comprensión de los códigos en juego, específicamente el lenguaje de marcado HTML y el diseño basado en Cascadas de Estilo CSS.</p>
+
+<p>Para esto hemos adherido a la invitación que hace el diseñador <a href="http://www.mezzoblue.com/">Dave Shea</a> en su sitio<a href="http://www.csszengarden.com/" title="El jardín Zen de las CSS">CSSZenGarden</a>. Este sitio renueva permanentemente su lenguaje de aparición, a la manera de un jardín Zen que es transformado por los monjes que construyen su espacio diario de meditación.</p>
+
+<p>Esta metáfora es correcta, pues el diseñador debe renunciar a lo directo de la plástica corriente en términos de insidir visualmente sobre el dibujo de la página. Ahora debe estar por sobre esas particularidades y definir estos atributos visuales desde un texto lateral, al modo de un “manifiesto visual” de la página diseñada. Este camino permite liberar al diseño dejándolo en un plano emancipado del documento. Esto vuelve muchísimo más plástico un sitio en su totalidad y dibuja definitivamente el punto de encuentro entre desarrollo informático y diseño Web: la estructura semántica de marcado.</p>
+
+<p>Decimos que se trata de un “<strong>diseño por estrofas</strong> ” pues el diseñador ahora debe hacese cargo del diseño gráfico -desde un documento anexo a la página en cuestión- que especifica todas las dimensiones visuales de los elementos constituyentes en un régimen de párrafos o estrofas.</p>
+
+<h5>*</h5>
+
+<p>&lt;div id=”body”&gt;<br />
+&lt;div id=”encabezado”&gt;<br />
+&lt;div id=”logo”&gt;<br />
+&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+&lt;div id=”contenido”&gt;<br />
+&lt;div id =”menu”&gt;<br />
+&lt;/div&gt;<br />
+&lt;div id=”texto”&gt;<br />
+&lt;div id=”relaciones”&gt;<br />
+&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+&lt;/div&gt;</p>
+
+<h5 id="mapa-de-divs-o-mapa-de-las-etiquetas-divisiorias-de-un-documentohtml-esta-visualización-permite-comprender-la-estructura-del-documento--es-decir-permite-identificar-las-distintas-partes-que-deben-ser-definidas-en-el-código-css">Mapa de DIVS, o mapa de las etiquetas divisiorias de un documentoHTML. Esta visualización permite comprender la estructura del documento , es decir, permite identificar las distintas partes que deben ser definidas en el código CSS.</h5>
+
+<p>Al terminar este curso, cada alumno enviará su proposición de CSS para “re-vestir” el sitio<a href="http://www.csszengarden.com/" title="CSSZenGarden">CSSZenGarden</a>. En este sentido, ententemos el diseño como  <em>la diversión del hábito</em><strong>1</strong>.</p>
+
+<p><em>1.- Definición de Diseño acuñada por el profesor José Balcells E.</em></p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

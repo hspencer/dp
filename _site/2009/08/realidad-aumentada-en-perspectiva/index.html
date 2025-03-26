@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Realidad Aumentada en Perspectiva | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Realidad Aumentada en Perspectiva</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2009/08/flecha1.jpg" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2009-08-04T16:07:47+12:00">
+          4 August 2009
+        </time>
+
+        
+
+        <a id="btn-citar-realidad-aumentada-en-perspectiva" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-realidad-aumentada-en-perspectiva" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2009, August 4). <em>Realidad Aumentada en Perspectiva</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2009/08/realidad-aumentada-en-perspectiva/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Realidad Aumentada en Perspectiva</em>." <em>{dp} - doble página</em>, 4 August 2009, 
+        http://localhost:4000/2009/08/realidad-aumentada-en-perspectiva/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Realidad Aumentada en Perspectiva</em>." {dp} - doble página. Publicado el 4 de August de 2009. 
+        http://localhost:4000/2009/08/realidad-aumentada-en-perspectiva/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-realidad-aumentada-en-perspectiva");
+    const modal = document.getElementById("modal-citar-realidad-aumentada-en-perspectiva");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Cada época de la historia tiene su propio modo de ver el mundo. Esa particular <em>visión de mundo</em> es la invención de un suelo que sostiene y celebra su época; nunca hay que olvidar que <strong>se trata de una invención</strong>. En este sentido, resultan particularmente significativas las <strong>artes visuales</strong> como manifestaciones concretas y transparentes de una particular mirada cultural. Asimismo, la evolución de ella nos muestra las profundas mutaciones en la comprensión de mundo de una determinada cultura. La realidad aumentada, como toda invención de la mirada, trae un ver cultural específico para aprehender y construir el mundo. Y el salto desde nuestro estado anterior (hipertexto), a este nuevo modo (capaz de integrar lo digital con lo físico) es tan grande y significativo que resulta difícil caer en la cuenta de la magnitud del hecho. Si bien últimamente nuestra historia se ha acelerado de forma exponencial ((O tal vez, siempre lo ha hecho. Lo que ocurre es que ahora empezamos a notarlo.)) los cambios de este tipo implican giros profundos en nuestra cultura, como comprensión y co-creación del mundo. <img src="/assets/uploads/2009/08/TaddeoGaddiVieVierge1.jpg" alt="La Presentación de la Virgen, Taddeo Gaddi 1332-3" /></p>
+
+<p>Si miramos la pintura en la visagra entre la Edad Media y el Renacimiento, como expresión del profundo cambio cultural de la época, podemos ver aspectos familiares al cambio que ocurre hoy.</p>
+
+<p>El mundo medieval está cargado de símbolos y alegorías. El espacio pictórico muestra un mundo plano, casi en bajo relieve. Como relato, la pintura se ilumina desde los textos bíblicos que funcionan como un guión. El tamaño, la gestualidad, ubicación y jerarquía de los personajes y elementos obedecen exclusivamente a la literalidad del relato, cumpliendo así una función retórico-simbólica: la estructura viene de los contenidos (¿les suena familiar?).</p>
+
+<p>Digo que se trata de símbolos porque son “la idea de” las cosas: pliegues, rostros, edificios y espacio en general son representados como esquematizaciones hieráticas.</p>
+
+<p><img src="/assets/uploads/2009/07/Simone_Martini_0721-627x610.jpg" alt="San Agustín el Noble. Simone Martini (c. 1284 – c. 1344)" /> Uno de los grandes prodigios del Renacimiento es la invensión de la perspectiva ((Filippo Brunelleschi demuestra en 1413(c) la construcción geométrica de la perspectiva gráfica.)) porque le abrió al hombre <strong>un lugar dentro del espacio</strong> representado, tal cual nos vuelve a ocurrir ahora. Pasamos de mapa del <em>“Ud. está aquí”</em> gracias al GPS integrado en los dispositivos móviles al <em>“Vea Ud. mismo dónde está ahora”</em> gracias al (GPS + brújula + acelerómetro), lo que le da una orientación dentro del espacio. Pasamos de estar <strong><em>ante</em></strong> , a estar <strong><em>ante y dentro</em></strong> : relación básica de la arquitectura. Tal vez ahora el vocablo <em>Arquitectura de la Información</em> adquiera connotaciones literalmente espaciales.  | <strong>Edad Media</strong> | <strong>Renacimiento</strong> | <strong>Actualidad (AR)</strong><br />
+—|—|—|—<br />
+<strong>Espacio</strong> | simbólico - teológico | geométrico - figurativo | geográfico - negociable<br />
+<strong>Distancia</strong> | vertical (del cielo al infierno). | en fuga (del horizonte al ojo). | epistemológica (mis intereses). social (mis redes). vecinal (mi localidad). por relevancia (determinada por los <em>mainstream media</em>)<br />
+<strong>Rol del Dispositivo</strong> | mostrar la totalidad del mundo por medio de la alegoría. | mostrar un fragmento del mundo por medio de lo casual de la escena. | mostrar mi ubicación y orientación simulataneamente con la creación del paisaje. <strong>La extensión ya no antecede al mapa.</strong><br />
+El paso de lo simbólico a lo figurativo implica la transformación de la idea icónica en una imágen verosímil. En la Edad Media, el mundo se representaba como una unidad finita y totalizante, donde los bordes materializaban el término: era el término del Cosmos. En el Renacimiento, aparece lo casual, lo fragmentario y marginal. El espacio de Internet carece de tamaño y de bordes, es un espacio prácticamente infinito que crece a medida que crecen nuestros discos duros. Cuando hablamos de realidad aumentada hablamos de información montada sobre nuestro precioso espacio finito, sobre nuestras calles, plazas y avenidas ((Lugares, por ejemplo, protegidos del grafitti, por considerarse una práctica que antenta contra el patrimonio público.)). La apropiación y negociación de este espacio será altamente reñida. Claro… hay salidas laterales, como la incorporación de múltiples canales (al modo de capas activables y desactivables) o servicios que aportan información desde sus propias trincheras, aminorando de algún modo la relevancia de su discurso. A mi juicio, lo que debe (o debería) emerger de este nuevo soporte para la comunicación, es un nueva noción de <strong>espacio público</strong> , como espacio libre, abierto y negociable. Espacio que se valide en cuanto inmediatez, por la casi invisibilidad del soporte mismo, y por la transparencia del feedback; es decir, porque la conversación se potencia por la visibilidad del impacto, la consecuencia. ¿Iremos hacia allá?</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

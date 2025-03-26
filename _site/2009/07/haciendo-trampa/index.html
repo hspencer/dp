@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Haciendo Trampa | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Haciendo Trampa</h1>
+        
+
+        
+        <time datetime="2009-07-06T13:11:40+12:00">
+          6 July 2009
+        </time>
+
+        
+
+        <a id="btn-citar-haciendo-trampa" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-haciendo-trampa" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2009, July 6). <em>Haciendo Trampa</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2009/07/haciendo-trampa/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Haciendo Trampa</em>." <em>{dp} - doble página</em>, 6 July 2009, 
+        http://localhost:4000/2009/07/haciendo-trampa/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Haciendo Trampa</em>." {dp} - doble página. Publicado el 6 de July de 2009. 
+        http://localhost:4000/2009/07/haciendo-trampa/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-haciendo-trampa");
+    const modal = document.getElementById("modal-citar-haciendo-trampa");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <blockquote>
+  <p><strong>γνοστι τε αυτϖν</strong> (nosce te ipsum) Esta inscripción, puesta por los siete sabios en el frontispicio del templo de Delfos, es clásica en el pensamiento griego. Muchos pensadores la han adoptado al igual que Sócrates y Platón, como uno de los principios de sus enseñanzas: “<em>Cuando conoces a las personas, te vuelves inteligente; cuando te conoces a tí mismo, te vuelves un iluminado</em> “</p>
+</blockquote>
+
+<p>Estuve conversando con <a href="http://www.anestesiologia.cl/departamento/quienes.php" title="Página del departamento de Anestesia, CLC">mi papá</a> acerca de por qué las personas solemos hacer —un poquito— de trampa. Él está preparando una presentación acerca del manejo del dolor y quiere hablar de este tema en particular porque ha observado a lo largo de estos años (y repetidamente) conductas tramposas como práctica generalizada (y socialmente aceptada) dentro de los servicios de salud. Y esto lo trae a colación porque es precisamente el dolor (y el manejo de él) lo que se ha vuelto un indicador de la calidad del servicio que se le entrega al paciente operado. Primero que nada, me parece sorprendente que <em>el dolor</em> , una de las experiencias más traumáticas y temidas de lo que nos prodría ocurrir en el ámbito hospitalario, recién ((¡en EEUU a partir del 2003!)) se comience a medir para evaluar el estándar del servicio. Osea, <strong>el diseño de servicios</strong> con metodologías (y mediciones) centradas en las personas es un paradigma que recién comienza a penetrar en los servicios de salud. Y esto pasa, no por que se les haya ocurrido desde adentro de estos servicios, sino porque es una imposición que viene desde los sistemas de acreditación internacional. Osea, los médicos y profesionales de la salud recién ahora se vienen a preocupar del dolor —por lo tanto, de la experiencia del paciente— como algo que vale ser la pena considerado. Todavía están lejos de ver que es el <strong>producto final</strong>. ¿Dónde está la trampa, el engaño? <a href="http://web.mit.edu/ariely/www/MIT/">Dan Ariely</a>, hace una exposición brillante de este tema en TED (<em>Our Buggy Moral Code</em>) donde explica, como paciente hospitalario, en qué fallaban las enfermeras y cómo funcionaban con un “modelo persistentemente errado” del paciente donde lo hacen sufrir más de lo estrictamente necesario:  Lo que dice, en resumen es que:</p>
+
+<ol>
+  <li>Mucha gente puede (suele) engañar;</li>
+  <li>La gente engaña por poquito ya que hacemos un delicado cálculo entre el beneficio de la trampa y el castigo por ser pillado;</li>
+  <li>Cuando se le recuerda la moral, o se hace alusión de algún tipo, la gente hace menos trampa;</li>
+  <li>Cuando nos abstraemos del dinero (lo disfrazamos de algo distinto, por ejemplo, fichas) la gente engaña más;</li>
+  <li>Cuando vemos que la gente engaña en nuestro medio, el engaño aumenta.</li>
+</ol>
+
+<p>Tal vez estas afirmaciones no nos extrañen demasiado. Los que vivimos en Chile estamos acostumbrados a vivir en un medio donde se engaña y el que deja de hacerlo es tildado de “poco vivo”. Sin duda vivimos en un país donde se tiende a reventar los sistemas abiertos con beneficios democráticos ((como los recitales gratuitos de Belmont en las dunas de Concón que terminaron desastrosamente… en fin, cantidad de cosas “buena onda” que dejaron de serlo producto del abuso.)); en definitiva, deterioramos cualquier sistema basado en la confianza. Esta realidad vuelve altamente problemático el diseño de sistemas digitales para la colaboración y la participación en Chile. Tal vez el mero acceso a este modo digital y a esta cultura de la participación sea un filtro suficiente, pero no podemos partir desde esa base excluyente ya que todo nos indica que la penetración de la tecnología es exponencial y debemos diseñar para que así sea. Lo que hace Ariely es demostrar, a nivel sistémico-social, es que nuestro código moral tiene ciertos grados de perversión irracional y que son aparentemente naturales. Lo complejo es que son tendencias emergentes dentro de estos sistemas de interacción social, por lo tanto, debemos diseñar estos sistemas con un “modelo de persona” correcto. ¿Cómo generar participación y colaboración donde la confianza y el capital social son factores disminuidos? ¿Cómo podemos tener sistemas abiertos y maleables pero inmunes a la trampa? Tal vez la clave esté justamente en la <strong>ecuación</strong> costo-beneficio de la trampa. La idea es no cohartar las posibilidades de las personas ((como todos los engorrosos trámites que se nos exije para “autenticarnos” y volvernos confiables; todos los permisos a favor de la seguridad y en desmedro de la maleabilidad. Y todo esto ocurre porque potencialmente somos muy tramposos. Es como el pecado original. ¿Se imaginan la velocidad de todos los trámites si el sistema estubiese basado en la confianza? ¿todo el tiempo que perdemos en demostrar que nosotros no vamos a delinquir?)) ni disminuir las posibilidades del sistema sino más bien tomar optar por <a href="http://www.herbertspencer.net/2009/transparencia-radical/">la transparencia radical</a> como factor autoregulador de la moral. ¿Será eso suficiente? ¿Cuales son los escenarios oscuros? Se aceptan sugerencias…</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

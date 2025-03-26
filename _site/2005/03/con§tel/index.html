@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Con§tel | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Con§tel</h1>
+        
+
+        
+        <time datetime="2005-03-18T10:55:43+13:00">
+          18 March 2005
+        </time>
+
+        
+
+        <a id="btn-citar-con-c2-a7tel" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-con-c2-a7tel" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2005, March 18). <em>Con§tel</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2005/03/con%c2%a7tel/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Con§tel</em>." <em>{dp} - doble página</em>, 18 March 2005, 
+        http://localhost:4000/2005/03/con%c2%a7tel/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Con§tel</em>." {dp} - doble página. Publicado el 18 de March de 2005. 
+        http://localhost:4000/2005/03/con%c2%a7tel/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-con-c2-a7tel");
+    const modal = document.getElementById("modal-citar-con-c2-a7tel");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, estudiar y colaborar en este nuevo ámbito semántico-digital; en las nuevas plataformas de gestión y manejo de la información, pero sobre todo, nos preguntamos por la naturaleza visual de las nuevas interfaces que habrán de contener implícitas estas nuevas operatividades y de cómo habrán de instaurarse los nuevos códigos de visualización que necesariamente han de volver legible esta complejidad en ciernes.</p>
+
+<p>Ciertamente, nuestra afinidad por el cuidado y Diseño de la interfaz de pantalla nos ha llevado a plantearnos un proyecto que en cierta medida sobrepasa a nuestro oficio en cuanto constructor de este espacio, pues hemos debido incorporar a la dimensión de lectura, la dimensión de uso; un libro tiene abierta esta posibilidad de un modo gratuito en el blanco de sus páginas: un lector realiza una anotación al margen de un libro en medio de su estudio. A modo de exégesis de esta realidad operativa, el oficio informático ha de volver esta acción un proceso de incorporación de un metadato (la nueva anotación), que podrá ser solicitado en el futuro y permanecerá latente hasta entonces. Este nuevo modo replantea, trasforma y extiende la orgánica de dicho campo editorial: ahora ese blanco bien puede ser infinito, permitir que muchos anoten y puede ordenarse y regenerarse a petición del lector.</p>
+
+<p>Se busca generar una instancia dentro de Internet que permita a los académicos e investigadores de un tema específico ingresar sus documentos al abrigo de una estructura hipertextual mayor. Se trata de un modo de abordar la complejidad semántica desde metaestructuras, que, al igual que los sistemas vivos deben evitar el equilibrio y la estabilidad para estar en constante transformación, reorganización y adaptación. Con formas de innovación y desarrollo lógico, para ser leído con posterioridad, al modo de una nueva fijación externa del conocimiento, admitiendo la posibilidad de la autosustentación.</p>
+
+<p>*</p>
+
+<p>*</p>
+
+<p>Esto supone que el conocimiento no se trata de un conjunto de ideas (o una sumatoria de ellas) sino más bien, se trata de una sensible configuración de ideas relacionadas entre sí, cuyas relaciones están en constante cambio, actualización y crecimiento.</p>
+
+<p>El hecho de participar en estructuras colectivas ordenadas de esta forma evita las redundancias de todo tipo y ubica a cada investigador respecto de los otros y respecto de la figura que entre ellos forman, constituyendo un colectivo coherente para ojos externos. Esto significa un modo de validación del contenido en virtud de la complejidad de la estructura que lo alberga (conformando conocimiento), también un modo de avanzar orgánicamente sobre lo conquistado y, sobre todo conformar un modo colectivo de interacción creativa.</p>
+
+<p>El desarrollo de la interfaz gráfica de pantalla apunta a volver transparente dicha estructura, a favorecer la legibilidad continua en el desplazamiento por ella y permitir acceder a las relaciones topológicas que se conformarán como los índices de acceso a los contenidos.</p>
+
+<h2 id="en-cuanto-a-la-naturaleza-del-material-a-tratar">En cuanto a la naturaleza del material a tratar</h2>
+
+<p>Partimos de la base de un pensamiento artístico – poético que desde hace más de 50 años se ha venido desarrollando en nuestra escuela de modo que tal pensar se ha constituido como un fundamento sustancial para nuestro proceder. La naturaleza artística de este contenido es la que posibilita, primeramente, pensar la abertura que en estos textos se ha dado; los tipos de relaciones, ya sean semánticas, por contigüidad, históricas, etc. se expanden en la no-continuidad de un pensamiento nacido de una relación con la poesía. Creemos que a partir de esta experiencia podemos asumir la densidad semántica de nuevas relaciones con nuevos contenidos de manera de hacer de esta red un universo textual abierto y disponible para estudiantes e investigadores dentro del ámbito académico. Estos contenidos configurados hipertextualmente conforman el pensamiento fundacional de la Escuela de Arquitectura y Diseño PUCV.</p>
+
+<blockquote>
+  <p>1. Amereida 1 2. Amereida 2 3. Acerca de la Observación 4. Cuatro Talleres de América 5. Texto Anales de la Universidad de Chile 6. América, Américas mías, Revista Atenea 7. Carta del Errante 8. Texto del ágora del día 7 de Enero de 1971 9. Ciudad Abierta,1984. 10. Actos poéticos de apertura de los terrenos, 1971 11. De la Utopía al espejismo 12. De lo Heteróclito 13. Viaje donde Juan Larrea, 1976 14. El Pacífico Mar Erótico, 1978 15. Elogio de Unidad Discreta 16. Eneida-Amereida 17. Introducción al Primer poema de Amereida 18. Fundamentos de la Escuela de Arquitectura 19. Hay que ser absolutamente moderno 20. Testamento de Rimbaud 21. Hoy me voy a Ocupar de mi Cólera 22. Manifiesto 15 de junio. 1967 23. Capilla Pajaritos. 24. Por qué, cómo y cuándo hay arte 25. Sentido Poético de la Cólera 26. Simetría y Lateralidad en las Artes Plásticas 27. Oda Kappa 28. Tres Salas Gráficas</p>
+</blockquote>
+
+<p>Tomamos así 28 “textos fundamentales” de la escuela que serán el modelo inicial de esta red; a través del tiempo se han establecido ciertas relaciones que todavía no están indexadas sino solamente anotadas fuera de un contexto utilizable. Las relaciones que entre estos textos pueden establecerse darán una luz nítida sobre un pensamiento fundacional de una escuela de arquitectura y diseño que ha sabido sostener una tradición. Esta tradición ha de contextualizarse con los procesos complejos que los nuevos medios nos traen, en un primer momento, como un paradigma semántico.</p>
+
+<h3 id="sitios-relacionados">Sitios Relacionados</h3>
+
+<p>amerieda – con§tel<br />
+<a href="http://www.amereida.ucv.cl/">http://www.amereida.ucv.cl/</a></p>
+
+<p>Blog del proyecto<br />
+<a href="http://constel.blogspot.com/">http://constel.blogspot.com/</a></p>
+
+<p><a href="http://www.arquitecturaucv.cl/docs/Constel.pdf"><img src="http://www.arquitecturaucv.cl/imag/bot/download.gif" alt="archivo adjunto" /> informe con§tel 2004*</a></p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

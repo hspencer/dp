@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Diseño del Proceso Constituyente | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Diseño del Proceso Constituyente</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2015/05/001210.png" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2015-05-19T03:56:46+12:00">
+          19 May 2015
+        </time>
+
+        
+
+        <a id="btn-citar-diseno-del-proceso-constituyente" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-diseno-del-proceso-constituyente" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2015, May 19). <em>Diseño del Proceso Constituyente</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2015/05/diseno-del-proceso-constituyente/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Diseño del Proceso Constituyente</em>." <em>{dp} - doble página</em>, 19 May 2015, 
+        http://localhost:4000/2015/05/diseno-del-proceso-constituyente/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Diseño del Proceso Constituyente</em>." {dp} - doble página. Publicado el 19 de May de 2015. 
+        http://localhost:4000/2015/05/diseno-del-proceso-constituyente/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-diseno-del-proceso-constituyente");
+    const modal = document.getElementById("modal-citar-diseno-del-proceso-constituyente");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>El proceso constituyente, que ha prometido ser altamente inclusivo y participativo, no puede pensarse hoy omitiendo la realidad que impone una sociedad en red, mediada por el software social viviendo bajo los códigos estéticos y performáticos del diseño de interacción.</p>
+
+<p>El punto que quiero hacer es que una empresa deliberativa a gran escala como promete ser este proceso constituyente, con las expectativas que depositado en cuanto inclusión y validación ciudadana, no puede saltarse la gran oportunidad que abre el diseñar una plataforma digital de deliberación social que mejore los procesos democráticos, que de visibilidad a voces que no son representadas y que, en definitiva, sirva para contrastar el discurso político oficial con el discurso ciudadano.</p>
+
+<p>Pero, ¿qué condiciones debiese tener una plataforma de este tipo? ¿sobre qué paradigma de justa representación debe apoyarse? ¿el de las agendas abiertas y los discursos completamente emergentes o desde las propuestas emanadas desde las autoridades representantes y que luego son sometidas a valoración y comentario ciudadano? ¿es una ciudadanía autónoma en su discurso o evaluadora del discurso político?; en definitiva ¿estamos los ciudadanos capacitados para articular un discurso valórico, pero también técnico, y de alta complejidad? ¿y le interesaría participar realmente a todos o a una gran mayoría? Y no menos importante, ¿qué peso legal podrá tener el dictamen de una plataforma digital? ¿tendrían peso vinculante sus resultados?</p>
+
+<h3 id="principios-existentes">Principios existentes</h3>
+
+<p>El primer modelo, el más obvio, corresponde a la extrapolación la práctica democrática hacia el espacio digital por medio de consulta binaria (un sí o un no, o una rayita como lo es el voto, que no es otra cosa que una prueba de alternativas predefinidas) que emana desde un grupo de autoridades representantes hacia la ciudadanía. La diferencia o innovación que viene a aportar el soporte digital es que puede ser posible a muy bajo costo y a gran escala, lo que podría redundar en un uso mucho más cotidiano de la herramienda, dando mayor capacidad de participación a las personas en los asuntos de la política legislativa. Las críticas a este principio apuntan a detacar la poca capacidad de los individuos en temas técnico-legislativos junto con la marginación de accesibilidad a personas no alfabetizadas digitalmente o sin medios tecnológicos para participar del debate. En el modelo plebiscitario requiere de soluciones tecnológicas que resulevan en problema de la autenticación (resuelto por la propuesta de <a href="https://www.claveunica.cl/">clave única</a> en Chile) y de seguridad para garantizar la no manipulación de los votos.</p>
+
+<p>Un principio muchísimo más interesante que el modo plebiscitario, donde la agenda viene predefinida, corresponde permitir la libre publicación de ideas o proposiciones por parte de la ciudadanía, incorporando luego un flujo, a saber:</p>
+
+<ol>
+  <li>Publicación de idea o propuesta que plantea un punto de vista</li>
+  <li>Resaltar coincidencias y divergencias dentro del discurso publicado</li>
+  <li>Las coincidencias y divergencias explicitan sus posiciones, por medio de nuevas publicaciones (1) que quedan articuladas y sopesadas en base a conceptos. Estas nuevas afirmaciones establecen nuevos puntos de vista</li>
+  <li>Resaltar las evoluciones en los puntos de vista</li>
+  <li>Negociación en puntos de acuerdo</li>
+  <li>Adoptar una posición</li>
+  <li>Los individuos llegan al conceso</li>
+</ol>
+
+<p>Obviamente existen muchísimos más detalles que vuelven más complejas estas estapas, como las formas textuales de valoración, adscripción y fijación de las voluntades, así como la forma de navegar los conceptos para participar de todas aquellas instancias donde el ciudadano puede identificar su potencial injerencia.</p>
+
+<p>El comienzo libre y abierto de la publicación (1) trae implícita la realidad de los discursos simultáneos y la eventual sobrecarga de información. Por eso, la forma de maniobrar por este corpus discursivo, así como su visualización y catalogación a gran escala, determina en gran medida la calidad de la experiencia del usuario. Temas como acceso y legitimidad inicial de la plataforma, identificación de los ciudadanos, seguridad y “verificabilidad” de los resultados así como los mecanismos de valoración, son claves ya que determinan el ADN estructural de este software democrático.</p>
+
+<p>En conclusión, abrir un debate real que posibilite la discusión de ideas a gran escala, requiere de un diseño que sea capaz de articularlas como semejantes, y por lo tanto, debe tratarse de una plataforma que debe proponer un <em>nuevo</em> <em>formato discursivo</em> capaz de incluir a todos {desde su claridad y simpleza} pero lo suficientemente sofisticado para identificar las posibilidades dentro del lenguaje de los argumentos, sus palabras clave y sus conceptos {encontrabilidad y sinónimos} que permiten dibujar la trazabilidad y evolución de los discursos.</p>
+
+<h4 id="referencias-e-iniciativas-para-estudiar">Referencias e Iniciativas para Estudiar</h4>
+
+<ul>
+  <li><a href="http://democracyos.org/">Democracy OS</a></li>
+  <li><a href="https://www.codeforamerica.org/governments/principles/">Principles for the 21st Century Government</a> (de la iniciativa <em>Code for America</em>)</li>
+</ul>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Viendo en la Transparencia | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Viendo en la Transparencia</h1>
+        
+          <figure>
+            <img src="/dp/assets/uploads/2009/04/conical-intersect-19751.jpg" alt="">
+          </figure>
+        
+
+        
+        <time datetime="2010-02-10T09:29:14+13:00">
+          10 February 2010
+        </time>
+
+        
+
+        <a id="btn-citar-viendo-en-la-transparencia" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-viendo-en-la-transparencia" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2010, February 10). <em>Viendo en la Transparencia</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2010/02/viendo-en-la-transparencia/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Viendo en la Transparencia</em>." <em>{dp} - doble página</em>, 10 February 2010, 
+        http://localhost:4000/2010/02/viendo-en-la-transparencia/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Viendo en la Transparencia</em>." {dp} - doble página. Publicado el 10 de February de 2010. 
+        http://localhost:4000/2010/02/viendo-en-la-transparencia/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-viendo-en-la-transparencia");
+    const modal = document.getElementById("modal-citar-viendo-en-la-transparencia");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>A comienzos del 2007 tuve el inmenso privilegio de asistir a un curso único: Visualización de Información enseñado por <a href="http://www.benfry.com/" title="Página personal de Ben Fry">Ben Fry</a> (creador de Processing) y <a href="http://www.flong.com/" title="Página personal de Golan Levin">Golan Levin</a>, reconocido artista digital. Este curso (único e irrepetible en su especie), se centró en el proceso de generar visualizaciones a partir de grandes cuerpos de datos. El énfasis no estaba puesto en el despliegue técnico —o la proeza del código— sino la capacidad de poder <em>urdir narrativas interesantes</em> a partir de un montón amorfo de data. La metodología de trabajo fue la siguiente, siguiendo la propuesta por Ben Fry en su <a href="http://benfry.com/phd/dissertation-050312b-acrobat.pdf" title="Tesis completa en PDF">tesis doctoral</a>, <em>Computational Information Design</em>.</p>
+
+<ol>
+  <li><strong>Adquisición de datos</strong> : Recolección y catastro de datos dinámicos y cambiantes</li>
+  <li><strong>Análisis de datos</strong> : (eng: <em>Parsing</em>) Formateo de datos de acuerdo al uso, conexión de la data a la aplicación propia.</li>
+  <li><strong>Filtración de datos</strong> : Automatización de procesos manuales que tienden a ser altamente tediosos</li>
+  <li><em><strong>Data mining</strong></em> : Estracción de datos significativos</li>
+  <li><strong>Representación</strong> : Elección y diseño del lenguaje visual, prototipado</li>
+  <li><strong>Refinación</strong> : Cambio o ajuste de las leyes de representación</li>
+  <li><strong>Interacción</strong> : Transición contínua entre los diversos estados o puntos de vista alternativos, navegación y adaptación por parte del usuario.</li>
+</ol>
+
+<p>Claramente la parte más sucia del proceso es la adquisición de datos porque generalmente hay que sacarlos de lugares donde no los quieren prestar. Hay que construir robots que roben sistemáticamente los datos de determinado sitio web (pero no tan sistemáticamente, para que no te pillen y bloqueen tu IP) buscar y escarbar en tablas HTML, lipiar tags inútiles, etc.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

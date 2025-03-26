@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Honeydew Agent | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Honeydew Agent</h1>
+        
+
+        
+        <time datetime="2006-08-23T04:42:13+12:00">
+          23 August 2006
+        </time>
+
+        
+
+        <a id="btn-citar-honeydew-agent" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-honeydew-agent" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2006, August 23). <em>Honeydew Agent</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2006/08/honeydew-agent/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Honeydew Agent</em>." <em>{dp} - doble página</em>, 23 August 2006, 
+        http://localhost:4000/2006/08/honeydew-agent/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Honeydew Agent</em>." {dp} - doble página. Publicado el 23 de August de 2006. 
+        http://localhost:4000/2006/08/honeydew-agent/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-honeydew-agent");
+    const modal = document.getElementById("modal-citar-honeydew-agent");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p><img src="http://web.archive.org/web/20061013125929//assets/uploads/2006/08/honeydew_logo_small.jpg" alt="Honeydew Logo" /><em>**</em></p>
+
+<p><a href="/assets/uploads/2006/08/honeydew_logo_small1.png"><img src="/assets/uploads/2006/08/honeydew_logo_small1.png" alt="" /></a></p>
+
+<p><strong>Honeydew Agent</strong> es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama <em>agente</em> pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.</p>
+
+<h3 id="el-problema-para-el-diseño">El problema para el Diseño</h3>
+
+<p>Para que el agente pueda adaptarse y aprender de cada usuario y pueda, a su vez, construir negociaciones realistas, requiere de información precisa expresada en el caledario o agenda de la persona. En nuestra investigación nos encontramos con un sinnúmero de conductas y técnicas que promueven —en cierta medida— a la deshonestidad al momento de mantener un calendario público. Entre algunas de ellas, se destacan:</p>
+
+<ul>
+  <li>En el caso de grandes compañias, los empleados deben tener un calendario visible para que sus superiores puedan concertar citas fácilmente. En la práctica, estos medios son utilizados para monitorizar a los empleados y vigilar que trabajen las horas asignadas. Esto lleva a sobrepoblar el calendario con información impresisa sólo para aparentar estar más ocupado.</li>
+  <li>Similar al caso anterior, algunas personas usan el calendario de un modo defensivo. Esto es, llenan el calendario con eventos ambiguos e imprecisos para luego tener escusas para poder rechazar eventuales invitaciones a reuniones no deseadas.</li>
+  <li>Y por último, yo diría lo más común, personas que no son consistentes al momento de construir una agenda. Incluyen sólo los eventos de periodicidad semanal y no mantienen actualizada la información con lo que realmente hacen o los mantiene ocupados, lo que significa que el calendario está subpoblado y el usuario está más ocupado de lo que realmente aparece disponible a terceros. Esto se debe en parte a lo poco natural que resulta incorporar eventos al calendario a medida que estos van apareciendo: el usuario no quiere —ni debe— ser esclavo de su software porque ¡claro! está hecho para facilitarle la vida y no para inventarle nuevas tareas y responsabilidades. De esta última se desprende la pregunta: ¿qué beneficios obtengo al tener una agenda (o calendario) ajustada a la realidad?</li>
+</ul>
+
+<h3 id="modelo-honeydew">Modelo Honeydew</h3>
+
+<p>El diseño de interacción se centró en la complejidad social de las interacciones implícitas en este tipo de negociación. Esto considera que la persona vive en distintos ámbitos sociales simultáneamente, tiene distintos intereses y compromisos para distintos grupos, tiene distintos grados de cercanía con sus contactos y prioriza de manera distinta cada uno de los compromisos adquiridos en cada uno de los distintos ámbitos. Honeydew se propone, entonces, construir un diálogo honesto entre las partes que minimize la candidad de mails (ping-pong) para llegar a un acuerdo multilateral que sea de la máxima conveniencia para todos. Algunos modelos de negociación existentes:</p>
+
+<ul>
+  <li><strong>Método de Agregado</strong> : El iniciador de la negociación reúne todos los tiempos disponibles e identifica las posibles instancias de coincidencia. Este modelo centra la responsabilidad en una persona y requiere mucho tiempo para recolectar y confirmar la información</li>
+  <li><strong>Método de Negociación</strong> : El iniciador ofrece una cantidad cerrada de posibilidades. Las contrapartes pueden elegir o realizar contraofertas.</li>
+</ul>
+
+<p>Nuestro modelo corresponde a una combinación de estos dos métodos: el iniciador ofrece opciones basado en las preferencias de las contrapartes. De este modo, el conjunto inicial de opciones tiene más posibilidades de ser aceptado. A partir de estas opciones “informadas” los demás involucrados pueden elejir o hacer contraofertas siguiendo el modelo de negociación. Asimismo, consideramos a las preferencias como una envolvente (<em>envelope</em> siguiendo la metáfora de los editores de sonido) del calendario, ponderando los tiempos de disponibilidad con distinta intensidad. <a href="/assets/uploads/2006/08/screenshot_preferences11.jpg"><img src="/assets/uploads/2006/08/screenshot_preferences11.jpg" alt="" /></a> Este modo de espeficicar las preferencias a través de gradientes permite desarrollar un lenguaje visual consistente a lo largo del software para expresar “calidades de tiempos” y garantiza el seteo de preferencias sólidas, sin vacíos, pues la gradiente representa una función <strong>spline</strong>. Ud. puede ver los prototipos funcionales <a href="http://web.archive.org/web/20061013125929/http://www.herbertspencer.net/projects/honeydew/"><strong>aquí</strong></a>.</p>
+
+<h3 id="instrucciones">Instrucciones</h3>
+
+<ul>
+  <li>El programa se activa desde el <em>tray icon</em> con el logo de <strong>Honeydew</strong></li>
+  <li>El logo de Windows (Start) activa la notificación de correo saliente</li>
+  <li>En el editor de correo (New Meeting) el ícono smiley de la barra de formato permite cambiar entre un formulario lleno y uno vacío
+Este encargo fue realizado por <a href="http://web.archive.org/web/20061013125929/http://www.isri.cmu.edu/index.jsp" title="Institute for Software Research International">ISRI</a> de CMU en el marco de un proyecto de investigación. La implementación de este diseño puede sufrir variaciones desde la posibilidad de desarrollar una aplicación por sí sola completamente independiente de los clientes de correo y calendario o bien, un plug-in para Microsoft Outlook… esa desición, al ser tan importante, fue dejada para el final.</li>
+</ul>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

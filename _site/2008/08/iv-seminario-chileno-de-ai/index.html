@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>IV Seminario Chileno de AI | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">IV Seminario Chileno de AI</h1>
+        
+
+        
+        <time datetime="2008-08-25T12:57:01+12:00">
+          25 August 2008
+        </time>
+
+        
+
+        <a id="btn-citar-iv-seminario-chileno-de-ai" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-iv-seminario-chileno-de-ai" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, August 25). <em>IV Seminario Chileno de AI</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2008/08/iv-seminario-chileno-de-ai/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>IV Seminario Chileno de AI</em>." <em>{dp} - doble página</em>, 25 August 2008, 
+        http://localhost:4000/2008/08/iv-seminario-chileno-de-ai/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>IV Seminario Chileno de AI</em>." {dp} - doble página. Publicado el 25 de August de 2008. 
+        http://localhost:4000/2008/08/iv-seminario-chileno-de-ai/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-iv-seminario-chileno-de-ai");
+    const modal = document.getElementById("modal-citar-iv-seminario-chileno-de-ai");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p>En esta <a href="http://www.aichile.org/seminario-2008/iv-seminario-chileno-de-arquitectura-de-la-informacion/" title="IV Seminario Chileno de Arquitetura de la Información">cuarta versión del seminario</a> de Arquitectura de la Información, nuestro amigo <a href="http://www.usando.info/blog/" title="blog de Juan Carlos: usando.info">Juan Carlos Camus</a> ha sugerido darle el nombre de “<em>viviendo la experiencia del usuario</em> “ para generar la discusión en torno a este concepto. En Chile, el concepto de <strong>Arquitectura de la Información</strong> nos ha servido como referencia y pretexto para juntarnos y construir <a href="http://www.aichile.org/" title="aiChile.org">una comunidad de interés</a>, ha sido el <strong>catalizador de la discusión</strong> en torno al diseño de plataformas y servicios web, nos ha servido para <strong>elevar el nivel</strong> de la discusión y para <strong>evangelizar y educar</strong> —en lo posible— a las empresas de la necesidad de tomar con seriedad el tema. Es cierto que la <strong>AI</strong> y la <strong>Experiencia del Usuario</strong> son temas distintos ((Hago esta aclaración a propósito del poco afortunado comentario hecho en relación al nombre y sentido del sentido del seminario, <a href="http://www.aichile.org/seminario-2008/iv-seminario-chileno-de-arquitectura-de-la-informacion/" title="ver comentario de: anonimo">ver post original</a>.)). En realidad son 2 aproximaciones metodológicas para acceder al mismo problema:</p>
+
+<ol>
+  <li>Si hablamos de AI, hablamos del “arte y la ciencia de organizar la información para que sea encontrable, administrable y útil ((prueba buscando en Google: “<a href="http://www.google.cl/search?q=define%3A+information+architecture" title="Realiza esta búsqueda en Google">define: Information Architecture</a>”. Te darás cuenta que es bastante estándar y consistente la definición a lo largo de todas las fuentes.))”; es decir, se refiere a <strong>una aproximación fenomenológica que se ocupa del ordenamiento de la materia</strong> (en este caso, información; de ahí su parentesco con la Arquitectura).</li>
+  <li>Si habalmos de la <em>experiencia del usuario</em> , nos enfocamos en la destinación del producto, en el “para qué”. Esta es una <strong>aproximación existencialista</strong> que busca definir las directrices teóricas y prácticas para la construcción de la experiencia. Lo cierto es que <strong>no</strong> se puede <em>diseñar una experiencia</em>. Lo que sí se puede es disponer las condiciones para que ocurra un “flujo de uso” coreografiado, construído. Esto se logra con el “buen orden” de los elementos que constituyen la experiencia del usuario ((<a href="http://es.wikipedia.org/wiki/John_Dewey">John Dewey</a> escribió en 1934 “Art as Experience”, texto pragmático altamente influyente en esta corriente de pensamiento. Absolutamente necesario para comprender el sentido filosófico del diseño centrado en la experiencia)).</li>
+</ol>
+
+<p>Es por eso que <strong>AI</strong> y <strong>Diseño de Experiencia</strong> son disciplinas hermanas que se ocupan de distintas fases del mismo problema. Espero que estos temas y discusiones nos acompañen en el seminario, la idea es formalizar lo que realizamos en Chile para fortalecer nuestra discusión y alimentar nuestro espíritu crítico. Debemos dejarnos de ser meros consumidores para darnos cuenta de nuestra verdadera capacidad de reinventar el mundo. <a href="http://www.aichile.org" title="Visita www.aichile.org">IV Seminario sobre Arquitectura de la</a> <a href="http://www.aichile.org/botones/" title="Botones HTML para promocionar el seminario">ayúdanos a difundir el seminario</a></p>
+
+<hr />
+
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>

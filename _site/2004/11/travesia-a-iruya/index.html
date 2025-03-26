@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Travesía a Iruya | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dp/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/dp/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/dp/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dp/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dp/favicon-16x16.png">
+    <link rel="manifest" href="/dp/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/dp/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/dp/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/dp/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+    <main id="dp">
+      <sidebar>
+        <h1 class="title">Travesía a Iruya</h1>
+        
+
+        
+        <time datetime="2004-11-06T08:12:48+13:00">
+          6 November 2004
+        </time>
+
+        
+
+        <a id="btn-citar-travesia-a-iruya" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-travesia-a-iruya" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2004, November 6). <em>Travesía a Iruya</em>. 
+        En <em>{dp} - doble página</em>. http://localhost:4000/2004/11/travesia-a-iruya/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Travesía a Iruya</em>." <em>{dp} - doble página</em>, 6 November 2004, 
+        http://localhost:4000/2004/11/travesia-a-iruya/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Travesía a Iruya</em>." {dp} - doble página. Publicado el 6 de November de 2004. 
+        http://localhost:4000/2004/11/travesia-a-iruya/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-travesia-a-iruya");
+    const modal = document.getElementById("modal-citar-travesia-a-iruya");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      </sidebar>
+
+      <article>
+        <p><em>nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptible</em></p>
+
+<h2 id="día-once">Día Once</h2>
+
+<p>Hoy es el día de la culminación de la Travesía. Se están dando los últimos retoques a la escultura, se está trazando la orientación de ella en su lugar de emplazamiento. Dentro de la carpa se trabaja aceleradamente en las serigrafías y se empieza a imprimir las xilografías que conformarán los libros de travesía que donaremos a distintas instituciones de Iruya. Mas allá, fuera de la carpa se escucha a Floro ensayando con su grupo el acto poético con que esta tarde daremos fin a esta epopeya y entregaremos la obra al pueblo.</p>
+
+<p>Marcelo, muy temprano, partió con Jerónimo -el jefe de la policía local-, un personaje extraordinario con una personalidad avasalladora, a Campo Carrera: un poblado indígena por sobre los cuatro mil metros de altura, a comprar tres corderos para nuestro ágape de despedida.</p>
+
+<p>Hemos convocado <a href="http://www.ead.pucv.cl/2004/album-de-iruya">nuestro acto</a> de despedida para las 19.30 hrs. Esperamos contar con la presencia de las autoridades municipales, con los profesores y sus directivas, la policía local, las autoridades de la salud, las deportivas y finalmente los padres de la parroquia de San Roque a los cuales les haremos donación de un San Francisco bellamente realizado.</p>
+
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+      </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>
