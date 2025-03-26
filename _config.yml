@@ -1,8 +1,8 @@
 title: "{dp} - doble página"
 author: "Herbert Spencer"
 description: Un espacio para la experimentación y la reflexión
-baseurl: "/dp" # Deja esto vacío si es tu sitio principal
-url: "https://hspencer.github.io"
+baseurl: "" # Deja esto vacío si es tu sitio principal
+url: "https://herbertspencer.net/"
 feed:
   path: "feed.xml" # Esto es opcional; jekyll-feed usa este nombre por defecto
 

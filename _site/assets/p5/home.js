@@ -1,6 +1,6 @@
 let postsData = posts;
 let cnv;
-const baseurl = "/dp";
+const baseurl = "";
 
 const Engine = Matter.Engine,
       World = Matter.World,

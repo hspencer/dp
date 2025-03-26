@@ -9,7 +9,10 @@ categories:
 - imagen
 tags: []
 ---
-[![](http://ts.vimeo.com/573/059/57305910_200.jpg)](http://vimeo.com/1246974)
+![](http://ts.vimeo.com/573/059/57305910_200.jpg)(http://vimeo.com/1246974)
+
+{% include vimeo.html video_url="https://player.vimeo.com/video/123456789" %}
+
 
 This was done as a frame by frame animation. It's supposed to represent the relations between nodes in the network. This short loop was used on a presentation to illustrate the complexity of this phenomenon.
 
