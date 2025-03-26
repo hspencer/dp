@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/06/marcianitos-3/
 title: Marcianitos
-description: None
 date: 2008-06-28 00:56:23 -0000
 last_modified_at: 2008-06-28 00:56:23 -0000
 publish: true
-pin: false
 categories:
 - imagen
 tags: []

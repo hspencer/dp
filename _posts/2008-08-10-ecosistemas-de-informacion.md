@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/08/ecosistemas-de-informacion/
 title: "Ecosistemas de Información"
-description: None
 date: 2008-08-10 23:06:15 -0000
 last_modified_at: 2008-08-10 23:06:15 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

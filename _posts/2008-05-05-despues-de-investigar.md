@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/05/despues-de-investigar/
 title: "Después de Investigar"
-description: None
 date: 2008-05-05 12:48:57 -0000
 last_modified_at: 2008-05-05 12:48:57 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

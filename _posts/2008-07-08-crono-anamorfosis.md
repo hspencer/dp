@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/07/crono-anamorfosis/
 title: Crono-anamorfosis
-description: None
 date: 2008-07-08 22:34:03 -0000
 last_modified_at: 2008-07-08 22:34:03 -0000
 publish: true
-pin: false
 categories:
 - code
 tags:

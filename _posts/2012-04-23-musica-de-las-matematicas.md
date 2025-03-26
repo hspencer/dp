@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2012/04/musica-de-las-matematicas/
 title: "Música de las Matemáticas"
-description: None
 date: 2012-04-23 20:22:25 -0000
 last_modified_at: 2014-10-31 19:43:39 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

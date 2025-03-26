@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2006/10/flex-typeface/
 title: Flex Typeface
-description: None
 date: 2006-10-28 02:32:23 -0000
 last_modified_at: 2014-10-28 21:14:19 -0000
 publish: true
-pin: false
 categories:
 - code
 tags:

@@ -10,7 +10,6 @@ last_modified_at: 2015-08-02 21:23:07 -0000
 image:
   path: /assets/uploads/2014/04/arbol-pitagoras.png
 publish: true
-pin: false
 categories:
 - code
 tags:

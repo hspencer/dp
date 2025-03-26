@@ -2,13 +2,11 @@
 layout: posts
 permalink: /2015/05/diseno-del-proceso-constituyente/
 title: "Diseño del Proceso Constituyente"
-description: None
 date: 2015-05-18 15:56:46 -0000
 last_modified_at: 2015-08-02 21:58:42 -0000
 publish: true
-pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2015/05/001210.png
+  path: /assets/uploads/2015/05/001210.png
 categories:
 - "investigación"
 - notas

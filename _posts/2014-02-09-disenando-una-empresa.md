@@ -2,10 +2,8 @@
 layout: posts
 permalink: /2014/02/Diseñando-una-Empresa
 title: "Diseñando una Empresa"
-description: None
 date: 2014-02-09 13:00:00
 publish: false
-pin: false
 categories:
 - "investigación"
 - notas

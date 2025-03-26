@@ -2,13 +2,11 @@
 layout: posts
 permalink: /2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio/
 title: "Enseñando Interacción"
-description: None
 date: 2018-11-01 20:15:05 -0000
 last_modified_at: 2024-02-21 03:36:22 -0000
 publish: true
-pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2018/11/travesia2016_Montevideo_cseverin-064-small-2681.jpg
+  path: /assets/uploads/2018/11/travesia2016_Montevideo_cseverin-064-small-2681.jpg
 categories:
 - escuela
 - "investigación"
@@ -42,12 +40,12 @@ Daré cuenta de experiencias realizadas al interior de talleres de diseño que s
 
 La modalidad formativa del taller —transversal a todas las escuelas— opera bajo un modelo formativo que se basa en proyectos. El proyecto es el natural integrador de todas las dimensiones epistemológicas del oficio y permite la verificación directa de cada hipótesis o proposición de diseño.
 
-![](http://www.herbertspencer.net/wp-content/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-15.15.34.png)  
+![](/assets/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-15.15.34.png)  
 **Imagen 1:**  Adaptación del modelo de interacción de Bill Verplank. El taller propone investigación y exploración colectiva que trabaja con la obra en proximidad y con verificación directa.
 
 Lo fundamental es trabajar con la obra en proximidad. Esta proximidad es en realidad una forma de pensar en diálogo con la materia (pensar con las manos, cultura de prototipado, design thinking, etc). Este modo sostiene que el aprendizaje se encarna en un constante diálogo de iteración y refinamiento entre la materia en juego y la voluntad de prefiguración del diseñador, avanzando hacia el encuentro de lo previsto con lo construido, y lo construido, con el _otro_. En este sentido la obra del proyecto es garantía de un conocimiento holístico tendiente a lo completo.
 
-![](http://www.herbertspencer.net/wp-content/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-15.15.56.png)  
+![](/assets/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-15.15.56.png)  
 **Imagen 2:** La vía del proyecto determina diferentes campos de lenguaje. El diseño de sistemas nos presenta tres lenguajes técnicos que el diseño debe abordar: la electrónica del hardware, la programación de software como lenguaje algorítmico y el lenguaje constructivo de la fabricación.
 
 El incremento en complejidad de las materias del diseño, más allá de la performatividad de los productos y interacción que proponen, hay nuevos temas que se presentan como “materiales de diseño”. Por ejemplo: Internet de las cosas (IoT), las máquinas de aprendizaje (_machine learning_) o blockchain. Cada uno de estos sustratos abre nuevas preguntas y posibilidades en formas y modos de relacionarnos entre nosotros y a través del diseño; y obviamente nuevos desafíos al modo de formar al diseñador hoy.  
@@ -68,7 +66,7 @@ Cada uno de estos campos (o momentos en la vía del proyecto) que define un leng
 
 A continuación veremos una primera experiencia ubicada en la primera fase del pensar proyectivo, pensando la interacción como campo de observación y verificación; (visto en el primer diagrama circular: observar, reflexionar, construir) o más específicamente como una forma de dialogar con el campo de observación.  
 
-![](http://www.herbertspencer.net/wp-content/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-15.55.25-2.png)  
+![](/assets/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-15.55.25-2.png)  
 **Imagen 3:** Experiencia de prototipos de control lumínico y cromático como espacio de exploración, Taller del Color 2016 (Spencer, Garretón).
 
 El dispositivo electrónico permite la manipulación de intensidades de las luces primarias, permitiendo experimentar de forma directa la teoría aditiva del color. Se trató de una suerte de pixel gigante que tiñe el espacio y las superficies coloreadas de los cuerpos (teoría sustractiva del color).  
@@ -87,7 +85,7 @@ Esta segunda experiencia cierra un ciclo completo, llegando a una proposición d
 
 Tomamos el espacio pictórico (abstracto), no como un espacio concluso ni determinado, sino como un espacio de potencial manipulación. Vemos en los trabajos de Piet Mondrian qué dimensiones son modificables; casi como si la pintura fuese un instante único, un punto inscrito en un volumen de posibilidades. Cada cual define qué dimensiones pueden variar: el grosor de la línea, la distribución de colores, la _fractalidad_ , etc.
 
-![](http://www.herbertspencer.net/wp-content/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-16.40.11.png)  
+![](/assets/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-16.40.11.png)  
 **Imagen 4:**  Expansión plástica de una pintura original a partir de dimensiones inventadas:grosor de línea, radio de curva,  fractalidad, entre otras. Se pasa de un punto a un volumen, de una obra puntual a un espacio pictórico. El desafío es definir la gestualidad que se acople a esa dimensión y, de este modo, poder navegar este nuevo espacio pictórico-abstracto.
 
 Esta mirada expande la pintura a un espacio más complejo, donde la obra es sólo un instante particular. Por ejemplo este trabajo propone un modelo tridimensional de la pintura. A cada dimensión manipulable se asocia un gesto, con un sentido de tangibilización del espacio pictórico abstracto, en este caso, asociado a la torsión y el giro.  
@@ -98,7 +96,7 @@ Definimos entonces el espacio de la interfaz como el campo de comunicación entr
 
 #### **El espacio expositivo como campo para la interacción física**
 
-![Los 4 órdenes del diseño](http://www.herbertspencer.net/wp-content/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-16.22.45-1010x548.png)  
+![Los 4 órdenes del diseño](/assets/uploads/2018/11/Captura-de-pantalla-2018-11-01-a-las-16.22.45-1010x548.png)  
 **Imagen 5:** 4 Órdenes del Diseño, adaptación conceptual y gráfica de la proposición de Richard Buchanan.
 
 Detengámonos por un momento  en este esquema de los 4 órdenes del diseño (imagen 5), propuestos inicialmente por Richard Buchanan, que nos sirven para comprender los campos y magnitudes de complejidad y escalamiento del oficio durante el siglo XX. (Diseño Gráfico, Diseño Industrial, Diseño de Interacción y Diseño de Sistemas u Organizaciones)
@@ -135,7 +133,7 @@ Las experiencias de las obras de travesía son nuestra referencia y modo, que im
 
 En este sentido el profesor asume el rol de un curador que define enmarcamientos conceptuales que potencialmente articulan un discurso. La articulación viene en parte determinada por el enmarcamiento técnico y por otra parte, abierta al discurso formal de cada alumno. La unidad actor-reactor es un marco que permite recibir lo particular de un “otro” hospitalariamente, por eso es un objeto de diseño, no un objeto de arte.  
 
-![](http://www.herbertspencer.net/wp-content/uploads/2018/11/travesia2016_Montevideo_cseverin-064-small-2681.jpg)Travesía de la Luz, Montevideo 2016 (Taller Spencer - Garretón + Araya)  
+![](/assets/uploads/2018/11/travesia2016_Montevideo_cseverin-064-small-2681.jpg)Travesía de la Luz, Montevideo 2016 (Taller Spencer - Garretón + Araya)  
 
 Otro aspecto fundamental es el sentido explícito del sistema, necesario por el carácter de coordinación colectiva que requiere. Puede ser complejo pero es absolutamente abierto y replicable, y vuelve próxima la interacción como materia de estudio. 
 

@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2010/10/internet-como-bien-publico/
 title: "Internet como Bien Público"
-description: None
 date: 2010-10-12 05:34:41 -0000
 last_modified_at: 2015-04-07 03:17:49 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

@@ -3,13 +3,11 @@ layout: posts
 permalink: /2015/08/pequenos-multiples/
 title: "Pequeños Múltiples"
 seo_title: "Visualización por \"pequeños múltiples\""
-description: None
 date: 2015-08-02 23:48:30 -0000
 last_modified_at: 2015-08-05 19:50:18 -0000
 publish: true
-pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2015/08/citipulse-small-multiples.png
+  path: /assets/uploads/2015/08/citipulse-small-multiples.png
 categories:
 - code
 - imagen

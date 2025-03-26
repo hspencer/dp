@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2004/11/travesia-a-iruya/
 title: "Travesía a Iruya"
-description: None
 date: 2004-11-05 19:12:48 -0000
 last_modified_at: 2004-11-05 19:12:48 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

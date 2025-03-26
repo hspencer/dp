@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/11/processing-1/
 title: Processing 1.0
-description: None
 date: 2008-11-25 18:47:02 -0000
 last_modified_at: 2008-11-25 18:47:02 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

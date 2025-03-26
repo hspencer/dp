@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2005/06/examen-del-taller-de-cuarto-ano/
 title: "Exámen del Taller de Cuarto Año"
-description: None
 date: 2005-06-09 20:39:55 -0000
 last_modified_at: 2005-06-09 20:39:55 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

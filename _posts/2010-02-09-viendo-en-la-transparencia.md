@@ -2,13 +2,11 @@
 layout: posts
 permalink: /2010/02/viendo-en-la-transparencia/
 title: Viendo en la Transparencia
-description: None
 date: 2010-02-09 20:29:14 -0000
 last_modified_at: 2010-02-09 20:29:14 -0000
 publish: true
-pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2009/04/conical-intersect-19751.jpg
+  path: /assets/uploads/2009/04/conical-intersect-19751.jpg
 categories:
 - "investigación"
 tags:

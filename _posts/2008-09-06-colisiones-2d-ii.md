@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/09/colisiones-2d-ii/
 title: Colisiones 2D - II
-description: None
 date: 2008-09-06 22:30:05 -0000
 last_modified_at: 2008-09-06 22:30:05 -0000
 publish: true
-pin: false
 categories:
 - imagen
 tags: []

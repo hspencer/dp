@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2009/07/inicio-del-primer-ano-de-diseno/
 title: "Inicio del Primer Año de Diseño"
-description: None
 date: 2009-07-05 19:18:07 -0000
 last_modified_at: 2009-07-05 19:18:07 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

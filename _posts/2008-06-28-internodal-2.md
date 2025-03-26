@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/06/internodal-2/
 title: Internodal
-description: None
 date: 2008-06-28 12:47:22 -0000
 last_modified_at: 2008-06-28 12:47:22 -0000
 publish: true
-pin: false
 categories:
 - imagen
 tags: []

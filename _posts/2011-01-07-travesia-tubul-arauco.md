@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2011/01/travesia-tubul-arauco/
 title: "Travesía Tubul, Arauco"
-description: None
 date: 2011-01-07 13:32:32 -0000
 last_modified_at: 2011-01-07 13:32:32 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

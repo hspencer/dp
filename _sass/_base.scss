@@ -5,6 +5,8 @@ body {
     color: $color-text;
     margin: 0 auto;
     padding: 0 $padding $padding $padding;
+    max-width: 100rem;
+    position: relative;
 }
 
 header {
@@ -12,6 +14,7 @@ header {
     font-size: 0.85rem;
 
     .navbar {
+        position: relative;
         display: flex;
         margin: 0.7rem 0.26rem 0.5rem 0.26rem;
         justify-content: space-between;
@@ -47,7 +50,7 @@ header {
         padding: $padding;
         position: absolute;
         z-index: 1000;
-        right: 1.5rem;
+        right: 0;
         box-shadow: 0 0 10px #00000022;
 
         ul {
@@ -58,12 +61,15 @@ header {
             li {
                 margin: 0.25rem 0;
 
-                a {
+                a.nav-link {
                     display: inline-block;
                     padding: 1ex 1em;
-                    color: $color-link;
+                    color: $color-text;
                     text-transform: uppercase;
                     text-decoration: none;
+                    &:hover{
+                        color: $color-link;
+                    }
                 }
             }
         }
@@ -97,6 +103,8 @@ header {
     }
 
     sidebar {
+        position: relative;
+
         .title {
             font-weight: 100;
             font-size: 3rem;
@@ -148,6 +156,33 @@ header {
             margin-top: -0.5ex;
             font-weight: bold;
         }
+
+        p {
+            text-align: justify;
+            hyphens: auto;
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+
+        table{
+            background-color: rgba(255, 255, 255, 0.504);
+            font-size: 70%;
+            font-family: $font-sans;
+            border-collapse: collapse;
+            thead{
+                border-bottom: 2px solid $color-soft-line;
+            }
+            tbody{
+                tr{
+                    border-top: 1px solid $color-soft-line;
+                    td{
+                        padding: 1ex;
+                        vertical-align: text-top;
+                    }
+                }
+            }
+        }
+
         .footnotes {
             font-size: 0.85em;
             margin-top: 2rem;
@@ -163,6 +198,42 @@ header {
             a.footnote-back {
                 margin-left: 0.5rem;
                 text-decoration: none;
+            }
+        }
+
+        .last-posts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: masonry;
+            gap: 1rem;
+
+            a {
+                display: inline-block;
+
+                &:hover {
+                    border-radius: 3px;
+                    background-color: white;
+                    outline: 5px solid white;
+                }
+
+                img {
+                    border-radius: 3px;
+                }
+
+            }
+
+            h2 {
+                margin: 1ex 0;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            p {
+                margin: 0;
+                font-size: .76rem;
+                font-family: $font-sans;
+                line-height: 105%;
+                text-align: left;
             }
         }
 
@@ -232,6 +303,7 @@ header {
     max-height: 60vh;
     overflow: hidden !important;
 
+
     .mt-post {
         margin-bottom: 1rem;
         padding: 0.5rem;
@@ -260,6 +332,7 @@ footer {
         font-family: $font-sans;
         font-size: $font-size-small;
 
+        a {
         a {
             text-decoration: none;
             color: $color-link;
@@ -301,6 +374,7 @@ footer {
     margin-top: 2rem;
     gap: 0.5rem;
 
+
     a,
     span {
         width: 10px;
@@ -309,15 +383,28 @@ footer {
         display: inline-block;
         background: #ccc;
         transition: background 0.2s;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        background: #ccc;
+        transition: background 0.2s;
     }
+
 
     a:hover {
         background: #999;
+        background: #999;
     }
+
 
     .actual {
         background: #333;
+        background: #333;
     }
+}
+
+.axis-table {
 }
 
 .axis-table {

@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2006/10/con%c2%a7tel-sharing-marginalia/
 title: "con§tel: sharing marginalia"
-description: None
 date: 2006-10-29 15:22:44 -0000
 last_modified_at: 2006-10-29 15:22:44 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

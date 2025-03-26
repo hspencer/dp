@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2017/02/tecnica-y-diseno/
 title: "Técnica y Diseño"
-description: None
 date: 2017-02-22 17:44:57 -0000
 last_modified_at: 2018-11-01 17:08:02 -0000
 publish: true
-pin: false
 image:
   path: /assets/uploads/2008/01/5694299383_c7847bf8b5_o1.jpg
 categories:

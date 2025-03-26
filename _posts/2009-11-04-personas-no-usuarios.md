@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2009/11/personas-no-usuarios/
 title: Personas, no Usuarios
-description: None
 date: 2009-11-04 19:08:58 -0000
 last_modified_at: 2009-11-04 19:08:58 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

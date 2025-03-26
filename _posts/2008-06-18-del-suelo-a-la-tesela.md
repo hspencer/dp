@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/06/del-suelo-a-la-tesela/
 title: Del Suelo a la Tesela
-description: None
 date: 2008-06-18 13:03:08 -0000
 last_modified_at: 2008-06-18 13:03:08 -0000
 publish: true
-pin: false
 categories:
 - escuela
 tags:

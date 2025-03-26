@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2009/07/haciendo-trampa/
 title: Haciendo Trampa
-description: None
 date: 2009-07-06 01:11:40 -0000
 last_modified_at: 2009-07-06 01:11:40 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

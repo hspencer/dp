@@ -2,13 +2,11 @@
 layout: posts
 permalink: /2013/12/la-observacion-en-diseno/
 title: "La Observación en Diseño"
-description: None
 date: 2013-12-12 18:17:02 -0000
 last_modified_at: 2014-10-27 18:35:25 -0000
 publish: true
-pin: false
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2013/12/wet-sheets-1936.jpg
+  path: /assets/uploads/2013/12/wet-sheets-1936.jpg
 categories:
 - escuela
 tags:

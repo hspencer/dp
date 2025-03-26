@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2024/09/reflexiones-de-un-migrante-inexistente/
 title: Reflexiones de un migrante inexistente
-description: None
 date: 2024-09-24 01:14:38 -0000
 last_modified_at: 2025-02-18 09:21:05 -0000
 publish: true
-pin: false
 image:
   path: /assets/uploads/2024/09/los-4.png
 categories:

@@ -21,6 +21,13 @@
         <script src="{{ page.p5.script | relative_url }}"></script>
         {% endif %}
 
+        {% if page.sidebar.html %}
+          {{ page.sidebar.html }}
+        {% endif %}
+        {% if page.sidebar.md %}
+          {{ page.sidebar.md | markdownify }}
+        {% endif %}
+
       </sidebar>
 
       <article>

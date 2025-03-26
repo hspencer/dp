@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/01/investigacion-y-diseno/
 title: "Investigación y Diseño"
-description: None
 date: 2008-01-22 12:57:23 -0000
 last_modified_at: 2008-01-22 12:57:23 -0000
 publish: true
-pin: false
 categories:
 - "investigación"
 tags:

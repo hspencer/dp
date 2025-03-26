@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/07/manejando-la-complejidad/
 title: Manejando la Complejidad
-description: None
 date: 2008-07-28 12:26:45 -0000
 last_modified_at: 2008-07-28 12:26:45 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

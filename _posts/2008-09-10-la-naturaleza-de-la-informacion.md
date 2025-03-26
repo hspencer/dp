@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/09/la-naturaleza-de-la-informacion/
 title: "La Naturaleza de la Información"
-description: None
 date: 2008-09-10 13:40:59 -0000
 last_modified_at: 2008-09-10 13:40:59 -0000
 publish: true
-pin: false
 categories:
 - notas
 tags:

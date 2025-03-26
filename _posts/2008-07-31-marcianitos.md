@@ -2,11 +2,9 @@
 layout: posts
 permalink: /2008/07/marcianitos/
 title: Marcianitos
-description: None
 date: 2008-07-31 16:55:45 -0000
 last_modified_at: 2014-10-28 21:59:58 -0000
 publish: true
-pin: false
 categories:
 - code
 tags:
