@@ -6,7 +6,7 @@ date: 2010-02-02 03:21:50 -0000
 last_modified_at: 2010-02-02 03:21:50 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2009/05/ixd-scores1.gif
+  path: /assets/uploads/2009/05/ixd-scores1.gif
 categories:
 - "investigación"
 - notas

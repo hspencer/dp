@@ -6,7 +6,7 @@ date: 2009-08-04 04:07:47 -0000
 last_modified_at: 2014-11-03 00:54:53 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2009/08/flecha1.jpg
+  path: /assets/uploads/2009/08/flecha1.jpg
 categories:
 - notas
 tags:

@@ -18,16 +18,15 @@
         <div id="p5"></div>
         <script src="{{ page.p5.script | relative_url }}"></script>
         {% endif %}
-
         <time datetime="{{ page.date | date_to_xmlschema }}">
           {{ page.date | date: "%-d %B %Y" }}
         </time>
 
-        {% include citar.html %}
-        
         {% if page.sidebar %}
           {{ page.sidebar }}
         {% endif %}
+
+        {% include citar.html %}
       </sidebar>
 
       <article>

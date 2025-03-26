@@ -9,7 +9,7 @@ date: 2015-10-16 13:58:21 -0000
 last_modified_at: 2023-08-22 12:49:42 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2015/10/pix-collab.jpg
+  path: /assets/uploads/2015/10/pix-collab.jpg
 categories:
 - "investigación"
 tags:

@@ -6,7 +6,7 @@ date: 2013-05-09 18:23:21 -0000
 last_modified_at: 2014-10-31 22:30:58 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2013/05/infinite-loop.png
+  path: /assets/uploads/2013/05/infinite-loop.png
 categories:
 - escuela
 - notas

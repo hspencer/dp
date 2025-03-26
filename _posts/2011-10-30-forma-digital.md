@@ -6,7 +6,7 @@ date: 2011-10-30 23:15:02 -0000
 last_modified_at: 2014-10-27 18:39:21 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2011/10/image001.png
+  path: /assets/uploads/2011/10/image001.png
 categories:
 - notas
 tags:

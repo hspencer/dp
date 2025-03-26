@@ -6,7 +6,7 @@ date: 2014-12-11 22:02:55 -0000
 last_modified_at: 2015-08-02 22:01:27 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2014/12/gridspace-miniature.png
+  path: /assets/uploads/2014/12/gridspace-miniature.png
 categories:
 - code
 tags:

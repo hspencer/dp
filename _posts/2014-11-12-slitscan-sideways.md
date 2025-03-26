@@ -8,7 +8,7 @@ date: 2014-11-12 19:33:42 -0000
 last_modified_at: 2017-08-07 19:50:41 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2014/11/sideways.jpg
+  path: /assets/uploads/2014/11/sideways.jpg
 categories:
 - "Sin categoría"
 tags:

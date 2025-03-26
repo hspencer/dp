@@ -100,7 +100,7 @@ La inteligencia artificial desempeña un papel central en este sistema generativ
 
 La salida pictográfica se plantea como una imagen descrita por un **[SVG](https://www.w3.org/TR/SVG2/) (Scalable Vector Graphics)**, lo que permitirá una representación flexible, editable y (re)entrenable. A diferencia de los formatos de imagen _bitmap_ , los SVG contienen información humanamente legible y manipulable a nivel de código, siendo más breve, elegante y accesible.
 
-![Una y tres sillas](http://www.herbertspencer.net/wp-content/uploads/2025/02/Screenshot-2025-03-21-at-3.13.04 PM.png)
+![Una y tres sillas](/assets/uploads/2025/02/Screenshot-2025-03-21-at-3.13.04 PM.png)
 
 <p class='caption'>En un guiño a [Joseph Kosuth](https://www.moma.org/collection/works/81435), estas tres representaciones hablan de lo mismo: una silla. La diferencia está en que SVG sirve de puente entre imagen y texto, ofreciendo un texto-que-es-imagen puesto que es legible y visualizable. Trae una nueva “estética de la accesibilidad”.</p>
 

@@ -6,7 +6,7 @@ date: 2010-03-14 23:28:45 -0000
 last_modified_at: 2010-03-14 23:28:45 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2010/03/quadraThumbs1.png
+  path: /assets/uploads/2010/03/quadraThumbs1.png
 categories:
 - escuela
 - "investigación"

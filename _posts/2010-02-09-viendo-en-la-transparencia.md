@@ -6,7 +6,7 @@ date: 2010-02-09 20:29:14 -0000
 last_modified_at: 2010-02-09 20:29:14 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2009/04/conical-intersect-19751.jpg
+  path: /assets/uploads/2009/04/conical-intersect-19751.jpg
 categories:
 - "investigación"
 tags:

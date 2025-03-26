@@ -8,7 +8,7 @@ date: 2015-07-08 22:51:26 -0000
 last_modified_at: 2015-08-02 22:32:09 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2015/07/IMG_7336.jpg
+  path: /assets/uploads/2015/07/IMG_7336.jpg
 categories:
 - code
 - escuela

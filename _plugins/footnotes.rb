@@ -18,7 +18,6 @@ module Jekyll
           end
           content += "</ol>\n</div>\n"
         end
-  
         content
       end
     end

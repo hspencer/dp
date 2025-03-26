@@ -6,7 +6,7 @@ date: 2014-01-28 20:37:47 -0000
 last_modified_at: 2018-11-06 11:03:13 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2014/01/Captura-de-pantalla-2018-11-05-a-las-17.40.08.png
+  path: /assets/uploads/2014/01/Captura-de-pantalla-2018-11-05-a-las-17.40.08.png
 categories:
 - "investigación"
 tags:

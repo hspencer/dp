@@ -8,7 +8,7 @@ date: 2014-10-30 12:00:53 -0000
 last_modified_at: 2014-10-30 12:21:37 -0000
 publish: true
 image:
-  path: http://www.herbertspencer.net/wp-content/uploads/2014/10/pixograms.gif
+  path: /assets/uploads/2014/10/pixograms.gif
 categories:
 - imagen
 - "investigación"
