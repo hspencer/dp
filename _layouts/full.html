@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main id="dp-full">
+     <article>
+        <h1 class="title">{{ page.title }}</h1>
+        {% if page.image %}
+          <figure>
+            <img src="{{ page.image.path | relative_url }}" alt="{{ page.image.alt }}">
+          </figure>
+        {% endif %}
+        {% if page.p5 %}
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+        <div id="p5"></div>
+        <script src="{{ page.p5.script | relative_url }}"></script>
+        {% endif %}
+        {%- if page.vimeo -%}
+          {%- include vimeo.html video_url=page.vimeo.url -%}
+        {%- endif -%}
+        {{ content | convert_footnotes | markdownify }}
+     </article>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -61,72 +61,22 @@
     </script>
  </header>
 
-
-    <main id="dp">
-      <sidebar>
+    <main id="dp-full">
+     <article>
         <h1 class="title">Colisiones 2D - II</h1>
         
-
-        
-        <time datetime="2008-09-07T10:30:05+12:00">
-          7 September 2008
-        </time>
-
-        
-
-        <a id="btn-citar-colisiones-2d-ii" class="btn-citar">&#x301E;</a>
-  
-  <div id="modal-citar-colisiones-2d-ii" class="modal-citar">
-    <div class="modal-contenido">
-      <span class="modal-cerrar">&times;</span>
-      <h3>Referencias</h3>
-  
-      <h4>APA (7ª edición)</h4>
-      <p id="apa-cita">
-        Spencer, H. (2008, September 7). <em>Colisiones 2D - II</em>. 
-        En <em>{dp} - doble página</em>. http://0.0.0.0:4000/2008/09/colisiones-2d-ii/. Visitado en: <span class="fecha-acceso"></span>
-      </p>
-  
-      <h4>MLA</h4>
-      <p id="mla-cita">
-        Spencer, Herbert. "<em>Colisiones 2D - II</em>." <em>{dp} - doble página</em>, 7 September 2008, 
-        http://0.0.0.0:4000/2008/09/colisiones-2d-ii/. Accedido el <span class="fecha-acceso"></span>.
-      </p>
-  
-      <h4>Chicago</h4>
-      <p id="chicago-cita">
-        Spencer, Herbert. "<em>Colisiones 2D - II</em>." {dp} - doble página. Publicado el 7 de September de 2008. 
-        http://0.0.0.0:4000/2008/09/colisiones-2d-ii/. Consultado el <span class="fecha-acceso"></span>.
-      </p>
-    </div>
-  </div>
-  
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("btn-citar-colisiones-2d-ii");
-    const modal = document.getElementById("modal-citar-colisiones-2d-ii");
-    const cerrar = modal.querySelector(".modal-cerrar");
-  
-    btn.addEventListener("click", () => modal.style.display = "block");
-    cerrar.addEventListener("click", () => modal.style.display = "none");
-    window.addEventListener("click", e => {
-      if (e.target == modal) modal.style.display = "none";
-    });
-  
-    // Insertar fecha de acceso en formato: 26 de marzo de 2025
-    const fecha = new Date();
-    const meses = [
-      "enero", "febrero", "marzo", "abril", "mayo", "junio",
-      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
-    ];
-    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
-    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
-  });
-  </script>
-      </sidebar>
-
-      <article>
-        <p><a href="http://vimeo.com/1679994"><img src="http://ts.vimeo.com/622/659/62265978_200.jpg" alt="" /></a></p>
+        <figure class="video-container">
+  <iframe
+    src="https://player.vimeo.com/video/1679994?h=1ee9973a3d"
+    width="640"
+    height="360"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+  >
+  </iframe>
+</figure>
+<p><a href="http://vimeo.com/1679994"><img src="http://ts.vimeo.com/622/659/62265978_200.jpg" alt="" /></a></p>
 
 <p>Cada vez que dos pelotas chochan, nace una tercera perlota en el lugar del impacto. Las pelotas nuevas pueden variar de tamaño y el color está determinado por él. Se puede observar que naturalmente las pelotas más pequeñas decantan al fondo.</p>
 
@@ -141,17 +91,7 @@
 
 <p><strong>Tags:</strong> <a href="http://vimeo.com/tag%3Aprocessing">processing</a>, <a href="http://vimeo.com/tag%3Acollisions">collisions</a>, <a href="http://vimeo.com/tag%3Asimulation">simulation</a> and <a href="http://vimeo.com/tag%3A2d">2D</a></p>
 
-        <!-- _includes/comments.html -->
-<section id="comments">
-    <script src="https://utteranc.es/client.js"
-            repo="hspencer/dp"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
-  </section>
-      </article>
+     </article>
     </main>
 
     <footer>

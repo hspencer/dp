@@ -1,6 +1,6 @@
 ---
-layout: posts
-permalink: /2008/08/Colisiones-2D
+layout: full
+permalink: /2008/08/colisiones-2d-i/
 title: Colisiones 2D - I
 description: Featured as Eye Candy in Wired Magazine
 date: 2008-08-29 22:10:46 -0000
@@ -9,6 +9,8 @@ publish: false
 categories:
 - imagen
 tags: []
+vimeo:
+  url: https://player.vimeo.com/video/1629105?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
 ---
 [![](http://b.vimeocdn.com/ts/604/373/60437326_200.jpg)](http://vimeo.com/1629105)
 

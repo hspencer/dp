@@ -104,9 +104,10 @@ header {
         color: vars.$color-link;
     }
 
+    
+
     sidebar {
         position: relative;
-
         .title {
             font-weight: 100;
             font-size: 3rem;
@@ -181,6 +182,7 @@ header {
 
         img{
             margin: 0 auto;
+            border-radius: .333ex;
         }
 
         p {
@@ -252,9 +254,9 @@ header {
                 display: inline-block;
 
                 &:hover {
-                    border-radius: 3px;
+                    border-radius: .5ex;
                     background-color: white;
-                    outline: 1ex solid white;
+                    outline: .5ex solid white;
                 }
 
                 img {
@@ -323,6 +325,17 @@ header {
     }
 }
 
+#dp-full{
+    a{
+        text-decoration: none;
+        color: vars.$color-link;
+    }
+    .title {
+        font-weight: 100;
+        font-size: 3rem;
+        margin: 0 0 0.5em 0;
+    }
+}
 /* mastodon */
 
 .mt-container .mt-body .mt-post:nth-of-type(n + 4) {
@@ -377,34 +390,6 @@ footer {
                 color: vars.$color-link;
             }
         }
-    }
-}
-
-.last-posts {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: masonry;
-    gap: 1rem;
-
-    a {
-        display: inline-block;
-        &:hover {
-            border-radius: 3px;
-            background-color: white;
-            outline: 5px solid white;
-        }
-        img {
-            border-radius: 3px;
-        }
-    }
-    h2 {
-        margin: 0;
-    }
-    p {
-        margin: 0;
-        font-size: 0.76rem;
-        font-family: vars.$font-sans;
-        line-height: 105%;
     }
 }
 
@@ -513,3 +498,19 @@ footer {
         }
     }
 }
+
+.video-container {
+    position: relative;           // Posicionamiento relativo para establecer el contexto del iframe
+    padding-bottom: 56.25%;        // Proporción de aspecto 16:9 (9/16 = 0.5625)
+    height: 0;                    // Altura inicial 0, se utiliza el padding para mantener la proporción
+    overflow: hidden;             // Oculta cualquier contenido que exceda el contenedor
+    max-width: 100%;              // Limita la anchura máxima al 100% del contenedor padre
+  
+    iframe {
+      position: absolute;         // Posicionamiento absoluto para ocupar todo el contenedor
+      top: 0;                     // Alinea la parte superior del iframe con el contenedor
+      left: 0;                    // Alinea la parte izquierda del iframe con el contenedor
+      width: 100%;                // El iframe ocupa el 100% de la anchura del contenedor
+      height: 100%;               // El iframe ocupa el 100% de la altura del contenedor
+    }
+  }

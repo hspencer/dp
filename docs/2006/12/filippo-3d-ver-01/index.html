@@ -73,6 +73,7 @@
         </time>
 
         
+        
 
         <a id="btn-citar-filippo-3d-ver-01" class="btn-citar">&#x301E;</a>
   
@@ -84,19 +85,19 @@
       <h4>APA (7ª edición)</h4>
       <p id="apa-cita">
         Spencer, H. (2006, December 18). <em>Filippo 3D ver 0.1</em>. 
-        En <em>{dp} - doble página</em>. http://0.0.0.0:4000/2006/12/filippo-3d-ver-01/. Visitado en: <span class="fecha-acceso"></span>
+        En <em>{dp} - doble página</em>. https://herbertspencer.net/2006/12/filippo-3d-ver-01/. Visitado en: <span class="fecha-acceso"></span>
       </p>
   
       <h4>MLA</h4>
       <p id="mla-cita">
         Spencer, Herbert. "<em>Filippo 3D ver 0.1</em>." <em>{dp} - doble página</em>, 18 December 2006, 
-        http://0.0.0.0:4000/2006/12/filippo-3d-ver-01/. Accedido el <span class="fecha-acceso"></span>.
+        https://herbertspencer.net/2006/12/filippo-3d-ver-01/. Accedido el <span class="fecha-acceso"></span>.
       </p>
   
       <h4>Chicago</h4>
       <p id="chicago-cita">
         Spencer, Herbert. "<em>Filippo 3D ver 0.1</em>." {dp} - doble página. Publicado el 18 de December de 2006. 
-        http://0.0.0.0:4000/2006/12/filippo-3d-ver-01/. Consultado el <span class="fecha-acceso"></span>.
+        https://herbertspencer.net/2006/12/filippo-3d-ver-01/. Consultado el <span class="fecha-acceso"></span>.
       </p>
     </div>
   </div>
@@ -138,12 +139,18 @@
 
 <p>I’d be really happy to receive feedback for further improvements and/or the PDFs (<a href="http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/f3D_360sample.pdf">360 Sample</a>) you create with it. I hope that the next version will have load/save capabilities since the only possible output right now is into a PDF (or animated series of PDFs) or DXF (an old 3D) format. Enjoy! <img src="http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/sillas.jpg" alt="sillas" /></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/* English ends here :) */
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code>/* English ends here :) */
+</code></pre>
+  </div>
+</div>
 
 <p><img src="http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/f3d_interface.gif" alt="Filippo3d Interface" /> La diferencia con los ejemplos anteriores es que en ellos el dibujo rota en el espacio y el plano de la pantalla –en el cual uno dibuja– se intersecta con el espacio tridimensional en un plano fijo. Lo que querí­a hacer yo era poder mover ese plano, como si la hoja de papel sirviera para fijar las lí­neas no en el papel, sino en el espacio construí­do por ese plano. Dicho de otro modo, un cuaderno que permitiera dibujar, luego mover el cuaderno y dejar las lí­neas flotando en el aire, en su posición original: la construcción de un plano-andamio para fijar lí­neas en el espacio. Finalmente el resultado no es literalmente esta imagen del cuaderno desplazable por el espacio, principalmente porque uno siempre dibuja frontalmente y no tiene sentido mover un plano que será mediado ineludiblemente por el plano de la pantalla. Lo que el programa hace es mover y rotar el modelo para hacerlo coincidir con el plano de dibujo (plano-pantalla); en el fondo es lo mismo pero pero tiene más sentido al momento de dibujar. El modelo matemático que sustenta la traducción de un espacio bidimensional a un espacio tridimensional implica multiplicación de matrices al modo inverso de lo que el computador hace cuando presenta modelos tridimensionales en la pantalla: a cada vértice con ubicación (x,y,z) le asigna su correspondiente (x,y) en la pantalla. Lo que este programa hace es partir de un (x,y) –con un z igual a 0– que se traduce a un espacio tridimensional con rotaciones en los ejes x,y,z.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Traslación en x,y,z:
+<div class="language-plaintext highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code>Traslación en x,y,z:
 
 | 1   0   0   x |
 | 0   1   0   y |
@@ -180,7 +187,9 @@ Multiplicación de Matrices:
 | A1,1  A1,2  ... |     | B1,1  B1,2  ... |     | A1,1 [B1,1 B1,2 ...] + A1,2 [B2,1 B2,2 ...] + ... |
 | A2,1  A2,2  ... |  *  | B2,1  B2,2  ... |  =  | A2,1 [B1,1 B1,2 ...] + A2,2 [B2,1 B2,2 ...] + ... |
 | ...   ...   ... |     | ...   ...   ... |     |         ...                   ...             ... |
-</code></pre></div></div>
+</code></pre>
+  </div>
+</div>
 
 <p>Si bien esta parte es bastante árida, una vez funcionando uno puede olvidarse de eso y enfocarse en cosas más importantes, como para qué puede servir algo semejante :) En fin, Filippo 3D permite hacer varias cosas, entre ellas generar PDFs de las distintas vistas (tecla ‘p’minúscula) y exportar modelos DXF para programas de edición en 3D (tecla ‘d’ minúscula). También permite generar secuencias de PDFs del modelo rotando en el eje Y, (tecla ‘P’ mayúscula). Todo esto queda guardado en la misma carpeta del programa, ojo. Creo que este programita podrí­a ser útil en las salidas a croquear con una tablet PC. Creo que mis amigos diseñadores y arquitectos podrí­an sacarle buen partido al asunto. Estén atentos a las próximas versiones del programa que incluirán la capacidad de guardar y cargar dibujos.</p>
 

@@ -22,15 +22,18 @@
           {{ page.date | date: "%-d %B %Y" }}
         </time>
 
-        {% if page.sidebar %}
-          {{ page.sidebar }}
+        {% if page.sidebar.html %}
+          {{ page.sidebar.html }}
+        {% endif %}
+        {% if page.sidebar.md %}
+          {{ page.sidebar.md | markdownify }}
         {% endif %}
 
         {% include citar.html %}
       </sidebar>
 
       <article>
-        {{ content | convert_footnotes }}
+        {{ content | convert_footnotes | markdownify }}
         {% include comments.html %}
       </article>
     </main>

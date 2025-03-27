@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: full
 permalink: /2008/09/colisiones-2d-ii/
 title: Colisiones 2D - II
 date: 2008-09-06 22:30:05 -0000
@@ -8,6 +8,8 @@ publish: true
 categories:
 - imagen
 tags: []
+vimeo:
+  url: https://player.vimeo.com/video/1679994?h=1ee9973a3d
 ---
 [![](http://ts.vimeo.com/622/659/62265978_200.jpg)](http://vimeo.com/1679994)
 

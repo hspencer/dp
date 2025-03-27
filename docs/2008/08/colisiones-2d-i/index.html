@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión Featured as Eye Candy in Wired Magazine">
+    <meta name="author" content="">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>Colisiones 2D - I | {dp} - doble página</title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/feed-posts.xml">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  </head>
+  
+  <body>
+    <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/">{dp} - doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/about/herbert-spencer/">Herbert Spencer</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/about/doble-pagina/">Doble Página</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+    <main id="dp-full">
+     <article>
+        <h1 class="title">Colisiones 2D - I</h1>
+        
+        <figure class="video-container">
+  <iframe
+    src="https://player.vimeo.com/video/1629105?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    width="640"
+    height="360"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+  >
+  </iframe>
+</figure>
+<p><a href="http://vimeo.com/1629105"><img src="http://b.vimeocdn.com/ts/604/373/60437326_200.jpg" alt="" /></a></p>
+
+<p>Este es un ejemplo muy básico que pueden usar para sus proyectos. No es muy estable porque las pelotas, en vez de tranquilizarse, se ponen cada vez más saltarinas.</p>
+
+<p>El código de este ejemplo está en:<br />
+<a href="http://www.ead.pucv.cl/processing/2008/spencer-herbert/pelotas_y_colisiones/index.html">ead.pucv.cl/processing/2008/spencer-herbert/pelotas_y_colisiones/index.html</a></p>
+
+<p><strong>Cast:</strong> <a href="http://vimeo.com/hspencer">Herbert Spencer</a></p>
+
+<p><strong>Tags:</strong> <a href="http://vimeo.com/tag:processing">processing</a>, <a href="http://vimeo.com/tag:collision">collision</a>, <a href="http://vimeo.com/tag:particles">particles</a> and <a href="http://vimeo.com/tag:bounce">bounce</a></p>
+
+     </article>
+    </main>
+
+    <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 27 March 2025
+   </p>
+ </footer>
+  </body>
+</html>
