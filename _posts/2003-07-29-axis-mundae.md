@@ -11,7 +11,7 @@ tags:
 - "Diseño Gráfico"
 - "interacción"
 image:
-  path: /assets/uploads/axis-9.gif
+  path: /assets/uploads/2003/07/axis-9.gif
   
 
 ---

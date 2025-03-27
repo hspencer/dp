@@ -80,7 +80,7 @@ header {
 
 #dp {
     background-color: vars.$color-dp-bg;
-    background: vars.$page-gradient;
+    background:  url('/assets/css/spine.svg'), vars.$page-gradient;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -129,6 +129,7 @@ header {
                 border-radius: 0.5ex;
             }
         }
+        
         a.btn-citar {
             position: absolute;
             bottom: 0;

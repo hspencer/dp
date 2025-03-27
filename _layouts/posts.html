@@ -34,7 +34,9 @@
 
       <article>
         {{ content | convert_footnotes | markdownify }}
+       
         {% include comments.html %}
+        
       </article>
     </main>
 

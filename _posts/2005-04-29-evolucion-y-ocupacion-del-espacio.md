@@ -9,18 +9,17 @@ categories:
 - escuela
 tags:
 - "Diseño Gráfico"
+image:
+  path: /assets/uploads/2005/04/gaston-maturana-shulz.png
 ---
-> Exposición:
->
-> _{Texto introductorio, guía para el lector que quiera adentrarse en las láminas}_
+_{Texto introductorio, guía para el lector que quiera adentrarse en las láminas}_
 
-[Historia de la Humanidad: Su Evolución y Ocupación de la Tierra desde su Origen hasta el Año + – 0](http://www.ead.pucv.cl/2005/exposicion-de-la-historia-de-la-humanidad/)  
 Viernes 29 de Abril de 2005, 16.45 horas, Aula Claudio Girola
 
 A primera vista, estas láminas se muestran como un mar tipográfico, algo intimidante incluso, como para animarse a entrar en él; por lo menos, es lo que me ocurrió a mí la primera vez que me enfrenté a uno de estos cuadros, cuando Gastón nos los expuso en la Ciudad Abierta, hace ya casi dos años. Me quedé detenido en el arreglo mismo, en la coincidencia de textos cruzados, en la particularidad del espacio tipográfico, o la proeza de complejidad (me acordé de la película “Matrix”) se podría decir, me quedé atrapado en la superficie de la lámina.
 
-Claro, hay que reconocer que esta superficie es altamente compleja, no es un espacio tradicional donde los ojos del lector puedan correr descansando en la garantía de la lectura convencional sino que el lector debe primero ubicarse  
-.  
+Claro, hay que reconocer que esta superficie es altamente compleja, no es un espacio tradicional donde los ojos del lector puedan correr descansando en la garantía de la lectura convencional sino que el lector debe primero ubicarse.  
+
 Pero ¿en qué radica lo cifrado de estas láminas?  
 En que el espacio bidimensional de los cuadros, está sometido a un sistema de escritura donde cada anotación se reconoce dentro de un arreglo cartesiano de espacio y tiempo. Pero es un poco más complejo que eso, porque uno podría pensar que todas las anotaciones se han “puntualizado” en esta grilla cartesiana como si se tratara de un gráfico (como hay tantos, especialmente en la física cuántica, a la manera de infografías para comprender fenómenos como el envejecimiento de las estrellas o la explicación del “horizonte de sucesos”, frontera de un agujero negro) sino que, al tratarse de una grilla tipográfica, siempre está latente la palabra y luego la frase, que comienzan a tejerse y trenzarse como hilos o cuerdas de este arreglo. Dicho de manera más simple, los elementos discretos constitutivos de estos arreglos (o matrices) son puntuales en cuanto letra, pero lineales en cuanto palabras o frases. Pueden comportarse como puntos o líneas, dependiendo de la escala con que se esté leyendo, o el grado de fineza del lector, que es su punto de vista.
 

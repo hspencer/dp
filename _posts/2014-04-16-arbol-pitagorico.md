@@ -8,7 +8,10 @@ description: "Ejemplo de recursividad usando Processing en un árbol pitagórico
 date: 2014-04-16 16:42:41 -0000
 last_modified_at: 2015-08-02 21:23:07 -0000
 p5:
-  script: //assets/p5/pytagoras.js
+  script: /assets/p5/pytagoras.js
+
+image:
+  path: /assets/uploads/2014/04/arbol-pitagoras.png
 publish: true
 categories:
 - code
