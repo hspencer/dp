@@ -158,6 +158,11 @@ header {
             color: vars.$color-title;
         }
 
+        strong{
+            font-weight: 500;
+            color: vars.$color-strong;
+        }
+
         code {
             font-size: 0.78rem;
             line-height: 100%;
@@ -192,10 +197,6 @@ header {
                 display: block;
                 margin: 0 auto;
             }
-            strong{
-                font-weight: 500;
-                color: vars.$color-strong;
-            }
         }
 
     
@@ -217,6 +218,27 @@ header {
                         vertical-align: text-top;
                     }
                 }
+            }
+        }
+        
+        .footnote-ref{
+            font-weight: 300;
+        }
+        .footnotes {
+            font-size: 0.85em;
+            margin-top: 2rem;
+
+            ol {
+                padding-left: 1.5rem;
+            }
+
+            a.footnote-ref {
+                text-decoration: none;
+            }
+
+            a.footnote-back {
+                margin-left: 0.5rem;
+                text-decoration: none;
             }
         }
 

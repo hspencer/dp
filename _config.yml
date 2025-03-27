@@ -2,7 +2,7 @@ title: "{dp} - doble página"
 author: "Herbert Spencer"
 description: Un espacio para la experimentación y la reflexión
 baseurl: "" # Deja esto vacío si es tu sitio principal
-url: "https://herbertspencer.net/"
+url: "https://hspencer.github.io/"
 feed:
   path: "feed.xml" # Esto es opcional; jekyll-feed usa este nombre por defecto
 
@@ -22,6 +22,8 @@ kramdown:
 safe: false      # Permite el uso de plugins personalizados
 plugins_dir: _plugins   # Especifica el directorio de plugins (si se requiere)
 
+destination: docs      # Genera los archivos estáticos en /docs
+exclude: [docs]        # Evita que Jekyll procese la carpeta /docs
 
 permalink: /:categories/:title/
 
