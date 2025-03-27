@@ -19,6 +19,10 @@ kramdown:
   parse_span_html: true
   html_to_native: false
 
+safe: false      # Permite el uso de plugins personalizados
+plugins_dir: _plugins   # Especifica el directorio de plugins (si se requiere)
+
+
 permalink: /:categories/:title/
 
 plugins:

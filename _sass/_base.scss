@@ -1,16 +1,18 @@
+@use 'variables' as vars;
+
 body {
-    background-color: $color-body-bg;
+    background-color: vars.$color-body-bg;
     font-size: 22px;
-    font-family: $font-serif;
-    color: $color-text;
+    font-family: vars.$font-serif;
+    color: vars.$color-text;
     margin: 0 auto;
-    padding: 0 $padding $padding $padding;
+    padding: 0 vars.$padding vars.$padding vars.$padding;
     max-width: 100rem;
     position: relative;
 }
 
 header {
-    font-family: $font-sans;
+    font-family: vars.$font-sans;
     font-size: 0.85rem;
 
     .navbar {
@@ -31,23 +33,23 @@ header {
             margin-left: 1rem;
             text-decoration: none;
             cursor: pointer;
-            color: $color-text;
+            color: vars.$color-text;
         }
 
         a {
-            color: $color-text;
+            color: vars.$color-text;
             text-decoration: none;
             &:hover {
                 cursor: pointer;
-                color: $color-link;
+                color: vars.$color-link;
             }
         }
     }
 
     nav#main {
-        background-color: $color-dp-bg;
+        background-color: vars.$color-dp-bg;
         border-radius: 1ex;
-        padding: $padding;
+        padding: vars.$padding;
         position: absolute;
         z-index: 1000;
         right: 0;
@@ -64,11 +66,11 @@ header {
                 a.nav-link {
                     display: inline-block;
                     padding: 1ex 1em;
-                    color: $color-text;
+                    color: vars.$color-text;
                     text-transform: uppercase;
                     text-decoration: none;
                     &:hover {
-                        color: $color-link;
+                        color: vars.$color-link;
                     }
                 }
             }
@@ -77,8 +79,8 @@ header {
 }
 
 #dp {
-    background-color: $color-dp-bg;
-    background: $page-gradient;
+    background-color: vars.$color-dp-bg;
+    background: vars.$page-gradient;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -89,7 +91,7 @@ header {
     > * {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
-        // outline: 1px dashed $color-soft-line;
+        // outline: 1px dashed vars.$color-soft-line;
     }
 
     img {
@@ -99,7 +101,7 @@ header {
 
     a {
         text-decoration: none;
-        color: $color-link;
+        color: vars.$color-link;
     }
 
     sidebar {
@@ -113,7 +115,7 @@ header {
 
         time {
             display: block;
-            font-family: $font-sans;
+            font-family: vars.$font-sans;
             font-size: 12px;
             text-align: right;
         }
@@ -134,11 +136,11 @@ header {
             font-size: 3rem;
             cursor: pointer;
             border-radius: 5px;
-            color: $color-soft-line;
+            color: vars.$color-soft-line;
             text-shadow: -1px -1px 2px white;
 
             &:hover {
-                color: $color-link;
+                color: vars.$color-link;
             }
         }
     }
@@ -150,10 +152,10 @@ header {
         h4,
         h5,
         h6 {
-            font-family: $font-sans;
+            font-family: vars.$font-sans;
             font-weight: 700;
             font-size: 80%;
-            color: $color-title;
+            color: vars.$color-title;
         }
 
         code {
@@ -162,7 +164,7 @@ header {
         }
 
         hr {
-            border-top: 1px dashed $color-soft-line;
+            border-top: 1px dashed vars.$color-soft-line;
             border-bottom: none;
             mix-blend-mode: multiply;
         }
@@ -172,47 +174,49 @@ header {
             font-weight: bold;
         }
 
+        img{
+            margin: 0 auto;
+        }
+
         p {
             text-align: justify;
             hyphens: auto;
             overflow-wrap: break-word;
             word-break: break-word;
+            &.caption{
+                font-size: 75%;
+                line-height: 110%;
+                margin: 0 2em;
+            }
+            > img:only-child {
+                display: block;
+                margin: 0 auto;
+            }
+            strong{
+                font-weight: 500;
+                color: vars.$color-strong;
+            }
         }
+
+    
 
         table {
             background-color: rgba(255, 255, 255, 0.504);
             font-size: 70%;
-            font-family: $font-sans;
+            font-family: vars.$font-sans;
             border-collapse: collapse;
+            border-radius: 1ex;
             thead {
-                border-bottom: 2px solid $color-soft-line;
+                border-bottom: 2px solid vars.$color-soft-line;
             }
             tbody {
                 tr {
-                    border-top: 1px solid $color-soft-line;
+                    border-top: 1px solid vars.$color-soft-line;
                     td {
                         padding: 1ex;
                         vertical-align: text-top;
                     }
                 }
-            }
-        }
-
-        .footnotes {
-            font-size: 0.85em;
-            margin-top: 2rem;
-
-            ol {
-                padding-left: 1.5rem;
-            }
-
-            a.footnote-ref {
-                text-decoration: none;
-            }
-
-            a.footnote-back {
-                margin-left: 0.5rem;
-                text-decoration: none;
             }
         }
 
@@ -245,7 +249,7 @@ header {
             p {
                 margin: 0;
                 font-size: 0.76rem;
-                font-family: $font-sans;
+                font-family: vars.$font-sans;
                 line-height: 105%;
                 text-align: left;
             }
@@ -264,7 +268,7 @@ header {
                 text-align: center;
             }
             h3 {
-                font-family: $font-serif !important;
+                font-family: vars.$font-serif !important;
                 color: rgb(187, 31, 3) !important;
             }
 
@@ -275,7 +279,7 @@ header {
             }
             .poem {
                 white-space: pre;
-                font-family: $font-serif;
+                font-family: vars.$font-serif;
                 text-align: center;
                 font-size: 90%;
                 line-height: 145%;
@@ -293,7 +297,7 @@ header {
 @media (max-width: 768px) {
     #dp {
         display: block;
-        background: $color-dp-bg;
+        background: vars.$color-dp-bg;
     }
 }
 
@@ -304,7 +308,7 @@ header {
 }
 
 .mt-container {
-    font-size: $font-size-small;
+    font-size: vars.$font-size-small;
     filter: invert(1) hue-rotate(180deg);
     mix-blend-mode: multiply;
     border-radius: 1.5ex;
@@ -326,7 +330,7 @@ header {
     }
 
     .mt-content {
-        font-family: $font-sans;
+        font-family: vars.$font-sans;
         line-height: 1.2;
     }
     .mt-post-avatar {
@@ -335,17 +339,20 @@ header {
 }
 
 footer {
-    margin: $padding 0;
+    margin: vars.$padding 0;
     p {
         margin: 0;
         text-align: center;
-        font-family: $font-sans;
-        font-size: $font-size-small;
+        font-family: vars.$font-sans;
+        font-size: vars.$font-size-small;
+        line-height: 144%;
 
         a {
+            color: vars.$color-link;
+            text-decoration: none;
             a {
                 text-decoration: none;
-                color: $color-link;
+                color: vars.$color-link;
             }
         }
     }
@@ -374,7 +381,7 @@ footer {
     p {
         margin: 0;
         font-size: 0.76rem;
-        font-family: $font-sans;
+        font-family: vars.$font-sans;
         line-height: 105%;
     }
 }
@@ -414,8 +421,8 @@ footer {
 
 
 .axis-table {
-    font-family: $font-sans;
-    font-size: $font-size-small;
+    font-family: vars.$font-sans;
+    font-size: vars.$font-size-small;
     text-align: center;
 
     th,
@@ -442,7 +449,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.479); // fondo oscuro semitransparente
 
     .modal-contenido {
-        background-color: $color-dp-bg;
+        background-color: vars.$color-dp-bg;
         margin: 10% auto;
         padding: 2rem;
         border: 1px solid #0000006d;
@@ -458,10 +465,10 @@ footer {
         }
 
         h4 {
-            font-family: $font-sans;
+            font-family: vars.$font-sans;
             font-weight: 500;
             font-size: .65rem;
-            color: $color-title;
+            color: vars.$color-title;
             text-transform: uppercase;
         }
 
@@ -471,7 +478,7 @@ footer {
     }
 
     .modal-cerrar {
-        color: $color-text;
+        color: vars.$color-text;
         position: absolute;
         top: .5rem;
         right: 1rem;
@@ -480,7 +487,7 @@ footer {
         cursor: pointer;
 
         &:hover {
-            color: $color-link;
+            color: vars.$color-link;
         }
     }
 }

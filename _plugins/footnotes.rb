@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+puts "FOOTNOTE FILTER cargado"  # Línea de depuración para verificar la carga
+
 module Jekyll
     module FootnoteFilter
       def convert_footnotes(input)
@@ -23,4 +26,4 @@ module Jekyll
     end
   end
   
-  Liquid::Template.register_filter(Jekyll::FootnoteFilter)
+Liquid::Template.register_filter(Jekyll::FootnoteFilter)

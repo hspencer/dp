@@ -30,7 +30,7 @@
       </sidebar>
 
       <article>
-        {{ content | convert_footnotes | markdownify }}
+        {{ content | convert_footnotes }}
         {% include comments.html %}
       </article>
     </main>
