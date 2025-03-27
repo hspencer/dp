@@ -5,6 +5,8 @@ title: "con§tel: sharing marginalia"
 date: 2006-10-29 15:22:44 -0000
 last_modified_at: 2006-10-29 15:22:44 -0000
 publish: true
+p5:
+  script: /assets/p5/type-field.js
 categories:
 - escuela
 tags:
