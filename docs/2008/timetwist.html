@@ -74,10 +74,19 @@
 
         
         
-
-        <a id="btn-citar-none" class="btn-citar">&#x301E;</a>
+        <!-- _includes/comments.html -->
+<section id="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="hspencer/dp"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+</section>
+        <a id="btn-citar-timetwist" class="btn-citar">&#x301E;</a>
   
-  <div id="modal-citar-none" class="modal-citar">
+  <div id="modal-citar-timetwist" class="modal-citar">
     <div class="modal-contenido">
       <span class="modal-cerrar">&times;</span>
       <h3>Referencias</h3>
@@ -104,8 +113,8 @@
   
   <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("btn-citar-none");
-    const modal = document.getElementById("modal-citar-none");
+    const btn = document.getElementById("btn-citar-timetwist");
+    const modal = document.getElementById("modal-citar-timetwist");
     const cerrar = modal.querySelector(".modal-cerrar");
   
     btn.addEventListener("click", () => modal.style.display = "block");
@@ -136,18 +145,6 @@ Un video normal es un corte transversal-perpendicular al tiempo. Este video es u
 
 <p><strong>Tags:</strong> <a href="http://vimeo.com/tag:processing">processing</a>, <a href="http://vimeo.com/tag:zbigrybczynski">Zbig Rybczynski</a>, <a href="http://vimeo.com/tag:slitscan">slitscan</a> and <a href="http://vimeo.com/tag:experimental">experimental</a></p>
 
-       
-        <!-- _includes/comments.html -->
-<section id="comments">
-    <script src="https://utteranc.es/client.js"
-            repo="hspencer/dp"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
-  </section>
-        
       </article>
     </main>
 
@@ -164,7 +161,7 @@ Un video normal es un corte transversal-perpendicular al tiempo. Este video es u
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 28 March 2025
+     Última actualización: 29 March 2025
    </p>
  </footer>
   </body>

@@ -212,6 +212,10 @@ header {
             border-radius: 1ex;
             thead {
                 border-bottom: 2px solid vars.$color-soft-line;
+                th{
+                    text-align: left;
+                    padding: 1ex;
+                }
             }
             tbody {
                 tr {

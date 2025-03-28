@@ -55,7 +55,9 @@ Se entiede _experiencia_ como la interacción entre el individuo y su entorno di
 
 ### MediaFranca
 
-Sobre el proceso de la experiencia de las personas, MediaFranca propone una estructura de participación basada en flujos de interacción.  _Estados_ | **Publicación** | **Participación** | **Deliberación** | **Gestión**  
+Sobre el proceso de la experiencia de las personas, MediaFranca propone una estructura de participación basada en flujos de interacción.  
+
+_Estados_ | **Publicación** | **Participación** | **Deliberación** | **Gestión**  
 ---|---|---|---|---  
 _modo de la experiencia_ |  documental testimonial individual |  conversacional constructiva co-experiencia |  reflexiva contemplativa |  inmersiva inclusiva colaborativa  
 _dinámica de interacción_ |  informar reportar denunciar |  consultar argumentar apoyar/rechazar |  votar adscribir |  comprometer trabajar reclutar  
@@ -63,6 +65,8 @@ _objetivos_ |  construir una imagen equilibrada y exhaustiva de la realidad a pa
 __ |  construcción de registro público |  co-creación  
 _herramientas_ |  perfil de identidad publicación multiformato |  visualización adscripción suscripción conversación |  valoración evaluación apoyo/rechazo |  coordinación colaboración administración incentivo  
 _servicios existentes_ |  blogging microblogging comunidades de opinión |  redes sociales wikis |  herramientas de votación y relevancia (+1) |  servicios de gestión de proyectos Google docs wikis  
+
+
 Nuestro modelo distingue 4 estados dentro de la macro (co)experiencia democrática. Cada uno de estos estados puede abordarse desde el Diseño como experiencias finitas, cada una de ellas con una forma de culminación propia. El modelo contempla desde el levantamiento de temas hasta la gestión de una iniciativa a través de herramientas ad-hoc. Esta estructura perfila los procesos mencionados como estados de participación abiertos, no obligatorios, según la tipología de personas y sus intereses locales, clasificando cada _acción ciudadana_ en las instancias de:
 
   1. **Publicación** : levantamiento de temas

@@ -18,8 +18,8 @@ const fadeDuration = 1500;   // Duración de la transición de color
 
 function setup() {
   // Definir dimensiones del canvas según los elementos del DOM
-  let h = document.getElementById('last-posts').offsetHeight - 100;
-  cnv = createCanvas(document.getElementById('p5').offsetWidth, h);
+  let w = document.getElementById('p5').offsetWidth;
+  cnv = createCanvas(w, w*0.75);
   cnv.parent('p5');
 
   // Permitir las acciones táctiles por defecto (como el desplazamiento)
