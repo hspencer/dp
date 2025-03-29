@@ -5,6 +5,8 @@ title: Herramienta y Espacio
 date: 2010-09-29 01:46:35 -0000
 last_modified_at: 2010-09-29 01:46:35 -0000
 publish: true
+image:
+  path: /assets/uploads/2010/09/mf-modelo.jpg
 categories:
 - escuela
 - "investigación"
@@ -35,7 +37,7 @@ Ambos proyectos, en cuanto obras, abren preguntas a propósito del sentido de la
 
 ### SNS
 
-[![](http://www.ead.pucv.cl/wp-content/archivos/2010/09/SNS-605x396.png)](http://www.ead.pucv.cl/wp-content/archivos/2010/09/SNS.png "SNS: Servicio Nacional de Salud - Esquema")
+![SNS](/assets/uploads/2010/09/SNS.png "SNS: Servicio Nacional de Salud - Esquema")
 
 El proyecto de Dámaris Sepúlveda se origina con un estudio abierto, sin proponerse una obra específica pero asumiendo un campo de diseño: el de los servicios, y junto con esto, se sumerge en el sistema hospitalario para abordar la experiencia del paciente en la salud pública.
 
@@ -50,10 +52,10 @@ Con este proyecto apuntamos al diseño de una plataforma articuladora de la info
 
 ### MediaFranca
 
-[![](http://www.ead.pucv.cl/wp-content/archivos/2010/09/mf-modelo-605x460.jpg)](http://www.ead.pucv.cl/wp-content/archivos/2010/09/mf-modelo.jpg "MediaFranca: Modelo de Interacción y participación ciudadana")
+![Modelo Mediafranca](/assets/uploads/2010/09/mf-modelo.jpg "MediaFranca: Modelo de Interacción y participación ciudadana")
 
 El trabajo de Cristóbal Severin se inscribe en la línea de Diseño para la Democracia. En este sentido, la primera materia consistió en catastrar y estudiar los diversos modelos de interacción democrática como un modo para acceder a la forma de las grandes conversaciones.  
-El proyecto [MediaFranca](http://wiki.ead.pucv.cl/index.php/MediaFranca "Documentación en Casiopea") propiamente tal, parte con anterioridad, pero este año se lleva adelante una investigación para situarlo y contextualizarlo en el aquí y ahora. Esta investigación se propuso generar y validar una interfaz Web capaz de dar cabida al discurso colectivo de los asuntos sociales, construyendo un espacio público.
+El proyecto [MediaFranca](http://wiki.ead.pucv.cl/MediaFranca "Documentación en Casiopea") propiamente tal, parte con anterioridad, pero este año se lleva adelante una investigación para situarlo y contextualizarlo en el aquí y ahora. Esta investigación se propuso generar y validar una interfaz Web capaz de dar cabida al discurso colectivo de los asuntos sociales, construyendo un espacio público.
 
 Mediafranca busca ser un espacio publico donde convergen personas, temas y lugares, para generar conversaciones relevantes a la ciudadanía. Uno de los principios fundamentales de MF es favorecer la convergencia de los discursos cívicos, evitando la disociación de conversaciones similares; en cierta medida recomponiendo un nuevo “cara a cara” dado en la intimidad de los temas.
 

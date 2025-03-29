@@ -7,13 +7,16 @@
     <main id="dp">
       <sidebar>
         <h1 class="title">{{ page.title }}</h1>
-        {% if page.image %}
-          <figure>
-            <img src="{{ page.image.path | relative_url }}" alt="{{ page.image.alt }}">
-          </figure>
-        {% endif %}
-
-        {% if page.p5 %}
+        {% if page.image and page.image.sidebar != false %}
+        <figure>
+          <img
+            src="{{ page.image.path | relative_url }}"
+            alt="{{ page.image.alt | default: '' }}"
+            class="{{ page.image.class | default: '' }}"
+            style="{{ page.image.style | default: '' }}"
+          />
+        </figure>
+        {% endif %} {% if page.p5 %}
         <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
         <div id="p5"></div>
         <script src="{{ page.p5.script | relative_url }}"></script>
@@ -23,18 +26,25 @@
         </time>
 
         {% if page.sidebar.html %}
+        <div
+          class="{{ page.sidebar.class | default: '' }}"
+          style="{{ page.sidebar.style | default: '' }}"
+        >
           {{ page.sidebar.html }}
-        {% endif %}
-        {% if page.sidebar.md %}
+        </div>
+        {% endif %} {% if page.sidebar.md %}
+        <div
+          class="{{ page.sidebar.class | default: '' }}"
+          style="{{ page.sidebar.style | default: '' }}"
+        >
           {{ page.sidebar.md | markdownify }}
-        {% endif %}
-        
-        {% include citar.html %}
+        </div>
+        {% endif %} {% include citar.html %}
       </sidebar>
 
       <article>
-        {{ content | convert_footnotes | markdownify }}
-        {% include comments.html %}
+        {{ content | convert_footnotes | markdownify }} {% include comments.html
+        %}
       </article>
     </main>
 

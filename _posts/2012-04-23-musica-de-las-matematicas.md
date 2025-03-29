@@ -11,23 +11,23 @@ tags:
 - incompletitud
 - "matemáticas"
 - Taller de Amereida
+image: 
+  path: /assets/uploads/2012/04/blake.jpg
 ---
 Les voy a contar una historia hoy día: Bajo la superficie del mundo yacen las reglas descritas por la ciencia. O, al menos, el mundo avanza como si así fuera. Pero bajo todas estas reglas, existen reglas más profundas, una matriz abstracta de matemática pura que permite el lenguaje capaz de explicar las reglas que –a su vez la ciencia– explican la naturaleza, el mundo, el universo. Estas reglas se constituyen como el último orden, el último juego de certidumbres, de fundamentos, que nos permiten urdir nuestro entendimiento y nuestras verdades. Este primer orden es lo que llamamos “música de las matemáticas”.
 
 > “Ver un Mundo en un grano de arena, un cielo en una flor silvestre. Tomar la infinitud en la palma de tu mano y la eternidad en una hora”.  
-> Primera estrofa del poema _Augurios de Inocencia_ , William Blake (1803).
+
+<p class='caption right'>Primera estrofa del poema _Augurios de Inocencia_ , William Blake (1803).</p>
+
+>   “y puedo decir esto último porque sé de un lenguaje        él viene a obrar  
+>    sobre nosotros          ¿cómo?         nosotros amamos en primer término al  
+>    árbol que se basta a sí mismo para retener como luz y contraluz          en  
+>    cada hoja un cielo      para retener        como rumor de su follaje húmedo  
+>    toda lejana brisa imperceptible
 >
->     “y puedo decir esto último porque sé de un lenguaje         él viene a obrar  
->     >
->     sobre nosotros          ¿cómo?         nosotros amamos en primer término al  
->     >
->     árbol que se basta a sí mismo para retener como luz y contraluz          en  
->     >
->     cada hoja un cielo      para retener        como rumor de su follaje húmedo  
->     >
->     toda lejana brisa imperceptible
->
-> _Amereida_ , pág. 123.
+
+<p class='caption right'>_Amereida_ , pág. 123.</p>
 
 Aquí quiero conectar con el primer personaje de la historia, Georg Cantor. La pregunta es ¿cuál es el sistema, cuál es el conjunto a lo cual todo obedece? Es la última pregunta, por cierto. ¿Cuál es la última música, el último bajo continuo de todo? Esta es una pregunta mística, religiosa, pero a la vez matemática. Este hombre se hizo esta pregunta, como muchos otro también.
 
@@ -47,4 +47,4 @@ La historia de Turing tampoco es muy distinta, tenía una filosofía de vida que
 
 Entonces, ¿cuál es el asunto? Que hay cosas que son inasibles. Termino con una observación de las estrellas: Hay estrellas que son menos brillantes que otras, hay estrellas que aparecen solamente cuando uno las mira con el rabillo del ojo, las tenues; si uno las mira de frente, desaparecen. Uno mira distraidamente y aparecen en el rabillo del ojo que parece más sensible, es la intuición, y uno lo enfoca y quiere atrapar por la razón y desaparece. Eso creo que es una experiencia concreta de la incompletitud y este problema es el que queremos abordar este año, en Primer Año, para tratar de ver y construir un lenguaje cualitativo, sensible, para expresar este tipo de problemas mediante el dibujo.
 
-Taller de Amareida, Ciudad Abierta. [Clase 3, Trimestre 1, 2012](http://www.ead.pucv.cl/2012/clase-3-trimestre-i-2012/).
+<p class='caption right'>Taller de Amareida, Ciudad Abierta. [Clase 3, Trimestre 1, 2012](http://www.ead.pucv.cl/2012/clase-3-trimestre-i-2012/).<p>

@@ -195,11 +195,19 @@ header {
                 font-size: 75%;
                 line-height: 110%;
                 margin: 0 2em;
+                &.right{
+                    text-align: right;
+                }
             }
             > img:only-child {
                 display: block;
                 margin: 0 auto;
             }
+        }
+
+        blockquote{
+            font-size: 80%;
+            color: vars.$color-strong;
         }
 
     

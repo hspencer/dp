@@ -12,6 +12,9 @@ categories:
 tags:
 - "Diseño Gráfico"
 - "interacción"
+image:
+  path: /assets/uploads/2006/07/constel03.png
+  sidebar: false
 ---
 ##### con§tel: an environment to support creativity through shared marginalia
 

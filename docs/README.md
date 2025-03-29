@@ -1,10 +1,33 @@
 # {dp}
 ## doble página
 
-
 Este sitio ha tenido un largo recorrido. Comenzó en 2003 como mi carpeta personal de experimentos y reflexiones. Durante muchos años fue administrado en Wordpress pero ahora, porque básicamente se puso "fácil de usar" ya no lo entiendo y prefiero tener control absoluto del HTML y CSS.
 
 Migré todo a jekyll y lo voy a mantener en Github desde ahora en adelante.
+
+Las publicaciones en md tienen el siguiente frontmatter:
+
+---
+layout: posts
+permalink: /YEAR/01/perma-link
+title: "título"
+date: 2025-02-27 05:43:22 -0000
+last_modified_at: 2025-03-21 03:00:19 -0000
+image:
+  path: /assets/uploads/2025/02/prologo-pictonet-ia.png
+  alt: Pictonet SVG editor
+  class: "central"
+  style: ".text-align:center"
+  sidebar: false
+p5:
+  srcipt: /assets/p5/mesh.js
+sidebar:
+  md:
+  html:
+categories:
+- notas
+tags: [tesis, llm]
+---
 
 ### Comandos útiles
 

@@ -5,6 +5,8 @@ title: Del Suelo a la Tesela
 date: 2008-06-18 13:03:08 -0000
 last_modified_at: 2008-06-18 13:03:08 -0000
 publish: true
+image: 
+   path: /assets/uploads/2008/06/sector_bebederos_ca.jpg
 categories:
 - escuela
 tags:
@@ -14,8 +16,9 @@ tags:
 - taller
 - tesela
 - unidad discreta
+sidebar:
+  html: <small>El presente texto corresponde a la presentación del exámen del primer trimestre del primer año de diseño, expuesto el dia miércoles 11 de junio de 2008.</small>
 ---
-El presente texto corresponde a la presentación del exámen del primer trimestre del primer año de diseño, expuesto el dia miércoles 11 de junio de 2008.
 
 Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.
 
@@ -27,8 +30,6 @@ la matriz del cuerpo volumétrico de una taza, que debía destrabar sus encajes 
 la tipografía como formalización de la unidad fonética, específicamente la Helvética como medida de fineza y proporción geométrica.
 
 En fin: el hilo conductor de este taller ha sido la noción de **unidad discreta** , de la modulación y configuración para alcanzar la obra. Porque también tenemos una obra entre manos. Se trata de la construcción de un suelo en la Ciudad Abierta, específicamente en el sector que vincula la vega (el lugar de los juegos) con los baños y bebederos.
-
-[![](http://www.ead.pucv.cl/wp-content/archivos/2008/06/sector_bebederos_ca-605x274.jpg)](http://www.ead.pucv.cl/wp-content/archivos/2008/06/sector_bebederos_ca.jpg "Sector Bebederos, Ciudad Abierta")
 
 Para esto definimos un juego de 3 baldosas o teselas:
   
@@ -46,7 +47,9 @@ El encargo para ellos se trata de construir una teselación (de entre 15 y 25 pi
 
 **El tercer momento** : corresponde a la definición del color. Con una paleta de 3, enrarecer la relación básica de figura y fondo propia del contraste tipográfico para hacer calzar, entre baldosa y argamasa coloreada, el dibujo mayor cifrado en la configuración de unidades.
 
-[![Exposición en la sala de primer año](http://www.ead.pucv.cl/wp-content/archivos/2008/06/p1060003-260x195.jpg)](http://www.ead.pucv.cl/wp-content/archivos/2008/06/p1060003.jpg "Suelo Teselar")¿La lección del taller? Que en una espacialidad aparentemente sin libertad (por estar definida por un vocabulario extremadamente escueto en sus componentes) emerge el desconocido en plenitud. La maestría para gobernar este espacio radica en la sensibilidad sutil y la intuición de las correspondencias internas de la forma. El diseñador se vuelve un configurador, un articulador. Son las variaciones de un tema. [Bach](http://es.wikipedia.org/wiki/Variaciones_Goldberg "Bach y las variaciones Goldberg") puede dar fe de la fertilidad de esta partida formal.
+![Teselas Tipográficas](/assets/uploads/2008/06/expo-teselas.JPG "Proposición Tipográfica del Suelo")
+
+¿La lección del taller? Que en una espacialidad aparentemente sin libertad (por estar definida por un vocabulario extremadamente escueto en sus componentes) emerge el desconocido en plenitud. La maestría para gobernar este espacio radica en la sensibilidad sutil y la intuición de las correspondencias internas de la forma. El diseñador se vuelve un configurador, un articulador. Son las variaciones de un tema. [Bach](http://es.wikipedia.org/wiki/Variaciones_Goldberg "Bach y las variaciones Goldberg") puede dar fe de la fertilidad de esta partida formal.
 
 * * *
 
@@ -64,14 +67,22 @@ Los oficios aplicados demoran más en la comprensión de estos procesos, puesto 
 
 El proyecto es primeramente un suelo, por eso el taller se aboca en la construcción –metafóricamente– de una consolación (o canto para la Ciudad Abierta) que le de pie a este orden que nombra el proceder característico del Diseño.
 
-[![Teselas Tipográficas](http://www.ead.pucv.cl/wp-content/galeria/cache/403__320x240_exposicion_d1_t1_03.jpg)](http://www.ead.pucv.cl/wp-content/galeria/expo_d1_t1/exposicion_d1_t1_03.jpg "Proposición Tipográfica del Suelo")
-
 Las diferencia en los procesos de nominación es que nuestro orden es tipográfico y fonética; la letra acompañándose no en la palabra todavía; así, consonante, vocal, consonante, vocal y consonante, para tener cada alumno una cifra (CASUF, PUVAL o TENOC) que sólo ha de dilucidarse –oírse– en el momento de su realización o ejecución, y más allá, cuando tales unidades tipográficas son pronunciadas en conjunto; se entiende de que no se trata de un texto fijo.
 
 Puesto que lo que se plantea en el proyecto es un suelo que ha de leerse cada vez para encontrarle el sentido a la dicción de esos caracteres silábicos que mudos no significan nada.
 
 Esto permite que la obra proyectada guarda para sí (desconocido) el sentido último, que como se dice o se sabe: es impronunciable. Sin embargo creemos que este suelo puede ser cantado –cada vez– en un orden diferente, lo que otorgará una dimensión de presente constante frente a una realidad fija.
 
-[[ver lista]](http://www.ead.pucv.cl/2008/del-suelo-a-la-tesela/?show=gallery)
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem">
 
-[[ver presentación]]
+<img src='/assets/uploads/2008/06/tesela-2.jpg' title='Faenas de construcción de teselas'>
+
+<img src='/assets/uploads/2008/06/tesela-3.jpg' title='Faenas de construcción de teselas'>
+
+<img src='/assets/uploads/2008/06/tesela-4.jpg' title='Faenas de construcción de teselas'>
+
+<img src='/assets/uploads/2008/06/tesela-5.jpg' title='Suelo teselar'>
+
+<img src='/assets/uploads/2008/06/tesela-1.jpg' title='Suelo teselar'>
+
+</div>
