@@ -6,7 +6,7 @@ date: 2025-02-27 05:43:22 -0000
 last_modified_at: 2025-03-21 03:00:19 -0000
 publish: true
 image:
-  path: /assets/uploads/2025/02/Captura-desde-2025-02-27-18-49-46.png
+  path: /assets/uploads/2025/02/prologo-pictonet-ia.png
   alt: Pictonet SVG editor
 categories:
 - notas
@@ -94,13 +94,13 @@ Además, este enfoque incluye un **modelo de aprendizaje colaborativo** (federad
 
 La inteligencia artificial desempeña un papel central en este sistema generativo (no determinístico). Dentro de las directrices de diseño está definido centrarse en:
 
-  1. **Claridad semántica:** Las imágenes generadas deben preservar la precisión en la comunicación (establecer la correspondencia directa entre texto y su representación)
+  1. **Claridad semántica:** Las imágenes generadas deben preservar la precisión en la comunicación (establecer la correspondencia directa entre texto y su representación)((Un intento temprano en esta línea es el conjunto de pictogramas desarrollados para [Lectogram](https://github.com/hspencer/lectogram). Este conjunto de pictogramas está pensado desde el texto de las tareas del hogar.))
   2. **Adaptabilidad cultural:** Los pictogramas deben ser ajustables a distintos contextos culturales sin perder universalidad. Esto no se planifica centralmente sino que se habilita la posibilidad de la divergencia en la arquitectura del software. Sin duda existirán aspecto convergentes pero se debe permitir la absoluta personalización y control del usuario. Lo convergente o divergente (la eterna tensión entre lo particular y lo universal) es algo que deberá constatarse en el uso de la herramienta.
   3. **Transparencia y control del usuario:** Los usuarios deben tener la capacidad de modificar y validar las imágenes generadas, evitando resultados erróneos o inexactos. Esto implicará también que el tiempo que se invierta en entrenar esta herramienta pueda ser propiedad del usuario (ser portable y transferible) para que puedan generarse modelos locales con curatoría colectiva.
 
 La salida pictográfica se plantea como una imagen descrita por un **[SVG](https://www.w3.org/TR/SVG2/) (Scalable Vector Graphics)**, lo que permitirá una representación flexible, editable y (re)entrenable. A diferencia de los formatos de imagen _bitmap_ , los SVG contienen información humanamente legible y manipulable a nivel de código, siendo más breve, elegante y accesible.
 
-![Una y tres sillas](/assets/uploads/2025/02/Screenshot-2025-03-21-at-3.13.04 PM.png)
+![Una y tres sillas](/assets/uploads/2025/02/3-chairs.png)
 
 <p class='caption'>En un guiño a [Joseph Kosuth](https://www.moma.org/collection/works/81435), estas tres representaciones hablan de lo mismo: una silla. La diferencia está en que SVG sirve de puente entre imagen y texto, ofreciendo un texto-que-es-imagen puesto que es legible y visualizable. Trae una nueva “estética de la accesibilidad”.</p>
 

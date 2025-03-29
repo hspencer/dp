@@ -28,12 +28,13 @@
         {% if page.sidebar.md %}
           {{ page.sidebar.md | markdownify }}
         {% endif %}
-        {% include comments.html %}
+        
         {% include citar.html %}
       </sidebar>
 
       <article>
         {{ content | convert_footnotes | markdownify }}
+        {% include comments.html %}
       </article>
     </main>
 
