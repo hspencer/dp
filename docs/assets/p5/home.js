@@ -19,7 +19,7 @@ const fadeDuration = 1500;   // Duración de la transición de color
 function setup() {
   // Definir dimensiones del canvas según los elementos del DOM
   let w = document.getElementById('p5').offsetWidth;
-  cnv = createCanvas(w, w*0.75);
+  cnv = createCanvas(w, w);
   cnv.parent('p5');
 
   // Permitir las acciones táctiles por defecto (como el desplazamiento)
@@ -39,7 +39,7 @@ function setup() {
   World.add(world, mConstraint);
 
   // Calcular escalado del radio de cada post en función de su longitud
-  let lengths = postsData.map(post => post.length || 1000);
+  let lengths = postsData.map(post => post.length || 2000);
   let minLen = Math.min(...lengths);
   let maxLen = Math.max(...lengths);
 
