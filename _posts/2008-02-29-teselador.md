@@ -5,7 +5,7 @@ title: Teselador
 image:
   path: /assets/uploads/2008/02/teselador1.gif
 p5:
-  path: /assets/p5/teselador.js
+  script: /assets/p5/teselador.js
 date: 2008-02-29 19:26:58 -0000
 last_modified_at: 2008-02-29 19:26:58 -0000
 publish: true

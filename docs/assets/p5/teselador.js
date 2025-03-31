@@ -36,6 +36,7 @@ function setup() {
   // Crear contenedor de controles
   let controlsDiv = createDiv('');
   controlsDiv.id('controls');
+  controlsDiv.parent('p5');
   
   // Slider para el lado de los triángulos
   sliderTile = createSlider(30, 150, 80, 1);
@@ -85,8 +86,6 @@ function setup() {
 }
 
 function draw() {
-  background(255);
-  
   // Dibujar cada triángulo
   for (let t of triangles) {
     t.drawTriangle();

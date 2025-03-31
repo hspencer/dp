@@ -1,8 +1,7 @@
-<!-- Paginación con máximo de 8 "pelotitas" y usando &hellip; -->
 <div class="last-posts" id="last-posts">
   {% assign posts = site.posts | sort: "date" | reverse %}
   {% for post in posts %}
-    <a href="{{ post.url | relative_url }}" class="post-item" data-page="{{ forloop.index0 | divided_by: 6 }}">
+    <a href="{{ post.url | relative_url }}" class="post-item">
       {% if post.image %}
         <img src="{{ post.image.path | relative_url }}" alt="{{ post.title | escape }}">
       {% endif %}
@@ -22,19 +21,39 @@
   /* Máximo de 8 "pelotitas" */
   const maxVisiblePages = 8;
   const itemsPerPage = 6;
+
+  // Contenedor donde se inyectan los posts de la página actual
+  const lastPostsContainer = document.getElementById('last-posts');
+  // Seleccionamos todos los elementos "post-item" en un array
   const items = [...document.querySelectorAll('.post-item')];
+  // Calcula cuántas páginas totales
   const totalPages = Math.ceil(items.length / itemsPerPage);
+  // Contenedor de la paginación
   const pagination = document.getElementById('paginacion');
 
+  // Esta función carga los items de la página 'page' y renueva la paginación
   function showPage(page) {
-    items.forEach((el, i) => {
-      el.style.display = Math.floor(i / itemsPerPage) === page ? 'block' : 'none';
-    });
+    // Limpiamos el contenedor para no acumular todos los items ocultos
+    lastPostsContainer.innerHTML = '';
+
+    // Calculamos inicio y final en el array
+    const startIndex = page * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+
+    // Insertamos sólo los items correspondientes a la página actual
+    for (let i = startIndex; i < endIndex && i < items.length; i++) {
+      lastPostsContainer.appendChild(items[i]);
+    }
+
+    // Renderizamos los botones de paginación
     renderPagination(page);
   }
 
+  // Genera la lista de páginas a mostrar, con '…' si se excede el máximo
   function getPages(current, total, max) {
-    if (total <= max) return [...Array(total).keys()];
+    if (total <= max) {
+      return [...Array(total).keys()];
+    }
     const pages = [0];
     const lastPage = total - 1;
     let start = Math.max(current - 2, 1);
@@ -45,19 +64,24 @@
     if (end < lastPage - 1) pages.push('…');
     pages.push(lastPage);
 
-    // Corta si excede el máximo
-    // Aunque rara vez, esto protege de exceder el 'max'
+    // Corta si excede el máximo de páginas visibles
     while (pages.length > max) {
-      if (current < total / 2) pages.splice(pages.length - 2, 1, '…');
-      else pages.splice(1, 1, '…');
+      // Lógica sencilla para remover elementos intermedios si se pasa del máximo
+      if (current < total / 2) {
+        pages.splice(pages.length - 2, 1, '…');
+      } else {
+        pages.splice(1, 1, '…');
+      }
       if (pages.filter(p => p !== '…').length <= 2) break;
     }
     return pages;
   }
 
+  // Renderiza las pelotitas / enlaces
   function renderPagination(current) {
     pagination.innerHTML = '';
     const pages = getPages(current, totalPages, maxVisiblePages);
+
     pages.forEach(p => {
       if (p === '…') {
         const span = document.createElement('span');
@@ -77,5 +101,6 @@
     });
   }
 
+  // Comenzamos mostrando la primera página (0)
   showPage(0);
 </script>

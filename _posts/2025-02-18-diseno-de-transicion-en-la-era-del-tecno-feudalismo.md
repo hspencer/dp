@@ -6,8 +6,9 @@ date: 2025-02-18 07:49:58 -0000
 last_modified_at: 2025-03-21 01:25:07 -0000
 publish: true
 image:
-  path: /assets/uploads/2025/02/tecnofeudalism.jpg
+  path: /assets/uploads/2025/02/tecnofeudalism.png
   alt: "Malla federada, ilustración"
+  sidebar: false
 categories:
 - notas
 tags:
@@ -17,6 +18,8 @@ tags:
 - "investigación"
 - social capital
 - tecnofeudalismo
+p5:
+  script: /assets/p5/tecnomesh.js
 ---
 Las profundas y radicales transformaciones contemporáneas en el ámbito económico y tecnológico han generado reflexiones sobre la vigencia de las categorías tradicionales del capitalismo. En diversos análisis, se describe un fenómeno que [Yanis Varoufakis](https://bsky.app/profile/yanisvaroufakis.bsky.social) denomina “[tecno feudalismo](https://www.yanisvaroufakis.eu/2025/02/08/technofeudalism-what-killed-capitalism-on-the-chris-hedges-report/)”, donde las grandes empresas con infraestructura digital centralizada (Google, Amazon, Meta, Apple, etc.) acumulan volúmenes de información y ejercen modalidades de control que rebasan las lógicas del mercado clásico.
 
