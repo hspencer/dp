@@ -1,90 +1,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-01T03:09:21+13:00</updated>
+  <updated>2025-04-01T12:34:01+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
   </author>
 
   <!-- Incluir Posts -->
-  
-  <entry>
-    <title></title>
-    <link href="http://0.0.0.0:4000/posts/2008-06-18-del-suelo-a-la-tesela/"/>
-    <updated>2025-04-01T03:09:21+13:00</updated>
-    <id>http://0.0.0.0:4000/posts/2008-06-18-del-suelo-a-la-tesela</id>
-    <content type="html">
-      &lt;p&gt;Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.&lt;/p&gt;
-
-&lt;p&gt;Partimos desde ahí preguntándonos por su orden, sus medidas, su lenguaje formal y su modo de aparecer en la ciudad: los distintos ritmos de suelo, sus modos de ser en continuidad y discontinuidad, sus diferenciaciones, su modularidad y sus unidades de medida, sus correspondencias y calces al cuerpo, sus modos de ofrecer una detención, sus modos de vincular la horizontal con la vertical —entre suelo y muro—, el mundo de las patas y apoyos, de las bases y pedestales, de las veredas y aristas del camino. Ése fue el campo del estudio y desde ahí entra el taller.&lt;/p&gt;
-
-&lt;p&gt;La Presentación, desde otra faceta, se pregunta por la problemática del arte y la reproductibilidad técnica, ofreciendo una entrada a la condición material y productiva del oficio, como un modo de acceder a la forma:&lt;br /&gt;
-la matriz y el dibujo xilográfico que recoje la luz calculadamente entre la superficie blanca y la negra;&lt;br /&gt;
-la matriz del cuerpo volumétrico de una taza, que debía destrabar sus encajes entre llenos y vacíos;&lt;br /&gt;
-la tipografía como formalización de la unidad fonética, específicamente la Helvética como medida de fineza y proporción geométrica.&lt;/p&gt;
-
-&lt;p&gt;En fin: el hilo conductor de este taller ha sido la noción de &lt;strong&gt;unidad discreta&lt;/strong&gt; , de la modulación y configuración para alcanzar la obra. Porque también tenemos una obra entre manos. Se trata de la construcción de un suelo en la Ciudad Abierta, específicamente en el sector que vincula la vega (el lugar de los juegos) con los baños y bebederos.&lt;/p&gt;
-
-&lt;p&gt;Para esto definimos un juego de 3 baldosas o teselas:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;un triángulo equilátero de lado &apos;a&apos;
-un rectángulo de lados &apos;a&apos; y &apos;a/2&apos;
-y otro más ancho de lados &apos;a&apos; y &apos;3/4 * a&apos;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Primero se trabaja en grupos para tener una visión del lugar en la escala mayor, otro grupo se encarga del estudio del lugar específico, analizando sus ocupaciones y circulaciones ya existentes así como las potenciales, otro grupo; de los detalles y modos constructivos propios del suelo dunar; otro, de la dimensión cromática a lo largo del día y otro grupo a cargo de la conformación del domo de trabajo, ubicación y equipamiento.&lt;/p&gt;
-
-&lt;p&gt;El encargo para ellos se trata de construir una teselación (de entre 15 y 25 piezas) para un suelo que permita recibir al cuerpo en una leve detención partir del pliegamiento del suelo; siempre cuidando la consistencia entre baldosa y argamasa. Además, se debe calcular el dibujo del tesel para un calce luminoso capaz de recibir a la lectura tipográfica.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;El primer momento&lt;/strong&gt; : definición de lo que llamamos la lineatura, proposición para vincular la gestualudad y la forma propia del cuerpo con la geometría interna del juego de baldosas. (un cuasi-cristal)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;El segundo momento&lt;/strong&gt; : dibujo de la geometría interna del tesel. Es el estudio del espacio tipográfico de la Helvética, de sus relaciones internas de proporción y luz. Se trata de definir un orden geométrico (o un tami) junto con un juego de reglas que definan las posibles variaciones dentro de las baldosas.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;El tercer momento&lt;/strong&gt; : corresponde a la definición del color. Con una paleta de 3, enrarecer la relación básica de figura y fondo propia del contraste tipográfico para hacer calzar, entre baldosa y argamasa coloreada, el dibujo mayor cifrado en la configuración de unidades.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/expo-teselas.JPG&quot; alt=&quot;Teselas Tipográficas&quot; title=&quot;Proposición Tipográfica del Suelo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;¿La lección del taller? Que en una espacialidad aparentemente sin libertad (por estar definida por un vocabulario extremadamente escueto en sus componentes) emerge el desconocido en plenitud. La maestría para gobernar este espacio radica en la sensibilidad sutil y la intuición de las correspondencias internas de la forma. El diseñador se vuelve un configurador, un articulador. Son las variaciones de un tema. &lt;a href=&quot;http://es.wikipedia.org/wiki/Variaciones_Goldberg&quot; title=&quot;Bach y las variaciones Goldberg&quot;&gt;Bach&lt;/a&gt; puede dar fe de la fertilidad de esta partida formal.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;lenguaje-teselar-de-la-lectura&quot;&gt;Lenguaje Teselar de la Lectura&lt;/h3&gt;
-
-&lt;p&gt;Un diseñador desde el inicio de su formación como tal ha de encontrarse con una dimensión que le otorga a toda forma construida una ubicación en el orbe del lenguaje; la lengua nos orienta y nos da pertenencia, nos da lugar y un aquí que las cosas no tienen.&lt;br /&gt;
-Aquí está el punto de una dimensión de Taller, más precisamente de proyecto, en la cual el alumno debe vérselas –se principia, se entiende– con la letra como una unidad discreta dentro del orden propuesto en el proyecto.&lt;/p&gt;
-
-&lt;p&gt;La invención de Gutenberg del tipo móvil (esto es la letra como unidad) es ya una premisa del orden actual de una mente tipográfica; el tipo o unidad conformadora de la palabra; es esto ya característico: la parte).&lt;br /&gt;
-Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel modo de pronunciarse a bosquejos del habla, a través de fonemas, gestos lingüísticos; podíamos decir, silábicamente. Esto quiere decir que nuestra aproximación al lenguaje no es al modo del vocablo, sino de las partes o unidades que lo conforman.&lt;/p&gt;
-
-&lt;p&gt;La aproximación del diseño a una dimensión de lenguaje ha de ser a través de esas entidades que lo conforman (ahí están las unidades discretas de la palabra) y que le dan forma al habla; por ejemplo, las piezas retóricas de un discurso discutible. Esto lo entendieron bien las disciplinas lingüísticas de los años 70 y los poetas dada de los años 10 del siglo XX.&lt;/p&gt;
-
-&lt;p&gt;Los oficios aplicados demoran más en la comprensión de estos procesos, puesto que deben dar forma y expresión a su tiempo no a través del lenguaje mismo, sino a través de un orden que diseñe esa cuestión en un objeto que traiga la problemática a nuestra situación ordinaria del habitar.&lt;/p&gt;
-
-&lt;p&gt;El proyecto es primeramente un suelo, por eso el taller se aboca en la construcción –metafóricamente– de una consolación (o canto para la Ciudad Abierta) que le de pie a este orden que nombra el proceder característico del Diseño.&lt;/p&gt;
-
-&lt;p&gt;Las diferencia en los procesos de nominación es que nuestro orden es tipográfico y fonética; la letra acompañándose no en la palabra todavía; así, consonante, vocal, consonante, vocal y consonante, para tener cada alumno una cifra (CASUF, PUVAL o TENOC) que sólo ha de dilucidarse –oírse– en el momento de su realización o ejecución, y más allá, cuando tales unidades tipográficas son pronunciadas en conjunto; se entiende de que no se trata de un texto fijo.&lt;/p&gt;
-
-&lt;p&gt;Puesto que lo que se plantea en el proyecto es un suelo que ha de leerse cada vez para encontrarle el sentido a la dicción de esos caracteres silábicos que mudos no significan nada.&lt;/p&gt;
-
-&lt;p&gt;Esto permite que la obra proyectada guarda para sí (desconocido) el sentido último, que como se dice o se sabe: es impronunciable. Sin embargo creemos que este suelo puede ser cantado –cada vez– en un orden diferente, lo que otorgará una dimensión de presente constante frente a una realidad fija.&lt;/p&gt;
-
-&lt;div style=&quot;display: grid; grid-template-columns: 1fr 1fr; gap: 1rem&quot;&gt;
-
-  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-2.jpg&quot; title=&quot;Faenas de construcción de teselas&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-3.jpg&quot; title=&quot;Faenas de construcción de teselas&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-4.jpg&quot; title=&quot;Faenas de construcción de teselas&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-5.jpg&quot; title=&quot;Suelo teselar&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-1.jpg&quot; title=&quot;Suelo teselar&quot; /&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-
-    </content>
-  </entry>
   
   <entry>
     <title>La Internet que nos robaron</title>
@@ -3216,32 +3139,12 @@ Más adelante iré subiendo experimentos más avanzados en la línea de las mach
     <updated>2008-06-28T09:10:41+12:00</updated>
     <id>http://0.0.0.0:4000/2008/06/voronoi</id>
     <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1244557&quot;&gt;&lt;img src=&quot;http://ts.vimeo.com/572/786/57278659_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Animación realizada en processing con la ayuda de la biblioteca “mesh” desarrollada por Lee Byron.&lt;br /&gt;
+      &lt;p&gt;Animación realizada en processing con la ayuda de la biblioteca “mesh” desarrollada por Lee Byron.&lt;br /&gt;
 La animación muestra la relación entre el diagrama de Voronoi y las triangulaciones de Delauney.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag%3Aprocessing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Aexperiment&quot;&gt;experiment&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Acode&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag%3Avoronoi&quot;&gt;voronoi&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Voronoi</title>
-    <link href="http://0.0.0.0:4000/2008/06/voronoi-2/"/>
-    <updated>2008-06-28T09:10:41+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/voronoi-2</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1244557&quot;&gt;&lt;img src=&quot;http://i.vimeocdn.com/video/57278659_200x150.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Animación realizada en processing con la ayuda de la biblioteca “mesh” desarrollada por Lee Byron.&lt;br /&gt;
-La animación muestra la relación entre el diagrama de Voronoi y las triangulaciones de Delauney.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:experiment&quot;&gt;experiment&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:code&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:voronoi&quot;&gt;voronoi&lt;/a&gt;&lt;/p&gt;
 
     </content>
   </entry>
@@ -3269,6 +3172,83 @@ La animación muestra la relación entre el diagrama de Voronoi y las triangulac
   &lt;li&gt;programación orientada a objetos&lt;/li&gt;
   &lt;li&gt;file output: PDF y Quicktime&lt;/li&gt;
 &lt;/ul&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Del Suelo a la Tesela</title>
+    <link href="http://0.0.0.0:4000/2008/06/del-suelo-a-la-tesela/"/>
+    <updated>2008-06-19T01:03:08+12:00</updated>
+    <id>http://0.0.0.0:4000/2008/06/del-suelo-a-la-tesela</id>
+    <content type="html">
+      &lt;p&gt;Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.&lt;/p&gt;
+
+&lt;p&gt;Partimos desde ahí preguntándonos por su orden, sus medidas, su lenguaje formal y su modo de aparecer en la ciudad: los distintos ritmos de suelo, sus modos de ser en continuidad y discontinuidad, sus diferenciaciones, su modularidad y sus unidades de medida, sus correspondencias y calces al cuerpo, sus modos de ofrecer una detención, sus modos de vincular la horizontal con la vertical —entre suelo y muro—, el mundo de las patas y apoyos, de las bases y pedestales, de las veredas y aristas del camino. Ése fue el campo del estudio y desde ahí entra el taller.&lt;/p&gt;
+
+&lt;p&gt;La Presentación, desde otra faceta, se pregunta por la problemática del arte y la reproductibilidad técnica, ofreciendo una entrada a la condición material y productiva del oficio, como un modo de acceder a la forma:&lt;br /&gt;
+la matriz y el dibujo xilográfico que recoje la luz calculadamente entre la superficie blanca y la negra;&lt;br /&gt;
+la matriz del cuerpo volumétrico de una taza, que debía destrabar sus encajes entre llenos y vacíos;&lt;br /&gt;
+la tipografía como formalización de la unidad fonética, específicamente la Helvética como medida de fineza y proporción geométrica.&lt;/p&gt;
+
+&lt;p&gt;En fin: el hilo conductor de este taller ha sido la noción de &lt;strong&gt;unidad discreta&lt;/strong&gt; , de la modulación y configuración para alcanzar la obra. Porque también tenemos una obra entre manos. Se trata de la construcción de un suelo en la Ciudad Abierta, específicamente en el sector que vincula la vega (el lugar de los juegos) con los baños y bebederos.&lt;/p&gt;
+
+&lt;p&gt;Para esto definimos un juego de 3 baldosas o teselas:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;un triángulo equilátero de lado &apos;a&apos;
+un rectángulo de lados &apos;a&apos; y &apos;a/2&apos;
+y otro más ancho de lados &apos;a&apos; y &apos;3/4 * a&apos;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Primero se trabaja en grupos para tener una visión del lugar en la escala mayor, otro grupo se encarga del estudio del lugar específico, analizando sus ocupaciones y circulaciones ya existentes así como las potenciales, otro grupo; de los detalles y modos constructivos propios del suelo dunar; otro, de la dimensión cromática a lo largo del día y otro grupo a cargo de la conformación del domo de trabajo, ubicación y equipamiento.&lt;/p&gt;
+
+&lt;p&gt;El encargo para ellos se trata de construir una teselación (de entre 15 y 25 piezas) para un suelo que permita recibir al cuerpo en una leve detención partir del pliegamiento del suelo; siempre cuidando la consistencia entre baldosa y argamasa. Además, se debe calcular el dibujo del tesel para un calce luminoso capaz de recibir a la lectura tipográfica.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;El primer momento&lt;/strong&gt; : definición de lo que llamamos la lineatura, proposición para vincular la gestualudad y la forma propia del cuerpo con la geometría interna del juego de baldosas. (un cuasi-cristal)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;El segundo momento&lt;/strong&gt; : dibujo de la geometría interna del tesel. Es el estudio del espacio tipográfico de la Helvética, de sus relaciones internas de proporción y luz. Se trata de definir un orden geométrico (o un tami) junto con un juego de reglas que definan las posibles variaciones dentro de las baldosas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;El tercer momento&lt;/strong&gt; : corresponde a la definición del color. Con una paleta de 3, enrarecer la relación básica de figura y fondo propia del contraste tipográfico para hacer calzar, entre baldosa y argamasa coloreada, el dibujo mayor cifrado en la configuración de unidades.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/expo-teselas.JPG&quot; alt=&quot;Teselas Tipográficas&quot; title=&quot;Proposición Tipográfica del Suelo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;¿La lección del taller? Que en una espacialidad aparentemente sin libertad (por estar definida por un vocabulario extremadamente escueto en sus componentes) emerge el desconocido en plenitud. La maestría para gobernar este espacio radica en la sensibilidad sutil y la intuición de las correspondencias internas de la forma. El diseñador se vuelve un configurador, un articulador. Son las variaciones de un tema. &lt;a href=&quot;http://es.wikipedia.org/wiki/Variaciones_Goldberg&quot; title=&quot;Bach y las variaciones Goldberg&quot;&gt;Bach&lt;/a&gt; puede dar fe de la fertilidad de esta partida formal.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;lenguaje-teselar-de-la-lectura&quot;&gt;Lenguaje Teselar de la Lectura&lt;/h3&gt;
+
+&lt;p&gt;Un diseñador desde el inicio de su formación como tal ha de encontrarse con una dimensión que le otorga a toda forma construida una ubicación en el orbe del lenguaje; la lengua nos orienta y nos da pertenencia, nos da lugar y un aquí que las cosas no tienen.&lt;br /&gt;
+Aquí está el punto de una dimensión de Taller, más precisamente de proyecto, en la cual el alumno debe vérselas –se principia, se entiende– con la letra como una unidad discreta dentro del orden propuesto en el proyecto.&lt;/p&gt;
+
+&lt;p&gt;La invención de Gutenberg del tipo móvil (esto es la letra como unidad) es ya una premisa del orden actual de una mente tipográfica; el tipo o unidad conformadora de la palabra; es esto ya característico: la parte).&lt;br /&gt;
+Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel modo de pronunciarse a bosquejos del habla, a través de fonemas, gestos lingüísticos; podíamos decir, silábicamente. Esto quiere decir que nuestra aproximación al lenguaje no es al modo del vocablo, sino de las partes o unidades que lo conforman.&lt;/p&gt;
+
+&lt;p&gt;La aproximación del diseño a una dimensión de lenguaje ha de ser a través de esas entidades que lo conforman (ahí están las unidades discretas de la palabra) y que le dan forma al habla; por ejemplo, las piezas retóricas de un discurso discutible. Esto lo entendieron bien las disciplinas lingüísticas de los años 70 y los poetas dada de los años 10 del siglo XX.&lt;/p&gt;
+
+&lt;p&gt;Los oficios aplicados demoran más en la comprensión de estos procesos, puesto que deben dar forma y expresión a su tiempo no a través del lenguaje mismo, sino a través de un orden que diseñe esa cuestión en un objeto que traiga la problemática a nuestra situación ordinaria del habitar.&lt;/p&gt;
+
+&lt;p&gt;El proyecto es primeramente un suelo, por eso el taller se aboca en la construcción –metafóricamente– de una consolación (o canto para la Ciudad Abierta) que le de pie a este orden que nombra el proceder característico del Diseño.&lt;/p&gt;
+
+&lt;p&gt;Las diferencia en los procesos de nominación es que nuestro orden es tipográfico y fonética; la letra acompañándose no en la palabra todavía; así, consonante, vocal, consonante, vocal y consonante, para tener cada alumno una cifra (CASUF, PUVAL o TENOC) que sólo ha de dilucidarse –oírse– en el momento de su realización o ejecución, y más allá, cuando tales unidades tipográficas son pronunciadas en conjunto; se entiende de que no se trata de un texto fijo.&lt;/p&gt;
+
+&lt;p&gt;Puesto que lo que se plantea en el proyecto es un suelo que ha de leerse cada vez para encontrarle el sentido a la dicción de esos caracteres silábicos que mudos no significan nada.&lt;/p&gt;
+
+&lt;p&gt;Esto permite que la obra proyectada guarda para sí (desconocido) el sentido último, que como se dice o se sabe: es impronunciable. Sin embargo creemos que este suelo puede ser cantado –cada vez– en un orden diferente, lo que otorgará una dimensión de presente constante frente a una realidad fija.&lt;/p&gt;
+
+&lt;div style=&quot;display: grid; grid-template-columns: 1fr 1fr; gap: 1rem&quot;&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-2.jpg&quot; title=&quot;Faenas de construcción de teselas&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-3.jpg&quot; title=&quot;Faenas de construcción de teselas&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-4.jpg&quot; title=&quot;Faenas de construcción de teselas&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-5.jpg&quot; title=&quot;Suelo teselar&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/06/tesela-1.jpg&quot; title=&quot;Suelo teselar&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;
 
     </content>
   </entry>

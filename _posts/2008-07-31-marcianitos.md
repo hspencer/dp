@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/07/marcianitos/
 title: Marcianitos
 date: 2008-07-31 16:55:45 -0000

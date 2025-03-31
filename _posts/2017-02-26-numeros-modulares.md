@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2017/02/numeros-modulares/
 title: "Números Modulares"
 date: 2017-02-26 18:00:42 -0000

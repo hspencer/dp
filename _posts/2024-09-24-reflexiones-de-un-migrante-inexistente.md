@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2024/09/reflexiones-de-un-migrante-inexistente/
 title: Reflexiones de un migrante inexistente
 date: 2024-09-24 01:14:38 -0000

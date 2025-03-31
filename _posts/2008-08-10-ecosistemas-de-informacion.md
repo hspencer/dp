@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/08/ecosistemas-de-informacion/
 title: "Ecosistemas de Información"
 date: 2008-08-10 23:06:15 -0000

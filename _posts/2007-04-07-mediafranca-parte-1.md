@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2007/04/mediafranca-parte-1/
 title: MediaFranca, parte 1
 date: 2007-04-07 15:36:56 -0000

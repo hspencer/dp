@@ -1,23 +1,25 @@
 ---
 layout: post
+type: posts
 permalink: /2008/06/del-suelo-a-la-tesela/
 title: Del Suelo a la Tesela
 date: 2008-06-18 13:03:08 -0000
 last_modified_at: 2008-06-18 13:03:08 -0000
 publish: true
 image: 
-   path: /assets/uploads/2008/06/sector_bebederos_ca.jpg
+  path: /assets/uploads/2008/06/sector_bebederos_ca.jpg
+sidebar:
+  html: >
+   <small>El presente texto corresponde a la presentación  del exámen del primer trimestre del primer año de diseño expuesto el dia miércoles 11 de junio de 2008.</small>
 categories:
 - escuela
 tags:
-- "diseño"
+- diseño
 - obra
 - suelo
 - taller
 - tesela
 - unidad discreta
-sidebar:
-	html: <small>El presente texto corresponde a la presentación  del exámen del primer trimestre del primer año de diseño, expuesto el dia miércoles 11 de junio de 2008.</small>
 ---
 
 Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.

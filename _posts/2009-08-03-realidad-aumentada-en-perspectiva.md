@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2009/08/realidad-aumentada-en-perspectiva/
 title: Realidad Aumentada en Perspectiva
 date: 2009-08-04 04:07:47 -0000

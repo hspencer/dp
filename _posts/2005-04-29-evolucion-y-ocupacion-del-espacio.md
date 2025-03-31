@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2005/04/evolucion-y-ocupacion-del-espacio/
 title: "Evolución y Ocupación del Espacio"
 date: 2005-04-30 03:27:45 -0000

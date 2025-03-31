@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/02/teselador/
 title: Teselador
 image:

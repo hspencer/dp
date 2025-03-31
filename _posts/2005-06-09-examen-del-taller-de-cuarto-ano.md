@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2005/06/examen-del-taller-de-cuarto-ano/
 title: "Exámen del Taller de Cuarto Año"
 date: 2005-06-09 20:39:55 -0000

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2006/10/axis-mundane/
 title: Axis Mundane
 date: 2006-10-25 15:43:41 -0000

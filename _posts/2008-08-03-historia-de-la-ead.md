@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/08/historia-de-la-ead
 title: "Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV"
 date: 2008-08-03 19:06:00 -0000

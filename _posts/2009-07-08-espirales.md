@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2009/07/espirales/
 title: Espirales
 date: 2009-07-09 03:35:23 -0000

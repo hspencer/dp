@@ -1,5 +1,6 @@
 ---
 layout: full
+type: posts
 permalink: /2008/08/colisiones-2d-i/
 title: Colisiones 2D - I
 description: Featured as Eye Candy in Wired Magazine

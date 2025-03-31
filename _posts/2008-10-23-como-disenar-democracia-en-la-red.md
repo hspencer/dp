@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/10/como-disenar-democracia-en-la-red/
 title: "Cómo diseñar democracia en la red"
 date: 2008-10-23 13:30:54 -0000

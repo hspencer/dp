@@ -1,5 +1,6 @@
 ---
 layout: full
+type: posts
 permalink: /2008/09/colisiones-2d-ii/
 title: Colisiones 2D - II
 date: 2008-09-06 22:30:05 -0000

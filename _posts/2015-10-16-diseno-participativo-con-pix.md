@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2015/10/diseno-participativo-con-pix/
 title: "Diseño Participativo con PiX: una Aproximación desde la Narrativa"
 seo_title: "Diseño Participativo con PiX"

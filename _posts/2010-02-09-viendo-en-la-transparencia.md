@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2010/02/viendo-en-la-transparencia/
 title: Viendo en la Transparencia
 date: 2010-02-09 20:29:14 -0000

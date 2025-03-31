@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/
 title: 4 orientaciones 4 discursos 4 cabezas 4 corazones
 date: 2011-06-06 17:41:05 -0000

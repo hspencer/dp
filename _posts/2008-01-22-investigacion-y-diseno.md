@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/01/investigacion-y-diseno/
 title: "Investigación y Diseño"
 date: 2008-01-22 12:57:23 -0000

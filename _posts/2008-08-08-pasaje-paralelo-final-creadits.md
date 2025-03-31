@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/08/pasaje-paralelo-final-creadits
 title: "Pasaje Paralelo (créditos finales)"
 date: 2008-08-08 16:41:34 -0000

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/03/historias-dirigidas/
 title: 'Historias Dirigidas: Interpretando Experiencias'
 date: 2008-03-06 01:17:17 -0000

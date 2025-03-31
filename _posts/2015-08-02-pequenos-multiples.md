@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2015/08/pequenos-multiples/
 title: "Pequeños Múltiples"
 seo_title: "Visualización por \"pequeños múltiples\""

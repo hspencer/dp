@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2010/06/disenar-un-servicio/
 title: "Diseñar un Servicio"
 date: 2010-06-16 18:24:47 -0000

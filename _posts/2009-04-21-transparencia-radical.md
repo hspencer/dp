@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2009/04/transparencia-radical/
 title: Transparencia Radical
 date: 2009-04-21 23:44:25 -0000

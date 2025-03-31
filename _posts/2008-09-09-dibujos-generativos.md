@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/09/dibujos-generativos/
 title: Dibujos Generativos
 date: 2008-09-09 17:31:08 -0000

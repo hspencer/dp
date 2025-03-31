@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/11/partituras-de-interaccion/
 title: "Partituras de Interacción"
 date: 2008-11-25 22:24:15 -0000

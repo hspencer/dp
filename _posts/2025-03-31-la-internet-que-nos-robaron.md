@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2025/03/la-internet-que-nos-robaron/
 description: "Una reflexión de lo que pudo ser pero no fue. Del origen abierto, colaborativo y desintermediado y del presente secuestrado e idiotizante. Pero todavía hay esperanza."
 title: "La Internet que nos robaron"

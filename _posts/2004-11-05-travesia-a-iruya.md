@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2004/11/travesia-a-iruya/
 title: "Travesía a Iruya"
 date: 2004-11-05 19:12:48 -0000

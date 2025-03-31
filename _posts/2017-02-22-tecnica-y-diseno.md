@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2017/02/tecnica-y-diseno/
 title: "Técnica y Diseño"
 date: 2017-02-22 17:44:57 -0000

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2009/07/haciendo-trampa/
 title: Haciendo Trampa
 date: 2009-07-06 01:11:40 -0000

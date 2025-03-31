@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2006/10/constel-sharing-marginalia/
 title: "con§tel: sharing marginalia"
 date: 2006-10-29 15:22:44 -0000

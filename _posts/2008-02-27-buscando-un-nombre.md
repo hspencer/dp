@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/02/buscando-un-nombre/
 title: buscando un nombre
 date: 2008-02-28 04:17:03 -0000

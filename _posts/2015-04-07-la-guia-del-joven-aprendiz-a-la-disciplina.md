@@ -1,5 +1,6 @@
 ---
 layout: full
+type: posts
 permalink: /2015/04/la-guia-del-joven-aprendiz-a-la-disciplina
 title: "La guía del joven aprendiz a la disciplina"
 date: 2015-04-07 02:34:30 -0000

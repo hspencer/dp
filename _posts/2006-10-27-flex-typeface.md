@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2006/10/flex-typeface/
 title: Flex Typeface
 date: 2006-10-28 02:32:23 -0000

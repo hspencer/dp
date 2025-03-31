@@ -1,6 +1,8 @@
 ---
 layout: post
+type: posts
 permalink: /2002/11/03/fijar-un-contraste-legible
+description: "3 láminas, las 3 partes del diseño: la acción, la cosa y su propósito"
 title: fijar · un contraste · legible
 date: 2002-11-03 15:32:58 -0000
 last_modified_at: 2003-07-29 15:32:58 -0000
@@ -10,6 +12,8 @@ categories:
 tags:
 - "Diseño Gráfico"
 - "interacción"
+image:
+  path: /assets/uploads/2005/06/marana.jpg
 
 sidebar:
   html: >

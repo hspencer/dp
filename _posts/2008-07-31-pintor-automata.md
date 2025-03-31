@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2008/pintor-automata
 title: "Pintor autómata: Intento 1"
 date: 2008-07-31 16:32:05 -0000

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2007/12/paradigmas-ixd/
 title: "Paradigmas del Diseño de Interacción"
 date: 2007-12-10 12:54:04 -0000

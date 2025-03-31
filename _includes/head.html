@@ -5,7 +5,7 @@
     <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
     <meta name="author" content="{{ site.author.name | escape }}">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:site_name" content="{{ site.title }}">

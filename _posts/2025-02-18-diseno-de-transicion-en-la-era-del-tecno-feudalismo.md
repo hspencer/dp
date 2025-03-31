@@ -1,5 +1,6 @@
 ---
 layout: post
+type: posts
 permalink: /2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/
 title: "Diseño de transición en la era del tecno feudalismo"
 date: 2025-02-18 07:49:58 -0000

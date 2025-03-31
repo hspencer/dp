@@ -9,6 +9,7 @@ Las publicaciones en md tienen el siguiente frontmatter:
 
 ---
 layout: post
+type: posts
 permalink: /YEAR/01/perma-link
 title: "título"
 date: 2025-02-27 05:43:22 -0000
