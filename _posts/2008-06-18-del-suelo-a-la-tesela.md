@@ -17,7 +17,7 @@ tags:
 - tesela
 - unidad discreta
 sidebar:
-  html: <small>El presente texto corresponde a la presentación del exámen del primer trimestre del primer año de diseño, expuesto el dia miércoles 11 de junio de 2008.</small>
+	html: <small>El presente texto corresponde a la presentación  del exámen del primer trimestre del primer año de diseño, expuesto el dia miércoles 11 de junio de 2008.</small>
 ---
 
 Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.

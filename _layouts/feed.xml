@@ -1,0 +1,40 @@
+---
+layout: feed
+title: "Feed Completo de YTS"
+permalink: /feed.xml
+---
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }} - Todos los Contenidos</title>
+  <link href="{{ site.url }}{{ page.url }}"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}{{ page.url }}</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+  </author>
+
+  <!-- Incluir Posts -->
+  {% for post in site.posts %}
+  <entry>
+    <title>{{ post.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <content type="html">
+      {{ post.content | xml_escape }}
+    </content>
+  </entry>
+  {% endfor %}
+
+  <!-- Incluir Releases -->
+  {% for release in site.releases %}
+  <entry>
+    <title>{{ release.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ release.url }}"/>
+    <updated>{{ release.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ release.id }}</id>
+    <content type="html">
+      {{ release.content | xml_escape }}
+    </content>
+  </entry>
+  {% endfor %}
+</feed>
