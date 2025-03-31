@@ -165,6 +165,12 @@ header {
             color: vars.$color-title;
         }
 
+        h5 {
+            text-transform: uppercase;
+            letter-spacing: .08ex;
+            font-weight: 500;
+        }
+
         strong {
             font-weight: 500;
             color: vars.$color-strong;
