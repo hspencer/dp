@@ -88,6 +88,15 @@
 
       <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
       
+        <div class="video-container">
+          <iframe
+            src="https://player.vimeo.com/video/1304091"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      
 
       <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
       
@@ -155,7 +164,13 @@
     </sidebar>
 
     <article>
-      <p><img src="/assets/uploads/2008/07/timescan-normal1.png" alt="secuencia" /> Nuestra comprensión del tiempo es discreta, es decir concebimos la suceción de “instantes” como el único modo de reconstruir el flujo del tiempo. Cada vez que grabamos un video, recolectamos una gran catidad de fotogramas que luego son reproducidos —normalmente— a la misma velocidad con la que fueron captados. Tenemos entonces un <em>solido</em> o <em>volumen</em> de fotogramas cuyo espesor corresponde al tiempo. Siempre que reproducimos el video, elegimos verlo en sucesivos cortes transversales perpendiculares al tiempo, tratando de volver a esos instantes fotográficos. Pero ¿podemos verlo de otro modo? ¿qué ocurriría si elegimos ver este sólido de tiempo haciendo un corte con una inclinación ligeramente distinta? <img src="/assets/uploads/2008/07/timescan-inclinado1.png" alt="secuencia inclinada con anamorfosis temporal" /> Por ejemplo, imaginemos que el programa que captura video va almacenando un <em>buffer</em> de fotogramas que tiene un espesor igual al alto en pixeles del fotograma (aquí en el esquema: y = z). Es decir, si tengo un fotograma de 320 pixeles de ancho por 240 pixeles de alto, tengo un buffer de 240 fotogramas de espesor. Entonces el fotograma actual puede construirse a partir de la diagonal de este volumen: la primera línea es la actual, la segunda es de 1 fotograma atrás, la tercera de 2 fotogramas atras, y así hasta completar el alto de la imágen.  <a href="http://www.vimeo.com/1304091?pg=embed&amp;sec=1304091">TimeTwist</a> de <a href="http://www.vimeo.com/hspencer?pg=embed&amp;sec=1304091">Herbert Spencer</a> en <a href="http://vimeo.com?pg=embed&amp;sec=1304091">Vimeo</a>.</p>
+      <p><img src="/assets/uploads/2008/07/timescan-normal1.png" alt="secuencia" /></p>
+
+<p>Nuestra comprensión del tiempo es discreta, es decir concebimos la suceción de “instantes” como el único modo de reconstruir el flujo del tiempo. Cada vez que grabamos un video, recolectamos una gran catidad de fotogramas que luego son reproducidos —normalmente— a la misma velocidad con la que fueron captados. Tenemos entonces un <em>solido</em> o <em>volumen</em> de fotogramas cuyo espesor corresponde al tiempo. Siempre que reproducimos el video, elegimos verlo en sucesivos cortes transversales perpendiculares al tiempo, tratando de volver a esos instantes fotográficos. Pero ¿podemos verlo de otro modo? ¿qué ocurriría si elegimos ver este sólido de tiempo haciendo un corte con una inclinación ligeramente distinta?</p>
+
+<p><img src="/assets/uploads/2008/07/timescan-inclinado1.png" alt="secuencia inclinada con anamorfosis temporal" /></p>
+
+<p>Por ejemplo, imaginemos que el programa que captura video va almacenando un <em>buffer</em> de fotogramas que tiene un espesor igual al alto en pixeles del fotograma (aquí en el esquema: y = z). Es decir, si tengo un fotograma de 320 pixeles de ancho por 240 pixeles de alto, tengo un buffer de 240 fotogramas de espesor. Entonces el fotograma actual puede construirse a partir de la diagonal de este volumen: la primera línea es la actual, la segunda es de 1 fotograma atrás, la tercera de 2 fotogramas atras, y así hasta completar el alto de la imágen.</p>
 
 <h4 id="código">Código</h4>
 

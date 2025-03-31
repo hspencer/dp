@@ -78,8 +78,8 @@ function drawExponentialGraph() {
 
 function displayYear() {
     textFont("Barlow");
-    textSize(14);
-    fill(0, 150);
+    textSize(52);
+    fill(0, 20);
     noStroke();
     if (currentYear < thisYear) {
         text(nf(Math.floor(currentYear), 4), 10, 52); // Muestra el año en la esquina superior izquierda
