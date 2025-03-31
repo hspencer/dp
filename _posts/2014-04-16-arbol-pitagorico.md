@@ -12,6 +12,7 @@ p5:
 
 image:
   path: /assets/uploads/2014/04/arbol-pitagoras.png
+  sidebar: false
 publish: true
 categories:
 - code

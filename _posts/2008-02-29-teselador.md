@@ -2,18 +2,20 @@
 layout: post
 permalink: /2008/02/teselador/
 title: Teselador
+image:
+  path: /assets/uploads/2008/02/teselador1.gif
+p5:
+  path: /assets/p5/teselador.js
 date: 2008-02-29 19:26:58 -0000
 last_modified_at: 2008-02-29 19:26:58 -0000
 publish: true
 categories:
 - escuela
+- code
 tags:
-- "Diseño Gráfico"
-- examen
-- tesela
 - unidad discreta
+- tesela
 ---
-![teselas equiláteras](/assets/uploads/2008/02/teselador1.gif)
 
 En el contexto de la [travesía a Purmamarca 2007](http://www.flickr.com/photos/herbert-spencer/sets/72157603195788888/ "Fotos de la Travesía en Flickr"), desarrollé un pequeño programa para dibujar con baldosas triangulares.
 
