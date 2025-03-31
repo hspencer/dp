@@ -14,6 +14,7 @@ body {
 header {
     font-family: vars.$font-sans;
     font-size: 0.85rem;
+    position: relative;
 
     .navbar {
         position: relative;
@@ -225,8 +226,6 @@ header {
             color: vars.$color-strong;
         }
 
-
-
         table {
             background-color: rgba(255, 255, 255, 0.504);
             font-size: 70%;
@@ -377,27 +376,27 @@ header {
 
 /* mastodon */
 
-.mt-container .mt-body .mt-post:nth-of-type(n + 4) {
+.mt-container .mt-body .mt-post:nth-of-type(n + 5) {
     display: none;
 }
 
-.mt-container {
-    font-size: vars.$font-size-small;
-    filter: invert(1) hue-rotate(180deg);
-    mix-blend-mode: multiply;
+#mt-container {
+    font-size: .85em;
     border-radius: 1.5ex;
-    box-shadow:
-        inset 0 0 27px rgba(255, 255, 255, 0.539),
-        inset 0 0 3px #fff;
-    max-height: 60vh;
-    overflow: hidden !important;
+    filter: brightness(0.53) contrast(1.1) invert(1);
+    max-height: 62em;
+    overflow: scroll;
+    mix-blend-mode: multiply;
+    text-shadow: -2px -2px 1px rgba(0, 0, 0, 0.2);
 
     .mt-post {
+        filter: invert(180deg);
         margin-bottom: 1rem;
         padding: 0.5rem;
         border-bottom: 1px dashed #ccc;
     }
 
+    .mt-header{font-size: 65%;   }
     .mt-header,
     .mt-footer {
         display: none; // oculta avatar, fecha, botones, etc.
@@ -409,7 +408,7 @@ header {
     }
 
     .mt-post-avatar {
-        filter: invert(1) hue-rotate(180deg);
+        filter: invert(1);
     }
 }
 

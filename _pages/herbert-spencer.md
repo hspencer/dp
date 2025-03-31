@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/herbert-spencer/
-title: Herbert Spencer
+title: Acerca del autor
 seo_title: "Acerca de mí: Herbert Spencer en {dp} - doble página"
 description: "Herbert Spencer es diseñador, emprendedor y profesor de Diseñ\
   o de Interacción en la Escuela de Arquitectura y Diseño de la Pontificia Universidad\
@@ -14,6 +14,8 @@ tags: []
 p5:
   script: /assets/p5/timeline.js
 ---
+<img src='/assets/uploads/2025/03/hspencer-filtro.png' style='width: 70%; margin: 3em auto; filter:opacity(15%)'/>
+
 Me llamo Herbert Spencer González, diseñador gráfico formado en los albores de la era digital, testigo y partícipe de las transformaciones radicales en nuestra profesión. La llegada de Internet redefinió la publicación y la comunicación gráfica, impulsándonos a explorar nuevas formas de interacción y comprensión.
 
 El diseño gráfico, siempre en evolución, nos llevó desde la poiética de la forma hasta la retórica de los públicos. A medida que el diseño digital cobraba protagonismo, mi enfoque se centró en el usuario, en su contexto y necesidades, en un diseño de segundo orden, donde la forma es resultado de la empatía y comprensión.

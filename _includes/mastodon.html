@@ -8,13 +8,13 @@
 />
 
 <script
-  src="https://cdn.jsdelivr.net/npm/@idotj/mastodon-embed-timeline@4.4.2/dist/mastodon-timeline.umd.js"
-  integrity="sha256-E6WPG6iq+qQIzvu3HPJJxoAeRdum5siq13x4ITjyxu8="
+  src="https://cdn.jsdelivr.net/npm/@idotj/mastodon-embed-timeline@4.6.0/dist/mastodon-timeline.umd.js"
   crossorigin="anonymous"
 ></script>
 
-<div id="mt-container" class="mt-container">
-  <div class="mt-body" role="feed">
+
+<div id="mt-container" class="mt-container" data-theme="light">
+  <div class="mt-body" role="feed" data-theme="light">
     <div class="mt-loading-spinner"></div>
   </div>
 </div>
@@ -28,4 +28,6 @@
     theme: "light",
     limit: 4, // <- límite de toots
   });
+
+
 </script>

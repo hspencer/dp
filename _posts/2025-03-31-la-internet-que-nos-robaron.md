@@ -2,7 +2,7 @@
 layout: post
 permalink: /2025/03/la-internet-que-nos-robaron/
 description: "Una reflexión de lo que pudo ser pero no fue. Del origen abierto, colaborativo y desintermediado y del presente secuestrado e idiotizante. Pero todavía hay esperanza."
-title: "la Internet que nos robaron"
+title: "La Internet que nos robaron"
 date: 2025-03-31 05:43:22 -0000
 publish: true
 image:
@@ -20,7 +20,7 @@ sidebar:
   
 ---
 
-### I. La Internet como infraestructura común
+### I. Origen: Internet como infraestructura común
 
 Internet nació como una red descentralizada financiada por agencias estatales, particularmente ARPA/DARPA, con el objetivo de facilitar la comunicación entre centros de investigación durante la Guerra Fría. La arquitectura distribuida de ARPANET (1969) y posteriormente la adopción de TCP/IP (1983) consolidaron una red sin centro, pensada para resistir fallos y ataques nucleares, pero también para encarnar una filosofía de interconexión abierta y sin jerarquías ((Dantas, M. (2024). *Internet: das ilusões libertárias à realidade do capitalismo de vigilância*. Revista Sociedad. [https://doi.org/10.62174/rs.10039](https://doi.org/10.62174/rs.10039))). Hay documentales magníficos acerca de este origen mítico y de su triste devenir((Los más destacados son **Lo and Behold: Reveries of the Connected World**, de Herzog; **El dilema social** y **El gran hack**, ambos disponibles en Netflix, y otro en la línea **Pueden aplicarse términos y condiciones**. Todos ellos hablan de un sueño o una promesa de libertad que se vio truncada, para que no me tilden sólo a mi de pesimista.))
 
@@ -42,9 +42,9 @@ Esta etapa representa la posibilidad concreta de una ecología del conocimiento 
 
 ![Internet robada](/assets/uploads/2025/03/liqnr02.png)
 
-### III. La plataforma como entorno cerrado: timeline, apps y cerebro TikTok
+### III. La negación del espacio como entorno cerrado
 
-A partir de 2010, comienza la captura. El artículo "The Web is Dead. Long Live the Internet"(([The Web is Dead. Long Live the Internet](https://www.wired.com/2010/08/ff-webrip/) es lamentablemente un artículo de pago. Filo con Wired.)) identificó un cambio estructural: el tráfico HTTP comenzaba a declinar frente al uso de apps. Ya no navegamos: apretamos botones grandes *eye candy*. Se impone una lógica de plataformas cerradas, controladas por corporaciones, donde el contenido ya no es indexado por buscadores ni accesible mediante enlaces abiertos.
+A partir de 2010, comienza la captura((La explotación del timeline como espacio individual, sin la inersubjetividad de lo común compartido, las apps como canales de consumo y cerebro TikTok.)). El artículo "The Web is Dead. Long Live the Internet"(([The Web is Dead. Long Live the Internet](https://www.wired.com/2010/08/ff-webrip/) es lamentablemente un artículo de pago. Filo con Wired.)) identificó un cambio estructural: el tráfico HTTP comenzaba a declinar frente al uso de apps. Ya no navegamos: apretamos botones grandes *eye candy*. Se impone una lógica de plataformas cerradas, controladas por corporaciones, donde el contenido ya no es indexado por buscadores ni accesible mediante enlaces abiertos.
 
 El "feed" es sustituido por el "timeline": una secuencia opaca, infinita, personalizada por un algoritmo que no puedes inspeccionar ni controlar. Las plataformas seleccionan lo que ves para maximizar tu retención y monetizar tu atención. Tu subjetividad es ahora materia prima. 
 
@@ -56,13 +56,9 @@ Todo esto ha sido documentado como la "Teoría del Internet Muerto": la sospecha
 
 ### Fuera del éter: las posibles salidas
 
-Salir de esta lógica requiere trabajo e implica responsabilidad, una palabra poco popular. Significa, por ejemplo, dejar de usar apps que te licúan el cerebro (*cerebro TikTok*). Significa aprender a instalar un lector de RSS, federarse en Mastodon, levantar una página con HTML estático o contribuir a una red mesh.
+Salir de esta lógica requiere trabajo, una palabra poco popular que además implica responsabilidad. Significa, por ejemplo, partir por casa, dejar de usar apps que licúan el cerebro (*cerebro TikTok*) y dejar de alimentar a la bestia. Significa aprender a construir infraestructura propia, instalar un lector de RSS, federarse en Mastodon y en todo, levantar una página con HTML estático o contribuir a una red mesh((Intuyo que la verdadera libertad requiere usar tu propio hardware, estar en Internet estando "desde acá" con más fuerza. Por eso el problema de la identidad es tan importante. Identidada que actualmente controlan los estados pero realmente, los bancos.)).
 
-La salida no es viral. Tus amigos no están en Mastodon. Y sí, tus memes favoritos no están en el Fediverse. Pero eso no es excusa.
-
-Necesitamos independizarnos tecnológicamente((Otra historia apasionante de lo que pudo ser pero no fue es el podcast **The Santiago Boys** de Evgeny Morosov. Va [link](https://choramedia.com/podcast/the-santiago-boys/).)). Ser nodos productores en una red entre iguales, no consumidores dentro de granjas algorítmicas. La Web es una arquitectura, no una estética. No importa si es fea o lenta. Importa que sea nuestra. De esto [ya he hablado antes](/2010/10/internet-como-bien-publico/).
-
-Volver al control editorial. A la curaduría entre pares. A la escala humana. A la posibilidad de construir un "feed" que no es un narcótico, sino una cartografía de lo que somos, pensamos y compartimos. Recuperar el espíritu de la publicación personal: no por ego, sino por compromiso cívico. Porque la red no se hereda: se construye cada vez. En mi caso, vuelvo a lo básico. Incluso pensé en comenzar a escribir en inglés ahora que estoy en el doctorado en Nueva Zelanda: Creo, sin embargo que hacer eso sería creer que me red más próxima es irrelevante y que debo insidir en aquello global y de mayor alcance. Creo que ese pensamiento nos ha llevado donde estamos.
+La salida no es viral. Tus amigos no están en Mastodon. Y sí, tus memes favoritos no están en el Fediverse. Pero eso no es excusa. Necesitamos independizarnos tecnológicamente((Otra historia apasionante de lo que pudo ser pero no fue es el podcast **The Santiago Boys** de Evgeny Morosov. Va [link](https://choramedia.com/podcast/the-santiago-boys/).)). Ser nodos productores en una red entre iguales, no consumidores dentro de granjas algorítmicas. La Web es una arquitectura, no una estética. No importa si es fea o lenta. Importa que sea nuestra. De esto [ya he hablado antes](/2010/10/internet-como-bien-publico/). Depender de una IA de una empresa, depender para todo de ella, es el tipo de concentración de poder que se puede arrancar de las manos. Sobre todo, que esté en nuestro control aquello de la realidad que recogemos o se nos presenta. Se trata de volver al control editorial y a la curaduría entre pares. A la escala humana. A la posibilidad de construir un "feed" que no es un narcótico, sino una cartografía de lo que somos, pensamos y compartimos. Recuperar el espíritu de la publicación personal: no por ego, sino por compromiso cívico. Porque la red no se hereda: se construye cada vez. En mi caso, vuelvo a lo básico. Incluso pensé en comenzar a escribir en inglés ahora que estoy en el doctorado en Nueva Zelanda: Creo, sin embargo que hacer eso sería creer que me red más próxima es irrelevante y que debo insidir en aquello global y de mayor alcance. Creo que ese pensamiento nos ha llevado donde estamos.
 
 Ya lo dijo Neil Postman: estamos *amused to death*. Pero podemos elegir no estarlo. La cosa es si queremos.
 
