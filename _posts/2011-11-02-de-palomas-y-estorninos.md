@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2011/11/de-palomas-y-estorninos/
 title: De Palomas y Estorninos
 date: 2011-11-02 10:33:01 -0000

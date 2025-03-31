@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Exámen del Taller de Cuarto Año | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Exámen del Taller de Cuarto Año">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2005/06/examen-del-taller-de-cuarto-ano/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Exámen del Taller de Cuarto Año">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Exámen del Taller de Cuarto Año</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Exámen del Taller de Cuarto Año</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2005/06/marana.jpg"
@@ -74,12 +90,27 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2005-06-10T08:39:55+12:00">
-          10 June 2005
-        </time>
+      
 
-         
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2005-06-10T08:39:55+12:00">
+        10 June 2005
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
         <div
           class=""
           style="font-size: 75%; text-align:right"
@@ -96,7 +127,9 @@ Acerca de la notación gráfica de las secuencias: ¿Cómo es la partitura que n
 ¿Cual es el sentido contemporáneo de la transparencia? Esa transparencia, cifra de los simultáneo-continuo.<br />¿A qué se abre y qué nos revela?</p>
 
         </div>
-         <a id="btn-citar-examen-del-taller-de-cuarto-ano" class="btn-citar">&#x301E;</a>
+      
+
+      <a id="btn-citar-examen-del-taller-de-cuarto-ano" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-examen-del-taller-de-cuarto-ano" class="modal-citar">
     <div class="modal-contenido">
@@ -145,10 +178,10 @@ Acerca de la notación gráfica de las secuencias: ¿Cómo es la partitura que n
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <h3 id="1-de-lo-simultáneo-y-lo-continuo">1. De lo simultáneo y lo continuo</h3>
+    <article>
+      <h3 id="1-de-lo-simultáneo-y-lo-continuo">1. De lo simultáneo y lo continuo</h3>
 
 <p>El diseño gráfico ha de jugarse en esta ecuación doble, es decir, desde estas dos variables inseparables. Muchas son las facetas de esta ecuación irreductible para la gráfica, por ejemplo una, la relación imagen – texto, o más propiamente, dibujo y escrito.</p>
 
@@ -226,17 +259,18 @@ Acerca de la notación gráfica de las secuencias: ¿Cómo es la partitura que n
 <li id="fn:1">otra faceta de la relación simultáneo-continuo: el árbol también ha de volverse lineal, si se quiere y viceversa. ¿Qué dimensión se altera? El antecesor y sucesor lineal se vuelve antecesor y sucesor grueso, de capas y niveles. <a href="#fnref:1" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -249,8 +283,8 @@ Acerca de la notación gráfica de las secuencias: ¿Cómo es la partitura que n
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

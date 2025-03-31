@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Paradigmas del Diseño de Interacción | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Paradigmas del Diseño de Interacción">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2007/12/paradigmas-ixd/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Paradigmas del Diseño de Interacción">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Paradigmas del Diseño de Interacción</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Paradigmas del Diseño de Interacción</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2007/10/interaccion.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2007-12-11T01:54:04+13:00">
-          11 December 2007
-        </time>
+      
 
-          <a id="btn-citar-paradigmas-ixd" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2007-12-11T01:54:04+13:00">
+        11 December 2007
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-paradigmas-ixd" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-paradigmas-ixd" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacción por su lado, en estos pocos años, está marcando un sentido evolutivo:</p>
+    <article>
+      <p>Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacción por su lado, en estos pocos años, está marcando un sentido evolutivo:</p>
 
 <h2 id="la-performatividad-del-objeto">La Performatividad del Objeto</h2>
 
@@ -152,17 +185,18 @@
 <h2 id="diseño-para-la-destreza">Diseño para la Destreza</h2>
 
 <p>El diseño preocupado de la usabilidad, por ejemplo, intenta facilitarle la vida al usuario. Un diseño centrado en las personas busca “redondear” la experiencia de uso. Las aplicaciones sociales apuntan a construir la presencia del usuario en una comunidad, modelando su participación. Pero ninguno de estos paradigmas intenta, intrí­nsecamente, de servir como un elemento catalizador en la construcción de la persona detrás del usuario: no lo hace un mejor ciudadano, o un mejor padre o hermano, no lo educa, no lo ayuda a trascender su situación actual. ¿Pero debe el diseño realmente aspirar a eso? ¿no es acaso la aspiración más imperialista hasta ahora del oficio? El diseño debe aspirar a lo más alto de la persona. Debe diseñar pensando en los “power users”, no porque alguien se tiene que hacer cargo de ellos, sino que todos podemos convertirnos en diestros “usuarios poderosos”. He ahí­ una nueva ética para el diseño.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -175,8 +209,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

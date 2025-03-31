@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/08/dibujo-automata-exp2
 title: "Dibujo Autómata (experimento 2)"
 date: 2008-08-12 13:14:03 -0000

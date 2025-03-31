@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/05/despues-de-investigar/
 title: "Después de Investigar"
 date: 2008-05-05 12:48:57 -0000

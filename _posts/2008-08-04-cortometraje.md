@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/08/cortometraje
 title: Cortometraje
 date: 2008-08-04 10:58:28 -0000

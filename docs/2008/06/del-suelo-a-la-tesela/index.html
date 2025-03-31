@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Del Suelo a la Tesela | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Del Suelo a la Tesela">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/06/del-suelo-a-la-tesela/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Del Suelo a la Tesela">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Del Suelo a la Tesela</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Del Suelo a la Tesela</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2008/06/sector_bebederos_ca.jpg"
@@ -74,19 +90,36 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2008-06-19T01:03:08+12:00">
-          19 June 2008
-        </time>
+      
 
-        
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-06-19T01:03:08+12:00">
+        19 June 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
         <div
           class=""
           style=""
         >
           <small>El presente texto corresponde a la presentación del exámen del primer trimestre del primer año de diseño, expuesto el dia miércoles 11 de junio de 2008.</small>
         </div>
-          <a id="btn-citar-del-suelo-a-la-tesela" class="btn-citar">&#x301E;</a>
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-del-suelo-a-la-tesela" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-del-suelo-a-la-tesela" class="modal-citar">
     <div class="modal-contenido">
@@ -135,10 +168,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.</p>
+    <article>
+      <p>Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.</p>
 
 <p>Partimos desde ahí preguntándonos por su orden, sus medidas, su lenguaje formal y su modo de aparecer en la ciudad: los distintos ritmos de suelo, sus modos de ser en continuidad y discontinuidad, sus diferenciaciones, su modularidad y sus unidades de medida, sus correspondencias y calces al cuerpo, sus modos de ofrecer una detención, sus modos de vincular la horizontal con la vertical —entre suelo y muro—, el mundo de las patas y apoyos, de las bases y pedestales, de las veredas y aristas del camino. Ése fue el campo del estudio y desde ahí entra el taller.</p>
 
@@ -209,17 +242,18 @@ Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel mo
   <p><img src="/assets/uploads/2008/06/tesela-1.jpg" title="Suelo teselar" /></p>
 
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -232,8 +266,8 @@ Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel mo
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

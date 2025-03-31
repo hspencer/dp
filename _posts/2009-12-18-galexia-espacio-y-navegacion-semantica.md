@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2009/12/galexia-espacio-y-navegacion-semantica/
 title: "Galexia: Espacio y Navegación Semántica"
 date: 2009-12-18 12:36:03 -0000

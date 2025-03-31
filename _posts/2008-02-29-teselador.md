@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/02/teselador/
 title: Teselador
 date: 2008-02-29 19:26:58 -0000

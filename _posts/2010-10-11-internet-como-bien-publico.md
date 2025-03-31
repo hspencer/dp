@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2010/10/internet-como-bien-publico/
 title: "Internet como Bien Público"
 date: 2010-10-12 05:34:41 -0000

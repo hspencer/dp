@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/07/crono-anamorfosis/
 title: Crono-anamorfosis
 date: 2008-07-08 22:34:03 -0000

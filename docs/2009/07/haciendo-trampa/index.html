@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Haciendo Trampa | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Haciendo Trampa">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2009/07/haciendo-trampa/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Haciendo Trampa">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Haciendo Trampa</h1>
-         
-        <time datetime="2009-07-06T13:11:40+12:00">
-          6 July 2009
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Haciendo Trampa</h1>
 
-          <a id="btn-citar-haciendo-trampa" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2009-07-06T13:11:40+12:00">
+        6 July 2009
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-haciendo-trampa" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-haciendo-trampa" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <blockquote>
+    <article>
+      <blockquote>
   <p><strong>γνοστι τε αυτϖν</strong> (nosce te ipsum) Esta inscripción, puesta por los siete sabios en el frontispicio del templo de Delfos, es clásica en el pensamiento griego. Muchos pensadores la han adoptado al igual que Sócrates y Platón, como uno de los principios de sus enseñanzas: “<em>Cuando conoces a las personas, te vuelves inteligente; cuando te conoces a tí mismo, te vuelves un iluminado</em> “</p>
 </blockquote>
 
@@ -147,17 +180,18 @@
 <li id="fn:3">como todos los engorrosos trámites que se nos exije para “autenticarnos” y volvernos confiables; todos los permisos a favor de la seguridad y en desmedro de la maleabilidad. Y todo esto ocurre porque potencialmente somos muy tramposos. Es como el pecado original. ¿Se imaginan la velocidad de todos los trámites si el sistema estubiese basado en la confianza? ¿todo el tiempo que perdemos en demostrar que nosotros no vamos a delinquir? <a href="#fnref:3" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -170,8 +204,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

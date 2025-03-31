@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión El diseño participativo puede ser una herramienta muy poderosa si se emplea bien">
-    <meta name="author" content="">
+    <meta name="description" content="El diseño participativo puede ser una herramienta muy poderosa si se emplea bien">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Diseño Participativo con PiX: una Aproximación desde la Narrativa | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Diseño Participativo con PiX: una Aproximación desde la Narrativa">
+    <meta property="og:description" content="El diseño participativo puede ser una herramienta muy poderosa si se emplea bien">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2015/10/diseno-participativo-con-pix/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Diseño Participativo con PiX: una Aproximación desde la Narrativa">
+    <meta name="twitter:description" content="El diseño participativo puede ser una herramienta muy poderosa si se emplea bien">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Diseño Participativo con PiX: una Aproximación desde la Narrativa</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Diseño Participativo con PiX: una Aproximación desde la Narrativa</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2015/10/pix-collab.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2015-10-17T02:58:21+13:00">
-          17 October 2015
-        </time>
+      
 
-          <a id="btn-citar-diseno-participativo-con-pix" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2015-10-17T02:58:21+13:00">
+        17 October 2015
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-diseno-participativo-con-pix" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-diseno-participativo-con-pix" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>El co-diseño y el diseño participativo, son metodologías poderosas al minuto de buscar generar y validar en forma simultánea nuevos conceptos de diseño. Ciertamente una de las mayores dificultades en la creación productos o servicios (o su rediseño) consiste en identificar correctamente las necesidades de los usuarios finales. Pero no se trata solamente de enforcarse y en lo negativo, como lo son las necesidades desatendidas y las subsecuentes frustraciones; sino ir más allá para poder construir experiencias potentes, fluidas y significativas para las personas en su relación con los servicios. Más allá de una mera reparación de las transacciones fallidas el diseño viene a resignificar los diálogos entre las personas y los servicios (y sus respectivas marcas). No hay que partir de los problemas, mejor partamos desde los sueños.</p>
+    <article>
+      <p>El co-diseño y el diseño participativo, son metodologías poderosas al minuto de buscar generar y validar en forma simultánea nuevos conceptos de diseño. Ciertamente una de las mayores dificultades en la creación productos o servicios (o su rediseño) consiste en identificar correctamente las necesidades de los usuarios finales. Pero no se trata solamente de enforcarse y en lo negativo, como lo son las necesidades desatendidas y las subsecuentes frustraciones; sino ir más allá para poder construir experiencias potentes, fluidas y significativas para las personas en su relación con los servicios. Más allá de una mera reparación de las transacciones fallidas el diseño viene a resignificar los diálogos entre las personas y los servicios (y sus respectivas marcas). No hay que partir de los problemas, mejor partamos desde los sueños.</p>
 
 <p>Digo que el diseño participativo <em>puede</em> ser una metodología poderosa, porque también puede no serlo si no se emplea ni se interpreta bien. Bien es conocida la frase:</p>
 
@@ -181,17 +214,18 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
 <li id="fn:5">También pueden ser 5 capas para servicios más complejos pero consideramos que 3 capas es lo esencial para capturar el sentido y el valor de la experiencia propuesta. <a href="#fnref:5" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -204,8 +238,8 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

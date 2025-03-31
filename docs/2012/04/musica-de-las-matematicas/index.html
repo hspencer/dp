@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Música de las Matemáticas | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Música de las Matemáticas">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2012/04/musica-de-las-matematicas/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Música de las Matemáticas">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Música de las Matemáticas</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Música de las Matemáticas</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2012/04/blake.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2012-04-24T08:22:25+12:00">
-          24 April 2012
-        </time>
+      
 
-          <a id="btn-citar-musica-de-las-matematicas" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2012-04-24T08:22:25+12:00">
+        24 April 2012
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-musica-de-las-matematicas" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-musica-de-las-matematicas" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Les voy a contar una historia hoy día: Bajo la superficie del mundo yacen las reglas descritas por la ciencia. O, al menos, el mundo avanza como si así fuera. Pero bajo todas estas reglas, existen reglas más profundas, una matriz abstracta de matemática pura que permite el lenguaje capaz de explicar las reglas que –a su vez la ciencia– explican la naturaleza, el mundo, el universo. Estas reglas se constituyen como el último orden, el último juego de certidumbres, de fundamentos, que nos permiten urdir nuestro entendimiento y nuestras verdades. Este primer orden es lo que llamamos “música de las matemáticas”.</p>
+    <article>
+      <p>Les voy a contar una historia hoy día: Bajo la superficie del mundo yacen las reglas descritas por la ciencia. O, al menos, el mundo avanza como si así fuera. Pero bajo todas estas reglas, existen reglas más profundas, una matriz abstracta de matemática pura que permite el lenguaje capaz de explicar las reglas que –a su vez la ciencia– explican la naturaleza, el mundo, el universo. Estas reglas se constituyen como el último orden, el último juego de certidumbres, de fundamentos, que nos permiten urdir nuestro entendimiento y nuestras verdades. Este primer orden es lo que llamamos “música de las matemáticas”.</p>
 
 <blockquote>
   <p>“Ver un Mundo en un grano de arena, un cielo en una flor silvestre. Tomar la infinitud en la palma de tu mano y la eternidad en una hora”.</p>
@@ -170,17 +203,18 @@
 
 <p class="caption right">Taller de Amareida, Ciudad Abierta. <a href="http://www.ead.pucv.cl/2012/clase-3-trimestre-i-2012/">Clase 3, Trimestre 1, 2012</a>.&lt;p&gt;
 </p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -193,8 +227,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

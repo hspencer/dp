@@ -1,3 +1,4 @@
+<!-- Paginación con máximo de 8 "pelotitas" y usando &hellip; -->
 <div class="last-posts" id="last-posts">
   {% assign posts = site.posts | sort: "date" | reverse %}
   {% for post in posts %}
@@ -6,7 +7,11 @@
         <img src="{{ post.image.path | relative_url }}" alt="{{ post.title | escape }}">
       {% endif %}
       <h2>{{ post.title }}</h2>
-      <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
+      {% if post.description %}
+        <p>{{ post.description | strip_html | truncate: 200 }}</p>
+      {% else %}
+        <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
+      {% endif %}
     </a>
   {% endfor %}
 </div>
@@ -14,6 +19,8 @@
 <div class="paginacion" id="paginacion"></div>
 
 <script>
+  /* Máximo de 8 "pelotitas" */
+  const maxVisiblePages = 8;
   const itemsPerPage = 6;
   const items = [...document.querySelectorAll('.post-item')];
   const totalPages = Math.ceil(items.length / itemsPerPage);
@@ -23,19 +30,51 @@
     items.forEach((el, i) => {
       el.style.display = Math.floor(i / itemsPerPage) === page ? 'block' : 'none';
     });
+    renderPagination(page);
+  }
 
-    pagination.innerHTML = '';
-    for (let i = 0; i < totalPages; i++) {
-      const dot = document.createElement(i === page ? 'span' : 'a');
-      dot.className = i === page ? 'actual' : '';
-      dot.href = "#";
-      dot.innerHTML = '&nbsp;';
-      dot.onclick = (e) => {
-        e.preventDefault();
-        showPage(i);
-      };
-      pagination.appendChild(dot);
+  function getPages(current, total, max) {
+    if (total <= max) return [...Array(total).keys()];
+    const pages = [0];
+    const lastPage = total - 1;
+    let start = Math.max(current - 2, 1);
+    let end = Math.min(current + 2, lastPage - 1);
+
+    if (start > 1) pages.push('…');
+    for (let i = start; i <= end; i++) pages.push(i);
+    if (end < lastPage - 1) pages.push('…');
+    pages.push(lastPage);
+
+    // Corta si excede el máximo
+    // Aunque rara vez, esto protege de exceder el 'max'
+    while (pages.length > max) {
+      if (current < total / 2) pages.splice(pages.length - 2, 1, '…');
+      else pages.splice(1, 1, '…');
+      if (pages.filter(p => p !== '…').length <= 2) break;
     }
+    return pages;
+  }
+
+  function renderPagination(current) {
+    pagination.innerHTML = '';
+    const pages = getPages(current, totalPages, maxVisiblePages);
+    pages.forEach(p => {
+      if (p === '…') {
+        const span = document.createElement('span');
+        span.textContent = '…';
+        pagination.appendChild(span);
+      } else {
+        const link = document.createElement(p === current ? 'span' : 'a');
+        link.className = p === current ? 'actual' : '';
+        link.href = '#';
+        link.textContent = p + 1;
+        link.onclick = e => {
+          e.preventDefault();
+          showPage(p);
+        };
+        pagination.appendChild(link);
+      }
+    });
   }
 
   showPage(0);

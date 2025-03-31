@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2012/04/musica-de-las-matematicas/
 title: "Música de las Matemáticas"
 date: 2012-04-23 20:22:25 -0000

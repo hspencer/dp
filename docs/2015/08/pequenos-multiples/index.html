@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Pequeños Múltiples | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Pequeños Múltiples">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2015/08/pequenos-multiples/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pequeños Múltiples">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Pequeños Múltiples</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Pequeños Múltiples</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2015/08/citipulse-small-multiples.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2015-08-03T11:48:30+12:00">
-          3 August 2015
-        </time>
+      
 
-          <a id="btn-citar-pequenos-multiples" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2015-08-03T11:48:30+12:00">
+        3 August 2015
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-pequenos-multiples" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-pequenos-multiples" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Había una vez una empresa llamada <strong><a href="https://vimeo.com/61097795">CitiSent</a></strong> , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>.</p>
+    <article>
+      <p>Había una vez una empresa llamada <strong><a href="https://vimeo.com/61097795">CitiSent</a></strong> , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>.</p>
 
 <p>Para construir esta visualización desarrollamos un tesauro <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup> de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (<a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a>) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferencias y contrastes entre los datos (las disparidades). Esta modalidad se denomina <em>pequenos múltiples</em> (<a href="https://en.wikipedia.org/wiki/Small_multiple">small multiples</a>). Esto es similar a las <a href="https://en.wikipedia.org/wiki/Chernoff_face">caras de Chernoff</a>.</p>
 
@@ -147,17 +180,18 @@
 <li id="fn:2">Un tesaurio es un diccionario jerárquico de palabras. En el caso de <strong>Citipulse</strong> definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras. <a href="#fnref:2" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -170,8 +204,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

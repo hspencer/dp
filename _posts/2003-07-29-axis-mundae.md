@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2003/07/axis-mundae/
 title: Axis Mundae
 date: 2003-07-29 15:32:58 -0000

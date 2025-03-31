@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión This is an interactive demosntration depicting a mesh network at work. This is an example of how communication networks should work during crises.">
-    <meta name="author" content="">
+    <meta name="description" content="This is an interactive demosntration depicting a mesh network at work. This is an example of how communication networks should work during crises.">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Mesh Network | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Mesh Network">
+    <meta property="og:description" content="This is an interactive demosntration depicting a mesh network at work. This is an example of how communication networks should work during crises.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2010/11/mesh-network/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mesh Network">
+    <meta name="twitter:description" content="This is an interactive demosntration depicting a mesh network at work. This is an example of how communication networks should work during crises.">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Mesh Network</h1>
-         
-        <time datetime="2010-12-01T10:42:19+13:00">
-          1 December 2010
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Mesh Network</h1>
 
-          <a id="btn-citar-mesh-network" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2010-12-01T10:42:19+13:00">
+        1 December 2010
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-mesh-network" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-mesh-network" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Esta ilustración fue generada para explicar el funcionamiento de una red enmallada (mesh network) en cuanto figura de distribución y conexión entre nodos. La aplicación práctica de esta red fue discutida en el <a href="http://herbertspencer.net/2010/10/internet-como-bien-publico/">post anterior</a>, describiendo la necesidad de una arquitectura de red resistente a cataclismos como el pasado terremoto y donde todos los nodos aportan, yendo más allá de ser meros clientes. Una red pública es aquella donde cada participante expande su alcance por el simple hecho de pertenecer.</p>
+    <article>
+      <p>Esta ilustración fue generada para explicar el funcionamiento de una red enmallada (mesh network) en cuanto figura de distribución y conexión entre nodos. La aplicación práctica de esta red fue discutida en el <a href="http://herbertspencer.net/2010/10/internet-como-bien-publico/">post anterior</a>, describiendo la necesidad de una arquitectura de red resistente a cataclismos como el pasado terremoto y donde todos los nodos aportan, yendo más allá de ser meros clientes. Una red pública es aquella donde cada participante expande su alcance por el simple hecho de pertenecer.</p>
 
 <p>[p5js code canvas] void setup() { size(500, 500); NODES = new ArrayList(); for (int i = 0; i &lt; numNodes; i++) { Node n = new Node(random(margin, width-margin), random(margin, height-margin)); if (random(1) &gt;0.25) { n.device = true; } else { n.r <em>= 1.5; } NODES.add(n); } newNode = false; smooth(); } void draw() { background(255); if (newNode) { NODES.add(current); newNode = false; } for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); n.calc(); n.renderLinks(); } for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); n.calc(); if (n.device) { n.renderDevice(); } else { n.renderNode(); } } } class Node { int id; // the ID of this node float x, y; // position float r; // radius float signal; // ammount of signal boolean on; // is it on? boolean over; // is the mouse over this one? ArrayList nodes; // list of nodes that are connected to this one boolean device = false; float angle, step; Node(float X, float Y) { count++; id = count; x = X; y = Y; signal = 0; on = true; nodes = new ArrayList(); r = 7.0; angle = random(TWO_PI); step = random(1); } void renderNode() { if (over) { noFill(); stroke(linkColor); strokeWeight(.50); ellipse(x, y, nodeScope, nodeScope); fill(nodeFillColor); stroke(nodeStrokeColor); } else { fill(nodeFillColor, 150); stroke(nodeStrokeColor, 50); } if (on) { strokeWeight(3); } else { strokeWeight(0.5); } ellipse(x, y, r, r); } void renderDevice() { move(); if (over) { noFill(); stroke(linkColor); strokeWeight(.5); ellipse(x, y, nodeScope, nodeScope); fill(deviceFillColor); stroke(deviceStrokeColor); } else { fill(deviceFillColor, 150); stroke(deviceStrokeColor, 150); } if (on) { strokeWeight(1); } else { noStroke(); } ellipse(x, y, r, r); } void renderLinks() { if (on) { stroke(linkColor, 100); for (int i = 0; i &lt; nodes.size (); i++) { Node n = (Node)nodes.get(i); float d = dist(x, y, n.x, n.y); float sw = map(d, r, nodeScope, 5, 0.1); sw = constrain(sw, 0.01, 20); strokeWeight(sw); line(x, y, n.x, n.y); } } } void calc() { nodes.clear(); for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); if (id != n.id) { float nodeDist = dist(x, y, n.x, n.y); if (nodeDist &lt;= nodeScope &amp;&amp; n.on) { nodes.add(n); } } } } void move() { noiseSeed(id); angle += (noise((float)millis()/100.0) - .5)</em> HALF_PI; x += cos(angle)<em>step; y += sin(angle)</em>step; } } boolean OVER; ArrayList NODES; int numNodes = 50; int count = 0; float margin = 100; float nodeScope = 60; boolean newNode; Node current; color nodeFillColor = #F06E1D; color nodeStrokeColor = #8E3E0B; color linkColor = color(86, 115, 124, 80); color deviceFillColor = #1FCCFF; color deviceStrokeColor = #02A8D8; void keyPressed() { if (key == ‘a’) { nodeScope += 5; println(“node scope = “+nodeScope); } if (key == ‘z’) { nodeScope -= 5; println(“node scope = “+nodeScope); } if (key == ‘ ‘) { for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); n.on = !n.on; } } if (key == ‘x’) { setup(); } nodeScope = constrain(nodeScope, 5, width); } void mouseMoved() { float d; for (int i = 0; i &lt; NODES.size (); i++) { Node n = (Node)NODES.get(i); d = dist(mouseX, mouseY, n.x, n.y); if (n.r*1.5 &gt;= d) { OVER = true; n.over = true; current = n; } else { OVER = false; n.over = false; } } } void mouseDragged() { if (OVER) { if (current.over) { current.x = mouseX; current.y = mouseY; } } } void mouseReleased() { if (current.over &amp;&amp; mouseButton==RIGHT) { current.on = !current.on; } } [/p5js]</p>
 
@@ -135,17 +168,18 @@
   <li>tecla <strong>i</strong> sirve para invertir encendido/apagado de todos los nodos</li>
   <li><strong>x</strong> regenera la distribución de nodos</li>
 </ul>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -158,8 +192,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

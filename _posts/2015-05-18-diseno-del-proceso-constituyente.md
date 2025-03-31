@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2015/05/diseno-del-proceso-constituyente/
 title: "Diseño del Proceso Constituyente"
 date: 2015-05-18 15:56:46 -0000

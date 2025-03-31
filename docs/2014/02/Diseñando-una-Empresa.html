@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Diseñando una Empresa | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Diseñando una Empresa">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2014/02/Diseñando-una-Empresa">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Diseñando una Empresa">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Diseñando una Empresa</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Diseñando una Empresa</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2013/10/4-d.006.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2014-02-10T02:00:00+13:00">
-          10 February 2014
-        </time>
+      
 
-          <a id="btn-citar-disenando-una-empresa" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2014-02-10T02:00:00+13:00">
+        10 February 2014
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-disenando-una-empresa" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-disenando-una-empresa" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Estos últimos 2 años he estado trabajando en <a href="http://www.citisent.com">CitiSent</a>. A diferencia de mis proyectos anteriores <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, nacidos en el seno académico y con profundas aspiraciones de construirse, este proyecto es –en realidad– una empresa. El viaje ha sido largo, no exento de complicaciones y desencuentros, pero ha sido una gran experiencia de aprendizaje. En este texto les quiero explicar las cosas que he aprendido y de qué se trata CitiSent.</p>
+    <article>
+      <p>Estos últimos 2 años he estado trabajando en <a href="http://www.citisent.com">CitiSent</a>. A diferencia de mis proyectos anteriores <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, nacidos en el seno académico y con profundas aspiraciones de construirse, este proyecto es –en realidad– una empresa. El viaje ha sido largo, no exento de complicaciones y desencuentros, pero ha sido una gran experiencia de aprendizaje. En este texto les quiero explicar las cosas que he aprendido y de qué se trata CitiSent.</p>
 
 <h2 id="academia-vs-construir-una-obra">Academia vs. Construir una Obra</h2>
 
@@ -169,17 +202,18 @@
 <li id="fn:2">“Game changer” como se dice en inglés. En el sentido de que la nueva dinámica que incorpora al sistema tiene un impacto mayor en el largo plazo, ya sea transformándose en un modelo replicable o insidiendo dentro de un ecosistema “frágil”. <a href="#fnref:2" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -192,8 +226,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Realidad Aumentada en Perspectiva | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Realidad Aumentada en Perspectiva">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2009/08/realidad-aumentada-en-perspectiva/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Realidad Aumentada en Perspectiva">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Realidad Aumentada en Perspectiva</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Realidad Aumentada en Perspectiva</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2009/08/flecha1.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2009-08-04T16:07:47+12:00">
-          4 August 2009
-        </time>
+      
 
-          <a id="btn-citar-realidad-aumentada-en-perspectiva" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2009-08-04T16:07:47+12:00">
+        4 August 2009
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-realidad-aumentada-en-perspectiva" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-realidad-aumentada-en-perspectiva" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Cada época de la historia tiene su propio modo de ver el mundo. Esa particular <em>visión de mundo</em> es la invención de un suelo que sostiene y celebra su época; nunca hay que olvidar que <strong>se trata de una invención</strong>. En este sentido, resultan particularmente significativas las <strong>artes visuales</strong> como manifestaciones concretas y transparentes de una particular mirada cultural. Asimismo, la evolución de ella nos muestra las profundas mutaciones en la comprensión de mundo de una determinada cultura. La realidad aumentada, como toda invención de la mirada, trae un ver cultural específico para aprehender y construir el mundo. Y el salto desde nuestro estado anterior (hipertexto), a este nuevo modo (capaz de integrar lo digital con lo físico) es tan grande y significativo que resulta difícil caer en la cuenta de la magnitud del hecho. Si bien últimamente nuestra historia se ha acelerado de forma exponencial <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> los cambios de este tipo implican giros profundos en nuestra cultura, como comprensión y co-creación del mundo.</p>
+    <article>
+      <p>Cada época de la historia tiene su propio modo de ver el mundo. Esa particular <em>visión de mundo</em> es la invención de un suelo que sostiene y celebra su época; nunca hay que olvidar que <strong>se trata de una invención</strong>. En este sentido, resultan particularmente significativas las <strong>artes visuales</strong> como manifestaciones concretas y transparentes de una particular mirada cultural. Asimismo, la evolución de ella nos muestra las profundas mutaciones en la comprensión de mundo de una determinada cultura. La realidad aumentada, como toda invención de la mirada, trae un ver cultural específico para aprehender y construir el mundo. Y el salto desde nuestro estado anterior (hipertexto), a este nuevo modo (capaz de integrar lo digital con lo físico) es tan grande y significativo que resulta difícil caer en la cuenta de la magnitud del hecho. Si bien últimamente nuestra historia se ha acelerado de forma exponencial <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> los cambios de este tipo implican giros profundos en nuestra cultura, como comprensión y co-creación del mundo.</p>
 
 <p><img src="/assets/uploads/2009/08/TaddeoGaddiVieVierge1.jpg" alt="La Presentación de la Virgen, Taddeo Gaddi 1332-3" /></p>
 <p class="caption">La Presentación de la Virgen, Taddeo Gaddi 1332-3</p>
@@ -189,17 +222,18 @@
 <li id="fn:3">Lugares, por ejemplo, protegidos del grafitti, por considerarse una práctica que antenta contra el patrimonio público. <a href="#fnref:3" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -212,8 +246,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

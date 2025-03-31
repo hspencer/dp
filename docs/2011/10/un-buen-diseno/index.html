@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Un Buen Diseño | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Un Buen Diseño">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2011/10/un-buen-diseno/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Un Buen Diseño">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Un Buen Diseño</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Un Buen Diseño</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2011/10/stmaryplate2big1.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2011-10-29T11:52:56+13:00">
-          29 October 2011
-        </time>
+      
 
-          <a id="btn-citar-un-buen-diseno" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2011-10-29T11:52:56+13:00">
+        29 October 2011
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-un-buen-diseno" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-un-buen-diseno" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Un buen diseño corresponde a un trabajo profundo de integración y equilibrio de diversos factores para finalmente cifrarlos y materializarlos en una forma, ya sea física o etérea, atomizada o distribuida y compleja (como lo es un sistema). Entiendo la noción de “estética” como un <em>modo de ser</em> de la forma y su expresión, y como tal –modo de ser– sujeto a un contexto cultural: es a partir de un modo de ser que se puede leer su caracter estético. En diseño, la relación diseñador-contexto es completamente asimétrica y desequilibrada: el contexto pesa muchísimo más que el diseñador. El “buen diseño” interpreta completamente su entorno y suprime al autor o “genio” que firma el trabajo, más común en el campo arte. Es decir, es preciso conocer <strong>la imagen que el mundo tiene de la cosa</strong> que se va a diseñar, es necesario conocer dónde y cómo se inserta, qué connotaciones tiene y cuales son los códigos culturales que la gobiernan, así como las fuerzas culturales que allí la situaron de antemano. Solamente a partir de una mirada conciente de esto (ya sea por medio del descubrimiento o la interpretación justa) el diseñador podrá desplazar esa imagen de su centro –sólo ligeramente, que tiene mayor inercia mientras mayor tradición cultural exista– para originar <em>verdadera innovación</em>. El buen diseño, en ese sentido, corresponde a una buena forma de interpretar el presente e imaginar el futuro desde un <strong>lenguaje propio</strong> , en cuanto apropiable y apropiado. <a href="/assets/uploads/2011/10/image021.jpg"><img src="/assets/uploads/2011/10/image021-453x340.jpg" alt="" /></a> El caso del movimiento muralista mejicano ofrece un ejemplo de una proposición de imagen de mundo que reconstruye el imaginario colectivo, instaurando con esto un lenguage (o un género) discursivo abundante y rico, con su propia gramática y su propia narrativa, y, además, dando respuesta desde el arte a un movimiento social originado años antes, desde la revolución zapatista. <a href="/assets/uploads/2011/10/image011.jpg"><img src="/assets/uploads/2011/10/image011-453x340.jpg" alt="" /></a> El desplazamiento de lo conocido a la desconocido forma un <strong>vector de cambio</strong> que apunta hacia donde el diseño quiere ir. Este “hacia dónde” es definido por la estrategia del modelo de negocios (o nueva imagen de mundo) que tenga el diseñador o su mandante. Este sentido le imprime un profundo carácter ético al trabajo del diseño ya que es responsable –no siempre se toma el peso de esto, ni se piensa– de las consecuencias del mundo que construye. El diseño no solamende debe ser bello; debe ser además verdadero y bueno (además de útil, deseable, usable, apropiable, y un largo etc). El lenguaje del diseño, entendido como el <strong>modo de ser</strong> constituye lo que se entiende por estética del diseño, ya que vuelve el hecho intelectual en experiencia. Al hablar de estética del diseño, se lo adcribe tácitamente a un determinado <strong>linaje cultural</strong>. Frecuentemente este lenguaje es rebalsado hacia las narrativas que trata, cuando la imágen del mundo que presenta es lo suficientemente consistente y fuerte; de este modo la forma y la narrativa se pueden entender como sucesos intercambiables <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>. [caption id=”attachment_1165” align=”alignnone” width=”470” caption=”El caso de Black &amp; Decker constituye un claro ejemplo de la consolidación de una estética como un lenguaje transversal a sus productos industriales.”]<a href="/assets/uploads/2011/10/image001.jpg"><img src="/assets/uploads/2011/10/image001-470x261.jpg" alt="" /></a>[/caption]   Justamente, es esta comunión entre lenguaje y contenido (forma y palabra / espacio y tiempo) la que permite transversalizar el trabajo para pensar los sistemas. Se requiere de un lenguaje, por ejemplo, para abordar el diseño de una imagen corporativa. No se trata simplemente de la producción de una imagen y tratarla como un patrón que recorra los diversos géneros discursivos en los que la institución habla, sino que es un modo de volver la experiencia de esa organización algo consistente a través de los múltiples puntos de contacto que provee. Ahora, para responder certeramente la pregunta (¿Qué es buen diseño?), el origen de esta estética alude necesariamente a la visión del mundo “por venir” que propone el régimen corporativo (en este caso) como una forma de estrategia para comunicar un anhelo, encarnados en la cultura interna y sus valores. La estética, aquí entendida como la cualidad de la experiencia proyectada, debe ser un atisbo que insinúa un total mayor, una nueva imagen de mundo. El buen diseño, entonces, se plantea como un pequeño fragmento de algo mayor, de un propósito que tiene una imagen del hombre, de su cultura y del mundo donde se inscribe. Un buen diseño es un buen propósito materializado en pequeños fragmentos consistentes entre sí.</p>
+    <article>
+      <p>Un buen diseño corresponde a un trabajo profundo de integración y equilibrio de diversos factores para finalmente cifrarlos y materializarlos en una forma, ya sea física o etérea, atomizada o distribuida y compleja (como lo es un sistema). Entiendo la noción de “estética” como un <em>modo de ser</em> de la forma y su expresión, y como tal –modo de ser– sujeto a un contexto cultural: es a partir de un modo de ser que se puede leer su caracter estético. En diseño, la relación diseñador-contexto es completamente asimétrica y desequilibrada: el contexto pesa muchísimo más que el diseñador. El “buen diseño” interpreta completamente su entorno y suprime al autor o “genio” que firma el trabajo, más común en el campo arte. Es decir, es preciso conocer <strong>la imagen que el mundo tiene de la cosa</strong> que se va a diseñar, es necesario conocer dónde y cómo se inserta, qué connotaciones tiene y cuales son los códigos culturales que la gobiernan, así como las fuerzas culturales que allí la situaron de antemano. Solamente a partir de una mirada conciente de esto (ya sea por medio del descubrimiento o la interpretación justa) el diseñador podrá desplazar esa imagen de su centro –sólo ligeramente, que tiene mayor inercia mientras mayor tradición cultural exista– para originar <em>verdadera innovación</em>. El buen diseño, en ese sentido, corresponde a una buena forma de interpretar el presente e imaginar el futuro desde un <strong>lenguaje propio</strong> , en cuanto apropiable y apropiado. <a href="/assets/uploads/2011/10/image021.jpg"><img src="/assets/uploads/2011/10/image021-453x340.jpg" alt="" /></a> El caso del movimiento muralista mejicano ofrece un ejemplo de una proposición de imagen de mundo que reconstruye el imaginario colectivo, instaurando con esto un lenguage (o un género) discursivo abundante y rico, con su propia gramática y su propia narrativa, y, además, dando respuesta desde el arte a un movimiento social originado años antes, desde la revolución zapatista. <a href="/assets/uploads/2011/10/image011.jpg"><img src="/assets/uploads/2011/10/image011-453x340.jpg" alt="" /></a> El desplazamiento de lo conocido a la desconocido forma un <strong>vector de cambio</strong> que apunta hacia donde el diseño quiere ir. Este “hacia dónde” es definido por la estrategia del modelo de negocios (o nueva imagen de mundo) que tenga el diseñador o su mandante. Este sentido le imprime un profundo carácter ético al trabajo del diseño ya que es responsable –no siempre se toma el peso de esto, ni se piensa– de las consecuencias del mundo que construye. El diseño no solamende debe ser bello; debe ser además verdadero y bueno (además de útil, deseable, usable, apropiable, y un largo etc). El lenguaje del diseño, entendido como el <strong>modo de ser</strong> constituye lo que se entiende por estética del diseño, ya que vuelve el hecho intelectual en experiencia. Al hablar de estética del diseño, se lo adcribe tácitamente a un determinado <strong>linaje cultural</strong>. Frecuentemente este lenguaje es rebalsado hacia las narrativas que trata, cuando la imágen del mundo que presenta es lo suficientemente consistente y fuerte; de este modo la forma y la narrativa se pueden entender como sucesos intercambiables <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>. [caption id=”attachment_1165” align=”alignnone” width=”470” caption=”El caso de Black &amp; Decker constituye un claro ejemplo de la consolidación de una estética como un lenguaje transversal a sus productos industriales.”]<a href="/assets/uploads/2011/10/image001.jpg"><img src="/assets/uploads/2011/10/image001-470x261.jpg" alt="" /></a>[/caption]   Justamente, es esta comunión entre lenguaje y contenido (forma y palabra / espacio y tiempo) la que permite transversalizar el trabajo para pensar los sistemas. Se requiere de un lenguaje, por ejemplo, para abordar el diseño de una imagen corporativa. No se trata simplemente de la producción de una imagen y tratarla como un patrón que recorra los diversos géneros discursivos en los que la institución habla, sino que es un modo de volver la experiencia de esa organización algo consistente a través de los múltiples puntos de contacto que provee. Ahora, para responder certeramente la pregunta (¿Qué es buen diseño?), el origen de esta estética alude necesariamente a la visión del mundo “por venir” que propone el régimen corporativo (en este caso) como una forma de estrategia para comunicar un anhelo, encarnados en la cultura interna y sus valores. La estética, aquí entendida como la cualidad de la experiencia proyectada, debe ser un atisbo que insinúa un total mayor, una nueva imagen de mundo. El buen diseño, entonces, se plantea como un pequeño fragmento de algo mayor, de un propósito que tiene una imagen del hombre, de su cultura y del mundo donde se inscribe. Un buen diseño es un buen propósito materializado en pequeños fragmentos consistentes entre sí.</p>
 
 <div class="footnotes">
   <hr />
@@ -140,17 +173,18 @@
 <li id="fn:1">“El medio es el mensaje”, según M. McLuhan. <a href="#fnref:1" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -163,8 +197,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

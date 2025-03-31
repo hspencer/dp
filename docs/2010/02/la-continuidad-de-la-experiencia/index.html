@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>La Continuidad de la Experiencia | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="La Continuidad de la Experiencia">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2010/02/la-continuidad-de-la-experiencia/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="La Continuidad de la Experiencia">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">La Continuidad de la Experiencia</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">La Continuidad de la Experiencia</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2009/05/ixd-scores1.gif"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2010-02-02T16:21:50+13:00">
-          2 February 2010
-        </time>
+      
 
-          <a id="btn-citar-la-continuidad-de-la-experiencia" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2010-02-02T16:21:50+13:00">
+        2 February 2010
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-la-continuidad-de-la-experiencia" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-la-continuidad-de-la-experiencia" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <h2 id="ser-y-tiempo">Ser y Tiempo</h2>
+    <article>
+      <h2 id="ser-y-tiempo">Ser y Tiempo</h2>
 
 <p>Quisiera hablar del <em>diseño para la experiencia</em> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> en general, desde la pregunta <em>qué es aquello que debemos que diseñar</em> para cuidar la experiencia dentro de un sistema o servicio. Ante cualquier proyecto, sabemos que debemos diseñar la <strong>forma</strong> , tanto estructural como visual y sabemos que debemos diseñar su <strong>tiempo</strong> , tanto la información como comportamiento; esto, para todo sistema o servicio. Es decir, debemos<strong>diseñar su ser y su tiempo</strong> , si me permiten esas dos categorías fundamentales que tomo prestadas de Heidegger. Creo que es buena esa división porque definitivamente no dejamos nada afuera y nos permite entender el proceso de diseño desde esta dualidad. En general, y no sé por qué motivo, en casi todas las instancias de un proyecto, las herramientas y los lenguajes que tenemos a disposición dentro del proceso se centran en definir el <em>ser</em> y muy pocas herramientas y lenguajes nos ayudan a definir el <em>tiempo</em>. Me explico: hacemos diagramas de afinidad <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup> para generar los mapas de navegación, establecemos jerarquías y estructuras, hacemos esquemas y configuraciones de pantalla, etc. pero muy pocas veces nos centramos en los comportamientos y flujos individuales. Este punto es crítico ya que, si nos centramos en la experiencia como fin, es fundamental tener un lenguaje que nos permita diseñar la cadencia de los elementos para la construcción de su demora. No tenemos cabeza de partitura o de flujo; tenemos cabeza de grafos, de nodos y conectivas, cajas y flechas; que sólo nos permiten comprender el tiempo como momentos discretos.</p>
 
@@ -340,17 +373,18 @@
 <li id="fn:2">o <em>Card Sorting</em> <a href="#fnref:2" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -363,8 +397,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión Este programa está pensado para profesores que requieren dibujar directamente en el proyector y no pueden usar la pizarra porque la sala está oscura.">
-    <meta name="author" content="">
+    <meta name="description" content="Este programa está pensado para profesores que requieren dibujar directamente en el proyector y no pueden usar la pizarra porque la sala está oscura.">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Pizarra | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Pizarra">
+    <meta property="og:description" content="Este programa está pensado para profesores que requieren dibujar directamente en el proyector y no pueden usar la pizarra porque la sala está oscura.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2012/05/pizarra/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pizarra">
+    <meta name="twitter:description" content="Este programa está pensado para profesores que requieren dibujar directamente en el proyector y no pueden usar la pizarra porque la sala está oscura.">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Pizarra</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Pizarra</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2012/05/pizarra0021.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2012-05-16T02:37:23+12:00">
-          16 May 2012
-        </time>
+      
 
-          <a id="btn-citar-pizarra" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2012-05-16T02:37:23+12:00">
+        16 May 2012
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-pizarra" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-pizarra" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Uno de los problemas más frecuentes con que me topo al momento de hacer clases es la incompatibilidad entre el proyector y la pizarra. Cada día, y con más frecuencia, se requiere de un proyector (datashow) para presentar, demostrar código, traer referentes, indicar procedimientos, revisar casos, etc. El proyector ya es –digámoslo así– un commodity indispensable y que se echa de menos con facilidad.</p>
+    <article>
+      <p>Uno de los problemas más frecuentes con que me topo al momento de hacer clases es la incompatibilidad entre el proyector y la pizarra. Cada día, y con más frecuencia, se requiere de un proyector (datashow) para presentar, demostrar código, traer referentes, indicar procedimientos, revisar casos, etc. El proyector ya es –digámoslo así– un commodity indispensable y que se echa de menos con facilidad.</p>
 
 <p>Pero la dimensión que trae el dibujo o el acto de dibujar en la pizarra, en paralelo y reforzando el discurso es fundamental. Sobre todo en diseño. Mostrar un esquema de un Keynote no es igual a dibujarlo. Gracias a <a href="https://play.google.com/store/apps/details?id=com.omgpop.dstfree&amp;hl=es" title="DrawSomething on Google Store">DrawSomething</a> hemos aprendido que el proceso del dibujo dice tanto como el dibujo mismo, la secuencia va desplegando el significado porque tiene su propio discurso.</p>
 
@@ -151,17 +184,18 @@
 </ul>
 
 <p><strong>Actualización</strong> : El programa de la Pizarra se encuentra disponible para descargar en <a href="https://github.com/hspencer/pizarra">Github</a>, entre las mejoras: ahora se pueden hacer líneas rectas con <code class="language-plaintext highlighter-rouge">SHIFT</code> y tiene compatibilidad para tablets.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -174,8 +208,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/11/processing-1/
 title: Processing 1.0
 date: 2008-11-25 18:47:02 -0000

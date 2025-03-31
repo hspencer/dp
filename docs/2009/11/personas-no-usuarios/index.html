@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Personas, no Usuarios | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Personas, no Usuarios">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2009/11/personas-no-usuarios/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Personas, no Usuarios">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Personas, no Usuarios</h1>
-         
-        <time datetime="2009-11-05T08:08:58+13:00">
-          5 November 2009
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Personas, no Usuarios</h1>
 
-          <a id="btn-citar-personas-no-usuarios" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2009-11-05T08:08:58+13:00">
+        5 November 2009
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-personas-no-usuarios" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-personas-no-usuarios" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/10/estorninos.jpg" title="Bandada de estorninos"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/10/estorninos.jpg" alt="Bandada de estorninos" /></a></p>
+    <article>
+      <p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/10/estorninos.jpg" title="Bandada de estorninos"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/10/estorninos.jpg" alt="Bandada de estorninos" /></a></p>
 
 <p>Nuestra escuela (específicamente el Taller de Investigaciones Gráficas .:TIG:.) ha seguido construyendo y desarrollando distintas aplicaciones y servicios para Internet como la <a href="http://wiki.ead.pucv.cl/">Wiki Casiopea</a> o la <a href="http://travesias.ead.pucv.cl/">bitácora de Travesías</a>, entre otros.</p>
 
@@ -133,17 +166,18 @@
 <h3 id="datos-privados-y-contraseñas">Datos Privados y contraseñas</h3>
 
 <p>Es importante recordar que toda la información que tenemos de las personas registradas es confidencial y de uso restringido. Jamás será divulgada ni compartida con terceros. Asimismo, las contraseñas se almacenan encriptadas en nuestra base de datos por lo que es imposible conocerlas, incluso para el administrador del sistema.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -156,8 +190,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

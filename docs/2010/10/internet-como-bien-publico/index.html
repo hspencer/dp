@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Internet como Bien Público | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Internet como Bien Público">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2010/10/internet-como-bien-publico/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Internet como Bien Público">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Internet como Bien Público</h1>
-         
-        <time datetime="2010-10-12T18:34:41+13:00">
-          12 October 2010
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Internet como Bien Público</h1>
 
-          <a id="btn-citar-internet-como-bien-publico" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2010-10-12T18:34:41+13:00">
+        12 October 2010
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-internet-como-bien-publico" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-internet-como-bien-publico" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><a href="/assets/uploads/2010/10/mesh-network1.jpg"><img src="/assets/uploads/2010/10/mesh-network1-655x610.jpg" alt="" /></a></p>
+    <article>
+      <p><a href="/assets/uploads/2010/10/mesh-network1.jpg"><img src="/assets/uploads/2010/10/mesh-network1-655x610.jpg" alt="" /></a></p>
 
 <p>Me parece que la WWW se nos presenta, cada día más, como el medio por el cual se contruye nuestro <strong>espacio público</strong> y nuestra <strong>cotidianidad social</strong>. Para la mayoría de mis amigos, esta afirmación no es solamente obvia sino ya algo añeja. Uno puede constatar cómo nuestra narrativa social se va escribiendo en la Red, en un soporte con memoria que construye el espejo con el que nos miramos. Este medio permite una mayor apertura en comparación con los viejos <em>mass media</em> , facilitando la producción abierta de contenidos y de conversaciones en una cierta libertad de expresión, además de permitir la colaboración masiva en proyectos tan emblemáticos como Wikipedia, entre otros cientos.</p>
 
@@ -154,17 +187,18 @@
 <li id="fn:6">En este enlace hay una demostración gráfica (SWF) del esquema de red enmallada. <a href="#fnref:6" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -177,8 +211,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

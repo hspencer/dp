@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2009/07/inicio-del-primer-ano-de-diseno/
 title: "Inicio del Primer Año de Diseño"
 date: 2009-07-05 19:18:07 -0000

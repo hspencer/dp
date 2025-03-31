@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2011/01/seminario-ciudad-abierta/
 title: Seminario Ciudad Abierta
 date: 2011-01-17 20:24:38 -0000

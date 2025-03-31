@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Filippo 3D ver 0.1 | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Filippo 3D ver 0.1">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2006/12/filippo-3d-ver-01/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Filippo 3D ver 0.1">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Filippo 3D ver 0.1</h1>
-         
-        <time datetime="2006-12-18T04:44:54+13:00">
-          18 December 2006
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Filippo 3D ver 0.1</h1>
 
-          <a id="btn-citar-filippo-3d-ver-01" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2006-12-18T04:44:54+13:00">
+        18 December 2006
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-filippo-3d-ver-01" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-filippo-3d-ver-01" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><img src="http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/f3d_rotations.jpg" alt="f3d rotations" /> Filippo 3D is my final project for <a href="http://www.flong.com/">Golan</a>’s class, the <a href="http://artscool.cfa.cmu.edu/~levin/courses/dmc/iig_06f/index.php">Interactive Image</a>. This project is inspired by the idea of drawing in a 3D canvas. After seeing <a href="http://www.pitaru.com/">Amit Pitaru</a>’s work, the famous <a href="http://pitaru.com/sonicWireSculptor/framed/index.htm">sonic sculptor</a> or the <a href="http://www.theremediproject.com/projects/issue12/systemisgesture/">gesture machines</a> from <a href="http://www.thesystemis.com/">Zack Lieberman</a>, I decided to create a small application that allowed to transfer 2D hand strokes into a 3D space.</p>
+    <article>
+      <p><img src="http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/f3d_rotations.jpg" alt="f3d rotations" /> Filippo 3D is my final project for <a href="http://www.flong.com/">Golan</a>’s class, the <a href="http://artscool.cfa.cmu.edu/~levin/courses/dmc/iig_06f/index.php">Interactive Image</a>. This project is inspired by the idea of drawing in a 3D canvas. After seeing <a href="http://www.pitaru.com/">Amit Pitaru</a>’s work, the famous <a href="http://pitaru.com/sonicWireSculptor/framed/index.htm">sonic sculptor</a> or the <a href="http://www.theremediproject.com/projects/issue12/systemisgesture/">gesture machines</a> from <a href="http://www.thesystemis.com/">Zack Lieberman</a>, I decided to create a small application that allowed to transfer 2D hand strokes into a 3D space.</p>
 
 <h2 id="download">Download</h2>
 
@@ -209,17 +242,18 @@ Multiplicación de Matrices:
 </ul>
 
 <p>Si lo usan y lo encuentra útil, porfavor dejen comenatrios de cómo podrí­a mejorarse, qué cosas quedan poco claras y qué funciones serí­a bueno incorporar para la próxima, además de los PDFs (<a href="http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/f3D_360sample.pdf">ejemplo</a>) que hagan con la maquinita, claro.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -232,8 +266,8 @@ Multiplicación de Matrices:
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

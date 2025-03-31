@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>La Observación en Diseño | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="La Observación en Diseño">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2013/12/la-observacion-en-diseno/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="La Observación en Diseño">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">La Observación en Diseño</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">La Observación en Diseño</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2013/12/wet-sheets-1936.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2013-12-13T07:17:02+13:00">
-          13 December 2013
-        </time>
+      
 
-          <a id="btn-citar-la-observacion-en-diseno" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2013-12-13T07:17:02+13:00">
+        13 December 2013
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-la-observacion-en-diseno" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-la-observacion-en-diseno" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <h3 id="exámen-del-taller-de-7ª-etapa">Exámen del Taller de 7ª Etapa</h3>
+    <article>
+      <h3 id="exámen-del-taller-de-7ª-etapa">Exámen del Taller de 7ª Etapa</h3>
 
 <p><strong>Nota</strong> : El taller de 7ª etapa de diseño gráfico trabajó, durante este tercer trimestre con las profesoras Michele Wilkomirsky y Macarena Álamos investigando y desarrollando un sistema de comunicación para la Ciudad Abierta de Amereida. El planteamiento, originado como un auto-encargo, desemboca en un proyecto que el taller aborda como una obra entre todos. A continuación doy cuenta de este proyecto, y de la materia que nos abre dentro del diseño gráfico; o más bien, las preguntas que nos deja abierta señalando el camino que debemos continuar.</p>
 
@@ -163,17 +196,18 @@
 <p>Ha de darse en el continuo diálogo entre la mente que abstae-decide y la mano que interpreta y ejecuta, en una constante iteración que va refinando y precisando la forma, alcanzando su justeza y alivianando su estructura. El taller es una organización, un órgano. Pero, para que opere como tal, debe compartir esta nueva observación, y por ello, se hace preciso que se constituya como lenguaje. Éste es el camino que ya emprendimos.</p>
 
 <p><strong>12 de Diciembre de 2013</strong></p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -186,8 +220,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

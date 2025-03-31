@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Forma Digital | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Forma Digital">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2011/10/forma-digital/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Forma Digital">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Forma Digital</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Forma Digital</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2011/10/image001.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2011-10-31T12:15:02+13:00">
-          31 October 2011
-        </time>
+      
 
-          <a id="btn-citar-forma-digital" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2011-10-31T12:15:02+13:00">
+        31 October 2011
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-forma-digital" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-forma-digital" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948. Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma mantenía una correspondencia directa entre su funcionamiento y su gestualidad. Este objeto puede leerse y entenderse desde su forma mecánica. Con posterioridad a eso, gracias al transistor y posteriormente al circuito integrado, la forma gestual asociada a su función quedó completamente desarticulada de su forma física. Se trató del comienzo de una época de las “formas en libertad”, ya que se dejaba de estar determinado por su estructura mecánica del objeto para diseñarlo su comporamiento. La afirmación: “los computadores pueden ser transformados en cualquier cosa”, a propósito del divorcio entre forma y función, es un tanto confusa. La naturaleza de la función abarca muchas esferas prácticas y una traducción literal alegórica-simbólica se hace imposible en situaciones que carecen de antecedentes. Si bien las formas tecnológicas han alcanzado cierto reposo en su permanente mutabilidad <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, creo que se debe, en gran medida a que se ha alcazado una penetración cultural mayor que exige una mayor inercia pero, sobre todo observamos una postura funcionalista, especialmente determinada por los requierimientos energéticos, performativos y ergonómicos.</p>
+    <article>
+      <p>La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948. Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma mantenía una correspondencia directa entre su funcionamiento y su gestualidad. Este objeto puede leerse y entenderse desde su forma mecánica. Con posterioridad a eso, gracias al transistor y posteriormente al circuito integrado, la forma gestual asociada a su función quedó completamente desarticulada de su forma física. Se trató del comienzo de una época de las “formas en libertad”, ya que se dejaba de estar determinado por su estructura mecánica del objeto para diseñarlo su comporamiento. La afirmación: “los computadores pueden ser transformados en cualquier cosa”, a propósito del divorcio entre forma y función, es un tanto confusa. La naturaleza de la función abarca muchas esferas prácticas y una traducción literal alegórica-simbólica se hace imposible en situaciones que carecen de antecedentes. Si bien las formas tecnológicas han alcanzado cierto reposo en su permanente mutabilidad <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, creo que se debe, en gran medida a que se ha alcazado una penetración cultural mayor que exige una mayor inercia pero, sobre todo observamos una postura funcionalista, especialmente determinada por los requierimientos energéticos, performativos y ergonómicos.</p>
 
 <blockquote>
   <p>It is the pervading law of all things organic and inorganic, Of all things physical and metaphysical, Of all things human and all things super-human, Of all true manifestations of the head, Of the heart, of the soul, That the life is recognizable in its expression, That form ever follows function. This is the law.</p>
@@ -149,17 +182,18 @@
 <li id="fn:2">Dejando de lado todos los casos de objetos de simulación o engaño, de decoración fantasiosa o directamente falsa, o productos aspiracionales para aparentar, ya que no los considero de interés mayor. <a href="#fnref:2" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -172,8 +206,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

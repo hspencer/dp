@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2011/10/forma-digital/
 title: Forma Digital
 date: 2011-10-30 23:15:02 -0000

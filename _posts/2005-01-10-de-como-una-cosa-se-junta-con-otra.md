@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2005/01/de-como-una-cosa-se-junta-con-otra/
 title: "De cómo una cosa se junta con otra"
 date: 2005-01-10 19:15:56 -0000

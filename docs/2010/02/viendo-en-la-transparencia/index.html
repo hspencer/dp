@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Viendo en la Transparencia | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Viendo en la Transparencia">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2010/02/viendo-en-la-transparencia/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Viendo en la Transparencia">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Viendo en la Transparencia</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Viendo en la Transparencia</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2009/04/conical-intersect-19751.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2010-02-10T09:29:14+13:00">
-          10 February 2010
-        </time>
+      
 
-          <a id="btn-citar-viendo-en-la-transparencia" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2010-02-10T09:29:14+13:00">
+        10 February 2010
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-viendo-en-la-transparencia" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-viendo-en-la-transparencia" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>A comienzos del 2007 tuve el inmenso privilegio de asistir a un curso único: Visualización de Información enseñado por <a href="http://www.benfry.com/" title="Página personal de Ben Fry">Ben Fry</a> (creador de Processing) y <a href="http://www.flong.com/" title="Página personal de Golan Levin">Golan Levin</a>, reconocido artista digital. Este curso (único e irrepetible en su especie), se centró en el proceso de generar visualizaciones a partir de grandes cuerpos de datos. El énfasis no estaba puesto en el despliegue técnico —o la proeza del código— sino la capacidad de poder <em>urdir narrativas interesantes</em> a partir de un montón amorfo de data. La metodología de trabajo fue la siguiente, siguiendo la propuesta por Ben Fry en su <a href="http://benfry.com/phd/dissertation-050312b-acrobat.pdf" title="Tesis completa en PDF">tesis doctoral</a>, <em>Computational Information Design</em>.</p>
+    <article>
+      <p>A comienzos del 2007 tuve el inmenso privilegio de asistir a un curso único: Visualización de Información enseñado por <a href="http://www.benfry.com/" title="Página personal de Ben Fry">Ben Fry</a> (creador de Processing) y <a href="http://www.flong.com/" title="Página personal de Golan Levin">Golan Levin</a>, reconocido artista digital. Este curso (único e irrepetible en su especie), se centró en el proceso de generar visualizaciones a partir de grandes cuerpos de datos. El énfasis no estaba puesto en el despliegue técnico —o la proeza del código— sino la capacidad de poder <em>urdir narrativas interesantes</em> a partir de un montón amorfo de data. La metodología de trabajo fue la siguiente, siguiendo la propuesta por Ben Fry en su <a href="http://benfry.com/phd/dissertation-050312b-acrobat.pdf" title="Tesis completa en PDF">tesis doctoral</a>, <em>Computational Information Design</em>.</p>
 
 <ol>
   <li><strong>Adquisición de datos</strong> : Recolección y catastro de datos dinámicos y cambiantes</li>
@@ -144,17 +177,18 @@
 </ol>
 
 <p>Claramente la parte más sucia del proceso es la adquisición de datos porque generalmente hay que sacarlos de lugares donde no los quieren prestar. Hay que construir robots que roben sistemáticamente los datos de determinado sitio web (pero no tan sistemáticamente, para que no te pillen y bloqueen tu IP) buscar y escarbar en tablas HTML, lipiar tags inútiles, etc.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -167,8 +201,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

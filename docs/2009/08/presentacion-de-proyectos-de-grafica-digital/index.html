@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Presentación de Proyectos de Gráfica Digital | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Presentación de Proyectos de Gráfica Digital">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2009/08/presentacion-de-proyectos-de-grafica-digital/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Presentación de Proyectos de Gráfica Digital">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Presentación de Proyectos de Gráfica Digital</h1>
-         
-        <time datetime="2009-08-04T14:02:33+12:00">
-          4 August 2009
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Presentación de Proyectos de Gráfica Digital</h1>
 
-          <a id="btn-citar-presentacion-de-proyectos-de-grafica-digital" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2009-08-04T14:02:33+12:00">
+        4 August 2009
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-presentacion-de-proyectos-de-grafica-digital" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-presentacion-de-proyectos-de-grafica-digital" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250.png" title="Imagen Afiche Expo - Proyectos de Gráfica Digital 2009"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250-260x260.png" alt="Imagen Afiche Expo" /></a>El curso de <strong>Gráfica Digital</strong> busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha diseñado 6 espacios de interacción en la forma de servicios digitales, los cuales serán presentados el día <strong>lunes 17 de Agosto</strong> en la Sala de primer año de Arquitectura.</p>
+    <article>
+      <p><a href="http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250.png" title="Imagen Afiche Expo - Proyectos de Gráfica Digital 2009"><img src="http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250-260x260.png" alt="Imagen Afiche Expo" /></a>El curso de <strong>Gráfica Digital</strong> busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha diseñado 6 espacios de interacción en la forma de servicios digitales, los cuales serán presentados el día <strong>lunes 17 de Agosto</strong> en la Sala de primer año de Arquitectura.</p>
 
 <p>Esta presentación será abierta y se extiende la invitación a todos los interesados.</p>
 
@@ -148,17 +181,18 @@ por Javier Muñoz, Diego Oyarzún, Alexandra Saravia, Marcela Godoy</li>
 
 <p>Cada presentación tendrá una duracción máxima de 15 minutos + 5 minutos para preguntas del público.<br />
 Para más información de estos proyectos, <a href="http://ead.pucv.cl/wiki/index.php/Gr%C3%A1fica_Digital_2009">ver la documentación en Casiopea</a>.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -171,8 +205,8 @@ Para más información de estos proyectos, <a href="http://ead.pucv.cl/wiki/inde
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

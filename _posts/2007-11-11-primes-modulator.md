@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2007/11/primes-modulator/
 title: "Modulador de Números Primos"
 date: 2007-11-12 05:27:29 -0000

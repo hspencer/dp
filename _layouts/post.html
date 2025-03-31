@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+{% include head.html %}
+<body>
+  {% include header.html %}
+
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">{{ page.title }}</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      {% if page.image and page.image.path and page.image.sidebar != false %}
+        <figure>
+          <img
+            src="{{ page.image.path | relative_url }}"
+            alt="{{ page.image.alt | default: '' }}"
+            class="{{ page.image.class | default: '' }}"
+            style="{{ page.image.style | default: '' }}"
+          />
+        </figure>
+      {% endif %}
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      {% if page.p5 and page.p5.script and page.p5.sidebar != false %}
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+        <div id="p5"></div>
+        <script src="{{ page.p5.script | relative_url }}"></script>
+      {% endif %}
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      {% if page.vimeo and page.vimeo.url and page.vimeo.sidebar != false %}
+        <div class="video-container">
+          <iframe
+            src="{{ page.vimeo.url }}"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      {% endif %}
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      {% if page.youtube and page.youtube.url and page.youtube.sidebar != false %}
+        <div class="video-container">
+          <iframe
+            src="{{ page.youtube.url }}"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+      {% endif %}
+
+      <!-- Fecha -->
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%-d %B %Y" }}
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      {% if page.sidebar.html %}
+        <div
+          class="{{ page.sidebar.class | default: '' }}"
+          style="{{ page.sidebar.style | default: '' }}"
+        >
+          {{ page.sidebar.html }}
+        </div>
+      {% endif %}
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      {% if page.sidebar.md %}
+        <div
+          class="{{ page.sidebar.class | default: '' }}"
+          style="{{ page.sidebar.style | default: '' }}"
+        >
+          {{ page.sidebar.md | markdownify }}
+        </div>
+      {% endif %}
+
+      {% include citar.html %}
+    </sidebar>
+
+    <article>
+      {{ content | convert_footnotes | markdownify }}
+      {% include comments.html %}
+    </article>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

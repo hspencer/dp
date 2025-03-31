@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2014/04/arbol-pitagorico/
 title: "Árbol Pitagórico"
 description: "Ejemplo de recursividad usando Processing en un árbol pitagórico;\

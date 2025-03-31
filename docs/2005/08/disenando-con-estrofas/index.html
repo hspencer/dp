@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Diseñando con Estrofas | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Diseñando con Estrofas">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2005/08/disenando-con-estrofas/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Diseñando con Estrofas">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Diseñando con Estrofas</h1>
-         
-        <time datetime="2005-08-11T09:24:11+12:00">
-          11 August 2005
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Diseñando con Estrofas</h1>
 
-          <a id="btn-citar-disenando-con-estrofas" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2005-08-11T09:24:11+12:00">
+        11 August 2005
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-disenando-con-estrofas" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-disenando-con-estrofas" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores de los incontables buscadores existentes. La visibilidad y por tanto la disponibilidad de lo publicado estará en directa relación con la trasparencia estructural de las páginas o documentos. Estas condiciones estimulan a diseñadores a obedecer y diseñar respetando los estándares sugeridos por el <a href="http://www.w3c.org/" title="World Wide Web Consortium">W3C</a> (World Wide Web Consortium) para poder definitivamente asentar las directrices de este medio que comienza a ordenarse.</p>
+    <article>
+      <p>La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores de los incontables buscadores existentes. La visibilidad y por tanto la disponibilidad de lo publicado estará en directa relación con la trasparencia estructural de las páginas o documentos. Estas condiciones estimulan a diseñadores a obedecer y diseñar respetando los estándares sugeridos por el <a href="http://www.w3c.org/" title="World Wide Web Consortium">W3C</a> (World Wide Web Consortium) para poder definitivamente asentar las directrices de este medio que comienza a ordenarse.</p>
 
 <p>Es por esto, que <a href="http://www.cursos.ucv.cl/arq48300/" title="Gráfica Digital 2005">este año 2005</a>, la asignatura de <a href="http://www.ead.pucv.cl/asignaturas/area-tecnica/grafica-digital/" title="Descripción de la Asignatura">Gráfica Digital</a> se ha adentrado hacia la comprensión de los códigos en juego, específicamente el lenguaje de marcado HTML y el diseño basado en Cascadas de Estilo CSS.</p>
 
@@ -154,17 +187,18 @@
 <p>Al terminar este curso, cada alumno enviará su proposición de CSS para “re-vestir” el sitio<a href="http://www.csszengarden.com/" title="CSSZenGarden">CSSZenGarden</a>. En este sentido, ententemos el diseño como  <em>la diversión del hábito</em><strong>1</strong>.</p>
 
 <p><em>1.- Definición de Diseño acuñada por el profesor José Balcells E.</em></p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -177,8 +211,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

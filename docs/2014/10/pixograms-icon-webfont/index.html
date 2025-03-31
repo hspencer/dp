@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión An extensive font family aimed for constructing Interaction Scores (PiX). This webfont is opensource and available in github.">
-    <meta name="author" content="">
+    <meta name="description" content="An extensive font family aimed for constructing Interaction Scores (PiX). This webfont is opensource and available in github.">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Pixograms Icon Webfont | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Pixograms Icon Webfont">
+    <meta property="og:description" content="An extensive font family aimed for constructing Interaction Scores (PiX). This webfont is opensource and available in github.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2014/10/pixograms-icon-webfont/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pixograms Icon Webfont">
+    <meta name="twitter:description" content="An extensive font family aimed for constructing Interaction Scores (PiX). This webfont is opensource and available in github.">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Pixograms Icon Webfont</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Pixograms Icon Webfont</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2014/10/pixograms.gif"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2014-10-31T01:00:53+13:00">
-          31 October 2014
-        </time>
+      
 
-          <a id="btn-citar-pixograms-icon-webfont" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2014-10-31T01:00:53+13:00">
+        31 October 2014
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-pixograms-icon-webfont" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-pixograms-icon-webfont" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Las <a href="http://herbertspencer.net/2008/11/partituras-de-interaccion-2/" title="Partituras de Interacción">partituras de interacción</a>, introducidas el 2008 como un sistema de notación gráfica para el diseño de experiencia, han sido adoptadas por muchos profesionales y equipos de diseño sobre todo en el contexto nacional. Este año, hemos decidido darles un ajuste construyendo una herramienta que facilite su creación. Una de las mayores dificultades para ser adoptadas dentro de las metodologías de trabajo, y su posterior consolidación en el tiempo, radica en el tiempo que involucra crearlas ya que actualmente sólo disponemos de plantillas para Illustrator y Omnigraffle.</p>
+    <article>
+      <p>Las <a href="http://herbertspencer.net/2008/11/partituras-de-interaccion-2/" title="Partituras de Interacción">partituras de interacción</a>, introducidas el 2008 como un sistema de notación gráfica para el diseño de experiencia, han sido adoptadas por muchos profesionales y equipos de diseño sobre todo en el contexto nacional. Este año, hemos decidido darles un ajuste construyendo una herramienta que facilite su creación. Una de las mayores dificultades para ser adoptadas dentro de las metodologías de trabajo, y su posterior consolidación en el tiempo, radica en el tiempo que involucra crearlas ya que actualmente sólo disponemos de plantillas para Illustrator y Omnigraffle.</p>
 
 <p>El avance es crear una aplicación que te permita <em>escribir las partituras</em> , con la fluidez de un compositor. Para esto estamos creando una <a href="http://eadpucv.github.io/pix" title="PiX">aplicación web</a>. La dependencia principal de esa aplicación es una tipografía de íconos que trabaja con ligaduras llamada <strong><a href="http://eadpucv.github.io/pixograms" title="PiXograms">Pixograms</a></strong> , que define un lenguaje visual básico para construir partituras de interacción o PiX –como las hemos llamado–. Dentro de los íconos tenemos diferentes categorías, como acciones de alto nivel (compartir, valorar, enviar, etc.), gestos touch, objetos comunes, respuestas del servidor y elementos abstractos, entre otros.</p>
 
@@ -140,17 +173,18 @@
 <p><a href="/assets/uploads/2014/10/pixograms-sprites.png"><img src="/assets/uploads/2014/10/pixograms-sprites-470x293.png" alt="pixograms-sprites" /></a></p>
 
 <p>Esta webfont está creada con <a href="https://github.com/sapegin/grunt-webfont">grunt-webfont</a> y con <a href="http://blog.hugo.solar/2014/08/crear-webfonts-ligaduras-con-svg-mediante-grunt-webfont/">la valiosa ayuda de Hugo Solar</a>, quien nos está ayudando a desarrollar el servicio de partituras PiX. El proyecto, bajo licencia artística, permite que otros puedan tomar esta familia como base para otros proyectos de diseño. Esperamos ir actualizando esta familia en la medida que las partituras requieran expandir su lenguaje incorporando más conceptos y objetos.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -163,8 +197,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

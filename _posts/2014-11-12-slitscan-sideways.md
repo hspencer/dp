@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2014/11/slitscan-sideways/
 title: 'Sideways: Slitscan for Urban Travellers'
 description: Sideways is a very small program created with Processing that creates

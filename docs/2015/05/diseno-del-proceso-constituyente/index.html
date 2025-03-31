@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Diseño del Proceso Constituyente | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Diseño del Proceso Constituyente">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2015/05/diseno-del-proceso-constituyente/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Diseño del Proceso Constituyente">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Diseño del Proceso Constituyente</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Diseño del Proceso Constituyente</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2015/05/001210.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2015-05-19T03:56:46+12:00">
-          19 May 2015
-        </time>
+      
 
-          <a id="btn-citar-diseno-del-proceso-constituyente" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2015-05-19T03:56:46+12:00">
+        19 May 2015
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-diseno-del-proceso-constituyente" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-diseno-del-proceso-constituyente" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>El proceso constituyente, que ha prometido ser altamente inclusivo y participativo, no puede pensarse hoy omitiendo la realidad que impone una sociedad en red, mediada por el software social viviendo bajo los códigos estéticos y performáticos del diseño de interacción.</p>
+    <article>
+      <p>El proceso constituyente, que ha prometido ser altamente inclusivo y participativo, no puede pensarse hoy omitiendo la realidad que impone una sociedad en red, mediada por el software social viviendo bajo los códigos estéticos y performáticos del diseño de interacción.</p>
 
 <p>El punto que quiero hacer es que una empresa deliberativa a gran escala como promete ser este proceso constituyente, con las expectativas que depositado en cuanto inclusión y validación ciudadana, no puede saltarse la gran oportunidad que abre el diseñar una plataforma digital de deliberación social que mejore los procesos democráticos, que de visibilidad a voces que no son representadas y que, en definitiva, sirva para contrastar el discurso político oficial con el discurso ciudadano.</p>
 
@@ -165,17 +198,18 @@
   <li><a href="http://democracyos.org/">Democracy OS</a></li>
   <li><a href="https://www.codeforamerica.org/governments/principles/">Principles for the 21st Century Government</a> (de la iniciativa <em>Code for America</em>)</li>
 </ul>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -188,8 +222,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

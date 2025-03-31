@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2014/10/pixograms-icon-webfont/
 title: Pixograms Icon Webfont
 description: An extensive font family aimed for constructing Interaction Scores (PiX).

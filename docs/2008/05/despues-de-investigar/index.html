@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Después de Investigar | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Después de Investigar">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/05/despues-de-investigar/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Después de Investigar">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Después de Investigar</h1>
-         
-        <time datetime="2008-05-06T00:48:57+12:00">
-          6 May 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Después de Investigar</h1>
 
-          <a id="btn-citar-despues-de-investigar" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-05-06T00:48:57+12:00">
+        6 May 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-despues-de-investigar" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-despues-de-investigar" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Está claro que la <strong>investigación exploratoria</strong> con usuarios adquiere cada vez más valor en los proyectos (aunque todavía, para los ojos del cliente, sea muy difícil justificarla y formalizarla dentro de una Gantt). Esta investigación preliminar nos permite definir el territorio de acción y comprender los <a href="http://www.darcy.cl/usabilidad/%c2%bfque-son-los-modelos-mentales/" title="Lo que Darcy dice">modelos mentales</a> de las personas involucradas. Sólo desde ahí podremos avanzar en definiciones de valor para el diseño. Dentro de una oficina de diseño —como <a href="http://www.ayerviernes.com" title="AyerViernes S.A.">AyerViernes</a>— el proceso de investigación se instala cada vez más como una pieza clave dentro del proceso creativo; cada vez se hace más patente el valor que trae un agudo conocimiento de las personas para construir diseños eficaces, apropiables y queribles. El desafío entonces no radica en elegir una metodología de investigación adecuada, sino más bien en cómo leemos en la información obtenida <strong>implicancias para el diseño</strong>.</p>
+    <article>
+      <p>Está claro que la <strong>investigación exploratoria</strong> con usuarios adquiere cada vez más valor en los proyectos (aunque todavía, para los ojos del cliente, sea muy difícil justificarla y formalizarla dentro de una Gantt). Esta investigación preliminar nos permite definir el territorio de acción y comprender los <a href="http://www.darcy.cl/usabilidad/%c2%bfque-son-los-modelos-mentales/" title="Lo que Darcy dice">modelos mentales</a> de las personas involucradas. Sólo desde ahí podremos avanzar en definiciones de valor para el diseño. Dentro de una oficina de diseño —como <a href="http://www.ayerviernes.com" title="AyerViernes S.A.">AyerViernes</a>— el proceso de investigación se instala cada vez más como una pieza clave dentro del proceso creativo; cada vez se hace más patente el valor que trae un agudo conocimiento de las personas para construir diseños eficaces, apropiables y queribles. El desafío entonces no radica en elegir una metodología de investigación adecuada, sino más bien en cómo leemos en la información obtenida <strong>implicancias para el diseño</strong>.</p>
 
 <h3 id="desde-los-datos-a-la-información">Desde los Datos a la Información</h3>
 
@@ -142,17 +175,18 @@
 <p><a href="/assets/uploads/2008/04/desing_process1.jpg"><img src="/assets/uploads/2008/04/desing_process1.jpg" alt="proceso de diseño" /></a> (1) brief (2) generación (3) proposición</p>
 
 <p>Si entendemos este diagrama como un proceso genérico de diseño que comienza como un encargo que —normalmente— intenta integrar las dimensiones comerciales, sociales y tecnológicas (los tres ejes rojos); nos damos cuenta que la fase intermedia, aquella en la cual se generan los conceptos básicos a implementar, requiere necesariamente de la <strong>sintetización exploratoria</strong> como diagnóstico inicial que permita una <strong>visión del total</strong>. Sólo a partir de esta comprensión estaremos en buen pie para comenzar a prototipar proposiciones de diseño.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -165,8 +199,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

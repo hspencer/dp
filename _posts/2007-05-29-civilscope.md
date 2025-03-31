@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2007/05/civilscope/
 title: Civilscope
 date: 2007-05-29 15:32:59 -0000

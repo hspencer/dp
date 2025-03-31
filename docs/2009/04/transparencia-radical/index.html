@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Transparencia Radical | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Transparencia Radical">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2009/04/transparencia-radical/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Transparencia Radical">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Transparencia Radical</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Transparencia Radical</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2009/04/conical-intersect-19751.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2009-04-22T11:44:25+12:00">
-          22 April 2009
-        </time>
+      
 
-          <a id="btn-citar-transparencia-radical" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2009-04-22T11:44:25+12:00">
+        22 April 2009
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-transparencia-radical" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-transparencia-radical" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Roberto Matta imaginaba a un ser que tenía el poder de volver las cosas transparentes y que permitiesen al resto <em>ver</em>. Lo llamaba <em>el ver-tor (o virteur)</em> , el Gran Transparente. Es la imagen del artista como vidente <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> que desde su mirada pura es capaz de revelar a los demás las estructuras subyacentes (a veces insoportables, crudas y avasalladoras), los grandes <em>totems</em> de la sociedad ocultados tras las apariencias. Cada época tiene su propia poética, una espiritualidad especial y precisa que le permite comprender y reapasionar al mundo. Según Wassily Kandisky <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup> esta espiritualidad tiene forma de un triángulo apoyado en su base. El triángulo avanza lentamente hacia arriba y hacia adelante, tirado por una élite espiritual (los artistas). Al cabo de algún tiempo, lo que era comprendido y valorado por una minoría, pasa a ser patrimonio de todo el resto de nosotros; nos apropiamos de los códigos, hacemos nuestra esa visión y expresión. Creo que eso es lo que ha pasado con la transparencia, como concepto y como valor artístico. Ha sido absorbida (para bien, espero) en su totalidad por la sociedad. Como diría Kandinsky, ha llegado a la base del triángulo y hoy es moneda de cambio, casi un <em>commodity</em>. La transparencia ha llegado a la vida diaria como valor que perseguir y construir, al estado como exigencia, a la política como un deber ético y a la <a href="http://en.wikipedia.org/wiki/Radical_transparency" title="Concepto ya reconocido en inglés, ver definición de Wikipedia">administración</a> en general como una estrategia de sostenibilidad. Ahora la transparencia es algo exijible a los organismos públicos (casi un commodity, como decía antes, expresado en el “sticker” de “gobierno transparente” en cada sitio del estado). Sin embargo, me preocupa qué es lo que se entiende por transparencia y hacia dónde apunta esta iniciativa. Como concepto, es potentísimo y eso nos indica que vivimos en tiempos extraordinarios, casi épicos. Por eso debemos construir —entre todos, ojalá— el sentido de la transparencia.</p>
+    <article>
+      <p>Roberto Matta imaginaba a un ser que tenía el poder de volver las cosas transparentes y que permitiesen al resto <em>ver</em>. Lo llamaba <em>el ver-tor (o virteur)</em> , el Gran Transparente. Es la imagen del artista como vidente <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> que desde su mirada pura es capaz de revelar a los demás las estructuras subyacentes (a veces insoportables, crudas y avasalladoras), los grandes <em>totems</em> de la sociedad ocultados tras las apariencias. Cada época tiene su propia poética, una espiritualidad especial y precisa que le permite comprender y reapasionar al mundo. Según Wassily Kandisky <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup> esta espiritualidad tiene forma de un triángulo apoyado en su base. El triángulo avanza lentamente hacia arriba y hacia adelante, tirado por una élite espiritual (los artistas). Al cabo de algún tiempo, lo que era comprendido y valorado por una minoría, pasa a ser patrimonio de todo el resto de nosotros; nos apropiamos de los códigos, hacemos nuestra esa visión y expresión. Creo que eso es lo que ha pasado con la transparencia, como concepto y como valor artístico. Ha sido absorbida (para bien, espero) en su totalidad por la sociedad. Como diría Kandinsky, ha llegado a la base del triángulo y hoy es moneda de cambio, casi un <em>commodity</em>. La transparencia ha llegado a la vida diaria como valor que perseguir y construir, al estado como exigencia, a la política como un deber ético y a la <a href="http://en.wikipedia.org/wiki/Radical_transparency" title="Concepto ya reconocido en inglés, ver definición de Wikipedia">administración</a> en general como una estrategia de sostenibilidad. Ahora la transparencia es algo exijible a los organismos públicos (casi un commodity, como decía antes, expresado en el “sticker” de “gobierno transparente” en cada sitio del estado). Sin embargo, me preocupa qué es lo que se entiende por transparencia y hacia dónde apunta esta iniciativa. Como concepto, es potentísimo y eso nos indica que vivimos en tiempos extraordinarios, casi épicos. Por eso debemos construir —entre todos, ojalá— el sentido de la transparencia.</p>
 
 <div class="footnotes">
   <hr />
@@ -141,17 +174,18 @@
 <li id="fn:2">De lo Espiritual en el Arte, <em>Über das Geistige in der Kunst</em> , 1952 <a href="#fnref:2" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -164,8 +198,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

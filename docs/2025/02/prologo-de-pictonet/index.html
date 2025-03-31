@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Prólogo de PictoNet | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Prólogo de PictoNet">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2025/02/prologo-de-pictonet/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Prólogo de PictoNet">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Prólogo de PictoNet</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Prólogo de PictoNet</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2025/02/prologo-pictonet-ia.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2025-02-27T18:43:22+13:00">
-          27 February 2025
-        </time>
+      
 
-          <a id="btn-citar-prologo-de-pictonet" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2025-02-27T18:43:22+13:00">
+        27 February 2025
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-prologo-de-pictonet" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-prologo-de-pictonet" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunitaria. Diría que ese es el hilo conductor de todo: cierta idea respecto a la “activación social” que determinada plataforma permite o habilita.</p>
+    <article>
+      <p>A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunitaria. Diría que ese es el hilo conductor de todo: cierta idea respecto a la “activación social” que determinada plataforma permite o habilita.</p>
 
 <p>Podría tratarse de la idea de la “<a href="https://es.wikipedia.org/wiki/Convivialidad">convivencialidad</a>” por aproximación y afinidad. Esto ha estado presente en proyectos como <strong><a href="https://wiki.ead.pucv.cl/Con§tel">Con§tel</a></strong> (2005-2006) que exploraba la idea de la <em>marginalia compartida</em> dentro del estudio dentro de una escuela de pensamiento. Y la plataforma permitía, a cada uno, ubicarse en un mapa conceptual observado por todos (no relativizado en un <em>timeline</em> subjetivo producto de un algoritmo de recomendación, como ocurre hoy). Otro proyecto significativo en este ámbito es la Wiki <strong><a href="https://wiki.ead.pucv.cl/">Casiopea</a></strong> , donde cada página es editable, mejorable y actualizable; no impone ni determina sino que está abierta y disponible para ser construida y reconstruida.</p>
 
@@ -251,17 +284,18 @@
 <li id="fn:1">Un intento temprano en esta línea es el conjunto de pictogramas desarrollados para <a href="https://github.com/hspencer/lectogram">Lectogram</a>. Este conjunto de pictogramas está pensado desde el texto de las tareas del hogar. <a href="#fnref:1" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -274,8 +308,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

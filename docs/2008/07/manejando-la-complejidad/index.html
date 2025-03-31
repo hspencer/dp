@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Manejando la Complejidad | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Manejando la Complejidad">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/07/manejando-la-complejidad/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Manejando la Complejidad">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Manejando la Complejidad</h1>
-         
-        <time datetime="2008-07-29T00:26:45+12:00">
-          29 July 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Manejando la Complejidad</h1>
 
-          <a id="btn-citar-manejando-la-complejidad" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-07-29T00:26:45+12:00">
+        29 July 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-manejando-la-complejidad" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-manejando-la-complejidad" class="modal-citar">
     <div class="modal-contenido">
@@ -119,21 +152,22 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Entre Ciencia y Arte hay un puente que está hecho por el Diseño. Desde la poética de la creación a la retórica de la razón. Sin embargo, ese paso nunca se nos ha mostrado claramente ni se pueden dividir las aguas para proponer un Diseño “más artístico” o “más científico”. Por lo menos, no de un modo en que siga siendo buen Diseño. Desde un punto de vista bastante peculiar, el diseñador <a href="http://www.interaction.rca.ac.uk/people/staff/anthony-dunne.html">Tony Dunne</a> profesor de <a href="http://www.interaction.rca.ac.uk/">Design Interactions at the RCA</a>, aborda la pedagogía del Diseño desde una postura comprometida con la responsabilidad social. Pero no lo hace un el sentido convensional sino más bien instaura el diseño como la <strong>materialización de un tema para el debate</strong>. Se trata de intervenir en problemáticas o insterticios —normalmente asociados a tecnologías futuras— que resultan difíciles de plantear y discutir, debido a la complejidad de los mismos. Él “va río arriba” en términos especulativos y genera productos hipotéticos basados en tecnologías (biología sintética, manipulación genética o similares) para <strong>volver tangibles los problemas</strong> y generar el debate antes de que estos productos existan efectivamente, o —como él lo pone— que “pasen del laboratorio al mercado”; para saber si realmente queremos cosas así o no. Si las cosas son tangibles, entonces son debatibles; volviendo concreto lo fragmentado y extañamente efímero. Se trata de pensar un Diseño que palntee preguntas y no sólo respuestas, como estamos acostumbrados. Para más detalles de <a href="http://www.interaction.rca.ac.uk/briefs/designForDebate.html">design for debate</a>, basta mirar algunas notas de la conferencia del año pasado <a href="http://interface.fh-potsdam.de/innoforum/index.php">Innovationsforum Interaktionsdesign</a> efectuada en Potsdam:  <a href="http://www.vimeo.com/734763?pg=embed&amp;sec=734763">Anthony Dunne // Dunne &amp; Raby</a> from <a href="http://www.vimeo.com/user378630?pg=embed&amp;sec=734763">Innovationsforum</a> on <a href="http://vimeo.com?pg=embed&amp;sec=734763">Vimeo</a>. La idea de que el Diseño puede jugar un rol crucial en el manejo de estas situaciones complejas es difícilmente novedoso pero podemos ver un gran potencial en la idea de diseñar “objetos controversiales” que sean absolutamente verosímiles, que aborden necesidades reales, que sean productivamente viables y que a la vez, sean capaces de generar un debate en temas cruciales y de interés público. Me gusta este punto de vista porque, además, <strong>revierte la dinámica tradicional del tecnodeterminismo</strong> donde el diseño se ocupa de construir aplicaciones a tecnologías ya desarrolladas y no tiene voz ni voto en decidir si se trata realmente de algo que queremos o no.</p>
- <script src="https://utteranc.es/client.js"
+    <article>
+      <p>Entre Ciencia y Arte hay un puente que está hecho por el Diseño. Desde la poética de la creación a la retórica de la razón. Sin embargo, ese paso nunca se nos ha mostrado claramente ni se pueden dividir las aguas para proponer un Diseño “más artístico” o “más científico”. Por lo menos, no de un modo en que siga siendo buen Diseño. Desde un punto de vista bastante peculiar, el diseñador <a href="http://www.interaction.rca.ac.uk/people/staff/anthony-dunne.html">Tony Dunne</a> profesor de <a href="http://www.interaction.rca.ac.uk/">Design Interactions at the RCA</a>, aborda la pedagogía del Diseño desde una postura comprometida con la responsabilidad social. Pero no lo hace un el sentido convensional sino más bien instaura el diseño como la <strong>materialización de un tema para el debate</strong>. Se trata de intervenir en problemáticas o insterticios —normalmente asociados a tecnologías futuras— que resultan difíciles de plantear y discutir, debido a la complejidad de los mismos. Él “va río arriba” en términos especulativos y genera productos hipotéticos basados en tecnologías (biología sintética, manipulación genética o similares) para <strong>volver tangibles los problemas</strong> y generar el debate antes de que estos productos existan efectivamente, o —como él lo pone— que “pasen del laboratorio al mercado”; para saber si realmente queremos cosas así o no. Si las cosas son tangibles, entonces son debatibles; volviendo concreto lo fragmentado y extañamente efímero. Se trata de pensar un Diseño que palntee preguntas y no sólo respuestas, como estamos acostumbrados. Para más detalles de <a href="http://www.interaction.rca.ac.uk/briefs/designForDebate.html">design for debate</a>, basta mirar algunas notas de la conferencia del año pasado <a href="http://interface.fh-potsdam.de/innoforum/index.php">Innovationsforum Interaktionsdesign</a> efectuada en Potsdam:  <a href="http://www.vimeo.com/734763?pg=embed&amp;sec=734763">Anthony Dunne // Dunne &amp; Raby</a> from <a href="http://www.vimeo.com/user378630?pg=embed&amp;sec=734763">Innovationsforum</a> on <a href="http://vimeo.com?pg=embed&amp;sec=734763">Vimeo</a>. La idea de que el Diseño puede jugar un rol crucial en el manejo de estas situaciones complejas es difícilmente novedoso pero podemos ver un gran potencial en la idea de diseñar “objetos controversiales” que sean absolutamente verosímiles, que aborden necesidades reales, que sean productivamente viables y que a la vez, sean capaces de generar un debate en temas cruciales y de interés público. Me gusta este punto de vista porque, además, <strong>revierte la dinámica tradicional del tecnodeterminismo</strong> donde el diseño se ocupa de construir aplicaciones a tecnologías ya desarrolladas y no tiene voz ni voto en decidir si se trata realmente de algo que queremos o no.</p>
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -146,8 +180,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

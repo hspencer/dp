@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/06/taller-abierto-de-processing/
 title: Taller Abierto de Processing
 date: 2008-06-23 17:48:27 -0000

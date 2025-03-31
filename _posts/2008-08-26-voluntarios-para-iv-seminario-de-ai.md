@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/08/voluntarios-para-iv-seminario-de-ai/
 title: Voluntarios para IV Seminario de AI
 date: 2008-08-26 16:09:15 -0000

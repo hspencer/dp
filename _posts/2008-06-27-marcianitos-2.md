@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/06/marcianitos-2/
 title: Marcianitos
 date: 2008-06-28 00:56:23 -0000

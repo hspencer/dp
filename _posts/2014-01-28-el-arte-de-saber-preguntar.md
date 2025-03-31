@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2014/01/el-arte-de-saber-preguntar/
 title: El arte de saber preguntar
 date: 2014-01-28 20:37:47 -0000

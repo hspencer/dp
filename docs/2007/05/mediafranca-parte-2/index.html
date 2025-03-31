@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>MediaFranca, parte 2 | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="MediaFranca, parte 2">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2007/05/mediafranca-parte-2/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MediaFranca, parte 2">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">MediaFranca, parte 2</h1>
-         
-        <time datetime="2007-05-09T03:48:35+12:00">
-          9 May 2007
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">MediaFranca, parte 2</h1>
 
-          <a id="btn-citar-mediafranca-parte-2" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2007-05-09T03:48:35+12:00">
+        9 May 2007
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-mediafranca-parte-2" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-mediafranca-parte-2" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><a href="http://vimeo.com/1464012">MediaFranca</a> de <a href="http://vimeo.com/hspencer">Herbert Spencer</a> en <a href="http://vimeo.com">Vimeo</a>. MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es construir un sistema que conecte a personas con lugares y con temas de interés social (<em>issues</em>) mediante un diáogo simétrico y democrático. Esta plataforma intenta salvar la distancia entre la conversación mediada digitalmente y la conversación cara a cara, promoviendo el paso de la interacción digital a la fí­sica, desplegando palabra en acción, y constituyendo así­ herramientas para la participación ciudadana. Dentro de las caracterí­sticas más importantes del sistema podemos mencionar:</p>
+    <article>
+      <p><a href="http://vimeo.com/1464012">MediaFranca</a> de <a href="http://vimeo.com/hspencer">Herbert Spencer</a> en <a href="http://vimeo.com">Vimeo</a>. MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es construir un sistema que conecte a personas con lugares y con temas de interés social (<em>issues</em>) mediante un diáogo simétrico y democrático. Esta plataforma intenta salvar la distancia entre la conversación mediada digitalmente y la conversación cara a cara, promoviendo el paso de la interacción digital a la fí­sica, desplegando palabra en acción, y constituyendo así­ herramientas para la participación ciudadana. Dentro de las caracterí­sticas más importantes del sistema podemos mencionar:</p>
 
 <ul>
   <li>Interfaz fotográfica de AR (Augmented Reality) que permite examinar y atachar contenidos al entorno inmediato</li>
@@ -132,17 +165,18 @@
 </ul>
 
 <p>Este video muestra someramente 2 escenarios de uso. Creo que lo más importante que plantea este proyecto es pensar el diseño de interacción como un oficio que debe velar por la sustentabilidad social de los medios de comunicación. MediaFranca permite la coordinación directa entre las personas, permite el afloramiento de discursos emergentes y promueve la desintermediación cí­vica. En este sentido, intenta de ser una “<a href="http://opencollector.org/history/homebrew/tools.html">herramienta convivial</a>” como dirí­a Ivan Illich. Para los que quieran leer más de este proyecto, pueden acceder a la <a href="http://www.herbertspencer.net/thesis/">documentación completa</a>.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -155,8 +189,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>2x2x2 | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="2x2x2">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2006/10/2x2x2/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="2x2x2">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">2x2x2</h1>
-         
-        <time datetime="2006-10-30T04:34:24+13:00">
-          30 October 2006
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">2x2x2</h1>
 
-          <a id="btn-citar-2x2x2" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2006-10-30T04:34:24+13:00">
+        30 October 2006
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-2x2x2" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-2x2x2" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Los arreglos <strong>2x2</strong> son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje <strong>X</strong> puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje <strong>Y</strong> puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”. A partir de esta “cancha” podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar “rolls”, etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo privado como la participación en la generación de contenidos. Imagino que para poder construir una buen modelo 2x2 hay que validar las impresiones personales en una discusión grupal, calibrando todas estas ubicaciones para dejarlas lo menos arbitrarias posibles. <a href="http://www.maya.com/web/how/how_expertanalysis.mtml">Aquí­</a> hay un ejemplo que encontré (no es muy bueno pero sirve para que entiendan la idea) y <a href="http://www.herbertspencer.net/thesis/images/c/c5/2x2_opportunity.jpg">aquí­</a> hay otro que hice yo, para identificar un área de oportunidad para un proyecto especí­fico. Normalmente la información representada en estos modelos es de naturaleza cualitativa y está sujeta a la percepción del diseñador en el sentido de la exactitud de su ubicación. En el fondo corresponde a un profundo proceso de sí­ntesis y el arreglo bidimensional (2x2) resultante permite identificar oportunidades para diseñar en áreas no exploradas por los productos existentes (esto se aplica al ejemplo particular que estoy dando, pero pueden ser utilizados para otra cosa, por cierto). Lo que hice aquí­ es un experimento en <a href="http://www.processing.org">processing</a> que construye un 2x2x2. Se trata de un intento de construir una relación entre 3 dimensiones semánticas y permitir la construcción de un modelo que sea consistente con las tres simultáneamente. El hecho de que la secuencia entre las distintas vistas (x,y), (y,z), (x,z), etc. esté animada, constituye la clave cognitiva para que el lector pueda hacer el puente entre cada una de ellas. Este ejemplo no representa ninguna relación en particular, tan sólo se trata de puntos dispuestos al azar (en una función de ruido espefí­cicamente); la idea es comprobar si una representación de esta naturaleza ofrece la coherencia y legibilidad necesaria como para construir un argumento a partir de ella. A disposición de ustedes les dejo el código para que jueguen. <a href="http://www.herbertspencer.net/processing/conceptual_models/" title="modelos conceptuales para los diversos modos de actividad física">Aquí también hay un ejemplo aplicado</a>. ``</p>
+    <article>
+      <p>Los arreglos <strong>2x2</strong> son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje <strong>X</strong> puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje <strong>Y</strong> puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”. A partir de esta “cancha” podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar “rolls”, etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo privado como la participación en la generación de contenidos. Imagino que para poder construir una buen modelo 2x2 hay que validar las impresiones personales en una discusión grupal, calibrando todas estas ubicaciones para dejarlas lo menos arbitrarias posibles. <a href="http://www.maya.com/web/how/how_expertanalysis.mtml">Aquí­</a> hay un ejemplo que encontré (no es muy bueno pero sirve para que entiendan la idea) y <a href="http://www.herbertspencer.net/thesis/images/c/c5/2x2_opportunity.jpg">aquí­</a> hay otro que hice yo, para identificar un área de oportunidad para un proyecto especí­fico. Normalmente la información representada en estos modelos es de naturaleza cualitativa y está sujeta a la percepción del diseñador en el sentido de la exactitud de su ubicación. En el fondo corresponde a un profundo proceso de sí­ntesis y el arreglo bidimensional (2x2) resultante permite identificar oportunidades para diseñar en áreas no exploradas por los productos existentes (esto se aplica al ejemplo particular que estoy dando, pero pueden ser utilizados para otra cosa, por cierto). Lo que hice aquí­ es un experimento en <a href="http://www.processing.org">processing</a> que construye un 2x2x2. Se trata de un intento de construir una relación entre 3 dimensiones semánticas y permitir la construcción de un modelo que sea consistente con las tres simultáneamente. El hecho de que la secuencia entre las distintas vistas (x,y), (y,z), (x,z), etc. esté animada, constituye la clave cognitiva para que el lector pueda hacer el puente entre cada una de ellas. Este ejemplo no representa ninguna relación en particular, tan sólo se trata de puntos dispuestos al azar (en una función de ruido espefí­cicamente); la idea es comprobar si una representación de esta naturaleza ofrece la coherencia y legibilidad necesaria como para construir un argumento a partir de ella. A disposición de ustedes les dejo el código para que jueguen. <a href="http://www.herbertspencer.net/processing/conceptual_models/" title="modelos conceptuales para los diversos modos de actividad física">Aquí también hay un ejemplo aplicado</a>. ``</p>
 
 <div class="language-plaintext highlighter-rouge">
   <div class="highlight">
@@ -212,17 +245,18 @@ fill(#CC0000, 40);// color + alpha of the spheres
 </code></pre>
   </div>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -235,8 +269,8 @@ fill(#CC0000, 40);// color + alpha of the spheres
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

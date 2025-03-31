@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/02/para-que-investigamos-con-usuarios/
 title: "Para qué investigamos con usuarios"
 date: 2008-02-28 03:41:38 -0000

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2006/08/honeydew-agent/
 title: Honeydew Agent
 date: 2006-08-22 16:42:13 -0000

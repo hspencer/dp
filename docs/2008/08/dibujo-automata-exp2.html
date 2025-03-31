@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Dibujo Autómata (experimento 2) | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Dibujo Autómata (experimento 2)">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/08/dibujo-automata-exp2">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dibujo Autómata (experimento 2)">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Dibujo Autómata (experimento 2)</h1>
-         
-        <time datetime="2008-08-13T01:14:03+12:00">
-          13 August 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Dibujo Autómata (experimento 2)</h1>
 
-          <a id="btn-citar-dibujo-automata-exp2" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-08-13T01:14:03+12:00">
+        13 August 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-dibujo-automata-exp2" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-dibujo-automata-exp2" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><a href="http://vimeo.com/1515679"><img src="http://b.vimeocdn.com/ts/594/054/59405482_200.jpg" alt="" /></a></p>
+    <article>
+      <p><a href="http://vimeo.com/1515679"><img src="http://b.vimeocdn.com/ts/594/054/59405482_200.jpg" alt="" /></a></p>
 
 <p>Nace un trazo en el centro de la superficie rectangular.<br />
 Este trazo avanza hacia arriba y gira suavemente en forma azarosa. Tanto su grosor, su velocidad como su giro oscilan de la misma forma; mediante la función NOISE (de Ken Perlin: <a href="http://www.noisemachine.com/talk1/index.html">noisemachine.com/talk1/index.html</a>). Este trazo puede dar inicio a una ramificación, dependiendo de su factor de fertilidad.<br />
@@ -133,17 +166,18 @@ El trazo termina cuando choca con otro trazo existente.</p>
 <p><strong>Cast:</strong> <a href="http://vimeo.com/hspencer">Herbert Spencer</a></p>
 
 <p><strong>Tags:</strong> <a href="http://vimeo.com/tag:processing">processing</a>, <a href="http://vimeo.com/tag:bandw">b&amp;w;</a>, <a href="http://vimeo.com/tag:experimental">experimental</a>, <a href="http://vimeo.com/tag:automata">automata</a>, <a href="http://vimeo.com/tag:drawing">drawing</a>, <a href="http://vimeo.com/tag:perlin">perlin</a> and <a href="http://vimeo.com/tag:noise">noise</a></p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -156,8 +190,8 @@ El trazo termina cuando choca con otro trazo existente.</p>
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

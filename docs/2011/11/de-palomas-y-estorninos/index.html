@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>De Palomas y Estorninos | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="De Palomas y Estorninos">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2011/11/de-palomas-y-estorninos/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="De Palomas y Estorninos">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">De Palomas y Estorninos</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">De Palomas y Estorninos</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2011/11/palomas-estorninos.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2011-11-02T23:33:01+13:00">
-          2 November 2011
-        </time>
+      
 
-          <a id="btn-citar-de-palomas-y-estorninos" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2011-11-02T23:33:01+13:00">
+        2 November 2011
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-de-palomas-y-estorninos" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-de-palomas-y-estorninos" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Las recientes movilizaciones ciudadanas en Chile y en el mundo, en su transversalidad y convocatoria, han puesto en cuestión el esquema de conversación social aportándonos con experiencias muchas veces directas (desde dentro, digamos) y rectificadoras de algunas premisas teóricas que teníamos equivocadas. Entre ellas, el supuesto deterioro del capital social –que pensábamos– se concentraba entre los más jóvenes. La aparente apatía juvenil, observada por diversos estudios durante los últimos años, no resultó ser otra cosa que una profunda desesperanza e impotencia producto de la desconfianza hacia un sistema sin canales viables para la participación, manifestándose este año en oleadas sucesivas de movilizaciones que han girado en torno a temas-eje <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, activado a la esfera pública de una forma inédita. Hemos sido testigos de cómo los temas configuran públicos en torno a ellos (y no al revés) de forma veloz y altamente volátil, en términos de la energía que pueden desplegar en corto tiempo.  Este “estado de movilización” es transversal en muchas sociedades modernas y ha llegado para quedarse. Ejemplo de esto son: el 15M, la primavera árabe, el movimiento de los indignados, el movimiento estudiantil en Chile, los recientes desórdenes en Londres, las diferentes instancias de los actos <em>#Occupy</em> –, sólo por nombrar algunos. La hebra común que los vincula en muchos casos se refiere al descontento social, con una insuficiente o nula canalización de los anhelos civiles hacia las políticas públicas imperantes o un gran anhelo de vida democrática de calidad con formas concretas de aportar y de ser reconocido. Esto se ha reflejado en la fuerte voluntad de participación directa de la ciudadanía, ahora empoderada por las herramientas digitales, fundamentalmente a través del uso de las redes sociales que, aunque pueden en ocasiones banalizar los procesos de debate y participación, se han constituido en un nueva ágora pública, desestimando los canales de participación tradicionales y abogando por un modo más transparente y reversible para el diálogo ciudadano. El co-diseño, o diseño participativo se ha instalado como un modo válido para enfrentar este problema. Este post, entonces, describe las dinámicas y procesos observados durante el desarrollo de las movilizaciones sociales iniciadas por los estudiantes chilenos y secundadas por distintos actores y sectores políticos. He querido establecer medidas de eficacia constructiva, identificando los riesgos y oportunidades implícitos en la naturaleza volátil y compleja de estas dinámicas; mi interés radica en identificar patrones de interacción social y de colaboración para traducirlos en un modelo mayor que permita aportar a la comunidad de diseñadores y desarrolladores de plataformas de gobierno electrónico. Diseñar para la inclusión y el involucramiento ciudadano de los jóvenes es de vital importancia, pues han sido históricamente los protagonistas de los cambios sociales y culturales. En el último tiempo han estado a la vanguardia del uso y (re)creación de la web 2.0. Sin embargo, diseñar para favorecer la deliberación —etapa necesaria para un proceso democrático— es el paso que falta en esta sostenida tendencia hacia el empoderamiento del usuario/ciudadano precisamente porque tenemos extrema facilidad para la divergencia (entiendida desde el valor del pluralismo) pero extremas dificultades para converger o entrar en una dinámica propositiva. No existen ni los canales ni los mecanismos para una deliberación ciudadana donde se revisen con seriedad los eventuales traslapes de propuestas y se integre a los participantes en un proyecto común.</p>
+    <article>
+      <p>Las recientes movilizaciones ciudadanas en Chile y en el mundo, en su transversalidad y convocatoria, han puesto en cuestión el esquema de conversación social aportándonos con experiencias muchas veces directas (desde dentro, digamos) y rectificadoras de algunas premisas teóricas que teníamos equivocadas. Entre ellas, el supuesto deterioro del capital social –que pensábamos– se concentraba entre los más jóvenes. La aparente apatía juvenil, observada por diversos estudios durante los últimos años, no resultó ser otra cosa que una profunda desesperanza e impotencia producto de la desconfianza hacia un sistema sin canales viables para la participación, manifestándose este año en oleadas sucesivas de movilizaciones que han girado en torno a temas-eje <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, activado a la esfera pública de una forma inédita. Hemos sido testigos de cómo los temas configuran públicos en torno a ellos (y no al revés) de forma veloz y altamente volátil, en términos de la energía que pueden desplegar en corto tiempo.  Este “estado de movilización” es transversal en muchas sociedades modernas y ha llegado para quedarse. Ejemplo de esto son: el 15M, la primavera árabe, el movimiento de los indignados, el movimiento estudiantil en Chile, los recientes desórdenes en Londres, las diferentes instancias de los actos <em>#Occupy</em> –, sólo por nombrar algunos. La hebra común que los vincula en muchos casos se refiere al descontento social, con una insuficiente o nula canalización de los anhelos civiles hacia las políticas públicas imperantes o un gran anhelo de vida democrática de calidad con formas concretas de aportar y de ser reconocido. Esto se ha reflejado en la fuerte voluntad de participación directa de la ciudadanía, ahora empoderada por las herramientas digitales, fundamentalmente a través del uso de las redes sociales que, aunque pueden en ocasiones banalizar los procesos de debate y participación, se han constituido en un nueva ágora pública, desestimando los canales de participación tradicionales y abogando por un modo más transparente y reversible para el diálogo ciudadano. El co-diseño, o diseño participativo se ha instalado como un modo válido para enfrentar este problema. Este post, entonces, describe las dinámicas y procesos observados durante el desarrollo de las movilizaciones sociales iniciadas por los estudiantes chilenos y secundadas por distintos actores y sectores políticos. He querido establecer medidas de eficacia constructiva, identificando los riesgos y oportunidades implícitos en la naturaleza volátil y compleja de estas dinámicas; mi interés radica en identificar patrones de interacción social y de colaboración para traducirlos en un modelo mayor que permita aportar a la comunidad de diseñadores y desarrolladores de plataformas de gobierno electrónico. Diseñar para la inclusión y el involucramiento ciudadano de los jóvenes es de vital importancia, pues han sido históricamente los protagonistas de los cambios sociales y culturales. En el último tiempo han estado a la vanguardia del uso y (re)creación de la web 2.0. Sin embargo, diseñar para favorecer la deliberación —etapa necesaria para un proceso democrático— es el paso que falta en esta sostenida tendencia hacia el empoderamiento del usuario/ciudadano precisamente porque tenemos extrema facilidad para la divergencia (entiendida desde el valor del pluralismo) pero extremas dificultades para converger o entrar en una dinámica propositiva. No existen ni los canales ni los mecanismos para una deliberación ciudadana donde se revisen con seriedad los eventuales traslapes de propuestas y se integre a los participantes en un proyecto común.</p>
 
 <h3 id="caso-de-estudio-las-movilizaciones-estudiantiles">Caso de estudio: las movilizaciones estudiantiles</h3>
 
@@ -261,17 +294,18 @@
 <li id="fn:2">Este estudio fue realizado por alumnos de 4º año de diseño gráfico en septiembre de 2011 luego de 3 meses de paro. <a href="http://wiki.ead.pucv.cl/index.php/Modelos_Visuales_de_Gobierno_Estudiantil" title="Modelo visual del gobierno estudiantil">Más información</a> <a href="#fnref:2" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -284,8 +318,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

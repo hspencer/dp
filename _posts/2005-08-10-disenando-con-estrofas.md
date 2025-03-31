@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2005/08/disenando-con-estrofas/
 title: "Diseñando con Estrofas"
 date: 2005-08-10 21:24:11 -0000

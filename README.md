@@ -8,7 +8,7 @@ Migré todo a jekyll y lo voy a mantener en Github desde ahora en adelante.
 Las publicaciones en md tienen el siguiente frontmatter:
 
 ---
-layout: posts
+layout: post
 permalink: /YEAR/01/perma-link
 title: "título"
 date: 2025-02-27 05:43:22 -0000

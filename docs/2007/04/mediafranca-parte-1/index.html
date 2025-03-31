@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>MediaFranca, parte 1 | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="MediaFranca, parte 1">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2007/04/mediafranca-parte-1/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MediaFranca, parte 1">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">MediaFranca, parte 1</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">MediaFranca, parte 1</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2006/12/mf.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2007-04-08T03:36:56+12:00">
-          8 April 2007
-        </time>
+      
 
-          <a id="btn-citar-mediafranca-parte-1" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2007-04-08T03:36:56+12:00">
+        8 April 2007
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-mediafranca-parte-1" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-mediafranca-parte-1" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><strong>MediaFranca</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> es el projecto de investigación que realizo como parte del programa <a href="http://www.design.cmu.edu/show_program.php?s=2&amp;t=3">MDes Interaction Design en CMU</a>. Este projecto consta de dos partes: una tesis escrita y un proyecto de investigación y desarrollo (hasta la fase de prototipo) los cuales he decidio coordinar bajo una sola pregunta. La pregunta que inicia este proyecto que surge de la siguiente paradoja:</p>
+    <article>
+      <p><strong>MediaFranca</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> es el projecto de investigación que realizo como parte del programa <a href="http://www.design.cmu.edu/show_program.php?s=2&amp;t=3">MDes Interaction Design en CMU</a>. Este projecto consta de dos partes: una tesis escrita y un proyecto de investigación y desarrollo (hasta la fase de prototipo) los cuales he decidio coordinar bajo una sola pregunta. La pregunta que inicia este proyecto que surge de la siguiente paradoja:</p>
 
 <p><strong>conectividad ≠ colectividad</strong>.</p>
 
@@ -144,17 +177,18 @@
 <li id="fn:1">Este proyecto lamentablemente ya no está en línea, pero se puede ver <a href="https://web.archive.org/web/20100105082332/http://www.herbertspencer.net/thesis/index.php?title=Main_Page#expand">aquí</a>. Esta wiki fue la partida para <a href="http://wiki.ead.pucv.cl">Casiopea</a> por el sentido de la documentación viva, expuesta y colaborativa de un proyecto. <a href="#fnref:1" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -167,8 +201,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

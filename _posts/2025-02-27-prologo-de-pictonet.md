@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2025/02/prologo-de-pictonet/
 title: "Prólogo de PictoNet"
 date: 2025-02-27 05:43:22 -0000

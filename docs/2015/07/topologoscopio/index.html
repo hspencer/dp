@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión Instalación de diseño y arquitectura en la muestra &quot;Work in Progress&quot; organizada por la FADEU, PUC. Abril de 2015">
-    <meta name="author" content="">
+    <meta name="description" content="Instalación de diseño y arquitectura en la muestra &quot;Work in Progress&quot; organizada por la FADEU, PUC. Abril de 2015">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Topologoscopio | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Topologoscopio">
+    <meta property="og:description" content="Instalación de diseño y arquitectura en la muestra &quot;Work in Progress&quot; organizada por la FADEU, PUC. Abril de 2015">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2015/07/topologoscopio/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Topologoscopio">
+    <meta name="twitter:description" content="Instalación de diseño y arquitectura en la muestra &quot;Work in Progress&quot; organizada por la FADEU, PUC. Abril de 2015">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Topologoscopio</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Topologoscopio</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2015/07/IMG_7336.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2015-07-09T10:51:26+12:00">
-          9 July 2015
-        </time>
+      
 
-          <a id="btn-citar-topologoscopio" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2015-07-09T10:51:26+12:00">
+        9 July 2015
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-topologoscopio" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-topologoscopio" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>En la utopía de la ciudad cívica (en ese espíritu de <em><a href="http://herbertspencer.net/2007/05/mediafranca-parte-2/">MediaFranca</a></em>) más allá del espacio comprendido como la permanente y odiosa disputa, el espacio público se presenta como un símbolo, en la representación permanente de la escena pública (en el sentido teatral).</p>
+    <article>
+      <p>En la utopía de la ciudad cívica (en ese espíritu de <em><a href="http://herbertspencer.net/2007/05/mediafranca-parte-2/">MediaFranca</a></em>) más allá del espacio comprendido como la permanente y odiosa disputa, el espacio público se presenta como un símbolo, en la representación permanente de la escena pública (en el sentido teatral).</p>
 
 <p>El espacio público de Valparaíso es un espacio en disputa, como el de tantas otras ciudades. Esta disputa se fija, en mayor o menor medida, en la forma arquitectónica, urbana y paisajística resultante que en su conjunto constituye la ciudad. Pero el espacio urbano es también, por definición, abierto y público: todos tenemos palabra y postura frente a este espacio en un divergencia creativa, expresión de las diversas voluntades y anhelos. Pero esta conversación es invisible y privada, alcanzando sólo la visibilidad producto de la controversia y la disputa.</p>
 
@@ -155,17 +188,18 @@
   <li><a href="https://github.com/eadpucv/Topologoscopio">https://github.com/eadpucv/Topologoscopio</a></li>
   <li><a href="http://eadpucv.github.io/Topologoscopio/">Prototipo funcional (solo para Google Chrome, requiere Google voice recognition)</a></li>
 </ul>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -178,8 +212,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

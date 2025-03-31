@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Con§tel | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Con§tel">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2005/03/constel/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Con§tel">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Con§tel</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Con§tel</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2006/07/constel02.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2005-03-18T10:55:43+13:00">
-          18 March 2005
-        </time>
+      
 
-          <a id="btn-citar-constel" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2005-03-18T10:55:43+13:00">
+        18 March 2005
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-constel" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-constel" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, estudiar y colaborar en este nuevo ámbito semántico-digital; en las nuevas plataformas de gestión y manejo de la información, pero sobre todo, nos preguntamos por la naturaleza visual de las nuevas interfaces que habrán de contener implícitas estas nuevas operatividades y de cómo habrán de instaurarse los nuevos códigos de visualización que necesariamente han de volver legible esta complejidad en ciernes.</p>
+    <article>
+      <p>Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, estudiar y colaborar en este nuevo ámbito semántico-digital; en las nuevas plataformas de gestión y manejo de la información, pero sobre todo, nos preguntamos por la naturaleza visual de las nuevas interfaces que habrán de contener implícitas estas nuevas operatividades y de cómo habrán de instaurarse los nuevos códigos de visualización que necesariamente han de volver legible esta complejidad en ciernes.</p>
 
 <p>Ciertamente, nuestra afinidad por el cuidado y Diseño de la interfaz de pantalla nos ha llevado a plantearnos un proyecto que en cierta medida sobrepasa a nuestro oficio en cuanto constructor de este espacio, pues hemos debido incorporar a la dimensión de lectura, la dimensión de uso; un libro tiene abierta esta posibilidad de un modo gratuito en el blanco de sus páginas: un lector realiza una anotación al margen de un libro en medio de su estudio. A modo de exégesis de esta realidad operativa, el oficio informático ha de volver esta acción un proceso de incorporación de un metadato (la nueva anotación), que podrá ser solicitado en el futuro y permanecerá latente hasta entonces. Este nuevo modo replantea, trasforma y extiende la orgánica de dicho campo editorial: ahora ese blanco bien puede ser infinito, permitir que muchos anoten y puede ordenarse y regenerarse a petición del lector.</p>
 
@@ -166,17 +199,18 @@
 <a href="http://constel.blogspot.com/">http://constel.blogspot.com/</a></p>
 
 <p><a href="http://www.arquitecturaucv.cl/docs/Constel.pdf"><img src="http://www.arquitecturaucv.cl/imag/bot/download.gif" alt="archivo adjunto" /> informe con§tel 2004*</a></p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -189,8 +223,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

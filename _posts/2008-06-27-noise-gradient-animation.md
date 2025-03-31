@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/06/noise-gradient-animation/
 title: Noise Gradient Animation
 date: 2008-06-27 21:16:20 -0000

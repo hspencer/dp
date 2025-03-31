@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2014/02/Diseñando-una-Empresa
 title: "Diseñando una Empresa"
 date: 2014-02-09 13:00:00

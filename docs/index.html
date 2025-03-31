@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Scaramanga · {dp} | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Scaramanga · {dp}">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://0.0.0.0:4000/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Scaramanga · {dp}">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -24,6 +38,12 @@
   
     <script>
         const posts = [
+          
+            {
+              title: "la Internet que nos robaron", 
+              url: "/2025/03/la-internet-que-nos-robaron/",
+              length: 1233
+            },
           
             {
               title: "Prólogo de PictoNet", 
@@ -641,12 +661,6 @@
               title: "Axis Mundae", 
               url: "/2003/07/axis-mundae/",
               length: 4652
-            },
-          
-            {
-              title: "CD AyerViernes: Into", 
-              url: "/2008/09/ayerviernes-intro",
-              length: 78
             }
           
         ];
@@ -703,15 +717,28 @@
         </sidebar>
         
         <article>
-            <div class="last-posts" id="last-posts">
+            <!-- Paginación con máximo de 8 "pelotitas" y usando &hellip; -->
+<div class="last-posts" id="last-posts">
   
+  
+    <a href="/2025/03/la-internet-que-nos-robaron/" class="post-item" data-page="0">
+      
+        <img src="/assets/uploads/2025/03/liqnr00.png" alt="la Internet que nos robaron">
+      
+      <h2>la Internet que nos robaron</h2>
+      
+        <p>Una reflexión de lo que pudo ser pero no fue. Del origen abierto, colaborativo y desintermediado y del presente secuestrado e idiotizante. Pero todavía hay esperanza.</p>
+      
+    </a>
   
     <a href="/2025/02/prologo-de-pictonet/" class="post-item" data-page="0">
       
         <img src="/assets/uploads/2025/02/prologo-pictonet-ia.png" alt="Prólogo de PictoNet">
       
       <h2>Prólogo de PictoNet</h2>
-      <p>A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunit...</p>
+      
+        <p>A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunit...</p>
+      
     </a>
   
     <a href="/PictoNet" class="post-item" data-page="0">
@@ -719,7 +746,9 @@
         <img src="/assets/uploads/2025/03/make-the-bed.png" alt="PictoNet">
       
       <h2>PictoNet</h2>
-      <p>Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de ...</p>
+      
+        <p>Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de ...</p>
+      
     </a>
   
     <a href="/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/" class="post-item" data-page="0">
@@ -727,7 +756,9 @@
         <img src="/assets/uploads/2025/02/tecnofeudalism.jpg" alt="Diseño de transición en la era del tecno feudalismo">
       
       <h2>Diseño de transición en la era del tecno feudalismo</h2>
-      <p>Las profundas y radicales transformaciones contemporáneas en el ámbito económico y tecnológico han generado reflexiones sobre la vigencia de las categorías tradicionales del capitalismo. En diverso...</p>
+      
+        <p>Las profundas y radicales transformaciones contemporáneas en el ámbito económico y tecnológico han generado reflexiones sobre la vigencia de las categorías tradicionales del capitalismo. En diverso...</p>
+      
     </a>
   
     <a href="/2024/09/reflexiones-de-un-migrante-inexistente/" class="post-item" data-page="0">
@@ -735,8 +766,10 @@
         <img src="/assets/uploads/2024/09/los-4.png" alt="Reflexiones de un migrante inexistente">
       
       <h2>Reflexiones de un migrante inexistente</h2>
-      <p>Lecciones de Kafka, Arendt, Illich y Maturana
+      
+        <p>Lecciones de Kafka, Arendt, Illich y Maturana
 </p>
+      
     </a>
   
     <a href="/2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio/" class="post-item" data-page="0">
@@ -744,16 +777,20 @@
         <img src="/assets/uploads/2018/11/travesia2016_Montevideo_cseverin-064-small-2681.jpg" alt="Enseñando Interacción">
       
       <h2>Enseñando Interacción</h2>
-      <p>Este texto explora el espesor entre arte y tecnología, y cómo el pensamiento técnico es clave en la formación del Diseño(( Esta publicación está dedicada a mis colegas profesores y se parece más a ...</p>
+      
+        <p>Este texto explora el espesor entre arte y tecnología, y cómo el pensamiento técnico es clave en la formación del Diseño(( Esta publicación está dedicada a mis colegas profesores y se parece más a ...</p>
+      
     </a>
   
-    <a href="/2017/02/numeros-modulares/" class="post-item" data-page="0">
+    <a href="/2017/02/numeros-modulares/" class="post-item" data-page="1">
       
         <img src="/assets/uploads/2017/02/Captura-de-pantalla-2018-11-01-a-las-13.50.49.png" alt="Números Modulares">
       
       <h2>Números Modulares</h2>
-      <p>Se trata más bien de una curiosidad o divertimento matemático, en el mismo espíritu del modulador de números primos: ¿podemos ver patrones en las tablas de multiplicar?
+      
+        <p>Se trata más bien de una curiosidad o divertimento matemático, en el mismo espíritu del modulador de números primos: ¿podemos ver patrones en las tablas de multiplicar?
 </p>
+      
     </a>
   
     <a href="/2017/02/tecnica-y-diseno/" class="post-item" data-page="1">
@@ -761,7 +798,9 @@
         <img src="/assets/uploads/2008/01/5694299383_c7847bf8b5_o1.jpg" alt="Técnica y Diseño">
       
       <h2>Técnica y Diseño</h2>
-      <p>Desde un origen nos ha parecido evidente que el proceso de enseñanza del diseño se constituye desde la experiencia en proximidad con una obra. Este modo sostiene que el aprendizaje se encarna en un...</p>
+      
+        <p>Desde un origen nos ha parecido evidente que el proceso de enseñanza del diseño se constituye desde la experiencia en proximidad con una obra. Este modo sostiene que el aprendizaje se encarna en un...</p>
+      
     </a>
   
     <a href="/2015/10/diseno-participativo-con-pix/" class="post-item" data-page="1">
@@ -769,7 +808,9 @@
         <img src="/assets/uploads/2015/10/pix-collab.jpg" alt="Diseño Participativo con PiX: una Aproximación desde la Narrativa">
       
       <h2>Diseño Participativo con PiX: una Aproximación desde la Narrativa</h2>
-      <p>El co-diseño y el diseño participativo, son metodologías poderosas al minuto de buscar generar y validar en forma simultánea nuevos conceptos de diseño. Ciertamente una de las mayores dificultades ...</p>
+      
+        <p>El diseño participativo puede ser una herramienta muy poderosa si se emplea bien</p>
+      
     </a>
   
     <a href="/2015/08/pequenos-multiples/" class="post-item" data-page="1">
@@ -777,7 +818,9 @@
         <img src="/assets/uploads/2015/08/citipulse-small-multiples.png" alt="Pequeños Múltiples">
       
       <h2>Pequeños Múltiples</h2>
-      <p>Había una vez una empresa llamada CitiSent , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distint...</p>
+      
+        <p>Había una vez una empresa llamada CitiSent , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distint...</p>
+      
     </a>
   
     <a href="/2015/07/topologoscopio/" class="post-item" data-page="1">
@@ -785,7 +828,9 @@
         <img src="/assets/uploads/2015/07/IMG_7336.jpg" alt="Topologoscopio">
       
       <h2>Topologoscopio</h2>
-      <p>En la utopía de la ciudad cívica (en ese espíritu de MediaFranca) más allá del espacio comprendido como la permanente y odiosa disputa, el espacio público se presenta como un símbolo, en la represe...</p>
+      
+        <p>Instalación de diseño y arquitectura en la muestra "Work in Progress" organizada por la FADEU, PUC. Abril de 2015</p>
+      
     </a>
   
     <a href="/2015/05/diseno-del-proceso-constituyente/" class="post-item" data-page="1">
@@ -793,19 +838,23 @@
         <img src="/assets/uploads/2015/05/001210.png" alt="Diseño del Proceso Constituyente">
       
       <h2>Diseño del Proceso Constituyente</h2>
-      <p>El proceso constituyente, que ha prometido ser altamente inclusivo y participativo, no puede pensarse hoy omitiendo la realidad que impone una sociedad en red, mediada por el software social vivien...</p>
+      
+        <p>El proceso constituyente, que ha prometido ser altamente inclusivo y participativo, no puede pensarse hoy omitiendo la realidad que impone una sociedad en red, mediada por el software social vivien...</p>
+      
     </a>
   
-    <a href="/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina" class="post-item" data-page="1">
+    <a href="/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina" class="post-item" data-page="2">
       
         <img src="/assets/uploads/2015/04/yagd.png" alt="La guía del joven aprendiz a la disciplina">
       
       <h2>La guía del joven aprendiz a la disciplina</h2>
-      <p>
+      
+        <p>
   Haz una sola cosa a la vez
   Sonríe
 
 </p>
+      
     </a>
   
     <a href="/2014/12/gridspace/" class="post-item" data-page="2">
@@ -813,7 +862,9 @@
         <img src="/assets/uploads/2014/12/gridspace-miniature.png" alt="GridSpace">
       
       <h2>GridSpace</h2>
-      <p>GridSpace is a very small program developed in Processing that creates grid-based compositions. It was first developed back in 2008 and today I’m updating and releasing the code. This program allow...</p>
+      
+        <p>GridSpace is a very small program developed in Processing that creates grid-based compositions. It was first developed back in 2008 and today I’m updating and releasing the code. This program allow...</p>
+      
     </a>
   
     <a href="/2014/11/slitscan-sideways/" class="post-item" data-page="2">
@@ -821,7 +872,9 @@
         <img src="/assets/uploads/2014/11/sideways.jpg" alt="Sideways: Slitscan for Urban Travellers">
       
       <h2>Sideways: Slitscan for Urban Travellers</h2>
-      <p>Sideways is a very small program created with Processing that creates 2 slitscan bitmaps from a single video. The video must be a first-person road shoot so both sides (left &amp; right) are create...</p>
+      
+        <p>Sideways is a very small program created with Processing that creates 2 slitscan bitmaps from a single video.</p>
+      
     </a>
   
     <a href="/2014/10/pixograms-icon-webfont/" class="post-item" data-page="2">
@@ -829,7 +882,9 @@
         <img src="/assets/uploads/2014/10/pixograms.gif" alt="Pixograms Icon Webfont">
       
       <h2>Pixograms Icon Webfont</h2>
-      <p>Las partituras de interacción, introducidas el 2008 como un sistema de notación gráfica para el diseño de experiencia, han sido adoptadas por muchos profesionales y equipos de diseño sobre todo en ...</p>
+      
+        <p>An extensive font family aimed for constructing Interaction Scores (PiX). This webfont is opensource and available in github.</p>
+      
     </a>
   
     <a href="/2014/04/arbol-pitagorico/" class="post-item" data-page="2">
@@ -837,7 +892,9 @@
         <img src="/assets/uploads/2014/04/arbol-pitagoras.png" alt="Árbol Pitagórico">
       
       <h2>Árbol Pitagórico</h2>
-      <p>En Febrero recién pasado tuve el honor de formar parte del primer programa de maestría en diseño de interacción((A este programa me invitó Ana Domb, la mente y visión detrás de este programa, el pr...</p>
+      
+        <p>Ejemplo de recursividad usando Processing en un árbol pitagórico; una estructura recursiva construida con triángulos rectángulos y sus catetos cuadrados</p>
+      
     </a>
   
     <a href="/2014/02/Dise%C3%B1ando-una-Empresa" class="post-item" data-page="2">
@@ -845,15 +902,19 @@
         <img src="/assets/uploads/2013/10/4-d.006.jpg" alt="Diseñando una Empresa">
       
       <h2>Diseñando una Empresa</h2>
-      <p>Estos últimos 2 años he estado trabajando en CitiSent. A diferencia de mis proyectos anteriores ((Con§tel (2003-2006) y MediaFranca (2007-2011) )), nacidos en el seno académico y con profundas aspi...</p>
+      
+        <p>Estos últimos 2 años he estado trabajando en CitiSent. A diferencia de mis proyectos anteriores ((Con§tel (2003-2006) y MediaFranca (2007-2011) )), nacidos en el seno académico y con profundas aspi...</p>
+      
     </a>
   
-    <a href="/2014/01/el-arte-de-saber-preguntar/" class="post-item" data-page="2">
+    <a href="/2014/01/el-arte-de-saber-preguntar/" class="post-item" data-page="3">
       
         <img src="/assets/uploads/2014/01/citisent-harvester.png" alt="El arte de saber preguntar">
       
       <h2>El arte de saber preguntar</h2>
-      <p>En CitiSent estamos permanentemente investigando cómo mejorar nuestro servicio. Uno de los temas centrales para nosotros, en términos de diseño de interacción, es cómo se deben formular las pregunt...</p>
+      
+        <p>En CitiSent estamos permanentemente investigando cómo mejorar nuestro servicio. Uno de los temas centrales para nosotros, en términos de diseño de interacción, es cómo se deben formular las pregunt...</p>
+      
     </a>
   
     <a href="/2013/12/la-observacion-en-diseno/" class="post-item" data-page="3">
@@ -861,8 +922,10 @@
         <img src="/assets/uploads/2013/12/wet-sheets-1936.jpg" alt="La Observación en Diseño">
       
       <h2>La Observación en Diseño</h2>
-      <p>Exámen del Taller de 7ª Etapa
+      
+        <p>Exámen del Taller de 7ª Etapa
 </p>
+      
     </a>
   
     <a href="/2013/05/el-diseno-o-el-bucle-infinito/" class="post-item" data-page="3">
@@ -870,7 +933,9 @@
         <img src="/assets/uploads/2013/05/infinite-loop.png" alt="El Diseño, o el bucle infinito">
       
       <h2>El Diseño, o el bucle infinito</h2>
-      <p>El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que se basta de sí mismo porque se construye como una cifra , con sus imágenes,...</p>
+      
+        <p>El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que se basta de sí mismo porque se construye como una cifra , con sus imágenes,...</p>
+      
     </a>
   
     <a href="/2012/05/pizarra/" class="post-item" data-page="3">
@@ -878,7 +943,9 @@
         <img src="/assets/uploads/2012/05/pizarra0021.jpg" alt="Pizarra">
       
       <h2>Pizarra</h2>
-      <p>Uno de los problemas más frecuentes con que me topo al momento de hacer clases es la incompatibilidad entre el proyector y la pizarra. Cada día, y con más frecuencia, se requiere de un proyector (d...</p>
+      
+        <p>Este programa está pensado para profesores que requieren dibujar directamente en el proyector y no pueden usar la pizarra porque la sala está oscura.</p>
+      
     </a>
   
     <a href="/2012/04/musica-de-las-matematicas/" class="post-item" data-page="3">
@@ -886,7 +953,9 @@
         <img src="/assets/uploads/2012/04/blake.jpg" alt="Música de las Matemáticas">
       
       <h2>Música de las Matemáticas</h2>
-      <p>Les voy a contar una historia hoy día: Bajo la superficie del mundo yacen las reglas descritas por la ciencia. O, al menos, el mundo avanza como si así fuera. Pero bajo todas estas reglas, existen ...</p>
+      
+        <p>Les voy a contar una historia hoy día: Bajo la superficie del mundo yacen las reglas descritas por la ciencia. O, al menos, el mundo avanza como si así fuera. Pero bajo todas estas reglas, existen ...</p>
+      
     </a>
   
     <a href="/2011/11/de-palomas-y-estorninos/" class="post-item" data-page="3">
@@ -894,15 +963,19 @@
         <img src="/assets/uploads/2011/11/palomas-estorninos.png" alt="De Palomas y Estorninos">
       
       <h2>De Palomas y Estorninos</h2>
-      <p>Las recientes movilizaciones ciudadanas en Chile y en el mundo, en su transversalidad y convocatoria, han puesto en cuestión el esquema de conversación social aportándonos con experiencias muchas v...</p>
+      
+        <p>Las recientes movilizaciones ciudadanas en Chile y en el mundo, en su transversalidad y convocatoria, han puesto en cuestión el esquema de conversación social aportándonos con experiencias muchas v...</p>
+      
     </a>
   
-    <a href="/2011/10/forma-digital/" class="post-item" data-page="3">
+    <a href="/2011/10/forma-digital/" class="post-item" data-page="4">
       
         <img src="/assets/uploads/2011/10/image001.png" alt="Forma Digital">
       
       <h2>Forma Digital</h2>
-      <p>La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948. Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma mantenía una cor...</p>
+      
+        <p>La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948. Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma mantenía una cor...</p>
+      
     </a>
   
     <a href="/2011/10/un-buen-diseno/" class="post-item" data-page="4">
@@ -910,20 +983,26 @@
         <img src="/assets/uploads/2011/10/stmaryplate2big1.jpg" alt="Un Buen Diseño">
       
       <h2>Un Buen Diseño</h2>
-      <p>Un buen diseño corresponde a un trabajo profundo de integración y equilibrio de diversos factores para finalmente cifrarlos y materializarlos en una forma, ya sea física o etérea, atomizada o distr...</p>
+      
+        <p>Un buen diseño corresponde a un trabajo profundo de integración y equilibrio de diversos factores para finalmente cifrarlos y materializarlos en una forma, ya sea física o etérea, atomizada o distr...</p>
+      
     </a>
   
     <a href="/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/" class="post-item" data-page="4">
       
       <h2>4 orientaciones 4 discursos 4 cabezas 4 corazones</h2>
-      <p>Nota : Este texto se surge a partir del trabajo realizado en el taller de 4º año de Diseño Gráfico durante el primer trimestre del año 2011. Como acto de exámen, explico esta figura y el recorrido ...</p>
+      
+        <p>Nota : Este texto se surge a partir del trabajo realizado en el taller de 4º año de Diseño Gráfico durante el primer trimestre del año 2011. Como acto de exámen, explico esta figura y el recorrido ...</p>
+      
     </a>
   
     <a href="/2011/01/seminario-ciudad-abierta/" class="post-item" data-page="4">
       
       <h2>Seminario Ciudad Abierta</h2>
-      <p>
+      
+        <p>
 El cuestionamiento por la forma constituye el centro mismo de los oficios –arquitectura y diseño– por ser ésta la pregunta poética del aparecer. Esta pregunta, un tanto elusiva en sus múltiples re...</p>
+      
     </a>
   
     <a href="/2011/01/travesia-tubul-arauco/" class="post-item" data-page="4">
@@ -931,21 +1010,27 @@ El cuestionamiento por la forma constituye el centro mismo de los oficios –arq
         <img src="/assets/uploads/2011/01/Estaci%C3%B3n-del-Bajoarriba.jpg" alt="Travesía Tubul, Arauco">
       
       <h2>Travesía Tubul, Arauco</h2>
-      <p>Travesía Tubul
+      
+        <p>Travesía Tubul
 </p>
+      
     </a>
   
     <a href="/2010/11/mesh-network/" class="post-item" data-page="4">
       
       <h2>Mesh Network</h2>
-      <p>Esta ilustración fue generada para explicar el funcionamiento de una red enmallada (mesh network) en cuanto figura de distribución y conexión entre nodos. La aplicación práctica de esta red fue dis...</p>
+      
+        <p>This is an interactive demosntration depicting a mesh network at work. This is an example of how communication networks should work during crises.</p>
+      
     </a>
   
-    <a href="/2010/10/internet-como-bien-publico/" class="post-item" data-page="4">
+    <a href="/2010/10/internet-como-bien-publico/" class="post-item" data-page="5">
       
       <h2>Internet como Bien Público</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2010/09/herramienta-y-espacio/" class="post-item" data-page="5">
@@ -953,14 +1038,18 @@ El cuestionamiento por la forma constituye el centro mismo de los oficios –arq
         <img src="/assets/uploads/2010/09/mf-modelo.jpg" alt="Herramienta y Espacio">
       
       <h2>Herramienta y Espacio</h2>
-      <p>Nota: texto preparado como exámen para los proyectos de título de Diseño Gráfico de Dámaris Sepúlveda y Cristóbal Severin.
+      
+        <p>Nota: texto preparado como exámen para los proyectos de título de Diseño Gráfico de Dámaris Sepúlveda y Cristóbal Severin.
 </p>
+      
     </a>
   
     <a href="/2010/06/disenar-un-servicio/" class="post-item" data-page="5">
       
       <h2>Diseñar un Servicio</h2>
-      <p>Jueves 10 de Junio de 2010 Exámen de los talleres de 6ª y 7ª Etapa de Diseño Gráfico, Cuarto año. Este taller aborda un campo de diseño llamado “diseño de servicios”. En este campo, la atención se ...</p>
+      
+        <p>Jueves 10 de Junio de 2010 Exámen de los talleres de 6ª y 7ª Etapa de Diseño Gráfico, Cuarto año. Este taller aborda un campo de diseño llamado “diseño de servicios”. En este campo, la atención se ...</p>
+      
     </a>
   
     <a href="/2010/03/quadra-diseno-para-la-interaccion-ciudadana/" class="post-item" data-page="5">
@@ -968,10 +1057,12 @@ El cuestionamiento por la forma constituye el centro mismo de los oficios –arq
         <img src="/assets/uploads/2010/03/quadraThumbs1.png" alt="Quadra: Diseño para la Interacción Ciudadana">
       
       <h2>Quadra: Diseño para la Interacción Ciudadana</h2>
-      <p>
+      
+        <p>
   “El territorio ya no precede al mapa, ni lo sobrevive. De aquí en adelante, es el mapa el que precede al territorio, es el mapa el que engendra el territorio”.
 
 </p>
+      
     </a>
   
     <a href="/2010/02/viendo-en-la-transparencia/" class="post-item" data-page="5">
@@ -979,7 +1070,9 @@ El cuestionamiento por la forma constituye el centro mismo de los oficios –arq
         <img src="/assets/uploads/2009/04/conical-intersect-19751.jpg" alt="Viendo en la Transparencia">
       
       <h2>Viendo en la Transparencia</h2>
-      <p>A comienzos del 2007 tuve el inmenso privilegio de asistir a un curso único: Visualización de Información enseñado por Ben Fry (creador de Processing) y Golan Levin, reconocido artista digital. Est...</p>
+      
+        <p>A comienzos del 2007 tuve el inmenso privilegio de asistir a un curso único: Visualización de Información enseñado por Ben Fry (creador de Processing) y Golan Levin, reconocido artista digital. Est...</p>
+      
     </a>
   
     <a href="/2010/02/la-continuidad-de-la-experiencia/" class="post-item" data-page="5">
@@ -987,15 +1080,19 @@ El cuestionamiento por la forma constituye el centro mismo de los oficios –arq
         <img src="/assets/uploads/2009/05/ixd-scores1.gif" alt="La Continuidad de la Experiencia">
       
       <h2>La Continuidad de la Experiencia</h2>
-      <p>Ser y Tiempo
+      
+        <p>Ser y Tiempo
 </p>
+      
     </a>
   
-    <a href="/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/" class="post-item" data-page="5">
+    <a href="/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/" class="post-item" data-page="6">
       
       <h2>La Experiencia del Taller de Primer Año de Diseño</h2>
-      <p>Al taller de primer año se le pide constituirse como la construcción de una experiencia de entrada al Oficio del Diseño.
+      
+        <p>Al taller de primer año se le pide constituirse como la construcción de una experiencia de entrada al Oficio del Diseño.
 Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan...</p>
+      
     </a>
   
     <a href="/2009/12/galexia-espacio-y-navegacion-semantica/" class="post-item" data-page="6">
@@ -1003,21 +1100,27 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="https://wiki-ead.b-cdn.net/images/d/df/Galexia_P%C3%A1gina_001.png" alt="Galexia: Espacio y Navegación Semántica">
       
       <h2>Galexia: Espacio y Navegación Semántica</h2>
-      <p>Senderos de la Memoria
+      
+        <p>Senderos de la Memoria
 </p>
+      
     </a>
   
     <a href="/2009/11/personas-no-usuarios/" class="post-item" data-page="6">
       
       <h2>Personas, no Usuarios</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2009/09/etica-2-0/" class="post-item" data-page="6">
       
       <h2>Ética 2.0</h2>
-      <p>Hoy rechacé un trabajo bastante prometedor. Hice esto porque no comulgo políticamente con la institución que lo encargaba. Cuando conversaba con la persona que me ofrecía el trabajo me decía: “no e...</p>
+      
+        <p>Hoy rechacé un trabajo bastante prometedor. Hice esto porque no comulgo políticamente con la institución que lo encargaba. Cuando conversaba con la persona que me ofrecía el trabajo me decía: “no e...</p>
+      
     </a>
   
     <a href="/2009/08/realidad-aumentada-en-perspectiva/" class="post-item" data-page="6">
@@ -1025,26 +1128,34 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2009/08/flecha1.jpg" alt="Realidad Aumentada en Perspectiva">
       
       <h2>Realidad Aumentada en Perspectiva</h2>
-      <p>Cada época de la historia tiene su propio modo de ver el mundo. Esa particular visión de mundo es la invención de un suelo que sostiene y celebra su época; nunca hay que olvidar que se trata de una...</p>
+      
+        <p>Cada época de la historia tiene su propio modo de ver el mundo. Esa particular visión de mundo es la invención de un suelo que sostiene y celebra su época; nunca hay que olvidar que se trata de una...</p>
+      
     </a>
   
     <a href="/2009/08/presentacion-de-proyectos-de-grafica-digital/" class="post-item" data-page="6">
       
       <h2>Presentación de Proyectos de Gráfica Digital</h2>
-      <p>El curso de Gráfica Digital busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha ...</p>
+      
+        <p>El curso de Gráfica Digital busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha ...</p>
+      
     </a>
   
-    <a href="/2009/07/espirales/" class="post-item" data-page="6">
+    <a href="/2009/07/espirales/" class="post-item" data-page="7">
       
       <h2>Espirales</h2>
-      <p>Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espac...</p>
+      
+        <p>Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espac...</p>
+      
     </a>
   
     <a href="/2009/07/haciendo-trampa/" class="post-item" data-page="7">
       
       <h2>Haciendo Trampa</h2>
-      <p>
+      
+        <p>
   γνοστι τε αυτϖν (nosce te ipsum) Esta inscripción, puesta por los siete sabios en el frontispicio del templo de Delfos, es clásica en el pensamiento griego. Muchos pensadores la han adoptado al ...</p>
+      
     </a>
   
     <a href="/2009/07/inicio-del-primer-ano-de-diseno/" class="post-item" data-page="7">
@@ -1052,8 +1163,10 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2009/07/lamina.jpg" alt="Inicio del Primer Año de Diseño">
       
       <h2>Inicio del Primer Año de Diseño</h2>
-      <p>Al diseño: Año 1, Etapa I
+      
+        <p>Al diseño: Año 1, Etapa I
 </p>
+      
     </a>
   
     <a href="/2009/04/transparencia-radical/" class="post-item" data-page="7">
@@ -1061,46 +1174,60 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2009/04/conical-intersect-19751.jpg" alt="Transparencia Radical">
       
       <h2>Transparencia Radical</h2>
-      <p>Roberto Matta imaginaba a un ser que tenía el poder de volver las cosas transparentes y que permitiesen al resto ver. Lo llamaba el ver-tor (o virteur) , el Gran Transparente. Es la imagen del arti...</p>
+      
+        <p>Roberto Matta imaginaba a un ser que tenía el poder de volver las cosas transparentes y que permitiesen al resto ver. Lo llamaba el ver-tor (o virteur) , el Gran Transparente. Es la imagen del arti...</p>
+      
     </a>
   
     <a href="/2009/01/Grid" class="post-item" data-page="7">
       
       <h2>Grid</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/11/partituras-de-interaccion/" class="post-item" data-page="7">
       
       <h2>Partituras de Interacción</h2>
-      <p>Este lenguaje visual propone un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.
+      
+        <p>Este lenguaje visual propone un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.
 </p>
+      
     </a>
   
-    <a href="/2008/11/processing-1/" class="post-item" data-page="7">
+    <a href="/2008/11/processing-1/" class="post-item" data-page="8">
       
       <h2>Processing 1.0</h2>
-      <p> Processing ha dejado de ser un beta. Lo era desde que partió este proyecto el año 2001 en el MediaLab del MIT de la mano de Casey Reas y Ben Fry. Esta aplicación, o más bien, este entorno de desar...</p>
+      
+        <p> Processing ha dejado de ser un beta. Lo era desde que partió este proyecto el año 2001 en el MediaLab del MIT de la mano de Casey Reas y Ben Fry. Esta aplicación, o más bien, este entorno de desar...</p>
+      
     </a>
   
     <a href="/2008/10/como-disenar-democracia-en-la-red/" class="post-item" data-page="8">
       
       <h2>Cómo diseñar democracia en la red</h2>
-      <p>Escribo este post porque veo que ya están ocurriendo cosas en este ámbito y hablar de esto ahora deja de ser sólo teoría. Mi amigo Jorge planteó esta pregunta en políticaestero.tv (una nueva plataf...</p>
+      
+        <p>Escribo este post porque veo que ya están ocurriendo cosas en este ámbito y hablar de esto ahora deja de ser sólo teoría. Mi amigo Jorge planteó esta pregunta en políticaestero.tv (una nueva plataf...</p>
+      
     </a>
   
     <a href="/2008/10/taller-de-obra-suelo-teselado/" class="post-item" data-page="8">
       
       <h2>Taller de Obra: Suelo Teselado</h2>
-      <p>                               
+      
+        <p>                               
 </p>
+      
     </a>
   
     <a href="/2008/09/todo-depende-del-cristal-con-que-se-mire/" class="post-item" data-page="8">
       
       <h2>Todo depende del cristal con que se mire</h2>
-      <p>Cuando se preguntan por la realidad, los filósofos piensan en un conejo. ¿Cómo tomo al conejo? ¿Con mis manos o por la orejas? Es decir, es la realidad algo que efectivamente existe a priori y a pe...</p>
+      
+        <p>Cuando se preguntan por la realidad, los filósofos piensan en un conejo. ¿Cómo tomo al conejo? ¿Con mis manos o por la orejas? Es decir, es la realidad algo que efectivamente existe a priori y a pe...</p>
+      
     </a>
   
     <a href="/2008/09/la-naturaleza-de-la-informacion/" class="post-item" data-page="8">
@@ -1108,182 +1235,234 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2008/09/info-sketch1.png" alt="La Naturaleza de la Información">
       
       <h2>La Naturaleza de la Información</h2>
-      <p>El concepto de información es bastante abstracto y elusivo pero lo usamos con tanta familiaridad y tan cotidianamente que ni siquiera nos tomamos la molestia en definirla. Al menos sabemos 2 cosas ...</p>
+      
+        <p>El concepto de información es bastante abstracto y elusivo pero lo usamos con tanta familiaridad y tan cotidianamente que ni siquiera nos tomamos la molestia en definirla. Al menos sabemos 2 cosas ...</p>
+      
     </a>
   
     <a href="/2008/09/dibujos-generativos/" class="post-item" data-page="8">
       
       <h2>Dibujos Generativos</h2>
-      <p>Lenguaje Computacional Cero(o LC0) es un nuevo módulo dentro de la asignatura del Taller de Diseño para el Primer Año. Dentro de este ramo se introduce a los alumnos a la programación gráfica como ...</p>
+      
+        <p>Lenguaje Computacional Cero(o LC0) es un nuevo módulo dentro de la asignatura del Taller de Diseño para el Primer Año. Dentro de este ramo se introduce a los alumnos a la programación gráfica como ...</p>
+      
     </a>
   
-    <a href="/2008/09/colisiones-2d-ii/" class="post-item" data-page="8">
+    <a href="/2008/09/colisiones-2d-ii/" class="post-item" data-page="9">
       
       <h2>Colisiones 2D - II</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/08/colisiones-2d-i/" class="post-item" data-page="9">
       
       <h2>Colisiones 2D - I</h2>
-      <p>
-</p>
+      
+        <p>Featured as Eye Candy in Wired Magazine</p>
+      
     </a>
   
     <a href="/2008/08/voluntarios-para-iv-seminario-de-ai/" class="post-item" data-page="9">
       
       <h2>Voluntarios para IV Seminario de AI</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/08/iv-seminario-chileno-de-ai/" class="post-item" data-page="9">
       
       <h2>IV Seminario Chileno de AI</h2>
-      <p>En esta cuarta versión del seminario de Arquitectura de la Información, nuestro amigo Juan Carlos Camus ha sugerido darle el nombre de “viviendo la experiencia del usuario “ para generar la discusi...</p>
+      
+        <p>En esta cuarta versión del seminario de Arquitectura de la Información, nuestro amigo Juan Carlos Camus ha sugerido darle el nombre de “viviendo la experiencia del usuario “ para generar la discusi...</p>
+      
     </a>
   
     <a href="/2008/08/iv-seminario-chileno-de-ia/" class="post-item" data-page="9">
       
       <h2>IV Seminario Chileno de IA</h2>
-      <p>Los días viernes 3 en Viña del Mar y sábado 4 de octubre en Santiago, tendrá lugar el Cuarto Seminario Chileno de Arquitectura de Información, que reunirá a los principales exponentes nacionales de...</p>
+      
+        <p>Los días viernes 3 en Viña del Mar y sábado 4 de octubre en Santiago, tendrá lugar el Cuarto Seminario Chileno de Arquitectura de Información, que reunirá a los principales exponentes nacionales de...</p>
+      
     </a>
   
     <a href="/2008/08/dibujo-automata-exp2" class="post-item" data-page="9">
       
       <h2>Dibujo Autómata (experimento 2)</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
-    <a href="/2008/08/ecosistemas-de-informacion/" class="post-item" data-page="9">
+    <a href="/2008/08/ecosistemas-de-informacion/" class="post-item" data-page="10">
       
       <h2>Ecosistemas de Información</h2>
-      <p>Una de las grandes dificultades que existe al momento de plantear la estrategia de un proyecto de comunicación a través de Internet, radica en las implicancias que esta punta del iceberg —la interf...</p>
+      
+        <p>Una de las grandes dificultades que existe al momento de plantear la estrategia de un proyecto de comunicación a través de Internet, radica en las implicancias que esta punta del iceberg —la interf...</p>
+      
     </a>
   
     <a href="/2008/08/pasaje-paralelo-final-creadits" class="post-item" data-page="10">
       
       <h2>Pasaje Paralelo (créditos finales)</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/08/cortometraje" class="post-item" data-page="10">
       
       <h2>Cortometraje</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/08/historia-de-la-ead" class="post-item" data-page="10">
       
       <h2>Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/07/marcianitos/" class="post-item" data-page="10">
       
       <h2>Marcianitos</h2>
-      <p>Como este sitio trata de la doble página traigo esta aplicación: Issuu.
+      
+        <p>Como este sitio trata de la doble página traigo esta aplicación: Issuu.
 </p>
+      
     </a>
   
     <a href="/2008/pintor-automata" class="post-item" data-page="10">
       
       <h2>Pintor autómata: Intento 1</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
-    <a href="/2008/07/manejando-la-complejidad/" class="post-item" data-page="10">
+    <a href="/2008/07/manejando-la-complejidad/" class="post-item" data-page="11">
       
       <h2>Manejando la Complejidad</h2>
-      <p>Entre Ciencia y Arte hay un puente que está hecho por el Diseño. Desde la poética de la creación a la retórica de la razón. Sin embargo, ese paso nunca se nos ha mostrado claramente ni se pueden di...</p>
+      
+        <p>Entre Ciencia y Arte hay un puente que está hecho por el Diseño. Desde la poética de la creación a la retórica de la razón. Sin embargo, ese paso nunca se nos ha mostrado claramente ni se pueden di...</p>
+      
     </a>
   
     <a href="/2008/07/crono-anamorfosis/" class="post-item" data-page="11">
       
       <h2>Crono-anamorfosis</h2>
-      <p> Nuestra comprensión del tiempo es discreta, es decir concebimos la suceción de “instantes” como el único modo de reconstruir el flujo del tiempo. Cada vez que grabamos un video, recolectamos una g...</p>
+      
+        <p> Nuestra comprensión del tiempo es discreta, es decir concebimos la suceción de “instantes” como el único modo de reconstruir el flujo del tiempo. Cada vez que grabamos un video, recolectamos una g...</p>
+      
     </a>
   
     <a href="/2008/timetwist" class="post-item" data-page="11">
       
       <h2>TimeTwist</h2>
-      <p>
-</p>
-    </a>
-  
-    <a href="/2008/06/internodal/" class="post-item" data-page="11">
       
-      <h2>Internodal</h2>
-      <p>(http://vimeo.com/1246974)
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/06/internodal-2/" class="post-item" data-page="11">
       
       <h2>Internodal</h2>
-      <p>
+      
+        <p>
 </p>
+      
+    </a>
+  
+    <a href="/2008/06/internodal/" class="post-item" data-page="11">
+      
+      <h2>Internodal</h2>
+      
+        <p>(http://vimeo.com/1246974)
+</p>
+      
     </a>
   
     <a href="/2008/06/marcianitos-3/" class="post-item" data-page="11">
       
       <h2>Marcianitos</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
-    <a href="/2008/06/marcianitos-2/" class="post-item" data-page="11">
+    <a href="/2008/06/marcianitos-2/" class="post-item" data-page="12">
       
       <h2>Marcianitos</h2>
-      <p>Marcianitos from Herbert Spencer on Vimeo. Simple invader object based on Jared Trabell’s fractal invaders. This technique is also used as generative random avatar images. Cast: Herbert Spencer Tag...</p>
+      
+        <p>Marcianitos from Herbert Spencer on Vimeo. Simple invader object based on Jared Trabell’s fractal invaders. This technique is also used as generative random avatar images. Cast: Herbert Spencer Tag...</p>
+      
     </a>
   
     <a href="/2008/06/noise-gradient-animation/" class="post-item" data-page="12">
       
       <h2>Noise Gradient Animation</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/06/noise-gradient-animation-2/" class="post-item" data-page="12">
       
       <h2>Noise Gradient Animation</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/lineas-auto" class="post-item" data-page="12">
       
       <h2>Líneas Autómatas</h2>
-      <p>
-</p>
+      
+        <p>None</p>
+      
     </a>
   
     <a href="/2008/06/voronoi/" class="post-item" data-page="12">
       
       <h2>Voronoi</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/06/voronoi-2/" class="post-item" data-page="12">
       
       <h2>Voronoi</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
-    <a href="/2008/06/taller-abierto-de-processing/" class="post-item" data-page="12">
+    <a href="/2008/06/taller-abierto-de-processing/" class="post-item" data-page="13">
       
       <h2>Taller Abierto de Processing</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/06/del-suelo-a-la-tesela/" class="post-item" data-page="13">
@@ -1291,49 +1470,63 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2008/06/sector_bebederos_ca.jpg" alt="Del Suelo a la Tesela">
       
       <h2>Del Suelo a la Tesela</h2>
-      <p>Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.
+      
+        <p>Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.
 </p>
+      
     </a>
   
     <a href="/2008/05/despues-de-investigar/" class="post-item" data-page="13">
       
       <h2>Después de Investigar</h2>
-      <p>Está claro que la investigación exploratoria con usuarios adquiere cada vez más valor en los proyectos (aunque todavía, para los ojos del cliente, sea muy difícil justificarla y formalizarla dentro...</p>
+      
+        <p>Está claro que la investigación exploratoria con usuarios adquiere cada vez más valor en los proyectos (aunque todavía, para los ojos del cliente, sea muy difícil justificarla y formalizarla dentro...</p>
+      
     </a>
   
     <a href="/2008/03/historias-dirigidas/" class="post-item" data-page="13">
       
       <h2>Historias Dirigidas: Interpretando Experiencias</h2>
-      <p>El diseño se ocupa de la construcción del significado. Pero más específicamente, los diseñadores proveemos a las personas de los elementos para construir sus propios significados. Pero ¿cómo los di...</p>
+      
+        <p>El diseño se ocupa de la construcción del significado. Pero más específicamente, los diseñadores proveemos a las personas de los elementos para construir sus propios significados. Pero ¿cómo los di...</p>
+      
     </a>
   
     <a href="/2008/02/teselador/" class="post-item" data-page="13">
       
       <h2>Teselador</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2008/02/buscando-un-nombre/" class="post-item" data-page="13">
       
       <h2>buscando un nombre</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
-    <a href="/2008/02/para-que-investigamos-con-usuarios/" class="post-item" data-page="13">
+    <a href="/2008/02/para-que-investigamos-con-usuarios/" class="post-item" data-page="14">
       
       <h2>Para qué investigamos con usuarios</h2>
-      <p>En términos generales, en todo proceso de diseño podemos distinguir 3 momentos o fases características:
+      
+        <p>En términos generales, en todo proceso de diseño podemos distinguir 3 momentos o fases características:
 
   la fase exploratoria, donde se conocen a los usuarios y se define el territorio en juego
  ...</p>
+      
     </a>
   
     <a href="/2008/01/investigacion-y-diseno/" class="post-item" data-page="14">
       
       <h2>Investigación y Diseño</h2>
-      <p>Hace ya bastante tiempo que vengo viendo cómo la Ciencia adquiere más y más fuerza por sobre el Arte en términos de validación del discurso. No quiero caer en el fome y manoseado debate entre el Ar...</p>
+      
+        <p>Hace ya bastante tiempo que vengo viendo cómo la Ciencia adquiere más y más fuerza por sobre el Arte en términos de validación del discurso. No quiero caer en el fome y manoseado debate entre el Ar...</p>
+      
     </a>
   
     <a href="/2007/12/paradigmas-ixd/" class="post-item" data-page="14">
@@ -1341,8 +1534,10 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2007/10/interaccion.png" alt="Paradigmas del Diseño de Interacción">
       
       <h2>Paradigmas del Diseño de Interacción</h2>
-      <p>Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacción por su lado, en estos pocos años, está marcando un sentido evolutivo:
+      
+        <p>Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacción por su lado, en estos pocos años, está marcando un sentido evolutivo:
 </p>
+      
     </a>
   
     <a href="/2007/11/primes-modulator/" class="post-item" data-page="14">
@@ -1350,40 +1545,52 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2007/11/ulams-rose.png" alt="Modulador de Números Primos">
       
       <h2>Modulador de Números Primos</h2>
-      <p>Los números primos son los diamantes de los números naturales. Todos los demás números pueden construirse desde factorizaciones únicas de números primos; ellos son las piezas clave, los otros númer...</p>
+      
+        <p>Los números primos son los diamantes de los números naturales. Todos los demás números pueden construirse desde factorizaciones únicas de números primos; ellos son las piezas clave, los otros númer...</p>
+      
     </a>
   
     <a href="/2007/05/civilscope/" class="post-item" data-page="14">
       
       <h2>Civilscope</h2>
-      <p>
+      
+        <p>
 </p>
+      
     </a>
   
     <a href="/2007/05/mediafranca-parte-2/" class="post-item" data-page="14">
       
       <h2>MediaFranca, parte 2</h2>
-      <p>MediaFranca de Herbert Spencer en Vimeo. MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es c...</p>
+      
+        <p>MediaFranca de Herbert Spencer en Vimeo. MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es c...</p>
+      
     </a>
   
-    <a href="/2007/04/mediafranca-parte-1/" class="post-item" data-page="14">
+    <a href="/2007/04/mediafranca-parte-1/" class="post-item" data-page="15">
       
         <img src="/assets/uploads/2006/12/mf.png" alt="MediaFranca, parte 1">
       
       <h2>MediaFranca, parte 1</h2>
-      <p>MediaFranca((Este proyecto lamentablemente ya no está en línea, pero se puede ver aquí. Esta wiki fue la partida para Casiopea por el sentido de la documentación viva, expuesta y colaborativa de un...</p>
+      
+        <p>MediaFranca((Este proyecto lamentablemente ya no está en línea, pero se puede ver aquí. Esta wiki fue la partida para Casiopea por el sentido de la documentación viva, expuesta y colaborativa de un...</p>
+      
     </a>
   
     <a href="/2006/12/filippo-3d-ver-01/" class="post-item" data-page="15">
       
       <h2>Filippo 3D ver 0.1</h2>
-      <p> Filippo 3D is my final project for Golan’s class, the Interactive Image. This project is inspired by the idea of drawing in a 3D canvas. After seeing Amit Pitaru’s work, the famous sonic sculptor ...</p>
+      
+        <p> Filippo 3D is my final project for Golan’s class, the Interactive Image. This project is inspired by the idea of drawing in a 3D canvas. After seeing Amit Pitaru’s work, the famous sonic sculptor ...</p>
+      
     </a>
   
     <a href="/2006/10/2x2x2/" class="post-item" data-page="15">
       
       <h2>2x2x2</h2>
-      <p>Los arreglos 2x2 son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje X puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje Y puede referirse a la relació...</p>
+      
+        <p>Los arreglos 2x2 son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje X puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje Y puede referirse a la relació...</p>
+      
     </a>
   
     <a href="/2006/10/constel-sharing-marginalia/" class="post-item" data-page="15">
@@ -1391,33 +1598,43 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2006/07/constel03.png" alt="con§tel: sharing marginalia">
       
       <h2>con§tel: sharing marginalia</h2>
-      <p>con§tel: an environment to support creativity through shared marginalia
+      
+        <p>con§tel: an environment to support creativity through shared marginalia
 </p>
+      
     </a>
   
     <a href="/2006/10/flex-typeface/" class="post-item" data-page="15">
       
       <h2>Flex Typeface</h2>
-      <p>Este diseño está altamente influenciado por la fuente Stuv, diseñada por Flor.o (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse). Otra influencia (a la cual hay que rendir homena...</p>
+      
+        <p>Este diseño está altamente influenciado por la fuente Stuv, diseñada por Flor.o (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse). Otra influencia (a la cual hay que rendir homena...</p>
+      
     </a>
   
     <a href="/2006/10/axis-mundane/" class="post-item" data-page="15">
       
       <h2>Axis Mundane</h2>
-      <p>Las partí­culas son atraí­das entre ellas; cuando la distacia que separa cualquier par de partí­culas es mayor a la suma de sus radios, los radios de ambas partí­culas se incrementarán en 0.025 pix...</p>
+      
+        <p>Las partí­culas son atraí­das entre ellas; cuando la distacia que separa cualquier par de partí­culas es mayor a la suma de sus radios, los radios de ambas partí­culas se incrementarán en 0.025 pix...</p>
+      
     </a>
   
-    <a href="/2006/08/honeydew-agent/" class="post-item" data-page="15">
+    <a href="/2006/08/honeydew-agent/" class="post-item" data-page="16">
       
       <h2>Honeydew Agent</h2>
-      <p>**
+      
+        <p>**
 </p>
+      
     </a>
   
     <a href="/2005/08/disenando-con-estrofas/" class="post-item" data-page="16">
       
       <h2>Diseñando con Estrofas</h2>
-      <p>La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores ...</p>
+      
+        <p>La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores ...</p>
+      
     </a>
   
     <a href="/2005/06/examen-del-taller-de-cuarto-ano/" class="post-item" data-page="16">
@@ -1425,8 +1642,10 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2005/06/marana.jpg" alt="Exámen del Taller de Cuarto Año">
       
       <h2>Exámen del Taller de Cuarto Año</h2>
-      <p>1. De lo simultáneo y lo continuo
+      
+        <p>1. De lo simultáneo y lo continuo
 </p>
+      
     </a>
   
     <a href="/2005/04/evolucion-y-ocupacion-del-espacio/" class="post-item" data-page="16">
@@ -1434,8 +1653,10 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2005/04/gaston-maturana-shulz.png" alt="Evolución y Ocupación del Espacio">
       
       <h2>Evolución y Ocupación del Espacio</h2>
-      <p>{Texto introductorio, guía para el lector que quiera adentrarse en las láminas}
+      
+        <p>{Texto introductorio, guía para el lector que quiera adentrarse en las láminas}
 </p>
+      
     </a>
   
     <a href="/2005/03/constel/" class="post-item" data-page="16">
@@ -1443,21 +1664,27 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2006/07/constel02.png" alt="Con§tel">
       
       <h2>Con§tel</h2>
-      <p>Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, est...</p>
+      
+        <p>Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, est...</p>
+      
     </a>
   
     <a href="/2005/01/de-como-una-cosa-se-junta-con-otra/" class="post-item" data-page="16">
       
       <h2>De cómo una cosa se junta con otra</h2>
-      <p>Exámen de Primer Año Diseño – 15 de diciembre de 2004
+      
+        <p>Exámen de Primer Año Diseño – 15 de diciembre de 2004
 </p>
+      
     </a>
   
-    <a href="/2004/11/travesia-a-iruya/" class="post-item" data-page="16">
+    <a href="/2004/11/travesia-a-iruya/" class="post-item" data-page="17">
       
       <h2>Travesía a Iruya</h2>
-      <p>nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptible
+      
+        <p>nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptible
 </p>
+      
     </a>
   
     <a href="/2003/07/axis-mundae/" class="post-item" data-page="17">
@@ -1465,14 +1692,9 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
         <img src="/assets/uploads/2003/07/axis-9.gif" alt="Axis Mundae">
       
       <h2>Axis Mundae</h2>
-      <p>Instrucciones al lector: Este poema está construído a partir de todas las continuidades posibles en la figura de los nueve puntos y sus 72 conectivas. Para leer se recomienda al lector saltar en la...</p>
-    </a>
-  
-    <a href="/2008/09/ayerviernes-intro" class="post-item" data-page="17">
       
-      <h2>CD AyerViernes: Into</h2>
-      <p>
-</p>
+        <p>Instrucciones al lector: Este poema está construído a partir de todas las continuidades posibles en la figura de los nueve puntos y sus 72 conectivas. Para leer se recomienda al lector saltar en la...</p>
+      
     </a>
   
 </div>
@@ -1480,6 +1702,8 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
 <div class="paginacion" id="paginacion"></div>
 
 <script>
+  /* Máximo de 8 "pelotitas" */
+  const maxVisiblePages = 8;
   const itemsPerPage = 6;
   const items = [...document.querySelectorAll('.post-item')];
   const totalPages = Math.ceil(items.length / itemsPerPage);
@@ -1489,24 +1713,55 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
     items.forEach((el, i) => {
       el.style.display = Math.floor(i / itemsPerPage) === page ? 'block' : 'none';
     });
+    renderPagination(page);
+  }
 
-    pagination.innerHTML = '';
-    for (let i = 0; i < totalPages; i++) {
-      const dot = document.createElement(i === page ? 'span' : 'a');
-      dot.className = i === page ? 'actual' : '';
-      dot.href = "#";
-      dot.innerHTML = '&nbsp;';
-      dot.onclick = (e) => {
-        e.preventDefault();
-        showPage(i);
-      };
-      pagination.appendChild(dot);
+  function getPages(current, total, max) {
+    if (total <= max) return [...Array(total).keys()];
+    const pages = [0];
+    const lastPage = total - 1;
+    let start = Math.max(current - 2, 1);
+    let end = Math.min(current + 2, lastPage - 1);
+
+    if (start > 1) pages.push('…');
+    for (let i = start; i <= end; i++) pages.push(i);
+    if (end < lastPage - 1) pages.push('…');
+    pages.push(lastPage);
+
+    // Corta si excede el máximo
+    // Aunque rara vez, esto protege de exceder el 'max'
+    while (pages.length > max) {
+      if (current < total / 2) pages.splice(pages.length - 2, 1, '…');
+      else pages.splice(1, 1, '…');
+      if (pages.filter(p => p !== '…').length <= 2) break;
     }
+    return pages;
+  }
+
+  function renderPagination(current) {
+    pagination.innerHTML = '';
+    const pages = getPages(current, totalPages, maxVisiblePages);
+    pages.forEach(p => {
+      if (p === '…') {
+        const span = document.createElement('span');
+        span.textContent = '…';
+        pagination.appendChild(span);
+      } else {
+        const link = document.createElement(p === current ? 'span' : 'a');
+        link.className = p === current ? 'actual' : '';
+        link.href = '#';
+        link.textContent = p + 1;
+        link.onclick = e => {
+          e.preventDefault();
+          showPage(p);
+        };
+        pagination.appendChild(link);
+      }
+    });
   }
 
   showPage(0);
 </script>
-
             
 
         </article>
@@ -1525,7 +1780,7 @@ Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustan..
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
 </body>

@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>PictoNet | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="PictoNet">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/PictoNet">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PictoNet">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">PictoNet</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">PictoNet</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2025/03/make-the-bed.png"
@@ -74,19 +90,36 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2025-02-18T23:03:01+13:00">
-          18 February 2025
-        </time>
+      
 
-        
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2025-02-18T23:03:01+13:00">
+        18 February 2025
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
         <div
           class=""
           style=""
         >
           <a href="/assets/uploads/2025/03/CC_Map.pdf">CC Map</a>
         </div>
-          <a id="btn-citar-pictonet" class="btn-citar">&#x301E;</a>
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-pictonet" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-pictonet" class="modal-citar">
     <div class="modal-contenido">
@@ -135,10 +168,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de manera que simultáneamente sirva como base conceptual y operativa para lo que he denominado <strong>PictoNet</strong>. Concebido como una plataforma abierta de generación de pictogramas vectoriales (en formato <acronym title="Scalar Vector Graphics">SVG</acronym>) orientada a la comunicación inclusiva pero no se limita al ámbito académico ni “asistivo”: mi intención es que evolucione hacia una iniciativa de bien público, un proyecto de naturaleza <em>open source</em> al que cualquier persona o institución pueda sumarse para contribuir, apropiarse y, ojalá, co-gobernar bajo principios de transparencia y colaboración.</p>
+    <article>
+      <p>Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de manera que simultáneamente sirva como base conceptual y operativa para lo que he denominado <strong>PictoNet</strong>. Concebido como una plataforma abierta de generación de pictogramas vectoriales (en formato <acronym title="Scalar Vector Graphics">SVG</acronym>) orientada a la comunicación inclusiva pero no se limita al ámbito académico ni “asistivo”: mi intención es que evolucione hacia una iniciativa de bien público, un proyecto de naturaleza <em>open source</em> al que cualquier persona o institución pueda sumarse para contribuir, apropiarse y, ojalá, co-gobernar bajo principios de transparencia y colaboración.</p>
 
 <p>En su dimensión académica, esta propuesta se enmarca en una investigación doctoral de tipo <em>practice-based</em>, es decir, una modalidad donde la creación de prototipos, la implementación de la plataforma y la verificación de sus usos en entornos de Comunicación Aumentativa y Alternativa (CAA). Todo esto constituye el mismo núcleo de generación de conocimiento: la interacción humano-computador y la inteligencia artificial<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> pueden fusionarse en un ecosistema que fomente nuevas formas de comunicación, sobre todo para aquellas personas que poseen necesidades complejas de habla o escritura.</p>
 
@@ -210,17 +243,18 @@
 <li id="fn:5">Esto es un ejemplo <a href="https://www.herbertspencer.net/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/">del diseño de transición en la era del tecnofeudalismo</a>. <a href="#fnref:5" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -233,8 +267,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

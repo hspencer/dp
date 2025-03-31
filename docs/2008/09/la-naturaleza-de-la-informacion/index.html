@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>La Naturaleza de la Información | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="La Naturaleza de la Información">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/09/la-naturaleza-de-la-informacion/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="La Naturaleza de la Información">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">La Naturaleza de la Información</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">La Naturaleza de la Información</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2008/09/info-sketch1.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2008-09-11T01:40:59+12:00">
-          11 September 2008
-        </time>
+      
 
-          <a id="btn-citar-la-naturaleza-de-la-informacion" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-09-11T01:40:59+12:00">
+        11 September 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-la-naturaleza-de-la-informacion" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-la-naturaleza-de-la-informacion" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>El concepto de información es bastante abstracto y elusivo pero lo usamos con tanta familiaridad y tan cotidianamente que ni siquiera nos tomamos la molestia en definirla. Al menos sabemos 2 cosas básicas (o creemos 2 mitos básicos): que se constituye como el <strong>contenido</strong> del acto comunicativo y que es algo <strong>inmaterial</strong> (tal vez por la facilidad con que transita desde la boca al oído). La información emerge como contenido, como una especie de “cosa” u “objeto” pero con cualidades especiales: facilidad de reproducción, amplificación y propagación; pero a la vez intangible y volátil. Si tuviésemos que ponerle fecha de inicio, la Era de la Información comenzó el año 1948, poco tiempo después de finalizar la Segunda Guerra Mundial cuando Claude Shannon publicó el trabajo “<strong>Una Teoría Matemática de la Comunicación</strong> “ <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> . <a href="/assets/uploads/2008/09/esquema-informacion1.png"><img src="/assets/uploads/2008/09/esquema-informacion1.png" alt="Diagrama esquemático general de los sistemas de comunicación (copiado sin permiso) de Claude Shannon, 1948." /></a> En este trabajo, Shannon define la información a partir de la relación entre <strong>señal</strong> y <strong>ruido</strong> ; <em>la información es una medida estadística de la incertidumbre del sistema</em>(dentro de un sistema entrópico). La información implica una relación <strong>no-lineal</strong> y <strong>no-determinista</strong> entre los niveles micro y macroscópicos del sistema físico.</p>
+    <article>
+      <p>El concepto de información es bastante abstracto y elusivo pero lo usamos con tanta familiaridad y tan cotidianamente que ni siquiera nos tomamos la molestia en definirla. Al menos sabemos 2 cosas básicas (o creemos 2 mitos básicos): que se constituye como el <strong>contenido</strong> del acto comunicativo y que es algo <strong>inmaterial</strong> (tal vez por la facilidad con que transita desde la boca al oído). La información emerge como contenido, como una especie de “cosa” u “objeto” pero con cualidades especiales: facilidad de reproducción, amplificación y propagación; pero a la vez intangible y volátil. Si tuviésemos que ponerle fecha de inicio, la Era de la Información comenzó el año 1948, poco tiempo después de finalizar la Segunda Guerra Mundial cuando Claude Shannon publicó el trabajo “<strong>Una Teoría Matemática de la Comunicación</strong> “ <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> . <a href="/assets/uploads/2008/09/esquema-informacion1.png"><img src="/assets/uploads/2008/09/esquema-informacion1.png" alt="Diagrama esquemático general de los sistemas de comunicación (copiado sin permiso) de Claude Shannon, 1948." /></a> En este trabajo, Shannon define la información a partir de la relación entre <strong>señal</strong> y <strong>ruido</strong> ; <em>la información es una medida estadística de la incertidumbre del sistema</em>(dentro de un sistema entrópico). La información implica una relación <strong>no-lineal</strong> y <strong>no-determinista</strong> entre los niveles micro y macroscópicos del sistema físico.</p>
 
 <blockquote>
   <p>El problema fundamental de la comunicación consiste en reproducir en un punto exactamente (o con cierto grado de aproximación) un mensage seleccionado desde otro punto <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup></p>
@@ -160,17 +193,18 @@
 <li id="fn:9">Search Engine Optimization: técnica para escribir los textos y disponer el código XHTML de una página para optimizar su visibilidad, por lo tanto rankeo, dentro de la lógica de los buscadores <a href="#fnref:9" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -183,8 +217,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

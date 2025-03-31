@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/08/iv-seminario-chileno-de-ia/
 title: IV Seminario Chileno de IA
 date: 2008-08-22 17:16:12 -0000

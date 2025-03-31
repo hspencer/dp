@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión Sideways is a very small program created with Processing that creates 2 slitscan bitmaps from a single video.">
-    <meta name="author" content="">
+    <meta name="description" content="Sideways is a very small program created with Processing that creates 2 slitscan bitmaps from a single video.">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Sideways: Slitscan for Urban Travellers | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Sideways: Slitscan for Urban Travellers">
+    <meta property="og:description" content="Sideways is a very small program created with Processing that creates 2 slitscan bitmaps from a single video.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2014/11/slitscan-sideways/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sideways: Slitscan for Urban Travellers">
+    <meta name="twitter:description" content="Sideways is a very small program created with Processing that creates 2 slitscan bitmaps from a single video.">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Sideways: Slitscan for Urban Travellers</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Sideways: Slitscan for Urban Travellers</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2014/11/sideways.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2014-11-13T08:33:42+13:00">
-          13 November 2014
-        </time>
+      
 
-          <a id="btn-citar-slitscan-sideways" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2014-11-13T08:33:42+13:00">
+        13 November 2014
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-slitscan-sideways" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-slitscan-sideways" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><strong>Sideways</strong> is a very small program created with <a href="http://www.processing.org">Processing</a> that creates 2 <a href="http://en.wikipedia.org/wiki/Slit-scan_photography">slitscan</a> bitmaps from a single video. The video must be a first-person road shoot so both sides (left &amp; right) are created from the edges.</p>
+    <article>
+      <p><strong>Sideways</strong> is a very small program created with <a href="http://www.processing.org">Processing</a> that creates 2 <a href="http://en.wikipedia.org/wiki/Slit-scan_photography">slitscan</a> bitmaps from a single video. The video must be a first-person road shoot so both sides (left &amp; right) are created from the edges.</p>
 
 <h2 id="instructions"><a href="https://github.com/hspencer/sideways#instructions"></a>instructions</h2>
 
@@ -158,17 +191,18 @@
 right side:<br />
 <a href="/assets/uploads/2014/11/2014116114933_der.png"><img src="/assets/uploads/2014/11/2014116114933_der-1010x130.png" alt="2014116114933_der" /></a><br />
 For more information on the topic, check this <a href="http://www.flong.com/texts/lists/slit_scan/">Informal Catalogue of Slit-Scan Video Artworks and Research</a> created by Golan Levin.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -181,8 +215,8 @@ For more information on the topic, check this <a href="http://www.flong.com/text
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

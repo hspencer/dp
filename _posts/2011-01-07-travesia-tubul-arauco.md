@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2011/01/travesia-tubul-arauco/
 title: "Travesía Tubul, Arauco"
 date: 2011-01-07 13:32:32 -0000

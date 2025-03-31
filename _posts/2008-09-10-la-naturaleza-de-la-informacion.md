@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/09/la-naturaleza-de-la-informacion/
 title: "La Naturaleza de la Información"
 date: 2008-09-10 13:40:59 -0000

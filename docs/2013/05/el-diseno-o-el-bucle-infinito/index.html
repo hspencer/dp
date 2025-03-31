@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>El Diseño, o el bucle infinito | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="El Diseño, o el bucle infinito">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2013/05/el-diseno-o-el-bucle-infinito/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="El Diseño, o el bucle infinito">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">El Diseño, o el bucle infinito</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">El Diseño, o el bucle infinito</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2013/05/infinite-loop.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2013-05-10T06:23:21+12:00">
-          10 May 2013
-        </time>
+      
 
-          <a id="btn-citar-el-diseno-o-el-bucle-infinito" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2013-05-10T06:23:21+12:00">
+        10 May 2013
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-el-diseno-o-el-bucle-infinito" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-el-diseno-o-el-bucle-infinito" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que <em>se basta de sí mismo</em> porque se construye como una <strong>cifra</strong> , con sus imágenes, sus letras, su código, su discurso y su tiempo. La superficie contiene todas las claves que condensan y fijan el discurso en una cifra gráfica. Ejemplos de esto se encuentran en todas partes: afiches, revistas, envases, carteles, folletos, revistas, libros; incluso las artes gráficas –incluso la pintura– comparten esta naturaleza unidireccional de lo fijo. Y con “lo fijo” no quiero decir que sea cerrado, o restado en alguna medida. Tan solo quiero argumentar que en esta fianza de lo fijo descansa la potencia que tiene el lenguaje visual de hacer detonar, en el lector, toda la potencia de su discurso. El diseñador recibe un argumento –o lo articula– para luego interpretarlo, darle espacio, darle forma, darle voz gráfica; materializa su palabra y su apariencia, le da un tempo, una <em>demora</em>. El diseño gráfico es, entonces, unidireccional y fijo, cada vez. <a href="/assets/uploads/2013/05/partial-loops.png"><img src="/assets/uploads/2013/05/partial-loops-470x146.png" alt="partial-loops" /></a></p>
+    <article>
+      <p>El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que <em>se basta de sí mismo</em> porque se construye como una <strong>cifra</strong> , con sus imágenes, sus letras, su código, su discurso y su tiempo. La superficie contiene todas las claves que condensan y fijan el discurso en una cifra gráfica. Ejemplos de esto se encuentran en todas partes: afiches, revistas, envases, carteles, folletos, revistas, libros; incluso las artes gráficas –incluso la pintura– comparten esta naturaleza unidireccional de lo fijo. Y con “lo fijo” no quiero decir que sea cerrado, o restado en alguna medida. Tan solo quiero argumentar que en esta fianza de lo fijo descansa la potencia que tiene el lenguaje visual de hacer detonar, en el lector, toda la potencia de su discurso. El diseñador recibe un argumento –o lo articula– para luego interpretarlo, darle espacio, darle forma, darle voz gráfica; materializa su palabra y su apariencia, le da un tempo, una <em>demora</em>. El diseño gráfico es, entonces, unidireccional y fijo, cada vez. <a href="/assets/uploads/2013/05/partial-loops.png"><img src="/assets/uploads/2013/05/partial-loops-470x146.png" alt="partial-loops" /></a></p>
 
 <p>(1) discurso gráfico de lo fijo (2) diálogo autor-lector / sistema-usuario (3) participación reflexiva de los muchos que hacen emerger nuevos espacios. El autor/diseñador define las reglas de interacción. ¿Determinismo estructural cerrado o libertad abierta en constante expansión?… ¿nos preguntamos eso cuando diseñamos?</p>
 
@@ -158,17 +191,18 @@
 <li id="fn:2">Este texto está adaptado del prólogo que escribí para el proyecto <a href="http://proyectos.ead.pucv.cl/baobab/version-2/">Baobab</a> <a href="#fnref:2" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -181,8 +215,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

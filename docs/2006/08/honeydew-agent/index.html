@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Honeydew Agent | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Honeydew Agent">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2006/08/honeydew-agent/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Honeydew Agent">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Honeydew Agent</h1>
-         
-        <time datetime="2006-08-23T04:42:13+12:00">
-          23 August 2006
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Honeydew Agent</h1>
 
-          <a id="btn-citar-honeydew-agent" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2006-08-23T04:42:13+12:00">
+        23 August 2006
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-honeydew-agent" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-honeydew-agent" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><img src="http://web.archive.org/web/20061013125929//assets/uploads/2006/08/honeydew_logo_small.jpg" alt="Honeydew Logo" /><em>**</em></p>
+    <article>
+      <p><img src="http://web.archive.org/web/20061013125929//assets/uploads/2006/08/honeydew_logo_small.jpg" alt="Honeydew Logo" /><em>**</em></p>
 
 <p><a href="/assets/uploads/2006/08/honeydew_logo_small1.png"><img src="/assets/uploads/2006/08/honeydew_logo_small1.png" alt="" /></a></p>
 
@@ -157,17 +190,18 @@
   <li>En el editor de correo (New Meeting) el ícono smiley de la barra de formato permite cambiar entre un formulario lleno y uno vacío
 Este encargo fue realizado por <a href="http://web.archive.org/web/20061013125929/http://www.isri.cmu.edu/index.jsp" title="Institute for Software Research International">ISRI</a> de CMU en el marco de un proyecto de investigación. La implementación de este diseño puede sufrir variaciones desde la posibilidad de desarrollar una aplicación por sí sola completamente independiente de los clientes de correo y calendario o bien, un plug-in para Microsoft Outlook… esa desición, al ser tan importante, fue dejada para el final.</li>
 </ul>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -180,8 +214,8 @@ Este encargo fue realizado por <a href="http://web.archive.org/web/2006101312592
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

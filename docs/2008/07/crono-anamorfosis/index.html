@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Crono-anamorfosis | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Crono-anamorfosis">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/07/crono-anamorfosis/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Crono-anamorfosis">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Crono-anamorfosis</h1>
-         
-        <time datetime="2008-07-09T10:34:03+12:00">
-          9 July 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Crono-anamorfosis</h1>
 
-          <a id="btn-citar-crono-anamorfosis" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-07-09T10:34:03+12:00">
+        9 July 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-crono-anamorfosis" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-crono-anamorfosis" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><img src="/assets/uploads/2008/07/timescan-normal1.png" alt="secuencia" /> Nuestra comprensión del tiempo es discreta, es decir concebimos la suceción de “instantes” como el único modo de reconstruir el flujo del tiempo. Cada vez que grabamos un video, recolectamos una gran catidad de fotogramas que luego son reproducidos —normalmente— a la misma velocidad con la que fueron captados. Tenemos entonces un <em>solido</em> o <em>volumen</em> de fotogramas cuyo espesor corresponde al tiempo. Siempre que reproducimos el video, elegimos verlo en sucesivos cortes transversales perpendiculares al tiempo, tratando de volver a esos instantes fotográficos. Pero ¿podemos verlo de otro modo? ¿qué ocurriría si elegimos ver este sólido de tiempo haciendo un corte con una inclinación ligeramente distinta? <img src="/assets/uploads/2008/07/timescan-inclinado1.png" alt="secuencia inclinada con anamorfosis temporal" /> Por ejemplo, imaginemos que el programa que captura video va almacenando un <em>buffer</em> de fotogramas que tiene un espesor igual al alto en pixeles del fotograma (aquí en el esquema: y = z). Es decir, si tengo un fotograma de 320 pixeles de ancho por 240 pixeles de alto, tengo un buffer de 240 fotogramas de espesor. Entonces el fotograma actual puede construirse a partir de la diagonal de este volumen: la primera línea es la actual, la segunda es de 1 fotograma atrás, la tercera de 2 fotogramas atras, y así hasta completar el alto de la imágen.  <a href="http://www.vimeo.com/1304091?pg=embed&amp;sec=1304091">TimeTwist</a> de <a href="http://www.vimeo.com/hspencer?pg=embed&amp;sec=1304091">Herbert Spencer</a> en <a href="http://vimeo.com?pg=embed&amp;sec=1304091">Vimeo</a>.</p>
+    <article>
+      <p><img src="/assets/uploads/2008/07/timescan-normal1.png" alt="secuencia" /> Nuestra comprensión del tiempo es discreta, es decir concebimos la suceción de “instantes” como el único modo de reconstruir el flujo del tiempo. Cada vez que grabamos un video, recolectamos una gran catidad de fotogramas que luego son reproducidos —normalmente— a la misma velocidad con la que fueron captados. Tenemos entonces un <em>solido</em> o <em>volumen</em> de fotogramas cuyo espesor corresponde al tiempo. Siempre que reproducimos el video, elegimos verlo en sucesivos cortes transversales perpendiculares al tiempo, tratando de volver a esos instantes fotográficos. Pero ¿podemos verlo de otro modo? ¿qué ocurriría si elegimos ver este sólido de tiempo haciendo un corte con una inclinación ligeramente distinta? <img src="/assets/uploads/2008/07/timescan-inclinado1.png" alt="secuencia inclinada con anamorfosis temporal" /> Por ejemplo, imaginemos que el programa que captura video va almacenando un <em>buffer</em> de fotogramas que tiene un espesor igual al alto en pixeles del fotograma (aquí en el esquema: y = z). Es decir, si tengo un fotograma de 320 pixeles de ancho por 240 pixeles de alto, tengo un buffer de 240 fotogramas de espesor. Entonces el fotograma actual puede construirse a partir de la diagonal de este volumen: la primera línea es la actual, la segunda es de 1 fotograma atrás, la tercera de 2 fotogramas atras, y así hasta completar el alto de la imágen.  <a href="http://www.vimeo.com/1304091?pg=embed&amp;sec=1304091">TimeTwist</a> de <a href="http://www.vimeo.com/hspencer?pg=embed&amp;sec=1304091">Herbert Spencer</a> en <a href="http://vimeo.com?pg=embed&amp;sec=1304091">Vimeo</a>.</p>
 
 <h4 id="código">Código</h4>
 
@@ -134,17 +167,18 @@
   <li><a href="http://www.zbigvision.com/The4Dim.html" title="Sitio de Zbig">Zbig Rybczynski</a></li>
   <li><a href="http://www.flong.com/texts/lists/slit_scan/" title="catálogo informal de Golan Levin">Flong</a>, en una recopilación completa de <strong>slitscan</strong> (catálogo informal)</li>
 </ul>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -157,8 +191,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

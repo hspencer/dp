@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/08/iv-seminario-chileno-de-ai/
 title: IV Seminario Chileno de AI
 date: 2008-08-25 00:57:01 -0000

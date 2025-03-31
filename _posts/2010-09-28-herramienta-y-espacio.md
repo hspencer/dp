@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2010/09/herramienta-y-espacio/
 title: Herramienta y Espacio
 date: 2010-09-29 01:46:35 -0000

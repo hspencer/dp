@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/06/internodal/
 title: Internodal
 date: 2008-06-28 12:47:22 -0000

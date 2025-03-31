@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/06/del-suelo-a-la-tesela/
 title: Del Suelo a la Tesela
 date: 2008-06-18 13:03:08 -0000

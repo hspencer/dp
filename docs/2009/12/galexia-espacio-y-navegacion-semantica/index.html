@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Galexia: Espacio y Navegación Semántica | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Galexia: Espacio y Navegación Semántica">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2009/12/galexia-espacio-y-navegacion-semantica/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Galexia: Espacio y Navegación Semántica">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Galexia: Espacio y Navegación Semántica</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Galexia: Espacio y Navegación Semántica</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="https://wiki-ead.b-cdn.net/images/d/df/Galexia_P%C3%A1gina_001.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2009-12-19T01:36:03+13:00">
-          19 December 2009
-        </time>
+      
 
-          <a id="btn-citar-galexia-espacio-y-navegacion-semantica" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2009-12-19T01:36:03+13:00">
+        19 December 2009
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-galexia-espacio-y-navegacion-semantica" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-galexia-espacio-y-navegacion-semantica" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <h3 id="senderos-de-la-memoria">Senderos de la Memoria</h3>
+    <article>
+      <h3 id="senderos-de-la-memoria">Senderos de la Memoria</h3>
 
 <p>El presente estudio, realizado por <a href="http://www.christiancampos.cl/" title="Sitio Personal de Christian Campos">Christian Campos</a>, avanza sobre una línea de investigación centrada en lo que llamamos <em>“ palacios de la memoria”</em>. Ellos son los espacios que acopian y ordenan los artefactos del pasado, conocidos como archivos y repositorios digitales. Hacemos un especial énfasis en la dimensión espacial de palacio por sobre el ordenamiento de indexación archivística, porque es precisamente este modo anterior (el espacial) lo que posibilita una mirada escalable e intuitava para los siempre crecientes archivos digitales. Además, la construcción espacial provee al lector de una experiencia de lectura o recorrido más comprensible, ya que en su articulación interna de distancias se revela su logos interno.</p>
 
@@ -159,17 +192,18 @@ Es el aparente consumo del lector o investigador, normal cliente del archivo, el
 <p><a href="http://proyectos.ead.pucv.cl/galexia"><img src="http://proyectos.ead.pucv.cl/galexia/images/_aux/logo.png" alt="" /></a></p>
 
 <p>Ver: <a href="http://proyectos.ead.pucv.cl/galexia" title="Sitio del Proyecto Galexia">documentación completa en el sitio del proyecto</a>.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -182,8 +216,8 @@ Es el aparente consumo del lector o investigador, normal cliente del archivo, el
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

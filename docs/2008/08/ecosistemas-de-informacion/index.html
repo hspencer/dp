@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Ecosistemas de Información | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Ecosistemas de Información">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/08/ecosistemas-de-informacion/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ecosistemas de Información">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Ecosistemas de Información</h1>
-         
-        <time datetime="2008-08-11T11:06:15+12:00">
-          11 August 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Ecosistemas de Información</h1>
 
-          <a id="btn-citar-ecosistemas-de-informacion" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-08-11T11:06:15+12:00">
+        11 August 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-ecosistemas-de-informacion" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-ecosistemas-de-informacion" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>Una de las grandes dificultades que existe al momento de plantear la estrategia de un proyecto de comunicación a través de Internet, radica en las implicancias que esta <em>punta del iceberg</em> —la interfaz Web— tiene en la cultura interna de la organización, porque no se trata de un cambio “cosmético” sino que tiene que <strong>reflejar transparentemente</strong> el modo de ser de la organización o empresa. Conocida es la frase que dice: “La arquitectura de la información es la cola que mueve al perro”, de Louis Rosenfeld. Plantear un proyecto Web como un <strong>cambio cultural dentro de la organización</strong> es políticamente torpe y kamikaze. Nadie va a querer cambiar su cultura interna, menos si es alguien externo quien lo dice (el consultor de diseño).</p>
+    <article>
+      <p>Una de las grandes dificultades que existe al momento de plantear la estrategia de un proyecto de comunicación a través de Internet, radica en las implicancias que esta <em>punta del iceberg</em> —la interfaz Web— tiene en la cultura interna de la organización, porque no se trata de un cambio “cosmético” sino que tiene que <strong>reflejar transparentemente</strong> el modo de ser de la organización o empresa. Conocida es la frase que dice: “La arquitectura de la información es la cola que mueve al perro”, de Louis Rosenfeld. Plantear un proyecto Web como un <strong>cambio cultural dentro de la organización</strong> es políticamente torpe y kamikaze. Nadie va a querer cambiar su cultura interna, menos si es alguien externo quien lo dice (el consultor de diseño).</p>
 
 <h2 id="el-pensamiento-estanco">El Pensamiento Estanco</h2>
 
@@ -169,17 +202,18 @@
   <li><a href="http://electricinsomnia.com/">El blog de Imran Sobh</a>, amigo y ex-compañero de postgrado en CMU. El hace una brillante síntesis del libro que es el cupable de este post.</li>
   <li><a href="http://www.americanscientist.org/bookshelf/pub/what-are-techno-memes-anyway" title="más acerca de techno-memes">¿What are techno-memes, anyway?</a></li>
 </ul>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -192,8 +226,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2014/12/gridspace/
 title: GridSpace
 date: 2014-12-11 22:02:55 -0000

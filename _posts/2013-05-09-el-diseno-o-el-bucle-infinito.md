@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2013/05/el-diseno-o-el-bucle-infinito/
 title: "El Diseño, o el bucle infinito"
 date: 2013-05-09 18:23:21 -0000

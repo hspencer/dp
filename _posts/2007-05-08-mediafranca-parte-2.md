@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2007/05/mediafranca-parte-2/
 title: MediaFranca, parte 2
 date: 2007-05-08 15:48:35 -0000

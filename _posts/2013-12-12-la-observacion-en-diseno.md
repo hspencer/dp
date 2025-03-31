@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2013/12/la-observacion-en-diseno/
 title: "La Observación en Diseño"
 date: 2013-12-12 18:17:02 -0000

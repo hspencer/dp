@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2009/11/personas-no-usuarios/
 title: Personas, no Usuarios
 date: 2009-11-04 19:08:58 -0000

@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>con§tel: sharing marginalia | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="con§tel: sharing marginalia">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2006/10/constel-sharing-marginalia/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="con§tel: sharing marginalia">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,19 +76,38 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">con§tel: sharing marginalia</h1>
-         
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">con§tel: sharing marginalia</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
         <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
         <div id="p5"></div>
         <script src="/assets/p5/type-field.js"></script>
-        
-        <time datetime="2006-10-30T04:22:44+13:00">
-          30 October 2006
-        </time>
+      
 
-          <a id="btn-citar-constel-sharing-marginalia" class="btn-citar">&#x301E;</a>
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2006-10-30T04:22:44+13:00">
+        30 October 2006
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-constel-sharing-marginalia" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-constel-sharing-marginalia" class="modal-citar">
     <div class="modal-contenido">
@@ -123,10 +156,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <h5 id="contel-an-environment-to-support-creativity-through-shared-marginalia">con§tel: an environment to support creativity through shared marginalia</h5>
+    <article>
+      <h5 id="contel-an-environment-to-support-creativity-through-shared-marginalia">con§tel: an environment to support creativity through shared marginalia</h5>
 
 <h3 id="abstract">Abstract</h3>
 
@@ -320,17 +353,18 @@ deforman y engañan?</em><sup id="fnref:8"><a href="#fn:8" class="footnote-ref">
 <li id="fn:22">“The act engenders the form; like a pen stroke which, put to the light, orients the normal indifference of the directions” <a href="#fnref:22" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -343,8 +377,8 @@ deforman y engañan?</em><sup id="fnref:8"><a href="#fn:8" class="footnote-ref">
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

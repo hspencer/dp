@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio/
 title: "Enseñando Interacción"
 date: 2018-11-01 20:15:05 -0000

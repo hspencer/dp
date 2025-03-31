@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>buscando un nombre | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="buscando un nombre">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/02/buscando-un-nombre/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="buscando un nombre">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">buscando un nombre</h1>
-         
-        <time datetime="2008-02-28T17:17:03+13:00">
-          28 February 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">buscando un nombre</h1>
 
-          <a id="btn-citar-buscando-un-nombre" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-02-28T17:17:03+13:00">
+        28 February 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-buscando-un-nombre" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-buscando-un-nombre" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><img src="/assets/uploads/2008/02/duwa1.gif" alt="duwa" /></p>
+    <article>
+      <p><img src="/assets/uploads/2008/02/duwa1.gif" alt="duwa" /></p>
 
 <p>En muy poco tiempo más seré nuevamente padre, esta vez de una <a href="http://www.flickr.com/photos/herbert-spencer/2233829830/" title="ecografía 3D de la nena">niña</a>. El problema es que no se nos ocurre qué nombre ponerle. Hemos buscado miles, pero mi decepción fue mayor al ver que todos mis esfuerzos creativos no eran más que <a href="http://www.registrocivil.cl/Servicios/Estadisticas/Archivos/NombresComunes/Nombres_Annos.htm" title="Estadísticas del Registro Civil para los nombres más comunes en Chile">el lugar común que todos transitan</a>. Entonces se me ocurrió que podría tener un nombre inventado, nuevo. Para eso hice un programa llamado <strong>nameGenerator</strong> que genera nombres a partir de distintos patrones de consonates y vocales:</p>
 
@@ -135,17 +168,18 @@
 <h3 id="instrucciones">Instrucciones</h3>
 
 <p>Este programa se maneja con el teclado (No tuve el tiempo ni la dedicación para esmerarme en una interfaz más amistosa, pero el teclado funciona bien). Para generar un nombre nuevo, hay que apretar cualquier número, 0 inclusive. Cada uno de los números representa un patrón de consonantes y vocales distinto. Arriba, al medio dice que patrón se está utilizando. Por ejemplo: “C V V C V” (‘C’ para consonante y ‘V’ para vocal) podría arrojar “paula”. Dentro de la carpeta del programa viene un archivo de texto llamado “nombres.txt” que está vacío (!) Este archivo es necesario para grabar los <em>nombres buenos</em> que puedan ir saliendo. Para grabar un nombre sólo hay que apretar la barra de ESPACIO. Además, dentro de los chiches inútiles, está el catastro de todas las letras representado por unos pequeños gráficos de barra de 1 pixel para ir contando cuantas veces cada letra es utilizada. Como ya dije, no tiene mayor utilidad; sólo lo hice para ver si la función <code class="language-plaintext highlighter-rouge">random()</code> que elige las letras es realmente aleatoria. La letra ‘ñ’ fue eliminada a propósito. Bueno… como no le tengo mucha fe a este programa (que es enfermo de nerd) Acepto feliz cualquier tipo de sugerencia para el nombre de la beba. Gracias y que disfruten de este útil programa. Se me olvidaba: <strong>es muy importante</strong> salir del programa presionando la letra <strong>Q</strong> , de otro modo, el archivo de texto quedará mal cerrado… detalles… ; )</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -158,8 +192,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Para qué investigamos con usuarios | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Para qué investigamos con usuarios">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/02/para-que-investigamos-con-usuarios/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Para qué investigamos con usuarios">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Para qué investigamos con usuarios</h1>
-         
-        <time datetime="2008-02-28T16:41:38+13:00">
-          28 February 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Para qué investigamos con usuarios</h1>
 
-          <a id="btn-citar-para-que-investigamos-con-usuarios" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-02-28T16:41:38+13:00">
+        28 February 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-para-que-investigamos-con-usuarios" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-para-que-investigamos-con-usuarios" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>En términos generales, en todo proceso de diseño podemos distinguir 3 momentos o fases características:</p>
+    <article>
+      <p>En términos generales, en todo proceso de diseño podemos distinguir 3 momentos o fases características:</p>
 <ol>
   <li>la fase exploratoria, donde se conocen a los usuarios y se define el territorio en juego</li>
   <li>la fase generativa, donde se plantean las ideas y conceptos a desarrollar</li>
@@ -159,17 +192,18 @@
 </ul>
 
 <p>En Chile estamos <a href="http://www.eyetracking.cl/" title="Eyetracking en Chile">comenzando a evangelizar</a> para tomar seriamente estas metodologías, pero recién estamos entendiendo la investigación como evaluación. ¿Que pasa con las fases más fundamentales y tempranas del proceso? Un buen diseño es aquel que comprende el secreto del usuario, que es capaz de interpretarlo. Para lograr ese grado de empatía, la fase exploratoria busca acceder y construir los <strong>modelos mentales</strong> que enmarcan el comportamiento del usuario. Si el diseño del producto final interpreta correctamente el modelo mental del usuario, no existirá colisión entre espectativas y respuesta del sistema, la curva de aprendizaje será menor y el producto será altamente “apropiable”.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -182,8 +216,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

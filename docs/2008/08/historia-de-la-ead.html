@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/08/historia-de-la-ead">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV</h1>
-         
-        <time datetime="2008-08-04T07:06:00+12:00">
-          4 August 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV</h1>
 
-          <a id="btn-citar-historia-de-la-ead" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-08-04T07:06:00+12:00">
+        4 August 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-historia-de-la-ead" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-historia-de-la-ead" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><a href="http://vimeo.com/1460008"><img src="http://b.vimeocdn.com/ts/590/697/59069776_200.jpg" alt="" /></a></p>
+    <article>
+      <p><a href="http://vimeo.com/1460008"><img src="http://b.vimeocdn.com/ts/590/697/59069776_200.jpg" alt="" /></a></p>
 
 <p>Este video fue realizado en 2003 con motivo del lanzamiento del libro “Escuela de Valparaíso - Ciudad Abierta” por editorial Tanais. Este libro presenta la historia de la e[ad] Escuela de Arquitectura y Diseño PUCV, también conocida como “Escuela de Valparaíso” (<a href="http://www.ead.pucv.cl/">ead.pucv.cl</a>).<br />
 La secuencia fotográfica y pequeños videos ilustran la historia de la escuela desde su fundación en 1952, el perído del instituto de arquitectura, la bottega, la travesía de amereida, la fundación de la Ciudad Abierta, los torneos y juegos, entre otros hitos.</p>
@@ -130,17 +163,18 @@ La secuencia fotográfica y pequeños videos ilustran la historia de la escuela 
 <p><strong>Cast:</strong> <a href="http://vimeo.com/hspencer">Herbert Spencer</a> and <a href="http://vimeo.com/escuela">e[ad]</a></p>
 
 <p><strong>Tags:</strong> <a href="http://vimeo.com/tag:documental">documental</a>, <a href="http://vimeo.com/tag:escuela">escuela</a>, <a href="http://vimeo.com/tag:historia">historia</a> and <a href="http://vimeo.com/tag:ead">e[ad]</a></p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -153,8 +187,8 @@ La secuencia fotográfica y pequeños videos ilustran la historia de la escuela 
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

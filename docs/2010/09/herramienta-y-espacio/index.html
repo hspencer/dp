@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Herramienta y Espacio | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Herramienta y Espacio">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2010/09/herramienta-y-espacio/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Herramienta y Espacio">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Herramienta y Espacio</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Herramienta y Espacio</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2010/09/mf-modelo.jpg"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2010-09-29T14:46:35+13:00">
-          29 September 2010
-        </time>
+      
 
-          <a id="btn-citar-herramienta-y-espacio" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2010-09-29T14:46:35+13:00">
+        29 September 2010
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-herramienta-y-espacio" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-herramienta-y-espacio" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><em>Nota: texto preparado como exámen para los proyectos de título de Diseño Gráfico de Dámaris Sepúlveda y Cristóbal Severin.</em></p>
+    <article>
+      <p><em>Nota: texto preparado como exámen para los proyectos de título de Diseño Gráfico de Dámaris Sepúlveda y Cristóbal Severin.</em></p>
 
 <p>Estos dos proyectos, si bien abordan temáticas bastante diferentes, comparten un punto de vista y una utopía común. La primera y más evidente semejanza radica en su soporte digital (viven en la nube). Se trata de proyectos que proponen servicios distribuidos por Internet y diseñados para actuar simultáneamente en grandes extensiones de territorio. En este sentido, otro punto de encuentro de estos proyectos radica en que ambos piensan a escala país.</p>
 
@@ -176,17 +209,18 @@ El proyecto <a href="http://wiki.ead.pucv.cl/MediaFranca" title="Documentación 
 <p>No menos importante es el registro acumulativo de los aconteceres sociales que se genera, al modo de una memoria pública. O memoria estratégica, en el caso que las insituciones (y todo lo demás) fallen.</p>
 
 <p>Este proyecto se encuentra en fase de realización como software abierto.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -199,8 +233,8 @@ El proyecto <a href="http://wiki.ead.pucv.cl/MediaFranca" title="Documentación 
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

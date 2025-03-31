@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Seminario Ciudad Abierta | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Seminario Ciudad Abierta">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2011/01/seminario-ciudad-abierta/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Seminario Ciudad Abierta">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Seminario Ciudad Abierta</h1>
-         
-        <time datetime="2011-01-18T09:24:38+13:00">
-          18 January 2011
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Seminario Ciudad Abierta</h1>
 
-          <a id="btn-citar-seminario-ciudad-abierta" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2011-01-18T09:24:38+13:00">
+        18 January 2011
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-seminario-ciudad-abierta" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-seminario-ciudad-abierta" class="modal-citar">
     <div class="modal-contenido">
@@ -119,24 +152,25 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><a href="http://www.ead.pucv.cl/wp-content/archivos/2011/01/taller-amereida.jpg" title="CL ame 10 - taller amereida trimestre 1 - 289"><img src="http://www.ead.pucv.cl/wp-content/archivos/2011/01/taller-amereida-605x403.jpg" alt="" /></a><br />
+    <article>
+      <p><a href="http://www.ead.pucv.cl/wp-content/archivos/2011/01/taller-amereida.jpg" title="CL ame 10 - taller amereida trimestre 1 - 289"><img src="http://www.ead.pucv.cl/wp-content/archivos/2011/01/taller-amereida-605x403.jpg" alt="" /></a><br />
 El cuestionamiento por la forma constituye el centro mismo de los oficios –arquitectura y diseño– por ser ésta la pregunta poética del aparecer. Esta pregunta, un tanto elusiva en sus múltiples respuestas, queremos expandirla y presentarla desde diversos puntos de vista (los más posibles).</p>
 
 <p>Queremos invitar a todos quienes quieran compartir sus experiencias y teorías a presentarlas en el próximo seminario <a href="http://seminarios.ead.pucv.cl/">Poiesis &amp; Innovación</a>, a realizarse el próximos 24 y 25 de marzo de 2011 en las arenas de Ciudad Abierta. La pluralidad de las voces que expondrán nos ayudará a expandir el horizonte para la mirada creativa. <strong>La invitación está<a href="http://seminarios.ead.pucv.cl/poiesis-innovacion/envio-de-ponencias/">extendida hasta el viernes 4 de Marzo</a></strong>.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -149,8 +183,8 @@ El cuestionamiento por la forma constituye el centro mismo de los oficios –arq
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

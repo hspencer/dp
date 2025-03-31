@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2010/11/mesh-network/
 title: Mesh Network
 seo_title: Mesh Network, an example

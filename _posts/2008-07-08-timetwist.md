@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2008/timetwist
 title: TimeTwist
 date: 2008-07-08 18:06:34 -0000

@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Pintor autómata: Intento 1 | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Pintor autómata: Intento 1">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/pintor-automata">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pintor autómata: Intento 1">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,15 +76,34 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Pintor autómata: Intento 1</h1>
-         
-        <time datetime="2008-08-01T04:32:05+12:00">
-          1 August 2008
-        </time>
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Pintor autómata: Intento 1</h1>
 
-          <a id="btn-citar-pintor-automata" class="btn-citar">&#x301E;</a>
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2008-08-01T04:32:05+12:00">
+        1 August 2008
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-pintor-automata" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-pintor-automata" class="modal-citar">
     <div class="modal-contenido">
@@ -119,10 +152,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p><a href="http://vimeo.com/1443251"><img src="http://b.vimeocdn.com/ts/589/655/58965531_200.jpg" alt="" /></a></p>
+    <article>
+      <p><a href="http://vimeo.com/1443251"><img src="http://b.vimeocdn.com/ts/589/655/58965531_200.jpg" alt="" /></a></p>
 
 <p>Hace tiempo que quiero explorar la idea de la “machina pictórica” y esta es la primera película que exporto de este tema.<br />
 Este programa está construído sobre la base de un objeto “trazo” que avanza “browneanamente” y que se ramifica de acuerdo a un factor de fertilidad. La idea es muy simple ya que la composición sólo se basa en 1 tipo de objeto que sólo varía de color. El resultado —en esta ocasión— es bastante simplista y duro… al parecer hay que darle un poco más de inteligencia a los trazos para que no se densifiquen más de lo necesario, que topen o eviten otros objetos.<br />
@@ -131,17 +164,18 @@ Más adelante iré subiendo experimentos más avanzados en la línea de las mach
 <p><strong>Cast:</strong> <a href="http://vimeo.com/hspencer">Herbert Spencer</a></p>
 
 <p><strong>Tags:</strong> <a href="http://vimeo.com/tag:processing">processing</a>, <a href="http://vimeo.com/tag:color">color</a>, <a href="http://vimeo.com/tag:painting">painting</a>, <a href="http://vimeo.com/tag:automata">automata</a> and <a href="http://vimeo.com/tag:machinapictrica">machina pictórica</a></p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -154,8 +188,8 @@ Más adelante iré subiendo experimentos más avanzados en la línea de las mach
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

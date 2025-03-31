@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2011/10/un-buen-diseno/
 title: "Un Buen Diseño"
 date: 2011-10-28 22:52:56 -0000

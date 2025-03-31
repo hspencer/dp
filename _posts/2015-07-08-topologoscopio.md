@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 permalink: /2015/07/topologoscopio/
 title: Topologoscopio
 description: "Instalación de diseño y arquitectura en la muestra \"Work in Progress\"\

@@ -1,4 +1,4 @@
-@use 'variables' as vars;
+@use 'variables'as vars;
 
 body {
     background-color: vars.$color-body-bg;
@@ -39,6 +39,7 @@ header {
         a {
             color: vars.$color-text;
             text-decoration: none;
+
             &:hover {
                 cursor: pointer;
                 color: vars.$color-link;
@@ -69,6 +70,7 @@ header {
                     color: vars.$color-text;
                     text-transform: uppercase;
                     text-decoration: none;
+
                     &:hover {
                         color: vars.$color-link;
                     }
@@ -80,7 +82,7 @@ header {
 
 #dp {
     background-color: vars.$color-dp-bg;
-    background:  url('/assets/css/spine.svg'), vars.$page-gradient;
+    background: url('/assets/css/spine.svg'), vars.$page-gradient;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -88,7 +90,7 @@ header {
     border-radius: 0.78ex;
     box-shadow: 0 0 10px #00000022;
 
-    > * {
+    >* {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
         // outline: 1px dashed vars.$color-soft-line;
@@ -104,10 +106,11 @@ header {
         color: vars.$color-link;
     }
 
-    
+
 
     sidebar {
         position: relative;
+
         .title {
             font-weight: 100;
             font-size: 3rem;
@@ -129,7 +132,7 @@ header {
                 border-radius: 0.5ex;
             }
         }
-        
+
         a.btn-citar {
             position: absolute;
             bottom: 0;
@@ -148,6 +151,8 @@ header {
     }
 
     article {
+        position: relative;
+
         h1,
         h2,
         h3,
@@ -160,7 +165,7 @@ header {
             color: vars.$color-title;
         }
 
-        strong{
+        strong {
             font-weight: 500;
             color: vars.$color-strong;
         }
@@ -175,13 +180,14 @@ header {
             border-bottom: none;
             mix-blend-mode: multiply;
         }
+
         sup {
             display: inline-block;
             margin-top: -0.5ex;
             font-weight: bold;
         }
 
-        img{
+        img {
             margin: 0 auto;
             border-radius: .333ex;
         }
@@ -191,26 +197,29 @@ header {
             hyphens: auto;
             overflow-wrap: break-word;
             word-break: break-word;
-            &.caption{
+
+            &.caption {
                 font-size: 75%;
                 line-height: 110%;
                 margin: 0 2em;
-                &.right{
+
+                &.right {
                     text-align: right;
                 }
             }
-            > img:only-child {
+
+            >img:only-child {
                 display: block;
                 margin: 0 auto;
             }
         }
 
-        blockquote{
+        blockquote {
             font-size: 80%;
             color: vars.$color-strong;
         }
 
-    
+
 
         table {
             background-color: rgba(255, 255, 255, 0.504);
@@ -218,16 +227,20 @@ header {
             font-family: vars.$font-sans;
             border-collapse: collapse;
             border-radius: 1ex;
+
             thead {
                 border-bottom: 2px solid vars.$color-soft-line;
-                th{
+
+                th {
                     text-align: left;
                     padding: 1ex;
                 }
             }
+
             tbody {
                 tr {
                     border-top: 1px solid vars.$color-soft-line;
+
                     td {
                         padding: 1ex;
                         vertical-align: text-top;
@@ -235,10 +248,11 @@ header {
                 }
             }
         }
-        
-        .footnote-ref{
+
+        .footnote-ref {
             font-weight: 300;
         }
+
         .footnotes {
             font-size: 0.85em;
             margin-top: 2rem;
@@ -297,13 +311,16 @@ header {
         }
 
         .center-poem {
+
             h2,
             h3 {
                 text-align: center;
             }
+
             p {
                 text-align: center;
             }
+
             h3 {
                 font-family: vars.$font-serif !important;
                 color: rgb(187, 31, 3) !important;
@@ -314,6 +331,7 @@ header {
                     white-space: normal;
                 }
             }
+
             .poem {
                 white-space: pre;
                 font-family: vars.$font-serif;
@@ -338,17 +356,19 @@ header {
     }
 }
 
-#dp-full{
-    a{
+#dp-full {
+    a {
         text-decoration: none;
         color: vars.$color-link;
     }
+
     .title {
         font-weight: 100;
         font-size: 3rem;
         margin: 0 0 0.5em 0;
     }
 }
+
 /* mastodon */
 
 .mt-container .mt-body .mt-post:nth-of-type(n + 4) {
@@ -381,6 +401,7 @@ header {
         font-family: vars.$font-sans;
         line-height: 1.2;
     }
+
     .mt-post-avatar {
         filter: invert(1) hue-rotate(180deg);
     }
@@ -388,6 +409,7 @@ header {
 
 footer {
     margin: vars.$padding 0;
+
     p {
         margin: 0;
         text-align: center;
@@ -398,6 +420,7 @@ footer {
         a {
             color: vars.$color-link;
             text-decoration: none;
+
             a {
                 text-decoration: none;
                 color: vars.$color-link;
@@ -406,36 +429,36 @@ footer {
     }
 }
 
+
 .paginacion {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    gap: 0.5rem;
+    gap: 1rem;
+    font-family: vars.$font-sans;
+    width: 100%;
 
-    a,
-    span {
-        width: 10px;
-        height: 10px;
+    a, span {
+        min-width: 32px;
+        height: 32px;
         border-radius: 50%;
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background: #ccc;
         transition: background 0.2s;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        display: inline-block;
-        background: #ccc;
-        transition: background 0.2s;
+        font-size: 0.875rem;
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
     }
-
     a:hover {
         background: #999;
-        background: #999;
     }
-
     .actual {
         background: #333;
-        background: #333;
+        color: #fff;
+        cursor: default;
     }
 }
 
@@ -448,9 +471,11 @@ footer {
     th,
     td {
         padding: 1ex;
+
         a {
             color: rgb(187, 31, 3) !important;
         }
+
         a:hover {
             background-color: white;
         }
@@ -492,7 +517,7 @@ footer {
             text-transform: uppercase;
         }
 
-        p{
+        p {
             margin-left: 2em;
         }
     }
@@ -513,17 +538,17 @@ footer {
 }
 
 .video-container {
-    position: relative;           // Posicionamiento relativo para establecer el contexto del iframe
-    padding-bottom: 56.25%;        // Proporción de aspecto 16:9 (9/16 = 0.5625)
-    height: 0;                    // Altura inicial 0, se utiliza el padding para mantener la proporción
-    overflow: hidden;             // Oculta cualquier contenido que exceda el contenedor
-    max-width: 100%;              // Limita la anchura máxima al 100% del contenedor padre
-  
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+
     iframe {
-      position: absolute;         // Posicionamiento absoluto para ocupar todo el contenedor
-      top: 0;                     // Alinea la parte superior del iframe con el contenedor
-      left: 0;                    // Alinea la parte izquierda del iframe con el contenedor
-      width: 100%;                // El iframe ocupa el 100% de la anchura del contenedor
-      height: 100%;               // El iframe ocupa el 100% de la altura del contenedor
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
     }
-  }
+}

@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión Ejemplo de recursividad usando Processing en un árbol pitagórico; una estructura recursiva construida con triángulos rectángulos y sus catetos cuadrados">
-    <meta name="author" content="">
+    <meta name="description" content="Ejemplo de recursividad usando Processing en un árbol pitagórico; una estructura recursiva construida con triángulos rectángulos y sus catetos cuadrados">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Árbol Pitagórico | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Árbol Pitagórico">
+    <meta property="og:description" content="Ejemplo de recursividad usando Processing en un árbol pitagórico; una estructura recursiva construida con triángulos rectángulos y sus catetos cuadrados">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2014/04/arbol-pitagorico/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Árbol Pitagórico">
+    <meta name="twitter:description" content="Ejemplo de recursividad usando Processing en un árbol pitagórico; una estructura recursiva construida con triángulos rectángulos y sus catetos cuadrados">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Árbol Pitagórico</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Árbol Pitagórico</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2014/04/arbol-pitagoras.png"
@@ -74,16 +90,33 @@
             style=""
           />
         </figure>
-         
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
         <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
         <div id="p5"></div>
         <script src="/assets/p5/pytagoras.js"></script>
-        
-        <time datetime="2014-04-17T04:42:41+12:00">
-          17 April 2014
-        </time>
+      
 
-          <a id="btn-citar-arbol-pitagorico" class="btn-citar">&#x301E;</a>
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2014-04-17T04:42:41+12:00">
+        17 April 2014
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-arbol-pitagorico" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-arbol-pitagorico" class="modal-citar">
     <div class="modal-contenido">
@@ -132,10 +165,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <p>En Febrero recién pasado tuve el honor de formar parte del primer programa de maestría en diseño de interacción<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, en Costa Rica.</p>
+    <article>
+      <p>En Febrero recién pasado tuve el honor de formar parte del primer programa de maestría en diseño de interacción<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, en Costa Rica.</p>
 
 <p>Esta vez me pude colar curso de <a href="http://www.personal.psu.edu/tzd1/Tomas_de_Camino_Homepage/Home.html" title="sitio de Tomás">Tomás de Camino</a> a de introducción a la programación. Aprendía de las mujeres programadoras de la historia, como Ada Lovelace, las Top Secret Roses y Margaret Hamilton. Tomás nos introdujo al concepto re recursión, sin anestesia. Acá les dejo uno de los primeros ejercicios del curso.</p>
 
@@ -148,17 +181,18 @@
 <li id="fn:1">A este programa me invitó <a href="https://www.ciid.dk/community/ana-domb">Ana Domb</a>, la mente y visión detrás de este programa, el primero en latinoamérica. Lamentablemente duró 2 años, 2014-2015, y lo cerraron por motivos que desconozco. Económicos seguramente. <a href="#fnref:1" class="footnote-back">↩</a></li>
 </ol>
 </div>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -171,8 +205,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>

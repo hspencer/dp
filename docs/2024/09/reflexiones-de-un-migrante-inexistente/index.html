@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión ">
-    <meta name="author" content="">
+    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>Reflexiones de un migrante inexistente | {dp} - doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} - doble página">
+    <meta property="og:title" content="Reflexiones de un migrante inexistente">
+    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2024/09/reflexiones-de-un-migrante-inexistente/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Reflexiones de un migrante inexistente">
+    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,8 +36,8 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   
-  <body>
-    <header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} - doble página</a></h1>
         <!-- Botón toggle -->
@@ -62,10 +76,12 @@
  </header>
 
 
-    <main id="dp">
-      <sidebar>
-        <h1 class="title">Reflexiones de un migrante inexistente</h1>
-        
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">Reflexiones de un migrante inexistente</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
         <figure>
           <img
             src="/assets/uploads/2024/09/los-4.png"
@@ -74,12 +90,29 @@
             style=""
           />
         </figure>
-         
-        <time datetime="2024-09-24T13:14:38+12:00">
-          24 September 2024
-        </time>
+      
 
-          <a id="btn-citar-reflexiones-de-un-migrante-inexistente" class="btn-citar">&#x301E;</a>
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2024-09-24T13:14:38+12:00">
+        24 September 2024
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-reflexiones-de-un-migrante-inexistente" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-reflexiones-de-un-migrante-inexistente" class="modal-citar">
     <div class="modal-contenido">
@@ -128,10 +161,10 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      </sidebar>
+    </sidebar>
 
-      <article>
-        <h5 id="lecciones-de-kafka-arendt-illich-y-maturana">Lecciones de Kafka, Arendt, Illich y Maturana</h5>
+    <article>
+      <h5 id="lecciones-de-kafka-arendt-illich-y-maturana">Lecciones de Kafka, Arendt, Illich y Maturana</h5>
 
 <p>Hay algo profundamente inquietante en ser suprimido por un sistema. Un día eres una persona con identidad, una historia personal y una serie de logros. Al siguiente, te reduces a una cadena de números en un proceso burocrático que no reconoce tu existencia ni te otorga voz. Me encuentro exactamente en esa situación, parado en la intersección del diseño, los sistemas y la dignidad humana, frente a la maquinaria kafkiana de un sistema de inmigración. Esto no es solo una narrativa personal; ilustra cómo los sistemas que diseñamos moldean nuestras interacciones, identidades e, incluso, nuestro valor como individuos. Se trata de cómo los sistemas, si no se supervisan adecuadamente, nos despojan de agencia, mérito y humanidad.</p>
 
@@ -172,17 +205,18 @@
 <p>El reto está claro: ¿Cómo diseñamos sistemas que potencien la dignidad humana en lugar de reducirnos a meros puntos de datos? Las respuestas residen en los principios discutidos: reversibilidad, participación, transparencia, responsabilidad y un entendimiento relacional. Estos no son simplemente desafíos técnicos, son los fundamentos éticos de cualquier sistema que aspire a servir a la humanidad.</p>
 
 <p>Es nuestra responsabilidad, como arquitectos y diseñadores de estos sistemas, asegurarnos de que respeten y empoderen a quienes están diseñados para servir.</p>
- <script src="https://utteranc.es/client.js"
+
+      <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
+  <footer>
    <p>
      <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
      <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
@@ -195,8 +229,8 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 30 March 2025
+     Última actualización: 31 March 2025
    </p>
  </footer>
-  </body>
+</body>
 </html>
