@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-01T12:34:01+13:00</updated>
+  <updated>2025-04-01T19:23:20+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -3973,91 +3973,9 @@ deforman y engañan?&lt;/em&gt;((“the earth so overcome / is there not exposed
     <updated>2006-10-28T15:32:23+13:00</updated>
     <id>http://0.0.0.0:4000/2006/10/flex-typeface</id>
     <content type="html">
-      &lt;p&gt;Este diseño está altamente influenciado por la fuente &lt;strong&gt;Stuv&lt;/strong&gt;, diseñada por &lt;a href=&quot;http://www.profesores.ucv.cl/manuelsanfuentes/&quot;&gt;Flor.o&lt;/a&gt; (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la &lt;strong&gt;&lt;a href=&quot;http://www.superveloz.net/&quot;&gt;Super Tipo Veloz&lt;/a&gt;&lt;/strong&gt; de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas.&lt;/p&gt;
+      &lt;p&gt;Tipografía &lt;strong&gt;Tubular Flex&lt;/strong&gt;((Graciosamente existe una variación de esta tipografía que fue realizada en la &lt;a href=&quot;https://wiki.ead.pucv.cl/Traves%C3%ADa_Tubul&quot;&gt;Travesía a Tubul&lt;/a&gt;)) realizada en 2006. El principio de diseño de esta fuente es mantener los mismos elementos constitutivos (trazos básicos) para todas las letras, siendo lo único que varía es la disposición de estos elementos. Esto permite animar la interpolación entre las letras, lo que se logra presionando las teclas, desde la “a” a la “z” (sólo minúsculas).&lt;/p&gt;
 
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Axis Mundane</title>
-    <link href="http://0.0.0.0:4000/2006/10/axis-mundane/"/>
-    <updated>2006-10-26T04:43:41+13:00</updated>
-    <id>http://0.0.0.0:4000/2006/10/axis-mundae</id>
-    <content type="html">
-      &lt;p&gt;Las partí­culas son atraí­das entre ellas; cuando la distacia que separa cualquier par de partí­culas es mayor a la suma de sus radios, los radios de ambas partí­culas se incrementarán en 0.025 pixel. Cuando el radio llega a 80 pixeles la partí­cula revienta transformándose en una pequeña de nuevo y cambiando de color, así da paso a la nueva generación. Exiten un total de 20 generaciones y a cada cual se le asigna un color. &lt;em&gt;(ver tabla de colores más abajo)&lt;/em&gt; Las partí­culas pequeñas son más fluí­das (menos masa) y al ser atraí­das por las otras pasan hacia el centro del arreglo, dejando a las partí­culas jóvenes al centro y las viejas en el perí­metro, simulando una colonia de búfalos.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.herbertspencer.net/processing/particles7/&quot; title=&quot;Link al código fuente para Processing&quot;&gt;link to code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ciclo-de-colores&quot;&gt;Ciclo de Colores&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #CD540A &lt;strong&gt;RGB:&lt;/strong&gt; 205,84,10&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #AE7450 &lt;strong&gt;RGB:&lt;/strong&gt; 174,116,80&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #AD611E &lt;strong&gt;RGB:&lt;/strong&gt; 173,97,30&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #E97913 &lt;strong&gt;RGB:&lt;/strong&gt; 233,121,19&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #4D3711 &lt;strong&gt;RGB:&lt;/strong&gt; 77,55,17&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #E4CC62 &lt;strong&gt;RGB:&lt;/strong&gt; 228,204,98&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #AFAC37 &lt;strong&gt;RGB:&lt;/strong&gt; 175,172,55&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #B1AF4F &lt;strong&gt;RGB:&lt;/strong&gt; 177,175,79&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #929553 &lt;strong&gt;RGB:&lt;/strong&gt; 146,149,83&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #D1DE8C &lt;strong&gt;RGB:&lt;/strong&gt; 209,222,140&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #D0E5AA &lt;strong&gt;RGB:&lt;/strong&gt; 208,229,170&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #5A8D67 &lt;strong&gt;RGB:&lt;/strong&gt; 90,141,103&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #5A8D67 &lt;strong&gt;RGB:&lt;/strong&gt; 90,141,103&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #334B4E &lt;strong&gt;RGB:&lt;/strong&gt; 51,75,78&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #3D737D &lt;strong&gt;RGB:&lt;/strong&gt; 61,115,125&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #8798C9 &lt;strong&gt;RGB:&lt;/strong&gt; 135,152,201&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #6D7590 &lt;strong&gt;RGB:&lt;/strong&gt; 109,117,144&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #8B95BA &lt;strong&gt;RGB:&lt;/strong&gt; 139,149,186&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #A9A8B9 &lt;strong&gt;RGB:&lt;/strong&gt; 169,168,185&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;HEX:&lt;/strong&gt; #F7F5F6 &lt;strong&gt;RGB:&lt;/strong&gt; 247,245,246&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Este diseño está altamente influenciado por la fuente &lt;strong&gt;Stuv&lt;/strong&gt;, diseñada por &lt;a href=&quot;http://www.profesores.ucv.cl/manuelsanfuentes/&quot;&gt;Flor.o&lt;/a&gt; (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse)((Lamentablemente este sitio ya no está online. La PUCV suspendió el hosting de profesores.)). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la &lt;strong&gt;&lt;a href=&quot;http://www.superveloz.net/&quot;&gt;Super Tipo Veloz&lt;/a&gt;&lt;/strong&gt; de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas.&lt;/p&gt;
 
     </content>
   </entry>

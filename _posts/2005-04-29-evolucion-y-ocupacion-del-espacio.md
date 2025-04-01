@@ -9,7 +9,7 @@ publish: true
 categories:
 - escuela
 tags:
-- "Diseño Gráfico"
+- diseño gráfico
 image:
   path: /assets/uploads/2005/04/gaston-maturana-shulz.png
 ---

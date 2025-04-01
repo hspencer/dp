@@ -9,7 +9,7 @@ publish: true
 categories:
 - escuela
 tags:
-- "diseño"
+- diseño
 ---
 #### Exámen de Primer Año Diseño – 15 de diciembre de 2004
 
