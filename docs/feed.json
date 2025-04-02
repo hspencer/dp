@@ -153,10 +153,10 @@
                   "/assets/uploads/2015/08/citipulse-small-multiples.png"
                ,
     "url": "/2015/08/pequenos-multiples/",
-    "largo": 1333,
+    "largo": 1335,
     "contenido":
       
-        "    Había una vez una empresa llamada CitiSent , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país ((a este servicio lo llamamos CitiPulse)).Para construir esta visualización desarrollamos un tesauro ((Un tesaurio es un diccionario jerárquico de palabras. En el caso de Citipulse definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras.)) de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (sentiment analysis) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferenc..."
+        "      Había una vez una empresa llamada CitiSent , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país ((a este servicio lo llamamos CitiPulse)).Para construir esta visualización desarrollamos un tesauro ((Un tesaurio es un diccionario jerárquico de palabras. En el caso de Citipulse definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras.)) de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (sentiment analysis) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las difere..."
       
   },
 
@@ -468,12 +468,12 @@
     "fecha": "2010-12-01T10:42:19+13:00",
     "titulo": "Mesh Network",
     "categorias": ["code"],
-    "etiquetas": ["catástrofe","concepto","ilustración","mesh","network","processing.js","red mesh"],
+    "etiquetas": ["catástrofe","concepto","ilustración","mesh","network","p5","red mesh"],
     "imagen":  
-                  "/assets/pintura/20.jpg"
+                  "/assets/uploads/2010/11/malla1.png"
                ,
     "url": "/2010/11/mesh-network/",
-    "largo": 4246,
+    "largo": 503,
     "contenido":
       
         "This is an interactive demosntration depicting a mesh network at work. This is an example of how communication networks should work during crises."
@@ -822,7 +822,7 @@
     "categorias": ["imagen","notas"],
     "etiquetas": ["extensions","firefox","scripts"],
     "imagen":  
-                  " "
+                  "/assets/pintura/20.jpg"
                ,
     "url": "/2008/09/todo-depende-del-cristal-con-que-se-mire/",
     "largo": 1510,
@@ -998,7 +998,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño","obra","suelo","taller","tesela","unidad discreta"],
     "imagen":  
-                  "/assets/uploads/2008/06/sector_bebederos_ca.jpg"
+                  "/assets/pintura/11.jpg"
                ,
     "url": "/2008/06/del-suelo-a-la-tesela/",
     "largo": 6640,

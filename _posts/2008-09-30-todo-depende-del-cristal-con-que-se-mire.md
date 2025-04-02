@@ -13,6 +13,8 @@ tags:
 - extensions
 - firefox
 - scripts
+image:
+  path: /assets/pintura/20.jpg
 ---
 Cuando se preguntan por la realidad, los filósofos piensan en un conejo. ¿Cómo tomo al conejo? ¿Con mis manos o por la orejas? Es decir, es la realidad algo que efectivamente existe _a priori_ y a pesar mío (por las orejas) ¿o se trata efectivamente de una construcción, de un artificio cognitivo que hago para articular el flujo de estímulos incoherentes? Si llevamos esta pregunta al contexto de diseño para Internet podremos ver una gran cantidad de extensiones y de [scripts](http://userscripts.org/ "Repositorio de scripts") para que el browser (Greasemonkey para Firefox) se comporte y despliegue la realidad de maneras especiales, filtradas, retocadas, hackeadas, etc:
 
