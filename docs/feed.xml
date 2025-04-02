@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-02T22:10:23+13:00</updated>
+  <updated>2025-04-03T12:26:39+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -2953,10 +2953,24 @@ Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel mo
 
 &lt;p&gt;El &lt;em&gt;quid&lt;/em&gt; del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que &lt;strong&gt;emerge&lt;/strong&gt; desde un orden concluso.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Interacción:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Este programa es una traducción de un código de Processing original de 2007, adaptado para ser compatible con la web utilizando P5.js.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/assets/uploads/2008/02/teselador_windows1.zip&quot; title=&quot;Teselador - Windows&quot;&gt;Teselador – Windows&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/assets/uploads/2008/02/teselador_macosx1.zip&quot; title=&quot;Teselador - Mac&quot;&gt;Teselador – Mac&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/assets/uploads/2008/02/teselador_linux1.zip&quot; title=&quot;Teselador - Linux&quot;&gt;Teselador – Linux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clic del ratón:&lt;/strong&gt; Rotar la tesela seleccionada.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clic derecho del ratón:&lt;/strong&gt; Cambiar el tipo de la tesela seleccionada.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; : Aumentar el tamaño de las teselas.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;z&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Z&lt;/code&gt; : Disminuir el tamaño de las teselas.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt; : Aumentar el espacio entre las teselas.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X&lt;/code&gt; : Disminuir el espacio entre las teselas.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;d&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt; : Aumentar el grosor del trazo del dibujo.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;c&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C&lt;/code&gt; : Disminuir el grosor del trazo del dibujo.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;l&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;L&lt;/code&gt;: Mostrar u ocultar las líneas de borde de las teselas.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7&lt;/code&gt; : Establecer todas las teselas al mismo tipo.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt; : Aleatorizar los tipos de teselas.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;g&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;G&lt;/code&gt; : Aleatorizar las rotaciones de las teselas.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;r&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;R&lt;/code&gt; : Recalcular la ubicación y el número de teselas.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;(Texto leído en el acto de exámen del Primer Año Diseño. Diciembre, 2007. Se comienza el examen leyendo el poema “Infinito” de Giaccomo Leopardi, traducción de Godofredo Iommi en Poemas Leídos en los Talleres de la Escuela de Arquitectura 1980-1981)&lt;/em&gt;&lt;/p&gt;

@@ -1033,10 +1033,10 @@
                   "/assets/uploads/2008/02/teselador1.gif"
                ,
     "url": "/2008/02/teselador/",
-    "largo": 8075,
+    "largo": 8827,
     "contenido":
       
-        "En el contexto de la travesía a Purmamarca 2007, desarrollé un pequeño programa para dibujar con baldosas triangulares.El quid del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que emerge desde un orden concluso.  Teselador – Windows  Teselador – Mac  Teselador – Linux(Texto leído en el acto de exámen del Primer Año Diseño. Diciembre, 2007. Se comienza el examen leyendo el poema “Infinito” de Giaccomo Leopardi, traducción de Godofredo Iommi en Poemas Leídos en los Talleres de la Escuela de Arquitectura 1980-1981)  Siempre cara me fue esta colina yermay este seto, que en tanta partedel último horizonte la mirada excluye.Pero sentándome y mirando, interminablesespacios más allá de aquel, y sobrehumanossilencios y profundísima quietuden el pensar me finjo; donde por pocoel corazón no se espanta. Y como el vientooigo su..."
+        "En el contexto de la travesía a Purmamarca 2007, desarrollé un pequeño programa para dibujar con baldosas triangulares.El quid del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que emerge desde un orden concluso.Interacción:Este programa es una traducción de un código de Processing original de 2007, adaptado para ser compatible con la web utilizando P5.js.  Clic del ratón: Rotar la tesela seleccionada.  Clic derecho del ratón: Cambiar el tipo de la tesela seleccionada.  a / A : Aumentar el tamaño de las teselas.  z / Z : Disminuir el tamaño de las teselas.  s / S : Aumentar el espacio entre las teselas.  x / X : Disminuir el espacio entre las teselas.  d / D : Aumentar el grosor del trazo del dibujo.  c / C : Disminuir el grosor del trazo del dibujo.  l / L: Mostrar u ocultar las líneas de borde de las teselas.  1-7..."
       
   },
 

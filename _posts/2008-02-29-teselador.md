@@ -5,8 +5,10 @@ permalink: /2008/02/teselador/
 title: Teselador
 image:
   path: /assets/uploads/2008/02/teselador1.gif
+  sidebar: false
 p5:
   script: /assets/p5/teselador.js
+
 date: 2008-02-29 19:26:58 -0000
 last_modified_at: 2008-02-29 19:26:58 -0000
 publish: true
@@ -22,9 +24,25 @@ En el contexto de la [travesía a Purmamarca 2007](http://www.flickr.com/photos/
 
 El _quid_ del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que **emerge** desde un orden concluso.
 
-* [Teselador – Windows](/assets/uploads/2008/02/teselador_windows1.zip "Teselador - Windows")
-* [Teselador – Mac](/assets/uploads/2008/02/teselador_macosx1.zip "Teselador - Mac")
-* [Teselador – Linux](/assets/uploads/2008/02/teselador_linux1.zip "Teselador - Linux")
+**Interacción:**
+
+Este programa es una traducción de un código de Processing original de 2007, adaptado para ser compatible con la web utilizando P5.js. 
+
+* **Clic del ratón:** Rotar la tesela seleccionada.
+* **Clic derecho del ratón:** Cambiar el tipo de la tesela seleccionada.
+* `a` / `A` : Aumentar el tamaño de las teselas.
+* `z` / `Z` : Disminuir el tamaño de las teselas.
+* `s` / `S` : Aumentar el espacio entre las teselas.
+* `x` / `X` : Disminuir el espacio entre las teselas.
+* `d` / `D` : Aumentar el grosor del trazo del dibujo.
+* `c` / `C` : Disminuir el grosor del trazo del dibujo.
+* `l` / `L`: Mostrar u ocultar las líneas de borde de las teselas.
+* `1`-`7` : Establecer todas las teselas al mismo tipo.
+* `0` : Aleatorizar los tipos de teselas.
+* `g` / `G` : Aleatorizar las rotaciones de las teselas.
+* `r` / `R` : Recalcular la ubicación y el número de teselas.
+
+
 
 _(Texto leído en el acto de exámen del Primer Año Diseño. Diciembre, 2007. Se comienza el examen leyendo el poema “Infinito” de Giaccomo Leopardi, traducción de Godofredo Iommi en Poemas Leídos en los Talleres de la Escuela de Arquitectura 1980-1981)_
 
