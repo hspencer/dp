@@ -14,14 +14,14 @@
     <meta property="og:title" content="Pequeños Múltiples">
     <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="http://0.0.0.0:4000/2015/08/pequenos-multiples/">
-    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+    <meta property="og:url" content="https://herbertspencer.net/2015/08/pequenos-multiples/">
+    <meta property="og:image" content="https://herbertspencer.net/android-chrome-512x512.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pequeños Múltiples">
     <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+    <meta name="twitter:image" content="https://herbertspencer.net/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -93,6 +93,10 @@
       
 
       <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+        <div id="p5"></div>
+        <script src="/assets/p5/flor.js"></script>
       
 
       <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
@@ -167,8 +171,6 @@
       <p>Había una vez una empresa llamada <strong><a href="https://vimeo.com/61097795">CitiSent</a></strong> , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>.</p>
 
 <p>Para construir esta visualización desarrollamos un tesauro <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup> de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (<a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a>) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferencias y contrastes entre los datos (las disparidades). Esta modalidad se denomina <em>pequenos múltiples</em> (<a href="https://en.wikipedia.org/wiki/Small_multiple">small multiples</a>). Esto es similar a las <a href="https://en.wikipedia.org/wiki/Chernoff_face">caras de Chernoff</a>.</p>
-
-<p>[p5js code canvas] CitiPulse model; Petal current; color[] c = { #D63F09, #FFA94D, #FAE203, #8FCB35, #00828E, #00426E, #A64DFF, #EB12EB, #AE1D04, #FF8408, #DECC02, #7EB331, #0F8CA5, #135589, #8A27EC, #CA0DCA, #870101, #C46200, #B8AE01, #6C9A2E, #2096C0, #2D6EAD, #6C00D7, #A809A8, #690808, #984805, #929100, #59802A, #31A1DA, #4688D1, #4C0098, #860486 }; String file; float MAX = 120; // radio mÃ¡ximo del pÃ©talo float offset = 5; color currentCol = color(255); void setup() { int side = 350; size(350, 350); smooth(); noStroke(); model = new CitiPulse(width/2, height/2); populateCitiPulse(model); current = new Petal(); file = ““+year()+month()+day()+hour()+minute()+”.mov”; } /** * alfa + PI <em>beta = â€“â€“â€“â€“——</em> 2 * * MAX <em>sin(alfa/2)</em> radio = —————– <em>sin(alfa/2) + 1</em> <em>/ void draw() { background(255); noFill(); stroke(#E3E3E3); strokeWeight(1); ellipse(width/2, height/2, MAX</em>2 + offset<em>2, MAX</em>2 + offset<em>2); model.draw(); } void keyPressed() { if (key == ‘v’) { for (int i = 0; i &lt; model.petal.length; i++) { println(“petal[“+i+”].value = “+model.petal[i].value); } println(“———————————————”); } if (key == ‘ ‘) { populateCitiPulse(model); } if (key == ‘x’) { exit(); } if (key == ‘s’) { saveFrame(“img/citipulse-#####.png”); } } void mouseMoved() { currentCol = get(mouseX, mouseY); } void mousePressed() { println(current.name+”, cuyo valor es “+current.value); } class CitiPulse { float x, y; Petal[] petal; CitiPulse(float x, float y) { this.x = x; this.y = y; } void draw() { float offset = 5; for (int i = 0; i &lt; petal.length; i++) { pushMatrix(); { translate(x, y); rotate(petal[i].alfa <em>(float)i); petal[i].be(); } popMatrix(); } } } void populateCitiPulse(CitiPulse mod) { int num = round(random(3, 10)); // nÃºmero de pÃ©talos o tÃ©rminos de primer nivel float alfa = TWO_PI / (float)num; float beta = (alfa + PI) / 2; float radio = (MAX&lt;/em&gt; sin(alfa/2))/(1 + sin(alfa/2)); float ac = MAX - radio; println(“ num = “+num); println(“ alfa = “+alfa+”\t (“+degrees(alfa)+” grados)”); println(“ beta = “+beta); println(“radio = “+radio); float result = radio + ac; println(“ AC = “+ac+”\t radio + AC = “+result); println(“———————————————”); mod.petal = new Petal[num]; for (int i = 0; i &lt; mod.petal.length; i++) { mod.petal[i] = new Petal(); mod.petal[i].alfa = alfa; mod.petal[i].beta = beta; mod.petal[i].r = radio; mod.petal[i].ac = ac; mod.petal[i].x = mod.x; mod.petal[i].y = mod.y; // lo Ãºnico de cada pÃ©talo mod.petal[i].value = random(.2, 1); mod.petal[i].name = “Elemento “+i; mod.petal[i].c = c[i]; } } class Petal { float x, y; color c, co; // color &amp; color over float value; String name; int seed; /</em> los valores a continuaciÃ³n son comunes para todos los pÃ©talos <em>/ float alfa, beta; float r; // radio float ac; // distancia desde el centro de la flor al centro del cÃ­rculo Petal() { seed = round(random(99999)); } Petal(float x, float y, float value, color col, String name) { this.x = x; this.y = y; this.value = value; this.name = name; c = col; } void be() { noiseSeed(seed); value = noise(seed + (float)millis()/6000); if (over(currentCol)) { current = this; co = color(red(c)-25, green(c)-25, blue(c)-25); draw(0, 0, r + offset, co); } draw(offset, 0, r, c); } boolean over(color col) { if (c == col) { return true; } else { return false; } } void draw(float ox, float oy, float radio, color col) { fill(col); noStroke(); pushMatrix(); { translate(ox, oy); beginShape(); vertex(0, 0); for (float t = -beta; t &lt;= beta; t+=.1) { float xpos = value</em>cos(t)<em>radio; float ypos = value</em>sin(t)<em>radio; vertex(ac</em>value + abs(r-radio) + xpos, ypos); } endShape(CLOSE); } popMatrix(); } } [/p5js]</em></p>
 
 <p>Este ejemplo de la unidad de visualización puede ser regenerado al presionar <code class="language-plaintext highlighter-rouge">ESPACIO</code>, pero es preciso ganar foco sobre el elemento haciendo click sobre él</p>
 

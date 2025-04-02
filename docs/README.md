@@ -105,7 +105,7 @@ Las notas se escriben de forma contínua en el texto ((utilizando dobles parént
 
   Esto generará la carpeta `_site` con los archivos estáticos.
 
-### Ejecutar el script de python
+### Ejecutar el script de python para navegar la versión generada
 
 - En la terminal, estando en la raíz del proyecto, ejecuta el script de una de las siguientes formas:
 

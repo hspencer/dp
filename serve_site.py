@@ -8,7 +8,7 @@ import os  # Módulo para interacciones con el sistema operativo
 PORT = 8000  # Puerto en el que se ejecutará el servidor
 
 # Definir la ruta absoluta de la carpeta _site, asumiendo que el script se encuentra en la raíz del proyecto
-SITE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '_site')
+SITE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'docs')
 
 # Cambiar el directorio de trabajo a la carpeta _site
 os.chdir(SITE_DIR)
