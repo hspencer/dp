@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-01T12:34:01+13:00</updated>
+  <updated>2025-04-01T13:56:13+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -2618,73 +2618,6 @@ La secuencia concluye volviendo a la grilla original con el objeto de revelar la
   </entry>
   
   <entry>
-    <title>Dibujos Generativos</title>
-    <link href="http://0.0.0.0:4000/2008/09/dibujos-generativos/"/>
-    <updated>2008-09-10T05:31:08+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/09/dibujos-generativos</id>
-    <content type="html">
-      &lt;p&gt;&lt;strong&gt;Lenguaje Computacional Cero&lt;/strong&gt;(o LC0) es un nuevo módulo dentro de la asignatura del Taller de Diseño para el Primer Año. Dentro de este ramo se introduce a los alumnos a la programación gráfica como un modo de acceder al lenguaje de la abstracción desde el rigor de los algoritmos matemáticos. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se familiarizarán con algoritmos básicos, geometría computacional y simulación cinemática.&lt;/p&gt;
-
-&lt;p&gt;La alfabetización digital, entendida en la mayoría de los casos como la capacidación para el uso de programas, sólo resuleve la mitad del problema: el saber &lt;em&gt;leer&lt;/em&gt;. Saber &lt;em&gt;escribir&lt;/em&gt; , tiene implicancias mucho más profundas, porque significa ser capaz de expresar y llevar adelante las ideas propias. Para un diseñador este distingo es fundamental ya que debe comprender el lenguaje &lt;strong&gt;desde ambos lados&lt;/strong&gt; para poder construir y diseñar; y el medio digital permite esa maleabilidad.&lt;/p&gt;
-
-&lt;p&gt;En este curso usamos el entorno de desarrollo &lt;a href=&quot;http://www.processing.org/&quot; title=&quot;Página del proyecto opensource Processing&quot;&gt;Processing&lt;/a&gt; para construir dibujos generados a partir de máquinas autónomatas. Estos proyectos tienen una versión impresa en PDF y un corto de video, ambos generados completamente a partir de código. Todos los videos están disponibles en nuestro &lt;a href=&quot;http://vimeo.com/groups/LC0&quot; title=&quot;LCO en Vimeo&quot;&gt;grupo de vimeo&lt;/a&gt; y los programas en &lt;a href=&quot;http://www.ead.pucv.cl/processing/2008&quot;&gt;http://www.ead.pucv.cl/processing/2008&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://vimeo.com/groups/3037/videos/1694568?pg=embed&amp;amp;sec=1694568&quot;&gt;Genesis_proyecto&lt;/a&gt; de &lt;a href=&quot;http://vimeo.com/user735269?pg=embed&amp;amp;sec=1694568&quot;&gt;Serrano Daniel&lt;/a&gt; en &lt;a href=&quot;http://vimeo.com/?pg=embed&amp;amp;sec=1694568&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://vimeo.com/1696036?pg=embed&amp;amp;sec=1696036&quot;&gt;reflejo con fondo blanco&lt;/a&gt; de &lt;a href=&quot;http://vimeo.com/user720309?pg=embed&amp;amp;sec=1696036&quot;&gt;Daniela Labra&lt;/a&gt; en &lt;a href=&quot;http://vimeo.com/?pg=embed&amp;amp;sec=1696036&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://vimeo.com/groups/3037/videos/1694123?pg=embed&amp;amp;sec=1694123&quot;&gt;El Efecto de la Luz y El Viento&lt;/a&gt; de &lt;a href=&quot;http://vimeo.com/user716571?pg=embed&amp;amp;sec=1694123&quot;&gt;Nicolás Abarca&lt;/a&gt; en &lt;a href=&quot;http://vimeo.com/?pg=embed&amp;amp;sec=1694123&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://vimeo.com/groups/3037/videos/1687283?pg=embed&amp;amp;sec=1687283&quot;&gt;Ramificaciones&lt;/a&gt; de &lt;a href=&quot;http://vimeo.com/user708572?pg=embed&amp;amp;sec=1687283&quot;&gt;Fernanda Ladrón de Guevara&lt;/a&gt; en &lt;a href=&quot;http://vimeo.com/?pg=embed&amp;amp;sec=1687283&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Colisiones 2D - II</title>
-    <link href="http://0.0.0.0:4000/2008/09/colisiones-2d-ii/"/>
-    <updated>2008-09-07T10:30:05+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/09/colisiones-2d-ii</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1679994&quot;&gt;&lt;img src=&quot;http://ts.vimeo.com/622/659/62265978_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Cada vez que dos pelotas chochan, nace una tercera perlota en el lugar del impacto. Las pelotas nuevas pueden variar de tamaño y el color está determinado por él. Se puede observar que naturalmente las pelotas más pequeñas decantan al fondo.&lt;/p&gt;
-
-&lt;p&gt;El código lo tomé desde: &lt;a href=&quot;http://processing.org/learning/topics/bouncybubbles.html&quot;&gt;processing.org/​learning/​topics/​bouncybubbles.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Para vel el applet corriendo y bajar el código:&lt;br /&gt;
-&lt;a href=&quot;http://www.ead.pucv.cl/processing/2008/spencer-herbert/pelotas_emergentes/index.html&quot;&gt;ead.pucv.cl/​processing/​2008/​spencer-herbert/​pelotas_emergentes/​index.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(presionar ESPACIO para prender y apagar la visualización de colisiones)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag%3Aprocessing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Acollisions&quot;&gt;collisions&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Asimulation&quot;&gt;simulation&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag%3A2d&quot;&gt;2D&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Colisiones 2D - I</title>
-    <link href="http://0.0.0.0:4000/2008/08/colisiones-2d-i/"/>
-    <updated>2008-08-30T10:10:46+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/08/colisiones-2d-i</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1629105&quot;&gt;&lt;img src=&quot;http://b.vimeocdn.com/ts/604/373/60437326_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Este es un ejemplo muy básico que pueden usar para sus proyectos. No es muy estable porque las pelotas, en vez de tranquilizarse, se ponen cada vez más saltarinas.&lt;/p&gt;
-
-&lt;p&gt;El código de este ejemplo está en:&lt;br /&gt;
-&lt;a href=&quot;http://www.ead.pucv.cl/processing/2008/spencer-herbert/pelotas_y_colisiones/index.html&quot;&gt;ead.pucv.cl/processing/2008/spencer-herbert/pelotas_y_colisiones/index.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:collision&quot;&gt;collision&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:particles&quot;&gt;particles&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:bounce&quot;&gt;bounce&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
     <title>Voluntarios para IV Seminario de AI</title>
     <link href="http://0.0.0.0:4000/2008/08/voluntarios-para-iv-seminario-de-ai/"/>
     <updated>2008-08-27T04:09:15+12:00</updated>
@@ -2946,21 +2879,6 @@ La secuencia fotográfica y pequeños videos ilustran la historia de la escuela 
   </entry>
   
   <entry>
-    <title>Marcianitos</title>
-    <link href="http://0.0.0.0:4000/2008/07/marcianitos/"/>
-    <updated>2008-08-01T04:55:45+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/07/marcianitos</id>
-    <content type="html">
-      &lt;p&gt;Como este sitio trata de la &lt;a href=&quot;http://www.herbertspencer.net/about/colofon/&quot; title=&quot;el colofón explica esto&quot;&gt;doble página&lt;/a&gt; traigo esta aplicación: &lt;a href=&quot;http://issuu.com/&quot; title=&quot;Servicio de publicación para documentos de impresión&quot;&gt;Issuu&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mis amigos más fundamentalistas dirán que es pura nostalgia por la página, otros dirán que se trata de otra aplicación que declara la supremacía absoluta de Internet sobre los otros medios de comunicación; porque es capaz de contenerlos a todos.&lt;/p&gt;
-
-&lt;p&gt;En fin, si esta discusión no te interesa, sólo &lt;a href=&quot;/assets/uploads/2008/07/marcianitos1.zip&quot;&gt;baja el código&lt;/a&gt; para hacer tus propios marcianitos.&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
     <title>Pintor autómata: Intento 1</title>
     <link href="http://0.0.0.0:4000/2008/pintor-automata"/>
     <updated>2008-08-01T04:32:05+12:00</updated>
@@ -3013,164 +2931,6 @@ Más adelante iré subiendo experimentos más avanzados en la línea de las mach
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.zbigvision.com/The4Dim.html&quot; title=&quot;Sitio de Zbig&quot;&gt;Zbig Rybczynski&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.flong.com/texts/lists/slit_scan/&quot; title=&quot;catálogo informal de Golan Levin&quot;&gt;Flong&lt;/a&gt;, en una recopilación completa de &lt;strong&gt;slitscan&lt;/strong&gt; (catálogo informal)&lt;/li&gt;
-&lt;/ul&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Internodal</title>
-    <link href="http://0.0.0.0:4000/2008/06/internodal/"/>
-    <updated>2008-06-29T00:47:22+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/internodal</id>
-    <content type="html">
-      &lt;p&gt;&lt;img src=&quot;http://ts.vimeo.com/573/059/57305910_200.jpg&quot; alt=&quot;&quot; /&gt;(http://vimeo.com/1246974)&lt;/p&gt;
-
-&lt;figure class=&quot;video-container&quot;&gt;
-  &lt;iframe src=&quot;https://player.vimeo.com/video/123456789&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;This was done as a frame by frame animation. It’s supposed to represent the relations between nodes in the network. This short loop was used on a presentation to illustrate the complexity of this phenomenon.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag%3Aprocessing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Abandw&quot;&gt;b&amp;amp;w;&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Aloop&quot;&gt;loop&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Aframebyframe&quot;&gt;frame by frame&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Ainternodal&quot;&gt;internodal&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Agraph&quot;&gt;graph&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag%3Anetwork&quot;&gt;network&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Internodal</title>
-    <link href="http://0.0.0.0:4000/2008/06/internodal-2/"/>
-    <updated>2008-06-29T00:47:22+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/internodal-2</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1246974&quot;&gt;&lt;img src=&quot;http://i.vimeocdn.com/video/57305910_200x150.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This was done as a frame by frame animation. It’s supposed to represent the relations between nodes in the network. This short loop was used on a presentation to illustrate the complexity of this phenomenon.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:b%26amp%3Bw&quot;&gt;b&amp;amp;w;&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:loop&quot;&gt;loop&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:frame+by+frame&quot;&gt;frame by frame&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:internodal&quot;&gt;internodal&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:graph&quot;&gt;graph&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:network&quot;&gt;network&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Marcianitos</title>
-    <link href="http://0.0.0.0:4000/2008/06/marcianitos-3/"/>
-    <updated>2008-06-28T12:56:23+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/marcianitos-3</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1245376&quot;&gt;&lt;img src=&quot;http://i.vimeocdn.com/video/57287882_200x150.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Simple invader object based on Jared Trabell’s fractal invaders.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:invader&quot;&gt;invader&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:random&quot;&gt;random&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:experimental&quot;&gt;experimental&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Marcianitos</title>
-    <link href="http://0.0.0.0:4000/2008/06/marcianitos-2/"/>
-    <updated>2008-06-28T12:56:23+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/marcianitos-2</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1245376&quot;&gt;Marcianitos&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;. Simple invader object based on Jared Trabell’s fractal invaders. This technique is also used as generative random avatar images. &lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://hspencer&quot;&gt;Herbert Spencer&lt;/a&gt; &lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag%3Aprocessing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Ainvader&quot;&gt;invader&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Arandom&quot;&gt;random&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag%3Aexperimental&quot;&gt;experimental&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Noise Gradient Animation</title>
-    <link href="http://0.0.0.0:4000/2008/06/noise-gradient-animation/"/>
-    <updated>2008-06-28T09:16:20+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/noise-gradient-animation</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1244578&quot;&gt;&lt;img src=&quot;http://ts.vimeo.com/572/789/57278912_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag%3Aprocessing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Anoise&quot;&gt;noise&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Agradient&quot;&gt;gradient&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Acode&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag%3Aexperimental&quot;&gt;experimental&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Noise Gradient Animation</title>
-    <link href="http://0.0.0.0:4000/2008/06/noise-gradient-animation-2/"/>
-    <updated>2008-06-28T09:16:20+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/noise-gradient-animation-2</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1244578&quot;&gt;&lt;img src=&quot;http://i.vimeocdn.com/video/57278912_200x150.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:noise&quot;&gt;noise&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:gradient&quot;&gt;gradient&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:code&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:experimental&quot;&gt;experimental&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Líneas Autómatas</title>
-    <link href="http://0.0.0.0:4000/2008/lineas-auto"/>
-    <updated>2008-06-28T09:14:23+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/None</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1244572&quot;&gt;&lt;img src=&quot;http://b.vimeocdn.com/ts/572/787/57278795_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;extremely simple class object. Interesting emergent pattern.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:lines&quot;&gt;lines&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:bandw&quot;&gt;b&amp;amp;w;&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:experimental&quot;&gt;experimental&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Voronoi</title>
-    <link href="http://0.0.0.0:4000/2008/06/voronoi/"/>
-    <updated>2008-06-28T09:10:41+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/voronoi</id>
-    <content type="html">
-      &lt;p&gt;Animación realizada en processing con la ayuda de la biblioteca “mesh” desarrollada por Lee Byron.&lt;br /&gt;
-La animación muestra la relación entre el diagrama de Voronoi y las triangulaciones de Delauney.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag%3Aprocessing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Aexperiment&quot;&gt;experiment&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag%3Acode&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag%3Avoronoi&quot;&gt;voronoi&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Taller Abierto de Processing</title>
-    <link href="http://0.0.0.0:4000/2008/06/taller-abierto-de-processing/"/>
-    <updated>2008-06-24T05:48:27+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/06/taller-abierto-de-processing</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/06/p-2008.png&quot; title=&quot;Processing&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/06/p-2008-260x180.png&quot; alt=&quot;Triangulación Delaunay&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Este año se impartirá nuevamente el curso de &lt;a href=&quot;http://www.processing.org/&quot; title=&quot;Página del proyecto opensource Processing&quot;&gt;Processing&lt;/a&gt;, ahora denominado &lt;strong&gt;Leguaje Computaqcional 0&lt;/strong&gt;. Este taller se inscribe dentro de la malla de diseño como un módulo obligatorio para el primer año y como taller de nivelación para los alumnos que cursan gráfica digital. Independiente de estas consideraciones, este taller está abierto para todos los interesados que quieran estudiar el medio expresivo de la programación gráfica.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Horario&lt;/strong&gt; : martes 15:30 – 17:10&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lugar&lt;/strong&gt; : Sala de Primer Año, Diseño&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;contenidos&quot;&gt;Contenidos&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;elementos de dibujo&lt;/li&gt;
-  &lt;li&gt;estructura y recursividad&lt;/li&gt;
-  &lt;li&gt;programación orientada a objetos&lt;/li&gt;
-  &lt;li&gt;file output: PDF y Quicktime&lt;/li&gt;
 &lt;/ul&gt;
 
     </content>

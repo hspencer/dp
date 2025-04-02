@@ -7,7 +7,7 @@ date: 2008-08-10 23:06:15 -0000
 last_modified_at: 2008-08-10 23:06:15 -0000
 publish: true
 categories:
-- notas
+- ideas
 tags:
 - "diseño de interacción"
 - organization design

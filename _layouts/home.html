@@ -17,13 +17,9 @@
     <main id="dp">
         <sidebar>
             <h1 class="title" style="font-weight: 300; font-family: Barlow;">{{ page.title }}</h1>
-           {% if page.p5 %}
-           <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
-         
+           
            <div id="p5"></div>
-           <script src="{{ page.p5.script | relative_url }}"></script>
-           {% endif %}
+
         </sidebar>
         
         <article>
@@ -33,5 +29,13 @@
     </main>
     
     {% include footer.html %}
+
+
+    {% if page.p5 %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    <script src="{{ page.p5.script | relative_url }}"></script>
+    {% endif %}
+    
 </body>
 </html> 
