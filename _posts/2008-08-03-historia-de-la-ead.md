@@ -9,8 +9,12 @@ publish: false
 categories:
 - imagen
 tags: []
+image:
+  path: /assets/uploads/2008/08/prima-escola.png
+  sidebar: false
+vimeo:
+  url: https://player.vimeo.com/video/1460008
 ---
-[![](http://b.vimeocdn.com/ts/590/697/59069776_200.jpg)](http://vimeo.com/1460008)
 
 Este video fue realizado en 2003 con motivo del lanzamiento del libro "Escuela de Valparaíso - Ciudad Abierta" por editorial Tanais. Este libro presenta la historia de la e[ad] Escuela de Arquitectura y Diseño PUCV, también conocida como "Escuela de Valparaíso" ([ead.pucv.cl](http://www.ead.pucv.cl/)).  
 La secuencia fotográfica y pequeños videos ilustran la historia de la escuela desde su fundación en 1952, el perído del instituto de arquitectura, la bottega, la travesía de amereida, la fundación de la Ciudad Abierta, los torneos y juegos, entre otros hitos.

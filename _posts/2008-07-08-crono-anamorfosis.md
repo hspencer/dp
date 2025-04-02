@@ -17,6 +17,10 @@ tags:
 - video
 vimeo:
     url: https://player.vimeo.com/video/1304091
+
+image: 
+  path: /assets/uploads/2008/07/timescan-inclinado1.png
+  sidebar: false
 ---
 ![secuencia](/assets/uploads/2008/07/timescan-normal1.png) 
 

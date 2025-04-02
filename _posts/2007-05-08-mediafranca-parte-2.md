@@ -14,6 +14,8 @@ tags:
 - design for democracy
 - "diseño de interacción"
 - social interaction
+image:
+  path: /assets/pintura/03.jpg
 ---
   
 [MediaFranca](http://vimeo.com/1464012) de [Herbert Spencer](http://vimeo.com/hspencer) en [Vimeo](http://vimeo.com). MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es construir un sistema que conecte a personas con lugares y con temas de interés social (_issues_) mediante un diáogo simétrico y democrático. Esta plataforma intenta salvar la distancia entre la conversación mediada digitalmente y la conversación cara a cara, promoviendo el paso de la interacción digital a la fí­sica, desplegando palabra en acción, y constituyendo así­ herramientas para la participación ciudadana. Dentro de las caracterí­sticas más importantes del sistema podemos mencionar:

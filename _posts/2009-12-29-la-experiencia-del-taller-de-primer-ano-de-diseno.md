@@ -20,6 +20,8 @@ tags:
 - taller
 - "travesía"
 - "xilografía"
+image:
+  path: /assets/pintura/16.jpg
 ---
 Al taller de primer año se le pide constituirse como la construcción de una experiencia de entrada al Oficio del Diseño.  
 Si nos remitimos a las etimologías, la pablabra **Diseño** , que es tanto sustantivo como verbo, significa dibujo (o boceto, croquis), en un sentido de _designio_ , de dibujo anticipatorio. Se trata, entonces, **del oficio de dibujar los dibujos que anticipan aquello que todavía no es**.

@@ -10,6 +10,8 @@ categories:
 - notas
 tags:
 - user research
+image:
+  path: /assets/pintura/14.jpg
 ---
 Está claro que la **investigación exploratoria** con usuarios adquiere cada vez más valor en los proyectos (aunque todavía, para los ojos del cliente, sea muy difícil justificarla y formalizarla dentro de una Gantt). Esta investigación preliminar nos permite definir el territorio de acción y comprender los [modelos mentales](http://www.darcy.cl/usabilidad/%c2%bfque-son-los-modelos-mentales/ "Lo que Darcy dice") de las personas involucradas. Sólo desde ahí podremos avanzar en definiciones de valor para el diseño. Dentro de una oficina de diseño —como [AyerViernes](http://www.ayerviernes.com "AyerViernes S.A.")— el proceso de investigación se instala cada vez más como una pieza clave dentro del proceso creativo; cada vez se hace más patente el valor que trae un agudo conocimiento de las personas para construir diseños eficaces, apropiables y queribles. El desafío entonces no radica en elegir una metodología de investigación adecuada, sino más bien en cómo leemos en la información obtenida **implicancias para el diseño**.
 

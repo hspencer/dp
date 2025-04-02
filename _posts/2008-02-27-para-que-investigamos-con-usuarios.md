@@ -12,6 +12,8 @@ tags:
 - "diseño de interacción"
 - "investigación"
 - user research
+image:
+  path: /assets/pintura/10.jpg
 ---
 En términos generales, en todo proceso de diseño podemos distinguir 3 momentos o fases características:
   1. la fase exploratoria, donde se conocen a los usuarios y se define el territorio en juego

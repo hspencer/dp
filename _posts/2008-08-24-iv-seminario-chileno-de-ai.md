@@ -14,6 +14,8 @@ tags:
 - IA
 - Information Architecture
 - seminario
+image:
+  path: /assets/pintura/08.png
 ---
 En esta [cuarta versión del seminario](http://www.aichile.org/seminario-2008/iv-seminario-chileno-de-arquitectura-de-la-informacion/ "IV Seminario Chileno de Arquitetura de la Información") de Arquitectura de la Información, nuestro amigo [Juan Carlos Camus](http://www.usando.info/blog/ "blog de Juan Carlos: usando.info") ha sugerido darle el nombre de "_viviendo la experiencia del usuario_ " para generar la discusión en torno a este concepto. En Chile, el concepto de **Arquitectura de la Información** nos ha servido como referencia y pretexto para juntarnos y construir [una comunidad de interés](http://www.aichile.org/ "aiChile.org"), ha sido el **catalizador de la discusión** en torno al diseño de plataformas y servicios web, nos ha servido para **elevar el nivel** de la discusión y para **evangelizar y educar** —en lo posible— a las empresas de la necesidad de tomar con seriedad el tema. Es cierto que la **AI** y la **Experiencia del Usuario** son temas distintos ((Hago esta aclaración a propósito del poco afortunado comentario hecho en relación al nombre y sentido del sentido del seminario, [ver post original](http://www.aichile.org/seminario-2008/iv-seminario-chileno-de-arquitectura-de-la-informacion/ "ver comentario de: anonimo").)). En realidad son 2 aproximaciones metodológicas para acceder al mismo problema:
 
@@ -22,4 +24,3 @@ En esta [cuarta versión del seminario](http://www.aichile.org/seminario-2008/iv
 
 Es por eso que **AI** y **Diseño de Experiencia** son disciplinas hermanas que se ocupan de distintas fases del mismo problema. Espero que estos temas y discusiones nos acompañen en el seminario, la idea es formalizar lo que realizamos en Chile para fortalecer nuestra discusión y alimentar nuestro espíritu crítico. Debemos dejarnos de ser meros consumidores para darnos cuenta de nuestra verdadera capacidad de reinventar el mundo. [IV Seminario sobre Arquitectura de la](http://www.aichile.org "Visita www.aichile.org") [ayúdanos a difundir el seminario](http://www.aichile.org/botones/ "Botones HTML para promocionar el seminario")
 
-* * *

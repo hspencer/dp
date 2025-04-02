@@ -582,7 +582,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["abstracción","dibujo","diseño","expresión","grabado","grilla","impresión","Isla Mocha","taller","travesía","xilografía"],
     "imagen":  
-                  " "
+                  "/assets/pintura/16.jpg"
                ,
     "url": "/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/",
     "largo": 5988,
@@ -854,7 +854,7 @@
     "categorias": ["notas"],
     "etiquetas": ["Arquitectura de la Información","experiencia","IA","Information Architecture","seminario"],
     "imagen":  
-                  " "
+                  "/assets/pintura/08.png"
                ,
     "url": "/2008/08/iv-seminario-chileno-de-ai/",
     "largo": 2616,
@@ -918,13 +918,13 @@
     "categorias": ["imagen"],
     "etiquetas": [],
     "imagen":  
-                  " "
+                  "/assets/uploads/2008/08/carlito.png"
                ,
     "url": "/2008/08/cortometraje",
-    "largo": 405,
+    "largo": 354,
     "contenido":
       
-        "Este pequeño cortometraje fue realizado en 1999 a pedido de Carlos Sánchez para la realización de su tesis: “La percepción según Carlito”.Los modelos renderizados fueron construídos a partir de bocetos a lápiz y modelos de cartón. Estos modelos fueron convertidos en formas vectoriales para luego ser extruídos y texturizados con dibujos pintados a mano.Cast: Herbert SpencerTags: 3D, old and experimental"
+        "Este pequeño cortometraje fue realizado en 1998 a pedido de Carlos Sánchez para la realización de su tesis: “La percepción según Carlito”.Los modelos renderizados fueron construídos a partir de bocetos a lápiz y modelos de cartón. Estos modelos fueron convertidos en formas vectoriales para luego ser extruídos y texturizados con dibujos pintados a mano."
       
   },
 
@@ -934,7 +934,7 @@
     "categorias": ["imagen"],
     "etiquetas": [],
     "imagen":  
-                  " "
+                  "/assets/uploads/2008/08/prima-escola.png"
                ,
     "url": "/2008/08/historia-de-la-ead",
     "largo": 611,
@@ -945,28 +945,12 @@
   },
 
   {
-    "fecha": "2008-08-01T04:32:05+12:00",
-    "titulo": "Pintor autómata: Intento 1",
-    "categorias": ["imagen"],
-    "etiquetas": [],
-    "imagen":  
-                  " "
-               ,
-    "url": "/2008/pintor-automata",
-    "largo": 758,
-    "contenido":
-      
-        "Hace tiempo que quiero explorar la idea de la “machina pictórica” y esta es la primera película que exporto de este tema.Este programa está construído sobre la base de un objeto “trazo” que avanza “browneanamente” y que se ramifica de acuerdo a un factor de fertilidad. La idea es muy simple ya que la composición sólo se basa en 1 tipo de objeto que sólo varía de color. El resultado —en esta ocasión— es bastante simplista y duro… al parecer hay que darle un poco más de inteligencia a los trazos para que no se densifiquen más de lo necesario, que topen o eviten otros objetos.Más adelante iré subiendo experimentos más avanzados en la línea de las machinas pictóricas.Cast: Herbert SpencerTags: processing, color, painting, automata and machina pictórica"
-      
-  },
-
-  {
     "fecha": "2008-07-29T00:26:45+12:00",
     "titulo": "Manejando la Complejidad",
     "categorias": ["notas"],
     "etiquetas": ["concepto","design for debate","public design"],
     "imagen":  
-                  " "
+                  "/assets/pintura/11.jpg"
                ,
     "url": "/2008/07/manejando-la-complejidad/",
     "largo": 2318,
@@ -982,7 +966,7 @@
     "categorias": ["code"],
     "etiquetas": ["code","experimental","processing","slitscan","tiempo","video"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2008/07/timescan-inclinado1.png"
                ,
     "url": "/2008/07/crono-anamorfosis/",
     "largo": 1932,
@@ -1014,7 +998,7 @@
     "categorias": ["notas"],
     "etiquetas": ["user research"],
     "imagen":  
-                  " "
+                  "/assets/pintura/14.jpg"
                ,
     "url": "/2008/05/despues-de-investigar/",
     "largo": 4444,
@@ -1030,7 +1014,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["diseño de interacción","investigación","métodos"],
     "imagen":  
-                  " "
+                  "/assets/pintura/09.png"
                ,
     "url": "/2008/03/historias-dirigidas/",
     "largo": 3758,
@@ -1062,7 +1046,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["diseño de interacción","investigación","user research"],
     "imagen":  
-                  " "
+                  "/assets/pintura/10.jpg"
                ,
     "url": "/2008/02/para-que-investigamos-con-usuarios/",
     "largo": 2162,
@@ -1078,7 +1062,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["debate","design research","design thinking"],
     "imagen":  
-                  " "
+                  "/assets/pintura/06.png"
                ,
     "url": "/2008/01/investigacion-y-diseno/",
     "largo": 3362,
@@ -1142,7 +1126,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["concepto","design for citizenship","design for democracy","diseño de interacción","social interaction"],
     "imagen":  
-                  " "
+                  "/assets/pintura/03.jpg"
                ,
     "url": "/2007/05/mediafranca-parte-2/",
     "largo": 1905,
@@ -1174,13 +1158,13 @@
     "categorias": ["code","investigación"],
     "etiquetas": [],
     "imagen":  
-                  " "
+                  "https://github.com/hspencer/filippo3d/blob/master/data/drawing-chair.png?raw=true"
                ,
     "url": "/2006/12/filippo-3d-ver-01/",
-    "largo": 4621,
+    "largo": 4495,
     "contenido":
       
-        " Filippo 3D is my final project for Golan’s class, the Interactive Image. This project is inspired by the idea of drawing in a 3D canvas. After seeing Amit Pitaru’s work, the famous sonic sculptor or the gesture machines from Zack Lieberman, I decided to create a small application that allowed to transfer 2D hand strokes into a 3D space.Download  Filippo3d for Mac OS X (this one runs painfully slow in non-Intel machines… sorry, I’ll optimize it next time)  Filippo3d for Linux  Filippo3d for WindowsI’d be really happy to receive feedback for further improvements and/or the PDFs (360 Sample) you create with it. I hope that the next version will have load/save capabilities since the only possible output right now is into a PDF (or animated series of PDFs) or DXF (an old 3D) format. Enjoy! /* English ends here :) */ La diferencia con los ejemplos anteriores es que en ellos el dibujo rota en el espacio y el plano de la pantalla –en el cual uno dibuja– se intersecta con el espacio tridimensional en un plano fijo..."
+        "Filippo 3D is my final project for Golan’s class, the Interactive Image. This project is inspired by the idea of drawing in a 3D canvas. After seeing Amit Pitaru’s work, the famous sonic sculptor or the gesture machines from Zack Lieberman, I decided to create a small application that allowed to transfer 2D hand strokes into a 3D space.Download  Github repo  Test it online (p5js version)I’d be really happy to receive feedback for further improvements and/or the PDFs you create with it. I hope that the next version will have load/save capabilities since the only possible output right now is into a PDF (or animated series of PDFs) or DXF (an old 3D) format. Enjoy! !/* English ends here :) */La diferencia con los ejemplos anteriores es que en ellos el dibujo rota en el espacio y el plano de la pantalla –en el cual uno dibuja– se intersecta con el espacio tridimensional en un plano fijo. Lo que querí­a hacer yo era poder mover ese plano, como si la hoja de papel sirviera para fijar las lí­neas no en el papel, ..."
       
   },
 
@@ -1238,13 +1222,13 @@
     "categorias": ["research"],
     "etiquetas": ["agent","calendar","diseño de interacción","project","scheduling"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2006/08/honeydew_logo_small1.png"
                ,
     "url": "/2006/08/honeydew-agent/",
-    "largo": 5107,
+    "largo": 5105,
     "contenido":
       
-        "**Honeydew Agent es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama agente pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.El problema para el DiseñoPara que el agente pueda adaptarse y aprender de cada usuario y pueda, a su vez, construir negociaciones realistas, requiere de información precisa expresada en el caledario o agenda de la persona. En nuestra investigación nos encontramos con un sinnúmero de conductas y técnicas que promueven —en cierta medida— a la deshonestidad al momento de mantener un calendario público. Entre a..."
+        "Honeydew Agent es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama agente pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.El problema para el DiseñoPara que el agente pueda adaptarse y aprender de cada usuario y pueda, a su vez, construir negociaciones realistas, requiere de información precisa expresada en el caledario o agenda de la persona. En nuestra investigación nos encontramos con un sinnúmero de conductas y técnicas que promueven —en cierta medida— a la deshonestidad al momento de mantener un calendario público. Entre alg..."
       
   },
 
@@ -1318,7 +1302,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño"],
     "imagen":  
-                  " "
+                  "/assets/pintura/15.jpg"
                ,
     "url": "/2005/01/de-como-una-cosa-se-junta-con-otra/",
     "largo": 5388,
@@ -1366,7 +1350,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Diseño Gráfico","interacción"],
     "imagen":  
-                  "/assets/uploads/2005/06/marana.jpg"
+                  "/assets/uploads/2002/fijar-un-contraste-legible.png"
                ,
     "url": "/2002/11/03/fijar-un-contraste-legible",
     "largo": 0,

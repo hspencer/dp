@@ -13,7 +13,8 @@ tags:
 - "Diseño Gráfico"
 - "interacción"
 image:
-  path: /assets/uploads/2005/06/marana.jpg
+  path: /assets/uploads/2002/fijar-un-contraste-legible.png
+  sidebar: false
 sidebar:
   html: >
     <div style='width:70%; float: right; margin: 3em 0 0 0; font-size: .7em'>

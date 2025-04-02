@@ -12,6 +12,8 @@ tags:
 - debate
 - design research
 - design thinking
+image:
+  path: /assets/pintura/06.png
 ---
 Hace ya bastante tiempo que vengo viendo cómo la Ciencia adquiere más y más fuerza por sobre el Arte en términos de validación del discurso. No quiero caer en el fome y manoseado debate entre el Arte y la Ciencia para definir un espacio para el Diseño, sino tratar de comprender el sentido de esta tendencia. Llama la atención ver cómo el Diseño, cuando quiere formalizar y divulgar su conociemiento, ya sea por medio de publicaciones o seminarios, adopta una postura cientí­fica para validarse. En el mundo académico el conocimiento se comparte en un formato estándar. Dicha _modularización_ (los "ladrillos") obliga a construir argumentos en un formato tipo, idealmente que sea fácil de leer y hojear; de escanear rápidamente con la mirada, que permita extraerle lo de valor con un simple vistazo y que ofrezca capas diseñadas para las distintas velocidades de lectores. Lo ideal, y lo que se mide, es el **factor de impacto** de cada uno de estos ladrillos. Esta practicidad reduce a un la lí­nea discursiva:
   

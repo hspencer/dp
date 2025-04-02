@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-02T21:11:09+13:00</updated>
+  <updated>2025-04-02T22:10:23+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -2633,7 +2633,6 @@ La secuencia concluye volviendo a la grilla original con el objeto de revelar la
 
 &lt;p&gt;Es por eso que &lt;strong&gt;AI&lt;/strong&gt; y &lt;strong&gt;Diseño de Experiencia&lt;/strong&gt; son disciplinas hermanas que se ocupan de distintas fases del mismo problema. Espero que estos temas y discusiones nos acompañen en el seminario, la idea es formalizar lo que realizamos en Chile para fortalecer nuestra discusión y alimentar nuestro espíritu crítico. Debemos dejarnos de ser meros consumidores para darnos cuenta de nuestra verdadera capacidad de reinventar el mundo. &lt;a href=&quot;http://www.aichile.org&quot; title=&quot;Visita www.aichile.org&quot;&gt;IV Seminario sobre Arquitectura de la&lt;/a&gt; &lt;a href=&quot;http://www.aichile.org/botones/&quot; title=&quot;Botones HTML para promocionar el seminario&quot;&gt;ayúdanos a difundir el seminario&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
 
     </content>
   </entry>
@@ -2739,14 +2738,9 @@ El trazo termina cuando choca con otro trazo existente.&lt;/p&gt;
     <updated>2008-08-04T22:58:28+12:00</updated>
     <id>http://0.0.0.0:4000/2008/08/cortometraje</id>
     <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1463858&quot;&gt;&lt;img src=&quot;http://b.vimeocdn.com/ts/591/085/59108571_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Este pequeño cortometraje fue realizado en 1998 a pedido de Carlos Sánchez para la realización de su tesis: “La percepción según Carlito”.&lt;/p&gt;
 
-&lt;p&gt;Este pequeño cortometraje fue realizado en 1999 a pedido de Carlos Sánchez para la realización de su tesis: “La percepción según Carlito”.&lt;br /&gt;
-Los modelos renderizados fueron construídos a partir de bocetos a lápiz y modelos de cartón. Estos modelos fueron convertidos en formas vectoriales para luego ser extruídos y texturizados con dibujos pintados a mano.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:3d&quot;&gt;3D&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:old&quot;&gt;old&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:experimental&quot;&gt;experimental&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Los modelos renderizados fueron construídos a partir de bocetos a lápiz y modelos de cartón. Estos modelos fueron convertidos en formas vectoriales para luego ser extruídos y texturizados con dibujos pintados a mano.&lt;/p&gt;
 
     </content>
   </entry>
@@ -2757,33 +2751,12 @@ Los modelos renderizados fueron construídos a partir de bocetos a lápiz y mode
     <updated>2008-08-04T07:06:00+12:00</updated>
     <id>http://0.0.0.0:4000/2008/08/historia-de-la-ead</id>
     <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1460008&quot;&gt;&lt;img src=&quot;http://b.vimeocdn.com/ts/590/697/59069776_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Este video fue realizado en 2003 con motivo del lanzamiento del libro “Escuela de Valparaíso - Ciudad Abierta” por editorial Tanais. Este libro presenta la historia de la e[ad] Escuela de Arquitectura y Diseño PUCV, también conocida como “Escuela de Valparaíso” (&lt;a href=&quot;http://www.ead.pucv.cl/&quot;&gt;ead.pucv.cl&lt;/a&gt;).&lt;br /&gt;
+      &lt;p&gt;Este video fue realizado en 2003 con motivo del lanzamiento del libro “Escuela de Valparaíso - Ciudad Abierta” por editorial Tanais. Este libro presenta la historia de la e[ad] Escuela de Arquitectura y Diseño PUCV, también conocida como “Escuela de Valparaíso” (&lt;a href=&quot;http://www.ead.pucv.cl/&quot;&gt;ead.pucv.cl&lt;/a&gt;).&lt;br /&gt;
 La secuencia fotográfica y pequeños videos ilustran la historia de la escuela desde su fundación en 1952, el perído del instituto de arquitectura, la bottega, la travesía de amereida, la fundación de la Ciudad Abierta, los torneos y juegos, entre otros hitos.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/escuela&quot;&gt;e[ad]&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:documental&quot;&gt;documental&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:escuela&quot;&gt;escuela&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:historia&quot;&gt;historia&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:ead&quot;&gt;e[ad]&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Pintor autómata: Intento 1</title>
-    <link href="http://0.0.0.0:4000/2008/pintor-automata"/>
-    <updated>2008-08-01T04:32:05+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/pintor-automata</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1443251&quot;&gt;&lt;img src=&quot;http://b.vimeocdn.com/ts/589/655/58965531_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Hace tiempo que quiero explorar la idea de la “machina pictórica” y esta es la primera película que exporto de este tema.&lt;br /&gt;
-Este programa está construído sobre la base de un objeto “trazo” que avanza “browneanamente” y que se ramifica de acuerdo a un factor de fertilidad. La idea es muy simple ya que la composición sólo se basa en 1 tipo de objeto que sólo varía de color. El resultado —en esta ocasión— es bastante simplista y duro… al parecer hay que darle un poco más de inteligencia a los trazos para que no se densifiquen más de lo necesario, que topen o eviten otros objetos.&lt;br /&gt;
-Más adelante iré subiendo experimentos más avanzados en la línea de las machinas pictóricas.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:color&quot;&gt;color&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:painting&quot;&gt;painting&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:automata&quot;&gt;automata&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:machinapictrica&quot;&gt;machina pictórica&lt;/a&gt;&lt;/p&gt;
 
     </content>
   </entry>
@@ -3239,22 +3212,23 @@ para que haya pueblo?&lt;/p&gt;
     <updated>2006-12-18T04:44:54+13:00</updated>
     <id>http://0.0.0.0:4000/2006/12/filippo-3d-ver-01</id>
     <content type="html">
-      &lt;p&gt;&lt;img src=&quot;http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/f3d_rotations.jpg&quot; alt=&quot;f3d rotations&quot; /&gt; Filippo 3D is my final project for &lt;a href=&quot;http://www.flong.com/&quot;&gt;Golan&lt;/a&gt;’s class, the &lt;a href=&quot;http://artscool.cfa.cmu.edu/~levin/courses/dmc/iig_06f/index.php&quot;&gt;Interactive Image&lt;/a&gt;. This project is inspired by the idea of drawing in a 3D canvas. After seeing &lt;a href=&quot;http://www.pitaru.com/&quot;&gt;Amit Pitaru&lt;/a&gt;’s work, the famous &lt;a href=&quot;http://pitaru.com/sonicWireSculptor/framed/index.htm&quot;&gt;sonic sculptor&lt;/a&gt; or the &lt;a href=&quot;http://www.theremediproject.com/projects/issue12/systemisgesture/&quot;&gt;gesture machines&lt;/a&gt; from &lt;a href=&quot;http://www.thesystemis.com/&quot;&gt;Zack Lieberman&lt;/a&gt;, I decided to create a small application that allowed to transfer 2D hand strokes into a 3D space.&lt;/p&gt;
+      &lt;p&gt;Filippo 3D is my final project for &lt;a href=&quot;http://www.flong.com/&quot;&gt;Golan&lt;/a&gt;’s class, the &lt;a href=&quot;http://artscool.cfa.cmu.edu/~levin/courses/dmc/iig_06f/index.php&quot;&gt;Interactive Image&lt;/a&gt;. This project is inspired by the idea of drawing in a 3D canvas. After seeing &lt;a href=&quot;http://www.pitaru.com/&quot;&gt;Amit Pitaru&lt;/a&gt;’s work, the famous &lt;a href=&quot;http://pitaru.com/sonicWireSculptor/framed/index.htm&quot;&gt;sonic sculptor&lt;/a&gt; or the &lt;a href=&quot;http://www.theremediproject.com/projects/issue12/systemisgesture/&quot;&gt;gesture machines&lt;/a&gt; from &lt;a href=&quot;http://www.thesystemis.com/&quot;&gt;Zack Lieberman&lt;/a&gt;, I decided to create a small application that allowed to transfer 2D hand strokes into a 3D space.&lt;/p&gt;
 
 &lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.herbertspencer.net/projects/filippo3d/ver01/f3d_macosx.zip&quot;&gt;Filippo3d for Mac OS X&lt;/a&gt; (this one runs painfully slow in non-Intel machines… sorry, I’ll optimize it next time)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.herbertspencer.net/projects/filippo3d/ver01/f3d_linux.zip&quot;&gt;Filippo3d for Linux&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.herbertspencer.net/projects/filippo3d/ver01/f3d_windows.zip&quot;&gt;Filippo3d for Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hspencer/filippo3d&quot;&gt;Github repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://herbertspencer.net/filippo3d/&quot;&gt;Test it online (p5js version)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I’d be really happy to receive feedback for further improvements and/or the PDFs (&lt;a href=&quot;http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/f3D_360sample.pdf&quot;&gt;360 Sample&lt;/a&gt;) you create with it. I hope that the next version will have load/save capabilities since the only possible output right now is into a PDF (or animated series of PDFs) or DXF (an old 3D) format. Enjoy! &lt;img src=&quot;http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/sillas.jpg&quot; alt=&quot;sillas&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I’d be really happy to receive feedback for further improvements and/or the PDFs you create with it. I hope that the next version will have load/save capabilities since the only possible output right now is into a PDF (or animated series of PDFs) or DXF (an old 3D) format. Enjoy! !&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* English ends here :) */
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.herbertspencer.net/wp/wp-content/uploads/2006/12/f3d_interface.gif&quot; alt=&quot;Filippo3d Interface&quot; /&gt; La diferencia con los ejemplos anteriores es que en ellos el dibujo rota en el espacio y el plano de la pantalla –en el cual uno dibuja– se intersecta con el espacio tridimensional en un plano fijo. Lo que querí­a hacer yo era poder mover ese plano, como si la hoja de papel sirviera para fijar las lí­neas no en el papel, sino en el espacio construí­do por ese plano. Dicho de otro modo, un cuaderno que permitiera dibujar, luego mover el cuaderno y dejar las lí­neas flotando en el aire, en su posición original: la construcción de un plano-andamio para fijar lí­neas en el espacio. Finalmente el resultado no es literalmente esta imagen del cuaderno desplazable por el espacio, principalmente porque uno siempre dibuja frontalmente y no tiene sentido mover un plano que será mediado ineludiblemente por el plano de la pantalla. Lo que el programa hace es mover y rotar el modelo para hacerlo coincidir con el plano de dibujo (plano-pantalla); en el fondo es lo mismo pero pero tiene más sentido al momento de dibujar. El modelo matemático que sustenta la traducción de un espacio bidimensional a un espacio tridimensional implica multiplicación de matrices al modo inverso de lo que el computador hace cuando presenta modelos tridimensionales en la pantalla: a cada vértice con ubicación (x,y,z) le asigna su correspondiente (x,y) en la pantalla. Lo que este programa hace es partir de un (x,y) –con un z igual a 0– que se traduce a un espacio tridimensional con rotaciones en los ejes x,y,z.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/uploads/2006/12/filippo-logo.png&quot; alt=&quot;Filippo3d&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La diferencia con los ejemplos anteriores es que en ellos el dibujo rota en el espacio y el plano de la pantalla –en el cual uno dibuja– se intersecta con el espacio tridimensional en un plano fijo. Lo que querí­a hacer yo era poder mover ese plano, como si la hoja de papel sirviera para fijar las lí­neas no en el papel, sino en el espacio construí­do por ese plano. Dicho de otro modo, un cuaderno que permitiera dibujar, luego mover el cuaderno y dejar las lí­neas flotando en el aire, en su posición original: la construcción de un plano-andamio para fijar lí­neas en el espacio. Finalmente el resultado no es literalmente esta imagen del cuaderno desplazable por el espacio, principalmente porque uno siempre dibuja frontalmente y no tiene sentido mover un plano que será mediado ineludiblemente por el plano de la pantalla. Lo que el programa hace es mover y rotar el modelo para hacerlo coincidir con el plano de dibujo (plano-pantalla); en el fondo es lo mismo pero pero tiene más sentido al momento de dibujar. El modelo matemático que sustenta la traducción de un espacio bidimensional a un espacio tridimensional implica multiplicación de matrices al modo inverso de lo que el computador hace cuando presenta modelos tridimensionales en la pantalla: a cada vértice con ubicación (x,y,z) le asigna su correspondiente (x,y) en la pantalla. Lo que este programa hace es partir de un (x,y) –con un z igual a 0– que se traduce a un espacio tridimensional con rotaciones en los ejes x,y,z.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Traslación en x,y,z:
 
@@ -3532,11 +3506,7 @@ deforman y engañan?&lt;/em&gt;((“the earth so overcome / is there not exposed
     <updated>2006-08-23T04:42:13+12:00</updated>
     <id>http://0.0.0.0:4000/2006/08/honeydew-agent</id>
     <content type="html">
-      &lt;p&gt;&lt;img src=&quot;http://web.archive.org/web/20061013125929//assets/uploads/2006/08/honeydew_logo_small.jpg&quot; alt=&quot;Honeydew Logo&quot; /&gt;&lt;em&gt;**&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/uploads/2006/08/honeydew_logo_small1.png&quot;&gt;&lt;img src=&quot;/assets/uploads/2006/08/honeydew_logo_small1.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Honeydew Agent&lt;/strong&gt; es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama &lt;em&gt;agente&lt;/em&gt; pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Honeydew Agent&lt;/strong&gt; es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama &lt;em&gt;agente&lt;/em&gt; pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.&lt;/p&gt;
 
 &lt;h3 id=&quot;el-problema-para-el-diseño&quot;&gt;El problema para el Diseño&lt;/h3&gt;
 

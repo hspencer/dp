@@ -10,6 +10,8 @@ categories:
 - escuela
 tags:
 - diseño
+image:
+  path: /assets/pintura/15.jpg
 ---
 #### Exámen de Primer Año Diseño – 15 de diciembre de 2004
 

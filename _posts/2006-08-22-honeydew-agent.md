@@ -14,10 +14,10 @@ tags:
 - diseño de interacción
 - project
 - scheduling
----
-![Honeydew Logo](http://web.archive.org/web/20061013125929//assets/uploads/2006/08/honeydew_logo_small.jpg)****
 
-[![](/assets/uploads/2006/08/honeydew_logo_small1.png)](/assets/uploads/2006/08/honeydew_logo_small1.png)
+image:
+  path: /assets/uploads/2006/08/honeydew_logo_small1.png
+---
 
 **Honeydew Agent** es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama _agente_ pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.
 
