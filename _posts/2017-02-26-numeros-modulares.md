@@ -17,6 +17,7 @@ tags:
 - "números"
 - "visualización"
 ---
+<iframe src="https://herbertspencer.net/modular/" frameborder="0" style="width: 168%;margin: -11% -38%;height:40em;mix-blend-mode: multiply;scale: 70%;overflow: hidden;" ></iframe> 
 Se trata más bien de una curiosidad o _divertimento_ matemático, en el mismo espíritu del [modulador de números](http://herbertspencer.net/2007/11/primes-modulator/) primos: ¿podemos ver patrones en las tablas de multiplicar?
 
 Una forma bastante interesante de representar esta operación es de **forma modular** , es decir, en la multiplicación **10 × 2** :

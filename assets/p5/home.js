@@ -1,82 +1,92 @@
-// Datos de posts
-let postsData = posts;
+let postsData = [];
+let filteredPosts = [];
+let categoryFilter = {};
 let cnv;
 
-// Importación de módulos de Matter.js
 const Engine = Matter.Engine,
       World = Matter.World,
-      Bodies = Matter.Bodies,
-      Body = Matter.Body;
+      Bodies = Matter.Bodies;
 
 let engine;
 let world;
 let boundaries = [];
 
-// Constantes para el temporizador (en milisegundos)
-const hoverThreshold = 1000; // Tiempo necesario para activar el post
-const fadeDuration = 1500;   // Duración de la transición de color
+const hoverThreshold = 1000;
+const fadeDuration = 1500;
+
+function preload() {
+  loadJSON('/feed.json', (data) => {
+    console.log("Datos cargados:", data);
+    postsData = data;
+  }, (err) => {
+    console.error("Error al cargar JSON:", err);
+  });
+}
 
 function setup() {
-  // Definir dimensiones del canvas según los elementos del DOM
   let w = document.getElementById('p5').offsetWidth;
   cnv = createCanvas(w, w);
   cnv.parent('p5');
-
-  // Permitir las acciones táctiles por defecto (como el desplazamiento)
   cnv.elt.style.touchAction = "auto";
 
   textFont('Barlow');
 
-  // Crear motor y mundo de Matter.js sin gravedad vertical
   engine = Engine.create();
   world = engine.world;
   engine.world.gravity.y = 0;
 
-  // Configurar el MouseConstraint para la interacción con el ratón
   let canvasmouse = Matter.Mouse.create(cnv.elt);
   canvasmouse.pixelRatio = pixelDensity();
   let mConstraint = Matter.MouseConstraint.create(engine, { mouse: canvasmouse });
   World.add(world, mConstraint);
 
-  // Calcular escalado del radio de cada post en función de su longitud
-  let lengths = postsData.map(post => post.length || 2000);
+  // Inicializar filtro de categorías
+  postsData.forEach(post => {
+    (post.categorias || []).forEach(cat => {
+      categoryFilter[cat] = true;
+    });
+  });
+
+  createCategoryCheckboxes();
+
+  let lengths = postsData.map(p => p.contenido.length);
   let minLen = Math.min(...lengths);
   let maxLen = Math.max(...lengths);
 
-  // Crear límites estáticos alrededor del canvas
+  // Crear límites del canvas
   let thickness = 50;
-  boundaries.push(Bodies.rectangle(width / 2, height + thickness / 2, width, thickness, { isStatic: true }));  // Límite inferior
-  boundaries.push(Bodies.rectangle(width / 2, -thickness / 2, width, thickness, { isStatic: true }));         // Límite superior
-  boundaries.push(Bodies.rectangle(-thickness / 2, height / 2, thickness, height, { isStatic: true }));        // Límite izquierdo
-  boundaries.push(Bodies.rectangle(width + thickness / 2, height / 2, thickness, height, { isStatic: true })); // Límite derecho
+  boundaries.push(Bodies.rectangle(width / 2, height + thickness / 2, width, thickness, { isStatic: true }));
+  boundaries.push(Bodies.rectangle(width / 2, -thickness / 2, width, thickness, { isStatic: true }));
+  boundaries.push(Bodies.rectangle(-thickness / 2, height / 2, thickness, height, { isStatic: true }));
+  boundaries.push(Bodies.rectangle(width + thickness / 2, height / 2, thickness, height, { isStatic: true }));
   World.add(world, boundaries);
 
-  // Crear cuerpos circulares para cada post
+  // Agregar cuerpos al mundo
   postsData.forEach((post, index) => {
     let angle = map(index, 0, postsData.length, 0, TWO_PI);
     let x = width / 2 + cos(angle) * 200;
     let y = height / 2 + sin(angle) * 200;
-    
-    // Escalar el radio según la longitud del post
-    post.radius = map(post.length || 1000, minLen, maxLen, 15, 30);
-    
-    // Crear cuerpo circular con propiedades físicas
+
+    // radio fijo si es "code", sino mapeado por longitud
+    let isCode = post.categorias.includes('code');
+    post.radius = isCode ? 10 : map(post.contenido.length, minLen, maxLen, 15, 30);
+
     post.body = Bodies.circle(x, y, post.radius, {
       restitution: 0.9,
       friction: 0,
       frictionAir: 0.05
     });
-    
-    // Inicializar variables para control del temporizador (hover/touch)
+
     post.hoverStart = null;
     post.activated = false;
     post.touchStartX = undefined;
     post.touchStartY = undefined;
     World.add(world, post.body);
-    
-    // Asignar velocidad inicial aleatoria
+
     Matter.Body.setVelocity(post.body, { x: random(-3, 3), y: random(-3, 3) });
   });
+
+  filteredPosts = postsData; // al principio todos visibles
 }
 
 function draw() {
@@ -84,68 +94,68 @@ function draw() {
   Engine.update(engine);
   let now = millis();
 
-  // Determinar la posición del puntero: se prioriza el toque (touch) si existe
-  let pointerX, pointerY;
-  if (touches.length > 0) {
-    pointerX = touches[0].x;
-    pointerY = touches[0].y;
-  } else {
-    pointerX = mouseX;
-    pointerY = mouseY;
-  }
+  let pointerX = touches.length > 0 ? touches[0].x : mouseX;
+  let pointerY = touches.length > 0 ? touches[0].y : mouseY;
 
-  // Actualizar cada post según la proximidad del puntero
-  postsData.forEach(post => {
+  filteredPosts = postsData.filter(p => p.categorias.some(cat => categoryFilter[cat]));
+
+  filteredPosts.forEach(post => {
     let pos = post.body.position;
     let isHovering = dist(pointerX, pointerY, pos.x, pos.y) < post.radius;
 
     if (isHovering && !post.activated) {
-      // Iniciar el temporizador al situarse el puntero sobre el post
-      if (!post.hoverStart) {
-        post.hoverStart = now;
-      }
-      // Activar el post si el puntero se mantiene durante el tiempo requerido
-      let elapsed = now - post.hoverStart;
-      if (elapsed >= hoverThreshold) {
-        post.activated = true;
-      }
+      if (!post.hoverStart) post.hoverStart = now;
+      if (now - post.hoverStart >= hoverThreshold) post.activated = true;
     } else if (!isHovering) {
-      // Reiniciar el temporizador y la activación al abandonar el área del post
       post.hoverStart = null;
       post.activated = false;
     }
 
-    // Determinar el color en función del estado del post
-    let c;
-    if (post.activated) {
-      c = color('#C00'); // Post activado se muestra en rojo
-    } else if (post.hoverStart) {
-      let pct = constrain((now - post.hoverStart) / fadeDuration, 0, 1);
-      let grey = lerp(200, 0, pct);
-      c = color(grey);
-    } else {
-      c = color(200);
+    // Determinar color según categoría
+    let baseColor = color(200);
+    if (post.categorias.includes('code')) {
+      baseColor = color(140, 35, 0, 127); // rojo 50%
+    } else if (post.categorias.includes('escuela')) {
+      baseColor = color(41, 128, 48, 77) ; // verde limón 50%
+    } else if (post.categorias.includes('ideas')) {
+      baseColor = color(100, 200, 255, 127); // celeste 50%
     }
 
-    fill(c);
-    noStroke();
+    // Estilo según estado
+    if (post.activated) {
+      fill(204, 0, 0); // rojo
+      noStroke();
+    } else if (post.hoverStart) {
+      let pct = constrain((now - post.hoverStart) / fadeDuration, 0, 1);
+      let g = lerp(200, 0, pct);
+      fill(g);
+      noStroke();
+    } else {
+      fill(baseColor);
+      strokeWeight(1.5);
+      if (post.categorias.includes('code')) {
+        stroke(204, 0, 0); // contorno rojo
+      } else {
+        noStroke();
+      }
+    }
+
     ellipse(pos.x, pos.y, post.radius * 2);
   });
 
-  // Mostrar el título del post cuando el puntero se sitúa sobre él
-  postsData.forEach(post => {
+  // Mostrar título
+  filteredPosts.forEach(post => {
     let pos = post.body.position;
     if (dist(pointerX, pointerY, pos.x, pos.y) < post.radius) {
       fill(0);
       textAlign(CENTER, BOTTOM);
-      text(post.title.toUpperCase(), pos.x, pos.y - post.radius - 5);
+      text(post.titulo.toUpperCase(), pos.x, pos.y - post.radius - 5);
     }
   });
 }
 
-// Evento de ratón: si el post está activado, redirigir a su URL
 function mousePressed() {
-  postsData.forEach(post => {
+  filteredPosts.forEach(post => {
     let pos = post.body.position;
     if (post.activated && dist(mouseX, mouseY, pos.x, pos.y) < post.radius) {
       window.location.href = post.url;
@@ -153,18 +163,16 @@ function mousePressed() {
   });
 }
 
-// Evento táctil: iniciar el temporizador y registrar la posición inicial del toque
 function touchStarted() {
   if (touches.length > 0) {
     let pointerX = touches[0].x;
     let pointerY = touches[0].y;
-    postsData.forEach(post => {
+    filteredPosts.forEach(post => {
       let pos = post.body.position;
       if (dist(pointerX, pointerY, pos.x, pos.y) < post.radius) {
         if (!post.hoverStart) {
           post.hoverStart = millis();
         }
-        // Registrar la posición inicial del toque para evaluar el movimiento
         post.touchStartX = pointerX;
         post.touchStartY = pointerY;
       }
@@ -172,14 +180,12 @@ function touchStarted() {
   }
 }
 
-// Evento táctil de movimiento: cancelar el temporizador si se detecta movimiento excesivo
 function touchMoved() {
   if (touches.length > 0) {
     let pointerX = touches[0].x;
     let pointerY = touches[0].y;
-    postsData.forEach(post => {
+    filteredPosts.forEach(post => {
       if (post.touchStartX !== undefined && post.touchStartY !== undefined) {
-        // Cancelar si el movimiento supera los 10 píxeles
         if (dist(pointerX, pointerY, post.touchStartX, post.touchStartY) > 10) {
           post.hoverStart = null;
           post.touchStartX = undefined;
@@ -191,18 +197,27 @@ function touchMoved() {
   }
 }
 
-// Evento táctil finalizado: si el post está activado, redirigir a su URL y restablecer variables
 function touchEnded() {
   let pointerX = (touches.length > 0) ? touches[0].x : mouseX;
   let pointerY = (touches.length > 0) ? touches[0].y : mouseY;
-  postsData.forEach(post => {
+  filteredPosts.forEach(post => {
     if (post.activated && dist(pointerX, pointerY, post.body.position.x, post.body.position.y) < post.radius) {
       window.location.href = post.url;
     }
-    // Reiniciar variables de estado táctil y del temporizador
     post.hoverStart = null;
     post.touchStartX = undefined;
     post.touchStartY = undefined;
     post.activated = false;
+  });
+}
+
+function createCategoryCheckboxes() {
+  let container = createDiv().id('categorias').parent('p5');
+  Object.keys(categoryFilter).forEach(cat => {
+    let label = createCheckbox(cat, true);
+    label.changed(() => {
+      categoryFilter[cat] = label.checked();
+    });
+    label.parent(container);
   });
 }

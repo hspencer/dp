@@ -165,7 +165,7 @@ header {
             font-size: 80%;
             color: vars.$color-title;
         }
-
+      
         h5 {
             text-transform: uppercase;
             letter-spacing: .08ex;
@@ -206,9 +206,9 @@ header {
             word-break: break-word;
 
             &.caption {
-                font-size: 75%;
+                font-size: 68%;
                 line-height: 110%;
-                margin: 0 2em;
+                margin: 1em 0 0 2em;
 
                 &.right {
                     text-align: right;
@@ -349,6 +349,20 @@ header {
                     font-size: 80%;
                     line-height: 110%;
                 }
+            }
+        }
+    }
+
+    #categorias{
+        font-family: vars.$font-sans;
+        font-size: 1rem;
+        margin: 1em 0 0 0;
+        text-align: center;
+        div{
+            display: inline-block;
+            label{
+                display: inline-block;
+                padding: 1ex 1em;
             }
         }
     }
