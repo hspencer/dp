@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-02T20:59:15+13:00</updated>
+  <updated>2025-04-02T21:07:24+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -1433,6 +1433,7 @@ En el taller leemos  el proceso creativo de originar como mirar en la realidad 
 
 &lt;p&gt;Esta ilustración fue generada para explicar el funcionamiento de una red enmallada (mesh network) en cuanto figura de distribución y conexión entre nodos. La aplicación práctica de esta red fue discutida en el &lt;a href=&quot;http://herbertspencer.net/2010/10/internet-como-bien-publico/&quot;&gt;post anterior&lt;/a&gt;, describiendo la necesidad de una arquitectura de red resistente a cataclismos como el pasado terremoto y donde todos los nodos aportan, yendo más allá de ser meros clientes. Una red pública es aquella donde cada participante expande su alcance por el simple hecho de pertenecer.&lt;/p&gt;
 
+&lt;p&gt;Puedes dibujar en el ejemplo de al lado.&lt;/p&gt;
 
     </content>
   </entry>
