@@ -9,7 +9,7 @@ publish: true
 categories:
 - escuela
 tags:
-- "Diseño Gráfico"
+- diseño gráfico
 ---
 La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores de los incontables buscadores existentes. La visibilidad y por tanto la disponibilidad de lo publicado estará en directa relación con la trasparencia estructural de las páginas o documentos. Estas condiciones estimulan a diseñadores a obedecer y diseñar respetando los estándares sugeridos por el [W3C](http://www.w3c.org/ "World Wide Web Consortium") (World Wide Web Consortium) para poder definitivamente asentar las directrices de este medio que comienza a ordenarse.  
   

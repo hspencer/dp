@@ -7,11 +7,11 @@ date: 2006-08-22 16:42:13 -0000
 last_modified_at: 2006-08-22 16:42:13 -0000
 publish: true
 categories:
-- "investigación"
+- research
 tags:
 - agent
 - calendar
-- "diseño de interacción"
+- diseño de interacción
 - project
 - scheduling
 ---

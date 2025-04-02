@@ -9,8 +9,9 @@ publish: true
 categories:
 - escuela
 tags:
-- "Diseño Gráfico"
-- "interacción"
+- poesía
+- acto
+- lectura
 image:
   path: /assets/uploads/2003/07/axis-9.gif
   

@@ -9,7 +9,7 @@ publish: true
 categories:
 - escuela
 tags:
-- "Diseño Gráfico"
+- travesía
 ---
 _nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptible_
 

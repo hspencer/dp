@@ -13,5 +13,9 @@ tags:
 - letras
 - processing
 - "tipografía"
+p5:
+  script: /assets/p5/flex.js
 ---
-Este diseño está altamente influenciado por la fuente **Stuv**, diseñada por [Flor.o](http://www.profesores.ucv.cl/manuelsanfuentes/) (ir a la letra 't' de tipografí­as, y está disponible para bajarse). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la **[Super Tipo Veloz](http://www.superveloz.net/)** de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas.
+Tipografía **Tubular Flex**((Graciosamente existe una variación de esta tipografía que fue realizada en la [Travesía a Tubul](https://wiki.ead.pucv.cl/Traves%C3%ADa_Tubul))) realizada en 2006. El principio de diseño de esta fuente es mantener los mismos elementos constitutivos (trazos básicos) para todas las letras, siendo lo único que varía es la disposición de estos elementos. Esto permite animar la interpolación entre las letras, lo que se logra presionando las teclas, desde la "a" a la "z" (sólo minúsculas).
+
+Este diseño está altamente influenciado por la fuente **Stuv**, diseñada por [Flor.o](http://www.profesores.ucv.cl/manuelsanfuentes/) (ir a la letra 't' de tipografí­as, y está disponible para bajarse)((Lamentablemente este sitio ya no está online. La PUCV suspendió el hosting de profesores.)). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la **[Super Tipo Veloz](http://www.superveloz.net/)** de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas.
