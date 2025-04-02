@@ -10,6 +10,7 @@ permalink: /feed.json
     "categorias": {{ post.categories | jsonify }},
     "etiquetas": {{ post.tags | jsonify }},
     "url": "{{ post.permalink }}",
+    "largo": {{ post.content | strip_html | strip_newlines | size }},
     "contenido":
       {% if post.description %}
         {{ post.description | strip_newlines | jsonify }}

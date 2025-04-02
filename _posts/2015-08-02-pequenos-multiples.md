@@ -18,7 +18,11 @@ tags:
 - "visualización"
 p5:
   script: /assets/p5/flor.js
+  sidebar: false
 ---
+
+{% include p5.html script="/assets/p5/flor.js" %}
+
 
 Había una vez una empresa llamada **[CitiSent](https://vimeo.com/61097795)** , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país ((a este servicio lo llamamos _CitiPulse_)).
 

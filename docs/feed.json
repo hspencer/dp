@@ -6,6 +6,7 @@
     "categorias": ["ideas"],
     "etiquetas": ["tesis","llm"],
     "url": "/2025/03/la-internet-que-nos-robaron/",
+    "largo": 9660,
     "contenido":
       
         "Una reflexión de lo que pudo ser pero no fue. Del origen abierto, colaborativo y desintermediado y del presente secuestrado e idiotizante. Pero todavía hay esperanza."
@@ -18,6 +19,7 @@
     "categorias": ["notas"],
     "etiquetas": ["tesis","llm"],
     "url": "/2025/02/prologo-de-pictonet/",
+    "largo": 13363,
     "contenido":
       
         "A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunitaria. Diría que ese es el hilo conductor de todo: cierta idea respecto a la “activación social” que determinada plataforma permite o habilita.Podría tratarse de la idea de la “convivencialidad” por aproximación y afinidad. Esto ha estado presente en proyectos como Con§tel (2005-2006) que exploraba la idea de la marginalia compartida dentro del estudio dentro de una escuela de pensamiento. Y la plataforma permitía, a cada uno, ubicarse en un mapa conceptual observado por todos (no relativizado en un timeline subjetivo producto de un algoritmo de recomendación, como ocurre hoy). Otro proyecto significativo en este ámbito es la Wiki Casiopea , donde cada página es editable, mejorable y actualizable; no impone ni determina sino que está abierta y disponible para ser construida y reconstruida.En esta línea, y más espe..."
@@ -30,6 +32,7 @@
     "categorias": ["notas"],
     "etiquetas": [],
     "url": "/PictoNet",
+    "largo": 13358,
     "contenido":
       
         "Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de manera que simultáneamente sirva como base conceptual y operativa para lo que he denominado PictoNet. Concebido como una plataforma abierta de generación de pictogramas vectoriales (en formato SVG) orientada a la comunicación inclusiva pero no se limita al ámbito académico ni “asistivo”: mi intención es que evolucione hacia una iniciativa de bien público, un proyecto de naturaleza open source al que cualquier persona o institución pueda sumarse para contribuir, apropiarse y, ojalá, co-gobernar bajo principios de transparencia y colaboración.En su dimensión académica, esta propuesta se enmarca en una investigación doctoral de tipo practice-based, es decir, una modalidad donde la creación de prototipos, la implementación de la plataforma y la verificación de sus usos en entornos de Comunicación Aumentativa y Altern..."
@@ -42,6 +45,7 @@
     "categorias": ["notas"],
     "etiquetas": ["capital","Diseño para la Democracia","Internet","investigación","social capital","tecnofeudalismo"],
     "url": "/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/",
+    "largo": 7473,
     "contenido":
       
         "Las profundas y radicales transformaciones contemporáneas en el ámbito económico y tecnológico han generado reflexiones sobre la vigencia de las categorías tradicionales del capitalismo. En diversos análisis, se describe un fenómeno que Yanis Varoufakis denomina “tecno feudalismo”, donde las grandes empresas con infraestructura digital centralizada (Google, Amazon, Meta, Apple, etc.) acumulan volúmenes de información y ejercen modalidades de control que rebasan las lógicas del mercado clásico.Este cambio se observa en plataformas y servicios en línea que capturan datos personales de sus usuarios sin requerirles un contrato formal de trabajo, pero que, no obstante, aprovechan su actividad para incrementar el valor de la plataforma. Esto ha sido descrito también por Shoshana Zuboff quien lo ha llamado “capitalismo de vigilancia”. Por ejemplo: Google registra la ubicación de cada persona que utiliza su aplicación de mapas. El usuario, al desplazarse con el teléfono, provee información georreferenciada que aum..."
@@ -54,6 +58,7 @@
     "categorias": ["notas"],
     "etiquetas": [],
     "url": "/2024/09/reflexiones-de-un-migrante-inexistente/",
+    "largo": 9243,
     "contenido":
       
         "Lecciones de Kafka, Arendt, Illich y MaturanaHay algo profundamente inquietante en ser suprimido por un sistema. Un día eres una persona con identidad, una historia personal y una serie de logros. Al siguiente, te reduces a una cadena de números en un proceso burocrático que no reconoce tu existencia ni te otorga voz. Me encuentro exactamente en esa situación, parado en la intersección del diseño, los sistemas y la dignidad humana, frente a la maquinaria kafkiana de un sistema de inmigración. Esto no es solo una narrativa personal; ilustra cómo los sistemas que diseñamos moldean nuestras interacciones, identidades e, incluso, nuestro valor como individuos. Se trata de cómo los sistemas, si no se supervisan adecuadamente, nos despojan de agencia, mérito y humanidad.A los diseñadores se les asigna la tarea de construir sistemas que funcionen, respeten y empoderen a las personas. Sin embargo, los mismos sistemas que supuestamente deben facilitar nuestras vidas —ya sea para acceder a servicios, comprobar la id..."
@@ -66,6 +71,7 @@
     "categorias": ["escuela","investigación"],
     "etiquetas": ["educación","interacción","teoría"],
     "url": "/2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio/",
+    "largo": 16140,
     "contenido":
       
         "Este texto explora el espesor entre arte y tecnología, y cómo el pensamiento técnico es clave en la formación del Diseño(( Esta publicación está dedicada a mis colegas profesores y se parece más a un paper que a un post. Acá profundizo lo tratado en el post de Técnica y Diseño. La complejidad y sofisticación que alcanzamos en estos talleres fue gracias a la increíble participación del profesor Pedro Garretón.)).Hoy día, y de forma transversal en la mayoría de las escuelas, la formación disciplinar del diseñador ocurre en el taller; a partir de experiencias individuales o colectivas basadas en proyectos, ya sean especulativos y/o aplicados.El proyecto opera como el integrador natural de diversos conocimientos y lenguajes, articulando tanto dimensiones científico-técnicas como artístico-humanistas. El enunciado o encargo del proyecto, que es lo que le da inicio, detona un espacio enorme de posibilidades, tantas como alumnos del taller.De lo que quiero hablar aquí es de una modalidad especial de taller pensad..."
@@ -78,6 +84,7 @@
     "categorias": ["escuela","notas"],
     "etiquetas": ["modular","multiplicación","números","visualización"],
     "url": "/2017/02/numeros-modulares/",
+    "largo": 2723,
     "contenido":
       
         "Se trata más bien de una curiosidad o divertimento matemático, en el mismo espíritu del modulador de números primos: ¿podemos ver patrones en las tablas de multiplicar?Una forma bastante interesante de representar esta operación es de forma modular , es decir, en la multiplicación 10 × 2 :El primer factor (10) define la cantidad de puntos, es decir el módulo para todo n ∈ ℕ y el segundo constituye la forma para trazar el producto: Si 1 × 2 es 2, una línea unirá el 1 y el 2; 2 × 2 = 4, se unirá el 2 y el 4, etc.Esta forma modular de representar los productos arroja regularidades muy interesantes. Por ejemplo, si aumento el número del módulo, pero mantengo el multiplicador, es decir de 10 × 2 paso a**  1000 × 2 **aparece la siguiente figura:Cardioide, llamado así por su semejanza a un corazón. Esta figura emerge al multiplicar ×2 independiente del módulo (mayor el módulo, mayor resolución de la figura). Al multiplicar por ×3 aparecerá un Nefroide (un riñón).La figura del cardioide aparece cotidianamente en l..."
@@ -90,6 +97,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["algoritmo","control","diseño","interacción","interfaz","técnica"],
     "url": "/2017/02/tecnica-y-diseno/",
+    "largo": 9569,
     "contenido":
       
         "Desde un origen nos ha parecido evidente que el proceso de enseñanza del diseño se constituye desde la experiencia en proximidad con una obra. Este modo sostiene que el aprendizaje se encarna en un constante diálogo de iteración y refinamiento entre la materia en juego y la voluntad de prefiguración del diseñador, avanzando hacia el encuentro de lo previsto con lo construído. En este sentido la obra es garantía de un total ((Garantiza un total independiente de nuestra capacidad de reconocerlo. Todo aquello que ignoramos (que no somos capaces de ver) comparecerá de igual modo como una resultante.))Fig A.  Ciclo del diseño ((Este ciclo puede tener escalas de recorrido muy diferente. Desde observar-dibujar, plegar un papel o maquetear un espacio, hasta configuraciones más complejas que conjuguen diferentes espacios y lenguajes (tecnologías). La incorporación de la técnica, como forma de avanzar en este ciclo (la flecha en el diagrama, que opera como un logos técnico) permite ampliar el ciclo, articulando real..."
@@ -102,6 +110,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["brief","codiseño","diseño participativo","metodología de diseño","PiX"],
     "url": "/2015/10/diseno-participativo-con-pix/",
+    "largo": 5926,
     "contenido":
       
         "El diseño participativo puede ser una herramienta muy poderosa si se emplea bien"
@@ -114,9 +123,10 @@
     "categorias": ["code","imagen"],
     "etiquetas": ["citisent","visualización"],
     "url": "/2015/08/pequenos-multiples/",
+    "largo": 1333,
     "contenido":
       
-        "Había una vez una empresa llamada CitiSent , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país ((a este servicio lo llamamos CitiPulse)).Para construir esta visualización desarrollamos un tesauro ((Un tesaurio es un diccionario jerárquico de palabras. En el caso de Citipulse definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras.)) de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (sentiment analysis) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferencias ..."
+        "    Había una vez una empresa llamada CitiSent , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país ((a este servicio lo llamamos CitiPulse)).Para construir esta visualización desarrollamos un tesauro ((Un tesaurio es un diccionario jerárquico de palabras. En el caso de Citipulse definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras.)) de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (sentiment analysis) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferenc..."
       
   },
 
@@ -126,6 +136,7 @@
     "categorias": ["code","escuela","imagen","investigación","notas"],
     "etiquetas": ["ciudad","escena","espacio","logos","maqueta","mobiliario urbano","scopio","scopium","teatro","topos"],
     "url": "/2015/07/topologoscopio/",
+    "largo": 2384,
     "contenido":
       
         "Instalación de diseño y arquitectura en la muestra \"Work in Progress\" organizada por la FADEU, PUC. Abril de 2015"
@@ -138,6 +149,7 @@
     "categorias": ["investigación","notas"],
     "etiquetas": ["deliberación digital","Diseño para la Democracia","MediaFranca","Participación Ciudadana","TEP"],
     "url": "/2015/05/diseno-del-proceso-constituyente/",
+    "largo": 4921,
     "contenido":
       
         "El proceso constituyente, que ha prometido ser altamente inclusivo y participativo, no puede pensarse hoy omitiendo la realidad que impone una sociedad en red, mediada por el software social viviendo bajo los códigos estéticos y performáticos del diseño de interacción.El punto que quiero hacer es que una empresa deliberativa a gran escala como promete ser este proceso constituyente, con las expectativas que depositado en cuanto inclusión y validación ciudadana, no puede saltarse la gran oportunidad que abre el diseñar una plataforma digital de deliberación social que mejore los procesos democráticos, que de visibilidad a voces que no son representadas y que, en definitiva, sirva para contrastar el discurso político oficial con el discurso ciudadano.Pero, ¿qué condiciones debiese tener una plataforma de este tipo? ¿sobre qué paradigma de justa representación debe apoyarse? ¿el de las agendas abiertas y los discursos completamente emergentes o desde las propuestas emanadas desde las autoridades representante..."
@@ -150,6 +162,7 @@
     "categorias": ["notas"],
     "etiquetas": ["diseño de interacción"],
     "url": "/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina",
+    "largo": 36,
     "contenido":
       
         "  Haz una sola cosa a la vez  Sonríe"
@@ -162,6 +175,7 @@
     "categorias": ["code"],
     "etiquetas": ["generative art","grid","grilla"],
     "url": "/2014/12/gridspace/",
+    "largo": 775,
     "contenido":
       
         "GridSpace is a very small program developed in Processing that creates grid-based compositions. It was first developed back in 2008 and today I’m updating and releasing the code. This program allows you to export bitmaps and PDFs.Planteamiento  La pintura comienza con la partición ordenada del espacio. La grilla cartesiana representa topológicamente la idea de la continuidad espacial. La gracia de este programa radica en la capacidad de distorsionar el espacio antes de comenzar. El proceso pictórico es básico: líneas que corren dentro de la grilla. La experimentación radica en la manipulación del espacio, no de las grafías o accidentes que ocurren en él, ellas son sólo una excusa para poder ver lo que ocurre con el espacio.  Check the Flickr Set  Download GridSpace"
@@ -174,6 +188,7 @@
     "categorias": ["Sin categoría"],
     "etiquetas": ["city","continuity","processing","slitscan"],
     "url": "/2014/11/slitscan-sideways/",
+    "largo": 750,
     "contenido":
       
         "Sideways is a very small program created with Processing that creates 2 slitscan bitmaps from a single video."
@@ -186,6 +201,7 @@
     "categorias": ["imagen","investigación"],
     "etiquetas": ["font","icons","opensource","webfont"],
     "url": "/2014/10/pixograms-icon-webfont/",
+    "largo": 2251,
     "contenido":
       
         "An extensive font family aimed for constructing Interaction Scores (PiX). This webfont is opensource and available in github."
@@ -198,6 +214,7 @@
     "categorias": ["code"],
     "etiquetas": ["diseño de interacción","Pitágoras","processing"],
     "url": "/2014/04/arbol-pitagorico/",
+    "largo": 696,
     "contenido":
       
         "Ejemplo de recursividad usando Processing en un árbol pitagórico; una estructura recursiva construida con triángulos rectángulos y sus catetos cuadrados"
@@ -210,6 +227,7 @@
     "categorias": ["investigación","notas"],
     "etiquetas": [],
     "url": "/2014/02/Diseñando-una-Empresa",
+    "largo": 7408,
     "contenido":
       
         "Estos últimos 2 años he estado trabajando en CitiSent. A diferencia de mis proyectos anteriores ((Con§tel (2003-2006) y MediaFranca (2007-2011) )), nacidos en el seno académico y con profundas aspiraciones de construirse, este proyecto es –en realidad– una empresa. El viaje ha sido largo, no exento de complicaciones y desencuentros, pero ha sido una gran experiencia de aprendizaje. En este texto les quiero explicar las cosas que he aprendido y de qué se trata CitiSent.Academia vs. Construir una ObraUn punto importante en la academia es la libertad a la cual uno puede acceder. La academia es un refugio para la investigación y la creación. Esto no es menor. Existe la libertad de cátedra y existe la libertad para preguntarse (y adentrarse) en cualquier terreno. El proyecto Con§tel es fruto de esta libertad especulativa. Este proyecto se preguntaba cómo constuir el acto de del estudio dentro de un universo de textos; cómo, el lector estudioso, que anota, que urde un texto “sobre los hombros de gigantes” en un ..."
@@ -222,6 +240,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["citisent","investigación","modelos mentales","query"],
     "url": "/2014/01/el-arte-de-saber-preguntar/",
+    "largo": 4920,
     "contenido":
       
         "En CitiSent estamos permanentemente investigando cómo mejorar nuestro servicio. Uno de los temas centrales para nosotros, en términos de diseño de interacción, es cómo se deben formular las preguntas para configurar los estudios dentro de CitiSent.Si entendemos que el servicio se divide en 3 fases : (1) formulación de la pregunta, (2) obtención de resultados y (3) visualización y síntesis; este primer segmento resulta ser crítico, especialmente en el contexto de los grandes datos, o big data. Hoy, hablar de big data ya forma parte del léxico común, muchas compañías han incorporado el análisis de grandes volúmenes de información, especialmente los producidos en redes sociales, para poder dar respuesta a los mercados cambiantes o atender mejor a sus clientes. En definitiva, el análisis de grandes datos por medio del software, ya forma parte de la estrategia de supervivencia de las instituciones modernas.Para los investigadores que usan CitiSent (periodistas, sociólogos, urbanistas y planificadores, políticos..."
@@ -234,6 +253,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Diseño Gráfico","Modelos Visuales","notación gráfica","Observación","representación","teoría"],
     "url": "/2013/12/la-observacion-en-diseno/",
+    "largo": 4978,
     "contenido":
       
         "Exámen del Taller de 7ª EtapaNota : El taller de 7ª etapa de diseño gráfico trabajó, durante este tercer trimestre con las profesoras Michele Wilkomirsky y Macarena Álamos investigando y desarrollando un sistema de comunicación para la Ciudad Abierta de Amereida. El planteamiento, originado como un auto-encargo, desemboca en un proyecto que el taller aborda como una obra entre todos. A continuación doy cuenta de este proyecto, y de la materia que nos abre dentro del diseño gráfico; o más bien, las preguntas que nos deja abierta señalando el camino que debemos continuar.Marginalia :  Una clase de la observación, por Fabio Cruz  Un mapa conceptual de dicha clase, realizado por el autorSu MateriaEl diseño, dentro de su quehacer, involucra e integra muchas materias (materiales, artísticas, plásticas, psicosociales, económicas, culturales, comunicacionales, legales y un largo etcétera). El diseñador ha conocerlas, considerarlas e integrarlas, pero no le son propias. Lo propio del diseño, su conocimiento, radica..."
@@ -246,6 +266,7 @@
     "categorias": ["escuela","notas"],
     "etiquetas": ["algoritmo","democracia","diseño de interacción"],
     "url": "/2013/05/el-diseno-o-el-bucle-infinito/",
+    "largo": 5740,
     "contenido":
       
         "El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que se basta de sí mismo porque se construye como una cifra , con sus imágenes, sus letras, su código, su discurso y su tiempo. La superficie contiene todas las claves que condensan y fijan el discurso en una cifra gráfica. Ejemplos de esto se encuentran en todas partes: afiches, revistas, envases, carteles, folletos, revistas, libros; incluso las artes gráficas –incluso la pintura– comparten esta naturaleza unidireccional de lo fijo. Y con “lo fijo” no quiero decir que sea cerrado, o restado en alguna medida. Tan solo quiero argumentar que en esta fianza de lo fijo descansa la potencia que tiene el lenguaje visual de hacer detonar, en el lector, toda la potencia de su discurso. El diseñador recibe un argumento –o lo articula– para luego interpretarlo, darle espacio, darle forma, darle voz gráfica; materializa su palabra y su apariencia, le da un tempo, una demora. El diseño gráfico es, ent..."
@@ -258,6 +279,7 @@
     "categorias": ["code"],
     "etiquetas": ["app","blackboard","drawing","processing","projector","teaching"],
     "url": "/2012/05/pizarra/",
+    "largo": 1762,
     "contenido":
       
         "Este programa está pensado para profesores que requieren dibujar directamente en el proyector y no pueden usar la pizarra porque la sala está oscura."
@@ -270,6 +292,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["incompletitud","matemáticas","Taller de Amereida"],
     "url": "/2012/04/musica-de-las-matematicas/",
+    "largo": 9941,
     "contenido":
       
         "Les voy a contar una historia hoy día: Bajo la superficie del mundo yacen las reglas descritas por la ciencia. O, al menos, el mundo avanza como si así fuera. Pero bajo todas estas reglas, existen reglas más profundas, una matriz abstracta de matemática pura que permite el lenguaje capaz de explicar las reglas que –a su vez la ciencia– explican la naturaleza, el mundo, el universo. Estas reglas se constituyen como el último orden, el último juego de certidumbres, de fundamentos, que nos permiten urdir nuestro entendimiento y nuestras verdades. Este primer orden es lo que llamamos “música de las matemáticas”.  “Ver un Mundo en un grano de arena, un cielo en una flor silvestre. Tomar la infinitud en la palma de tu mano y la eternidad en una hora”.Primera estrofa del poema Augurios de Inocencia , William Blake (1803).  “y puedo decir esto último porque sé de un lenguaje        él viene a obrar   sobre nosotros          ¿cómo?         nosotros amamos en primer término al   árbol que se basta a sí mismo para re..."
@@ -282,6 +305,7 @@
     "categorias": ["investigación","notas"],
     "etiquetas": ["chile","diseño de interacción","Diseño para la Democracia","MediaFranca","movimiento estudiantil","social interaction"],
     "url": "/2011/11/de-palomas-y-estorninos/",
+    "largo": 25705,
     "contenido":
       
         "Las recientes movilizaciones ciudadanas en Chile y en el mundo, en su transversalidad y convocatoria, han puesto en cuestión el esquema de conversación social aportándonos con experiencias muchas veces directas (desde dentro, digamos) y rectificadoras de algunas premisas teóricas que teníamos equivocadas. Entre ellas, el supuesto deterioro del capital social –que pensábamos– se concentraba entre los más jóvenes. La aparente apatía juvenil, observada por diversos estudios durante los últimos años, no resultó ser otra cosa que una profunda desesperanza e impotencia producto de la desconfianza hacia un sistema sin canales viables para la participación, manifestándose este año en oleadas sucesivas de movilizaciones que han girado en torno a temas-eje ((Son temas como las causas medioambiental, temas más genéricos como la antiglobalización o el capitalismo o temas puntuales como la educación.)), activado a la esfera pública de una forma inédita. Hemos sido testigos de cómo los temas configuran públicos en torno..."
@@ -294,6 +318,7 @@
     "categorias": ["notas"],
     "etiquetas": ["diseño","forma","teoría"],
     "url": "/2011/10/forma-digital/",
+    "largo": 4157,
     "contenido":
       
         "La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948. Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma mantenía una correspondencia directa entre su funcionamiento y su gestualidad. Este objeto puede leerse y entenderse desde su forma mecánica. Con posterioridad a eso, gracias al transistor y posteriormente al circuito integrado, la forma gestual asociada a su función quedó completamente desarticulada de su forma física. Se trató del comienzo de una época de las “formas en libertad”, ya que se dejaba de estar determinado por su estructura mecánica del objeto para diseñarlo su comporamiento. La afirmación: “los computadores pueden ser transformados en cualquier cosa”, a propósito del divorcio entre forma y función, es un tanto confusa. La naturaleza de la función abarca muchas esferas prácticas y una traducción literal alegórica-simbólica se hace imposible en situaciones que carecen de antecedentes. Si bien las formas tecnológicas..."
@@ -306,6 +331,7 @@
     "categorias": ["notas"],
     "etiquetas": ["diseño","teoría"],
     "url": "/2011/10/un-buen-diseno/",
+    "largo": 4476,
     "contenido":
       
         "Un buen diseño corresponde a un trabajo profundo de integración y equilibrio de diversos factores para finalmente cifrarlos y materializarlos en una forma, ya sea física o etérea, atomizada o distribuida y compleja (como lo es un sistema). Entiendo la noción de “estética” como un modo de ser de la forma y su expresión, y como tal –modo de ser– sujeto a un contexto cultural: es a partir de un modo de ser que se puede leer su caracter estético. En diseño, la relación diseñador-contexto es completamente asimétrica y desequilibrada: el contexto pesa muchísimo más que el diseñador. El “buen diseño” interpreta completamente su entorno y suprime al autor o “genio” que firma el trabajo, más común en el campo arte. Es decir, es preciso conocer la imagen que el mundo tiene de la cosa que se va a diseñar, es necesario conocer dónde y cómo se inserta, qué connotaciones tiene y cuales son los códigos culturales que la gobiernan, así como las fuerzas culturales que allí la situaron de antemano. Solamente a partir de una..."
@@ -318,6 +344,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño","Diseño Gráfico","integración","mapa","metadiseño","modelo"],
     "url": "/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/",
+    "largo": 3089,
     "contenido":
       
         "Nota : Este texto se surge a partir del trabajo realizado en el taller de 4º año de Diseño Gráfico durante el primer trimestre del año 2011. Como acto de exámen, explico esta figura y el recorrido por ella que hizo el taller. El presente texto corresponde a una adaptación para no transcribir una situación pensada para un contexto oral.Espacio del DiseñoEl metadiseño es aquel diseño que se diseña a sí mismo. Requiere concebir de una figura total de sí mismo, para que el diseñador pueda saberse inserto en un espacio y estar orientado con un punto de vista. Esta forma del diseño redefine y sinergiza las infraestructuras sociales y técnicas en un sentido colaborativo y co-adaptivo (dialéctico). Y ésta a sido la ocupación del taller de cuardo año de diseño gráfico durante esta primera parte del 2011. La realidad de un espacio contenedor posibilita al grupo de diseñadores avanzar en el acuerdo de una figura, que construye un punto de vista colectivo, construye un “nosotros”. Este mapa, que funciona como objeto f..."
@@ -330,6 +357,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Agenda","Ciudad Abierta","seminario"],
     "url": "/2011/01/seminario-ciudad-abierta/",
+    "largo": 674,
     "contenido":
       
         "El cuestionamiento por la forma constituye el centro mismo de los oficios –arquitectura y diseño– por ser ésta la pregunta poética del aparecer. Esta pregunta, un tanto elusiva en sus múltiples respuestas, queremos expandirla y presentarla desde diversos puntos de vista (los más posibles).Queremos invitar a todos quienes quieran compartir sus experiencias y teorías a presentarlas en el próximo seminario Poiesis &amp; Innovación, a realizarse el próximos 24 y 25 de marzo de 2011 en las arenas de Ciudad Abierta. La pluralidad de las voces que expondrán nos ayudará a expandir el horizonte para la mirada creativa. La invitación estáextendida hasta el viernes 4 de Marzo."
@@ -342,6 +370,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["borde","botes","caleta","diseño","lugar","mar","plaza","travesía","tubul"],
     "url": "/2011/01/travesia-tubul-arauco/",
+    "largo": 14643,
     "contenido":
       
         "Travesía Tubul  Obra:  La estación del BajoArriba  Lugar: Caleta Tubul **(viento fuerte), Provincia de Arauco, Chile.Talleres:  2º Año, Diseño Industrial:          Antonia Biotti, Francisca Concha, Camila Donoso, Felipe Elgueta, Federico García, Nataly Guzmán, Cecilia Herrera, Gianni Laneri, Alessandra Jorquera, Daniel Marchant, Cristian Navarro, Mónica Piña, Paula Quintriqueo, Pablo Reveco, Josefina Valenzuela        4°Año, Diseño Gráfico :          Javier Muñoz, Alejandra Salinas, Marcelo Velásquez        Diseñadores Invitados :          Pedro Chavarri, Marco Cortés        Diseñadores Profesores :          Rocío Herrera, Herbert Spencer, Juan Carlos Jeldes      Presupuestos:Como diseñadores habíamos especulado sobre qué haríamos en travesía, previamente a la decisión de ir a Tubul.Herbert contaba con la idea de resolver un problema de comunicación que se había desvelado con el apagón de comunicaciones tras terremoto (27 de febrero 2010), pero se tocaba esto con una idea a priori respecto a las nuevas red..."
@@ -354,6 +383,7 @@
     "categorias": ["code"],
     "etiquetas": ["catástrofe","concepto","ilustración","mesh","network","processing.js","red mesh"],
     "url": "/2010/11/mesh-network/",
+    "largo": 4246,
     "contenido":
       
         "This is an interactive demosntration depicting a mesh network at work. This is an example of how communication networks should work during crises."
@@ -366,6 +396,7 @@
     "categorias": ["notas"],
     "etiquetas": ["bien público","free Internet","Internet","MediaFranca","public good","social capital"],
     "url": "/2010/10/internet-como-bien-publico/",
+    "largo": 5324,
     "contenido":
       
         "Me parece que la WWW se nos presenta, cada día más, como el medio por el cual se contruye nuestro espacio público y nuestra cotidianidad social. Para la mayoría de mis amigos, esta afirmación no es solamente obvia sino ya algo añeja. Uno puede constatar cómo nuestra narrativa social se va escribiendo en la Red, en un soporte con memoria que construye el espejo con el que nos miramos. Este medio permite una mayor apertura en comparación con los viejos mass media , facilitando la producción abierta de contenidos y de conversaciones en una cierta libertad de expresión, además de permitir la colaboración masiva en proyectos tan emblemáticos como Wikipedia, entre otros cientos.Es problemático, sin embargo, que reconociendo este creciente rol cultural y público (estratégico, por cierto), la Red permanezca peligrosamente bajo una arquitectura privada. Es bien sabido que en caso de guerra, el sistema de comunicaciones de una nación pasa a ser un objetivo militar: la estocada hay que darla en el corazón. Cuando des..."
@@ -378,6 +409,7 @@
     "categorias": ["escuela","investigación"],
     "etiquetas": ["diseño","diseño de servicios","Diseño para la Democracia","interacción","Internet","lo abierto","lo público","MediaFranca","Servicio de Salud"],
     "url": "/2010/09/herramienta-y-espacio/",
+    "largo": 5876,
     "contenido":
       
         "Nota: texto preparado como exámen para los proyectos de título de Diseño Gráfico de Dámaris Sepúlveda y Cristóbal Severin.Estos dos proyectos, si bien abordan temáticas bastante diferentes, comparten un punto de vista y una utopía común. La primera y más evidente semejanza radica en su soporte digital (viven en la nube). Se trata de proyectos que proponen servicios distribuidos por Internet y diseñados para actuar simultáneamente en grandes extensiones de territorio. En este sentido, otro punto de encuentro de estos proyectos radica en que ambos piensan a escala país.Esta naturaleza material (o inmaterial, si se quiere) de la nube trae una doble lectura, ya que puede pensarse como una herramienta o como un espacio.  Es una herramienta por cuanto permite y aumenta la comunicación en todos sus formatos, transacciones de todo tipo, trabajo, etc. Como herramienta nos plantea el problema de la educación , ya que apela a cierta alfabetización y dibuja barreras de acceso.La utopía de la nube en cuanto herramienta..."
@@ -390,6 +422,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño","diseño de servicios","Diseño Gráfico","lenguaje","Modelos Visuales","Observación","Respresentación","Servicio de Salud"],
     "url": "/2010/06/disenar-un-servicio/",
+    "largo": 8390,
     "contenido":
       
         "Jueves 10 de Junio de 2010 Exámen de los talleres de 6ª y 7ª Etapa de Diseño Gráfico, Cuarto año. Este taller aborda un campo de diseño llamado “diseño de servicios”. En este campo, la atención se pone en la relación de los objetos de diseño; cómo, siendo reunidos y orquestados a la luz de un servicio, construyen como tiempo y una experiencia para las personas que los viven. Es decir, trata la misma materia (editorial, señalética, interfaz, etc) pero construye una mirada distinta sobre ella, pues se trata de un diseño de segundo orden. Al enfocarse en el diseño de una sistema es preciso enfocarse en aspectos más inmateriales y emergentes (como la comunicación dentro y fuera de él, la transparencia de sus procesos, la hospitalidad de su lenguaje, el tono de su lenguaje, sus relaciones, las percepciones y lecturas que desde él emergen, etc.), cuidando siempre de construir, directa o indirectamente, la experiencia de las personas que lo viven y padecen cuando lo recorren.Esta ocasión abordamos, junto a Dámari..."
@@ -402,6 +435,7 @@
     "categorias": ["escuela","investigación"],
     "etiquetas": ["ciudad","diseño de interacción","Diseño Gráfico","Diseño para la Democracia","Internet","MediaFranca","Participación Ciudadana"],
     "url": "/2010/03/quadra-diseno-para-la-interaccion-ciudadana/",
+    "largo": 3100,
     "contenido":
       
         "  “El territorio ya no precede al mapa, ni lo sobrevive. De aquí en adelante, es el mapa el que precede al territorio, es el mapa el que engendra el territorio”.El proyecto Quadra corresponde al estudio realizado como proyecto de titulación por Estefanía Suarez, diseñadora gráfica. Este proyecto avanza en la línea de investigación que llamamos Diseño para la Democracia y se pregunta específicamente por la ocación que abre el diseño de interacción para pensar las plataformas y servicios de colaboración ciudadana. El encargo original de este proyecto fue identificar oportunidades para el diseño de un servicio web móbil que fortaleciera los lazos entre vecinos, favoreciendo la participación inclusiva y fortaleciendo el capital social mediante la incorporación de las personas a los asuntos ciudadanos.Las preguntas que aborda este proyecto son: ¿podemos efectivamente cruzar conversaciones (que naturalmente transcurren en el tiempo) con sus lugares (naturalmente espaciales y cartográficos)? Si el sentido que bu..."
@@ -414,6 +448,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["transparencia"],
     "url": "/2010/02/viendo-en-la-transparencia/",
+    "largo": 1616,
     "contenido":
       
         "A comienzos del 2007 tuve el inmenso privilegio de asistir a un curso único: Visualización de Información enseñado por Ben Fry (creador de Processing) y Golan Levin, reconocido artista digital. Este curso (único e irrepetible en su especie), se centró en el proceso de generar visualizaciones a partir de grandes cuerpos de datos. El énfasis no estaba puesto en el despliegue técnico —o la proeza del código— sino la capacidad de poder urdir narrativas interesantes a partir de un montón amorfo de data. La metodología de trabajo fue la siguiente, siguiendo la propuesta por Ben Fry en su tesis doctoral, Computational Information Design.  Adquisición de datos : Recolección y catastro de datos dinámicos y cambiantes  Análisis de datos : (eng: Parsing) Formateo de datos de acuerdo al uso, conexión de la data a la aplicación propia.  Filtración de datos : Automatización de procesos manuales que tienden a ser altamente tediosos  Data mining : Estracción de datos significativos  Representación : Elección y diseño del ..."
@@ -426,6 +461,7 @@
     "categorias": ["investigación","notas"],
     "etiquetas": ["continuidad","experiencia","grafos","lenguajes","UX"],
     "url": "/2010/02/la-continuidad-de-la-experiencia/",
+    "largo": 7155,
     "contenido":
       
         "Ser y TiempoQuisiera hablar del diseño para la experiencia ((Quiero evitar la polémica del concepto Diseño de Experiencia por tratarse, en términos estrictos, de un error: es imposible, si no pretencioso, diseñar una experiencia para alguien. Lo que hacemos es diseñador las formas y comportamientos de aquellos elementos que indirectamente condicionarán la experiencia del lector o usuario. En inglés también existe esta polémica, pero se ha nombrado Design for Experience o simplemente UX.)) en general, desde la pregunta qué es aquello que debemos que diseñar para cuidar la experiencia dentro de un sistema o servicio. Ante cualquier proyecto, sabemos que debemos diseñar la forma , tanto estructural como visual y sabemos que debemos diseñar su tiempo , tanto la información como comportamiento; esto, para todo sistema o servicio. Es decir, debemosdiseñar su ser y su tiempo , si me permiten esas dos categorías fundamentales que tomo prestadas de Heidegger. Creo que es buena esa división porque definitivamente no..."
@@ -438,6 +474,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["abstracción","dibujo","diseño","expresión","grabado","grilla","impresión","Isla Mocha","taller","travesía","xilografía"],
     "url": "/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/",
+    "largo": 5988,
     "contenido":
       
         "Al taller de primer año se le pide constituirse como la construcción de una experiencia de entrada al Oficio del Diseño.Si nos remitimos a las etimologías, la pablabra Diseño , que es tanto sustantivo como verbo, significa dibujo (o boceto, croquis), en un sentido de designio , de dibujo anticipatorio. Se trata, entonces, del oficio de dibujar los dibujos que anticipan aquello que todavía no es.Este taller es —entonces— la experiencia del aparecer de la forma desde el dibujo , y estudia cómo es el ocurrir de las cosas que se nos ocurren (a los diseñadores) y avanzar en esta idea, al principio discreta, del aparecer:  algo no es→ luego aparece y está(A primera vista, el aparecer es un salto abrupto, casi imposible de distinguir algo en ese trance instantáneo del aparecer). Entonces nosotros nos adentramos en el aparecer que se origina desde el dibujo, desde el lenguaje de las formas. Para esto es preciso tener:  Experiencias del mundo , de la ciudad, del otro. Experiencias en el cuerpo, que se imprimen en n..."
@@ -450,6 +487,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["archivos digitales","diseño de interacción","Diseño de Interfaz","Diseño Gráfico","espacio","Internet","repositorios digitales"],
     "url": "/2009/12/galexia-espacio-y-navegacion-semantica/",
+    "largo": 4120,
     "contenido":
       
         "Senderos de la MemoriaEl presente estudio, realizado por Christian Campos, avanza sobre una línea de investigación centrada en lo que llamamos “ palacios de la memoria”. Ellos son los espacios que acopian y ordenan los artefactos del pasado, conocidos como archivos y repositorios digitales. Hacemos un especial énfasis en la dimensión espacial de palacio por sobre el ordenamiento de indexación archivística, porque es precisamente este modo anterior (el espacial) lo que posibilita una mirada escalable e intuitava para los siempre crecientes archivos digitales. Además, la construcción espacial provee al lector de una experiencia de lectura o recorrido más comprensible, ya que en su articulación interna de distancias se revela su logos interno.Antes de seguir adentrándome en el tema del espacio y su modo de recorrerse, debo recordar al lector que este estudio avanza sobre otro anterior: ÅURA; donde se propuso la unificación semántica de archivos digitales por medio de la suite de CONTEXTA, que incluye un integ..."
@@ -462,6 +500,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Difusión","diseño de servicios","Diseño Web","Internet","web"],
     "url": "/2009/11/personas-no-usuarios/",
+    "largo": 1266,
     "contenido":
       
         "Nuestra escuela (específicamente el Taller de Investigaciones Gráficas .:TIG:.) ha seguido construyendo y desarrollando distintas aplicaciones y servicios para Internet como la Wiki Casiopea o la bitácora de Travesías, entre otros.Cada uno de estos servicios funciona –hasta hoy– con usuarios registrados en listas separadas. En este escenario, más bien confuso, hemos decido unificar a todos los usuarios de los sitios de la escuela en un servicio único llamado Personas e[ad] – http://personas.ead.pucv.clEste servicio es un SSO (Single Sign-On o firma única de acceso) que vuelve más hospitalario este ecosistema de aplicaciones ya que no será necesario introducir nombre de usuario y contraseña cada vez que accedas a un servicio si ya haz iniciado una sesión válida en otro. En otras palabras, con un único “user + password” podrás acceder a todos los sitios y servicios de la escuela, actuales y futuros.Datos Privados y contraseñasEs importante recordar que toda la información que tenemos de las personas registra..."
@@ -474,6 +513,7 @@
     "categorias": ["notas"],
     "etiquetas": ["diseño","ethics"],
     "url": "/2009/09/etica-2-0/",
+    "largo": 2329,
     "contenido":
       
         "Hoy rechacé un trabajo bastante prometedor. Hice esto porque no comulgo políticamente con la institución que lo encargaba. Cuando conversaba con la persona que me ofrecía el trabajo me decía: “no entiendes nada de política 2.0 “, “yo feliz haría un trabajo para X (que es del otro lado), si me lo piden “, etc. El supuesto detrás de esta afirmación es que el trabajo profesional puede abstraerse de las connotaciones e implicancias políticas. También, que en la así llamada “política 2.0” da lo mismo la filiación política, porque, en realidad, ya no hay ideologías. ¿Será cierto eso? ¿Estaré obsoleto en mi pensamiento? ¿Será intrínsecamente neutral el trabajo profesional? Bueno, como en todo, depende del trabajo. Mi mujer, que es médico, no pasa por esas vicisitudes; ella salva vidas, y tiene que hacerlo aunque se trate de un pato malo que viene tajeado de la cárcel y se a violado a qué se yo cuanto(as). El juramento hipocrático resuelve esas dudas filosóficas en favor de la agilidad requerida por los servicios ..."
@@ -486,6 +526,7 @@
     "categorias": ["notas"],
     "etiquetas": ["ar","perspective","vanishing point"],
     "url": "/2009/08/realidad-aumentada-en-perspectiva/",
+    "largo": 4874,
     "contenido":
       
         "Cada época de la historia tiene su propio modo de ver el mundo. Esa particular visión de mundo es la invención de un suelo que sostiene y celebra su época; nunca hay que olvidar que se trata de una invención. En este sentido, resultan particularmente significativas las artes visuales como manifestaciones concretas y transparentes de una particular mirada cultural. Asimismo, la evolución de ella nos muestra las profundas mutaciones en la comprensión de mundo de una determinada cultura. La realidad aumentada, como toda invención de la mirada, trae un ver cultural específico para aprehender y construir el mundo. Y el salto desde nuestro estado anterior (hipertexto), a este nuevo modo (capaz de integrar lo digital con lo físico) es tan grande y significativo que resulta difícil caer en la cuenta de la magnitud del hecho. Si bien últimamente nuestra historia se ha acelerado de forma exponencial ((O tal vez, siempre lo ha hecho. Lo que ocurre es que ahora empezamos a notarlo.)) los cambios de este tipo implican ..."
@@ -498,6 +539,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño de interacción","Diseño de Interfaz","diseño de servicios","Diseño Gráfico","Gráfica Digital"],
     "url": "/2009/08/presentacion-de-proyectos-de-grafica-digital/",
+    "largo": 1205,
     "contenido":
       
         "El curso de Gráfica Digital busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha diseñado 6 espacios de interacción en la forma de servicios digitales, los cuales serán presentados el día lunes 17 de Agosto en la Sala de primer año de Arquitectura.Esta presentación será abierta y se extiende la invitación a todos los interesados.Cronograma  **3.30 – **Introducción  4.00** – PROYECTA**por Felipe Arenas, Leonardo Bahamondes, Myriam Meyer, Consuelo Miranda  4.20** – Comunicacción**por Sebastian Alfaro, Jaime Canet, Martina Knittel  4.40** – puntojpm**por Magdalena Novoa, Pamela Amigo, Javiera Sarratea  5.00 – Intermedio  5.20 - inmediata.mentepor Macarena Goles, Damaris Sepulveda, Cristóbal Severin  5.40** – AGORA**por Manuela del Pino, Camila Vargas, Sandra Gatica  6.00** – W.A.K.A.** (world of artistic kreations association)por Javier Muñoz, Diego Oyarzún, Alexandra Saravia, Marcela Godoy  6.2..."
@@ -510,6 +552,7 @@
     "categorias": ["code"],
     "etiquetas": ["processing","spiral"],
     "url": "/2009/07/espirales/",
+    "largo": 2280,
     "contenido":
       
         "Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espacios se acumulan, amplifican o suavizan.            [p5js canvas] Spiral[] s; int numSpirals = 12; void setup(){ size(380, 500); smooth(); s = new Spiral[numSpirals]; for(int i = 0; i &lt; numSpirals; i++){ s[i] = new Spiral(random(width/7, width6/7), random(height/7, height6/7)); } noFill(); strokeWeight(0.5); } void draw(){ background(255); for(int i = 0; i &lt; numSpirals; i++){ s[i].draw(); } } class Polar{ float ang, dim; Polar(float a, float d){ ang = a; dim = d; } } class Spiral{ ArrayList polar; int angSteps; float angInc; float ang; float amp, sp; float ox, oy; boolean grow; int seed; color st; float alfa = 255; int fadeSteps; Spiral(float x, float y){ polar = new ArrayList(); reset(); ox = x; oy = y; ang = TWO_PI; } void draw(){ if(grow) { calc(); } else{ fade(); } pushMatrix(); translate(ox, oy); stroke..."
@@ -522,6 +565,7 @@
     "categorias": ["notas"],
     "etiquetas": ["cheating","diseño de servicios","pain management"],
     "url": "/2009/07/haciendo-trampa/",
+    "largo": 4808,
     "contenido":
       
         "  γνοστι τε αυτϖν (nosce te ipsum) Esta inscripción, puesta por los siete sabios en el frontispicio del templo de Delfos, es clásica en el pensamiento griego. Muchos pensadores la han adoptado al igual que Sócrates y Platón, como uno de los principios de sus enseñanzas: “Cuando conoces a las personas, te vuelves inteligente; cuando te conoces a tí mismo, te vuelves un iluminado “Estuve conversando con mi papá acerca de por qué las personas solemos hacer —un poquito— de trampa. Él está preparando una presentación acerca del manejo del dolor y quiere hablar de este tema en particular porque ha observado a lo largo de estos años (y repetidamente) conductas tramposas como práctica generalizada (y socialmente aceptada) dentro de los servicios de salud. Y esto lo trae a colación porque es precisamente el dolor (y el manejo de él) lo que se ha vuelto un indicador de la calidad del servicio que se le entrega al paciente operado. Primero que nada, me parece sorprendente que el dolor , una de las experiencias más tr..."
@@ -534,6 +578,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["cuaderno","cubo","dibujo","diseño","gesto","manos","página"],
     "url": "/2009/07/inicio-del-primer-ano-de-diseno/",
+    "largo": 8431,
     "contenido":
       
         "Al diseño: Año 1, Etapa I  Escuchando los exámenes de los otros talleres, caigo en la cuenta de un tema que los recorre. Se trata del otro , aquel destinatario de la obra. A diferencia de ellos, nuestro taller, antes de asumir una tarea para otro, debe permitirnos a nosotros mismos hacernos de un lenguaje.          Ese lenguaje es una invensión que nos obliga a replantearnos cosas tan nítidas y cotidianas como dibujar. Aquí, una dificultad: los prejuicios que se anteponen a lo visto. Decimos (nuevamente) que mediante el dibujo de observación nos forzarnos a convertir la impresión en expresión, dándose esta transformación en el acto mismo del dibujo, al unísono. Recrear lo que se está viendo, mientras se lo está viendo, es la primera y más grande abstracción.        Ese lenguaje es abstracto, porque viene del dibujo, que recrea la visto; es decir, transforma la impresión en expresión en el acto mismo de dibujar, al unísono          Abstracción de decidir lo que ve, lo que se toma, lo que se requiere para qu..."
@@ -546,6 +591,7 @@
     "categorias": ["notas"],
     "etiquetas": ["transparencia"],
     "url": "/2009/04/transparencia-radical/",
+    "largo": 2013,
     "contenido":
       
         "Roberto Matta imaginaba a un ser que tenía el poder de volver las cosas transparentes y que permitiesen al resto ver. Lo llamaba el ver-tor (o virteur) , el Gran Transparente. Es la imagen del artista como vidente ((ver también: Arthur Rimabaud, Cartas del Vidente)) que desde su mirada pura es capaz de revelar a los demás las estructuras subyacentes (a veces insoportables, crudas y avasalladoras), los grandes totems de la sociedad ocultados tras las apariencias. Cada época tiene su propia poética, una espiritualidad especial y precisa que le permite comprender y reapasionar al mundo. Según Wassily Kandisky ((De lo Espiritual en el Arte, Über das Geistige in der Kunst , 1952)) esta espiritualidad tiene forma de un triángulo apoyado en su base. El triángulo avanza lentamente hacia arriba y hacia adelante, tirado por una élite espiritual (los artistas). Al cabo de algún tiempo, lo que era comprendido y valorado por una minoría, pasa a ser patrimonio de todo el resto de nosotros; nos apropiamos de los códigos,..."
@@ -558,6 +604,7 @@
     "categorias": ["imagen"],
     "etiquetas": [],
     "url": "/2009/01/Grid",
+    "largo": 678,
     "contenido":
       
         "Me pasa que cuando pinto, el dibujo siempre se apoya en una estructura —más o menos— parecida a una grilla ortogonal pero con ciertas deformaciones.Este video muestra un programa que deforma una grilla y para establecer un campo de dibujo ortogonal. El campo generado corresponde a una variación topológica de la grilla ortogonal donde las líneas aparecen como trazos libres que cuidan cierta cosistencia —o paralelismo— entre ellas. Las variaciones de color y grosor son controlados explícitamente.La secuencia concluye volviendo a la grilla original con el objeto de revelar la estructura básica que soporta el dibujo.Cast: Herbert SpencerTags: processing, grid and generative"
@@ -570,6 +617,7 @@
     "categorias": ["escuela","imagen","investigación"],
     "etiquetas": ["diseño de interacción","graphic notation","notación gráfica","visual language"],
     "url": "/2008/11/partituras-de-interaccion/",
+    "largo": 2892,
     "contenido":
       
         "Este lenguaje visual propone un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.Descargar  Plantilla para Omnigraffle  Plantilla Omnigraffle 2, versión correjida y aumentada (nueva)  Archivo Illustrator CS3Estos archivos están bajo licencia Creative Commons Atribución-Licenciar Igual 2.0 Chile desarrollado en la e[ad] Escuela de Arquitectura y Diseño por Katherine Exss (2007-2008) y Nicole Dupré (2008) como proyecto de título de Diseño Gráfico. Update : La última versión de las partituras se encuentra en Github.IntroducciónLa complejidad de un proyecto de desarrollo Web requiere de una metodología escalonada que normalmente es abordada por un equipo multidisciplinario. Dentro de este proceso podemos distinguir:  Estrategia  Investigación de usuarios  Definición de arquitectura de información  Definición de interacción  Diseño de interfaz  Producción  TesteoA lo largo de este proceso, los lenguajes de representación y formalización (mapas de navegac..."
@@ -582,6 +630,7 @@
     "categorias": ["notas"],
     "etiquetas": ["educación","metadesign","open source","processing","software"],
     "url": "/2008/11/processing-1/",
+    "largo": 1578,
     "contenido":
       
         " Processing ha dejado de ser un beta. Lo era desde que partió este proyecto el año 2001 en el MediaLab del MIT de la mano de Casey Reas y Ben Fry. Esta aplicación, o más bien, este entorno de desarrollo nos ha permitido acercarnos a la computación desde un punto de vista artístico y creativo. Ha causado un gran impacto en la comunidad de educadores y formadores de artistas y diseñadores. Sin ir más lejos, el año 2005 (cuando aún era un beta) recibió el Golden Nica en Ars Electrónica. Personalmente creo que Processing cumple un rol fundamental en la formación del diseñador, especialmente por la capacidad de estimular el pensamiento abstracto - matemático necesario para la concepción de formas digitales. Concretamente existe un ramo en la e[ad] llamado Lenguaje Computacional Cero**(o LC0) dentro del Taller de Diseño para el Primer Año. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se fam..."
@@ -594,6 +643,7 @@
     "categorias": ["investigación","notas"],
     "etiquetas": ["democracia","design for democracy","diseño de interacción","Internet","metadesign","network"],
     "url": "/2008/10/como-disenar-democracia-en-la-red/",
+    "largo": 4276,
     "contenido":
       
         "Escribo este post porque veo que ya están ocurriendo cosas en este ámbito y hablar de esto ahora deja de ser sólo teoría. Mi amigo Jorge planteó esta pregunta en políticaestero.tv (una nueva plataforma para la conversación política en Chile), respecto de cómo la política chilena puede recibir al espacio digital y veo con bastante expectación cómo comienza a configurarse una mirada más propositiva y constructiva en torno a la potencia de este medio como soporte para la democracia.A continuación me quiero referir a ciertos puntos que considero críticos para abordar el diseño de plataformas de conversación política en la red fortaleciendo el poder de la participación.La InfraestructuraLa democracia parte de una la base: lo “en común”, aquello que es patrimonio público. La discusión política también ha de ser pública y ha de desarrollarse en un espacio público.  “It is a fundamental rule of their government, that no conclusion can be made in anything that relates to the public till it has been first debated th..."
@@ -606,6 +656,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Ciudad Abierta","diseño","Holcim","Polpaico","Taller de Obras","tesela"],
     "url": "/2008/10/taller-de-obra-suelo-teselado/",
+    "largo": 485,
     "contenido":
       
         "                               Durante este segundo trimestre (2008), el taller de primer año de diseño llevó a cabo el proyecto desarrollado durante el primer trimestre. Se trata de la construcción de un suelo constituido por baldosas tipográficas de hormigón. Todo el proceso, desde la preparación del suelo hasta la construcción de las baldosas es sostenido por los alumnos.Informe del Suelo Teselar (PDF, 1.1 Mb)Este proyecto fue posible gracias al convenio con la empresa Polpaico"
@@ -618,6 +669,7 @@
     "categorias": ["imagen","notas"],
     "etiquetas": ["extensions","firefox","scripts"],
     "url": "/2008/09/todo-depende-del-cristal-con-que-se-mire/",
+    "largo": 1510,
     "contenido":
       
         "Cuando se preguntan por la realidad, los filósofos piensan en un conejo. ¿Cómo tomo al conejo? ¿Con mis manos o por la orejas? Es decir, es la realidad algo que efectivamente existe a priori y a pesar mío (por las orejas) ¿o se trata efectivamente de una construcción, de un artificio cognitivo que hago para articular el flujo de estímulos incoherentes? Si llevamos esta pregunta al contexto de diseño para Internet podremos ver una gran cantidad de extensiones y de scripts para que el browser (Greasemonkey para Firefox) se comporte y despliegue la realidad de maneras especiales, filtradas, retocadas, hackeadas, etc:  Para resolver problemas de usabilidad y CSS en distintios sitios y servicios  Para eliminar la publicidad y desplegar nada o cualquier cosa que yo quiera en vez  Para permitirme bajar los videos que normalmente no se pueden bajar  Para eliminar los flash, entre muchos otrosPero sin duda, una de las extensiones más interesantes para tener un “buen cristal para mirar” es KnowMore.Ayer, mientras Jo..."
@@ -630,6 +682,7 @@
     "categorias": ["notas"],
     "etiquetas": ["information theory","Markòv","quantum theory","semantics","SEO"],
     "url": "/2008/09/la-naturaleza-de-la-informacion/",
+    "largo": 6627,
     "contenido":
       
         "El concepto de información es bastante abstracto y elusivo pero lo usamos con tanta familiaridad y tan cotidianamente que ni siquiera nos tomamos la molestia en definirla. Al menos sabemos 2 cosas básicas (o creemos 2 mitos básicos): que se constituye como el contenido del acto comunicativo y que es algo inmaterial (tal vez por la facilidad con que transita desde la boca al oído). La información emerge como contenido, como una especie de “cosa” u “objeto” pero con cualidades especiales: facilidad de reproducción, amplificación y propagación; pero a la vez intangible y volátil. Si tuviésemos que ponerle fecha de inicio, la Era de la Información comenzó el año 1948, poco tiempo después de finalizar la Segunda Guerra Mundial cuando Claude Shannon publicó el trabajo “Una Teoría Matemática de la Comunicación “ ((C.E. Shannon, “A Mathematical Theory of Communication”, Bell System Technical Journal , vol. 27, pp. 379-423, 623-656, July, October, 1948.)) .  En este trabajo, Shannon define la información a partir d..."
@@ -642,6 +695,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["AI","Estudiantes","organización","seminario","Trabajos"],
     "url": "/2008/08/voluntarios-para-iv-seminario-de-ai/",
+    "largo": 617,
     "contenido":
       
         "La organización del IV Seminario Chileno de Arquitectura de la Información requiere de voluntarios para ayudar en labores de coordinación y diseño. Dentro de las faenas que involucran la organización se distinguen:  Registro y orientación de asistentes  Diseño del acta del seminario (pequeña edición con los papers y presentaciones)  Apoyo y difusión en los distintos medios  Preparación de la sala y montaje de los postersLos alumnos que estén interesados en participar de la organización, por favor completar el formulario de contacto que aparece a continuación. Se agradece de antemano su interés.[contact-form-7]"
@@ -654,6 +708,7 @@
     "categorias": ["notas"],
     "etiquetas": ["Arquitectura de la Información","experiencia","IA","Information Architecture","seminario"],
     "url": "/2008/08/iv-seminario-chileno-de-ai/",
+    "largo": 2616,
     "contenido":
       
         "En esta cuarta versión del seminario de Arquitectura de la Información, nuestro amigo Juan Carlos Camus ha sugerido darle el nombre de “viviendo la experiencia del usuario “ para generar la discusión en torno a este concepto. En Chile, el concepto de Arquitectura de la Información nos ha servido como referencia y pretexto para juntarnos y construir una comunidad de interés, ha sido el catalizador de la discusión en torno al diseño de plataformas y servicios web, nos ha servido para elevar el nivel de la discusión y para evangelizar y educar —en lo posible— a las empresas de la necesidad de tomar con seriedad el tema. Es cierto que la AI y la Experiencia del Usuario son temas distintos ((Hago esta aclaración a propósito del poco afortunado comentario hecho en relación al nombre y sentido del sentido del seminario, ver post original.)). En realidad son 2 aproximaciones metodológicas para acceder al mismo problema:  Si hablamos de AI, hablamos del “arte y la ciencia de organizar la información para que sea en..."
@@ -666,6 +721,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Arquitectura de la Información","conferencia","convocatoria","Destacados","seminario"],
     "url": "/2008/08/iv-seminario-chileno-de-ia/",
+    "largo": 2568,
     "contenido":
       
         "Los días viernes 3 en Viña del Mar y sábado 4 de octubre en Santiago, tendrá lugar el Cuarto Seminario Chileno de Arquitectura de Información, que reunirá a los principales exponentes nacionales de esta disciplina. La entrada es liberada, previo registro.  Viernes 3 de Octubre , Viña del Mar.e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso.Matta 12, Cerro Recreo.Viña del Mar. Sala Tronquoy.  Sábado 4 de Octubre , Auditorio Facultad de Comunicaciones Pontificia Universidad Católica de ChileAlameda 340Santiago.Nuestra escuela hospedará el primer día del seminario (Viernes 3 de Octubre), que tendrá un carácter académico, con la presentación de papers y posters relacionados con el diseño de experiencia y la arquitectura de la información. Si quieres participar, infórmate de cómo hacerlo. También puedes ayudar a difundir el seminario.Fechas Importantes  Envío de los Papers 20 de Septiembre de 2008  Notificación de Aceptación 27 de Septiembre de 2008  Entrega de Presentación ..."
@@ -678,6 +734,7 @@
     "categorias": ["imagen"],
     "etiquetas": [],
     "url": "/2008/08/dibujo-automata-exp2",
+    "largo": 627,
     "contenido":
       
         "Nace un trazo en el centro de la superficie rectangular.Este trazo avanza hacia arriba y gira suavemente en forma azarosa. Tanto su grosor, su velocidad como su giro oscilan de la misma forma; mediante la función NOISE (de Ken Perlin: noisemachine.com/talk1/index.html). Este trazo puede dar inicio a una ramificación, dependiendo de su factor de fertilidad.El trazo termina cuando choca con otro trazo existente.En variaciones posteriores se introduce el concepto de EDAD en el trazo. Los trazos, al envejecer, aclaran su tinta.Cast: Herbert SpencerTags: processing, b&amp;w;, experimental, automata, drawing, perlin and noise"
@@ -690,6 +747,7 @@
     "categorias": ["ideas"],
     "etiquetas": ["diseño de interacción","organization design","systems thinking","tecnology"],
     "url": "/2008/08/ecosistemas-de-informacion/",
+    "largo": 7036,
     "contenido":
       
         "Una de las grandes dificultades que existe al momento de plantear la estrategia de un proyecto de comunicación a través de Internet, radica en las implicancias que esta punta del iceberg —la interfaz Web— tiene en la cultura interna de la organización, porque no se trata de un cambio “cosmético” sino que tiene que reflejar transparentemente el modo de ser de la organización o empresa. Conocida es la frase que dice: “La arquitectura de la información es la cola que mueve al perro”, de Louis Rosenfeld. Plantear un proyecto Web como un cambio cultural dentro de la organización es políticamente torpe y kamikaze. Nadie va a querer cambiar su cultura interna, menos si es alguien externo quien lo dice (el consultor de diseño).El Pensamiento EstancoEl problema radica —principalmente en las grandes organizaciones— en que los emprendimientos comunicacionales son comprendidos como proyectos acotados a un área o departamento (generalmente marketing o comunicaciones). Además del pensamiento estanco que limita el horizo..."
@@ -702,6 +760,7 @@
     "categorias": ["imagen"],
     "etiquetas": [],
     "url": "/2008/08/pasaje-paralelo-final-creadits",
+    "largo": 179,
     "contenido":
       
         "Esta es la salida del programa, la segunda parte del video vimeo.com/1461270 realizado en 1999 para mi amigo Ronald Smith.Cast: Herbert SpencerTags: 3D, old, TV, credits and music"
@@ -714,6 +773,7 @@
     "categorias": ["imagen"],
     "etiquetas": [],
     "url": "/2008/08/cortometraje",
+    "largo": 405,
     "contenido":
       
         "Este pequeño cortometraje fue realizado en 1999 a pedido de Carlos Sánchez para la realización de su tesis: “La percepción según Carlito”.Los modelos renderizados fueron construídos a partir de bocetos a lápiz y modelos de cartón. Estos modelos fueron convertidos en formas vectoriales para luego ser extruídos y texturizados con dibujos pintados a mano.Cast: Herbert SpencerTags: 3D, old and experimental"
@@ -726,6 +786,7 @@
     "categorias": ["imagen"],
     "etiquetas": [],
     "url": "/2008/08/historia-de-la-ead",
+    "largo": 611,
     "contenido":
       
         "Este video fue realizado en 2003 con motivo del lanzamiento del libro “Escuela de Valparaíso - Ciudad Abierta” por editorial Tanais. Este libro presenta la historia de la e[ad] Escuela de Arquitectura y Diseño PUCV, también conocida como “Escuela de Valparaíso” (ead.pucv.cl).La secuencia fotográfica y pequeños videos ilustran la historia de la escuela desde su fundación en 1952, el perído del instituto de arquitectura, la bottega, la travesía de amereida, la fundación de la Ciudad Abierta, los torneos y juegos, entre otros hitos.Cast: Herbert Spencer and e[ad]Tags: documental, escuela, historia and e[ad]"
@@ -738,6 +799,7 @@
     "categorias": ["imagen"],
     "etiquetas": [],
     "url": "/2008/pintor-automata",
+    "largo": 758,
     "contenido":
       
         "Hace tiempo que quiero explorar la idea de la “machina pictórica” y esta es la primera película que exporto de este tema.Este programa está construído sobre la base de un objeto “trazo” que avanza “browneanamente” y que se ramifica de acuerdo a un factor de fertilidad. La idea es muy simple ya que la composición sólo se basa en 1 tipo de objeto que sólo varía de color. El resultado —en esta ocasión— es bastante simplista y duro… al parecer hay que darle un poco más de inteligencia a los trazos para que no se densifiquen más de lo necesario, que topen o eviten otros objetos.Más adelante iré subiendo experimentos más avanzados en la línea de las machinas pictóricas.Cast: Herbert SpencerTags: processing, color, painting, automata and machina pictórica"
@@ -750,6 +812,7 @@
     "categorias": ["notas"],
     "etiquetas": ["concepto","design for debate","public design"],
     "url": "/2008/07/manejando-la-complejidad/",
+    "largo": 2318,
     "contenido":
       
         "Entre Ciencia y Arte hay un puente que está hecho por el Diseño. Desde la poética de la creación a la retórica de la razón. Sin embargo, ese paso nunca se nos ha mostrado claramente ni se pueden dividir las aguas para proponer un Diseño “más artístico” o “más científico”. Por lo menos, no de un modo en que siga siendo buen Diseño. Desde un punto de vista bastante peculiar, el diseñador Tony Dunne profesor de Design Interactions at the RCA, aborda la pedagogía del Diseño desde una postura comprometida con la responsabilidad social. Pero no lo hace un el sentido convensional sino más bien instaura el diseño como la materialización de un tema para el debate. Se trata de intervenir en problemáticas o insterticios —normalmente asociados a tecnologías futuras— que resultan difíciles de plantear y discutir, debido a la complejidad de los mismos. Él “va río arriba” en términos especulativos y genera productos hipotéticos basados en tecnologías (biología sintética, manipulación genética o similares) para volver tan..."
@@ -762,6 +825,7 @@
     "categorias": ["code"],
     "etiquetas": ["code","experimental","processing","slitscan","tiempo","video"],
     "url": "/2008/07/crono-anamorfosis/",
+    "largo": 1932,
     "contenido":
       
         "Nuestra comprensión del tiempo es discreta, es decir concebimos la suceción de “instantes” como el único modo de reconstruir el flujo del tiempo. Cada vez que grabamos un video, recolectamos una gran catidad de fotogramas que luego son reproducidos —normalmente— a la misma velocidad con la que fueron captados. Tenemos entonces un solido o volumen de fotogramas cuyo espesor corresponde al tiempo. Siempre que reproducimos el video, elegimos verlo en sucesivos cortes transversales perpendiculares al tiempo, tratando de volver a esos instantes fotográficos. Pero ¿podemos verlo de otro modo? ¿qué ocurriría si elegimos ver este sólido de tiempo haciendo un corte con una inclinación ligeramente distinta?Por ejemplo, imaginemos que el programa que captura video va almacenando un buffer de fotogramas que tiene un espesor igual al alto en pixeles del fotograma (aquí en el esquema: y = z). Es decir, si tengo un fotograma de 320 pixeles de ancho por 240 pixeles de alto, tengo un buffer de 240 fotogramas de espesor. En..."
@@ -774,6 +838,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño","obra","suelo","taller","tesela","unidad discreta"],
     "url": "/2008/06/del-suelo-a-la-tesela/",
+    "largo": 6640,
     "contenido":
       
         "Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.Partimos desde ahí preguntándonos por su orden, sus medidas, su lenguaje formal y su modo de aparecer en la ciudad: los distintos ritmos de suelo, sus modos de ser en continuidad y discontinuidad, sus diferenciaciones, su modularidad y sus unidades de medida, sus correspondencias y calces al cuerpo, sus modos de ofrecer una detención, sus modos de vincular la horizontal con la vertical —entre suelo y muro—, el mundo de las patas y apoyos, de las bases y pedestales, de las veredas y aristas del camino. Ése fue el campo del estudio y desde ahí entra el taller.La Presentación, desde otra faceta, se pregunta por la problemática del arte y la reproductibilidad técnica, ofreciendo una entrada a la condición material y productiva del oficio, como un modo de acceder a la forma:la matriz y el dibujo xilográfico que recoje la luz calculadamente entre la superficie blanca y la negra;la matriz del cuerpo vol..."
@@ -786,6 +851,7 @@
     "categorias": ["notas"],
     "etiquetas": ["user research"],
     "url": "/2008/05/despues-de-investigar/",
+    "largo": 4444,
     "contenido":
       
         "Está claro que la investigación exploratoria con usuarios adquiere cada vez más valor en los proyectos (aunque todavía, para los ojos del cliente, sea muy difícil justificarla y formalizarla dentro de una Gantt). Esta investigación preliminar nos permite definir el territorio de acción y comprender los modelos mentales de las personas involucradas. Sólo desde ahí podremos avanzar en definiciones de valor para el diseño. Dentro de una oficina de diseño —como AyerViernes— el proceso de investigación se instala cada vez más como una pieza clave dentro del proceso creativo; cada vez se hace más patente el valor que trae un agudo conocimiento de las personas para construir diseños eficaces, apropiables y queribles. El desafío entonces no radica en elegir una metodología de investigación adecuada, sino más bien en cómo leemos en la información obtenida implicancias para el diseño.Desde los Datos a la InformaciónLa investigación con usuarios suele producir montañas de material de diversa índole: transcripciones d..."
@@ -798,6 +864,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["diseño de interacción","investigación","métodos"],
     "url": "/2008/03/historias-dirigidas/",
+    "largo": 3758,
     "contenido":
       
         "El diseño se ocupa de la construcción del significado. Pero más específicamente, los diseñadores proveemos a las personas de los elementos para construir sus propios significados. Pero ¿cómo los diseñadores podemos distinguir los elementos y artefactos detonantes de significado para otra persona? ¿cómo y a partir de qué discriminamos para cada caso? En la historia del diseño la respuesta a esta interrogante siempre ha venido de dos vertientes aparentemente opuestas: desde la investigación dura o desde la intuición basada en la experiencia personal. En este último caso, el diseñador funciona como una especie de caja negra (genial, por lo demás) capaz discriminar los elementos, el lenguaje y tono precisos. El problema surge cuando el encargo nos lleva a un campo en el que no estamos familiarizados y no tenemos experiencia previa. En este caso la mera intuición carece de respaldo para actuar. Si reconocemos a nuestro oficio como aquel capaz de construir puentes de comunicación (como dice Jorge) en un contexto..."
@@ -810,6 +877,7 @@
     "categorias": ["escuela","code"],
     "etiquetas": ["unidad discreta","tesela"],
     "url": "/2008/02/teselador/",
+    "largo": 8075,
     "contenido":
       
         "En el contexto de la travesía a Purmamarca 2007, desarrollé un pequeño programa para dibujar con baldosas triangulares.El quid del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que emerge desde un orden concluso.  Teselador – Windows  Teselador – Mac  Teselador – Linux(Texto leído en el acto de exámen del Primer Año Diseño. Diciembre, 2007. Se comienza el examen leyendo el poema “Infinito” de Giaccomo Leopardi, traducción de Godofredo Iommi en Poemas Leídos en los Talleres de la Escuela de Arquitectura 1980-1981)  Siempre cara me fue esta colina yermay este seto, que en tanta partedel último horizonte la mirada excluye.Pero sentándome y mirando, interminablesespacios más allá de aquel, y sobrehumanossilencios y profundísima quietuden el pensar me finjo; donde por pocoel corazón no se espanta. Y como el vientooigo su..."
@@ -822,6 +890,7 @@
     "categorias": ["code"],
     "etiquetas": ["processing","tool"],
     "url": "/2008/02/buscando-un-nombre/",
+    "largo": 1941,
     "contenido":
       
         "En muy poco tiempo más seré nuevamente padre, esta vez de una niña. El problema es que no se nos ocurre qué nombre ponerle. Hemos buscado miles, pero mi decepción fue mayor al ver que todos mis esfuerzos creativos no eran más que el lugar común que todos transitan. Entonces se me ocurrió que podría tener un nombre inventado, nuevo. Para eso hice un programa llamado nameGenerator que genera nombres a partir de distintos patrones de consonates y vocales:  nameGenerator para Mac  nameGenerator para Linux  nameGenerator para WindowsInstruccionesEste programa se maneja con el teclado (No tuve el tiempo ni la dedicación para esmerarme en una interfaz más amistosa, pero el teclado funciona bien). Para generar un nombre nuevo, hay que apretar cualquier número, 0 inclusive. Cada uno de los números representa un patrón de consonantes y vocales distinto. Arriba, al medio dice que patrón se está utilizando. Por ejemplo: “C V V C V” (‘C’ para consonante y ‘V’ para vocal) podría arrojar “paula”. Dentro de la carpeta del..."
@@ -834,6 +903,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["diseño de interacción","investigación","user research"],
     "url": "/2008/02/para-que-investigamos-con-usuarios/",
+    "largo": 2162,
     "contenido":
       
         "En términos generales, en todo proceso de diseño podemos distinguir 3 momentos o fases características:  la fase exploratoria, donde se conocen a los usuarios y se define el territorio en juego  la fase generativa, donde se plantean las ideas y conceptos a desarrollar  y la fase evaluativa, donde se mide el producto o servicio respecto de los usuariosEstá claro que la transición entre una y otra no se da de manera nítida y existen traslapes y dependencias conocidas. Sin embargo, lo que resulta determinante en el proceso, es la solidez de la fase exploratoria pues es desde ella que se fundamenta todo el proyecto hacia adelante.  O dicho de otro modo, mientras mejor esté abordada la fase exploratoria, mejor y más consistentes serán los conceptos generados en la fase propositiva. También es importante hacer notar que la investigación con usuarios puede (y a mi juicio, debe) estar presente en cada una de las fases, aquí nombro sólo algunos:Fase Exploratoria  Observación  Entrevistas  Narrativas Dirigidas (prom..."
@@ -846,6 +916,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["debate","design research","design thinking"],
     "url": "/2008/01/investigacion-y-diseno/",
+    "largo": 3362,
     "contenido":
       
         "Hace ya bastante tiempo que vengo viendo cómo la Ciencia adquiere más y más fuerza por sobre el Arte en términos de validación del discurso. No quiero caer en el fome y manoseado debate entre el Arte y la Ciencia para definir un espacio para el Diseño, sino tratar de comprender el sentido de esta tendencia. Llama la atención ver cómo el Diseño, cuando quiere formalizar y divulgar su conociemiento, ya sea por medio de publicaciones o seminarios, adopta una postura cientí­fica para validarse. En el mundo académico el conocimiento se comparte en un formato estándar. Dicha modularización (los “ladrillos”) obliga a construir argumentos en un formato tipo, idealmente que sea fácil de leer y hojear; de escanear rápidamente con la mirada, que permita extraerle lo de valor con un simple vistazo y que ofrezca capas diseñadas para las distintas velocidades de lectores. Lo ideal, y lo que se mide, es el factor de impacto de cada uno de estos ladrillos. Esta practicidad reduce a un la lí­nea discursiva:        qué   --..."
@@ -858,6 +929,7 @@
     "categorias": ["notas"],
     "etiquetas": ["diseño de interacción","theory"],
     "url": "/2007/12/paradigmas-ixd/",
+    "largo": 4506,
     "contenido":
       
         "Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacción por su lado, en estos pocos años, está marcando un sentido evolutivo:La Performatividad del ObjetoAlgunos teóricos en la década del 70 complejizaron la idea Heideggeriana del objeto y de la cosa que “es siendo” incorporando la noción de performatividad. Las cosas ahora podí­an “hacer cosas” de manera autónoma o semi-autónoma. Por tanto, adquirieron un ánima que les confirió agencia y práctica: las máquinas comenzaron a ser vista como unas entidades capaces de transformar su entorno, instaurando un primer discurso pro-robótico. El debate derivado de estética de la performatividad de la cosa se abrió en posibilidades cuestionó también la noción de autor; la función productiva del “hacer cosas” dejó de ser la un atributo exclusivo en la poética del autor.La UsabilidadEl problema inicial (algo así­ como el pecado original de los 80s y 90s) del diseño de interacción (inicialmente comprendido como la interacción hombre-máquina) era la ..."
@@ -870,6 +942,7 @@
     "categorias": ["code"],
     "etiquetas": ["infovis","math","processing","tool"],
     "url": "/2007/11/primes-modulator/",
+    "largo": 1686,
     "contenido":
       
         "Los números primos son los diamantes de los números naturales. Todos los demás números pueden construirse desde factorizaciones únicas de números primos; ellos son las piezas clave, los otros números son sólo relleno. No existe modo de anticipar la distribución de estos números como secuencia regular y han existido muchos intentos para predecir su aparición. Nadie ha podido estabalecer un patrón claro para describirlos. En 1963, Stanislaw Ulam, un matemático polaco, decidió disponerlos en una espiral cuadrada como la que muestro en la imagen. Este arreglo consiste en comenzar desde el número 1 al centro del espiral y avanzar girando hacia afuera manteniendo la unidad de distancia entre números constante; los puntos rojos representan números primos. Este arreglo reveló un misterioso patrón de diagonales que se mantení­a sin importar la cantidad de números representados o si se cambiaba el primer número del espiral por otro distinto de 1. Este hallazgo le significó a Ulam aparecer con su diagrama en la porta..."
@@ -882,6 +955,7 @@
     "categorias": ["code","imagen"],
     "etiquetas": ["democracia","mapas","processing","tool","visualización"],
     "url": "/2007/05/civilscope/",
+    "largo": 1784,
     "contenido":
       
         "La idea de este proyecto es mostrar de manera fácil y ní­tida las capas y fronteras cí­vicas en las cuales estamos inmersos. Civilscope es un servicio web que, a partir de una dirección determinada, mapea todas las divisiones, distritos y circunscripciones que la rigen. Este servicio funciona solamente para la gente de Chicago porque opera sobre la API de Civic Footprint, una iniciativa del Center for Neighborhood Technology de Chicago. Pienso que tener algo así­ en Chile serí­a buení­simo para poder transparentar en algo las oscuras y arcanas fronteras polí­ticas que nos gobiernan. En parte por eso me entusiasmé cuando Simon me propuso la idea; para poderlo mostrar como ejemplo y poder desarrollar algo así­ para nosotros. De hecho, nuestra estructura es bastante más sencilla, con menos capas y jerarquí­as traslapadas. Particularmente en Chicago existen distritos verdaderamente extraí±os en cuanto figura. Esto se debe a una práctica de distritage llamada “gerrymandering”. En el sistema norteamericano los v..."
@@ -894,6 +968,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["concepto","design for citizenship","design for democracy","diseño de interacción","social interaction"],
     "url": "/2007/05/mediafranca-parte-2/",
+    "largo": 1905,
     "contenido":
       
         "MediaFranca de Herbert Spencer en Vimeo. MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es construir un sistema que conecte a personas con lugares y con temas de interés social (issues) mediante un diáogo simétrico y democrático. Esta plataforma intenta salvar la distancia entre la conversación mediada digitalmente y la conversación cara a cara, promoviendo el paso de la interacción digital a la fí­sica, desplegando palabra en acción, y constituyendo así­ herramientas para la participación ciudadana. Dentro de las caracterí­sticas más importantes del sistema podemos mencionar:  Interfaz fotográfica de AR (Augmented Reality) que permite examinar y atachar contenidos al entorno inmediato  Sistema de notificación por hebras de conversación (conversation threads) suscritas  filtración de información por proximidad o relevancia (dentro de mi red social o lo relevante en el sentido democrático de la palabra),..."
@@ -906,6 +981,7 @@
     "categorias": ["investigación"],
     "etiquetas": ["concepto","diseño de interacción","investigación"],
     "url": "/2007/04/mediafranca-parte-1/",
+    "largo": 2274,
     "contenido":
       
         "MediaFranca((Este proyecto lamentablemente ya no está en línea, pero se puede ver aquí. Esta wiki fue la partida para Casiopea por el sentido de la documentación viva, expuesta y colaborativa de un proyecto.)) es el projecto de investigación que realizo como parte del programa MDes Interaction Design en CMU. Este projecto consta de dos partes: una tesis escrita y un proyecto de investigación y desarrollo (hasta la fase de prototipo) los cuales he decidio coordinar bajo una sola pregunta. La pregunta que inicia este proyecto que surge de la siguiente paradoja:conectividad ≠ colectividad.Existen muchos estudios, sobre todo en las áreas de la sociologí­a y las ciencias económicas, dedicadas a entender por qué, siendo que las economí­as occidentales muestran í­ndices favorables a niveles macroeconómicos, también reflejan sí­ntomas de sociedades desconectadas y enfermas. La gente, a pesar de tener mayor acceso a educación, salud, transporte; pese a que ha aumentado su nivel de vida y capacidad de consumo en gen..."
@@ -918,6 +994,7 @@
     "categorias": ["code","investigación"],
     "etiquetas": [],
     "url": "/2006/12/filippo-3d-ver-01/",
+    "largo": 4621,
     "contenido":
       
         " Filippo 3D is my final project for Golan’s class, the Interactive Image. This project is inspired by the idea of drawing in a 3D canvas. After seeing Amit Pitaru’s work, the famous sonic sculptor or the gesture machines from Zack Lieberman, I decided to create a small application that allowed to transfer 2D hand strokes into a 3D space.Download  Filippo3d for Mac OS X (this one runs painfully slow in non-Intel machines… sorry, I’ll optimize it next time)  Filippo3d for Linux  Filippo3d for WindowsI’d be really happy to receive feedback for further improvements and/or the PDFs (360 Sample) you create with it. I hope that the next version will have load/save capabilities since the only possible output right now is into a PDF (or animated series of PDFs) or DXF (an old 3D) format. Enjoy! /* English ends here :) */ La diferencia con los ejemplos anteriores es que en ellos el dibujo rota en el espacio y el plano de la pantalla –en el cual uno dibuja– se intersecta con el espacio tridimensional en un plano fijo..."
@@ -930,6 +1007,7 @@
     "categorias": ["code","investigación"],
     "etiquetas": [],
     "url": "/2006/10/2x2x2/",
+    "largo": 4709,
     "contenido":
       
         "Los arreglos 2x2 son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje X puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje Y puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”. A partir de esta “cancha” podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar “rolls”, etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo pr..."
@@ -942,6 +1020,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Diseño Gráfico","interacción"],
     "url": "/2006/10/constel-sharing-marginalia/",
+    "largo": 29870,
     "contenido":
       
         "con§tel: an environment to support creativity through shared marginaliaAbstractThis paper examines the CON§TEL((CON§TEL 2004-2006, e[ad] School of Architecture &amp; Design, PUCV, Chile. Spencer, Sanfuentes)) prototype, a web-based service that supports collective construction and dialogue within a community. This prototype explores the poetic and the dialectic relationship between reader and author mediated by a web system. This relationship takes place in a social environment((Seely, Duguid (2002) The Social Life of Information – Business &amp; Economics)) where interaction design explores different ways of empowering readers —as scholars— by enabling significant collaboration.The scholarly community formalizes its knowledge contributions through conventional text formats, such as academic papers; this standardized mediation works as a bricks for building on the top of others as a concrete manifestation of the interconnectedness of the knowledge, both within specific or multidisciplinary domains. Shared ..."
@@ -954,6 +1033,7 @@
     "categorias": ["code"],
     "etiquetas": ["interpolación","letras","processing","tipografía"],
     "url": "/2006/10/flex-typeface/",
+    "largo": 971,
     "contenido":
       
         "Tipografía Tubular Flex((Graciosamente existe una variación de esta tipografía que fue realizada en la Travesía a Tubul)) realizada en 2006. El principio de diseño de esta fuente es mantener los mismos elementos constitutivos (trazos básicos) para todas las letras, siendo lo único que varía es la disposición de estos elementos. Esto permite animar la interpolación entre las letras, lo que se logra presionando las teclas, desde la “a” a la “z” (sólo minúsculas).Este diseño está altamente influenciado por la fuente Stuv, diseñada por Flor.o (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse)((Lamentablemente este sitio ya no está online. La PUCV suspendió el hosting de profesores.)). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la Super Tipo Veloz de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas."
@@ -966,6 +1046,7 @@
     "categorias": ["research"],
     "etiquetas": ["agent","calendar","diseño de interacción","project","scheduling"],
     "url": "/2006/08/honeydew-agent/",
+    "largo": 5107,
     "contenido":
       
         "**Honeydew Agent es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama agente pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.El problema para el DiseñoPara que el agente pueda adaptarse y aprender de cada usuario y pueda, a su vez, construir negociaciones realistas, requiere de información precisa expresada en el caledario o agenda de la persona. En nuestra investigación nos encontramos con un sinnúmero de conductas y técnicas que promueven —en cierta medida— a la deshonestidad al momento de mantener un calendario público. Entre a..."
@@ -978,6 +1059,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño gráfico"],
     "url": "/2005/08/disenando-con-estrofas/",
+    "largo": 2699,
     "contenido":
       
         "La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores de los incontables buscadores existentes. La visibilidad y por tanto la disponibilidad de lo publicado estará en directa relación con la trasparencia estructural de las páginas o documentos. Estas condiciones estimulan a diseñadores a obedecer y diseñar respetando los estándares sugeridos por el W3C (World Wide Web Consortium) para poder definitivamente asentar las directrices de este medio que comienza a ordenarse.Es por esto, que este año 2005, la asignatura de Gráfica Digital se ha adentrado hacia la comprensión de los códigos en juego, específicamente el lenguaje de marcado HTML y el diseño basado en Cascadas de Estilo CSS.Para esto hemos adherido a la invitación que hace el diseñador Dave Shea en su sitioCSSZenGarden. Este sitio renueva permanentemente su lenguaje de aparición, a la manera de un jardín Zen q..."
@@ -990,6 +1072,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño gráfico"],
     "url": "/2005/06/examen-del-taller-de-cuarto-ano/",
+    "largo": 8333,
     "contenido":
       
         "1. De lo simultáneo y lo continuoEl diseño gráfico ha de jugarse en esta ecuación doble, es decir, desde estas dos variables inseparables. Muchas son las facetas de esta ecuación irreductible para la gráfica, por ejemplo una, la relación imagen – texto, o más propiamente, dibujo y escrito.El taller le encomienda a los alumnos salir a dibujar, pero les exige la construcción de un sistema de dibujo para la anotación con acuarela. Han de construirse una nueva croquera que sea contenedor de las humedades propias de ella, de una paleta de colores, de un apoyo, de un acopio. Atril de pintor, a la mano, llevable, posible: reapasionamiento del acto de dibujar.El dibujo, por su lado, ha de tener ciertas condiciones:  El formato: un octavo. Unidad discreta de la anotación. Cada uno, un total.  Elementos constituyentes: dibujo (acuarela) y escrito (observación), además un folio (para poderlo citar) un título (que nombre) una cifra gráfica (que anote y sintetice el dibujo: un abstract gráfico). En total, 5 elementos p..."
@@ -1002,6 +1085,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño gráfico"],
     "url": "/2005/04/evolucion-y-ocupacion-del-espacio/",
+    "largo": 7097,
     "contenido":
       
         "{Texto introductorio, guía para el lector que quiera adentrarse en las láminas}Viernes 29 de Abril de 2005, 16.45 horas, Aula Claudio GirolaA primera vista, estas láminas se muestran como un mar tipográfico, algo intimidante incluso, como para animarse a entrar en él; por lo menos, es lo que me ocurrió a mí la primera vez que me enfrenté a uno de estos cuadros, cuando Gastón nos los expuso en la Ciudad Abierta, hace ya casi dos años. Me quedé detenido en el arreglo mismo, en la coincidencia de textos cruzados, en la particularidad del espacio tipográfico, o la proeza de complejidad (me acordé de la película “Matrix”) se podría decir, me quedé atrapado en la superficie de la lámina.Claro, hay que reconocer que esta superficie es altamente compleja, no es un espacio tradicional donde los ojos del lector puedan correr descansando en la garantía de la lectura convencional sino que el lector debe primero ubicarse.Pero ¿en qué radica lo cifrado de estas láminas?En que el espacio bidimensional de los cuadros, est..."
@@ -1014,6 +1098,7 @@
     "categorias": ["research"],
     "etiquetas": ["texto","estudio","marginalia","escuela"],
     "url": "/2005/03/constel/",
+    "largo": 5718,
     "contenido":
       
         "Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, estudiar y colaborar en este nuevo ámbito semántico-digital; en las nuevas plataformas de gestión y manejo de la información, pero sobre todo, nos preguntamos por la naturaleza visual de las nuevas interfaces que habrán de contener implícitas estas nuevas operatividades y de cómo habrán de instaurarse los nuevos códigos de visualización que necesariamente han de volver legible esta complejidad en ciernes.Ciertamente, nuestra afinidad por el cuidado y Diseño de la interfaz de pantalla nos ha llevado a plantearnos un proyecto que en cierta medida sobrepasa a nuestro oficio en cuanto constructor de este espacio, pues hemos debido incorporar a la dimensión de lectura, la dimensión de uso; un libro tiene abierta esta posibilidad de un modo gratuito en el blanco de sus páginas: un lector realiza una anotación al margen de..."
@@ -1026,6 +1111,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño"],
     "url": "/2005/01/de-como-una-cosa-se-junta-con-otra/",
+    "largo": 5388,
     "contenido":
       
         "Exámen de Primer Año Diseño – 15 de diciembre de 2004Nosotros venimos de un estudio que se origina en una pregunta, una pregunta acerca del encuentro entre una cosa y otra, de cómo ellas son a la vez y de cómo se encadenan conformando figuras mayores. ¿Cómo es esto?Sin entrar en los detalles de la peripecia del taller, quisiera precisar el hilván del estudio durante las primeras etapas, anteriores a la travesía:Partimos por el estudio del encuentro entre tierra y mar, no como espacio límite sino como espesor de vinculación, siempre renovándose en transformación. Desde él avanzamos ensanchando dicho espesor hasta topar con el fondo de la quebrada Tomás Ramos y el muelle Pratt, sólo para volverlo más evidente y poder distinguir más partes en él. Allí, en el recorrido, el encuentro se transforma en el estudio de la secuencia, en el misterio de hilvanar momentos discretos, desde las secuencias de dibujos: ¿qué es lo que se mantiene? ¿Qué cambia? ¿Dónde está el traspaso entre uno y otro? Luego, en un afán por a..."
@@ -1038,6 +1124,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["travesía"],
     "url": "/2004/11/travesia-a-iruya/",
+    "largo": 1363,
     "contenido":
       
         "nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptibleDía OnceHoy es el día de la culminación de la Travesía. Se están dando los últimos retoques a la escultura, se está trazando la orientación de ella en su lugar de emplazamiento. Dentro de la carpa se trabaja aceleradamente en las serigrafías y se empieza a imprimir las xilografías que conformarán los libros de travesía que donaremos a distintas instituciones de Iruya. Mas allá, fuera de la carpa se escucha a Floro ensayando con su grupo el acto poético con que esta tarde daremos fin a esta epopeya y entregaremos la obra al pueblo.Marcelo, muy temprano, partió con Jerónimo -el jefe de la policía local-, un personaje extraordinario con una personalidad avasalladora, a Campo Carrera: un poblado indígena por sobre los cuatro mil metros de altura, a comprar tres corderos para nuestro ágape de despedida.Hemos convoca..."
@@ -1050,6 +1137,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["poesía","acto","lectura"],
     "url": "/2003/07/axis-mundae/",
+    "largo": 17314,
     "contenido":
       
         "Instrucciones al lector: Este poema está construído a partir de todas las continuidades posibles en la figura de los nueve puntos y sus 72 conectivas. Para leer se recomienda al lector saltar en la lectura encadenando consecutivamente un número entero y una conectiva. Al término de cada poema (número entero o conectiva) podrá volver al índice con la flecha ↑ para elegir el siguiente paso. Cuando el lector decida terminar su recorrido, está invitado a leer el ø.Índice9p1 al 92 al 93 al 94 al 95 al 96 al 97 al 98 al 998p1 al 82 al 83 al 84 al 85 al 86 al 87 al 889 al 87p1 al 72 al 73 al 74 al 75 al 76 al 778 al 79 al 76p1 al 62 al 63 al 64 al 65 al 667 al 68 al 69 al 65p1 al 52 al 53 al 54 al 556 al 57 al 58 al 59 al 54p1 al 42 al 43 al 445 al 46 al 47 al 48 al 49 al 43p1 al 32 al 334 al 35 al 36 al 37 al 38 al 39 al 32p1 al 223 al 24 al 25 al 26 al 27 al 28 al 29 al 21p12 al 13 al 14 al 15 al 16 al 17 al 18 al 19 al 1ø1u2u3u4u5u6u7u8u9u  1  La Luz de lo Visible  El eje induce al cieloa recogerle desde los h..."
@@ -1062,6 +1150,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Diseño Gráfico","interacción"],
     "url": "/2002/11/03/fijar-un-contraste-legible",
+    "largo": 0,
     "contenido":
       
         "3 láminas, las 3 partes del diseño: la acción, la cosa y su propósito"

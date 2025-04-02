@@ -14,14 +14,14 @@
     <meta property="og:title" content="Pequeños Múltiples">
     <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://herbertspencer.net/2015/08/pequenos-multiples/">
-    <meta property="og:image" content="https://herbertspencer.net/android-chrome-512x512.png">
+    <meta property="og:url" content="http://0.0.0.0:4000/2015/08/pequenos-multiples/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pequeños Múltiples">
     <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="twitter:image" content="https://herbertspencer.net/android-chrome-512x512.png">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -94,10 +94,6 @@
 
       <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
       
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-        <div id="p5"></div>
-        <script src="/assets/p5/flor.js"></script>
-      
 
       <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
       
@@ -168,7 +164,14 @@
     </sidebar>
 
     <article>
-      <p>Había una vez una empresa llamada <strong><a href="https://vimeo.com/61097795">CitiSent</a></strong> , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>.</p>
+      <div id="p5" class="p5-sketch-container" style="text-align: center;">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+
+  <script src="/assets/p5/flor.js"></script>
+
+</div>
+
+<p>Había una vez una empresa llamada <strong><a href="https://vimeo.com/61097795">CitiSent</a></strong> , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>.</p>
 
 <p>Para construir esta visualización desarrollamos un tesauro <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup> de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (<a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a>) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferencias y contrastes entre los datos (las disparidades). Esta modalidad se denomina <em>pequenos múltiples</em> (<a href="https://en.wikipedia.org/wiki/Small_multiple">small multiples</a>). Esto es similar a las <a href="https://en.wikipedia.org/wiki/Chernoff_face">caras de Chernoff</a>.</p>
 
