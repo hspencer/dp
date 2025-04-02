@@ -956,26 +956,14 @@
     "url": "/2006/10/flex-typeface/",
     "contenido":
       
-        "Este diseño está altamente influenciado por la fuente Stuv, diseñada por Flor.o (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la Super Tipo Veloz de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas."
-      
-  },
-
-  {
-    "fecha": "2006-10-26T04:43:41+13:00",
-    "titulo": "Axis Mundane",
-    "categorias": ["code"],
-    "etiquetas": ["experiment","particles","processing","simulation"],
-    "url": "/2006/10/axis-mundane/",
-    "contenido":
-      
-        "Las partí­culas son atraí­das entre ellas; cuando la distacia que separa cualquier par de partí­culas es mayor a la suma de sus radios, los radios de ambas partí­culas se incrementarán en 0.025 pixel. Cuando el radio llega a 80 pixeles la partí­cula revienta transformándose en una pequeña de nuevo y cambiando de color, así da paso a la nueva generación. Exiten un total de 20 generaciones y a cada cual se le asigna un color. (ver tabla de colores más abajo) Las partí­culas pequeñas son más fluí­das (menos masa) y al ser atraí­das por las otras pasan hacia el centro del arreglo, dejando a las partí­culas jóvenes al centro y las viejas en el perí­metro, simulando una colonia de búfalos.  link to codeCiclo de Colores            HEX: #CD540A RGB: 205,84,10                  HEX: #AE7450 RGB: 174,116,80              HEX: #AD611E RGB: 173,97,30              HEX: #E97913 RGB: 233,121,19              HEX: #4D3711 RGB: 77,55,17              HEX: #E4CC62 RGB: 228,204,98              HEX: #AFAC37 RGB: 175,172,55       ..."
+        "Tipografía Tubular Flex((Graciosamente existe una variación de esta tipografía que fue realizada en la Travesía a Tubul)) realizada en 2006. El principio de diseño de esta fuente es mantener los mismos elementos constitutivos (trazos básicos) para todas las letras, siendo lo único que varía es la disposición de estos elementos. Esto permite animar la interpolación entre las letras, lo que se logra presionando las teclas, desde la “a” a la “z” (sólo minúsculas).Este diseño está altamente influenciado por la fuente Stuv, diseñada por Flor.o (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse)((Lamentablemente este sitio ya no está online. La PUCV suspendió el hosting de profesores.)). Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la Super Tipo Veloz de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas."
       
   },
 
   {
     "fecha": "2006-08-23T04:42:13+12:00",
     "titulo": "Honeydew Agent",
-    "categorias": ["investigación"],
+    "categorias": ["research"],
     "etiquetas": ["agent","calendar","diseño de interacción","project","scheduling"],
     "url": "/2006/08/honeydew-agent/",
     "contenido":
@@ -988,7 +976,7 @@
     "fecha": "2005-08-11T09:24:11+12:00",
     "titulo": "Diseñando con Estrofas",
     "categorias": ["escuela"],
-    "etiquetas": ["Diseño Gráfico"],
+    "etiquetas": ["diseño gráfico"],
     "url": "/2005/08/disenando-con-estrofas/",
     "contenido":
       
@@ -1000,7 +988,7 @@
     "fecha": "2005-06-10T08:39:55+12:00",
     "titulo": "Exámen del Taller de Cuarto Año",
     "categorias": ["escuela"],
-    "etiquetas": ["Diseño Gráfico"],
+    "etiquetas": ["diseño gráfico"],
     "url": "/2005/06/examen-del-taller-de-cuarto-ano/",
     "contenido":
       
@@ -1012,7 +1000,7 @@
     "fecha": "2005-04-30T15:27:45+12:00",
     "titulo": "Evolución y Ocupación del Espacio",
     "categorias": ["escuela"],
-    "etiquetas": ["Diseño Gráfico"],
+    "etiquetas": ["diseño gráfico"],
     "url": "/2005/04/evolucion-y-ocupacion-del-espacio/",
     "contenido":
       
@@ -1023,8 +1011,8 @@
   {
     "fecha": "2005-03-18T10:55:43+13:00",
     "titulo": "Con§tel",
-    "categorias": ["escuela","investigación"],
-    "etiquetas": [],
+    "categorias": ["research"],
+    "etiquetas": ["texto","estudio","marginalia","escuela"],
     "url": "/2005/03/constel/",
     "contenido":
       
@@ -1048,7 +1036,7 @@
     "fecha": "2004-11-06T08:12:48+13:00",
     "titulo": "Travesía a Iruya",
     "categorias": ["escuela"],
-    "etiquetas": ["Diseño Gráfico"],
+    "etiquetas": ["travesía"],
     "url": "/2004/11/travesia-a-iruya/",
     "contenido":
       
@@ -1060,7 +1048,7 @@
     "fecha": "2003-07-30T03:32:58+12:00",
     "titulo": "Axis Mundae",
     "categorias": ["escuela"],
-    "etiquetas": ["Diseño Gráfico","interacción"],
+    "etiquetas": ["poesía","acto","lectura"],
     "url": "/2003/07/axis-mundae/",
     "contenido":
       
