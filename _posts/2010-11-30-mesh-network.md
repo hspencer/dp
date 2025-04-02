@@ -19,6 +19,8 @@ tags:
 - network
 - processing.js
 - red mesh
+image:
+  path: /assets/pintura/20.jpg
 ---
 Esta ilustración fue generada para explicar el funcionamiento de una red enmallada (mesh network) en cuanto figura de distribución y conexión entre nodos. La aplicación práctica de esta red fue discutida en el [post anterior](http://herbertspencer.net/2010/10/internet-como-bien-publico/), describiendo la necesidad de una arquitectura de red resistente a cataclismos como el pasado terremoto y donde todos los nodos aportan, yendo más allá de ser meros clientes. Una red pública es aquella donde cada participante expande su alcance por el simple hecho de pertenecer.
 

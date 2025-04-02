@@ -14,6 +14,8 @@ tags:
 - "diseño de servicios"
 - "Diseño Gráfico"
 - "Gráfica Digital"
+image:
+  path: /assets/pintura/05.png
 ---
 [![Imagen Afiche Expo](http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250-260x260.png)](http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250.png "Imagen Afiche Expo - Proyectos de Gráfica Digital 2009")El curso de **Gráfica Digital** busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha diseñado 6 espacios de interacción en la forma de servicios digitales, los cuales serán presentados el día **lunes 17 de Agosto** en la Sala de primer año de Arquitectura.
 

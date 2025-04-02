@@ -12,6 +12,8 @@ tags:
 - Agenda
 - Ciudad Abierta
 - seminario
+image:
+  path: /assets/pintura/09.png
 ---
 [![](http://www.ead.pucv.cl/wp-content/archivos/2011/01/taller-amereida-605x403.jpg)](http://www.ead.pucv.cl/wp-content/archivos/2011/01/taller-amereida.jpg "CL ame 10 - taller amereida trimestre 1 - 289")  
 El cuestionamiento por la forma constituye el centro mismo de los oficios –arquitectura y diseño– por ser ésta la pregunta poética del aparecer. Esta pregunta, un tanto elusiva en sus múltiples respuestas, queremos expandirla y presentarla desde diversos puntos de vista (los más posibles).

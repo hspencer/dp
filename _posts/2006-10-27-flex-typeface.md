@@ -15,6 +15,9 @@ tags:
 - "tipografía"
 p5:
   script: /assets/p5/flex.js
+image:
+  path: /assets/uploads/2006/10/flex.png
+  sidebar: false
 ---
 Tipografía **Tubular Flex**((Graciosamente existe una variación de esta tipografía que fue realizada en la [Travesía a Tubul](https://wiki.ead.pucv.cl/Traves%C3%ADa_Tubul))) realizada en 2006. El principio de diseño de esta fuente es mantener los mismos elementos constitutivos (trazos básicos) para todas las letras, siendo lo único que varía es la disposición de estos elementos. Esto permite animar la interpolación entre las letras, lo que se logra presionando las teclas, desde la "a" a la "z" (sólo minúsculas).
 

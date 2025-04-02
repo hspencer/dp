@@ -56,6 +56,7 @@ function mouseMoved() {
 
 function mousePressed() {
   console.log(current.name + ", cuyo valor es " + current.value);
+  populateCitiPulse(model);
 }
 
 class CitiPulse {

@@ -15,6 +15,8 @@ tags:
 - MediaFranca
 - public good
 - social capital
+image:
+  path: /assets/pintura/05.png
 ---
 [![](/assets/uploads/2010/10/mesh-network1-655x610.jpg)](/assets/uploads/2010/10/mesh-network1.jpg)
 

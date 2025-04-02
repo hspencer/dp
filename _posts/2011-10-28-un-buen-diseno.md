@@ -7,7 +7,7 @@ date: 2011-10-28 22:52:56 -0000
 last_modified_at: 2011-10-28 22:52:56 -0000
 publish: true
 image:
-  path: /assets/uploads/2011/10/stmaryplate2big1.jpg
+  path: /assets/pintura/04.jpg
 categories:
 - notas
 tags:

@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-02T16:55:20+13:00</updated>
+  <updated>2025-04-02T18:51:07+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -3175,29 +3175,6 @@ para que haya pueblo?&lt;/p&gt;
 
   &lt;p&gt;Chalala, 10 de Noviembre de 2007&lt;/p&gt;
 &lt;/blockquote&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>buscando un nombre</title>
-    <link href="http://0.0.0.0:4000/2008/02/buscando-un-nombre/"/>
-    <updated>2008-02-28T17:17:03+13:00</updated>
-    <id>http://0.0.0.0:4000/2008/02/buscando-un-nombre</id>
-    <content type="html">
-      &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/02/duwa1.gif&quot; alt=&quot;duwa&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;En muy poco tiempo más seré nuevamente padre, esta vez de una &lt;a href=&quot;http://www.flickr.com/photos/herbert-spencer/2233829830/&quot; title=&quot;ecografía 3D de la nena&quot;&gt;niña&lt;/a&gt;. El problema es que no se nos ocurre qué nombre ponerle. Hemos buscado miles, pero mi decepción fue mayor al ver que todos mis esfuerzos creativos no eran más que &lt;a href=&quot;http://www.registrocivil.cl/Servicios/Estadisticas/Archivos/NombresComunes/Nombres_Annos.htm&quot; title=&quot;Estadísticas del Registro Civil para los nombres más comunes en Chile&quot;&gt;el lugar común que todos transitan&lt;/a&gt;. Entonces se me ocurrió que podría tener un nombre inventado, nuevo. Para eso hice un programa llamado &lt;strong&gt;nameGenerator&lt;/strong&gt; que genera nombres a partir de distintos patrones de consonates y vocales:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/assets/uploads/2008/02/namegeneratormacosx1.zip&quot; title=&quot;nameGenerator para Mac&quot;&gt;nameGenerator para Mac&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/assets/uploads/2008/02/namegeneratorlinux1.zip&quot; title=&quot;NameGenerator para Linux&quot;&gt;nameGenerator para Linux&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/assets/uploads/2008/02/namegeneratorwindows1.zip&quot; title=&quot;NameGenerator para Windows&quot;&gt;nameGenerator para Windows&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;instrucciones&quot;&gt;Instrucciones&lt;/h3&gt;
-
-&lt;p&gt;Este programa se maneja con el teclado (No tuve el tiempo ni la dedicación para esmerarme en una interfaz más amistosa, pero el teclado funciona bien). Para generar un nombre nuevo, hay que apretar cualquier número, 0 inclusive. Cada uno de los números representa un patrón de consonantes y vocales distinto. Arriba, al medio dice que patrón se está utilizando. Por ejemplo: “C V V C V” (‘C’ para consonante y ‘V’ para vocal) podría arrojar “paula”. Dentro de la carpeta del programa viene un archivo de texto llamado “nombres.txt” que está vacío (!) Este archivo es necesario para grabar los &lt;em&gt;nombres buenos&lt;/em&gt; que puedan ir saliendo. Para grabar un nombre sólo hay que apretar la barra de ESPACIO. Además, dentro de los chiches inútiles, está el catastro de todas las letras representado por unos pequeños gráficos de barra de 1 pixel para ir contando cuantas veces cada letra es utilizada. Como ya dije, no tiene mayor utilidad; sólo lo hice para ver si la función &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;random()&lt;/code&gt; que elige las letras es realmente aleatoria. La letra ‘ñ’ fue eliminada a propósito. Bueno… como no le tengo mucha fe a este programa (que es enfermo de nerd) Acepto feliz cualquier tipo de sugerencia para el nombre de la beba. Gracias y que disfruten de este útil programa. Se me olvidaba: &lt;strong&gt;es muy importante&lt;/strong&gt; salir del programa presionando la letra &lt;strong&gt;Q&lt;/strong&gt; , de otro modo, el archivo de texto quedará mal cerrado… detalles… ; )&lt;/p&gt;
 
     </content>
   </entry>

@@ -1,4 +1,4 @@
-@use 'variables'as vars;
+@use "variables" as vars;
 
 body {
     background-color: vars.$color-body-bg;
@@ -83,7 +83,7 @@ header {
 
 #dp {
     background-color: vars.$color-dp-bg;
-    background: url('/assets/css/spine.svg'), vars.$page-gradient;
+    background: url("/assets/css/spine.svg"), vars.$page-gradient;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -91,7 +91,7 @@ header {
     border-radius: 0.78ex;
     box-shadow: 0 0 10px #00000022;
 
-    >* {
+    > * {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
         // outline: 1px dashed vars.$color-soft-line;
@@ -106,8 +106,6 @@ header {
         text-decoration: none;
         color: vars.$color-link;
     }
-
-
 
     sidebar {
         position: relative;
@@ -165,10 +163,10 @@ header {
             font-size: 80%;
             color: vars.$color-title;
         }
-      
+
         h5 {
             text-transform: uppercase;
-            letter-spacing: .08ex;
+            letter-spacing: 0.08ex;
             font-weight: 500;
         }
 
@@ -196,7 +194,7 @@ header {
 
         img {
             margin: 0 auto;
-            border-radius: .333ex;
+            border-radius: 0.333ex;
         }
 
         p {
@@ -215,7 +213,7 @@ header {
                 }
             }
 
-            >img:only-child {
+            > img:only-child {
                 display: block;
                 margin: 0 auto;
             }
@@ -282,17 +280,39 @@ header {
             grid-template-rows: masonry;
             gap: 1rem;
 
-            a {
+            a.post-item {
+                position: relative;
                 display: inline-block;
+                transition: all 1s ease;
+                outline: 0.111ex solid rgba(255, 255, 255, 0);
 
                 &:hover {
-                    border-radius: .5ex;
-                    background-color: white;
-                    outline: .5ex solid white;
+                    border-radius: 0.5ex;
+                    outline: 1ex solid white;
+                    .image-overlay{
+                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+                    }
                 }
 
-                img {
-                    border-radius: 3px;
+                .image-container {
+                    position: relative;
+                    height: 10em;
+                    overflow: hidden;
+                    img {
+                        border-radius: 3px;
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .image-overlay {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 85%, vars.$color-dp-bg);
                 }
             }
 
@@ -316,7 +336,6 @@ header {
         }
 
         .center-poem {
-
             h2,
             h3 {
                 text-align: center;
@@ -353,19 +372,19 @@ header {
         }
     }
 
-    #categorias{
+    #categorias {
         font-family: vars.$font-sans;
         font-size: 1rem;
         margin: 2.5em 0 0 0;
         text-align: center;
         scale: 70%;
-        div{
+        div {
             display: inline-block;
-            label{
+            label {
                 display: inline-block;
                 text-transform: uppercase;
                 padding: 1ex 1em;
-                span{
+                span {
                     display: inline-block;
                     font-weight: 600;
                     margin: 0 0 0 1ex;
@@ -402,7 +421,7 @@ header {
 }
 
 #mt-container {
-    font-size: .85em;
+    font-size: 0.85em;
     border-radius: 1.5ex;
     filter: brightness(0.53) contrast(1.1) invert(1);
     max-height: 62em;
@@ -417,7 +436,9 @@ header {
         border-bottom: 1px dashed #ccc;
     }
 
-    .mt-header{font-size: 65%;   }
+    .mt-header {
+        font-size: 65%;
+    }
     .mt-header,
     .mt-footer {
         display: none; // oculta avatar, fecha, botones, etc.
@@ -455,7 +476,6 @@ footer {
     }
 }
 
-
 .paginacion {
     display: flex;
     justify-content: center;
@@ -464,7 +484,8 @@ footer {
     font-family: vars.$font-sans;
     width: 100%;
 
-    a, span {
+    a,
+    span {
         min-width: 32px;
         height: 32px;
         border-radius: 50%;
@@ -487,7 +508,6 @@ footer {
         cursor: default;
     }
 }
-
 
 .axis-table {
     font-family: vars.$font-sans;
@@ -538,7 +558,7 @@ footer {
         h4 {
             font-family: vars.$font-sans;
             font-weight: 500;
-            font-size: .65rem;
+            font-size: 0.65rem;
             color: vars.$color-title;
             text-transform: uppercase;
         }
@@ -551,7 +571,7 @@ footer {
     .modal-cerrar {
         color: vars.$color-text;
         position: absolute;
-        top: .5rem;
+        top: 0.5rem;
         right: 1rem;
         font-size: 1.5rem;
         font-weight: bold;
@@ -564,17 +584,17 @@ footer {
 }
 
 .video-container {
-    position: relative; 
-    padding-bottom: 56.25%; 
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; 
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
 
     iframe {
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        height: 100%; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }

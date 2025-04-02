@@ -5,6 +5,8 @@ permalink: /2010/06/disenar-un-servicio/
 title: "Diseñar un Servicio"
 date: 2010-06-16 18:24:47 -0000
 last_modified_at: 2010-06-16 18:24:47 -0000
+image:
+  path: /assets/pintura/01.png
 publish: true
 categories:
 - escuela
@@ -17,7 +19,10 @@ tags:
 - "Observación"
 - "Respresentación"
 - Servicio de Salud
+image:
+  path: /assets/pintura/07.png
 ---
+
 **Jueves 10 de Junio de 2010 Exámen de los talleres de 6ª y 7ª Etapa de Diseño Gráfico, Cuarto año.** Este taller aborda un campo de diseño llamado “diseño de servicios”. En este campo, la atención se pone en la relación de los objetos de diseño; cómo, siendo reunidos y orquestados a la luz de un servicio, construyen como tiempo y una experiencia para las personas que los viven. Es decir, trata la misma materia (editorial, señalética, interfaz, etc) pero construye una mirada distinta sobre ella, pues se trata de un diseño de segundo orden. Al enfocarse en el diseño de una sistema es preciso enfocarse en aspectos más inmateriales y emergentes (como la comunicación dentro y fuera de él, la transparencia de sus procesos, la hospitalidad de su lenguaje, el tono de su lenguaje, sus relaciones, las percepciones y lecturas que desde él emergen, etc.), cuidando siempre de construir, directa o indirectamente, la experiencia de las personas que lo viven y padecen cuando lo recorren.
 
 Esta ocasión abordamos, junto a Dámaris Sepúlveda (quien trabajó como ayudante del taller), el caso del Sistema Nacional de Servicios de Salud; tema que además ocupa [su titulación](http://wiki.ead.pucv.cl/index.php/Servicio_de_Salud).

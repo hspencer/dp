@@ -448,12 +448,6 @@
             },
           
             {
-              title: "buscando un nombre", 
-              url: "/2008/02/buscando-un-nombre/",
-              length: 371
-            },
-          
-            {
               title: "Para qué investigamos con usuarios", 
               url: "/2008/02/para-que-investigamos-con-usuarios/",
               length: 361
@@ -631,109 +625,120 @@
   const lastPostsContainer = document.getElementById('last-posts');
   const pagination = document.getElementById('paginacion');
 
+
   async function loadPosts() {
-    try {
-      const response = await fetch('/feed.json');
-      const data = await response.json();
-      if (data) {
-        const posts = data;
-        const totalPages = Math.ceil(posts.length / itemsPerPage);
+  try {
+    const response = await fetch('/feed.json');
+    const data = await response.json();
+    if (data) {
+      const posts = data;
+      const totalPages = Math.ceil(posts.length / itemsPerPage);
 
-        function showPage(page) {
-          lastPostsContainer.innerHTML = '';
-          const startIndex = page * itemsPerPage;
-          const endIndex = startIndex + itemsPerPage;
+      function showPage(page) {
+        lastPostsContainer.innerHTML = '';
+        const startIndex = page * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
 
-          for (let i = startIndex; i < endIndex && i < posts.length; i++) {
-            const post = posts[i];
-            const postItem = document.createElement('a');
-            postItem.href = post.url;
-            postItem.className = 'post-item';
+        for (let i = startIndex; i < endIndex && i < posts.length; i++) {
+          const post = posts[i];
+          const postItem = document.createElement('a');
+          postItem.href = post.url;
+          postItem.className = 'post-item';
 
-            if (post.imagen) { // Corrección: post.imagen en lugar de post.image
-              const img = document.createElement('img');
-              img.src = post.imagen; // Corrección: post.imagen en lugar de post.image
-              img.alt = post.titulo;
-              postItem.appendChild(img);
-            }
+          const imageContainer = document.createElement('div');
+          imageContainer.className = 'image-container';
 
-            const h2 = document.createElement('h2');
-            h2.textContent = post.titulo;
-            postItem.appendChild(h2);
+          if (post.imagen) {
+            const img = document.createElement('img');
+            img.src = post.imagen;
+            img.alt = post.titulo;
+            imageContainer.appendChild(img);
 
-            const p = document.createElement('p');
-            if (post.contenido) {
-                p.textContent = post.contenido.substring(0, 200);
-            } else if (post.excerpt) {
-              p.textContent = post.excerpt.substring(0,200);
-            }
-            postItem.appendChild(p);
-
-            lastPostsContainer.appendChild(postItem);
+            const imageOverlay = document.createElement('div');
+            imageOverlay.className = 'image-overlay';
+            imageContainer.appendChild(imageOverlay);
           }
 
-          renderPagination(page);
+          postItem.appendChild(imageContainer);
+
+          const h2 = document.createElement('h2');
+          h2.textContent = post.titulo;
+          postItem.appendChild(h2);
+
+          const p = document.createElement('p');
+          if (post.contenido) {
+            p.textContent = post.contenido.substring(0, 200);
+          } else if (post.excerpt) {
+            p.textContent = post.excerpt.substring(0, 200);
+          }
+          postItem.appendChild(p);
+
+          lastPostsContainer.appendChild(postItem);
         }
 
-        function getPages(current, total, max) {
-          if (total <= max) {
-            return [...Array(total).keys()];
-          }
-          const pages = [0];
-          const lastPage = total - 1;
-          let start = Math.max(current - Math.floor(max / 2), 1);
-          let end = Math.min(start + max - 3, lastPage - 1);
-
-          if (start > 1) {
-            pages.push('…');
-          }
-
-          for (let i = start; i <= end; i++) {
-            pages.push(i);
-          }
-
-          if (end < lastPage - 1) {
-            pages.push('…');
-          }
-
-          pages.push(lastPage);
-          return pages;
-        }
-
-        function renderPagination(current) {
-          pagination.innerHTML = '';
-          const pages = getPages(current, totalPages, maxVisiblePages);
-          pages.forEach(p => {
-            if (p === '…') {
-              const span = document.createElement('span');
-              span.textContent = '…';
-              pagination.appendChild(span);
-            } else {
-              const link = document.createElement(p === current ? 'span' : 'a');
-              link.className = p === current ? 'actual' : '';
-              link.href = '#';
-              link.textContent = p + 1;
-              link.onclick = e => {
-                e.preventDefault();
-                showPage(p);
-              };
-              pagination.appendChild(link);
-            }
-          });
-        }
-
-        showPage(0);
-      } else {
-        console.error("Error al cargar o parsear feed.json.");
-        lastPostsContainer.innerHTML = '<p>Error: No se pudieron cargar los posts.</p>';
+        renderPagination(page); // Llamada a renderPagination aquí
       }
-    } catch (error) {
-      console.error('Error al cargar feed.json:', error);
-      lastPostsContainer.innerHTML = '<p>Error al cargar los posts.</p>';
-    }
-  }
 
-  loadPosts();
+      function getPages(current, total, max) {
+        if (total <= max) {
+          return [...Array(total).keys()];
+        }
+        const pages = [0];
+        const lastPage = total - 1;
+        let start = Math.max(current - Math.floor(max / 2), 1);
+        let end = Math.min(start + max - 3, lastPage - 1);
+
+        if (start > 1) {
+          pages.push('…');
+        }
+
+        for (let i = start; i <= end; i++) {
+          pages.push(i);
+        }
+
+        if (end < lastPage - 1) {
+          pages.push('…');
+        }
+
+        pages.push(lastPage);
+        return pages;
+      }
+
+      function renderPagination(current) {
+        pagination.innerHTML = '';
+        const pages = getPages(current, totalPages, maxVisiblePages);
+        pages.forEach(p => {
+          if (p === '…') {
+            const span = document.createElement('span');
+            span.textContent = '…';
+            pagination.appendChild(span);
+          } else {
+            const link = document.createElement(p === current ? 'span' : 'a');
+            link.className = p === current ? 'actual' : '';
+            link.href = '#';
+            link.textContent = p + 1;
+            link.onclick = e => {
+              e.preventDefault();
+              showPage(p);
+            };
+            pagination.appendChild(link);
+          }
+        });
+      }
+
+      showPage(0);
+    } else {
+      console.error("Error al cargar o parsear feed.json.");
+      lastPostsContainer.innerHTML = '<p>Error: No se pudieron cargar los posts.</p>';
+    }
+  } catch (error) {
+    console.error('Error al cargar feed.json:', error);
+    lastPostsContainer.innerHTML = '<p>Error al cargar los posts.</p>';
+  }
+}
+
+loadPosts();
+
 </script>
             
 

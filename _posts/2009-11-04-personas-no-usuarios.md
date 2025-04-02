@@ -14,6 +14,8 @@ tags:
 - "Diseño Web"
 - Internet
 - web
+image:
+  path: /assets/pintura/03.jpg
 ---
 [![Bandada de estorninos](http://www.ead.pucv.cl/wp-content/archivos/2009/10/estorninos.jpg)](http://www.ead.pucv.cl/wp-content/archivos/2009/10/estorninos.jpg "Bandada de estorninos")
 

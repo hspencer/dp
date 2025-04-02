@@ -406,7 +406,7 @@
     "categorias": ["notas"],
     "etiquetas": ["diseño","teoría"],
     "imagen":  
-                  "/assets/uploads/2011/10/stmaryplate2big1.jpg"
+                  "/assets/pintura/04.jpg"
                ,
     "url": "/2011/10/un-buen-diseno/",
     "largo": 4476,
@@ -422,7 +422,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño","Diseño Gráfico","integración","mapa","metadiseño","modelo"],
     "imagen":  
-                  " "
+                  "/assets/pintura/02.jpg"
                ,
     "url": "/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/",
     "largo": 3089,
@@ -438,7 +438,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Agenda","Ciudad Abierta","seminario"],
     "imagen":  
-                  " "
+                  "/assets/pintura/09.png"
                ,
     "url": "/2011/01/seminario-ciudad-abierta/",
     "largo": 674,
@@ -470,7 +470,7 @@
     "categorias": ["code"],
     "etiquetas": ["catástrofe","concepto","ilustración","mesh","network","processing.js","red mesh"],
     "imagen":  
-                  " "
+                  "/assets/pintura/20.jpg"
                ,
     "url": "/2010/11/mesh-network/",
     "largo": 4246,
@@ -486,7 +486,7 @@
     "categorias": ["notas"],
     "etiquetas": ["bien público","free Internet","Internet","MediaFranca","public good","social capital"],
     "imagen":  
-                  " "
+                  "/assets/pintura/05.png"
                ,
     "url": "/2010/10/internet-como-bien-publico/",
     "largo": 5324,
@@ -518,7 +518,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño","diseño de servicios","Diseño Gráfico","lenguaje","Modelos Visuales","Observación","Respresentación","Servicio de Salud"],
     "imagen":  
-                  " "
+                  "/assets/pintura/07.png"
                ,
     "url": "/2010/06/disenar-un-servicio/",
     "largo": 8390,
@@ -614,7 +614,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["Difusión","diseño de servicios","Diseño Web","Internet","web"],
     "imagen":  
-                  " "
+                  "/assets/pintura/03.jpg"
                ,
     "url": "/2009/11/personas-no-usuarios/",
     "largo": 1266,
@@ -630,7 +630,7 @@
     "categorias": ["notas"],
     "etiquetas": ["diseño","ethics"],
     "imagen":  
-                  " "
+                  "/assets/pintura/16.jpg"
                ,
     "url": "/2009/09/etica-2-0/",
     "largo": 2329,
@@ -662,7 +662,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño de interacción","Diseño de Interfaz","diseño de servicios","Diseño Gráfico","Gráfica Digital"],
     "imagen":  
-                  " "
+                  "/assets/pintura/05.png"
                ,
     "url": "/2009/08/presentacion-de-proyectos-de-grafica-digital/",
     "largo": 1205,
@@ -1089,22 +1089,6 @@
   },
 
   {
-    "fecha": "2008-02-28T17:17:03+13:00",
-    "titulo": "buscando un nombre",
-    "categorias": ["code"],
-    "etiquetas": ["processing","tool"],
-    "imagen":  
-                  " "
-               ,
-    "url": "/2008/02/buscando-un-nombre/",
-    "largo": 1941,
-    "contenido":
-      
-        "En muy poco tiempo más seré nuevamente padre, esta vez de una niña. El problema es que no se nos ocurre qué nombre ponerle. Hemos buscado miles, pero mi decepción fue mayor al ver que todos mis esfuerzos creativos no eran más que el lugar común que todos transitan. Entonces se me ocurrió que podría tener un nombre inventado, nuevo. Para eso hice un programa llamado nameGenerator que genera nombres a partir de distintos patrones de consonates y vocales:  nameGenerator para Mac  nameGenerator para Linux  nameGenerator para WindowsInstruccionesEste programa se maneja con el teclado (No tuve el tiempo ni la dedicación para esmerarme en una interfaz más amistosa, pero el teclado funciona bien). Para generar un nombre nuevo, hay que apretar cualquier número, 0 inclusive. Cada uno de los números representa un patrón de consonantes y vocales distinto. Arriba, al medio dice que patrón se está utilizando. Por ejemplo: “C V V C V” (‘C’ para consonante y ‘V’ para vocal) podría arrojar “paula”. Dentro de la carpeta del..."
-      
-  },
-
-  {
     "fecha": "2008-02-28T16:41:38+13:00",
     "titulo": "Para qué investigamos con usuarios",
     "categorias": ["investigación"],
@@ -1270,7 +1254,7 @@
     "categorias": ["code"],
     "etiquetas": ["interpolación","letras","processing","tipografía"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2006/10/flex.png"
                ,
     "url": "/2006/10/flex-typeface/",
     "largo": 971,
@@ -1302,7 +1286,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño gráfico"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2005/08/estrofas.png"
                ,
     "url": "/2005/08/disenando-con-estrofas/",
     "largo": 2699,

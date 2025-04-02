@@ -6,6 +6,8 @@ title: 4 orientaciones 4 discursos 4 cabezas 4 corazones
 date: 2011-06-06 17:41:05 -0000
 last_modified_at: 2017-02-26 18:27:26 -0000
 publish: true
+image:
+  path: /assets/pintura/02.jpg
 categories:
 - escuela
 tags:
