@@ -373,9 +373,10 @@ header {
     }
 
     #categorias {
+        position: absolute;
+        bottom: 0;
         font-family: vars.$font-sans;
         font-size: 1rem;
-        margin: 2.5em 0 0 0;
         text-align: center;
         scale: 70%;
         div {

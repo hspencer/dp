@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-02T18:51:07+13:00</updated>
+  <updated>2025-04-02T19:25:56+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -39,7 +39,7 @@
 
 &lt;h3 id=&quot;iii-la-negación-del-espacio-como-entorno-cerrado&quot;&gt;III. La negación del espacio como entorno cerrado&lt;/h3&gt;
 
-&lt;p&gt;A partir de 2010, comienza la captura((La explotación del timeline como espacio individual, sin la inersubjetividad de lo común compartido, las apps como canales de consumo y cerebro TikTok.)). El artículo “The Web is Dead. Long Live the Internet”((&lt;a href=&quot;https://www.wired.com/2010/08/ff-webrip/&quot;&gt;The Web is Dead. Long Live the Internet&lt;/a&gt; es lamentablemente un artículo de pago. Filo con Wired.)) identificó un cambio estructural: el tráfico HTTP comenzaba a declinar frente al uso de apps. Ya no navegamos: apretamos botones grandes &lt;em&gt;eye candy&lt;/em&gt;. Se impone una lógica de plataformas cerradas, controladas por corporaciones, donde el contenido ya no es indexado por buscadores ni accesible mediante enlaces abiertos.&lt;/p&gt;
+&lt;p&gt;A partir de 2010, comienza la captura((La explotación del timeline como espacio individual, sin la intersubjetividad de lo común compartido, las apps como canales de consumo y cerebro TikTok.)). El artículo “The Web is Dead. Long Live the Internet”((&lt;a href=&quot;https://www.wired.com/2010/08/ff-webrip/&quot;&gt;The Web is Dead. Long Live the Internet&lt;/a&gt; es lamentablemente un artículo de pago. Filo con Wired.)) identificó un cambio estructural: el tráfico HTTP comenzaba a declinar frente al uso de apps. Ya no navegamos: apretamos botones grandes &lt;em&gt;eye candy&lt;/em&gt;. Se impone una lógica de plataformas cerradas, controladas por corporaciones, donde el contenido ya no es indexado por buscadores ni accesible mediante enlaces abiertos.&lt;/p&gt;
 
 &lt;p&gt;El “feed” es sustituido por el “timeline”: una secuencia opaca, infinita, personalizada por un algoritmo que no puedes inspeccionar ni controlar. Las plataformas seleccionan lo que ves para maximizar tu retención y monetizar tu atención. Tu subjetividad es ahora materia prima.&lt;/p&gt;
 
@@ -2624,30 +2624,6 @@ La secuencia concluye volviendo a la grilla original con el objeto de revelar la
   </entry>
   
   <entry>
-    <title>Voluntarios para IV Seminario de AI</title>
-    <link href="http://0.0.0.0:4000/2008/08/voluntarios-para-iv-seminario-de-ai/"/>
-    <updated>2008-08-27T04:09:15+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/08/voluntarios-para-iv-seminario-de-ai</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/08/afiche-iv-seminario-ai.jpg&quot; title=&quot;Afiche del IV Seminario de Arquitectura de la Información 2008&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/08/afiche-iv-seminario-ai-605x391.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;La organización del &lt;a href=&quot;http://www.ead.pucv.cl/2008/iv-seminario-chileno-de-ia/&quot; title=&quot;Página de invitación al Seminario&quot;&gt;IV Seminario Chileno de Arquitectura de la Información&lt;/a&gt; requiere de voluntarios para ayudar en labores de coordinación y diseño. Dentro de las faenas que involucran la organización se distinguen:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Registro y orientación de asistentes&lt;/li&gt;
-  &lt;li&gt;Diseño del acta del seminario (pequeña edición con los papers y presentaciones)&lt;/li&gt;
-  &lt;li&gt;Apoyo y difusión en los distintos medios&lt;/li&gt;
-  &lt;li&gt;Preparación de la sala y montaje de los posters&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Los alumnos que estén interesados en participar de la organización, por favor completar el formulario de contacto que aparece a continuación. Se agradece de antemano su interés.&lt;/p&gt;
-
-&lt;p&gt;[contact-form-7]&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
     <title>IV Seminario Chileno de AI</title>
     <link href="http://0.0.0.0:4000/2008/08/iv-seminario-chileno-de-ai/"/>
     <updated>2008-08-25T12:57:01+12:00</updated>
@@ -2663,92 +2639,6 @@ La secuencia concluye volviendo a la grilla original con el objeto de revelar la
 &lt;p&gt;Es por eso que &lt;strong&gt;AI&lt;/strong&gt; y &lt;strong&gt;Diseño de Experiencia&lt;/strong&gt; son disciplinas hermanas que se ocupan de distintas fases del mismo problema. Espero que estos temas y discusiones nos acompañen en el seminario, la idea es formalizar lo que realizamos en Chile para fortalecer nuestra discusión y alimentar nuestro espíritu crítico. Debemos dejarnos de ser meros consumidores para darnos cuenta de nuestra verdadera capacidad de reinventar el mundo. &lt;a href=&quot;http://www.aichile.org&quot; title=&quot;Visita www.aichile.org&quot;&gt;IV Seminario sobre Arquitectura de la&lt;/a&gt; &lt;a href=&quot;http://www.aichile.org/botones/&quot; title=&quot;Botones HTML para promocionar el seminario&quot;&gt;ayúdanos a difundir el seminario&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>IV Seminario Chileno de IA</title>
-    <link href="http://0.0.0.0:4000/2008/08/iv-seminario-chileno-de-ia/"/>
-    <updated>2008-08-23T05:16:12+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/08/iv-seminario-chileno-de-ia</id>
-    <content type="html">
-      &lt;p&gt;Los días &lt;strong&gt;viernes 3&lt;/strong&gt; en Viña del Mar y &lt;strong&gt;sábado 4&lt;/strong&gt; de octubre en Santiago, tendrá lugar el Cuarto Seminario Chileno de Arquitectura de Información, que reunirá a los principales exponentes nacionales de esta disciplina. La entrada es liberada, &lt;a href=&quot;http://www.aichile.org/&quot; title=&quot;Regístrate en AI Chile&quot;&gt;previo registro&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Viernes 3 de Octubre&lt;/strong&gt; , Viña del Mar.&lt;br /&gt;
-e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso.&lt;br /&gt;
-Matta 12, Cerro Recreo.&lt;br /&gt;
-Viña del Mar. Sala Tronquoy.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Sábado 4 de Octubre&lt;/strong&gt; , Auditorio Facultad de Comunicaciones Pontificia Universidad Católica de Chile&lt;br /&gt;
-Alameda 340&lt;br /&gt;
-Santiago.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Nuestra escuela hospedará el primer día del seminario (Viernes 3 de Octubre), que tendrá un carácter académico, con la presentación de &lt;em&gt;papers&lt;/em&gt; y &lt;em&gt;posters&lt;/em&gt; relacionados con el diseño de experiencia y la arquitectura de la información. Si quieres participar, &lt;a href=&quot;http://www.aichile.org/seminario-2008/convocatoria-papers-y-posters/&quot; title=&quot;¿Cómo participar?&quot;&gt;infórmate de cómo hacerlo&lt;/a&gt;. También puedes &lt;a href=&quot;http://www.aichile.org/botones/&quot; title=&quot;Publica nuestros botones en tu blog&quot;&gt;ayudar a difundir el seminario&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;fechas-importantes&quot;&gt;Fechas Importantes&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Envío de los Papers &lt;strong&gt;20 de Septiembre&lt;/strong&gt; de 2008&lt;/li&gt;
-  &lt;li&gt;Notificación de Aceptación &lt;strong&gt;27 de Septiembre&lt;/strong&gt; de 2008&lt;/li&gt;
-  &lt;li&gt;Entrega de Presentación / Poster &lt;strong&gt;30 de Septiembre&lt;/strong&gt; de 2008&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;temas-sugeridos-para-ser-abordados-en-los-papers&quot;&gt;Temas Sugeridos para ser Abordados en los Papers&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Interfaces de usuario&lt;/li&gt;
-  &lt;li&gt;Aplicaciones Ricas de Internet&lt;/li&gt;
-  &lt;li&gt;Aplicaciones de Internet móvil&lt;/li&gt;
-  &lt;li&gt;Encontrabilidad de contenidos&lt;/li&gt;
-  &lt;li&gt;Comunidades basadas en web&lt;/li&gt;
-  &lt;li&gt;Redes Sociales&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;organizadores&quot;&gt;Organizadores&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;AIChile: &lt;a href=&quot;http://www.aichile.org/&quot;&gt;http://www.aichile.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Cadius Chile: &lt;a href=&quot;http://www.lacoctelera.com/cadiuschile&quot;&gt;http://www.lacoctelera.com/cadiuschile&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;e[ad]Escuela de Arquitectura y Diseño – PUCV: &lt;a href=&quot;http://www.ead.pucv.cl/&quot;&gt;http://www.ead.pucv.cl/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;revisores-de-papers&quot;&gt;Revisores de Papers&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.mcmarcos.com/&quot; title=&quot;Sitio Personal&quot;&gt;Mari-Carmen Marcos&lt;/a&gt;, España&lt;/strong&gt;&lt;br /&gt;
-Doctora en Documentación, Profesora en la Universidad Pompeu Fabra de Barcelona.&lt;br /&gt;
-Coordina el Máster Online en Documentación Digital y el Máster en Buscadores.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://ergonomic.wordpress.com/&quot; title=&quot;Sitio Personal&quot;&gt;Cristóbal Cobo&lt;/a&gt;, México&lt;/strong&gt;&lt;br /&gt;
-Coordinador académico del programa “From Information to Innovative Knowledge: Tools and Skills for Adaptive Leadership” de la Universidad de Minnesota y FLACSO-México&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://fcom.altavoz.net/prontus_fcom/site/artic/20040402/pags/20040402204041.html&quot; title=&quot;Sitio del Profesor Francisco Fernández&quot;&gt;Francisco Fernández&lt;/a&gt;, **&lt;/strong&gt;Chile**&lt;br /&gt;
-Profesor Escuela de Periodismo UC, Magíster en Comunicación y Educación, Universidad Autónoma de Barcelona, 1997, Magíster en Periodismo y Ciencias de la Comunicación, Universidad Autónoma de Barcelona, Doctor en Periodismo y Ciencias de la Comunicación, Universidad Autónoma de Barcelona&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.herbertspencer.net/&quot; title=&quot;Sitio Personal&quot;&gt;Herbert Spencer&lt;/a&gt;, Chile&lt;/strong&gt;&lt;br /&gt;
-MDes Interaction Design, CMU. Profesor de diseño en la e[ad] Escuela de Arquitectura y Diseño de la Pontificia Universidad Católica de Valparaíso.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;patrocina&quot;&gt;Patrocina&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cadius Chile: &lt;a href=&quot;http://www.lacoctelera.com/cadiuschile&quot;&gt;http://www.lacoctelera.com/cadiuschile&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Instituto de Arquitectura de Información &lt;a href=&quot;http://www.iainstitute.org/&quot; title=&quot;Asilomar Institute of Information Architecture&quot;&gt;http://www.iainstitute.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Apoya&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Facultad de Comunicaciones&lt;br /&gt;
-Pontificia Universidad Católica de Chile&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;auspicia&quot;&gt;Auspicia&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;AyerViernes (&lt;a href=&quot;http://www.ayerviernes.com/&quot; title=&quot;Sitio \(av\)&quot;&gt;www.ayerviernes.com&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/09/afiches-iv-seminario-ai-ead.jpg&quot; title=&quot;Afiche IV Seminario Chileno de AI \(1 de 450\)&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/09/afiches-iv-seminario-ai-ead.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
     </content>
   </entry>
@@ -3308,9 +3198,7 @@ para que haya pueblo?&lt;/p&gt;
     <updated>2007-05-30T03:32:59+12:00</updated>
     <id>http://0.0.0.0:4000/2007/05/civilscope</id>
     <content type="html">
-      &lt;p&gt;&lt;img src=&quot;http://www.herbertspencer.net/wp/wp-content/uploads/2007/05/square-logo.gif&quot; alt=&quot;Civilscope Logo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;La idea de &lt;a href=&quot;http://www.civilscope.org/&quot;&gt;este proyecto&lt;/a&gt; es mostrar de manera fácil y ní­tida las capas y fronteras cí­vicas en las cuales estamos inmersos. Civilscope es un servicio web que, a partir de una dirección determinada, mapea todas las divisiones, distritos y circunscripciones que la rigen. Este servicio funciona solamente para la gente de Chicago porque opera sobre la API de &lt;a href=&quot;http://www.civicfootprint.org/&quot;&gt;Civic Footprint&lt;/a&gt;, una iniciativa del &lt;a href=&quot;http://www.cnt.org/&quot;&gt;Center for Neighborhood Technology&lt;/a&gt; de Chicago. Pienso que tener algo así­ en Chile serí­a buení­simo para poder transparentar en algo las oscuras y arcanas fronteras polí­ticas que nos gobiernan. En parte por eso me entusiasmé cuando &lt;a href=&quot;http://www.currentform.com/&quot;&gt;Simon&lt;/a&gt; me propuso la idea; para poderlo mostrar como ejemplo y poder desarrollar algo así­ para nosotros. De hecho, nuestra estructura es bastante más sencilla, con menos capas y jerarquí­as traslapadas. Particularmente en Chicago existen distritos verdaderamente extraí±os en cuanto figura. Esto se debe a una práctica de distritage llamada “gerrymandering”. En el sistema norteamericano los votantes son divididos por distritos. Lo que cuenta al final no es la cantidad total de votos sino la cantidad de distritos en los que tal o cual candidato ha ganado. Esto lleva a practicar estrategias de “pack &amp;amp; crack”, es decir, agrupar a la oposición y concentrarla lo más posible en un distrito para que arrase, pero para que pierda por poco en todas las demás. Esta práctica de redibujar los distritos ocurre cada vez que hay alternancia en el poder, para perjudicar a la opsición. Cada dí­a esta operación se vuelve más sofisticada ya que se ocupan programas computacionales para redibujar los distritos basados en los registros de votantes. Es por eso que herramientas como esta permiten transparentar en algo estas prácticas. &lt;a href=&quot;http://www.civilscope.org/&quot;&gt;http://www.civilscope.org/&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;La idea de &lt;a href=&quot;http://www.civilscope.org/&quot;&gt;este proyecto&lt;/a&gt; es mostrar de manera fácil y ní­tida las capas y fronteras cí­vicas en las cuales estamos inmersos. Civilscope es un servicio web que, a partir de una dirección determinada, mapea todas las divisiones, distritos y circunscripciones que la rigen. Este servicio funciona solamente para la gente de Chicago porque opera sobre la API de &lt;a href=&quot;http://www.civicfootprint.org/&quot;&gt;Civic Footprint&lt;/a&gt;, una iniciativa del &lt;a href=&quot;http://www.cnt.org/&quot;&gt;Center for Neighborhood Technology&lt;/a&gt; de Chicago. Pienso que tener algo así­ en Chile serí­a buení­simo para poder transparentar en algo las oscuras y arcanas fronteras polí­ticas que nos gobiernan. En parte por eso me entusiasmé cuando &lt;a href=&quot;http://www.currentform.com/&quot;&gt;Simon&lt;/a&gt; me propuso la idea; para poderlo mostrar como ejemplo y poder desarrollar algo así­ para nosotros. De hecho, nuestra estructura es bastante más sencilla, con menos capas y jerarquí­as traslapadas. Particularmente en Chicago existen distritos verdaderamente extraí±os en cuanto figura. Esto se debe a una práctica de distritage llamada “gerrymandering”. En el sistema norteamericano los votantes son divididos por distritos. Lo que cuenta al final no es la cantidad total de votos sino la cantidad de distritos en los que tal o cual candidato ha ganado. Esto lleva a practicar estrategias de “pack &amp;amp; crack”, es decir, agrupar a la oposición y concentrarla lo más posible en un distrito para que arrase, pero para que pierda por poco en todas las demás. Esta práctica de redibujar los distritos ocurre cada vez que hay alternancia en el poder, para perjudicar a la opsición. Cada dí­a esta operación se vuelve más sofisticada ya que se ocupan programas computacionales para redibujar los distritos basados en los registros de votantes. Es por eso que herramientas como esta permiten transparentar en algo estas prácticas. &lt;a href=&quot;http://www.civilscope.org/&quot;&gt;http://www.civilscope.org/&lt;/a&gt;&lt;/p&gt;
 
     </content>
   </entry>
@@ -3445,92 +3333,12 @@ Multiplicación de Matrices:
     <updated>2006-10-30T04:34:24+13:00</updated>
     <id>http://0.0.0.0:4000/2006/10/2x2x2</id>
     <content type="html">
-      &lt;p&gt;Los arreglos &lt;strong&gt;2x2&lt;/strong&gt; son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje &lt;strong&gt;X&lt;/strong&gt; puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje &lt;strong&gt;Y&lt;/strong&gt; puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”. A partir de esta “cancha” podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar “rolls”, etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo privado como la participación en la generación de contenidos. Imagino que para poder construir una buen modelo 2x2 hay que validar las impresiones personales en una discusión grupal, calibrando todas estas ubicaciones para dejarlas lo menos arbitrarias posibles. &lt;a href=&quot;http://www.maya.com/web/how/how_expertanalysis.mtml&quot;&gt;Aquí­&lt;/a&gt; hay un ejemplo que encontré (no es muy bueno pero sirve para que entiendan la idea) y &lt;a href=&quot;http://www.herbertspencer.net/thesis/images/c/c5/2x2_opportunity.jpg&quot;&gt;aquí­&lt;/a&gt; hay otro que hice yo, para identificar un área de oportunidad para un proyecto especí­fico. Normalmente la información representada en estos modelos es de naturaleza cualitativa y está sujeta a la percepción del diseñador en el sentido de la exactitud de su ubicación. En el fondo corresponde a un profundo proceso de sí­ntesis y el arreglo bidimensional (2x2) resultante permite identificar oportunidades para diseñar en áreas no exploradas por los productos existentes (esto se aplica al ejemplo particular que estoy dando, pero pueden ser utilizados para otra cosa, por cierto). Lo que hice aquí­ es un experimento en &lt;a href=&quot;http://www.processing.org&quot;&gt;processing&lt;/a&gt; que construye un 2x2x2. Se trata de un intento de construir una relación entre 3 dimensiones semánticas y permitir la construcción de un modelo que sea consistente con las tres simultáneamente. El hecho de que la secuencia entre las distintas vistas (x,y), (y,z), (x,z), etc. esté animada, constituye la clave cognitiva para que el lector pueda hacer el puente entre cada una de ellas. Este ejemplo no representa ninguna relación en particular, tan sólo se trata de puntos dispuestos al azar (en una función de ruido espefí­cicamente); la idea es comprobar si una representación de esta naturaleza ofrece la coherencia y legibilidad necesaria como para construir un argumento a partir de ella. A disposición de ustedes les dejo el código para que jueguen. &lt;a href=&quot;http://www.herbertspencer.net/processing/conceptual_models/&quot; title=&quot;modelos conceptuales para los diversos modos de actividad física&quot;&gt;Aquí también hay un ejemplo aplicado&lt;/a&gt;. ``&lt;/p&gt;
+      &lt;p&gt;Los arreglos &lt;strong&gt;2x2&lt;/strong&gt; son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje &lt;strong&gt;X&lt;/strong&gt; puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje &lt;strong&gt;Y&lt;/strong&gt; puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// navigate with keys 1..6
-// press SPACE to regenerate the from
+&lt;p&gt;A partir de esta “cancha” podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar “rolls”, etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo privado como la participación en la generación de contenidos. Imagino que para poder construir una buen modelo 2x2 hay que validar las impresiones personales en una discusión grupal, calibrando todas estas ubicaciones para dejarlas lo menos arbitrarias posibles. &lt;a href=&quot;http://www.maya.com/web/how/how_expertanalysis.mtml&quot;&gt;Aquí­&lt;/a&gt; hay un ejemplo que encontré (no es muy bueno pero sirve para que entiendan la idea) y &lt;a href=&quot;http://www.herbertspencer.net/thesis/images/c/c5/2x2_opportunity.jpg&quot;&gt;aquí­&lt;/a&gt; hay otro que hice yo, para identificar un área de oportunidad para un proyecto especí­fico. Normalmente la información representada en estos modelos es de naturaleza cualitativa y está sujeta a la percepción del diseñador en el sentido de la exactitud de su ubicación. En el fondo corresponde a un profundo proceso de sí­ntesis y el arreglo bidimensional (2x2) resultante permite identificar oportunidades para diseñar en áreas no exploradas por los productos existentes (esto se aplica al ejemplo particular que estoy dando, pero pueden ser utilizados para otra cosa, por cierto). Lo que hice aquí­ es un experimento en &lt;a href=&quot;http://www.processing.org&quot;&gt;processing&lt;/a&gt; que construye un 2x2x2.&lt;/p&gt;
 
-void setup(){
-  size(400,400,P3D);
-}
+&lt;p&gt;Se trata de un intento de construir una relación entre 3 dimensiones semánticas y permitir la construcción de un modelo que sea consistente con las tres simultáneamente. El hecho de que la secuencia entre las distintas vistas (x,y), (y,z), (x,z), etc. esté animada, constituye la clave cognitiva para que el lector pueda hacer el puente entre cada una de ellas. Este ejemplo no representa ninguna relación en particular, tan sólo se trata de puntos dispuestos al azar (en una función de ruido espefí­cicamente); la idea es comprobar si una representación de esta naturaleza ofrece la coherencia y legibilidad necesaria como para construir un argumento a partir de ella. A disposición de ustedes les dejo el código para que jueguen.&lt;/p&gt;
 
-// camera variables
-float distancia = 600.0;
-int delayer = 10;
-float currentX = 0.0;
-float currentY = 0.0;
-float currentZ = distancia;
-float nextX;
-float nextY;
-float nextZ;
-boolean flying = false;
-
-//drawing variables
-int axisLenght = 300;
-int cube = 350;
-int numDots = 225;
-float[] dotX = new float[numDots];
-float[] dotY = new float[numDots];
-float[] dotZ = new float[numDots];
-float[] dotRadius = new float[numDots];
-boolean dots = false;
-
-void draw(){
-  background(255);
-  camera(currentX, currentY, currentZ, 0, 0, 0, 0, 1, 0); //setup camera, target and &apos;up&apos;
-
-  if(flying == true) {
-    currentX += (nextX - currentX)/delayer;
-    currentY += (nextY - currentY)/delayer;
-    currentZ += (nextZ - currentZ)/delayer;
-    if( dist(currentX,currentY,currentZ,nextX,nextY,nextZ) &amp;lt; 1) {
-      //currentX = nextX;
-      //currentY = nextY;
-      //currentZ = nextZ;
-      flying = false;
-    }
-  }
-  // 3 AXIS IN RGB
-  stroke(255,0,0,100); //color + alpha
-  line(-axisLenght, 0, 0, axisLenght, 0, 0); //RED X
-  stroke(0,255,0,100);
-  line(0, -axisLenght, 0, 0, axisLenght, 0); //GREEN Y
-  stroke(0,0,255,100);
-  line(0, 0, -axisLenght, 0, 0, axisLenght); //BLUE Z
-
-  if(dots == false){// generate the dots only once
-    generateDots();
-    dots = true;
-  }
-  drawDots();
-}
-
-// the random values for the spheres
-void generateDots() {
-
-  int rand = (int)random(1000);
-
-  for(int i = 0; i &amp;lt; numDots; i ++){
-
-    float xgen = i;
-    float ygen = i+rand;
-    float zgen = i+2*rand;
-
-    // the noise function (by Ken Perlin) provides a continous randomness
-    dotX[i] = (noise(xgen/80.0)*600)-300;
-    dotY[i] = (noise(ygen/80.0)*600)-300;
-    dotZ[i] = (noise(zgen/80.0)*600)-300;
-    dotRadius[i] = noise(xgen/10.0)*60;
-  }
-}
-
-// draw the translucent spheres
-void drawDots(){
-  sphereDetail(8);
-fill(#CC0000, 40);// color + alpha of the spheres
-  noStroke();
-  for(int i=0; i
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
     </content>
   </entry>
@@ -4041,6 +3849,8 @@ construirlo en su juego…&lt;/p&gt;
 &lt;p&gt;Hoy es el día de la culminación de la Travesía. Se están dando los últimos retoques a la escultura, se está trazando la orientación de ella en su lugar de emplazamiento. Dentro de la carpa se trabaja aceleradamente en las serigrafías y se empieza a imprimir las xilografías que conformarán los libros de travesía que donaremos a distintas instituciones de Iruya. Mas allá, fuera de la carpa se escucha a Floro ensayando con su grupo el acto poético con que esta tarde daremos fin a esta epopeya y entregaremos la obra al pueblo.&lt;/p&gt;
 
 &lt;p&gt;Marcelo, muy temprano, partió con Jerónimo -el jefe de la policía local-, un personaje extraordinario con una personalidad avasalladora, a Campo Carrera: un poblado indígena por sobre los cuatro mil metros de altura, a comprar tres corderos para nuestro ágape de despedida.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/uploads/2004/11/iruya02.jpg&quot; alt=&quot;la explanada&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hemos convocado &lt;a href=&quot;http://www.ead.pucv.cl/2004/album-de-iruya&quot;&gt;nuestro acto&lt;/a&gt; de despedida para las 19.30 hrs. Esperamos contar con la presencia de las autoridades municipales, con los profesores y sus directivas, la policía local, las autoridades de la salud, las deportivas y finalmente los padres de la parroquia de San Roque a los cuales les haremos donación de un San Francisco bellamente realizado.&lt;/p&gt;
 

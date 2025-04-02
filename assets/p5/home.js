@@ -36,7 +36,7 @@
    function setup() {
      // Inicializar colores ahora que p5.js está listo
      pal = {
-       activeColor: color(80, 80, 80),
+       activeColor: color(200, 10, 10),
        codeColor: color(150, 150, 150, 127),
        codeOutline: color(100, 100, 100),
        escuelaColor: color(180, 180, 180, 127),

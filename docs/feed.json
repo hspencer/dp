@@ -9,7 +9,7 @@
                   "/assets/uploads/2025/03/liqnr00.png"
                ,
     "url": "/2025/03/la-internet-que-nos-robaron/",
-    "largo": 9660,
+    "largo": 9661,
     "contenido":
       
         "Una reflexión de lo que pudo ser pero no fue. Del origen abierto, colaborativo y desintermediado y del presente secuestrado e idiotizante. Pero todavía hay esperanza."
@@ -849,22 +849,6 @@
   },
 
   {
-    "fecha": "2008-08-27T04:09:15+12:00",
-    "titulo": "Voluntarios para IV Seminario de AI",
-    "categorias": ["escuela"],
-    "etiquetas": ["AI","Estudiantes","organización","seminario","Trabajos"],
-    "imagen":  
-                  " "
-               ,
-    "url": "/2008/08/voluntarios-para-iv-seminario-de-ai/",
-    "largo": 617,
-    "contenido":
-      
-        "La organización del IV Seminario Chileno de Arquitectura de la Información requiere de voluntarios para ayudar en labores de coordinación y diseño. Dentro de las faenas que involucran la organización se distinguen:  Registro y orientación de asistentes  Diseño del acta del seminario (pequeña edición con los papers y presentaciones)  Apoyo y difusión en los distintos medios  Preparación de la sala y montaje de los postersLos alumnos que estén interesados en participar de la organización, por favor completar el formulario de contacto que aparece a continuación. Se agradece de antemano su interés.[contact-form-7]"
-      
-  },
-
-  {
     "fecha": "2008-08-25T12:57:01+12:00",
     "titulo": "IV Seminario Chileno de AI",
     "categorias": ["notas"],
@@ -877,22 +861,6 @@
     "contenido":
       
         "En esta cuarta versión del seminario de Arquitectura de la Información, nuestro amigo Juan Carlos Camus ha sugerido darle el nombre de “viviendo la experiencia del usuario “ para generar la discusión en torno a este concepto. En Chile, el concepto de Arquitectura de la Información nos ha servido como referencia y pretexto para juntarnos y construir una comunidad de interés, ha sido el catalizador de la discusión en torno al diseño de plataformas y servicios web, nos ha servido para elevar el nivel de la discusión y para evangelizar y educar —en lo posible— a las empresas de la necesidad de tomar con seriedad el tema. Es cierto que la AI y la Experiencia del Usuario son temas distintos ((Hago esta aclaración a propósito del poco afortunado comentario hecho en relación al nombre y sentido del sentido del seminario, ver post original.)). En realidad son 2 aproximaciones metodológicas para acceder al mismo problema:  Si hablamos de AI, hablamos del “arte y la ciencia de organizar la información para que sea en..."
-      
-  },
-
-  {
-    "fecha": "2008-08-23T05:16:12+12:00",
-    "titulo": "IV Seminario Chileno de IA",
-    "categorias": ["escuela"],
-    "etiquetas": ["Arquitectura de la Información","conferencia","convocatoria","Destacados","seminario"],
-    "imagen":  
-                  " "
-               ,
-    "url": "/2008/08/iv-seminario-chileno-de-ia/",
-    "largo": 2568,
-    "contenido":
-      
-        "Los días viernes 3 en Viña del Mar y sábado 4 de octubre en Santiago, tendrá lugar el Cuarto Seminario Chileno de Arquitectura de Información, que reunirá a los principales exponentes nacionales de esta disciplina. La entrada es liberada, previo registro.  Viernes 3 de Octubre , Viña del Mar.e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso.Matta 12, Cerro Recreo.Viña del Mar. Sala Tronquoy.  Sábado 4 de Octubre , Auditorio Facultad de Comunicaciones Pontificia Universidad Católica de ChileAlameda 340Santiago.Nuestra escuela hospedará el primer día del seminario (Viernes 3 de Octubre), que tendrá un carácter académico, con la presentación de papers y posters relacionados con el diseño de experiencia y la arquitectura de la información. Si quieres participar, infórmate de cómo hacerlo. También puedes ayudar a difundir el seminario.Fechas Importantes  Envío de los Papers 20 de Septiembre de 2008  Notificación de Aceptación 27 de Septiembre de 2008  Entrega de Presentación ..."
       
   },
 
@@ -1158,7 +1126,7 @@
     "categorias": ["code","imagen"],
     "etiquetas": ["democracia","mapas","processing","tool","visualización"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2007/05/civilscopelogo.png"
                ,
     "url": "/2007/05/civilscope/",
     "largo": 1784,
@@ -1222,13 +1190,13 @@
     "categorias": ["code","investigación"],
     "etiquetas": [],
     "imagen":  
-                  " "
+                  "/assets/uploads/2006/10/2x2x2.png"
                ,
     "url": "/2006/10/2x2x2/",
-    "largo": 4709,
+    "largo": 2765,
     "contenido":
       
-        "Los arreglos 2x2 son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje X puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje Y puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”. A partir de esta “cancha” podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar “rolls”, etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo pr..."
+        "Los arreglos 2x2 son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje X puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje Y puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”.A partir de esta “cancha” podemos construir un modelo; por ejemplo podrí­amos mapear distintios servicios web (lectores RSS, herramientas de blogging, wikis, calendarios, AIM, email, etc). Por ejemplo, un lector RSS estarí­a en el cuadrante inferior izquierdo porque apunta más a la lectura (adquirir/consumir) personal(privada); ahora, si mapeamos distintos servicios de lectura de RSS y comparamos los que permiten compartir tags, o generar “rolls”, etc; podrí­amos ubicarlo en una zona más próxima a lo público, como el caso de un blog. Una wiki podrí­a estar en el punto de pivote porque su estructura facilita el consumo pri..."
       
   },
 
@@ -1366,7 +1334,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["travesía"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2004/11/iruya01.jpg"
                ,
     "url": "/2004/11/travesia-a-iruya/",
     "largo": 1363,
