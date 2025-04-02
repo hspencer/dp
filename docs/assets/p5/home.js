@@ -2,10 +2,10 @@
    │  {dp} · doble página · desde 2003 living standard  │
    ╰────────────────────────────────────────────────────╯ */
 
-   let pal = {}; // 🧠 será inicializado dentro de setup()
+   let pal = {}; // será inicializado dentro de setup()
 
-   const minDiameter = 30;
-   const maxDiameter = 60;
+   const minDiameter = 5;
+   const maxDiameter = 100;
    
    let postsData = [];
    let filteredPosts = [];
@@ -24,7 +24,7 @@
    const fadeDuration = 1500;
    
    function preload() {
-     // 👇 Se carga con callback; no se necesita async/await
+     // Se carga con callback; no se necesita async/await
      loadJSON('/feed.json', (data) => {
        postsData = data;
        filteredPosts = postsData; // inicialización básica
@@ -34,17 +34,19 @@
    }
    
    function setup() {
-     // 💡 Inicializar colores ahora que p5.js está listo
+     // Inicializar colores ahora que p5.js está listo
      pal = {
-       rojo: color(146, 42, 33),
-       rojo50: color(204, 0, 0, 127),
-       verdeEscuela50: color(0, 130, 0, 127),
-       celesteIdea50: color(0, 186, 255, 180),
-       azulImagen50: color(17, 53, 157, 200),
-       grisNota50: color(212, 218, 185, 127),
+       activeColor: color(80, 80, 80),
+       codeColor: color(150, 150, 150, 127),
+       codeOutline: color(100, 100, 100),
+       escuelaColor: color(180, 180, 180, 127),
+       ideaColor: color(200, 200, 200, 180),
+       imageColor: color(120, 120, 120, 200),
+       noteColor: color(220, 220, 220, 127),
+       hoverColor: color(0), // Negro para hover
      };
    
-     // ⛔️ Chequeo defensivo si `postsData` no se cargó
+     // Chequeo defensivo si `postsData` no se cargó
      if (!Array.isArray(postsData) || postsData.length === 0) {
        console.warn("postsData no está listo o está vacío");
        noLoop();
@@ -91,7 +93,7 @@
    
        let isCode = post.categorias.includes('code');
        post.radius = isCode
-         ? 20
+         ? 7
          : map(post.largo || 1000, minLen, maxLen, minDiameter / 2, maxDiameter / 2);
    
        post.body = Bodies.circle(x, y, post.radius, {
@@ -135,7 +137,7 @@
        }
    
        if (post.activated) {
-         fill(pal.rojo);
+         fill(pal.activeColor);
          noStroke();
        } else if (post.hoverStart) {
          let pct = constrain((now - post.hoverStart) / fadeDuration, 0, 1);
@@ -144,17 +146,17 @@
          noStroke();
        } else {
          if (post.categorias.includes('code')) {
-           fill(pal.rojo50);
-           stroke(pal.rojo);
+           fill(pal.codeColor);
+           stroke(pal.codeOutline);
            strokeWeight(1.5);
          } else if (post.categorias.includes('escuela')) {
-           fill(pal.verdeEscuela50);
+           fill(pal.escuelaColor);
            noStroke();
          } else if (post.categorias.includes('ideas')) {
-           fill(pal.celesteIdea50);
+           fill(pal.ideaColor);
            noStroke();
          } else {
-           fill(pal.grisNota50);
+           fill(pal.noteColor);
            noStroke();
          }
        }
@@ -238,4 +240,3 @@
        label.parent(container);
      });
    }
-   

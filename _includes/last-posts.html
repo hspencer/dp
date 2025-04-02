@@ -1,106 +1,112 @@
-<div class="last-posts" id="last-posts">
-  {% assign posts = site.posts | sort: "date" | reverse %}
-  {% for post in posts %}
-    <a href="{{ post.url | relative_url }}" class="post-item">
-      {% if post.image %}
-        <img src="{{ post.image.path | relative_url }}" alt="{{ post.title | escape }}">
-      {% endif %}
-      <h2>{{ post.title }}</h2>
-      {% if post.description %}
-        <p>{{ post.description | strip_html | truncate: 200 }}</p>
-      {% else %}
-        <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
-      {% endif %}
-    </a>
-  {% endfor %}
-</div>
-
+<div class="last-posts" id="last-posts"></div>
 <div class="paginacion" id="paginacion"></div>
-
 <script>
-  /* Máximo de 8 "pelotitas" */
   const maxVisiblePages = 8;
   const itemsPerPage = 6;
-
-  // Contenedor donde se inyectan los posts de la página actual
   const lastPostsContainer = document.getElementById('last-posts');
-  // Seleccionamos todos los elementos "post-item" en un array
-  const items = [...document.querySelectorAll('.post-item')];
-  // Calcula cuántas páginas totales
-  const totalPages = Math.ceil(items.length / itemsPerPage);
-  // Contenedor de la paginación
   const pagination = document.getElementById('paginacion');
 
-  // Esta función carga los items de la página 'page' y renueva la paginación
-  function showPage(page) {
-    // Limpiamos el contenedor para no acumular todos los items ocultos
-    lastPostsContainer.innerHTML = '';
+  async function loadPosts() {
+    try {
+      const response = await fetch('/feed.json');
+      const data = await response.json();
+      if (data) {
+        const posts = data;
+        const totalPages = Math.ceil(posts.length / itemsPerPage);
 
-    // Calculamos inicio y final en el array
-    const startIndex = page * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
+        function showPage(page) {
+          lastPostsContainer.innerHTML = '';
+          const startIndex = page * itemsPerPage;
+          const endIndex = startIndex + itemsPerPage;
 
-    // Insertamos sólo los items correspondientes a la página actual
-    for (let i = startIndex; i < endIndex && i < items.length; i++) {
-      lastPostsContainer.appendChild(items[i]);
-    }
+          for (let i = startIndex; i < endIndex && i < posts.length; i++) {
+            const post = posts[i];
+            const postItem = document.createElement('a');
+            postItem.href = post.url;
+            postItem.className = 'post-item';
 
-    // Renderizamos los botones de paginación
-    renderPagination(page);
-  }
+            if (post.imagen) { // Corrección: post.imagen en lugar de post.image
+              const img = document.createElement('img');
+              img.src = post.imagen; // Corrección: post.imagen en lugar de post.image
+              img.alt = post.titulo;
+              postItem.appendChild(img);
+            }
 
-  // Genera la lista de páginas a mostrar, con '…' si se excede el máximo
-  function getPages(current, total, max) {
-    if (total <= max) {
-      return [...Array(total).keys()];
-    }
-    const pages = [0];
-    const lastPage = total - 1;
-    let start = Math.max(current - 2, 1);
-    let end = Math.min(current + 2, lastPage - 1);
+            const h2 = document.createElement('h2');
+            h2.textContent = post.titulo;
+            postItem.appendChild(h2);
 
-    if (start > 1) pages.push('…');
-    for (let i = start; i <= end; i++) pages.push(i);
-    if (end < lastPage - 1) pages.push('…');
-    pages.push(lastPage);
+            const p = document.createElement('p');
+            if (post.contenido) {
+                p.textContent = post.contenido.substring(0, 200);
+            } else if (post.excerpt) {
+              p.textContent = post.excerpt.substring(0,200);
+            }
+            postItem.appendChild(p);
 
-    // Corta si excede el máximo de páginas visibles
-    while (pages.length > max) {
-      // Lógica sencilla para remover elementos intermedios si se pasa del máximo
-      if (current < total / 2) {
-        pages.splice(pages.length - 2, 1, '…');
+            lastPostsContainer.appendChild(postItem);
+          }
+
+          renderPagination(page);
+        }
+
+        function getPages(current, total, max) {
+          if (total <= max) {
+            return [...Array(total).keys()];
+          }
+          const pages = [0];
+          const lastPage = total - 1;
+          let start = Math.max(current - Math.floor(max / 2), 1);
+          let end = Math.min(start + max - 3, lastPage - 1);
+
+          if (start > 1) {
+            pages.push('…');
+          }
+
+          for (let i = start; i <= end; i++) {
+            pages.push(i);
+          }
+
+          if (end < lastPage - 1) {
+            pages.push('…');
+          }
+
+          pages.push(lastPage);
+          return pages;
+        }
+
+        function renderPagination(current) {
+          pagination.innerHTML = '';
+          const pages = getPages(current, totalPages, maxVisiblePages);
+          pages.forEach(p => {
+            if (p === '…') {
+              const span = document.createElement('span');
+              span.textContent = '…';
+              pagination.appendChild(span);
+            } else {
+              const link = document.createElement(p === current ? 'span' : 'a');
+              link.className = p === current ? 'actual' : '';
+              link.href = '#';
+              link.textContent = p + 1;
+              link.onclick = e => {
+                e.preventDefault();
+                showPage(p);
+              };
+              pagination.appendChild(link);
+            }
+          });
+        }
+
+        showPage(0);
       } else {
-        pages.splice(1, 1, '…');
+        console.error("Error al cargar o parsear feed.json.");
+        lastPostsContainer.innerHTML = '<p>Error: No se pudieron cargar los posts.</p>';
       }
-      if (pages.filter(p => p !== '…').length <= 2) break;
+    } catch (error) {
+      console.error('Error al cargar feed.json:', error);
+      lastPostsContainer.innerHTML = '<p>Error al cargar los posts.</p>';
     }
-    return pages;
   }
 
-  // Renderiza las pelotitas / enlaces
-  function renderPagination(current) {
-    pagination.innerHTML = '';
-    const pages = getPages(current, totalPages, maxVisiblePages);
-
-    pages.forEach(p => {
-      if (p === '…') {
-        const span = document.createElement('span');
-        span.textContent = '…';
-        pagination.appendChild(span);
-      } else {
-        const link = document.createElement(p === current ? 'span' : 'a');
-        link.className = p === current ? 'actual' : '';
-        link.href = '#';
-        link.textContent = p + 1;
-        link.onclick = e => {
-          e.preventDefault();
-          showPage(p);
-        };
-        pagination.appendChild(link);
-      }
-    });
-  }
-
-  // Comenzamos mostrando la primera página (0)
-  showPage(0);
+  loadPosts();
 </script>

@@ -9,6 +9,11 @@ permalink: /feed.json
     "titulo": {{ post.title | jsonify }},
     "categorias": {{ post.categories | jsonify }},
     "etiquetas": {{ post.tags | jsonify }},
+    "imagen":  {% if post.image %}
+                  {{ post.image.path | strip_html | strip_newlines | jsonify}}
+               {% else %}
+                  {{ " " | jsonify}}
+               {% endif %},
     "url": "{{ post.permalink }}",
     "largo": {{ post.content | strip_html | strip_newlines | size }},
     "contenido":

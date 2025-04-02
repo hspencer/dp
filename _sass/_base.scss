@@ -356,13 +356,20 @@ header {
     #categorias{
         font-family: vars.$font-sans;
         font-size: 1rem;
-        margin: 1em 0 0 0;
+        margin: 2.5em 0 0 0;
         text-align: center;
+        scale: 70%;
         div{
             display: inline-block;
             label{
                 display: inline-block;
+                text-transform: uppercase;
                 padding: 1ex 1em;
+                span{
+                    display: inline-block;
+                    font-weight: 600;
+                    margin: 0 0 0 1ex;
+                }
             }
         }
     }
