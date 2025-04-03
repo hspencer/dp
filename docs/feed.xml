@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} - doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-03T12:26:39+13:00</updated>
+  <updated>2025-04-03T13:29:25+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -2084,19 +2084,7 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
     <content type="html">
       &lt;p&gt;Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espacios se acumulan, amplifican o suavizan.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[p5js canvas] Spiral[] s; int numSpirals = 12; void setup(){ size(380, 500); smooth(); s = new Spiral[numSpirals]; for(int i = 0; i &amp;lt; numSpirals; i++){ s[i] = new Spiral(random(width/7, width&lt;em&gt;6/7), random(height/7, height&lt;/em&gt;6/7)); } noFill(); strokeWeight(0.5); } void draw(){ background(255); for(int i = 0; i &amp;lt; numSpirals; i++){ s[i].draw(); } } class Polar{ float ang, dim; Polar(float a, float d){ ang = a; dim = d; } } class Spiral{ ArrayList polar; int angSteps; float angInc; float ang; float amp, sp; float ox, oy; boolean grow; int seed; color st; float alfa = 255; int fadeSteps; Spiral(float x, float y){ polar = new ArrayList(); reset(); ox = x; oy = y; ang = TWO_PI; } void draw(){ if(grow) { calc(); } else{ fade(); } pushMatrix(); translate(ox, oy); stroke(st, alfa); beginShape(); for(int i = 0; i &amp;lt; polar.size(); i++){ Polar p = (Polar)polar.get(i); float x = cos(p.ang) &lt;em&gt;p.dim; float y = sin(p.ang)&lt;/em&gt; p.dim; curveVertex(x,y); if(x+ox &amp;gt; width&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;x+ox &amp;lt; 0&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;y+oy &amp;gt; height&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;y+oy &amp;lt; 0){ grow = false; } } endShape(); popMatrix(); } void calc(){ noiseSeed(seed); float num = (float)millis()/100; int z = polar.size(); if(z &amp;gt; angSteps){ Polar a = (Polar)polar.get(z-angSteps); Polar p = new Polar(ang, a.dim + sp + noise(num)&lt;em&gt;amp); polar.add(p); } else{ Polar p = new Polar(ang, noise(num)&lt;/em&gt;amp + sp&lt;em&gt;((float)z/(float)angSteps)); polar.add(p); } ang += angInc; } void fade(){ alfa -= 255/(float)fadeSteps; if (alfa &amp;lt;= 5) reset(); } void reset(){ polar.clear(); ox = random(width/7, width&lt;/em&gt;6/7); oy = random(height/7, height*6/7); grow = true; alfa = 255; amp = random(2, 10); sp = random(0.9, 4); seed = (int)random(100000); st = color(random(10, 50), random(10, 40), random(10, 26)); if(round(random(10)) % 2 == 0) angInc *= -1; fadeSteps = round(random(25, 50)); angSteps = round(random(24, 120)); angInc = TWO_PI / (float)angSteps; } } [/p5js]&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;iframe src=&quot;https://openprocessing.org/sketch/2808/embed/&quot; width=&quot;400&quot; height=&quot;510&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Veo como las familias de espirales se multiplican, cruzan y entrelazan. Tal vez así la sensación de no hacer nada desaparezca.&lt;/p&gt;
 
@@ -2113,7 +2101,7 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   &lt;p&gt;&lt;strong&gt;γνοστι τε αυτϖν&lt;/strong&gt; (nosce te ipsum) Esta inscripción, puesta por los siete sabios en el frontispicio del templo de Delfos, es clásica en el pensamiento griego. Muchos pensadores la han adoptado al igual que Sócrates y Platón, como uno de los principios de sus enseñanzas: “&lt;em&gt;Cuando conoces a las personas, te vuelves inteligente; cuando te conoces a tí mismo, te vuelves un iluminado&lt;/em&gt; “&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Estuve conversando con &lt;a href=&quot;http://www.anestesiologia.cl/departamento/quienes.php&quot; title=&quot;Página del departamento de Anestesia, CLC&quot;&gt;mi papá&lt;/a&gt; acerca de por qué las personas solemos hacer —un poquito— de trampa. Él está preparando una presentación acerca del manejo del dolor y quiere hablar de este tema en particular porque ha observado a lo largo de estos años (y repetidamente) conductas tramposas como práctica generalizada (y socialmente aceptada) dentro de los servicios de salud. Y esto lo trae a colación porque es precisamente el dolor (y el manejo de él) lo que se ha vuelto un indicador de la calidad del servicio que se le entrega al paciente operado. Primero que nada, me parece sorprendente que &lt;em&gt;el dolor&lt;/em&gt; , una de las experiencias más traumáticas y temidas de lo que nos prodría ocurrir en el ámbito hospitalario, recién ((¡en EEUU a partir del 2003!)) se comience a medir para evaluar el estándar del servicio. Osea, &lt;strong&gt;el diseño de servicios&lt;/strong&gt; con metodologías (y mediciones) centradas en las personas es un paradigma que recién comienza a penetrar en los servicios de salud. Y esto pasa, no por que se les haya ocurrido desde adentro de estos servicios, sino porque es una imposición que viene desde los sistemas de acreditación internacional. Osea, los médicos y profesionales de la salud recién ahora se vienen a preocupar del dolor —por lo tanto, de la experiencia del paciente— como algo que vale ser la pena considerado. Todavía están lejos de ver que es el &lt;strong&gt;producto final&lt;/strong&gt;. ¿Dónde está la trampa, el engaño? &lt;a href=&quot;http://web.mit.edu/ariely/www/MIT/&quot;&gt;Dan Ariely&lt;/a&gt;, hace una exposición brillante de este tema en TED (&lt;em&gt;Our Buggy Moral Code&lt;/em&gt;) donde explica, como paciente hospitalario, en qué fallaban las enfermeras y cómo funcionaban con un “modelo persistentemente errado” del paciente donde lo hacen sufrir más de lo estrictamente necesario:  Lo que dice, en resumen es que:&lt;/p&gt;
+&lt;p&gt;Estuve conversando con mi papá acerca de por qué las personas solemos hacer —un poquito— de trampa. Él está preparando una presentación acerca del manejo del dolor y quiere hablar de este tema en particular porque ha observado a lo largo de estos años (y repetidamente) conductas tramposas como práctica generalizada (y socialmente aceptada) dentro de los servicios de salud. Y esto lo trae a colación porque es precisamente el dolor (y el manejo de él) lo que se ha vuelto un indicador de la calidad del servicio que se le entrega al paciente operado. Primero que nada, me parece sorprendente que &lt;em&gt;el dolor&lt;/em&gt; , una de las experiencias más traumáticas y temidas de lo que nos prodría ocurrir en el ámbito hospitalario, recién ((¡en EEUU a partir del 2003!)) se comience a medir para evaluar el estándar del servicio. Osea, &lt;strong&gt;el diseño de servicios&lt;/strong&gt; con metodologías (y mediciones) centradas en las personas es un paradigma que recién comienza a penetrar en los servicios de salud. Y esto pasa, no por que se les haya ocurrido desde adentro de estos servicios, sino porque es una imposición que viene desde los sistemas de acreditación internacional. Osea, los médicos y profesionales de la salud recién ahora se vienen a preocupar del dolor —por lo tanto, de la experiencia del paciente— como algo que vale ser la pena considerado. Todavía están lejos de ver que es el &lt;strong&gt;producto final&lt;/strong&gt;. ¿Dónde está la trampa, el engaño? &lt;a href=&quot;http://web.mit.edu/ariely/www/MIT/&quot;&gt;Dan Ariely&lt;/a&gt;, hace una exposición brillante de este tema en TED (&lt;em&gt;Our Buggy Moral Code&lt;/em&gt;) donde explica, como paciente hospitalario, en qué fallaban las enfermeras y cómo funcionaban con un “modelo persistentemente errado” del paciente donde lo hacen sufrir más de lo estrictamente necesario:  Lo que dice, en resumen es que:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Mucha gente puede (suele) engañar;&lt;/li&gt;
@@ -2414,33 +2402,18 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   </entry>
   
   <entry>
-    <title>Grid</title>
-    <link href="http://0.0.0.0:4000/2009/01/Grid"/>
-    <updated>2009-01-03T02:28:55+13:00</updated>
-    <id>http://0.0.0.0:4000/2009/01/Grid</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/2696562&quot;&gt;&lt;img src=&quot;http://b.vimeocdn.com/ts/866/248/86624844_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Me pasa que cuando pinto, el dibujo siempre se apoya en una estructura —más o menos— parecida a una grilla ortogonal pero con ciertas deformaciones.&lt;br /&gt;
-Este video muestra un programa que deforma una grilla y para establecer un campo de dibujo ortogonal. El campo generado corresponde a una variación topológica de la grilla ortogonal donde las líneas aparecen como trazos libres que cuidan cierta cosistencia —o paralelismo— entre ellas. Las variaciones de color y grosor son controlados explícitamente.&lt;br /&gt;
-La secuencia concluye volviendo a la grilla original con el objeto de revelar la estructura básica que soporta el dibujo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:grid&quot;&gt;grid&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:generative&quot;&gt;generative&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
     <title>Partituras de Interacción</title>
     <link href="http://0.0.0.0:4000/2008/11/partituras-de-interaccion/"/>
     <updated>2008-11-26T11:24:15+13:00</updated>
     <id>http://0.0.0.0:4000/2008/11/partituras-de-interaccion</id>
     <content type="html">
-      &lt;p&gt;Este lenguaje visual propone un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.&lt;/p&gt;
+      &lt;p&gt;Este lenguaje visual propone((El artículo original no fue publicado en su momento pero se encuentra disponible &lt;a href=&quot;https://www.researchgate.net/publication/387997690_PiX_Language_Proposal_Interaction_Notation_for_Digital_Systems_Design&quot;&gt;acá&lt;/a&gt;.)) un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/11/pix.png&quot; alt=&quot;Imagen de una partitura en la herramienta en línea, disponible en github&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;caption&quot;&gt;La herramienta online está disponible en el &lt;a href=&quot;https://eadpucv.github.io/pix&quot;&gt;repositorio público&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;descargar&quot;&gt;Descargar&lt;/h3&gt;
+&lt;p&gt;Estos archivos corresponden a los primeros insumos que generamos, que posteriormente quedaron deprecados en favor de la herramienta online. También se encuentra disponible una plantilla para Miro (inglés).&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://wiki.ead.pucv.cl/images/c/c1/Alfa_2.0.stencil.zip&quot;&gt;Plantilla para Omnigraffle&lt;/a&gt;&lt;/li&gt;
@@ -2494,7 +2467,7 @@ La secuencia concluye volviendo a la grilla original con el objeto de revelar la
     <updated>2008-11-26T07:47:02+13:00</updated>
     <id>http://0.0.0.0:4000/2008/11/processing-1</id>
     <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.processing.org/&quot; title=&quot;Sitio web del proyecto&quot;&gt;&lt;img src=&quot;/assets/uploads/2008/11/about1.jpg&quot; alt=&quot;la pantalla &amp;quot;acerca de&amp;quot; processing en su versión 1.0&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.processing.org/&quot; title=&quot;Sitio web del proyecto&quot;&gt;Processing&lt;/a&gt; ha dejado de ser un beta. Lo era desde que partió este proyecto el año 2001 en el MediaLab del MIT de la mano de &lt;a href=&quot;http://reas.com/&quot;&gt;Casey Reas&lt;/a&gt; y &lt;a href=&quot;http://benfry.com/&quot;&gt;Ben Fry&lt;/a&gt;. Esta aplicación, o más bien, este entorno de desarrollo nos ha permitido acercarnos a la computación desde un punto de vista artístico y creativo. Ha causado un gran impacto en la comunidad de educadores y formadores de artistas y diseñadores. Sin ir más lejos, el año 2005 (cuando aún era un beta) recibió el Golden Nica en Ars Electrónica. Personalmente creo que Processing cumple un rol fundamental en la formación del diseñador, especialmente por la capacidad de estimular el pensamiento abstracto - matemático necesario para la concepción de formas digitales. Concretamente existe un ramo en la &lt;a href=&quot;http://www.ead.pucv.cl&quot;&gt;e[ad]&lt;/a&gt; llamado &lt;a href=&quot;http://www.ead.pucv.cl/2008/dibujos-generativos/&quot; title=&quot;artículo de los trabajos realizados en este ramo&quot;&gt;Lenguaje Computacional Cero&lt;/a&gt;&lt;strong&gt;**(o LC0) dentro del Taller de Diseño para el Primer Año. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se familiarizan con algoritmos básicos, geometría computacional y simulación cinemática. La alfabetización digital, entendida en la mayoría de los casos como la capacidación para el uso de programas, sólo resuleve la mitad del problema: el saber &lt;em&gt;leer&lt;/em&gt;. Saber &lt;em&gt;escribir&lt;/em&gt; , tiene implicancias mucho más profundas, porque significa ser capaz de expresar y llevar adelante las ideas propias. Para un diseñador este distingo es fundamental ya que debe comprender el lenguaje **desde ambos lados&lt;/strong&gt; para poder construir y diseñar; y el medio digital permite esa maleabilidad.&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.processing.org/&quot; title=&quot;Sitio web del proyecto&quot;&gt;Processing&lt;/a&gt; ha dejado de ser un beta. Lo era desde que partió este proyecto el año 2001 en el MediaLab del MIT de la mano de &lt;a href=&quot;http://reas.com/&quot;&gt;Casey Reas&lt;/a&gt; y &lt;a href=&quot;http://benfry.com/&quot;&gt;Ben Fry&lt;/a&gt;. Esta aplicación, o más bien, este entorno de desarrollo nos ha permitido acercarnos a la computación desde un punto de vista artístico y creativo. Ha causado un gran impacto en la comunidad de educadores y formadores de artistas y diseñadores. Sin ir más lejos, el año 2005 (cuando aún era un beta) recibió el Golden Nica en Ars Electrónica. Personalmente creo que Processing cumple un rol fundamental en la formación del diseñador, especialmente por la capacidad de estimular el pensamiento abstracto - matemático necesario para la concepción de formas digitales. Concretamente existe un ramo en la &lt;a href=&quot;http://www.ead.pucv.cl&quot;&gt;e[ad]&lt;/a&gt; llamado &lt;a href=&quot;http://www.ead.pucv.cl/2008/dibujos-generativos/&quot; title=&quot;artículo de los trabajos realizados en este ramo&quot;&gt;Lenguaje Computacional Cero&lt;/a&gt; (o LC0) dentro del Taller de Diseño para el Primer Año. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se familiarizan con algoritmos básicos, geometría computacional y simulación cinemática. La alfabetización digital, entendida en la mayoría de los casos como la capacidación para el uso de programas, sólo resuleve la mitad del problema: el saber &lt;em&gt;leer&lt;/em&gt;. Saber &lt;em&gt;escribir&lt;/em&gt; , tiene implicancias mucho más profundas, porque significa ser capaz de expresar y llevar adelante las ideas propias. Para un diseñador este distingo es fundamental ya que debe comprender el lenguaje &lt;strong&gt;desde ambos lados&lt;/strong&gt; para poder construir y diseñar; y el medio digital permite esa maleabilidad.&lt;/p&gt;
 
     </content>
   </entry>
@@ -2544,23 +2517,6 @@ La secuencia concluye volviendo a la grilla original con el objeto de revelar la
 &lt;p&gt;La dificultad que ofrece la validación de estos discursos emergentes es que “la gente” como institución no existe: siempre el discurso comenzará como una iniciativa “privada” que sólo podrá validarse mediante la masividad de la participación que convoque (las firmas que junte). Es en este sentido que la barrera de acceso a la creación de las temáticas debe ser mínima (ya basta con la barrera del acceso a la tecnología, a Internet y a la educación necesaria para desenvolverse en una plataforma semejante).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/10/conclusiones1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Taller de Obra: Suelo Teselado</title>
-    <link href="http://0.0.0.0:4000/2008/10/taller-de-obra-suelo-teselado/"/>
-    <updated>2008-10-02T15:27:59+13:00</updated>
-    <id>http://0.0.0.0:4000/2008/10/taller-de-obra-suelo-teselado</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060466/&quot; title=&quot;P1060466&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060466-260x195.jpg&quot; alt=&quot;P1060466&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060467/&quot; title=&quot;P1060467&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060467-260x195.jpg&quot; alt=&quot;P1060467&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060468/&quot; title=&quot;P1060468&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060468-260x195.jpg&quot; alt=&quot;P1060468&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060469/&quot; title=&quot;P1060469&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060469-260x195.jpg&quot; alt=&quot;P1060469&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060470/&quot; title=&quot;P1060470&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060470-260x195.jpg&quot; alt=&quot;P1060470&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060471/&quot; title=&quot;P1060471&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060471-260x195.jpg&quot; alt=&quot;P1060471&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060472/&quot; title=&quot;P1060472&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060472-260x195.jpg&quot; alt=&quot;P1060472&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060473/&quot; title=&quot;P1060473&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060473-260x195.jpg&quot; alt=&quot;P1060473&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060474/&quot; title=&quot;P1060474&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060474-260x195.jpg&quot; alt=&quot;P1060474&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060475/&quot; title=&quot;P1060475&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060475-260x195.jpg&quot; alt=&quot;P1060475&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060476/&quot; title=&quot;P1060476&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060476-260x195.jpg&quot; alt=&quot;P1060476&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060477/&quot; title=&quot;P1060477&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060477-260x195.jpg&quot; alt=&quot;P1060477&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060478/&quot; title=&quot;P1060478&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060478-260x195.jpg&quot; alt=&quot;P1060478&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060479/&quot; title=&quot;P1060479&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060479-260x346.jpg&quot; alt=&quot;P1060479&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060480/&quot; title=&quot;P1060480&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060480-260x195.jpg&quot; alt=&quot;P1060480&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060481/&quot; title=&quot;P1060481&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060481-260x195.jpg&quot; alt=&quot;P1060481&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060482/&quot; title=&quot;P1060482&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060482-260x195.jpg&quot; alt=&quot;P1060482&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060483/&quot; title=&quot;P1060483&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060483-260x195.jpg&quot; alt=&quot;P1060483&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060526/&quot; title=&quot;P1060526&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060526-260x195.jpg&quot; alt=&quot;P1060526&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060527/&quot; title=&quot;P1060527&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060527-260x195.jpg&quot; alt=&quot;P1060527&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060528/&quot; title=&quot;P1060528&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060528-260x195.jpg&quot; alt=&quot;P1060528&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060532/&quot; title=&quot;P1060532&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060532-260x195.jpg&quot; alt=&quot;P1060532&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060533/&quot; title=&quot;P1060533&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060533-260x195.jpg&quot; alt=&quot;P1060533&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060534/&quot; title=&quot;P1060534&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060534-260x195.jpg&quot; alt=&quot;P1060534&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060535/&quot; title=&quot;P1060535&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060535-260x195.jpg&quot; alt=&quot;P1060535&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060702/&quot; title=&quot;P1060702&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060702-260x195.jpg&quot; alt=&quot;P1060702&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060703/&quot; title=&quot;P1060703&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060703-260x195.jpg&quot; alt=&quot;P1060703&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060704/&quot; title=&quot;P1060704&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060704-260x195.jpg&quot; alt=&quot;P1060704&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060706/&quot; title=&quot;P1060706&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060706-260x195.jpg&quot; alt=&quot;P1060706&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060707/&quot; title=&quot;P1060707&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060707-260x195.jpg&quot; alt=&quot;P1060707&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060708/&quot; title=&quot;P1060708&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060708-260x346.jpg&quot; alt=&quot;P1060708&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.ead.pucv.cl/2008/taller-de-obra-suelo-teselado/p1060709/&quot; title=&quot;P1060709&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/P1060709-260x195.jpg&quot; alt=&quot;P1060709&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Durante este segundo trimestre (2008), el taller de primer año de diseño llevó a cabo &lt;a href=&quot;http://www.ead.pucv.cl/2008/del-suelo-a-la-tesela/&quot; title=&quot;del suelo a la tesela&quot;&gt;el proyecto desarrollado durante el primer trimestre&lt;/a&gt;. Se trata de la construcción de un suelo constituido por baldosas tipográficas de hormigón. Todo el proceso, desde la preparación del suelo hasta la construcción de las baldosas es sostenido por los alumnos.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ead.pucv.cl/wp-content/archivos/2008/10/informe-suelo-teselar.pdf&quot;&gt;Informe del Suelo Teselar&lt;/a&gt; (PDF, 1.1 Mb)&lt;/p&gt;
-
-&lt;p&gt;Este proyecto fue posible gracias al convenio con la empresa Polpaico&lt;/p&gt;
 
     </content>
   </entry>
@@ -2638,27 +2594,6 @@ La secuencia concluye volviendo a la grilla original con el objeto de revelar la
   </entry>
   
   <entry>
-    <title>Dibujo Autómata (experimento 2)</title>
-    <link href="http://0.0.0.0:4000/2008/08/dibujo-automata-exp2"/>
-    <updated>2008-08-13T01:14:03+12:00</updated>
-    <id>http://0.0.0.0:4000/2008/08/dibujo-automata-exp2</id>
-    <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1515679&quot;&gt;&lt;img src=&quot;http://b.vimeocdn.com/ts/594/054/59405482_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Nace un trazo en el centro de la superficie rectangular.&lt;br /&gt;
-Este trazo avanza hacia arriba y gira suavemente en forma azarosa. Tanto su grosor, su velocidad como su giro oscilan de la misma forma; mediante la función NOISE (de Ken Perlin: &lt;a href=&quot;http://www.noisemachine.com/talk1/index.html&quot;&gt;noisemachine.com/talk1/index.html&lt;/a&gt;). Este trazo puede dar inicio a una ramificación, dependiendo de su factor de fertilidad.&lt;br /&gt;
-El trazo termina cuando choca con otro trazo existente.&lt;/p&gt;
-
-&lt;p&gt;En variaciones posteriores se introduce el concepto de EDAD en el trazo. Los trazos, al envejecer, aclaran su tinta.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:processing&quot;&gt;processing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:bandw&quot;&gt;b&amp;amp;w;&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:experimental&quot;&gt;experimental&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:automata&quot;&gt;automata&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:drawing&quot;&gt;drawing&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:perlin&quot;&gt;perlin&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:noise&quot;&gt;noise&lt;/a&gt;&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
     <title>Ecosistemas de Información</title>
     <link href="http://0.0.0.0:4000/2008/08/ecosistemas-de-informacion/"/>
     <updated>2008-08-11T11:06:15+12:00</updated>
@@ -2716,18 +2651,22 @@ El trazo termina cuando choca con otro trazo existente.&lt;/p&gt;
   </entry>
   
   <entry>
-    <title>Pasaje Paralelo (créditos finales)</title>
-    <link href="http://0.0.0.0:4000/2008/08/pasaje-paralelo-final-creadits"/>
+    <title>Pasaje Paralelo</title>
+    <link href="http://0.0.0.0:4000/2008/08/pasaje-paralelo"/>
     <updated>2008-08-09T04:41:34+12:00</updated>
     <id>http://0.0.0.0:4000/2008/08/pasaje-paralelo-final-creadits</id>
     <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1492356&quot;&gt;&lt;img src=&quot;http://b.vimeocdn.com/ts/592/812/59281215_200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Mi amigo Ronald Smith me pidió (hace muchos años, por ahí por 1999) que le hiciera los créditos para el comienzo de su programa de televisión dedicado a la música: Pasaje Paralelo.&lt;/p&gt;
+
+&lt;p&gt;Este programa nunca vió la luz, lamentablemente. Imagino que habría sido increíble.
+La idea era que la escenografía sería también generada en 3D y Ronald estaría sentado en el sillón y los videos los mostraría en su tele.&lt;/p&gt;
+
+&lt;div style=&quot;padding:75.4% 0 0 0;position:relative;&quot;&gt;
+  &lt;iframe src=&quot;https://player.vimeo.com/video/1492356?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Pasaje Paralelo (créditos finales)&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;Esta es la salida del programa, la segunda parte del video &lt;a href=&quot;http://vimeo.com/1461270&quot;&gt;vimeo.com/1461270&lt;/a&gt; realizado en 1999 para mi amigo Ronald Smith.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cast:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt; &lt;a href=&quot;http://vimeo.com/tag:3d&quot;&gt;3D&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:old&quot;&gt;old&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:tv&quot;&gt;TV&lt;/a&gt;, &lt;a href=&quot;http://vimeo.com/tag:credits&quot;&gt;credits&lt;/a&gt; and &lt;a href=&quot;http://vimeo.com/tag:music&quot;&gt;music&lt;/a&gt;&lt;/p&gt;
 
     </content>
   </entry>

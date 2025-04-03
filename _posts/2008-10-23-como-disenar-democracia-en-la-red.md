@@ -16,6 +16,8 @@ tags:
 - Internet
 - metadesign
 - network
+image:
+  path: /assets/pintura/12.jpg
 ---
 Escribo este post porque veo que ya están ocurriendo cosas en este ámbito y hablar de esto ahora deja de ser sólo teoría. Mi amigo [Jorge planteó esta pregunta en políticaestero.tv](http://www.politicastereo.tv/debates.php "Debates de Política Stereo") (una nueva plataforma para la conversación política en Chile), respecto de cómo la política chilena puede recibir al espacio digital y veo con bastante expectación cómo comienza a configurarse una mirada más propositiva y constructiva en torno a la potencia de este medio como soporte para la democracia.
 

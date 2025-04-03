@@ -678,13 +678,13 @@
     "categorias": ["code"],
     "etiquetas": ["processing","spiral"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2009/07/espirales.png"
                ,
     "url": "/2009/07/espirales/",
-    "largo": 2280,
+    "largo": 362,
     "contenido":
       
-        "Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espacios se acumulan, amplifican o suavizan.            [p5js canvas] Spiral[] s; int numSpirals = 12; void setup(){ size(380, 500); smooth(); s = new Spiral[numSpirals]; for(int i = 0; i &lt; numSpirals; i++){ s[i] = new Spiral(random(width/7, width6/7), random(height/7, height6/7)); } noFill(); strokeWeight(0.5); } void draw(){ background(255); for(int i = 0; i &lt; numSpirals; i++){ s[i].draw(); } } class Polar{ float ang, dim; Polar(float a, float d){ ang = a; dim = d; } } class Spiral{ ArrayList polar; int angSteps; float angInc; float ang; float amp, sp; float ox, oy; boolean grow; int seed; color st; float alfa = 255; int fadeSteps; Spiral(float x, float y){ polar = new ArrayList(); reset(); ox = x; oy = y; ang = TWO_PI; } void draw(){ if(grow) { calc(); } else{ fade(); } pushMatrix(); translate(ox, oy); stroke..."
+        "Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espacios se acumulan, amplifican o suavizan.Veo como las familias de espirales se multiplican, cruzan y entrelazan. Tal vez así la sensación de no hacer nada desaparezca."
       
   },
 
@@ -694,7 +694,7 @@
     "categorias": ["notas"],
     "etiquetas": ["cheating","diseño de servicios","pain management"],
     "imagen":  
-                  " "
+                  "/assets/pintura/19.jpg"
                ,
     "url": "/2009/07/haciendo-trampa/",
     "largo": 4808,
@@ -737,34 +737,18 @@
   },
 
   {
-    "fecha": "2009-01-03T02:28:55+13:00",
-    "titulo": "Grid",
-    "categorias": ["imagen"],
-    "etiquetas": [],
-    "imagen":  
-                  " "
-               ,
-    "url": "/2009/01/Grid",
-    "largo": 678,
-    "contenido":
-      
-        "Me pasa que cuando pinto, el dibujo siempre se apoya en una estructura —más o menos— parecida a una grilla ortogonal pero con ciertas deformaciones.Este video muestra un programa que deforma una grilla y para establecer un campo de dibujo ortogonal. El campo generado corresponde a una variación topológica de la grilla ortogonal donde las líneas aparecen como trazos libres que cuidan cierta cosistencia —o paralelismo— entre ellas. Las variaciones de color y grosor son controlados explícitamente.La secuencia concluye volviendo a la grilla original con el objeto de revelar la estructura básica que soporta el dibujo.Cast: Herbert SpencerTags: processing, grid and generative"
-      
-  },
-
-  {
     "fecha": "2008-11-26T11:24:15+13:00",
     "titulo": "Partituras de Interacción",
     "categorias": ["escuela","imagen","investigación"],
     "etiquetas": ["diseño de interacción","graphic notation","notación gráfica","visual language"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2008/11/partitura1.png"
                ,
     "url": "/2008/11/partituras-de-interaccion/",
-    "largo": 2892,
+    "largo": 3249,
     "contenido":
       
-        "Este lenguaje visual propone un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.Descargar  Plantilla para Omnigraffle  Plantilla Omnigraffle 2, versión correjida y aumentada (nueva)  Archivo Illustrator CS3Estos archivos están bajo licencia Creative Commons Atribución-Licenciar Igual 2.0 Chile desarrollado en la e[ad] Escuela de Arquitectura y Diseño por Katherine Exss (2007-2008) y Nicole Dupré (2008) como proyecto de título de Diseño Gráfico. Update : La última versión de las partituras se encuentra en Github.IntroducciónLa complejidad de un proyecto de desarrollo Web requiere de una metodología escalonada que normalmente es abordada por un equipo multidisciplinario. Dentro de este proceso podemos distinguir:  Estrategia  Investigación de usuarios  Definición de arquitectura de información  Definición de interacción  Diseño de interfaz  Producción  TesteoA lo largo de este proceso, los lenguajes de representación y formalización (mapas de navegac..."
+        "Este lenguaje visual propone((El artículo original no fue publicado en su momento pero se encuentra disponible acá.)) un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.La herramienta online está disponible en el repositorio públicoDescargarEstos archivos corresponden a los primeros insumos que generamos, que posteriormente quedaron deprecados en favor de la herramienta online. También se encuentra disponible una plantilla para Miro (inglés).  Plantilla para Omnigraffle  Plantilla Omnigraffle 2, versión correjida y aumentada (nueva)  Archivo Illustrator CS3Estos archivos están bajo licencia Creative Commons Atribución-Licenciar Igual 2.0 Chile desarrollado en la e[ad] Escuela de Arquitectura y Diseño por Katherine Exss (2007-2008) y Nicole Dupré (2008) como proyecto de título de Diseño Gráfico. Update : La última versión de las partituras se encuentra en Github.IntroducciónLa complejidad de un proyecto de desarrollo Web requiere de una metodología ..."
       
   },
 
@@ -774,13 +758,13 @@
     "categorias": ["notas"],
     "etiquetas": ["educación","metadesign","open source","processing","software"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2008/11/about1.jpg"
                ,
     "url": "/2008/11/processing-1/",
-    "largo": 1578,
+    "largo": 1574,
     "contenido":
       
-        " Processing ha dejado de ser un beta. Lo era desde que partió este proyecto el año 2001 en el MediaLab del MIT de la mano de Casey Reas y Ben Fry. Esta aplicación, o más bien, este entorno de desarrollo nos ha permitido acercarnos a la computación desde un punto de vista artístico y creativo. Ha causado un gran impacto en la comunidad de educadores y formadores de artistas y diseñadores. Sin ir más lejos, el año 2005 (cuando aún era un beta) recibió el Golden Nica en Ars Electrónica. Personalmente creo que Processing cumple un rol fundamental en la formación del diseñador, especialmente por la capacidad de estimular el pensamiento abstracto - matemático necesario para la concepción de formas digitales. Concretamente existe un ramo en la e[ad] llamado Lenguaje Computacional Cero**(o LC0) dentro del Taller de Diseño para el Primer Año. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se fam..."
+        "Processing ha dejado de ser un beta. Lo era desde que partió este proyecto el año 2001 en el MediaLab del MIT de la mano de Casey Reas y Ben Fry. Esta aplicación, o más bien, este entorno de desarrollo nos ha permitido acercarnos a la computación desde un punto de vista artístico y creativo. Ha causado un gran impacto en la comunidad de educadores y formadores de artistas y diseñadores. Sin ir más lejos, el año 2005 (cuando aún era un beta) recibió el Golden Nica en Ars Electrónica. Personalmente creo que Processing cumple un rol fundamental en la formación del diseñador, especialmente por la capacidad de estimular el pensamiento abstracto - matemático necesario para la concepción de formas digitales. Concretamente existe un ramo en la e[ad] llamado Lenguaje Computacional Cero (o LC0) dentro del Taller de Diseño para el Primer Año. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se famil..."
       
   },
 
@@ -790,29 +774,13 @@
     "categorias": ["investigación","notas"],
     "etiquetas": ["democracia","design for democracy","diseño de interacción","Internet","metadesign","network"],
     "imagen":  
-                  " "
+                  "/assets/pintura/12.jpg"
                ,
     "url": "/2008/10/como-disenar-democracia-en-la-red/",
     "largo": 4276,
     "contenido":
       
         "Escribo este post porque veo que ya están ocurriendo cosas en este ámbito y hablar de esto ahora deja de ser sólo teoría. Mi amigo Jorge planteó esta pregunta en políticaestero.tv (una nueva plataforma para la conversación política en Chile), respecto de cómo la política chilena puede recibir al espacio digital y veo con bastante expectación cómo comienza a configurarse una mirada más propositiva y constructiva en torno a la potencia de este medio como soporte para la democracia.A continuación me quiero referir a ciertos puntos que considero críticos para abordar el diseño de plataformas de conversación política en la red fortaleciendo el poder de la participación.La InfraestructuraLa democracia parte de una la base: lo “en común”, aquello que es patrimonio público. La discusión política también ha de ser pública y ha de desarrollarse en un espacio público.  “It is a fundamental rule of their government, that no conclusion can be made in anything that relates to the public till it has been first debated th..."
-      
-  },
-
-  {
-    "fecha": "2008-10-02T15:27:59+13:00",
-    "titulo": "Taller de Obra: Suelo Teselado",
-    "categorias": ["escuela"],
-    "etiquetas": ["Ciudad Abierta","diseño","Holcim","Polpaico","Taller de Obras","tesela"],
-    "imagen":  
-                  " "
-               ,
-    "url": "/2008/10/taller-de-obra-suelo-teselado/",
-    "largo": 485,
-    "contenido":
-      
-        "                               Durante este segundo trimestre (2008), el taller de primer año de diseño llevó a cabo el proyecto desarrollado durante el primer trimestre. Se trata de la construcción de un suelo constituido por baldosas tipográficas de hormigón. Todo el proceso, desde la preparación del suelo hasta la construcción de las baldosas es sostenido por los alumnos.Informe del Suelo Teselar (PDF, 1.1 Mb)Este proyecto fue posible gracias al convenio con la empresa Polpaico"
       
   },
 
@@ -865,28 +833,12 @@
   },
 
   {
-    "fecha": "2008-08-13T01:14:03+12:00",
-    "titulo": "Dibujo Autómata (experimento 2)",
-    "categorias": ["imagen"],
-    "etiquetas": [],
-    "imagen":  
-                  " "
-               ,
-    "url": "/2008/08/dibujo-automata-exp2",
-    "largo": 627,
-    "contenido":
-      
-        "Nace un trazo en el centro de la superficie rectangular.Este trazo avanza hacia arriba y gira suavemente en forma azarosa. Tanto su grosor, su velocidad como su giro oscilan de la misma forma; mediante la función NOISE (de Ken Perlin: noisemachine.com/talk1/index.html). Este trazo puede dar inicio a una ramificación, dependiendo de su factor de fertilidad.El trazo termina cuando choca con otro trazo existente.En variaciones posteriores se introduce el concepto de EDAD en el trazo. Los trazos, al envejecer, aclaran su tinta.Cast: Herbert SpencerTags: processing, b&amp;w;, experimental, automata, drawing, perlin and noise"
-      
-  },
-
-  {
     "fecha": "2008-08-11T11:06:15+12:00",
     "titulo": "Ecosistemas de Información",
     "categorias": ["ideas"],
     "etiquetas": ["diseño de interacción","organization design","systems thinking","tecnology"],
     "imagen":  
-                  " "
+                  "/assets/pintura/04.jpg"
                ,
     "url": "/2008/08/ecosistemas-de-informacion/",
     "largo": 7036,
@@ -898,17 +850,17 @@
 
   {
     "fecha": "2008-08-09T04:41:34+12:00",
-    "titulo": "Pasaje Paralelo (créditos finales)",
+    "titulo": "Pasaje Paralelo",
     "categorias": ["imagen"],
-    "etiquetas": [],
+    "etiquetas": ["3D","animación"],
     "imagen":  
-                  " "
+                  "/assets/uploads/2008/08/pp-outro.png"
                ,
-    "url": "/2008/08/pasaje-paralelo-final-creadits",
-    "largo": 179,
+    "url": "/2008/08/pasaje-paralelo",
+    "largo": 524,
     "contenido":
       
-        "Esta es la salida del programa, la segunda parte del video vimeo.com/1461270 realizado en 1999 para mi amigo Ronald Smith.Cast: Herbert SpencerTags: 3D, old, TV, credits and music"
+        "Mi amigo Ronald Smith me pidió (hace muchos años, por ahí por 1999) que le hiciera los créditos para el comienzo de su programa de televisión dedicado a la música: Pasaje Paralelo.Este programa nunca vió la luz, lamentablemente. Imagino que habría sido increíble.La idea era que la escenografía sería también generada en 3D y Ronald estaría sentado en el sillón y los videos los mostraría en su tele.  Esta es la salida del programa, la segunda parte del video vimeo.com/1461270 realizado en 1999 para mi amigo Ronald Smith."
       
   },
 

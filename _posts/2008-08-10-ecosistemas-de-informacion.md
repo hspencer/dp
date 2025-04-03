@@ -13,6 +13,8 @@ tags:
 - organization design
 - systems thinking
 - tecnology
+image:
+  path: /assets/pintura/04.jpg
 ---
 Una de las grandes dificultades que existe al momento de plantear la estrategia de un proyecto de comunicación a través de Internet, radica en las implicancias que esta _punta del iceberg_ —la interfaz Web— tiene en la cultura interna de la organización, porque no se trata de un cambio "cosmético" sino que tiene que **reflejar transparentemente** el modo de ser de la organización o empresa. Conocida es la frase que dice: "La arquitectura de la información es la cola que mueve al perro", de Louis Rosenfeld. Plantear un proyecto Web como un **cambio cultural dentro de la organización** es políticamente torpe y kamikaze. Nadie va a querer cambiar su cultura interna, menos si es alguien externo quien lo dice (el consultor de diseño).
 
