@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /about/doble-pagina/
-title: "Doble Página"
-seo_title: "Colofón de Doble Página"
-description: "\"Doble Página\" (or simply 'dp') is wordpress theme based on a double\
-  \ page spread, specially carfted for designers. Available for download on Github. Or at least it used to be."
+title: "doble página · {dp}"
+seo_title: "Colofón de la Doble Página"
+description: "\"Doble Página\" (or simply 'dp') is (was also) wordpress theme based on a double\
+  \ page spread, specially carfted for designers. Available for download on Github. Or at least it used to be useful but still is is a different way."
 date: 2014-10-27 13:59:50 -0000
 last_modified_at: 2018-11-01 20:34:40 -0000
 publish: true
@@ -24,7 +24,7 @@ Este es un sitio personal para ideas y experimentos, un espacio que ha ido evolu
 
 Fue iniciado en 2003 con la idea de construir una doble página, una idea ya un poco majadera que se remonta a las *transpointing windows* de Ted Nelson((Quien postulaba en 1965 que lo hiper del hipertexto reside en la yuxtaposición del origen y el destino, y que los enlaces debiesen ser reversibles. La idea de las *transpointing windows* fue propuesta en detalle en 1972, como una herramienta para visualizar conexiones entre documentos en paralelo, permitiendo comparar y editar contenido de manera interconectada. Este arquetipo del tecnólogo no conformista, de pensamiento libre y borderline autista fue visionario disruptivo, cuyas ideas —como Xanadu y los hipervínculos— superaron las convenciones de su época, marcando un contraste radical con el desarrollo posterior de la web)). La parte izquierda, siguiendo la tradición de nuestra cultura occidental, se reserva para lo de mayor jerarquía (estar *ante*), mientras que la derecha concentra el detalle (estar *dentro*). En mi caso, veo esta yuxtaposición como una forma de lectura adecuada para el espacio digital. Estar ante el panorama o la visualización que te ubica y te permite comprender y el contenido, el detalle que te permite significar los aspectos de la figura mayor. Es una forma de comprensión y de estar en flujo. Acá, en este sitio donde se alude nostángicamente a la doble página de papel, lo izquierdo y lo derecho adquieren otra connotación, como los hemisferios del cerebro donde uno anota, expande y corrije al otro. Cada cual es su marginalia recíproca. 
 
-A lo largo de este recorrido, el sitio ha transitado por múltiples versiones: HTML con tablas, archivos SWF, HTML puro, carpetas FTP, Wordpress y MediaWiki. No es de extrañar que algunos enlaces aparezcan rotos, pues muchos apuntan a sitios elaborados con tecnologías ya deprecadas((Un recordatorio pesante de la fugacidad tecnológica y de que en lo digital no existe una versión definitiva.)). Durante la etapa Wordpress desarrollé el [tema {dp}](https://github.com/hspencer/dp-old), que pronto dejó de ser compatible; más aún, el editor de bloques, supuestamente diseñado para simplificar la vida de quienes evitan el código, me terminó complicándola. Además, los múltiples intentos de ingreso por fuerza, aparte de taparme de spam supongo que son el único tráfico fiel y lo que me consume el hosting.
+A lo largo de este recorrido, el sitio ha transitado por múltiples versiones: HTML con tablas, archivos SWF((La primera versión es extensivamente flash. Gracias a [Ruffle](https://ruffle.rs/) todavía [puede verse](https://herbertspencer.net/dp-old/) [acá](https://github.com/hspencer/dp-old))), HTML puro, carpetas FTP, Wordpress y MediaWiki. No es de extrañar que algunos enlaces aparezcan rotos, pues muchos apuntan a sitios elaborados con tecnologías ya deprecadas((Un recordatorio pesante de la fugacidad tecnológica y de que en lo digital no existe una versión definitiva.)). Durante la etapa Wordpress desarrollé el [tema {dp}](https://github.com/hspencer/dp-old), que pronto dejó de ser compatible; más aún, el editor de bloques, supuestamente diseñado para simplificar la vida de quienes evitan el código, me terminó complicándola. Además, los múltiples intentos de ingreso por fuerza, aparte de taparme de spam supongo que son el único tráfico fiel y lo que me consume el hosting.
 
 Hoy he migrado todo a Jekyll, lo que me otorga control total sobre la apariencia y evolución del sitio. El repositorio se encuentra en [github](https://github.com/hspencer/dp) para que Ud. mire y saque lo que le interese. 
 
@@ -34,9 +34,11 @@ Se invita al lector a participar del acto simétrico del lector-anotador para in
 
 #### Color - fonts
 
-El presentel sitio recoge una amplia gama de contenidos —reflexiones personales, textos de investigación, dibujos y experimentos— y hoy se lee con: 
+El presente sitio recoge una amplia gama de contenidos —reflexiones personales, textos de investigación, dibujos y experimentos— y hoy se leen con: 
 
   - EB Garamond para el cuerpo de texto y 
   - Barlow para títulos y etiquetas. 
 
-Este espacio es el reflejo de un proceso continuo de experimentación y reconstrucción. La invitación está abierta para que el lector se sume al diálogo con comentarios y anotaciones en una simetría compartida.
+Creo que inevitablemente debo rendir tributo a [TufteCSS](https://edwardtufte.github.io/tufte-css/) como medida de lectura clara y humanista. Lectura con ánimo de acompañarse de visualizaciones, mapas y Espacio. Este espacio es el reflejo de un proceso continuo de experimentación y reconstrucción. 
+
+La invitación para el lector está abierta sumarse al diálogo con comentarios y anotaciones en una simetría compartida y posible((El espíritu wikístico del registro público. Puesto que el fundamente de cualquier comunicación supone un hablate en un aquí y ahora, siempre apelando a la comunicación fundamental cara a cara. La comunicación es un acto social que antes de saber del significado, es un acto de palabra y espera, o al revés, de escuchar y responder, desde la imitación de un bebé a un diálogo hegeliano. Y lo social se juego en lo *material* del espacio digital.)).
