@@ -4,7 +4,7 @@
     "fecha": "2025-03-31T18:43:22+13:00",
     "titulo": "La Internet que nos robaron",
     "categorias": ["ideas"],
-    "etiquetas": ["tesis","llm"],
+    "etiquetas": ["tesis","llm","internet","bien público"],
     "imagen":  
                   "/assets/uploads/2025/03/liqnr00.png"
                ,
@@ -19,7 +19,7 @@
   {
     "fecha": "2025-02-27T18:43:22+13:00",
     "titulo": "Prólogo de PictoNet",
-    "categorias": ["notas"],
+    "categorias": ["notas","research"],
     "etiquetas": ["tesis","llm"],
     "imagen":  
                   "/assets/uploads/2025/02/prologo-pictonet-ia.png"
@@ -35,8 +35,8 @@
   {
     "fecha": "2025-02-18T23:03:01+13:00",
     "titulo": "PictoNet",
-    "categorias": ["notas"],
-    "etiquetas": [],
+    "categorias": ["notas","research","ideas"],
+    "etiquetas": ["llm","tesis","IA"],
     "imagen":  
                   "/assets/uploads/2025/03/make-the-bed.png"
                ,
@@ -51,7 +51,7 @@
   {
     "fecha": "2025-02-18T20:49:58+13:00",
     "titulo": "Diseño de transición en la era del tecno feudalismo",
-    "categorias": ["notas"],
+    "categorias": ["ideas","notas"],
     "etiquetas": ["capital","Diseño para la Democracia","Internet","investigación","social capital","tecnofeudalismo"],
     "imagen":  
                   "/assets/uploads/2025/02/tecnofeudalism.png"
@@ -99,7 +99,7 @@
   {
     "fecha": "2017-02-27T07:00:42+13:00",
     "titulo": "Números Modulares",
-    "categorias": ["escuela","notas"],
+    "categorias": ["notas","code"],
     "etiquetas": ["modular","multiplicación","números","visualización"],
     "imagen":  
                   "/assets/uploads/2017/02/Captura-de-pantalla-2018-11-01-a-las-13.50.49.png"
@@ -115,7 +115,7 @@
   {
     "fecha": "2017-02-23T06:44:57+13:00",
     "titulo": "Técnica y Diseño",
-    "categorias": ["escuela"],
+    "categorias": ["escuela","ideas"],
     "etiquetas": ["algoritmo","control","diseño","interacción","interfaz","técnica"],
     "imagen":  
                   "/assets/uploads/2008/01/5694299383_c7847bf8b5_o1.jpg"
@@ -131,7 +131,7 @@
   {
     "fecha": "2015-10-17T02:58:21+13:00",
     "titulo": "Diseño Participativo con PiX: una Aproximación desde la Narrativa",
-    "categorias": ["investigación"],
+    "categorias": ["investigación","ideas"],
     "etiquetas": ["brief","codiseño","diseño participativo","metodología de diseño","PiX"],
     "imagen":  
                   "/assets/uploads/2015/10/pix-collab.jpg"
@@ -665,10 +665,10 @@
                   "/assets/pintura/05.png"
                ,
     "url": "/2009/08/presentacion-de-proyectos-de-grafica-digital/",
-    "largo": 1205,
+    "largo": 1217,
     "contenido":
       
-        "El curso de Gráfica Digital busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha diseñado 6 espacios de interacción en la forma de servicios digitales, los cuales serán presentados el día lunes 17 de Agosto en la Sala de primer año de Arquitectura.Esta presentación será abierta y se extiende la invitación a todos los interesados.Cronograma  **3.30 – **Introducción  4.00** – PROYECTA**por Felipe Arenas, Leonardo Bahamondes, Myriam Meyer, Consuelo Miranda  4.20** – Comunicacción**por Sebastian Alfaro, Jaime Canet, Martina Knittel  4.40** – puntojpm**por Magdalena Novoa, Pamela Amigo, Javiera Sarratea  5.00 – Intermedio  5.20 - inmediata.mentepor Macarena Goles, Damaris Sepulveda, Cristóbal Severin  5.40** – AGORA**por Manuela del Pino, Camila Vargas, Sandra Gatica  6.00** – W.A.K.A.** (world of artistic kreations association)por Javier Muñoz, Diego Oyarzún, Alexandra Saravia, Marcela Godoy  6.2..."
+        "El curso de Gráfica Digital busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha diseñado 6 espacios de interacción en la forma de servicios digitales, los cuales serán presentados el día lunes 17 de Agosto en la Sala de primer año de Arquitectura.Esta presentación será abierta y se extiende la invitación a todos los interesados.Cronograma  **3.30 – **Introducción  4.00** – PROYECTA**  por Felipe Arenas, Leonardo Bahamondes, Myriam Meyer, Consuelo Miranda  4.20** – Comunicacción**  por Sebastian Alfaro, Jaime Canet, Martina Knittel  4.40** – puntojpm**  por Magdalena Novoa, Pamela Amigo, Javiera Sarratea  5.00 – Intermedio  5.20 - inmediata.mente  por Macarena Goles, Damaris Sepulveda, Cristóbal Severin  5.40** – AGORA**  por Manuela del Pino, Camila Vargas, Sandra Gatica  6.00** – W.A.K.A.** (world of artistic kreations association)  por Javier Muñoz, Diego Oyarzún, Alexandra Saravia, Marcel..."
       
   },
 
@@ -934,7 +934,7 @@
     "categorias": ["escuela"],
     "etiquetas": ["diseño","obra","suelo","taller","tesela","unidad discreta"],
     "imagen":  
-                  "/assets/pintura/11.jpg"
+                  "/assets/uploads/2008/06/sector_bebederos_ca.jpg"
                ,
     "url": "/2008/06/del-suelo-a-la-tesela/",
     "largo": 6640,

@@ -11,6 +11,7 @@ image:
   alt: Pictonet SVG editor
 categories:
 - notas
+- research
 tags: [tesis, llm]
 ---
 A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunitaria. Diría que ese es el hilo conductor de todo: cierta idea respecto a la “activación social” que determinada plataforma permite o habilita.

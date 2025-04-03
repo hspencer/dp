@@ -225,6 +225,7 @@ header {
         }
 
         table {
+            margin: 0 auto;
             background-color: rgba(255, 255, 255, 0.504);
             font-size: 70%;
             font-family: vars.$font-sans;
@@ -286,18 +287,20 @@ header {
                 transition: all 1s ease;
                 outline: 0.111ex solid rgba(255, 255, 255, 0);
 
-                &:hover {
-                    border-radius: 0.5ex;
-                    outline: 1ex solid white;
-                    .image-overlay{
-                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
-                    }
-                }
-
                 .image-container {
                     position: relative;
+                    transition: height 1s ease;
                     height: 10em;
                     overflow: hidden;
+                    .image-overlay {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 85%, vars.$color-dp-bg);
+                    }
+                    
                     img {
                         border-radius: 3px;
                         display: block;
@@ -306,13 +309,17 @@ header {
                     }
                 }
 
-                .image-overlay {
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 85%, vars.$color-dp-bg);
+                &:hover {
+                    border-radius: 0.5ex;
+                    // outline: 1ex solid white;
+                    .image-overlay{
+                        /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0)); */
+                    }
+
+                    .image-container{
+                        transition: all 1s ease;
+                        height: 12em;
+                    }
                 }
             }
 

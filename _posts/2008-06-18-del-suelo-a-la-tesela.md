@@ -20,8 +20,6 @@ tags:
 - taller
 - tesela
 - unidad discreta
-image:
-  path: /assets/pintura/11.jpg
 ---
 
 Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.

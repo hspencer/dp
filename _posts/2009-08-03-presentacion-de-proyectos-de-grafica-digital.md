@@ -23,21 +23,21 @@ Esta presentación será abierta y se extiende la invitación a todos los intere
 
 ### Cronograma
 
-* **3.30 – **Introducción
-* 4.00** – PROYECTA**  
-por Felipe Arenas, Leonardo Bahamondes, Myriam Meyer, Consuelo Miranda
-* 4.20** – Comunicacción**  
-por Sebastian Alfaro, Jaime Canet, Martina Knittel
-* 4.40** – puntojpm**  
-por Magdalena Novoa, Pamela Amigo, Javiera Sarratea
-* **5.00** – Intermedio
-* 5.20 **\- inmediata.mente**  
-por Macarena Goles, Damaris Sepulveda, Cristóbal Severin
-* 5.40** – AGORA**  
-por Manuela del Pino, Camila Vargas, Sandra Gatica
-* 6.00** – W.A.K.A.** (world of artistic kreations association)  
-por Javier Muñoz, Diego Oyarzún, Alexandra Saravia, Marcela Godoy
-* 6.20 – Término
+  - **3.30 – **Introducción
+  - 4.00** – PROYECTA**  
+  por Felipe Arenas, Leonardo Bahamondes, Myriam Meyer, Consuelo Miranda
+  - 4.20** – Comunicacción**  
+  por Sebastian Alfaro, Jaime Canet, Martina Knittel
+  - 4.40** – puntojpm**  
+  por Magdalena Novoa, Pamela Amigo, Javiera Sarratea
+  - **5.00** – Intermedio
+  - 5.20 **\- inmediata.mente**  
+  por Macarena Goles, Damaris Sepulveda, Cristóbal Severin
+  - 5.40** – AGORA**  
+  por Manuela del Pino, Camila Vargas, Sandra Gatica
+  - 6.00** – W.A.K.A.** (world of artistic kreations association)  
+  por Javier Muñoz, Diego Oyarzún, Alexandra Saravia, Marcela Godoy
+  - 6.20 – Término
 
 Cada presentación tendrá una duracción máxima de 15 minutos + 5 minutos para preguntas del público.  
 Para más información de estos proyectos, [ver la documentación en Casiopea](http://ead.pucv.cl/wiki/index.php/Gr%C3%A1fica_Digital_2009).

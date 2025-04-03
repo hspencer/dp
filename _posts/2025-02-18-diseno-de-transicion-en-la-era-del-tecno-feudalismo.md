@@ -11,6 +11,7 @@ image:
   alt: "Malla federada, ilustración"
   sidebar: false
 categories:
+- ideas
 - notas
 tags:
 - capital
