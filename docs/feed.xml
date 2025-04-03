@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-03T23:48:39+13:00</updated>
+  <updated>2025-04-04T00:07:03+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -2210,7 +2210,7 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
     <content type="html">
       &lt;p&gt;Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espacios se acumulan, amplifican o suavizan.&lt;/p&gt;
 
-&lt;iframe src=&quot;https://openprocessing.org/sketch/2808/embed/&quot; width=&quot;400&quot; height=&quot;510&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://openprocessing.org/sketch/2808/embed/&quot; style=&quot;border: none; display: block; width: 400px; margin: 0 auto; height: 575px; border-radius: 1ex;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Veo como las familias de espirales se multiplican, cruzan y entrelazan. Tal vez así la sensación de no hacer nada desaparezca.&lt;/p&gt;
 
