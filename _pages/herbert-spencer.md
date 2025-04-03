@@ -24,12 +24,13 @@ El diseño gráfico, siempre en evolución, nos llevó desde la poiética de la 
 
 Con el advenimiento de la Web 2.0, presenciamos la transformación de las estructuras editoriales hacia plataformas colaborativas y sociales, reflejando una democratización en la organización y creación de contenido. Ahora último ha habido un retroceso hacia conversación centralizada. *The era of blogs is over*, lamentablemente. Creo que una soberanía digital se hace necesaria cada día más.
 
-En los últimos años, mi atención se ha dirigido hacia la revolución de la inteligencia artificial. He profundizado en la accesibilidad cognitiva, explorando el diseño visual y lingüístico desde la perspectiva de la discapacidad intelectual. Mi investigación se enfoca en desarrollar herramientas que faciliten la conexión y comunicación entre personas y personas con cosas. De esto se trata MediaFranca, Pictonet y Con§tel y todo lo que aquí escribo, comunico y humildemente registro.
+En los últimos años, mi atención se ha dirigido hacia la revolución de la inteligencia artificial. Esta es la segunda gran revolución que recién comenzamos a vivir. La estudio profundizando en la accesibilidad cognitiva, explorando el diseño visual y lingüístico desde la perspectiva de la discapacidad intelectual. Creo que la accesibilidad cognitiva está en en centro del diseño (el origen del lenguaje y la comunicación) y ahora también es el centro de la técnica. Mi investigación se enfoca en desarrollar herramientas que faciliten la conexión y comunicación entre personas y personas con cosas y sistemas. De esto se trata MediaFranca, Pictonet y Con§tel y todo lo que aquí escribo o humildemente registro.
 
 Soy profesor en la Escuela de Arquitectura y Diseño PUCV, en la carrera de Diseño y en el programa de Magíster. Ahora soy alumno de doctorado en Nueva Zelanda y estoy haciendo [esto](/PictoNet). Como decía [Miguel](https://wiki.ead.pucv.cl/Miguel_Eyquem), 
+
 > todos somos estudiantes, sólo habemos unos más viejos. 
 
-Este es un camino de constante aprendizaje y exploración donde el diseño se plantea como una vía, un modo de ser constructivo ante las cosas. Ahora mi materia también quiere tratar cosas como la experiencia humana, entendida como el acto de impresión, comprensión y expresión que es circular pero que avanza hacia alguna dirección que indiquemos.
+Creo que este es un camino de constante aprendizaje y exploración donde el diseño se plantea como una vía, un modo de ser constructivo ante las cosas. Ahora mi materia también quiere tratar cosas como la experiencia humana, entendida como el acto de impresión, comprensión y expresión que es circular pero que avanza hacia alguna dirección que indiquemos.
 
 {% include perfil.html %}
 

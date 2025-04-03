@@ -41,10 +41,10 @@
                   "/assets/uploads/2025/03/make-the-bed.png"
                ,
     "url": "/PictoNet",
-    "largo": 14943,
+    "largo": 15309,
     "contenido":
       
-        "Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de manera que simultáneamente sirva como base conceptual y operativa para lo que he denominado PictoNet. Concebido como una plataforma abierta de generación de pictogramas vectoriales (en formato SVG) orientada a la comunicación inclusiva pero no se limita al ámbito académico ni “asistivo”: mi intención es que evolucione hacia una iniciativa de bien público, un proyecto de naturaleza open source al que cualquier persona o institución pueda sumarse para contribuir, apropiarse y, ojalá, co-gobernar bajo principios de transparencia y colaboración.En su dimensión académica, esta propuesta se enmarca en una investigación doctoral de tipo practice-based, es decir, una modalidad donde la creación de prototipos, la implementación de la plataforma y la verificación de sus usos en entornos de Comunicación Aumentativa y Altern..."
+        "Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de manera que simultáneamente sirva como base conceptual y operativa para lo que he denominado PictoNet. Concebido como una plataforma abierta de generación de pictogramas vectoriales (en formato SVG) orientada a la comunicación inclusiva pero no se limita al ámbito académico ni “asistivo”: mi intención es que evolucione hacia una iniciativa de bien público, un proyecto de naturaleza open source al que cualquier persona o institución pueda sumarse para contribuir, apropiarse y, ojalá, co-gobernar bajo principios de transparencia y colaboración.En su dimensión académica, esta propuesta se enmarca en una investigación doctoral de tipo practice-based, es decir, una modalidad donde puedo hacer diseño. Incluye e implica la creación de prototipos, la implementación de la plataforma y la verificación de sus usos en entorno..."
       
   },
 
@@ -77,6 +77,22 @@
     "contenido":
       
         "Lecciones de Kafka, Arendt, Illich y MaturanaHay algo profundamente inquietante en ser suprimido por un sistema. Un día eres una persona con identidad, una historia personal y una serie de logros. Al siguiente, te reduces a una cadena de números en un proceso burocrático que no reconoce tu existencia ni te otorga voz. Me encuentro exactamente en esa situación, parado en la intersección del diseño, los sistemas y la dignidad humana, frente a la maquinaria kafkiana de un sistema de inmigración. Esto no es solo una narrativa personal; ilustra cómo los sistemas que diseñamos moldean nuestras interacciones, identidades e, incluso, nuestro valor como individuos. Se trata de cómo los sistemas, si no se supervisan adecuadamente, nos despojan de agencia, mérito y humanidad.A los diseñadores se les asigna la tarea de construir sistemas que funcionen, respeten y empoderen a las personas. Sin embargo, los mismos sistemas que supuestamente deben facilitar nuestras vidas —ya sea para acceder a servicios, comprobar la id..."
+      
+  },
+
+  {
+    "fecha": "2022-10-15T14:14:38+13:00",
+    "titulo": "Singularidades poéticas hacia definiciones políticas: construcciones de escuela a partir del texto",
+    "categorias": ["escuela","ideas","notas"],
+    "etiquetas": [],
+    "imagen":  
+                  "/assets/pintura/01.png"
+               ,
+    "url": "/2022/10/singularidades",
+    "largo": 8708,
+    "contenido":
+      
+        "Axis Mundae  «El lenguaje es la casa del ser. En su morada habita el hombre. Los pensadores y poetas son los guardianes de esa morada. Su guarda consiste en llevar a cabo la manifestación del ser, en la medida en que, mediante su decir, ellos la llevan al lenguaje y allí la custodian»(Heidegger &amp; Leyte, 2013)  «El hombre no es el señor de lo ente. El hombre es el pastor del ser»(Ibidem, p. 12)  «It’s like I’m reading a book.And it’s a book I deeply love.But I’m reading it slowly now.So the words are really far apart……and the spaces between the wordsare almost infinite.I can still feel you,and the words of our story……but it’s in this endless space betweenthe words that I’m finding myself now.It’s a place that’s not of the physical world.It’s where everything else isthat I didn’t even know existed.I love you so much.But this is where I am now.And this is who I am now.And I need you to let me go.»(Jonze, 2013)El poema Axis Mundae (Sanfuentes Vio, 2003), escrito con ocasión de la travesía de 2003 (Balcells..."
       
   },
 
