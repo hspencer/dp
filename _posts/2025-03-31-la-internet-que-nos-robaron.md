@@ -12,7 +12,7 @@ image:
   sidebar: false
 categories:
 - ideas
-tags: [tesis, llm]
+tags: [tesis, llm, internet, bien público]
 youtube:
   url: "https://www.youtube.com/embed/Bt3TmUW90B8" 
 sidebar:

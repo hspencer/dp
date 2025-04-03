@@ -10,6 +10,7 @@ image:
   path: /assets/uploads/2008/01/5694299383_c7847bf8b5_o1.jpg
 categories:
 - escuela
+- ideas
 tags:
 - algoritmo
 - control

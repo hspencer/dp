@@ -9,8 +9,8 @@ publish: true
 image:
   path: /assets/uploads/2017/02/Captura-de-pantalla-2018-11-01-a-las-13.50.49.png
 categories:
-- escuela
 - notas
+- code
 tags:
 - modular
 - "multiplicación"

@@ -13,6 +13,7 @@ image:
   path: /assets/uploads/2015/10/pix-collab.jpg
 categories:
 - "investigación"
+- ideas
 tags:
 - brief
 - "codiseño"

@@ -15,10 +15,16 @@ tags:
 - graphic notation
 - "notación gráfica"
 - visual language
+image:
+  path: /assets/uploads/2008/11/partitura1.png
 ---
-Este lenguaje visual propone un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.
+Este lenguaje visual propone((El artículo original no fue publicado en su momento pero se encuentra disponible [acá](https://www.researchgate.net/publication/387997690_PiX_Language_Proposal_Interaction_Notation_for_Digital_Systems_Design).)) un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.
+
+![Imagen de una partitura en la herramienta en línea, disponible en github](/assets/uploads/2008/11/pix.png)
+<p class='caption'>La herramienta online está disponible en el [repositorio público](https://eadpucv.github.io/pix)</p>
 
 ### Descargar
+Estos archivos corresponden a los primeros insumos que generamos, que posteriormente quedaron deprecados en favor de la herramienta online. También se encuentra disponible una plantilla para Miro (inglés).
 
 * [Plantilla para Omnigraffle](http://wiki.ead.pucv.cl/images/c/c1/Alfa_2.0.stencil.zip)
 * [**Plantilla Omnigraffle 2**](http://www.herbertspencer.net/archivo/interaction-score.gstencil.zip), versión correjida y aumentada (nueva)
