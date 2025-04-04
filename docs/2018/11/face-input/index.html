@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Mapear emociones a través de pictogramas como método de entrada de datos en el contexto de la creación de interfaces digitales ¿Es más claro ingresar una emoción o un número?">
+    <meta name="author" content="Herbert Spencer">
+    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
+    <title>HTML input: Pictograma · {dp} · doble página</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{dp} · doble página">
+    <meta property="og:title" content="HTML input: Pictograma">
+    <meta property="og:description" content="Mapear emociones a través de pictogramas como método de entrada de datos en el contexto de la creación de interfaces digitales ¿Es más claro ingresar una emoción o un número?">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://0.0.0.0:4000/2018/11/face-input/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HTML input: Pictograma">
+    <meta name="twitter:description" content="Mapear emociones a través de pictogramas como método de entrada de datos en el contexto de la creación de interfaces digitales ¿Es más claro ingresar una emoción o un número?">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+  
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/feed.xml">
+
+    
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+  </head>
+  
+<body>
+  <header>
+    <div class="navbar">
+        <h1 id="title"><a href="/">{dp} · doble página</a></h1>
+        <!-- Botón toggle -->
+        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
+    </div>
+
+    <nav id="main" hidden>
+      <ul>
+        
+        
+          <li>
+            <a class="nav-link" href="/about/herbert-spencer/">Acerca del autor</a>
+          </li>
+        
+          <li>
+            <a class="nav-link" href="/about/doble-pagina/">doble página · {dp}</a>
+          </li>
+        
+      </ul>
+    </nav>
+  
+    <!-- Script de toggle -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toggle-nav");
+        const nav = document.getElementById("main");
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isHidden = nav.hasAttribute("hidden");
+          nav.toggleAttribute("hidden");
+          btn.textContent = isHidden ? "[–]" : "[+]";
+          btn.setAttribute("aria-expanded", isHidden);
+        });
+      });
+    </script>
+ </header>
+
+
+  <main id="dp">
+    <sidebar>
+      <h1 class="title">HTML input: Pictograma</h1>
+
+      <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
+      
+        <figure>
+          <img
+            src="/assets/uploads/2018/11/faces.png"
+            alt=""
+            class=""
+            style=""
+          />
+        </figure>
+      
+
+      <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
+      
+
+      <!-- Vimeo (si vimeo.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- YouTube (si youtube.url existe y no tiene sidebar: false) -->
+      
+
+      <!-- Fecha -->
+      <time datetime="2018-11-12T09:15:05+13:00">
+        12 November 2018
+      </time>
+
+      <!-- Bloque de sidebar en HTML directo -->
+      
+
+      <!-- Bloque de sidebar en MD (convertido a HTML) -->
+      
+
+      <a id="btn-citar-face-input" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-face-input" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Referencias</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2018, November 12). <em>HTML input: Pictograma</em>. 
+        En <em>{dp} · doble página</em>. https://herbertspencer.net/2018/11/face-input/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>HTML input: Pictograma</em>." <em>{dp} · doble página</em>, 12 November 2018, 
+        https://herbertspencer.net/2018/11/face-input/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>HTML input: Pictograma</em>." {dp} · doble página. Publicado el 12 de November de 2018. 
+        https://herbertspencer.net/2018/11/face-input/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-face-input");
+    const modal = document.getElementById("modal-citar-face-input");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+    </sidebar>
+
+    <article>
+      <h3 id="hipótesis-mapear-emociones-a-través-de-pictogramas-como-método-de-entrada-de-datos">Hipótesis: Mapear emociones a través de pictogramas como método de entrada de datos</h3>
+
+<p>En el ámbito de la <a href="http://accesibilidad-inclusion.cl">investigación inclusiva</a> y el <a href="https://dl.acm.org/doi/10.1145/3385010.3385023">trabajo con personas con discapacidad intelectual</a>, nuestro equipo ha desarrollado herramientas específicas para la recolección de datos. Estos instrumentos deben ser concebidos desde su origen bajo principios de accesibilidad cognitiva, integrando la accesibilidad como un componente esencial de su diseño.</p>
+
+<p>Planteamos la hipótesis de que el uso de pictogramas faciales para representar emociones podría constituir un mecanismo accesible y eficaz para la entrada de datos en contextos donde la comunicación simbólica convencional presenta barreras. La expresión facial es una de las formas primarias de comunicación interpersonal, y los seres humanos estamos especialmente capacitados para interpretarlas. Nuestras habilidades para leer rostros y detectar sutilezas expresivas han sido fundamentales para establecer alineaciones cognitivas en contextos sociales, permitiendo anticipar intenciones, emociones y respuestas.</p>
+
+<p>Esta idea se fundamenta en la teoría semiótica cognitiva desarrollada por Line Brandt en <em>The Communicative Mind</em>, donde se plantea que la comunicación no es simplemente un intercambio de señales, sino un proceso mental y social en el que dos o más mentes se alinean temporalmente en una escena compartida de significación. Esta “mente comunicativa” emerge de la coordinación dinámica entre expresiones (lo que se manifiesta en un cuerpo) y comprensiones (lo que se configura en una mente), en un contexto determinado. En este sentido, las expresiones faciales cumplen una función de alto nivel, ya que condensan información emocional compleja en patrones reconocibles que operan como “anclas” para la interpretación situacional<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>.</p>
+
+<h3 id="desarrollo-de-herramientas-face-input-face-qualify-y-face-edit">Desarrollo de Herramientas: Face Input, Face Qualify y Face Edit</h3>
+
+<p>Basándonos en esta hipótesis, desarrollamos una serie de herramientas destinadas a facilitar la entrada y edición de datos emocionales mediante pictogramas faciales:</p>
+
+<iframe src="https://hspencer.github.io/face-qualify" style="display: block; margin: 0 auto; width: 100%; height: 600px; border: none"></iframe>
+
+<ul>
+  <li>
+    <p><strong><a href="https://github.com/hspencer/face-input"><code class="language-plaintext highlighter-rouge">face-input</code></a></strong>: Una biblioteca JavaScript que permite la creación de entradas basadas en expresiones faciales, funcionando como un control deslizante que representa una gama de emociones. Primer prototipo.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/hspencer/face-qualify"><code class="language-plaintext highlighter-rouge">face-qualify</code></a></strong>: Una biblioteca complementaria que ofrece una interfaz sencilla para que los usuarios califiquen elementos utilizando expresiones faciales en una escala de cinco niveles escalonados.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/hspencer/face-edit"><code class="language-plaintext highlighter-rouge">face-edit</code></a></strong>: Una herramienta desarrollada con P5.js para editar y definir nuevas expresiones faciales, permitiendo la personalización de pictogramas utilizados en las herramientas anteriores para su interpolación<sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup> .</p>
+  </li>
+</ul>
+
+<h3 id="validación-y-resultados">Validación y Resultados</h3>
+
+<p>Durante una validación preliminar realizada con el grupo asesor del proyecto, nos enfocamos en las expresiones faciales utilizadas como elementos de entrada, específicamente en los pictogramas de la familia <a href="https://eadpucv.github.io/pixograms/">Pixograms</a>, empleados también en las Partituras de Interacción PiX. Observamos una divergencia sustancial en la interpretación de las expresiones emocionales. Algunas expresiones que, desde una perspectiva de diseño convencional, habíamos clasificado como “positivas” (por ejemplo, una sonrisa amplia con ojos semicerrados y cejas levantadas) fueron interpretadas como sarcasmo, incredulidad o incluso incomodidad por algunos participantes. Del mismo modo, rostros considerados “neutros” o “negativos” fueron asociados con calma o concentración, dependiendo del contexto subjetivo de cada individuo.</p>
+
+<p>Este resultado subraya la complejidad de la interpretación emocional cuando se utilizan patrones visuales estandarizados. La hipótesis inicial, aunque plausible desde un enfoque semiótico y empático, no fue confirmada en la práctica. En su lugar, una escala numérica acompañada de leyendas en lectura fácil resultó ser más clara, permitiendo recoger datos de forma consistente y comprensible para los participantes. La lectura fácil, al estructurar la información de manera explícita, reduce la ambigüedad semántica y facilita la alineación entre la intención del emisor (en este caso, el instrumento de recolección de datos) y la comprensión del receptor.</p>
+
+<h3 id="reflexiones-y-futuras-direcciones">Reflexiones y Futuras Direcciones</h3>
+
+<p>Aunque este resultado no invalida la idea de utilizar pictogramas faciales como canal expresivo, sí destaca la necesidad de incorporar una fase más robusta de codiseño, especialmente en la elección y validación de las expresiones utilizadas. La cognición no es un proceso automático de decodificación, sino una construcción contextual e intersubjetiva. En consecuencia, el diseño de interfaces accesibles debe considerar tanto la legibilidad formal de los símbolos como también su interpretabilidad cultural, afectiva y situacional.</p>
+
+<p>Desde estas humildes herramientas ha quedado claro que cualquier propuesta que busque trabajar con emociones como entrada de datos debe estar sustentada en una comprensión profunda de los procesos comunicativos. Más que en su dimensión técnica o perceptual, en su dimensión intersubjetiva y cultural.</p>
+
+<div class="footnotes">
+  <hr />
+
+  <ol>
+<li id="fn:1">Brandt, L. (2013). <em>The Communicative Mind: A Linguistic Exploration of Conceptual Integration and Meaning Construction</em>. Cambridge Scholars Publishing. <a href="#fnref:1" class="footnote-back">↩</a></li>
+<li id="fn:2">Acá surgió la idea, un poco más complejo y por lo tanto menos accesible, de mensar inputs bidimensionales, siguiendo 2 ejes en la línea de lo que nos muestra Edward Tufte en este gráfico: <br /><br /><img src="/assets/uploads/2018/11/tufte-wolf.png" alt="" /> <a href="#fnref:2" class="footnote-back">↩</a></li>
+</ol>
+</div>
+
+      <script src="https://utteranc.es/client.js"
+        repo="hspencer/hspencer.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+    </article>
+  </main>
+
+  <footer>
+   <p>
+     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
+     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
+     Los contenidos están bajo licencia 
+     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
+   </p>
+   <p>
+     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
+     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
+     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
+   </p>
+   <p>
+     Última actualización: 4 April 2025 - <a href="/feed.xml">Feed RSS</a>.
+   </p>
+ </footer>
+</body>
+</html>

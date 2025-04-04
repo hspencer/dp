@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-04T00:13:27+13:00</updated>
+  <updated>2025-04-04T13:38:54+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -462,6 +462,53 @@ And I need you to let me go.»&lt;br /&gt;
     &lt;li&gt;Spencer González, H., &amp;amp; Sanfuentes Vio, M. (2005). &lt;a href=&quot;https://mxdesign.diseno.ibero.mx/conference/2005/HTMs-PDFs/herbert_spencer.htm&quot;&gt;&lt;em&gt;Con§tel, Red Abierta de Conocimiento Académico&lt;/em&gt;&lt;/a&gt;. Design Perspectives. Envisioning design for the XXI century. MX Design Conference, Ciudad de México.&lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>HTML input: Pictograma</title>
+    <link href="http://0.0.0.0:4000/2018/11/face-input/"/>
+    <updated>2018-11-12T09:15:05+13:00</updated>
+    <id>http://0.0.0.0:4000/2018/11/face-input</id>
+    <content type="html">
+      &lt;h3 id=&quot;hipótesis-mapear-emociones-a-través-de-pictogramas-como-método-de-entrada-de-datos&quot;&gt;Hipótesis: Mapear emociones a través de pictogramas como método de entrada de datos&lt;/h3&gt;
+
+&lt;p&gt;En el ámbito de la &lt;a href=&quot;http://accesibilidad-inclusion.cl&quot;&gt;investigación inclusiva&lt;/a&gt; y el &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3385010.3385023&quot;&gt;trabajo con personas con discapacidad intelectual&lt;/a&gt;, nuestro equipo ha desarrollado herramientas específicas para la recolección de datos. Estos instrumentos deben ser concebidos desde su origen bajo principios de accesibilidad cognitiva, integrando la accesibilidad como un componente esencial de su diseño.&lt;/p&gt;
+
+&lt;p&gt;Planteamos la hipótesis de que el uso de pictogramas faciales para representar emociones podría constituir un mecanismo accesible y eficaz para la entrada de datos en contextos donde la comunicación simbólica convencional presenta barreras. La expresión facial es una de las formas primarias de comunicación interpersonal, y los seres humanos estamos especialmente capacitados para interpretarlas. Nuestras habilidades para leer rostros y detectar sutilezas expresivas han sido fundamentales para establecer alineaciones cognitivas en contextos sociales, permitiendo anticipar intenciones, emociones y respuestas.&lt;/p&gt;
+
+&lt;p&gt;Esta idea se fundamenta en la teoría semiótica cognitiva desarrollada por Line Brandt en &lt;em&gt;The Communicative Mind&lt;/em&gt;, donde se plantea que la comunicación no es simplemente un intercambio de señales, sino un proceso mental y social en el que dos o más mentes se alinean temporalmente en una escena compartida de significación. Esta “mente comunicativa” emerge de la coordinación dinámica entre expresiones (lo que se manifiesta en un cuerpo) y comprensiones (lo que se configura en una mente), en un contexto determinado. En este sentido, las expresiones faciales cumplen una función de alto nivel, ya que condensan información emocional compleja en patrones reconocibles que operan como “anclas” para la interpretación situacional((Brandt, L. (2013). &lt;em&gt;The Communicative Mind: A Linguistic Exploration of Conceptual Integration and Meaning Construction&lt;/em&gt;. Cambridge Scholars Publishing.)).&lt;/p&gt;
+
+&lt;h3 id=&quot;desarrollo-de-herramientas-face-input-face-qualify-y-face-edit&quot;&gt;Desarrollo de Herramientas: Face Input, Face Qualify y Face Edit&lt;/h3&gt;
+
+&lt;p&gt;Basándonos en esta hipótesis, desarrollamos una serie de herramientas destinadas a facilitar la entrada y edición de datos emocionales mediante pictogramas faciales:&lt;/p&gt;
+
+&lt;iframe src=&quot;https://hspencer.github.io/face-qualify&quot; style=&quot;display: block; margin: 0 auto; width: 100%; height: 600px; border: none&quot;&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/hspencer/face-input&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;face-input&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;: Una biblioteca JavaScript que permite la creación de entradas basadas en expresiones faciales, funcionando como un control deslizante que representa una gama de emociones. Primer prototipo.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/hspencer/face-qualify&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;face-qualify&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;: Una biblioteca complementaria que ofrece una interfaz sencilla para que los usuarios califiquen elementos utilizando expresiones faciales en una escala de cinco niveles escalonados.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/hspencer/face-edit&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;face-edit&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;: Una herramienta desarrollada con P5.js para editar y definir nuevas expresiones faciales, permitiendo la personalización de pictogramas utilizados en las herramientas anteriores para su interpolación((Acá surgió la idea, un poco más complejo y por lo tanto menos accesible, de mensar inputs bidimensionales, siguiendo 2 ejes en la línea de lo que nos muestra Edward Tufte en este gráfico: &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/assets/uploads/2018/11/tufte-wolf.png&quot; alt=&quot;&quot; /&gt;)) .&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;validación-y-resultados&quot;&gt;Validación y Resultados&lt;/h3&gt;
+
+&lt;p&gt;Durante una validación preliminar realizada con el grupo asesor del proyecto, nos enfocamos en las expresiones faciales utilizadas como elementos de entrada, específicamente en los pictogramas de la familia &lt;a href=&quot;https://eadpucv.github.io/pixograms/&quot;&gt;Pixograms&lt;/a&gt;, empleados también en las Partituras de Interacción PiX. Observamos una divergencia sustancial en la interpretación de las expresiones emocionales. Algunas expresiones que, desde una perspectiva de diseño convencional, habíamos clasificado como “positivas” (por ejemplo, una sonrisa amplia con ojos semicerrados y cejas levantadas) fueron interpretadas como sarcasmo, incredulidad o incluso incomodidad por algunos participantes. Del mismo modo, rostros considerados “neutros” o “negativos” fueron asociados con calma o concentración, dependiendo del contexto subjetivo de cada individuo.&lt;/p&gt;
+
+&lt;p&gt;Este resultado subraya la complejidad de la interpretación emocional cuando se utilizan patrones visuales estandarizados. La hipótesis inicial, aunque plausible desde un enfoque semiótico y empático, no fue confirmada en la práctica. En su lugar, una escala numérica acompañada de leyendas en lectura fácil resultó ser más clara, permitiendo recoger datos de forma consistente y comprensible para los participantes. La lectura fácil, al estructurar la información de manera explícita, reduce la ambigüedad semántica y facilita la alineación entre la intención del emisor (en este caso, el instrumento de recolección de datos) y la comprensión del receptor.&lt;/p&gt;
+
+&lt;h3 id=&quot;reflexiones-y-futuras-direcciones&quot;&gt;Reflexiones y Futuras Direcciones&lt;/h3&gt;
+
+&lt;p&gt;Aunque este resultado no invalida la idea de utilizar pictogramas faciales como canal expresivo, sí destaca la necesidad de incorporar una fase más robusta de codiseño, especialmente en la elección y validación de las expresiones utilizadas. La cognición no es un proceso automático de decodificación, sino una construcción contextual e intersubjetiva. En consecuencia, el diseño de interfaces accesibles debe considerar tanto la legibilidad formal de los símbolos como también su interpretabilidad cultural, afectiva y situacional.&lt;/p&gt;
+
+&lt;p&gt;Desde estas humildes herramientas ha quedado claro que cualquier propuesta que busque trabajar con emociones como entrada de datos debe estar sustentada en una comprensión profunda de los procesos comunicativos. Más que en su dimensión técnica o perceptual, en su dimensión intersubjetiva y cultural.&lt;/p&gt;
 
     </content>
   </entry>

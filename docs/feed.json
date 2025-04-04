@@ -97,6 +97,22 @@
   },
 
   {
+    "fecha": "2018-11-12T09:15:05+13:00",
+    "titulo": "HTML input: Pictograma",
+    "categorias": ["investigación","idea"],
+    "etiquetas": ["accesibilidad","interacción","pictogramas","interfaz"],
+    "imagen":  
+                  "/assets/uploads/2018/11/faces.png"
+               ,
+    "url": "/2018/11/face-input/",
+    "largo": 5333,
+    "contenido":
+      
+        "Mapear emociones a través de pictogramas como método de entrada de datos en el contexto de la creación de interfaces digitales ¿Es más claro ingresar una emoción o un número?"
+      
+  },
+
+  {
     "fecha": "2018-11-02T09:15:05+13:00",
     "titulo": "Enseñando Interacción",
     "categorias": ["escuela","investigación"],
