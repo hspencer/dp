@@ -30,8 +30,8 @@ Esta idea se fundamenta en la teoría semiótica cognitiva desarrollada por Line
 
 Basándonos en esta hipótesis, desarrollamos una serie de herramientas destinadas a facilitar la entrada y edición de datos emocionales mediante pictogramas faciales:
 
-
-<iframe src="https://hspencer.github.io/face-qualify" style="display: block; margin: 0 auto; width: 100%; height: 600px; border: none"></iframe>
+<div id="canvasContainer"></div><div id="qualification"><div id="val" style="font-family: Barlow; font-size: 4rem"></div></div>
+{% include p5.html script="/assets/p5/face-input.js" %}
 
 - **[```face-input```](https://github.com/hspencer/face-input)**: Una biblioteca JavaScript que permite la creación de entradas basadas en expresiones faciales, funcionando como un control deslizante que representa una gama de emociones. Primer prototipo.
 
