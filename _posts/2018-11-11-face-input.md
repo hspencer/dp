@@ -11,7 +11,7 @@ image:
   path: /assets/uploads/2018/11/faces.png
 categories:
 - "investigación"
-- idea
+- ideas
 tags:
 - "accesibilidad"
 - "interacción"

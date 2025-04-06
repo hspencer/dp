@@ -99,7 +99,7 @@
   {
     "fecha": "2018-11-12T09:15:05+13:00",
     "titulo": "HTML input: Pictograma",
-    "categorias": ["investigación","idea"],
+    "categorias": ["investigación","ideas"],
     "etiquetas": ["accesibilidad","interacción","pictogramas","interfaz"],
     "imagen":  
                   "/assets/uploads/2018/11/faces.png"
@@ -259,7 +259,7 @@
   {
     "fecha": "2014-11-13T08:33:42+13:00",
     "titulo": "Sideways: Slitscan for Urban Travellers",
-    "categorias": ["Sin categoría"],
+    "categorias": ["code","imagen"],
     "etiquetas": ["city","continuity","processing","slitscan"],
     "imagen":  
                   "/assets/uploads/2014/11/sideways.jpg"
