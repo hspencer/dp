@@ -99,13 +99,13 @@
   {
     "fecha": "2018-11-12T09:15:05+13:00",
     "titulo": "HTML input: Pictograma",
-    "categorias": ["investigación","idea"],
+    "categorias": ["investigación","ideas"],
     "etiquetas": ["accesibilidad","interacción","pictogramas","interfaz"],
     "imagen":  
                   "/assets/uploads/2018/11/faces.png"
                ,
     "url": "/2018/11/face-input/",
-    "largo": 5333,
+    "largo": 5341,
     "contenido":
       
         "Mapear emociones a través de pictogramas como método de entrada de datos en el contexto de la creación de interfaces digitales ¿Es más claro ingresar una emoción o un número?"
@@ -259,7 +259,7 @@
   {
     "fecha": "2014-11-13T08:33:42+13:00",
     "titulo": "Sideways: Slitscan for Urban Travellers",
-    "categorias": ["Sin categoría"],
+    "categorias": ["code","imagen"],
     "etiquetas": ["city","continuity","processing","slitscan"],
     "imagen":  
                   "/assets/uploads/2014/11/sideways.jpg"

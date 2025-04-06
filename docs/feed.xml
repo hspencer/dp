@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-06T17:41:15+12:00</updated>
+  <updated>2025-04-06T18:38:12+12:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -349,10 +349,7 @@
     <updated>2022-10-15T14:14:38+13:00</updated>
     <id>http://0.0.0.0:4000/2022/10/singularidades-poeticas</id>
     <content type="html">
-      &lt;div style=&quot;padding: 5em 9em&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/uploads/2022/10/iso-seminario.png&quot; alt=&quot;Seminario Internacional Formación y Oficio en Arquitectura y Diseño&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&quot;axis-mundae&quot;&gt;Axis Mundae&lt;/h2&gt;
+      &lt;h2 id=&quot;axis-mundae&quot;&gt;Axis Mundae&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;«El lenguaje es la casa del ser. En su morada habita el hombre. Los pensadores y poetas son los guardianes de esa morada. Su guarda consiste en llevar a cabo la manifestación del ser, en la medida en que, mediante su decir, ellos la llevan al lenguaje y allí la custodian»&lt;br /&gt;
@@ -487,7 +484,18 @@ And I need you to let me go.»&lt;br /&gt;
 
 &lt;p&gt;Basándonos en esta hipótesis, desarrollamos una serie de herramientas destinadas a facilitar la entrada y edición de datos emocionales mediante pictogramas faciales:&lt;/p&gt;
 
-&lt;iframe src=&quot;https://hspencer.github.io/face-qualify&quot; style=&quot;display: block; margin: 0 auto; width: 100%; height: 600px; border: none&quot;&gt;&lt;/iframe&gt;
+&lt;div id=&quot;canvasContainer&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;qualification&quot;&gt;
+  &lt;div id=&quot;val&quot; style=&quot;font-family: Barlow; font-size: 4rem&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;p5&quot; class=&quot;p5-sketch-container&quot; style=&quot;text-align: center;&quot;&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js&quot;&gt;&lt;/script&gt;
+
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js&quot;&gt;&lt;/script&gt;
+
+  &lt;script src=&quot;/assets/p5/face-input.js&quot;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1090,6 +1098,7 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
 &lt;p&gt;Esta investigación busca conciliar el modelo cognitivo humanista de inquisición por un lado, con la respuesta del sistema de búsqueda y representación por otro. Buscamos establecer directrices de interacción para el diseño de sistemas (entendidos como servicios o agentes) que sean capaces de reconocer los talentos y destrezas del usuario-investigador, comprendiendo la interacción humano-computador como una conversación natural y simétrica.&lt;/p&gt;
 
 &lt;p&gt;Son preguntas como ésta la que nos motivan a estar mejorando permanentemente nuestro servicio.&lt;/p&gt;
+
 
     </content>
   </entry>
@@ -3063,7 +3072,7 @@ Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel mo
     <updated>2008-03-01T08:26:58+13:00</updated>
     <id>http://0.0.0.0:4000/2008/02/teselador</id>
     <content type="html">
-      &lt;p&gt;En el contexto de la &lt;a href=&quot;http://www.flickr.com/photos/herbert-spencer/sets/72157603195788888/&quot; title=&quot;Fotos de la Travesía en Flickr&quot;&gt;travesía a Purmamarca 2007&lt;/a&gt;, salió un pequeño programa para dibujar con baldosas triangulares.&lt;/p&gt;
+      &lt;p&gt;En el contexto de la &lt;a href=&quot;http://www.flickr.com/photos/herbert-spencer/sets/72157603195788888/&quot; title=&quot;Fotos de la Travesía en Flickr&quot;&gt;travesía a Purmamarca 2007&lt;/a&gt;, desarrollé un pequeño programa para dibujar con baldosas triangulares.&lt;/p&gt;
 
 &lt;p&gt;El &lt;em&gt;quid&lt;/em&gt; del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que &lt;strong&gt;emerge&lt;/strong&gt; desde un orden concluso.&lt;/p&gt;
 
@@ -3634,9 +3643,7 @@ deforman y engañan?&lt;/em&gt;((“the earth so overcome / is there not exposed
     <updated>2006-08-23T04:42:13+12:00</updated>
     <id>http://0.0.0.0:4000/2006/08/honeydew-agent</id>
     <content type="html">
-      &lt;p&gt;&lt;img src=&quot;/assets/uploads/2006/08/honeydew_logo_small1.png&quot; alt=&quot;Logo HoneyDew&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Honeydew Agent&lt;/strong&gt; es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama &lt;em&gt;agente&lt;/em&gt; pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Honeydew Agent&lt;/strong&gt; es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama &lt;em&gt;agente&lt;/em&gt; pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.&lt;/p&gt;
 
 &lt;h3 id=&quot;el-problema-para-el-diseño&quot;&gt;El problema para el Diseño&lt;/h3&gt;
 
@@ -3657,12 +3664,7 @@ deforman y engañan?&lt;/em&gt;((“the earth so overcome / is there not exposed
   &lt;li&gt;&lt;strong&gt;Método de Negociación&lt;/strong&gt; : El iniciador ofrece una cantidad cerrada de posibilidades. Las contrapartes pueden elegir o realizar contraofertas.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Nuestro modelo corresponde a una combinación de estos dos métodos: el iniciador ofrece opciones basado en las preferencias de las contrapartes. De este modo, el conjunto inicial de opciones tiene más posibilidades de ser aceptado. A partir de estas opciones “informadas” los demás involucrados pueden elejir o hacer contraofertas siguiendo el modelo de negociación. Asimismo, consideramos a las preferencias como una envolvente (&lt;em&gt;envelope&lt;/em&gt; siguiendo la metáfora de los editores de sonido) del calendario, ponderando los tiempos de disponibilidad con distinta intensidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/uploads/2006/08/screenshot_preferences11.jpg&quot; alt=&quot;Vista del calendario para la semana&quot; /&gt;&lt;/p&gt;
-&lt;p class=&quot;caption&quot;&gt;Las preferencias de ocupado/disponible se definen en gradientes con &lt;em&gt;puntos clave&lt;/em&gt; para horarios específocos desde los cuales se interpola la gradiente de disponibilidad. Esta gradiente permite establecer criterios de negociación y sopone cierta flexibilidad.&lt;/p&gt;
-
-&lt;p&gt;Este modo de espeficicar las preferencias a través de gradientes permite desarrollar un lenguaje visual consistente a lo largo del software para expresar “calidades de tiempos” y garantiza el seteo de preferencias sólidas, sin vacíos, pues la gradiente representa una función &lt;strong&gt;spline&lt;/strong&gt;. Ud. puede ver los prototipos funcionales &lt;a href=&quot;http://web.archive.org/web/20061013125929/http://www.herbertspencer.net/projects/honeydew/&quot;&gt;&lt;strong&gt;aquí&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Nuestro modelo corresponde a una combinación de estos dos métodos: el iniciador ofrece opciones basado en las preferencias de las contrapartes. De este modo, el conjunto inicial de opciones tiene más posibilidades de ser aceptado. A partir de estas opciones “informadas” los demás involucrados pueden elejir o hacer contraofertas siguiendo el modelo de negociación. Asimismo, consideramos a las preferencias como una envolvente (&lt;em&gt;envelope&lt;/em&gt; siguiendo la metáfora de los editores de sonido) del calendario, ponderando los tiempos de disponibilidad con distinta intensidad. &lt;a href=&quot;/assets/uploads/2006/08/screenshot_preferences11.jpg&quot;&gt;&lt;img src=&quot;/assets/uploads/2006/08/screenshot_preferences11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; Este modo de espeficicar las preferencias a través de gradientes permite desarrollar un lenguaje visual consistente a lo largo del software para expresar “calidades de tiempos” y garantiza el seteo de preferencias sólidas, sin vacíos, pues la gradiente representa una función &lt;strong&gt;spline&lt;/strong&gt;. Ud. puede ver los prototipos funcionales &lt;a href=&quot;http://web.archive.org/web/20061013125929/http://www.herbertspencer.net/projects/honeydew/&quot;&gt;&lt;strong&gt;aquí&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;instrucciones&quot;&gt;Instrucciones&lt;/h3&gt;
 

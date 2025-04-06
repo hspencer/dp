@@ -11,7 +11,8 @@ publish: true
 image:
   path: /assets/uploads/2014/11/sideways.jpg
 categories:
-- "Sin categoría"
+- code
+- imagen
 tags:
 - city
 - continuity

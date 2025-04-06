@@ -1,6 +1,6 @@
 let w = [];
-let num = 50;
-let l = 50; // edge length
+let num = 15;
+let l = 80; // edge length
 let pg;
 let noiseColor;
 
@@ -79,7 +79,7 @@ class Wanderer {
   }
 
   paint(color) {
-    blendMode(LIGHTEST);
+    blendMode(DIFFERENCE);
     fill(color);  // Use the provided color
     ellipse(this.x, this.y, this.d, this.d);
     blendMode(BLEND);
