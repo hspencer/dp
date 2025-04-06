@@ -5,3 +5,4 @@
 .bundle/
 vendor/
 assets/.DS_Store
+assets/uploads/.DS_Store

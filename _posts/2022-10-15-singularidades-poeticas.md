@@ -6,15 +6,24 @@ title: "Singularidades poéticas hacia definiciones políticas: construcciones d
 date: 2022-10-15 01:14:38 -0000
 publish: true
 image:
-  path: /assets/pintura/01.png
+  path: /assets/uploads/2022/10/seminario-70.jpg
 categories:
 - escuela
 - ideas
 - notas
 tags: []
 license: "Creative Commons Con Reconocimiento y Compartir Igual 4.0"
+sidebar:
+  md: >
+    <div style="text-align: right; font-size: 70%">
+    <p style="padding: 0 0 0 5rem">
+    Texto presentado en el [Seminario Internacional Formación y Oficio en Arquitectura y Diseño](https://wiki.ead.pucv.cl/Seminario_Internacional_Formaci%C3%B3n_y_Oficio_en_Arquitectura_y_Dise%C3%B1o) en los 70 años de la Escuela de Arquitectura y Diseño, invitación para reflexionar en profundidad sobre la formación en nuestros oficios, sus proyectos formativos y su relación con el contexto nacional, regional y global actual.
+    </p>
+    </div>
 ---
-
+<div style='padding: 5em 9em'>
+![Seminario Internacional Formación y Oficio en Arquitectura y Diseño](/assets/uploads/2022/10/iso-seminario.png)
+</div>
 ## Axis Mundae
 
 > «El lenguaje es la casa del ser. En su morada habita el hombre. Los pensadores y poetas son los guardianes de esa morada. Su guarda consiste en llevar a cabo la manifestación del ser, en la medida en que, mediante su decir, ellos la llevan al lenguaje y allí la custodian»  

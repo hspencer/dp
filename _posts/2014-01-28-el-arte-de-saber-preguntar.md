@@ -44,6 +44,3 @@ En el caso de CitiSent, el _feedforward_  por parte del usuario es el _query_ q
 Esta investigación busca conciliar el modelo cognitivo humanista de inquisición por un lado, con la respuesta del sistema de búsqueda y representación por otro. Buscamos establecer directrices de interacción para el diseño de sistemas (entendidos como servicios o agentes) que sean capaces de reconocer los talentos y destrezas del usuario-investigador, comprendiendo la interacción humano-computador como una conversación natural y simétrica.
 
 Son preguntas como ésta la que nos motivan a estar mejorando permanentemente nuestro servicio.
-
-
-

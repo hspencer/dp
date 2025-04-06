@@ -20,7 +20,7 @@ tags:
 - tesela
 ---
 
-En el contexto de la [travesía a Purmamarca 2007](http://www.flickr.com/photos/herbert-spencer/sets/72157603195788888/ "Fotos de la Travesía en Flickr"), desarrollé un pequeño programa para dibujar con baldosas triangulares.
+En el contexto de la [travesía a Purmamarca 2007](http://www.flickr.com/photos/herbert-spencer/sets/72157603195788888/ "Fotos de la Travesía en Flickr"), salió un pequeño programa para dibujar con baldosas triangulares.
 
 El _quid_ del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que **emerge** desde un orden concluso.
 

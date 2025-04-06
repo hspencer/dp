@@ -86,13 +86,13 @@
     "categorias": ["escuela","ideas","notas"],
     "etiquetas": [],
     "imagen":  
-                  "/assets/pintura/01.png"
+                  "/assets/uploads/2022/10/seminario-70.jpg"
                ,
     "url": "/2022/10/singularidades",
-    "largo": 8708,
+    "largo": 8710,
     "contenido":
       
-        "Axis Mundae  «El lenguaje es la casa del ser. En su morada habita el hombre. Los pensadores y poetas son los guardianes de esa morada. Su guarda consiste en llevar a cabo la manifestación del ser, en la medida en que, mediante su decir, ellos la llevan al lenguaje y allí la custodian»(Heidegger &amp; Leyte, 2013)  «El hombre no es el señor de lo ente. El hombre es el pastor del ser»(Ibidem, p. 12)  «It’s like I’m reading a book.And it’s a book I deeply love.But I’m reading it slowly now.So the words are really far apart……and the spaces between the wordsare almost infinite.I can still feel you,and the words of our story……but it’s in this endless space betweenthe words that I’m finding myself now.It’s a place that’s not of the physical world.It’s where everything else isthat I didn’t even know existed.I love you so much.But this is where I am now.And this is who I am now.And I need you to let me go.»(Jonze, 2013)El poema Axis Mundae (Sanfuentes Vio, 2003), escrito con ocasión de la travesía de 2003 (Balcells..."
+        "  Axis Mundae  «El lenguaje es la casa del ser. En su morada habita el hombre. Los pensadores y poetas son los guardianes de esa morada. Su guarda consiste en llevar a cabo la manifestación del ser, en la medida en que, mediante su decir, ellos la llevan al lenguaje y allí la custodian»(Heidegger &amp; Leyte, 2013)  «El hombre no es el señor de lo ente. El hombre es el pastor del ser»(Ibidem, p. 12)  «It’s like I’m reading a book.And it’s a book I deeply love.But I’m reading it slowly now.So the words are really far apart……and the spaces between the wordsare almost infinite.I can still feel you,and the words of our story……but it’s in this endless space betweenthe words that I’m finding myself now.It’s a place that’s not of the physical world.It’s where everything else isthat I didn’t even know existed.I love you so much.But this is where I am now.And this is who I am now.And I need you to let me go.»(Jonze, 2013)El poema Axis Mundae (Sanfuentes Vio, 2003), escrito con ocasión de la travesía de 2003 (Balcel..."
       
   },
 
@@ -1017,10 +1017,10 @@
                   "/assets/uploads/2008/02/teselador1.gif"
                ,
     "url": "/2008/02/teselador/",
-    "largo": 8827,
+    "largo": 8822,
     "contenido":
       
-        "En el contexto de la travesía a Purmamarca 2007, desarrollé un pequeño programa para dibujar con baldosas triangulares.El quid del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que emerge desde un orden concluso.Interacción:Este programa es una traducción de un código de Processing original de 2007, adaptado para ser compatible con la web utilizando P5.js.  Clic del ratón: Rotar la tesela seleccionada.  Clic derecho del ratón: Cambiar el tipo de la tesela seleccionada.  a / A : Aumentar el tamaño de las teselas.  z / Z : Disminuir el tamaño de las teselas.  s / S : Aumentar el espacio entre las teselas.  x / X : Disminuir el espacio entre las teselas.  d / D : Aumentar el grosor del trazo del dibujo.  c / C : Disminuir el grosor del trazo del dibujo.  l / L: Mostrar u ocultar las líneas de borde de las teselas.  1-7..."
+        "En el contexto de la travesía a Purmamarca 2007, salió un pequeño programa para dibujar con baldosas triangulares.El quid del asunto en este caso radica en la capacidad que tienen estas unidades para dibujar patrones aperiódicos, es decir que a partir de unidades semejantes podemos salirnos del tedio de la regularidad para saltar a otra especie de infinito, aquel que emerge desde un orden concluso.Interacción:Este programa es una traducción de un código de Processing original de 2007, adaptado para ser compatible con la web utilizando P5.js.  Clic del ratón: Rotar la tesela seleccionada.  Clic derecho del ratón: Cambiar el tipo de la tesela seleccionada.  a / A : Aumentar el tamaño de las teselas.  z / Z : Disminuir el tamaño de las teselas.  s / S : Aumentar el espacio entre las teselas.  x / X : Disminuir el espacio entre las teselas.  d / D : Aumentar el grosor del trazo del dibujo.  c / C : Disminuir el grosor del trazo del dibujo.  l / L: Mostrar u ocultar las líneas de borde de las teselas.  1-7 : Es..."
       
   },
 
@@ -1209,7 +1209,7 @@
                   "/assets/uploads/2006/08/honeydew_logo_small1.png"
                ,
     "url": "/2006/08/honeydew-agent/",
-    "largo": 5105,
+    "largo": 5360,
     "contenido":
       
         "Honeydew Agent es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama agente pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.El problema para el DiseñoPara que el agente pueda adaptarse y aprender de cada usuario y pueda, a su vez, construir negociaciones realistas, requiere de información precisa expresada en el caledario o agenda de la persona. En nuestra investigación nos encontramos con un sinnúmero de conductas y técnicas que promueven —en cierta medida— a la deshonestidad al momento de mantener un calendario público. Entre alg..."

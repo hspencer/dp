@@ -12,8 +12,7 @@
           {% endfor %}
         ];
       </script> 
-<body>
-    {% include header.html %}
+<body>{% include header.html %}
     <main id="dp">
         <sidebar>
             <h1 class="title" style="font-weight: 300; font-family: Barlow;">{{ page.title }}</h1>
@@ -36,6 +35,5 @@
   
     <script src="{{ page.p5.script | relative_url }}"></script>
     {% endif %}
-    
 </body>
 </html> 

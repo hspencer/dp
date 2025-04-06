@@ -46,7 +46,6 @@
         <!-- Botón toggle -->
         <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
     </div>
-
     <nav id="main" hidden>
       <ul>
         
@@ -61,7 +60,6 @@
         
       </ul>
     </nav>
-  
     <!-- Script de toggle -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -84,15 +82,6 @@
       <h1 class="title">Honeydew Agent</h1>
 
       <!-- Imagen (si image.path existe y no tiene sidebar: false) -->
-      
-        <figure>
-          <img
-            src="/assets/uploads/2006/08/honeydew_logo_small1.png"
-            alt=""
-            class=""
-            style=""
-          />
-        </figure>
       
 
       <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
@@ -167,7 +156,9 @@
     </sidebar>
 
     <article>
-      <p><strong>Honeydew Agent</strong> es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama <em>agente</em> pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.</p>
+      <p><img src="/assets/uploads/2006/08/honeydew_logo_small1.png" alt="Logo HoneyDew" /></p>
+
+<p><strong>Honeydew Agent</strong> es un software que administra y negocia reuniones para el usuario, sobre la base de preferencias y de su capacidad de analizar el lenguaje natural (NLP o Natural Language Processing) contenido en los correos electrónicos.Se llama <em>agente</em> pues el software actúa bajo la autorización y supervisión del usuario e interactúa con terceras personas. Esto no significa que desde el diseño se haya dotado de un aura especial o carisma sino que, se ha construído una mediación entre la persona y su red de contactos para acelerar y mejorar la calidad de los acuerdos resultantes de dichas negociaciones.</p>
 
 <h3 id="el-problema-para-el-diseño">El problema para el Diseño</h3>
 
@@ -188,7 +179,12 @@
   <li><strong>Método de Negociación</strong> : El iniciador ofrece una cantidad cerrada de posibilidades. Las contrapartes pueden elegir o realizar contraofertas.</li>
 </ul>
 
-<p>Nuestro modelo corresponde a una combinación de estos dos métodos: el iniciador ofrece opciones basado en las preferencias de las contrapartes. De este modo, el conjunto inicial de opciones tiene más posibilidades de ser aceptado. A partir de estas opciones “informadas” los demás involucrados pueden elejir o hacer contraofertas siguiendo el modelo de negociación. Asimismo, consideramos a las preferencias como una envolvente (<em>envelope</em> siguiendo la metáfora de los editores de sonido) del calendario, ponderando los tiempos de disponibilidad con distinta intensidad. <a href="/assets/uploads/2006/08/screenshot_preferences11.jpg"><img src="/assets/uploads/2006/08/screenshot_preferences11.jpg" alt="" /></a> Este modo de espeficicar las preferencias a través de gradientes permite desarrollar un lenguaje visual consistente a lo largo del software para expresar “calidades de tiempos” y garantiza el seteo de preferencias sólidas, sin vacíos, pues la gradiente representa una función <strong>spline</strong>. Ud. puede ver los prototipos funcionales <a href="http://web.archive.org/web/20061013125929/http://www.herbertspencer.net/projects/honeydew/"><strong>aquí</strong></a>.</p>
+<p>Nuestro modelo corresponde a una combinación de estos dos métodos: el iniciador ofrece opciones basado en las preferencias de las contrapartes. De este modo, el conjunto inicial de opciones tiene más posibilidades de ser aceptado. A partir de estas opciones “informadas” los demás involucrados pueden elejir o hacer contraofertas siguiendo el modelo de negociación. Asimismo, consideramos a las preferencias como una envolvente (<em>envelope</em> siguiendo la metáfora de los editores de sonido) del calendario, ponderando los tiempos de disponibilidad con distinta intensidad.</p>
+
+<p><img src="/assets/uploads/2006/08/screenshot_preferences11.jpg" alt="Vista del calendario para la semana" /></p>
+<p class="caption">Las preferencias de ocupado/disponible se definen en gradientes con <em>puntos clave</em> para horarios específocos desde los cuales se interpola la gradiente de disponibilidad. Esta gradiente permite establecer criterios de negociación y sopone cierta flexibilidad.</p>
+
+<p>Este modo de espeficicar las preferencias a través de gradientes permite desarrollar un lenguaje visual consistente a lo largo del software para expresar “calidades de tiempos” y garantiza el seteo de preferencias sólidas, sin vacíos, pues la gradiente representa una función <strong>spline</strong>. Ud. puede ver los prototipos funcionales <a href="http://web.archive.org/web/20061013125929/http://www.herbertspencer.net/projects/honeydew/"><strong>aquí</strong></a>.</p>
 
 <h3 id="instrucciones">Instrucciones</h3>
 
@@ -222,7 +218,7 @@ Este encargo fue realizado por <a href="http://web.archive.org/web/2006101312592
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 4 April 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 6 April 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
 </body>

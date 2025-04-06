@@ -4,7 +4,6 @@
         <!-- Botón toggle -->
         <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
     </div>
-
     <nav id="main" hidden>
       <ul>
         {% assign pages_list = site.pages | where_exp: "p", "p.title" %}
@@ -15,7 +14,6 @@
         {% endfor %}
       </ul>
     </nav>
-  
     <!-- Script de toggle -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
