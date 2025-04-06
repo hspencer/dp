@@ -392,7 +392,7 @@ header {
             display: inline-block;
             text-transform: uppercase;
             letter-spacing: .1ex;
-            
+            font-weight: 300;
       
             input[type="checkbox"] {
               display: none; // Ocultar el checkbox
@@ -400,22 +400,23 @@ header {
       
             input[type="checkbox"]:checked + span {
               color: vars.$color-strong;
-              border-color: vars.$color-strong; // Color del texto cuando el checkbox está seleccionado
+              border-top: none;
+              border-bottom: 1px solid vars.$color-text; 
             }
       
             input[type="checkbox"]:not(:checked) + span {
-               color: vars.$color-soft-line;  // Color del texto cuando el checkbox no está seleccionado
-               border-color: transparent;
+               color: vars.$color-ligher;  // Color del texto cuando el checkbox no está seleccionado
+               border-bottom: none;
+               border-top: 1px solid vars.$color-text; 
             }
       
             span {
               cursor: pointer;
               display: inline-block;
               font-weight: 600;
-              margin-left: 1ex;
               padding: 1ex 1em;
               border-radius: 2ex;
-    border-top: 1px solid gray;
+
             }
           }
         }
