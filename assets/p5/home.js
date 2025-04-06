@@ -4,11 +4,11 @@
 
    let pal = {};
 
-   const minDiameter = 5;
+   const minDiameter = 10;
    const maxDiameter = 100;
 
       // Definir variable global para el máximo de enlaces por nodo
-   const MAX_LINKS = 3;
+   const MAX_LINKS = 5;
    
    let postsData = [];
    let filteredPosts = [];
@@ -161,7 +161,7 @@
                restitution: 0.8, // Bounciness
                friction: 0.01,    // Low friction
                frictionAir: 0.02, // Some air drag
-               density: 0.001     // Affects mass
+               density: 0.01     // Affects mass
            });
    
            // Initialize interaction properties
