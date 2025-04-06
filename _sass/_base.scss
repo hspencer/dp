@@ -380,24 +380,47 @@ header {
     }
 
     #categorias {
-        position: absolute;
-        bottom: 0;
+        margin: 1em auto 0 auto;
         font-family: vars.$font-sans;
-        font-size: 1rem;
+        font-size: 0.75rem;
         text-align: center;
+      
         div {
+          display: inline-block;
+      
+          label {
             display: inline-block;
-            label {
-                display: inline-block;
-                text-transform: uppercase;
-                span {
-                    display: inline-block;
-                    font-weight: 600;
-                    margin: 0 0 0 1ex;
-                }
+            text-transform: uppercase;
+            letter-spacing: .1ex;
+            
+      
+            input[type="checkbox"] {
+              display: none; // Ocultar el checkbox
             }
+      
+            input[type="checkbox"]:checked + span {
+              color: vars.$color-strong;
+              border-color: vars.$color-strong; // Color del texto cuando el checkbox está seleccionado
+            }
+      
+            input[type="checkbox"]:not(:checked) + span {
+               color: vars.$color-soft-line;  // Color del texto cuando el checkbox no está seleccionado
+               border-color: transparent;
+            }
+      
+            span {
+              cursor: pointer;
+              display: inline-block;
+              font-weight: 600;
+              margin-left: 1ex;
+              padding: 1ex 1em;
+              border-radius: 2ex;
+    border-top: 1px solid gray;
+            }
+          }
         }
-    }
+      }
+      
 }
 
 @media (max-width: 768px) {

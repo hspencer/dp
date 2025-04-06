@@ -82,6 +82,7 @@
        // --- Proceder con setup normal si hay datos ---
        let w = document.getElementById("p5").offsetWidth;
        let windowHeightPercentage = window.innerHeight * 0.75;
+       windowHeightPercentage = constrain(windowHeightPercentage, w*1.2, window.innerHeight);
        let canvasHeight = Math.max(w, windowHeightPercentage); // Usar el mayor entre ancho y 75% alto ventana
        cnv = createCanvas(w, canvasHeight);
        cnv.elt.addEventListener('wheel', function(e) {
@@ -222,7 +223,7 @@
    
        // --- Draw Links (behind circles) ---
        blendMode(HARD_LIGHT)
-       stroke(255, 128, 0, 28); // Semi-transparent black links
+       stroke(0, 204, 255, 28); // Semi-transparent black links
        strokeWeight(20);
        links.forEach((link) => {
            // Check if both bodies of the link exist and are in the filtered list
@@ -487,48 +488,49 @@
    // =========================================================================
    // DOM Element Creation
    // =========================================================================
+
    function createCategoryCheckboxes() {
-       let containerId = "categorias";
-       let existingContainer = select('#' + containerId); // Use p5.select
-       if (existingContainer) {
-           existingContainer.remove(); // Remove old container if it exists
-       }
-   
-       let container = createDiv().id(containerId).parent("p5"); // Create and parent
-       container.style('margin-top', '10px'); // Add some space below canvas
-       container.style('padding-left', '10px'); // Align with canvas edge if needed
-       container.style('padding-right', '10px');
-   
-   
-       // Sort categories alphabetically for consistent order
-       let sortedCategories = Object.keys(categoryFilter).sort();
-   
-       sortedCategories.forEach((cat) => {
-           let checkboxContainer = createDiv().parent(container);
-           checkboxContainer.style('display', 'inline-block'); // Display checkboxes side-by-side
-           checkboxContainer.style('margin-right', '15px');   // Spacing between checkboxes
-           checkboxContainer.style('margin-bottom', '5px');
-   
-           let label = createCheckbox('', true); // Create checkbox, checked by default, NO label text here
-           label.parent(checkboxContainer);
-           label.id('check-' + cat); // Give checkbox an ID
-           label.changed(() => {
-               categoryFilter[cat] = label.checked(); // Update filter state on change
-           });
-           label.style('display', 'inline-block');
-           label.style('vertical-align', 'middle');
-   
-           // Create a separate label element linked to the checkbox
-           let labelText = createElement('label', cat); // Create label text
-           labelText.parent(checkboxContainer);
-           labelText.attribute('for', 'check-' + cat); // Link to checkbox by ID
-           labelText.style('font-family', "'Barlow', sans-serif");
-           labelText.style('font-size', '1em');
-           labelText.style('margin-left', '0'); // Space between checkbox and text
-           labelText.style('vertical-align', 'middle');
-           labelText.style('cursor', 'pointer'); // Make text clickable
-       });
-   }
+    // Remover contenedor existente si existe
+    let containerId = "categorias";
+    let existingContainer = select('#' + containerId);
+    if (existingContainer) {
+      existingContainer.remove();
+    }
+    
+    // Crear contenedor para los checkboxes
+    let container = createDiv().id(containerId).parent("p5");
+    
+    // Obtener y ordenar alfabéticamente las categorías
+    let sortedCategories = Object.keys(categoryFilter).sort();
+    
+    sortedCategories.forEach((cat) => {
+      // Crear contenedor para cada checkbox con su etiqueta
+      let checkboxContainer = createDiv().parent(container);
+      
+      // Crear elemento label que envolverá el checkbox y el texto
+      let label = createElement('label');
+      label.parent(checkboxContainer);
+      
+      // Crear el elemento input de tipo checkbox
+      let checkbox = createElement('input');
+      checkbox.attribute('type', 'checkbox');
+      checkbox.attribute('id', 'check-' + cat);
+      checkbox.attribute('checked', true);
+      
+      // Agregar el checkbox al label
+      label.child(checkbox);
+      
+      // Crear un span para el texto y agregarlo al label
+      let span = createSpan(' ' + cat);
+      span.parent(label);
+      
+      // Añadir listener para actualizar el estado en categoryFilter
+      checkbox.elt.addEventListener('change', function() {
+        categoryFilter[cat] = checkbox.elt.checked;
+      });
+    });
+  }
+  
    
    // =========================================================================
    // Window Resize Handling
@@ -605,9 +607,9 @@ function initializeNodes() {
 
 // Función modificada para crear enlaces utilizando los nodos
 function createLinks() {
-  const linkLength = 100; // Math.min(width, height) * 0.3; // Longitud dinámica del enlace
-  const stiffnessValue = 0.001; // Rigidez para el constraint
-  const dampingValue = 0.05;    // Amortiguamiento para el constraint
+  const linkLength = 10; // Math.min(width, height) * 0.3; // Longitud dinámica del enlace
+  const stiffnessValue = 0.00001; // Rigidez para el constraint
+  const dampingValue = 0.005;    // Amortiguamiento para el constraint
   
   // Eliminar enlaces existentes del mundo y reiniciar el array
   links.forEach(link => World.remove(world, link));
