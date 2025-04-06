@@ -6,6 +6,9 @@
 
    const minDiameter = 5;
    const maxDiameter = 100;
+
+      // Definir variable global para el máximo de enlaces por nodo
+   const MAX_LINKS = 3;
    
    let postsData = [];
    let filteredPosts = [];
@@ -81,7 +84,9 @@
        let windowHeightPercentage = window.innerHeight * 0.75;
        let canvasHeight = Math.max(w, windowHeightPercentage); // Usar el mayor entre ancho y 75% alto ventana
        cnv = createCanvas(w, canvasHeight);
-   
+       cnv.elt.addEventListener('wheel', function(e) {
+        // No se llama a e.preventDefault(), lo que permite la acción predeterminada del navegador
+      }, { passive: true });
        cnv.parent("p5");
        cnv.elt.style.touchAction = "auto"; // Allow default touch actions like scrolling/zooming on canvas element
        textFont("Barlow");
@@ -194,6 +199,7 @@
        });
    
        filteredPosts = postsData; // Initialize filtered list
+       initializeNodes();
        createLinks(); // Create springs between related posts
    }
    
@@ -215,20 +221,20 @@
        );
    
        // --- Draw Links (behind circles) ---
-       stroke(0, 25); // Semi-transparent black links
-       strokeWeight(0.5);
+       blendMode(HARD_LIGHT)
+       stroke(255, 128, 0, 28); // Semi-transparent black links
+       strokeWeight(20);
        links.forEach((link) => {
            // Check if both bodies of the link exist and are in the filtered list
            const bodyA = link.bodyA;
            const bodyB = link.bodyB;
            const bodyAVisible = filteredPosts.some((p) => p.body.id === bodyA.id);
            const bodyBVisible = filteredPosts.some((p) => p.body.id === bodyB.id);
-   
            if (bodyAVisible && bodyBVisible) {
                line(bodyA.position.x, bodyA.position.y, bodyB.position.x, bodyB.position.y);
            }
        });
-   
+       blendMode(BLEND)
        // --- Draw Circles and Handle Tooltips ---
        filteredPosts.forEach((post) => {
            if (!post.body) return; // Skip if body doesn't exist for some reason
@@ -245,7 +251,7 @@
                if (tooltip) {
                    tooltip.style("display", "block"); // Show immediately on hover
                    // Position closer: change -8 to -2 (or adjust as needed)
-                   tooltip.position(pos.x, pos.y - post.radius - 2); // ADJUSTED POSITION
+                   tooltip.position(pos.x, pos.y - (post.radius * .3)); // ADJUSTED POSITION
                    showTooltipThisFrame = true; // Mark to keep visible
                }
    
@@ -326,40 +332,40 @@
    }
    
    
-   // =========================================================================
-   // Link Creation Function
-   // =========================================================================
-   function createLinks() {
-       const linkLength = Math.min(width, height) * 0.3; // Dynamic link length based on canvas size
-       const stiffnessValue = 0.001; // Low stiffness for loose connection
-       const dampingValue = 0.05;    // Some damping to reduce oscillations
+//    // =========================================================================
+//    // Link Creation Function
+//    // =========================================================================
+//    function createLinks() {
+//        const linkLength = Math.min(width, height) * 0.3; // Dynamic link length based on canvas size
+//        const stiffnessValue = 0.001; // Low stiffness for loose connection
+//        const dampingValue = 0.05;    // Some damping to reduce oscillations
    
-       links = []; // Clear existing links if re-running
+//        links = []; // Clear existing links if re-running
    
-       for (let i = 0; i < postsData.length; i++) {
-           for (let j = i + 1; j < postsData.length; j++) {
-               const post1 = postsData[i];
-               const post2 = postsData[j];
+//        for (let i = 0; i < postsData.length; i++) {
+//            for (let j = i + 1; j < postsData.length; j++) {
+//                const post1 = postsData[i];
+//                const post2 = postsData[j];
    
-               // Ensure both posts have bodies before creating link
-               if (!post1.body || !post2.body) continue;
+//                // Ensure both posts have bodies before creating link
+//                if (!post1.body || !post2.body) continue;
    
-               // Create link if they share at least one category
-               if (post1.categorias.some((cat) => post2.categorias.includes(cat))) {
-                   const spring = Constraint.create({
-                       bodyA: post1.body,
-                       bodyB: post2.body,
-                       length: linkLength, // Desired resting length
-                       stiffness: stiffnessValue,
-                       damping: dampingValue, // Add damping
-                       render: { visible: false } // Don't let Matter draw the constraint
-                   });
-                   links.push(spring);
-                   World.add(world, spring);
-               }
-           }
-       }
-   }
+//                // Create link if they share at least one category
+//                if (post1.categorias.some((cat) => post2.categorias.includes(cat))) {
+//                    const spring = Constraint.create({
+//                        bodyA: post1.body,
+//                        bodyB: post2.body,
+//                        length: linkLength, // Desired resting length
+//                        stiffness: stiffnessValue,
+//                        damping: dampingValue, // Add damping
+//                        render: { visible: false } // Don't let Matter draw the constraint
+//                    });
+//                    links.push(spring);
+//                    World.add(world, spring);
+//                }
+//            }
+//        }
+//    }
    
    // =========================================================================
    // Interaction Functions (Mouse and Touch)
@@ -517,8 +523,8 @@
            labelText.parent(checkboxContainer);
            labelText.attribute('for', 'check-' + cat); // Link to checkbox by ID
            labelText.style('font-family', "'Barlow', sans-serif");
-           labelText.style('font-size', '13px');
-           labelText.style('margin-left', '5px'); // Space between checkbox and text
+           labelText.style('font-size', '1em');
+           labelText.style('margin-left', '0'); // Space between checkbox and text
            labelText.style('vertical-align', 'middle');
            labelText.style('cursor', 'pointer'); // Make text clickable
        });
@@ -569,3 +575,83 @@
    
        console.log(`Resized canvas to: ${w} x ${canvasHeight}`);
    }
+
+
+
+// Clase Node que almacena la referencia al post y sus enlaces
+class Node {
+  constructor(post) {
+    this.post = post; // Referencia al post asociado
+    this.links = [];  // Array para almacenar los enlaces
+  }
+  // Verifica si existe un enlace hacia otro nodo
+  hasLinkTo(otherNode) {
+    return this.links.includes(otherNode);
+  }
+  // Agrega un enlace si no se supera el máximo y no existe ya
+  addLink(otherNode) {
+    if (this.links.length < MAX_LINKS && !this.hasLinkTo(otherNode)) {
+      this.links.push(otherNode);
+    }
+  }
+}
+
+// Función para inicializar los nodos en cada post
+function initializeNodes() {
+  postsData.forEach(post => {
+    post.node = new Node(post); // Asignar un nodo a cada post
+  });
+}
+
+// Función modificada para crear enlaces utilizando los nodos
+function createLinks() {
+  const linkLength = 100; // Math.min(width, height) * 0.3; // Longitud dinámica del enlace
+  const stiffnessValue = 0.001; // Rigidez para el constraint
+  const dampingValue = 0.05;    // Amortiguamiento para el constraint
+  
+  // Eliminar enlaces existentes del mundo y reiniciar el array
+  links.forEach(link => World.remove(world, link));
+  links = [];
+  
+  // Reiniciar los enlaces en cada nodo
+  postsData.forEach(post => {
+    if (post.node) post.node.links = [];
+  });
+  
+  // Iterar sobre cada post para asignar enlaces
+  postsData.forEach(postA => {
+    // Seleccionar candidatos: posts que comparten al menos un tag y que no tienen enlace hacia postA
+    let candidates = postsData.filter(postB => {
+      if (postA === postB) return false; // Excluir el mismo post
+      let shareTag = postA.categorias.some(cat => postB.categorias.includes(cat));
+      // Verificar que el candidato no tenga enlace hacia postA
+      let candidateHasLinkToA = postB.node && postB.node.hasLinkTo(postA.node);
+      return shareTag && !candidateHasLinkToA;
+    });
+    
+    // Ordenar candidatos de menor a mayor cantidad de enlaces
+    candidates.sort((a, b) => a.node.links.length - b.node.links.length);
+    
+    // Agregar enlaces hasta alcanzar el máximo permitido para postA
+    while (postA.node.links.length < MAX_LINKS && candidates.length > 0) {
+      let candidate = candidates.shift(); // Seleccionar el candidato con menos enlaces
+      if (candidate.node.links.length < MAX_LINKS) { // Verificar que el candidato no exceda el máximo
+        // Agregar enlace bidireccional
+        postA.node.addLink(candidate.node);
+        candidate.node.addLink(postA.node);
+        
+        // Crear constraint de Matter.js para representar el enlace
+        let spring = Constraint.create({
+          bodyA: postA.body,
+          bodyB: candidate.body,
+          length: linkLength,
+          stiffness: stiffnessValue,
+          damping: dampingValue,
+          render: { visible: false } // El enlace no se dibuja
+        });
+        links.push(spring);
+        World.add(world, spring);
+      }
+    }
+  });
+}
