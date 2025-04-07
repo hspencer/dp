@@ -8,7 +8,7 @@
    const maxDiameter = 100;
 
       // Definir variable global para el máximo de enlaces por nodo
-   const MAX_LINKS = 5;
+   const MAX_LINKS = 2;
    
    let postsData = [];
    let filteredPosts = [];
