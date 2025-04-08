@@ -35,6 +35,7 @@ let links = [];            // Array to hold Matter.js constraints (springs)
 // Stiffness Control Variable (for dynamic slider)
 let currentStiffness = 0.00001; // Default stiffness, controlled by slider
 
+let trails = false;
 // =========================================================================
 // Preload Function - Load external data
 // =========================================================================
@@ -111,6 +112,9 @@ function setup() {
     cnv.parent("p5"); // Attach canvas to the div with id="p5"
     cnv.elt.style.touchAction = "auto"; // Allow default touch actions (scroll/zoom)
     textFont("Barlow"); // Set default font
+
+    cnv.elt.setAttribute('tabindex', '0'); // Permite que el canvas reciba foco
+    cnv.elt.style.outline = 'none'; // Opcional: quita el borde azul al hacer foco
 
     // Initialize Matter.js Engine
     engine = Engine.create();
@@ -281,10 +285,14 @@ function setup() {
 // Draw Function - Runs continuously to update and render the simulation
 // =========================================================================
 function draw() {
-    // Semi-transparent background for trails effect, or use clear() for no trails
-    background(255, 10);
-    // clear(); // Uncomment for a non-trail background
 
+    if(trails){
+        // Semi-transparent background for trails effect, or use clear() for no trails
+        background(255, 10);
+    }else{
+        clear(); // Uncomment for a non-trail background
+    }
+    
     Engine.update(engine); // Update the Matter.js physics engine
     let now = millis(); // Get current time for animations/interactions
 
@@ -299,7 +307,7 @@ function draw() {
 
     // --- Draw Links (Springs) ---
     push(); // Isolate link drawing styles
-    blendMode(OVERLAY); // Blend mode for links (experiment with others)
+    // blendMode(OVERLAY); // Blend mode for links (experiment with others)
     stroke(69, 20, 202, 55); // Link color (e.g., light blue, semi-transparent)
     strokeWeight(1); // Thickness of links
     links.forEach((link) => {
@@ -317,7 +325,7 @@ function draw() {
     pop(); // Restore previous drawing styles (includes blendMode)
     // --- End Draw Links ---
 
-    blendMode(MULTIPLY);
+    // blendMode(MULTIPLY);
     // --- Draw Circles (Posts) and Handle Tooltips ---
     filteredPosts.forEach((post) => {
         if (!post.body) return; // Skip if body doesn't exist
@@ -409,7 +417,7 @@ function draw() {
             tooltip.style("display", "none"); // Hide tooltip if not hovering this frame
         }
     });
-    blendMode(BLEND);
+    // blendMode(BLEND);
     // --- End Draw Circles ---
 }
 
@@ -762,4 +770,12 @@ function createLinks() {
     }
   });
   // console.log(`Created ${links.length} links.`); // Debugging
+}
+
+function keyTyped(){
+    if (key === 'v' || key === 'V') {
+        trails = !trails;
+        return false;
+    }
+    return true;
 }
