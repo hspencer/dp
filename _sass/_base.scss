@@ -433,6 +433,7 @@ header {
         font-family: vars.$font-sans;
         font-size: 0.75rem;
         text-align: center;
+        margin-bottom: 2em;
 
         div {
             display: inline-block;
@@ -456,7 +457,7 @@ header {
                 input[type="checkbox"]:not(:checked) + span {
                     color: vars.$color-ligher; // Color del texto cuando el checkbox no está seleccionado
                     border-bottom: transparent;
-                    border-top: 1px solid vars.$color-text;
+                    border-top: 1px solid vars.$color-ligher;
                 }
 
                 span {
@@ -466,6 +467,7 @@ header {
                     font-weight: 600;
                     padding: 1ex 1em;
                     border-radius: 2ex;
+                    margin-bottom: 1em;
                 }
             }
         }
@@ -557,6 +559,7 @@ footer {
 .paginacion {
     display: flex;
     justify-content: center;
+    flex-flow: wrap;
     margin-top: 2rem;
     gap: 1rem;
     font-family: vars.$font-sans;

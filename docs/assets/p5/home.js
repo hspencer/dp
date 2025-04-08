@@ -126,13 +126,7 @@
        let maxLen = largos.length > 0 ? Math.max(...largos) : 1000; // Default max if no valid lengths
        if (minLen === maxLen) maxLen += 1; // Avoid division by zero if all posts have same length
    
-       // Create static boundaries for the world
-       let t = 50; // Thickness of boundaries
-       boundaries.push(Bodies.rectangle(width / 2, height + t / 2, width, t, { isStatic: true })); // Bottom
-       boundaries.push(Bodies.rectangle(width / 2, -t / 2, width, t, { isStatic: true }));    // Top
-       boundaries.push(Bodies.rectangle(-t / 2, height / 2, t, height, { isStatic: true }));  // Left
-       boundaries.push(Bodies.rectangle(width + t / 2, height / 2, t, height, { isStatic: true })); // Right
-       World.add(world, boundaries);
+       updateBoundaries();
    
        // Create Matter.js bodies for each post
        postsData.forEach((post, index) => {
@@ -208,7 +202,7 @@
    // Draw Function (MODIFIED for tooltip visibility and position)
    // =========================================================================
    function draw() {
-       clear(); // Use clear() instead of background() for transparency if needed over HTML
+       background(255, 10); // Use clear() instead of background() for transparency if needed over HTML
        Engine.update(engine);
        let now = millis();
    
@@ -222,7 +216,7 @@
        );
    
        // --- Draw Links (behind circles) ---
-       blendMode(HARD_LIGHT)
+       blendMode(MULTIPLY)
        stroke(0, 204, 255, 28); // Semi-transparent black links
        strokeWeight(20);
        links.forEach((link) => {
@@ -332,42 +326,6 @@
        });
    }
    
-   
-//    // =========================================================================
-//    // Link Creation Function
-//    // =========================================================================
-//    function createLinks() {
-//        const linkLength = Math.min(width, height) * 0.3; // Dynamic link length based on canvas size
-//        const stiffnessValue = 0.001; // Low stiffness for loose connection
-//        const dampingValue = 0.05;    // Some damping to reduce oscillations
-   
-//        links = []; // Clear existing links if re-running
-   
-//        for (let i = 0; i < postsData.length; i++) {
-//            for (let j = i + 1; j < postsData.length; j++) {
-//                const post1 = postsData[i];
-//                const post2 = postsData[j];
-   
-//                // Ensure both posts have bodies before creating link
-//                if (!post1.body || !post2.body) continue;
-   
-//                // Create link if they share at least one category
-//                if (post1.categorias.some((cat) => post2.categorias.includes(cat))) {
-//                    const spring = Constraint.create({
-//                        bodyA: post1.body,
-//                        bodyB: post2.body,
-//                        length: linkLength, // Desired resting length
-//                        stiffness: stiffnessValue,
-//                        damping: dampingValue, // Add damping
-//                        render: { visible: false } // Don't let Matter draw the constraint
-//                    });
-//                    links.push(spring);
-//                    World.add(world, spring);
-//                }
-//            }
-//        }
-//    }
-   
    // =========================================================================
    // Interaction Functions (Mouse and Touch)
    // =========================================================================
@@ -445,8 +403,7 @@
   
     // ✅ Solo bloquea scroll si estás interactuando con un nodo
     return isOverNode ? false : true;
-  }
-   
+  }   
    
    function touchEnded() {
        if (!filteredPosts || !postsData) return;
@@ -552,16 +509,7 @@
        resizeCanvas(w, canvasHeight);
    
        // --- Update boundaries ---
-       if (boundaries.length >= 4) {
-            World.remove(world, boundaries); // Remove old boundaries
-            boundaries = []; // Clear array
-            let t = 50; // Thickness
-            boundaries.push(Bodies.rectangle(width / 2, height + t / 2, width, t, { isStatic: true, label: 'boundary-bottom' }));
-            boundaries.push(Bodies.rectangle(width / 2, -t / 2, width, t, { isStatic: true, label: 'boundary-top' }));
-            boundaries.push(Bodies.rectangle(-t / 2, height / 2, t, height, { isStatic: true, label: 'boundary-left' }));
-            boundaries.push(Bodies.rectangle(width + t / 2, height / 2, t, height, { isStatic: true, label: 'boundary-right' }));
-            World.add(world, boundaries); // Add new boundaries
-       }
+       updateBoundaries();
    
        // --- Recreate links with potentially new length ---
        // Remove old constraints from the world first
@@ -584,7 +532,18 @@
        console.log(`Resized canvas to: ${w} x ${canvasHeight}`);
    }
 
-
+function updateBoundaries(){
+    if (boundaries.length >= 4) {
+        World.remove(world, boundaries); // Remove old boundaries
+        boundaries = []; // Clear array
+        let t = 50000; // Thickness
+        boundaries.push(Bodies.rectangle(width / 2, height + t / 2, width, t, { isStatic: true, label: 'boundary-bottom' }));
+        boundaries.push(Bodies.rectangle(width / 2, -t / 2, width, t, { isStatic: true, label: 'boundary-top' }));
+        boundaries.push(Bodies.rectangle(-t / 2, height / 2, t, height, { isStatic: true, label: 'boundary-left' }));
+        boundaries.push(Bodies.rectangle(width + t / 2, height / 2, t, height, { isStatic: true, label: 'boundary-right' }));
+        World.add(world, boundaries); // Add new boundaries
+   }
+}
 
 // Clase Node que almacena la referencia al post y sus enlaces
 class Node {
