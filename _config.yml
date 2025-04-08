@@ -2,6 +2,7 @@ title: "{dp} · doble página"
 author:
   name: "Herbert Spencer"
 description: Un espacio para la experimentación y la reflexión
+locale: es
 baseurl: "" # Deja esto vacío si es tu sitio principal
 url: "https://herbertspencer.net"
 feed:

@@ -20,6 +20,13 @@
         </figure>
       {% endif %}
 
+      <!-- Fecha -->
+      {%- assign meses = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," -%}
+      {%- assign mes_index = page.date | date: "%-m" | minus: 1 -%}
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%-d" }} de {{ meses[mes_index] }} de {{ page.date | date: "%Y" }}
+      </time>
+
       <!-- P5 (si p5.script existe y no tiene sidebar: false) -->
       {% if page.p5 and page.p5.script and page.p5.sidebar != false %}
         <div id="p5"></div>
@@ -52,11 +59,6 @@
         </div>
       {% endif %}
 
-      <!-- Fecha -->
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: "%-d %B %Y" }}
-      </time>
-
       <!-- Bloque de sidebar en HTML directo -->
       {% if page.sidebar.html %}
         <div
@@ -77,6 +79,10 @@
         </div>
       {% endif %}
 
+      <!-- Posts Relacionados -->
+      {% include related-posts.html %}
+
+      <!-- Link a la cita -->
       {% include citar.html %}
     </sidebar>
 

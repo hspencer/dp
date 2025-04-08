@@ -147,6 +147,54 @@ header {
                 color: vars.$color-link;
             }
         }
+
+        .related-posts{
+            text-align: right;
+            margin-top: 2em;
+            h4{
+                font-family: Barlow;
+                color: vars.$color-red;
+                font-size: .75em;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+            ul{
+                li{
+                    position: relative;
+                    list-style-type: none;
+                    a{
+                        position: relative;
+                        transition: all 1s ease;
+                        font-size: .8em;
+                        display: block;
+                        margin: 0 0 -2ex 0;
+                        &::after{
+                            position: relative;
+                            transition: all 1s ease;
+                            display: inline-block;
+                            content: "☜";
+                            color: transparent;
+                            top: .7ex;
+                            left: 1ex;
+                        }
+                        &:hover{
+                            color: vars.$color-red;
+                            margin: 0 -2ex -2ex 0;
+                            &::after{
+                                color: vars.$color-red;
+                            }
+                        }
+                    }
+                    .tag{
+                        display: inline-block;
+                        text-transform: uppercase;
+                        font-family: Barlow;
+                        font-size: 8px;
+                        margin-left: 1em;
+                    }
+                }
+            }
+        }
     }
 
     article {
@@ -312,6 +360,7 @@ header {
                 &:hover {
                     border-radius: 0.5ex;
                     background-color: rgba(255, 255, 255, 0.729);
+                    outline: 1ex solid rgba(255, 255, 255, 0.729);
                     .image-overlay {
                         background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
                     }
@@ -411,7 +460,7 @@ header {
                 }
 
                 span {
-                    transition: all 1s ease;
+                    transition: all .2s ease;
                     cursor: pointer;
                     display: inline-block;
                     font-weight: 600;

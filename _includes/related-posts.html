@@ -1,0 +1,35 @@
+{%- assign current_tags = page.tags -%}
+{%- if current_tags and current_tags != empty -%}
+
+  {%- assign related = "" | split: "" -%}
+  {%- assign seen_urls = "" | split: "" -%}
+
+  {%- for post in site.posts -%}
+    {%- if post != page and post.tags -%}
+      {%- assign intersect = post.tags | where_exp: "tag", "current_tags contains tag" -%}
+      {%- if intersect != empty -%}
+        {%- unless seen_urls contains post.url -%}
+          {%- assign related = related | push: post -%}
+          {%- assign seen_urls = seen_urls | push: post.url -%}
+        {%- endunless -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if related != empty -%}
+    <div class="related-posts">
+      <h4>Artículos relacionados</h4>
+      <ul>
+        {%- for post in related -%}
+          {%- assign intersect = post.tags | where_exp: "tag", "current_tags contains tag" -%}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            {%- for tag in intersect -%}
+              <span class="tag">{{ tag }}</span>
+            {%- endfor -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  {%- endif -%}
+{%- endif -%}

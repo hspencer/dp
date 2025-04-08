@@ -415,31 +415,37 @@
         // We don't return false here usually, let Matter.js handle touch for dragging
    }
    
-   function touchMoved() {
-        if (!filteredPosts || !postsData) return;
-   
-        if (touches.length > 0) {
-           let pointerX = touches[0].x;
-           let pointerY = touches[0].y;
-   
-           // Check if touch moved significantly, cancel hover if so
-           postsData.forEach((post) => {
-                if (!post.body) return;
-                // Check if this post had a touch start recorded
-                if (post.touchStartX !== undefined && post.touchStartY !== undefined) {
-                    // Calculate distance moved from start
-                    if (dist(pointerX, pointerY, post.touchStartX, post.touchStartY) > 10) { // Drag threshold
-                        // If dragged significantly, cancel hover/activation process
-                        post.hoverStart = null;
-                        post.activated = false;
-                        // Reset touch start points as well? Maybe not, let Matter handle drag.
-                        // But definitely stop activation sequence.
-                    }
-                }
-           });
-       }
-       return false; // Prevent page scrolling while dragging on canvas
-   }
+   function touchMoved(e) {
+    if (!filteredPosts || !postsData) return;
+  
+    let isOverNode = false;
+  
+    if (touches.length > 0) {
+      let pointerX = touches[0].x;
+      let pointerY = touches[0].y;
+  
+      postsData.forEach((post) => {
+        if (!post.body) return;
+  
+        if (dist(pointerX, pointerY, post.body.position.x, post.body.position.y) < post.radius) {
+          isOverNode = true;
+  
+          // Si se movió mucho, cancela hover
+          if (
+            post.touchStartX !== undefined &&
+            post.touchStartY !== undefined &&
+            dist(pointerX, pointerY, post.touchStartX, post.touchStartY) > 10
+          ) {
+            post.hoverStart = null;
+            post.activated = false;
+          }
+        }
+      });
+    }
+  
+    // ✅ Solo bloquea scroll si estás interactuando con un nodo
+    return isOverNode ? false : true;
+  }
    
    
    function touchEnded() {
