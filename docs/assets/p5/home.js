@@ -2,780 +2,586 @@
    │  {dp} · doble página · desde 2003 living standard  │
    ╰────────────────────────────────────────────────────╯ */
 
-// =========================================================================
-// Global Variables & Constants
-// =========================================================================
-let pal = {}; // Object to hold color definitions
+   let pal = {};
 
-const minDiameter = 10;    // Minimum circle diameter
-const maxDiameter = 100;   // Maximum circle diameter
-const MAX_LINKS = 2;       // Maximum links per node
+   const minDiameter = 10;
+   const maxDiameter = 100;
 
-let postsData = [];        // Array to hold post data from JSON
-let filteredPosts = [];    // Array of posts currently visible based on filters
-let categoryFilter = {};   // Object to track active category filters
-let cnv;                   // p5.js canvas object
+   const MAX_LINKS = 3;
 
-// Matter.js Modules
-const Engine = Matter.Engine,
-      World = Matter.World,
-      Bodies = Matter.Bodies,
-      Constraint = Matter.Constraint;
+   let postsData = [];
+   let filteredPosts = [];
+   let categoryFilter = {};
+   let cnv;
 
-let engine;                // Matter.js physics engine
-let world;                 // Matter.js physics world
-let boundaries = [];       // Array to hold boundary bodies
-let tooltips = {};         // Object to hold p5.dom tooltip elements, keyed by body id
+   const Engine = Matter.Engine,
+       World = Matter.World,
+       Bodies = Matter.Bodies,
+       Constraint = Matter.Constraint;
 
-// Interaction & Animation Variables
-const hoverThreshold = 1000; // Time in ms to activate node on hover/touch
-const fadeDuration = 500;    // Duration of hover fade-in effect
-let links = [];            // Array to hold Matter.js constraints (springs)
+   let engine;
+   let world;
+   let boundaries = [];
+   let tooltips = {};
 
-// Stiffness Control Variable (for dynamic slider)
-let currentStiffness = 0.00001; // Default stiffness, controlled by slider
+   const hoverThreshold = 1000;
+   const fadeDuration = 500;
+   let links = [];
 
-let trails = false;
-// =========================================================================
-// Preload Function - Load external data
-// =========================================================================
-function preload() {
-    loadJSON(
-        "/feed.json", // Path to your JSON data feed
-        (data) => {
-            postsData = data;
-            // Data validation and preparation
-            postsData.forEach(post => {
-                // Ensure 'categorias' is always an array
-                if (!Array.isArray(post.categorias)) {
-                    post.categorias = []; // Default to empty array if missing or not an array
+   // ***** NUEVO: Variable global para la rigidez *****
+   let currentStiffness = 0.00001; // Valor inicial por defecto
+
+   function preload() {
+       // ... (sin cambios en preload) ...
+       loadJSON(
+           "/feed.json",
+           (data) => {
+               postsData = data;
+               // Ensure 'categorias' is always an array
+               postsData.forEach(post => {
+                   if (!Array.isArray(post.categorias)) {
+                       post.categorias = []; // Default to empty array if missing or not an array
+                   }
+                   // Ensure 'largo' exists and is a number, provide default if not
+                    if (typeof post.largo !== 'number' || isNaN(post.largo)) {
+                        console.warn(`Post "${post.titulo}" missing or invalid 'largo'. Defaulting to 1000.`);
+                        post.largo = 1000;
+                    }
+               });
+               filteredPosts = postsData;
+           },
+           (err) => {
+               console.error("Error cargando feed.json:", err);
+           }
+       );
+   }
+
+   function setup() {
+       // Inicializar colores
+       pal = {
+           activeColor: color(166, 10, 10),
+           codeColor: color(150, 177, 150),
+           codeOutline: color(90, 106, 90),
+           escuelaColor: color(94, 137, 179, 180),
+           ideaColor: color(255, 126, 0, 200),
+           imageColor: color(120, 120, 120, 200),
+           noteColor: color(255, 244, 152, 200),
+           hoverColor: color(0),
+       };
+       // Chequeo defensivo
+       if (!Array.isArray(postsData) || postsData.length === 0) {
+           console.warn("postsData no está listo o está vacío.");
+           createCanvas(windowWidth, 200);
+           background(200); fill(0); textAlign(CENTER, CENTER);
+           text("Cargando datos...", width/2, height/2);
+           noLoop(); return;
+       }
+       // Setup Canvas
+       let w = document.getElementById("p5").offsetWidth;
+       let windowHeightPercentage = window.innerHeight / w;
+       let h = w+windowHeightPercentage;
+       cnv = createCanvas(w, h);
+       cnv.elt.addEventListener('wheel', function(e) {}, { passive: true });
+       cnv.parent("p5");
+       cnv.elt.style.touchAction = "auto";
+       textFont("Barlow");
+
+       // Setup Matter.js Engine y Mouse
+       engine = Engine.create();
+       world = engine.world;
+       engine.world.gravity.y = 0;
+       let canvasmouse = Matter.Mouse.create(cnv.elt);
+       canvasmouse.pixelRatio = pixelDensity();
+       let mConstraint = Matter.MouseConstraint.create(engine, {
+           mouse: canvasmouse,
+           constraint: { stiffness: 0.2, render: { visible: false } }
+       });
+       World.add(world, mConstraint);
+
+       // Populate categoryFilter y crear checkboxes
+       postsData.forEach((post) => {
+           (post.categorias || []).forEach((cat) => {
+               if (cat && typeof cat === 'string') { categoryFilter[cat.trim()] = true; }
+           });
+       });
+
+       createCategoryCheckboxes();
+
+       // Calcular min/max largo
+       let largos = postsData.map((p) => p.largo).filter(l => typeof l === 'number' && !isNaN(l));
+       let minLen = largos.length > 0 ? Math.min(...largos) : 1000;
+       let maxLen = largos.length > 0 ? Math.max(...largos) : 1000;
+       if (minLen === maxLen) maxLen += 1;
+
+       updateBoundaries(); // Crear boundaries iniciales
+
+       // Crear cuerpos Matter.js para posts (con posición aleatoria inicial)
+       postsData.forEach((post, index) => {
+            // Calcular radio
+           let isCode = post.categorias.includes("code");
+           post.radius = isCode ? 7 : map(post.largo, minLen, maxLen, minDiameter / 2, maxDiameter / 2);
+           post.radius = constrain(post.radius, minDiameter / 2, maxDiameter / 2);
+
+           // ***** AJUSTE: Posición inicial Aleatoria *****
+           let margin = post.radius + 10;
+           margin = Math.min(margin, width / 2 - 1, height / 2 - 1);
+           if (margin < post.radius) margin = post.radius;
+           let x = random(margin, width - margin);
+           let y = random(margin, height - margin);
+           // ***** FIN AJUSTE *****
+
+           post.body = Bodies.circle(x, y, post.radius, {
+               restitution: 0.8, friction: 0.01, frictionAir: 0.02, density: 0.01
+           });
+
+           post.hoverStart = null; post.activated = false;
+           post.touchStartX = undefined; post.touchStartY = undefined;
+
+           World.add(world, post.body);
+           Matter.Body.setVelocity(post.body, { x: random(-1, 1), y: random(-1, 1) });
+
+           // Crear tooltips HTML
+           tooltips[post.body.id] = createDiv(post.titulo);
+           tooltips[post.body.id].parent("p5");
+           tooltips[post.body.id].addClass("tooltip"); 
+           tooltips[post.body.id].hide(); 
+       });
+
+       filteredPosts = postsData;
+       initializeNodes();
+       createLinks(); // Crear links iniciales (usará currentStiffness)
+
+       // ***** NUEVO: Configuración del Slider de Rigidez *****
+       const stiffnessSlider = select('#stiffnessSlider');
+       const stiffnessValueSpan = select('#stiffnessValue');
+
+       if (stiffnessSlider && stiffnessValueSpan) {
+           // Sincronizar slider/span con el valor inicial de JS
+           stiffnessSlider.value(currentStiffness);
+            // Formatear valor para mostrar (notación exponencial es útil aquí)
+           stiffnessValueSpan.html(currentStiffness.toExponential(2));
+           // Listener para el evento 'input' (se dispara continuamente al mover)
+           stiffnessSlider.input(() => {
+               // 1. Actualizar la variable global
+               currentStiffness = parseFloat(stiffnessSlider.value());
+               // 2. Actualizar el texto del span
+               stiffnessValueSpan.html(currentStiffness.toExponential(2));
+               // 3. Actualizar la rigidez de TODOS los links existentes
+               links.forEach(link => {
+                   if (link) { // Chequeo básico por si acaso
+                       link.stiffness = currentStiffness;
+                   }
+               });
+               // console.log("Stiffness updated to:", currentStiffness); // Para depurar
+           });
+       } else {
+           console.error("Error: No se encontró el slider #stiffnessSlider o el span #stiffnessValue en el HTML.");
+       }
+       // ***** FIN NUEVO *****
+   }
+   // ... (draw, funciones de interacción, createCategoryCheckboxes sin cambios)...
+   function draw() {
+       background(255, 50); // Use clear() instead of background() for transparency if needed over HTML
+       Engine.update(engine);
+       let now = millis();
+
+       // Determine pointer position (mouse or touch)
+       let pointerX = touches.length > 0 ? touches[0].x : mouseX;
+       let pointerY = touches.length > 0 ? touches[0].y : mouseY;
+
+       // Update filteredPosts based on checkbox states
+       filteredPosts = postsData.filter((p) =>
+           p.body && p.categorias.some((cat) => categoryFilter[cat]) // Check body exists
+       );
+
+       // --- Draw Links (behind circles) ---
+       links.forEach((link) => {
+           // Check if both bodies of the link exist and are in the filtered list
+           const bodyA = link.bodyA;
+           const bodyB = link.bodyB;
+           // Comprobar si los cuerpos existen y son visibles
+           if (!bodyA || !bodyB) return; // Saltar si falta algún cuerpo
+           const bodyAVisible = filteredPosts.some((p) => p.body && p.body.id === bodyA.id);
+           const bodyBVisible = filteredPosts.some((p) => p.body && p.body.id === bodyB.id);
+
+           if (bodyAVisible && bodyBVisible) {
+               dim = constrain(bodyA.mass + bodyB.mass, 0, 45);
+               stroke(0, 204, 255, 50 - dim); // Semi-transparent black links (alfa reducido)
+               strokeWeight(bodyA.mass + bodyB.mass);
+               line(bodyA.position.x, bodyA.position.y, bodyB.position.x, bodyB.position.y);
+           }
+       });
+
+       filteredPosts.forEach((post) => {
+           if (!post.body) return; // Skip if body doesn't exist for some reason
+
+           let pos = post.body.position;
+           let angle = post.body.angle; // Get body angle for potential rotation later
+           let isHovering = dist(pointerX, pointerY, pos.x, pos.y) < post.radius;
+           const tooltip = tooltips[post.body.id];
+           let showTooltipThisFrame = false; // Flag to control tooltip visibility
+
+           // --- State Logic and Tooltip Handling ---
+           if (isHovering) {
+               // --- Tooltip Visibility on Hover ---
+               if (tooltip) {
+                   tooltip.style("display", "block"); // Show immediately on hover
+                   // Position closer: change -8 to -2 (or adjust as needed)
+                   tooltip.position(pos.x, pos.y - (post.radius * .3)); // ADJUSTED POSITION
+                   showTooltipThisFrame = true; // Mark to keep visible
+               }
+
+               // --- Activation Logic (for circle color change and click after delay) ---
+               if (!post.activated) {
+                   if (!post.hoverStart) {
+                       post.hoverStart = now; // Start timer for activation state change
+                   } else if (now - post.hoverStart >= hoverThreshold) {
+                       post.activated = true; // Change state for color/click
+                   }
+               }
+           } else {
+               // Not hovering
+               if (post.activated || post.hoverStart) {
+                    // Deactivate if was active or in hover-start
+                    post.hoverStart = null;
+                    post.activated = false;
+                    // Tooltip hiding handled by the flag below
+               }
+           }
+
+           // --- Circle Drawing Logic ---
+           push(); // Isolate transformations and styles
+           translate(pos.x, pos.y); // Move origin to body position
+           // rotate(angle); // Optional: rotate ellipse with body angle
+
+           if (post.activated) {
+               // Active state (red) - color changes after threshold
+               fill(pal.activeColor);
+               noStroke();
+           } else if (post.hoverStart) { // Show fade effect as soon as hover starts
+               // Hover fade-in state (before activation threshold)
+               let pct = constrain((now - post.hoverStart) / fadeDuration, 0, 1);
+               let baseColor;
+               if (post.categorias.includes("code")) { baseColor = pal.codeColor; }
+               else if (post.categorias.includes("escuela")) { baseColor = pal.escuelaColor; }
+               else if (post.categorias.includes("ideas")) { baseColor = pal.ideaColor; }
+               else { baseColor = pal.noteColor; }
+               let hoverFill = lerpColor(baseColor, pal.hoverColor, pct);
+               fill(hoverFill);
+
+               if (post.categorias.includes("code")) {
+                   stroke(pal.codeOutline);
+                   strokeWeight(1.5);
+               } else {
+                   noStroke();
+               }
+           } else {
+               // Normal state (color by category)
+               if (post.categorias.includes("code")) {
+                   fill(pal.codeColor);
+                   stroke(pal.codeOutline);
+               } else if (post.categorias.includes("escuela")) {
+                   fill(pal.escuelaColor);
+                   stroke(lerpColor(pal.escuelaColor, '#000', 0.3));
+               } else if (post.categorias.includes("ideas")) {
+                   fill(pal.ideaColor);
+                   stroke(lerpColor(pal.ideaColor, '#000', 0.3));
+               } else { // Default to noteColor if no other specific category matches
+                   fill(pal.noteColor);
+                   stroke(lerpColor(pal.noteColor, '#000', 0.3));
+               }
+               strokeWeight(1.5);
+           }
+
+           // Draw the ellipse at the translated origin (0,0)
+           ellipse(0, 0, post.radius * 2);
+
+           pop(); // Restore previous drawing state
+
+           // --- Final Tooltip Visibility Control ---
+           if (tooltip) { // Check again if tooltip exists
+                if (!showTooltipThisFrame) { // Hide if not hovering
+                    tooltip.style("display", "none");
                 }
-                // Ensure 'largo' exists and is a number, provide default if not
-                 if (typeof post.largo !== 'number' || isNaN(post.largo)) {
-                     console.warn(`Post "${post.titulo}" missing or invalid 'largo'. Defaulting to 1000.`);
-                     post.largo = 1000; // Default length value
-                 }
-            });
-            filteredPosts = postsData; // Initialize filtered list with all posts
-        },
-        (err) => {
-            console.error("Error loading feed.json:", err);
-            // Handle error, maybe display a message on canvas later in setup
-            postsData = []; // Ensure postsData is an empty array on error
-        }
-    );
-}
+           }
+       });
+   }
 
-// =========================================================================
-// Setup Function - Initialize canvas, physics, elements, etc.
-// =========================================================================
-function setup() {
-    // Initialize p5.js colors
-    pal = {
-        activeColor: color(166, 10, 10),
-        codeColor: color(150, 177, 150),
-        codeOutline: color(90, 106, 90),
-        escuelaColor: color(74, 169, 229, 80),
-        ideaColor: color(255, 126, 0, 200),
-        imageColor: color(120, 120, 120, 200), // Defined but not used in draw yet
-        noteColor: color(255, 244, 152, 200),
-        hoverColor: color(0), // Black for hover state
-    };
+   function mousePressed() {
+       if (!filteredPosts || !postsData) return; // Guard clause
 
-    // Defensive check if postsData failed to load or is empty
-    if (!Array.isArray(postsData) || postsData.length === 0) {
-        console.warn("postsData is not ready or is empty. Displaying message.");
-        let w = windowWidth; // Use window width for placeholder
-        try { // Attempt to get p5 container width if it exists
-             w = document.getElementById("p5").offsetWidth || windowWidth;
-        } catch(e) { /* ignore error if #p5 doesn't exist yet */ }
-        createCanvas(w, 200); // Create a small canvas for the message
-        background(230);
-        fill(50);
-        textAlign(CENTER, CENTER);
-        textFont("Barlow", 16); // Assuming Barlow might be available
-        text("Error loading post data or no data available.", width / 2, height / 2);
-        noLoop(); // Stop draw() loop
-        return; // Exit setup early
-    }
-
-    // --- Proceed with normal setup if data is available ---
-
-    // Calculate Canvas Size
-    let w = document.getElementById("p5").offsetWidth;
-    let windowHeightPercentage = window.innerHeight * 0.75;
-    // Constrain height based on width and window height
-    let canvasHeight = constrain(w * 0.7, 400, window.innerHeight * 0.8); // Example constraints
-    cnv = createCanvas(w, canvasHeight);
-    // Allow default scroll behavior on canvas wheel events
-    cnv.elt.addEventListener('wheel', function(e) {}, { passive: true });
-    cnv.parent("p5"); // Attach canvas to the div with id="p5"
-    cnv.elt.style.touchAction = "auto"; // Allow default touch actions (scroll/zoom)
-    textFont("Barlow"); // Set default font
-
-    cnv.elt.setAttribute('tabindex', '0'); // Permite que el canvas reciba foco
-    cnv.elt.style.outline = 'none'; // Opcional: quita el borde azul al hacer foco
-
-    // Initialize Matter.js Engine
-    engine = Engine.create();
-    world = engine.world;
-    engine.world.gravity.y = 0; // No vertical gravity
-
-    // Setup Mouse Interaction with Matter.js
-    let canvasmouse = Matter.Mouse.create(cnv.elt);
-    canvasmouse.pixelRatio = pixelDensity(); // Important for high-density displays
-    let mConstraint = Matter.MouseConstraint.create(engine, {
-        mouse: canvasmouse,
-        constraint: {
-            stiffness: 0.2, // How stiff the mouse drag is
-            render: {
-                visible: false // Don't draw the constraint visualization
-            }
-        }
-    });
-    World.add(world, mConstraint); // Add mouse constraint to the world
-
-    // Populate categoryFilter based on loaded data
-    postsData.forEach((post) => {
-        (post.categorias || []).forEach((cat) => {
-            if (cat && typeof cat === 'string') { // Ensure category is a non-empty string
-                 categoryFilter[cat.trim()] = true; // Initialize all categories as active
-            }
-        });
-    });
-    
-
-    // Calculate min/max post length ('largo') for mapping radius
-    let largos = postsData.map((p) => p.largo).filter(l => typeof l === 'number' && !isNaN(l));
-    let minLen = largos.length > 0 ? Math.min(...largos) : 1000;
-    let maxLen = largos.length > 0 ? Math.max(...largos) : 1000;
-    if (minLen === maxLen) maxLen += 1; // Avoid division by zero if all posts have same length
-
-    // Create initial static boundaries for the physics world
-    updateBoundaries();
-
-    // Create Matter.js bodies for each post
-    postsData.forEach((post, index) => {
-        // Determine radius based on category ('code' is fixed size) or length
-        let isCode = post.categorias.includes("code");
-        post.radius = isCode
-            ? 7 // Fixed small radius for 'code' category
-            : map(
-                post.largo, // Use validated largo
-                minLen,
-                maxLen,
-                minDiameter / 2,
-                maxDiameter / 2
-              );
-        // Ensure radius is within defined min/max bounds
-        post.radius = constrain(post.radius, minDiameter / 2, maxDiameter / 2);
-
-        // Calculate initial random position inside canvas boundaries
-        let margin = post.radius + 10; // Margin based on radius plus some padding
-        margin = Math.min(margin, width / 2 - 1, height / 2 - 1); // Ensure margin fits canvas
-        if (margin < post.radius) margin = post.radius; // Margin must be at least the radius
-        let x = random(margin, width - margin);
-        let y = random(margin, height - margin);
-
-        // Create the Matter.js circular body
-        post.body = Bodies.circle(x, y, post.radius, {
-            restitution: 0.8, // Bounciness
-            friction: 0.01,   // Low surface friction
-            frictionAir: 0.02,// Some air drag
-            density: 0.01    // Affects mass relative to size
-        });
-
-        // Initialize interaction properties for hover/touch states
-        post.hoverStart = null;
-        post.activated = false;
-        post.touchStartX = undefined;
-        post.touchStartY = undefined;
-
-        World.add(world, post.body); // Add the body to the Matter world
-
-        // Give bodies a small initial random velocity to spread them out
-        Matter.Body.setVelocity(post.body, { x: random(-1, 1), y: random(-1, 1) });
-
-        // --- Create and Style HTML tooltips dynamically using p5.dom ---
-        tooltips[post.body.id] = createDiv(post.titulo.toUpperCase());
-        tooltips[post.body.id].parent("p5"); // Attach tooltip to the main p5 container
-        tooltips[post.body.id].style("position", "absolute");
-        tooltips[post.body.id].style("display", "none"); // Hidden initially
-        tooltips[post.body.id].style("pointer-events", "none"); // Prevent tooltip from blocking mouse/touch
-        tooltips[post.body.id].style("z-index", "10"); // Ensure tooltip is above canvas
-        // Visual Styles for Tooltip
-        tooltips[post.body.id].style("background-color", "rgba(255, 255, 255, 0.85)");
-        tooltips[post.body.id].style("color", "#333");
-        tooltips[post.body.id].style("font-family", "'Barlow', sans-serif");
-        tooltips[post.body.id].style("font-size", "11px");
-        tooltips[post.body.id].style("text-align", "center");
-        tooltips[post.body.id].style("text-transform", "uppercase");
-        tooltips[post.body.id].style("padding", "4px 8px");
-        tooltips[post.body.id].style("border-radius", "3px");
-        tooltips[post.body.id].style("white-space", "nowrap"); // Prevent text wrapping
-        tooltips[post.body.id].style("box-shadow", "0 1px 3px rgba(0,0,0,0.1)");
-        // CSS Transform for positioning (centered horizontally, above the node)
-        tooltips[post.body.id].style("transform", "translateX(-50%) translateY(-100%)");
-        // --- End tooltip creation ---
-    });
-
-    // --- Dynamic Creation of Stiffness Slider Control using p5.dom ---
-
-    // 1. Create a container Div to group the slider controls
-    let stiffnessControlContainer = createDiv();
-    stiffnessControlContainer.id('stiffness-controls'); // Assign an ID for CSS targeting
-    stiffnessControlContainer.parent('p5'); // Attach container to the main p5 div
-    // Basic inline styles for layout (can be overridden with CSS)
-    // stiffnessControlContainer.style('padding', '10px');
-    // stiffnessControlContainer.style('display', 'flex');
-    // stiffnessControlContainer.style('align-items', 'center');
-    // stiffnessControlContainer.style('gap', '8px');
-
-    // 2. Create the text label for the slider
-    let stiffnessLabel = createSpan('Rigidez: ');
-    stiffnessLabel.parent(stiffnessControlContainer); // Add label to the container
-    // stiffnessLabel.style('font-family', '"Barlow", sans-serif');
-    // stiffnessLabel.style('font-size', '12px');
-
-    // 3. Create the slider element
-    let stiffnessSlider = createSlider(
-        0.0000001,           // Min stiffness value
-        0.001,              // Max stiffness value
-        currentStiffness,   // Initial value from global variable
-        0.0000001            // Step increment
-    );
-    stiffnessSlider.parent(stiffnessControlContainer); // Add slider to the container
-    stiffnessSlider.style('width', '150px'); // Set a visual width for the slider
-
-    // 4. Create a Span to display the current stiffness value
-    let stiffnessValueDisplay = createSpan(currentStiffness.toExponential(2)); // Show initial value
-    stiffnessValueDisplay.parent(stiffnessControlContainer); // Add display to the container
-    // stiffnessValueDisplay.style('font-family', '"Barlow", sans-serif');
-    // stiffnessValueDisplay.style('font-size', '12px');
-    // stiffnessValueDisplay.style('min-width', '50px'); // Ensure space for the text
-
-    // 5. Add the input event listener to the slider
-    stiffnessSlider.input(() => {
-        // Update the global stiffness variable
-        currentStiffness = stiffnessSlider.value(); // Get current value from p5 slider
-
-        // Update the text display
-        stiffnessValueDisplay.html(currentStiffness.toExponential(2));
-
-        // Update the stiffness property of all existing link constraints
-        links.forEach(link => {
-            if (link) { // Check if the link object exists
-                link.stiffness = currentStiffness;
-            }
-        });
-        // console.log("Stiffness updated to:", currentStiffness); // Uncomment for debugging
-    });
-    // --- End Stiffness Slider Creation ---
-
-
-    // Final setup steps
-    filteredPosts = postsData; // Initialize filtered list again (redundant, but safe)
-    initializeNodes();         // Create Node class instances for link logic
-    createLinks();             // Create initial physics constraints (links)
-
-    createCategoryCheckboxes(); // Dynamically create checkboxes for categories
-}
-
-// =========================================================================
-// Draw Function - Runs continuously to update and render the simulation
-// =========================================================================
-function draw() {
-
-    if(trails){
-        // Semi-transparent background for trails effect, or use clear() for no trails
-        background(255, 10);
-    }else{
-        clear(); // Uncomment for a non-trail background
-    }
-    
-    Engine.update(engine); // Update the Matter.js physics engine
-    let now = millis(); // Get current time for animations/interactions
-
-    // Determine pointer position (use first touch if available, else mouse)
-    let pointerX = touches.length > 0 ? touches[0].x : mouseX;
-    let pointerY = touches.length > 0 ? touches[0].y : mouseY;
-
-    // Update the list of posts to draw based on active category filters
-    filteredPosts = postsData.filter((p) =>
-        p.body && p.categorias.some((cat) => categoryFilter[cat]) // Check body exists and category is active
-    );
-
-    // --- Draw Links (Springs) ---
-    push(); // Isolate link drawing styles
-    // blendMode(OVERLAY); // Blend mode for links (experiment with others)
-    stroke(69, 20, 202, 55); // Link color (e.g., light blue, semi-transparent)
-    strokeWeight(1); // Thickness of links
-    links.forEach((link) => {
-        const bodyA = link.bodyA;
-        const bodyB = link.bodyB;
-        // Ensure both bodies exist before drawing
-        if (!bodyA || !bodyB) return;
-        // Check if both connected posts are currently visible (in filteredPosts)
-        const bodyAVisible = filteredPosts.some((p) => p.body && p.body.id === bodyA.id);
-        const bodyBVisible = filteredPosts.some((p) => p.body && p.body.id === bodyB.id);
-        if (bodyAVisible && bodyBVisible) {
-            line(bodyA.position.x, bodyA.position.y, bodyB.position.x, bodyB.position.y);
-        }
-    });
-    pop(); // Restore previous drawing styles (includes blendMode)
-    // --- End Draw Links ---
-
-    // blendMode(MULTIPLY);
-    // --- Draw Circles (Posts) and Handle Tooltips ---
-    filteredPosts.forEach((post) => {
-        if (!post.body) return; // Skip if body doesn't exist
-
-        let pos = post.body.position;
-        let isHovering = dist(pointerX, pointerY, pos.x, pos.y) < post.radius;
-        const tooltip = tooltips[post.body.id];
-        let showTooltipThisFrame = false; // Flag to manage tooltip visibility per frame
-
-        // --- State Logic (Hover, Activation) & Tooltip Handling ---
-        if (isHovering) {
-            // Tooltip: Show immediately on hover and position it
-            if (tooltip) {
-                tooltip.style("display", "block");
-                tooltip.position(pos.x, pos.y - (post.radius * 0.3)); // Position slightly above center
-                showTooltipThisFrame = true; // Mark tooltip to stay visible this frame
-            }
-
-            // Activation Logic: Start timer, activate after threshold
-            if (!post.activated) {
-                if (!post.hoverStart) {
-                    post.hoverStart = now; // Start hover timer
-                } else if (now - post.hoverStart >= hoverThreshold) {
-                    post.activated = true; // Activate the node
-                }
-            }
-        } else {
-            // Not hovering: Reset hover/activation state
-            if (post.activated || post.hoverStart) {
-                 post.hoverStart = null;
-                 post.activated = false;
-                 // Tooltip hiding is handled by the flag below
-            }
-        }
-
-        // --- Circle Drawing Logic ---
-        push(); // Isolate styles and transformations for this circle
-        translate(pos.x, pos.y); // Move origin to circle's center
-
-        // Determine fill and stroke based on state (activated, hovering, normal)
-        if (post.activated) {
-            // State: Activated (e.g., red)
-            fill(pal.activeColor);
-            noStroke();
-        } else if (post.hoverStart) {
-            // State: Hovering (fade effect from base color to hover color)
-            let pct = constrain((now - post.hoverStart) / fadeDuration, 0, 1); // Fade progress
-            let baseColor; // Determine base color by category
-            if (post.categorias.includes("code")) { baseColor = pal.codeColor; }
-            else if (post.categorias.includes("escuela")) { baseColor = pal.escuelaColor; }
-            else if (post.categorias.includes("ideas")) { baseColor = pal.ideaColor; }
-            else { baseColor = pal.noteColor; } // Default
-            let hoverFill = lerpColor(baseColor, pal.hoverColor, pct); // Interpolate color
-            fill(hoverFill);
-
-            // Apply stroke only for specific categories during hover
-            if (post.categorias.includes("code")) {
-                stroke(pal.codeOutline);
-                strokeWeight(2);
-            } else {
-                noStroke();
-            }
-        } else {
-            // State: Normal (color by category)
-            if (post.categorias.includes("code")) {
-                fill(pal.codeColor);
-                stroke(pal.codeOutline);
-                strokeWeight(1.5);
-            } else if (post.categorias.includes("escuela")) {
-                fill(pal.escuelaColor);
-                noStroke();
-            } else if (post.categorias.includes("ideas")) {
-                fill(pal.ideaColor);
-                noStroke();
-            } else { // Default category color
-                fill(pal.noteColor);
-                noStroke();
-            }
-        }
-
-        // Draw the ellipse (circle) at the translated origin (0, 0)
-        ellipse(0, 0, post.radius * 2);
-
-        pop(); // Restore previous drawing state
-        // --- End Circle Drawing ---
-
-        // --- Final Tooltip Visibility Control ---
-        if (tooltip && !showTooltipThisFrame) {
-            tooltip.style("display", "none"); // Hide tooltip if not hovering this frame
-        }
-    });
-    // blendMode(BLEND);
-    // --- End Draw Circles ---
-}
-
-// =========================================================================
-// Interaction Functions (Mouse & Touch)
-// =========================================================================
-
-// --- Mouse Pressed ---
-function mousePressed() {
-    if (!filteredPosts || !postsData) return false; // Guard clause
-
-    let clickedOnNode = false;
-    // Check if click was on an activated post
-    filteredPosts.forEach((post) => {
-         if (!post.body) return;
-         let pos = post.body.position;
-         // Check if node is activated AND click is within its radius
-         if (post.activated && dist(mouseX, mouseY, pos.x, pos.y) < post.radius) {
-            clickedOnNode = true;
-            if (post.url) { // Check if the post object has a URL property
-                 window.location.href = post.url; // Navigate to the post URL
-            } else {
-                 console.log(`Clicked on activated post "${post.titulo}" with no URL.`);
-            }
-         }
-    });
-    // Prevent default browser action (like text selection) only if a node was clicked
-    return !clickedOnNode; // Return false to prevent default if clicked, true otherwise
-}
-
-// --- Touch Started ---
-function touchStarted() {
-    if (!filteredPosts || !postsData) return false; // Guard clause
-
-    if (touches.length > 0) {
-        let pointerX = touches[0].x;
-        let pointerY = touches[0].y;
-        let touchedNode = false;
-
-        // Check if touch started on any circle (even non-filtered ones for interaction capture)
-        postsData.forEach((post) => {
+       // Check if click was on an activated post
+       filteredPosts.forEach((post) => {
             if (!post.body) return;
             let pos = post.body.position;
-            if (dist(pointerX, pointerY, pos.x, pos.y) < post.radius) {
-                touchedNode = true;
-                // Start hover timer immediately on touch down within radius
-                if (!post.hoverStart) {
-                    post.hoverStart = millis();
-                }
-                // Store touch start position to detect dragging vs. tapping
-                post.touchStartX = pointerX;
-                post.touchStartY = pointerY;
-            }
-        });
-         // Let Matter.js handle dragging if touch starts on a node.
-         // If touch starts elsewhere, allow default browser behavior (scrolling).
-        return !touchedNode; // Return false (prevent default) if on node, true otherwise
-    }
-    return true; // Allow default if no touches detected
-}
+            // Use post.activated flag which is set after hover threshold
+           if (post.activated && dist(mouseX, mouseY, pos.x, pos.y) < post.radius) {
+               if (post.url) { // Check if URL exists
+                   window.location.href = post.url; // Navigate
+               } else {
+                   console.log(`Clicked on activated post "${post.titulo}" with no URL.`);
+               }
+           }
+       });
+       return false; // Prevent default browser actions
+   }
 
-// --- Touch Moved ---
-function touchMoved(e) {
- if (!filteredPosts || !postsData) return true; // Allow scroll if data not ready
+   function touchStarted() {
+       if (!filteredPosts || !postsData) return;
 
- let isOverNode = false;
+       if (touches.length > 0) {
+           let pointerX = touches[0].x;
+           let pointerY = touches[0].y;
 
- if (touches.length > 0) {
-   let pointerX = touches[0].x;
-   let pointerY = touches[0].y;
-
-   // Check all posts to see if drag is currently over one
-   postsData.forEach((post) => {
-     if (!post.body) return;
-
-     if (dist(pointerX, pointerY, post.body.position.x, post.body.position.y) < post.radius) {
-       isOverNode = true; // Mark that the touch is currently over a node
-
-       // If touch has moved significantly from start, cancel hover/activation (treat as drag)
-       if (
-         post.touchStartX !== undefined &&
-         post.touchStartY !== undefined &&
-         dist(pointerX, pointerY, post.touchStartX, post.touchStartY) > 10 // Drag threshold (adjust if needed)
-       ) {
-         post.hoverStart = null;
-         post.activated = false;
-         // Also hide tooltip immediately if dragging away
-         const tooltip = tooltips[post.body.id];
-         if (tooltip) tooltip.style('display', 'none');
+           // Check if touch started on a circle to potentially initiate hover timer
+           postsData.forEach((post) => { // Check all posts, not just filtered, for initial touch
+               if (!post.body) return;
+               let pos = post.body.position;
+               if (dist(pointerX, pointerY, pos.x, pos.y) < post.radius) {
+                   // Start hover timer immediately on touch down within radius
+                   if (!post.hoverStart) {
+                       post.hoverStart = millis();
+                   }
+                   // Store touch start position to detect dragging
+                   post.touchStartX = pointerX;
+                   post.touchStartY = pointerY;
+               }
+           });
        }
-     }
-   });
- }
+        // We don't return false here usually, let Matter.js handle touch for dragging
+   }
 
- // Prevent default scroll ONLY if the touch move is happening over a node
- // This allows scrolling when dragging on the background.
- return !isOverNode; // Return false (prevent scroll) if over node, true (allow scroll) otherwise.
-}
+   function touchMoved(e) {
+    if (!filteredPosts || !postsData) return;
 
+    let isOverNode = false;
 
-// --- Touch Ended ---
-function touchEnded() {
-    if (!filteredPosts || !postsData) return; // Guard clause
+    if (touches.length > 0) {
+      let pointerX = touches[0].x;
+      let pointerY = touches[0].y;
 
-    // Check if touch ended on an *activated* post (indicating a tap)
-    postsData.forEach((post) => { // Check all posts
+      postsData.forEach((post) => {
         if (!post.body) return;
 
-        // Check activation state and if it wasn't cancelled by significant dragging
-        if (
-            post.activated &&
-            post.touchStartX !== undefined // Touch start coords exist (i.e., wasn't cancelled by drag)
-        ) {
-             // Check again if the *final* touch point is still within the radius (optional, but safer)
-             // Need a way to get last touch point - mouseX/Y might be fallback
-             let lastX = (typeof pwinMouseX !== 'undefined') ? pwinMouseX : mouseX; // Use previous mouse/touch pos if available
-             let lastY = (typeof pwinMouseY !== 'undefined') ? pwinMouseY : mouseY;
-             if (dist(lastX, lastY, post.body.position.x, post.body.position.y) < post.radius){
-                if (post.url) {
-                    window.location.href = post.url; // Navigate on tap
-                } else {
-                     console.log(`Tapped on activated post "${post.titulo}" with no URL.`);
-                }
-             }
+        if (dist(pointerX, pointerY, post.body.position.x, post.body.position.y) < post.radius) {
+          isOverNode = true;
+
+          // Si se movió mucho, cancela hover
+          if (
+            post.touchStartX !== undefined &&
+            post.touchStartY !== undefined &&
+            dist(pointerX, pointerY, post.touchStartX, post.touchStartY) > 10
+          ) {
+            post.hoverStart = null;
+            post.activated = false;
+          }
         }
+      });
+    }
 
-        // --- Reset interaction state for this post regardless of navigation ---
-        post.hoverStart = null;
-        post.activated = false;
-        post.touchStartX = undefined;
-        post.touchStartY = undefined;
-        // Hide tooltip immediately on touch end
-        const tooltip = tooltips[post.body.id];
-        if (tooltip) {
-            tooltip.style('display', 'none');
-        }
-        // --- End Reset ---
-    });
-    // Don't prevent default actions after touch ends
-    return true;
-}
+    // ✅ Solo bloquea scroll si estás interactuando con un nodo
+    return isOverNode ? false : true;
+  }
 
-// =========================================================================
-// DOM Element Creation Functions
-// =========================================================================
+   function touchEnded() {
+       if (!filteredPosts || !postsData) return;
 
-// --- Create Category Filter Checkboxes ---
-function createCategoryCheckboxes() {
-    const containerId = "category-filters"; // Use a descriptive ID
+       // Use last known touch position or mouse position as fallback
+       // Getting last position before touches array becomes empty can be tricky,
+       // relying on mouseX/Y might be inaccurate on pure touch devices.
+       // For simplicity, we might just check activation state.
+       // let pointerX = (touches.length > 0) ? touches[0].x : (typeof pwinMouseX !== 'undefined' ? pwinMouseX : mouseX);
+       // let pointerY = (touches.length > 0) ? touches[0].y : (typeof pwinMouseY !== 'undefined' ? pwinMouseY : mouseY);
+
+
+       // Check if touch ended on an *activated* post (tap)
+       filteredPosts.forEach((post) => {
+           if (!post.body) return;
+           let pos = post.body.position;
+
+           // Check if the post was activated *and* it wasn't dragged significantly (touch start coords still defined)
+           // We check 'activated' which means the threshold was met before touch end.
+           if (
+               post.activated &&
+               post.touchStartX !== undefined // Ensure it wasn't cancelled by drag
+               // We might skip the final dist check here if activation implies it was a tap
+               // && dist(pointerX, pointerY, pos.x, pos.y) < post.radius
+           ) {
+               if (post.url) {
+                   window.location.href = post.url; // Navigate on tap
+               } else {
+                    console.log(`Tapped on activated post "${post.titulo}" with no URL.`);
+               }
+           }
+
+           // Reset interaction state for this post after touch ends
+           post.hoverStart = null;
+           post.activated = false; // Deactivate on touch end regardless of navigation
+           post.touchStartX = undefined;
+           post.touchStartY = undefined;
+           // Hide tooltip immediately
+           if (tooltips[post.body.id]) {
+               tooltips[post.body.id].style('display', 'none');
+           }
+       });
+   }
+
+   function createCategoryCheckboxes() {
+    // Remover contenedor existente si existe
+    let containerId = "categorias";
     let existingContainer = select('#' + containerId);
     if (existingContainer) {
-      existingContainer.remove(); // Remove old container if it exists (e.g., on resize)
+      existingContainer.remove();
     }
 
-    // Create main container div for checkboxes
-    let container = createDiv().id(containerId);
-    container.parent("p5"); // Attach to the main p5 div
-    // Basic styling for the checkbox container (flex layout)
-    // container.style('display', 'flex');
-    // container.style('flex-wrap', 'wrap');
-    // container.style('justify-content', 'center');
-    // container.style('gap', '10px 15px'); // Row and column gap
-    // container.style('padding', '10px 0'); // Vertical padding
-
-    // Get categories from the filter object and sort alphabetically
+    // Crear contenedor para los checkboxes
+    let container = createDiv().id(containerId).parent("p5");
     let sortedCategories = Object.keys(categoryFilter).sort();
 
-    // Create a checkbox and label for each category
     sortedCategories.forEach((cat) => {
-      // Container for label + checkbox (optional, could style label directly)
-      // let checkboxContainer = createDiv().parent(container);
+      // Crear contenedor para cada checkbox con su etiqueta
+      let checkboxContainer = createDiv().parent(container);
+        // ***** NUEVO: Estilo para cada item (label + checkbox) *****
+       checkboxContainer.style('display', 'inline-block'); // O simplemente quitar el div extra si no es necesario
 
-      // Create label element (acts as container)
+      // Crear elemento label que envolverá el checkbox y el texto
       let label = createElement('label');
-      label.parent(container); // Add label directly to the flex container
-      // Styling for the label (makes the whole area clickable)
-    //   label.style('font-size', '12px');
-    //   label.style('font-family', '"Barlow", sans-serif');
-    //   label.style('cursor', 'pointer');
-    //   label.style('user-select', 'none'); // Prevent text selection on click
-    //   label.style('display', 'flex');    // Align checkbox and text nicely
-    //   label.style('align-items', 'center');
-    //   label.style('line-height', '1');   // Adjust line height
+      label.parent(checkboxContainer);
+        // ***** NUEVO: Estilo para el label *****
+       label.style('font-size', '12px');
+       label.style('cursor', 'pointer');
+       label.style('user-select', 'none'); // Evitar selección de texto al hacer clic rápido
+       label.style('display', 'flex'); // Alinea checkbox y texto
+       label.style('align-items', 'center'); // Centra verticalmente
 
-      // Create checkbox input element
-      let checkbox = createInput(); // Use createInput for type='checkbox'
+
+      // Crear el elemento input de tipo checkbox
+      let checkbox = createElement('input');
       checkbox.attribute('type', 'checkbox');
-      checkbox.attribute('id', 'check-' + cat); // Unique ID for the checkbox
-      if (categoryFilter[cat]) { // Set initial checked state from filter object
-        checkbox.attribute('checked', 'true');
-      }
-      checkbox.parent(label); // Nest checkbox inside label
-    //   checkbox.style('margin-right', '4px'); // Space between checkbox and text
+      checkbox.attribute('id', 'check-' + cat);
+      checkbox.attribute('checked', true);
 
-      // Create span for category text
-      let span = createSpan(cat);
-      span.parent(label); // Add text span to label
+      // Agregar el checkbox al label
+      label.child(checkbox);
 
-      // Add event listener to update filter state when checkbox changes
-      checkbox.changed(() => { // Use .changed() for p5 inputs
+      // Crear un span para el texto y agregarlo al label
+      let span = createSpan(' ' + cat);
+      span.parent(label);
+
+      // Añadir listener para actualizar el estado en categoryFilter
+      checkbox.elt.addEventListener('change', function() {
         categoryFilter[cat] = checkbox.elt.checked;
-        // console.log("Category filter updated:", categoryFilter); // Debugging
       });
     });
-}
+  }
 
-// =========================================================================
-// Window Resize Handling
-// =========================================================================
-function windowResized() {
-    // Recalculate canvas size based on new container width
-    let w = document.getElementById("p5").offsetWidth;
-    let canvasHeight = constrain(w * 0.7, 400, window.innerHeight * 0.8);
-    resizeCanvas(w, canvasHeight);
+   function windowResized() {
+       // ... (cálculo de w y canvasHeight sin cambios) ...
+        let w = document.getElementById("p5").offsetWidth;
+       // Ensure height is reasonable, e.g., not smaller than a certain minimum
+       let minHeight = 400;
+       let windowHeightPercentage = window.innerHeight * 0.75;
+       // Let canvas height be related to width but not excessively tall or short
+       let canvasHeight = constrain(w * 0.7, minHeight, window.innerHeight * 0.8); // Example: 70% of width, constrained
 
-    // Update physics boundaries to match new canvas size
-    updateBoundaries();
 
-    // Recreate links (they might need different lengths or initial positions implicitly)
-    // Remove old constraints from the world first
-    links.forEach(link => { if(link) World.remove(world, link); });
-    createLinks(); // Recalculate links (uses currentStiffness)
+       resizeCanvas(w, canvasHeight);
+       updateBoundaries(); // Actualizar boundaries
 
-    // Optional: Gently push bodies away from edges if they are too close after resize
-    postsData.forEach(post => {
-        if(post.body){
-             let buffer = 50; // Distance from edge to apply force
-             let forceMagnitude = 0.005; // Adjust force strength
-             // Apply force scaled by mass to push towards center
-             if (post.body.position.x < buffer) Matter.Body.applyForce(post.body, post.body.position, {x: forceMagnitude * post.body.mass, y:0});
-             if (post.body.position.x > width - buffer) Matter.Body.applyForce(post.body, post.body.position, {x: -forceMagnitude * post.body.mass, y:0});
-             if (post.body.position.y < buffer) Matter.Body.applyForce(post.body, post.body.position, {y: forceMagnitude * post.body.mass, x:0});
-             if (post.body.position.y > height - buffer) Matter.Body.applyForce(post.body, post.body.position, {y: -forceMagnitude * post.body.mass, x:0});
+       // --- Recrear links (IMPORTANTE: usan el currentStiffness actualizado) ---
+       links.forEach(link => World.remove(world, link));
+       createLinks(); // Usa el valor actual de currentStiffness
+
+        // Reposicionar cuerpos opcionalmente (sin cambios)
+       postsData.forEach(post => {
+           if(post.body){
+                // Example: Gently push bodies towards the center if they are outside bounds
+               let buffer = 50;
+               if (post.body.position.x < buffer) Matter.Body.applyForce(post.body, post.body.position, {x:0.005 * post.body.mass, y:0}); // Scale force by mass
+               if (post.body.position.x > width - buffer) Matter.Body.applyForce(post.body, post.body.position, {x:-0.005 * post.body.mass, y:0});
+               if (post.body.position.y < buffer) Matter.Body.applyForce(post.body, post.body.position, {y:0.005 * post.body.mass, x:0});
+               if (post.body.position.y > height - buffer) Matter.Body.applyForce(post.body, post.body.position, {y:-0.005 * post.body.mass, x:0});
+           }
+       });
+
+       console.log(`Resized canvas to: ${w} x ${canvasHeight}`);
+   }
+
+   function updateBoundaries(){
+        // ***** AJUSTE: Crear boundaries si no existen O si existen (para resize) *****
+        if (boundaries && boundaries.length > 0) { // Solo remover si existen
+             World.remove(world, boundaries);
         }
-    });
+       boundaries = []; // Clear array siempre
+       let t = 50000; // Grosor GRANDE
+       boundaries.push(Bodies.rectangle(width / 2, height + t / 2, width, t, { isStatic: true, label: 'boundary-bottom' }));
+       boundaries.push(Bodies.rectangle(width / 2, -t / 2, width, t, { isStatic: true, label: 'boundary-top' }));
+       boundaries.push(Bodies.rectangle(-t / 2, height / 2, t, height, { isStatic: true, label: 'boundary-left' }));
+       boundaries.push(Bodies.rectangle(width + t / 2, height / 2, t, height, { isStatic: true, label: 'boundary-right' }));
+       World.add(world, boundaries); // Add new/updated boundaries
+   }
 
-    console.log(`Resized canvas to: ${w} x ${canvasHeight}`);
-}
+   // Clase Node (sin cambios)
+   class Node {
+       constructor(post) { this.post = post; this.links = []; }
+       hasLinkTo(otherNode) { return this.links.includes(otherNode); }
+       addLink(otherNode) {
+           if (this.links.length < MAX_LINKS && !this.hasLinkTo(otherNode)) {
+               this.links.push(otherNode);
+           }
+       }
+   }
 
-// =========================================================================
-// Helper Functions
-// =========================================================================
+   // Función initializeNodes (sin cambios)
+   function initializeNodes() {
+       postsData.forEach(post => { post.node = new Node(post); });
+   }
 
-// --- Update Physics Boundaries ---
-// Creates or replaces the static boundary rectangles around the canvas
-function updateBoundaries() {
-    // Remove existing boundaries from the world if they exist
-    if (boundaries && boundaries.length > 0) {
-        World.remove(world, boundaries);
-    }
-    boundaries = []; // Clear the boundaries array
 
-    let t = 50000; // Use a very large thickness for effectively impenetrable walls
-    // Create new boundary rectangles slightly offset from the canvas edges
-    // Bottom
-    boundaries.push(Bodies.rectangle(width / 2, height + t / 2, width + 2*t, t, { isStatic: true, label: 'boundary-bottom' }));
-    // Top
-    boundaries.push(Bodies.rectangle(width / 2, -t / 2, width + 2*t, t, { isStatic: true, label: 'boundary-top' }));
-    // Left
-    boundaries.push(Bodies.rectangle(-t / 2, height / 2, t, height + 2*t, { isStatic: true, label: 'boundary-left' }));
-    // Right
-    boundaries.push(Bodies.rectangle(width + t / 2, height / 2, t, height + 2*t, { isStatic: true, label: 'boundary-right' }));
+   // Función createLinks (MODIFICADA para usar currentStiffness)
+   function createLinks() {
+       const linkLength = 10;
+       // ***** ELIMINADO: const stiffnessValue = 0.00001; *****
+       const dampingValue = 0.005;
 
-    // Add the new boundaries to the physics world
-    World.add(world, boundaries);
-}
+       // Limpiar links existentes del mundo y array (sin cambios)
+       links.forEach(link => { if(link) World.remove(world, link); });
+       links = [];
 
-// --- Node Class (for link logic) ---
-// Helper class attached to each post object to manage its links
-class Node {
-  constructor(post) {
-    this.post = post; // Reference to the associated post object
-    this.links = [];  // Array to store references to other Node instances it's linked to
-  }
-  // Check if this node is already linked to another specific node
-  hasLinkTo(otherNode) {
-    return this.links.includes(otherNode);
-  }
-  // Add a link to another node if limit not reached and link doesn't exist
-  addLink(otherNode) {
-    if (this.links.length < MAX_LINKS && !this.hasLinkTo(otherNode)) {
-      this.links.push(otherNode);
-    }
-  }
-}
+       // Reiniciar links en nodos (sin cambios)
+       postsData.forEach(post => { if (post.node) post.node.links = []; });
 
-// --- Initialize Node Instances ---
-// Creates a new Node instance for each post in postsData
-function initializeNodes() {
-  postsData.forEach(post => {
-    post.node = new Node(post); // Assign a new Node instance to the post object
-  });
-}
+       // Crear nuevos links
+       postsData.forEach(postA => {
+           if (!postA.body || !postA.node) return; // Chequeo extra
 
-// --- Create Physics Links (Constraints) ---
-// Creates Matter.js constraints between related posts based on shared categories
-function createLinks() {
-  const linkLength = 10; // Desired resting length of the springs
-  const dampingValue = 0.005; // Damping factor for the springs
+           let candidates = postsData.filter(postB => {
+               if (postA === postB || !postB.body || !postB.node) return false;
+               let shareTag = postA.categorias.some(cat => postB.categorias.includes(cat));
+               let candidateHasLinkToA = postB.node.hasLinkTo(postA.node);
+               return shareTag && !candidateHasLinkToA;
+           });
 
-  // Remove existing constraints from the world and clear the links array
-  links.forEach(link => { if(link) World.remove(world, link); });
-  links = [];
+           candidates.sort((a, b) => a.node.links.length - b.node.links.length);
 
-  // Reset the links array within each Node instance
-  postsData.forEach(post => {
-    if (post.node) post.node.links = [];
-  });
+           while (postA.node.links.length < MAX_LINKS && candidates.length > 0) {
+               let candidate = candidates.shift();
+               if (candidate.node.links.length < MAX_LINKS) {
+                   postA.node.addLink(candidate.node);
+                   candidate.node.addLink(postA.node);
 
-  // Iterate through each post to establish potential links
-  postsData.forEach(postA => {
-    // Ensure postA has required properties
-    if (!postA.body || !postA.node) return;
-
-    // Find candidate posts (postB) to link with postA
-    let candidates = postsData.filter(postB => {
-      // Ensure postB is valid and not the same as postA
-      if (postA === postB || !postB.body || !postB.node) return false;
-      // Check if they share at least one category
-      let shareTag = postA.categorias.some(cat => postB.categorias.includes(cat));
-      // Check if postB already has a link pointing back to postA (for bidirectional logic)
-      let candidateHasLinkToA = postB.node.hasLinkTo(postA.node);
-      return shareTag && !candidateHasLinkToA; // Link if tags shared and no reverse link yet
-    });
-
-    // Sort candidates by the number of existing links (link to least connected first)
-    candidates.sort((a, b) => a.node.links.length - b.node.links.length);
-
-    // Add links from postA up to the MAX_LINKS limit
-    while (postA.node.links.length < MAX_LINKS && candidates.length > 0) {
-      let candidate = candidates.shift(); // Get the candidate with the fewest links
-      // Check if the selected candidate also has space for a new link
-      if (candidate.node.links.length < MAX_LINKS) {
-        // Establish bidirectional link in the Node instances
-        postA.node.addLink(candidate.node);
-        candidate.node.addLink(postA.node);
-
-        // Create the Matter.js Constraint (spring)
-        let spring = Constraint.create({
-          bodyA: postA.body,
-          bodyB: candidate.body,
-          length: linkLength,
-          stiffness: currentStiffness, // Use the global stiffness value
-          damping: dampingValue,
-          render: { visible: false } // Don't draw the default Matter constraint line
-        });
-        links.push(spring);        // Add constraint to our links array
-        World.add(world, spring); // Add constraint to the Matter world
-      }
-    }
-  });
-  // console.log(`Created ${links.length} links.`); // Debugging
-}
-
-function keyTyped(){
-    if (key === 'v' || key === 'V') {
-        trails = !trails;
-        return false;
-    }
-    return true;
-}
+                   let spring = Constraint.create({
+                       bodyA: postA.body,
+                       bodyB: candidate.body,
+                       length: linkLength,
+                       // ***** MODIFICADO: Usar variable global *****
+                       stiffness: currentStiffness,
+                       damping: dampingValue,
+                       render: { visible: false }
+                   });
+                   links.push(spring);
+                   World.add(world, spring);
+               }
+           }
+       });
+   }

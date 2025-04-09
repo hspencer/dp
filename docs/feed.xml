@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-08T20:40:45+12:00</updated>
+  <updated>2025-04-09T20:11:48+12:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -483,10 +483,6 @@ And I need you to let me go.»&lt;br /&gt;
 
 &lt;p&gt;Esta idea se fundamenta en la teoría semiótica cognitiva desarrollada por Line Brandt en &lt;em&gt;The Communicative Mind&lt;/em&gt;, donde se plantea que la comunicación no es simplemente un intercambio de señales, sino un proceso mental y social en el que dos o más mentes se alinean temporalmente en una escena compartida de significación. Esta “mente comunicativa” emerge de la coordinación dinámica entre expresiones (lo que se manifiesta en un cuerpo) y comprensiones (lo que se configura en una mente), en un contexto determinado. En este sentido, las expresiones faciales cumplen una función de alto nivel, ya que condensan información emocional compleja en patrones reconocibles que operan como “anclas” para la interpretación situacional((Brandt, L. (2013). &lt;em&gt;The Communicative Mind: A Linguistic Exploration of Conceptual Integration and Meaning Construction&lt;/em&gt;. Cambridge Scholars Publishing.)).&lt;/p&gt;
 
-&lt;h3 id=&quot;desarrollo-de-herramientas-face-input-face-qualify-y-face-edit&quot;&gt;Desarrollo de Herramientas: Face Input, Face Qualify y Face Edit&lt;/h3&gt;
-
-&lt;p&gt;Basándonos en esta hipótesis, desarrollamos una serie de herramientas destinadas a facilitar la entrada y edición de datos emocionales mediante pictogramas faciales:&lt;/p&gt;
-
 &lt;div id=&quot;canvasContainer&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;qualification&quot;&gt;
   &lt;div id=&quot;val&quot; style=&quot;font-family: Barlow; font-size: 4rem&quot;&gt;&lt;/div&gt;
@@ -494,11 +490,14 @@ And I need you to let me go.»&lt;br /&gt;
 &lt;div id=&quot;p5&quot; class=&quot;p5-sketch-container&quot; style=&quot;text-align: center;&quot;&gt;
   &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js&quot;&gt;&lt;/script&gt;
 
-  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js&quot;&gt;&lt;/script&gt;
-
+  &lt;!-- &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js&quot;&gt;&lt;/script&gt; --&gt;
   &lt;script src=&quot;/assets/p5/face-input.js&quot;&gt;&lt;/script&gt;
 
 &lt;/div&gt;
+
+&lt;h3 id=&quot;desarrollo-de-herramientas-face-input-face-qualify-y-face-edit&quot;&gt;Desarrollo de Herramientas: Face Input, Face Qualify y Face Edit&lt;/h3&gt;
+
+&lt;p&gt;Basándonos en esta hipótesis, desarrollamos una serie de herramientas destinadas a facilitar la entrada y edición de datos emocionales mediante pictogramas faciales:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -828,8 +827,7 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
       &lt;div id=&quot;p5&quot; class=&quot;p5-sketch-container&quot; style=&quot;text-align: center;&quot;&gt;
   &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js&quot;&gt;&lt;/script&gt;
 
-  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js&quot;&gt;&lt;/script&gt;
-
+  &lt;!-- &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js&quot;&gt;&lt;/script&gt; --&gt;
   &lt;script src=&quot;/assets/p5/flor.js&quot;&gt;&lt;/script&gt;
 
 &lt;/div&gt;
@@ -986,9 +984,9 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
 &lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
 
 &lt;p&gt;left side:&lt;br /&gt;
-&lt;a href=&quot;/assets/uploads/2014/11/2014116114933_izq.png&quot;&gt;&lt;img src=&quot;/assets/uploads/2014/11/2014116114933_izq-1010x130.png&quot; alt=&quot;2014116114933_izq&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/uploads/2014/11/2014116114933_izq.png&quot; alt=&quot;2014116114933_izq&quot; /&gt;&lt;br /&gt;
 right side:&lt;br /&gt;
-&lt;a href=&quot;/assets/uploads/2014/11/2014116114933_der.png&quot;&gt;&lt;img src=&quot;/assets/uploads/2014/11/2014116114933_der-1010x130.png&quot; alt=&quot;2014116114933_der&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/uploads/2014/11/2014116114933_der.png&quot; alt=&quot;2014116114933_der&quot; /&gt;&lt;br /&gt;
 For more information on the topic, check this &lt;a href=&quot;http://www.flong.com/texts/lists/slit_scan/&quot;&gt;Informal Catalogue of Slit-Scan Video Artworks and Research&lt;/a&gt; created by Golan Levin.&lt;/p&gt;
 
     </content>
@@ -1608,9 +1606,10 @@ En el taller leemos  el proceso creativo de originar como mirar en la realidad 
 
 &lt;!-- &lt;div id=&quot;p5&quot; class=&quot;p5-sketch-container&quot; style=&quot;text-align: center;&quot;&gt;
 &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js&quot;&gt;&lt;/script&gt; --&gt;
 &lt;script src=&quot;/assets/p5/mesh.js&quot;&gt;&lt;/script&gt;
-&lt;/div&gt; --&gt;
+
+&lt;p&gt;&amp;lt;/div&amp;gt; –&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;Esta ilustración fue generada para explicar el funcionamiento de una red enmallada (mesh network) en cuanto figura de distribución y conexión entre nodos. La aplicación práctica de esta red fue discutida en el &lt;a href=&quot;http://herbertspencer.net/2010/10/internet-como-bien-publico/&quot;&gt;post anterior&lt;/a&gt;, describiendo la necesidad de una arquitectura de red resistente a cataclismos como el pasado terremoto y donde todos los nodos aportan, yendo más allá de ser meros clientes. Una red pública es aquella donde cada participante expande su alcance por el simple hecho de pertenecer.&lt;/p&gt;
 
@@ -2163,7 +2162,12 @@ Es el aparente consumo del lector o investigador, normal cliente del archivo, el
     <updated>2009-09-08T10:21:52+12:00</updated>
     <id>http://0.0.0.0:4000/2009/09/etica-2-0</id>
     <content type="html">
-      &lt;p&gt;Hoy rechacé un trabajo bastante prometedor. Hice esto porque no comulgo políticamente con la institución que lo encargaba. Cuando conversaba con la persona que me ofrecía el trabajo me decía: “&lt;em&gt;no entiendes nada de política 2.0&lt;/em&gt; “, “&lt;em&gt;yo feliz haría un trabajo para X (que es del otro lado), si me lo piden&lt;/em&gt; “, etc. El supuesto detrás de esta afirmación es que el trabajo profesional puede abstraerse de las connotaciones e implicancias políticas. También, que en la así llamada “política 2.0” da lo mismo la filiación política, porque, en realidad, ya no hay ideologías. ¿Será cierto eso? ¿Estaré obsoleto en mi pensamiento? ¿Será intrínsecamente neutral el trabajo profesional? Bueno, como en todo, depende del trabajo. Mi mujer, que es médico, no pasa por esas vicisitudes; ella salva vidas, y tiene que hacerlo aunque se trate de un pato malo que viene tajeado de la cárcel y se a violado a qué se yo cuanto(as). El juramento hipocrático resuelve esas dudas filosóficas en favor de la agilidad requerida por los servicios de urgencia. Pero el diseño todo es distinto: aquí no hay nada neutral. Y sobre todo, si se trata de un proyecto para construir visualizaciones a partir de datos estadísticos. ¿Por qué? Porque el diseño construye argumentos y las visualizaciones son herramientas de persuasión política. La narrativa de la visualización corresponde a una lectura dirigida y modelada desde el diseño; el diseño dice &lt;strong&gt;qué ver&lt;/strong&gt; y &lt;strong&gt;cómo interpretar&lt;/strong&gt; los datos. Esconde su carácter político en la aparente neutralidad de los “datos duros” y los moldea para conmover, para resaltar, para denunciar, provocar e, incluso, para hacer aparecer soluciones a los problemas descritos. La visualización y la infografía son artificios (de &lt;em&gt;arte&lt;/em&gt; y &lt;em&gt;oficio&lt;/em&gt;), por lo tanto, es muy difícil hacerlos desde una desapasionada neutralidad; son demasiado poderosas para desperdiciarlas de esa manera. Lamento no haber podido trabajar en un proyecto de este tipo, pero insisto: había un problema ético y de filiación del cual no me podía hacer cargo. Lamento que haya venido amarrado a una agenda política con la cual no comulgo. ¿Cree Ud. que debería haber tomado el trabajo? ¿Cree Ud. que el diseño profesional es apolítico? o, por el contrario, ¿el que conoce las implicancias políticas del diseño es más profesional? ¿Ser 2.0 es no preocuparse de esto?&lt;/p&gt;
+      &lt;p&gt;Hoy rechacé un trabajo bastante prometedor. Hice esto porque no comulgo políticamente con la institución que lo encargaba. Cuando conversaba con la persona que me ofrecía el trabajo me decía:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“&lt;em&gt;no entiendes nada de política 2.0&lt;/em&gt;”, “&lt;em&gt;yo feliz haría un trabajo para X (que es del otro lado), si me lo piden&lt;/em&gt;”, etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;El supuesto detrás de esta afirmación es que el trabajo profesional puede abstraerse de las connotaciones e implicancias políticas. También, que en la así llamada “política 2.0” da lo mismo la filiación política, porque, en realidad, ya no hay ideologías. ¿Será cierto eso? ¿Estaré obsoleto en mi pensamiento? ¿Será intrínsecamente neutral el trabajo profesional? Bueno, como en todo, depende del trabajo. Mi mujer, que es médico, no pasa por esas vicisitudes; ella salva vidas, y tiene que hacerlo aunque se trate de un pato malo que viene tajeado de la cárcel y se a violado a qué se yo cuanto(as). El juramento hipocrático resuelve esas dudas filosóficas en favor de la agilidad requerida por los servicios de urgencia. Pero el diseño todo es distinto: aquí no hay nada neutral. Y sobre todo, si se trata de un proyecto para construir visualizaciones a partir de datos estadísticos. ¿Por qué? Porque el diseño construye argumentos y las visualizaciones son herramientas de persuasión política. La narrativa de la visualización corresponde a una lectura dirigida y modelada desde el diseño; el diseño dice &lt;strong&gt;qué ver&lt;/strong&gt; y &lt;strong&gt;cómo interpretar&lt;/strong&gt; los datos. Esconde su carácter político en la aparente neutralidad de los “datos duros” y los moldea para conmover, para resaltar, para denunciar, provocar e, incluso, para hacer aparecer soluciones a los problemas descritos. La visualización y la infografía son artificios (de &lt;em&gt;arte&lt;/em&gt; y &lt;em&gt;oficio&lt;/em&gt;), por lo tanto, es muy difícil hacerlos desde una desapasionada neutralidad; son demasiado poderosas para desperdiciarlas de esa manera. Lamento no haber podido trabajar en un proyecto de este tipo, pero insisto: había un problema ético y de filiación del cual no me podía hacer cargo. Lamento que haya venido amarrado a una agenda política con la cual no comulgo. ¿Cree Ud. que debería haber tomado el trabajo? ¿Cree Ud. que el diseño profesional es apolítico? o, por el contrario, ¿el que conoce las implicancias políticas del diseño es más profesional? ¿Ser 2.0 es no preocuparse de esto?&lt;/p&gt;
 
     </content>
   </entry>

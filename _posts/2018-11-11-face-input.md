@@ -26,12 +26,15 @@ Planteamos la hipótesis de que el uso de pictogramas faciales para representar 
 
 Esta idea se fundamenta en la teoría semiótica cognitiva desarrollada por Line Brandt en *The Communicative Mind*, donde se plantea que la comunicación no es simplemente un intercambio de señales, sino un proceso mental y social en el que dos o más mentes se alinean temporalmente en una escena compartida de significación. Esta "mente comunicativa" emerge de la coordinación dinámica entre expresiones (lo que se manifiesta en un cuerpo) y comprensiones (lo que se configura en una mente), en un contexto determinado. En este sentido, las expresiones faciales cumplen una función de alto nivel, ya que condensan información emocional compleja en patrones reconocibles que operan como "anclas" para la interpretación situacional((Brandt, L. (2013). *The Communicative Mind: A Linguistic Exploration of Conceptual Integration and Meaning Construction*. Cambridge Scholars Publishing.)). 
 
+<div id="canvasContainer"></div>
+<div id="qualification">
+  <div id="val" style="font-family: Barlow; font-size: 4rem"></div>
+</div>
+{% include p5.html script="/assets/p5/face-input.js" %}
+
 ### Desarrollo de Herramientas: Face Input, Face Qualify y Face Edit
 
 Basándonos en esta hipótesis, desarrollamos una serie de herramientas destinadas a facilitar la entrada y edición de datos emocionales mediante pictogramas faciales:
-
-<div id="canvasContainer"></div><div id="qualification"><div id="val" style="font-family: Barlow; font-size: 4rem"></div></div>
-{% include p5.html script="/assets/p5/face-input.js" %}
 
 - **[```face-input```](https://github.com/hspencer/face-input)**: Una biblioteca JavaScript que permite la creación de entradas basadas en expresiones faciales, funcionando como un control deslizante que representa una gama de emociones. Primer prototipo.
 

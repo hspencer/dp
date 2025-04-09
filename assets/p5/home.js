@@ -7,7 +7,7 @@
    const minDiameter = 10;
    const maxDiameter = 100;
 
-   const MAX_LINKS = 2;
+   const MAX_LINKS = 3;
 
    let postsData = [];
    let filteredPosts = [];
@@ -30,8 +30,6 @@
 
    // ***** NUEVO: Variable global para la rigidez *****
    let currentStiffness = 0.00001; // Valor inicial por defecto
-
-   // ... (resto de variables globales) ...
 
    function preload() {
        // ... (sin cambios en preload) ...
@@ -70,7 +68,6 @@
            noteColor: color(255, 244, 152, 200),
            hoverColor: color(0),
        };
-
        // Chequeo defensivo
        if (!Array.isArray(postsData) || postsData.length === 0) {
            console.warn("postsData no está listo o está vacío.");
@@ -79,13 +76,11 @@
            text("Cargando datos...", width/2, height/2);
            noLoop(); return;
        }
-
        // Setup Canvas
        let w = document.getElementById("p5").offsetWidth;
-       let windowHeightPercentage = window.innerHeight * 0.75;
-       windowHeightPercentage = constrain(windowHeightPercentage, w*1.2, window.innerHeight);
-       let canvasHeight = Math.max(w, windowHeightPercentage);
-       cnv = createCanvas(w, canvasHeight);
+       let windowHeightPercentage = window.innerHeight / w;
+       let h = w+windowHeightPercentage;
+       cnv = createCanvas(w, h);
        cnv.elt.addEventListener('wheel', function(e) {}, { passive: true });
        cnv.parent("p5");
        cnv.elt.style.touchAction = "auto";
@@ -109,6 +104,7 @@
                if (cat && typeof cat === 'string') { categoryFilter[cat.trim()] = true; }
            });
        });
+
        createCategoryCheckboxes();
 
        // Calcular min/max largo
@@ -145,24 +141,10 @@
            Matter.Body.setVelocity(post.body, { x: random(-1, 1), y: random(-1, 1) });
 
            // Crear tooltips HTML
-           tooltips[post.body.id] = createDiv(post.titulo.toUpperCase());
+           tooltips[post.body.id] = createDiv(post.titulo);
            tooltips[post.body.id].parent("p5");
-           // ... (estilos del tooltip sin cambios) ...
-           tooltips[post.body.id].style("position", "absolute");
-           tooltips[post.body.id].style("display", "none");
-           tooltips[post.body.id].style("pointer-events", "none");
-           tooltips[post.body.id].style("z-index", "10");
-           tooltips[post.body.id].style("background-color", "rgba(255, 255, 255, 0.85)");
-           tooltips[post.body.id].style("color", "#333");
-           tooltips[post.body.id].style("font-family", "'Barlow', sans-serif");
-           tooltips[post.body.id].style("font-size", "11px");
-           tooltips[post.body.id].style("text-align", "center");
-           tooltips[post.body.id].style("text-transform", "uppercase");
-           tooltips[post.body.id].style("padding", "4px 8px");
-           tooltips[post.body.id].style("border-radius", "3px");
-           tooltips[post.body.id].style("white-space", "nowrap");
-           tooltips[post.body.id].style("box-shadow", "0 1px 3px rgba(0,0,0,0.1)");
-           tooltips[post.body.id].style("transform", "translateX(-50%) translateY(-100%)");
+           tooltips[post.body.id].addClass("tooltip"); 
+           tooltips[post.body.id].hide(); 
        });
 
        filteredPosts = postsData;
@@ -178,15 +160,12 @@
            stiffnessSlider.value(currentStiffness);
             // Formatear valor para mostrar (notación exponencial es útil aquí)
            stiffnessValueSpan.html(currentStiffness.toExponential(2));
-
            // Listener para el evento 'input' (se dispara continuamente al mover)
            stiffnessSlider.input(() => {
                // 1. Actualizar la variable global
                currentStiffness = parseFloat(stiffnessSlider.value());
-
                // 2. Actualizar el texto del span
                stiffnessValueSpan.html(currentStiffness.toExponential(2));
-
                // 3. Actualizar la rigidez de TODOS los links existentes
                links.forEach(link => {
                    if (link) { // Chequeo básico por si acaso
@@ -199,12 +178,10 @@
            console.error("Error: No se encontró el slider #stiffnessSlider o el span #stiffnessValue en el HTML.");
        }
        // ***** FIN NUEVO *****
-
    }
-
    // ... (draw, funciones de interacción, createCategoryCheckboxes sin cambios)...
    function draw() {
-       background(255, 10); // Use clear() instead of background() for transparency if needed over HTML
+       background(255, 50); // Use clear() instead of background() for transparency if needed over HTML
        Engine.update(engine);
        let now = millis();
 
@@ -218,10 +195,6 @@
        );
 
        // --- Draw Links (behind circles) ---
-       blendMode(MULTIPLY)
-       // ***** AJUSTE: Usar un alfa más bajo para que sea más sutil al aumentar rigidez *****
-       stroke(0, 204, 255, 15); // Semi-transparent black links (alfa reducido)
-       strokeWeight(20);
        links.forEach((link) => {
            // Check if both bodies of the link exist and are in the filtered list
            const bodyA = link.bodyA;
@@ -232,11 +205,13 @@
            const bodyBVisible = filteredPosts.some((p) => p.body && p.body.id === bodyB.id);
 
            if (bodyAVisible && bodyBVisible) {
+               dim = constrain(bodyA.mass + bodyB.mass, 0, 45);
+               stroke(0, 204, 255, 50 - dim); // Semi-transparent black links (alfa reducido)
+               strokeWeight(bodyA.mass + bodyB.mass);
                line(bodyA.position.x, bodyA.position.y, bodyB.position.x, bodyB.position.y);
            }
        });
-       blendMode(BLEND)
-       // --- Draw Circles and Handle Tooltips ---
+
        filteredPosts.forEach((post) => {
            if (!post.body) return; // Skip if body doesn't exist for some reason
 
@@ -305,17 +280,17 @@
                if (post.categorias.includes("code")) {
                    fill(pal.codeColor);
                    stroke(pal.codeOutline);
-                   strokeWeight(1.5);
                } else if (post.categorias.includes("escuela")) {
                    fill(pal.escuelaColor);
-                   noStroke();
+                   stroke(lerpColor(pal.escuelaColor, '#000', 0.3));
                } else if (post.categorias.includes("ideas")) {
                    fill(pal.ideaColor);
-                   noStroke();
+                   stroke(lerpColor(pal.ideaColor, '#000', 0.3));
                } else { // Default to noteColor if no other specific category matches
                    fill(pal.noteColor);
-                   noStroke();
+                   stroke(lerpColor(pal.noteColor, '#000', 0.3));
                }
+               strokeWeight(1.5);
            }
 
            // Draw the ellipse at the translated origin (0,0)
@@ -461,14 +436,6 @@
 
     // Crear contenedor para los checkboxes
     let container = createDiv().id(containerId).parent("p5");
-     // ***** NUEVO: Añadir estilo al contenedor de categorías *****
-    container.style('display', 'flex');
-    container.style('flex-wrap', 'wrap');
-    container.style('justify-content', 'center'); // Centrar los checkboxes
-    container.style('gap', '10px'); // Espacio entre checkboxes
-    container.style('padding', '10px 0'); // Padding vertical
-
-    // Obtener y ordenar alfabéticamente las categorías
     let sortedCategories = Object.keys(categoryFilter).sort();
 
     sortedCategories.forEach((cat) => {
@@ -507,7 +474,6 @@
       });
     });
   }
-
 
    function windowResized() {
        // ... (cálculo de w y canvasHeight sin cambios) ...

@@ -1,20 +1,23 @@
+{%- assign max_related = 5 -%} 
 {%- assign current_tags = page.tags -%}
+
 {%- if current_tags and current_tags != empty -%}
 
   {%- assign related = "" | split: "" -%}
-  {%- assign seen_urls = "" | split: "" -%}
 
   {%- for post in site.posts -%}
     {%- if post != page and post.tags -%}
       {%- assign intersect = post.tags | where_exp: "tag", "current_tags contains tag" -%}
       {%- if intersect != empty -%}
-        {%- unless seen_urls contains post.url -%}
-          {%- assign related = related | push: post -%}
-          {%- assign seen_urls = seen_urls | push: post.url -%}
-        {%- endunless -%}
+        {%- assign match_count = intersect | size -%}
+        {%- assign post_with_score = post | merge: { "match_count": match_count } -%}
+        {%- assign related = related | push: post_with_score -%}
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
+
+  {%- assign related = related | sort: "match_count" | reverse -%}
+  {%- assign related = related | slice: 0, max_related -%}
 
   {%- if related != empty -%}
     <div class="related-posts">
@@ -32,4 +35,5 @@
       </ul>
     </div>
   {%- endif -%}
+
 {%- endif -%}
