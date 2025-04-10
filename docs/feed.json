@@ -18,14 +18,14 @@
 
   {
     "fecha": "2025-02-27T18:43:22+13:00",
-    "titulo": "Prólogo de PictoNet",
+    "titulo": "Prólogo para PictoNet",
     "categorias": ["notas","research"],
-    "etiquetas": ["tesis","llm"],
+    "etiquetas": ["tesis","llm","lenguaje","pictogramas"],
     "imagen":  
                   "/assets/uploads/2025/02/prologo-pictonet-ia.png"
                ,
-    "url": "/2025/02/prologo-de-pictonet/",
-    "largo": 13363,
+    "url": "/2025/02/prologo-dpara-pictonet/",
+    "largo": 28672,
     "contenido":
       
         "A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunitaria. Diría que ese es el hilo conductor de todo: cierta idea respecto a la “activación social” que determinada plataforma permite o habilita.Podría tratarse de la idea de la “convivencialidad” por aproximación y afinidad. Esto ha estado presente en proyectos como Con§tel (2005-2006) que exploraba la idea de la marginalia compartida dentro del estudio dentro de una escuela de pensamiento. Y la plataforma permitía, a cada uno, ubicarse en un mapa conceptual observado por todos (no relativizado en un timeline subjetivo producto de un algoritmo de recomendación, como ocurre hoy). Otro proyecto significativo en este ámbito es la Wiki Casiopea , donde cada página es editable, mejorable y actualizable; no impone ni determina sino que está abierta y disponible para ser construida y reconstruida.En esta línea, y más espe..."
@@ -41,10 +41,10 @@
                   "/assets/uploads/2025/03/make-the-bed.png"
                ,
     "url": "/PictoNet",
-    "largo": 15309,
+    "largo": 29160,
     "contenido":
       
-        "Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de manera que simultáneamente sirva como base conceptual y operativa para lo que he denominado PictoNet. Concebido como una plataforma abierta de generación de pictogramas vectoriales (en formato SVG) orientada a la comunicación inclusiva pero no se limita al ámbito académico ni “asistivo”: mi intención es que evolucione hacia una iniciativa de bien público, un proyecto de naturaleza open source al que cualquier persona o institución pueda sumarse para contribuir, apropiarse y, ojalá, co-gobernar bajo principios de transparencia y colaboración.En su dimensión académica, esta propuesta se enmarca en una investigación doctoral de tipo practice-based, es decir, una modalidad donde puedo hacer diseño. Incluye e implica la creación de prototipos, la implementación de la plataforma y la verificación de sus usos en entorno..."
+        "PictoNet es un sistema generativo de pictogramas a partir de texto diseñado para la comunicación aumentativa y alternativa."
       
   },
 
@@ -852,7 +852,7 @@
     "fecha": "2008-08-25T12:57:01+12:00",
     "titulo": "IV Seminario Chileno de AI",
     "categorias": ["notas"],
-    "etiquetas": ["Arquitectura de la Información","experiencia","IA","Information Architecture","seminario"],
+    "etiquetas": ["Arquitectura de la Información","experiencia","comunidad","Information Architecture","seminario"],
     "imagen":  
                   "/assets/pintura/08.png"
                ,

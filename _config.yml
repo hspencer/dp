@@ -13,8 +13,14 @@ future: true
 
 # Configuración de construcción
 markdown: kramdown
+highlighter: rouge
+
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
   hard_wrap: false
   enable_coderay: false
   parse_block_html: true
@@ -75,7 +81,7 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "post"
 
 # no github default theme
 theme: null

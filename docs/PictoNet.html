@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="description" content="PictoNet es un sistema generativo de pictogramas a partir de texto diseñado para la comunicación aumentativa y alternativa.">
     <meta name="author" content="Herbert Spencer">
     <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
     <title>PictoNet · {dp} · doble página</title>
@@ -12,7 +12,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:site_name" content="{dp} · doble página">
     <meta property="og:title" content="PictoNet">
-    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
+    <meta property="og:description" content="PictoNet es un sistema generativo de pictogramas a partir de texto diseñado para la comunicación aumentativa y alternativa.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://0.0.0.0:4000/PictoNet">
     <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
@@ -20,7 +20,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PictoNet">
-    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
+    <meta name="twitter:description" content="PictoNet es un sistema generativo de pictogramas a partir de texto diseñado para la comunicación aumentativa y alternativa.">
     <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
@@ -124,8 +124,7 @@
       <div class="related-posts">
       <h4>Artículos relacionados</h4>
       <ul><li>
-            <a href="/2008/08/iv-seminario-chileno-de-ai/">IV Seminario Chileno de AI</a><span class="tag">IA</span></li><li>
-            <a href="/2025/02/prologo-de-pictonet/">Prólogo de PictoNet</a><span class="tag">tesis</span><span class="tag">llm</span></li><li>
+            <a href="/2025/02/prologo-dpara-pictonet/">Prólogo para PictoNet</a><span class="tag">tesis</span><span class="tag">llm</span></li><li>
             <a href="/2025/03/la-internet-que-nos-robaron/">La Internet que nos robaron</a><span class="tag">tesis</span><span class="tag">llm</span></li></ul>
     </div>
 
@@ -182,86 +181,568 @@
     </sidebar>
 
     <article>
-      <p>Estoy iniciando un doctorado por proyecto en la Auckland University of Technology (AUT) con una duración aproximada de tres años, y en esta etapa temprana me he propuesto estructurar el trabajo de manera que simultáneamente sirva como base conceptual y operativa para lo que he denominado <strong>PictoNet</strong>. Concebido como una plataforma abierta de generación de pictogramas vectoriales (en formato <acronym title="Scalar Vector Graphics">SVG</acronym>) orientada a la comunicación inclusiva pero no se limita al ámbito académico ni “asistivo”: mi intención es que evolucione hacia una iniciativa de bien público, un proyecto de naturaleza <em>open source</em> al que cualquier persona o institución pueda sumarse para contribuir, apropiarse y, ojalá, co-gobernar bajo principios de transparencia y colaboración.</p>
+      <h2 id="un-sistema-visual-para-comprender-comunicar-y-construir-sentido">Un sistema visual para comprender, comunicar y construir sentido</h2>
 
-<p>En su dimensión académica, esta propuesta se enmarca en una investigación doctoral de tipo <em>practice-based</em>, es decir, una modalidad donde puedo hacer diseño. Incluye e implica la creación de prototipos, la implementación de la plataforma y la verificación de sus usos en entornos de Comunicación Aumentativa y Alternativa (CAA). Todo esto constituye el mismo núcleo de generación de conocimiento: la interacción humano-computador y la inteligencia artificial<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> y la propuesta concreta del doctorado<sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup>. Algo que pueda instalarse, funcionar y evolucionar hacia un ecosistema que fomente nuevas formas de comunicación, sobre todo para aquellas personas que poseen necesidades complejas de habla o escritura.</p>
+<p>Vivimos en un mundo saturado de códigos, símbolos, interfaces e instrucciones. Comprenderlo requiere habilidades lingüísticas, contextuales y culturales que no siempre están disponibles para todos. ¿Qué ocurre cuando una persona no puede leer, no habla, o interpreta de forma diferente los signos convencionales?</p>
 
-<p>No pretendo quedarme sólo en lo teórico sin implementar y hacer crecer las ideas, desde prototipos básicos a un servicio más complejo. Quiero apuntar a un sistema que pueda tener vida propia, ser parte del “bien común digital” sostenible en el tiempo, nutrido por una comunidad que la haga crecer y que, a la vez, produzca conocimiento aplicado útil localmente. Actualmente, mi plan de trabajo contempla la definición de los fundamentos y la motivación que impulsan PictoNet.</p>
+<p><strong>PictoNet</strong> es un sistema generativo de comunicación visual diseñado para personas con necesidades complejas de comunicación (NCC), como adultos autistas o personas con discapacidad intelectual. A partir de frases escritas, genera pictogramas vectoriales<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> que representan acciones, situaciones o intenciones. Su propósito es doble: facilitar la autonomía comunicativa de las personas y crear un lenguaje visual accesible, abierto y evolutivo.</p>
 
-<p>Por un lado, existe una necesidad social clara: la mayoría de los recursos o bibliotecas de pictogramas<sup id="fnref:3"><a href="#fn:3" class="footnote-ref">3</a></sup> son acervos estáticos que no permiten adaptaciones culturales o lingüísticas fluidas, y no brindan posibilidades para refinar estilos gráficos ni ajustar la semántica a contextos muy específicos (por ejemplo, vocabularios científicos, institucionales, de índole terapéutica, etc.). Además, no vienen desde el diseño. En su mayoría han sido hechos por personas de otras profesiones que no lo piensan como un sistema gráfico armónico, como homogeneidad de trazos, niveles de abstración, geometría o grilla, por nombrar sólo algunos criterios gráficos escenciales para el diseño de una familia pictográfica. Estos sistemas requieren un alto nivel de sintetización<sup id="fnref:4"><a href="#fn:4" class="footnote-ref">4</a></sup> lo que no asegura que sean accesibles cognitivamente. Para esto se requiere una validación posterior.</p>
+<p>La tarea de traducir palabras a imágenes no es sencilla, está en el corazón y origen del diseño visual como el problema de la interpretación, la integración y la síntesis. PictoNet propone una nueva forma de construir sentido, articulando elementos de la lingüística computacional, la inteligencia artificial<sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup> y el diseño en su sentido amplio. La idea de fondo no es nueva: Otto Neurath ya había propuesto un lenguaje visual universal con Isotype<sup id="fnref:3"><a href="#fn:3" class="footnote-ref">3</a></sup>, inspirado a su vez por los sueños de Leibniz y Frege de una lingua universalis lógica<sup id="fnref:4"><a href="#fn:4" class="footnote-ref">4</a></sup>. Más recientemente, el enfoque NSM (Natural Semantic Metalanguage)<sup id="fnref:5"><a href="#fn:5" class="footnote-ref">5</a></sup> ha demostrado que es posible reducir el lenguaje humano a un conjunto reducido de conceptos universales comprensibles por cualquier cultura. Tomo esto como base para fundamentar este intento aparentemente universalista pero respetuoso de lo local y situado.</p>
 
-<p>Quiero entender cómo funcionará la economía en un mercado de distintas IAs y aplicar una alternativa federada que permita ramificaciones y aplicaciones locales. Si el sentido que tiene es la traducción de palabras (o frases) a imágenes, aborda un problema fundamental de la comunicación, el de la <em>espacialización</em>. Las variaciones e interpretaciones son potencialmente infinitas. PictoNet se concibe bajo unos principios de diseño que abarcan la apertura del código y de los datos (<em>open source</em>), la “recursividad social” (implicando ciclos de aprendizaje y reentrenamiento continuo, donde la comunidad retroalimenta al sistema con cada mejora) y la especialización creciente mediante la creación de mini-modelos afinados que puedan cubrir ámbitos temáticos puntuales. Esto último abre la posibilidad de que existan submodelos especializados —por ejemplo, en vocabularios médicos, en terminología escolar para niños con autismo, en expresiones propias de un dialecto concreto— y que, una vez consolidados, puedan ofrecerse como servicios técnicos adaptados a nichos muy concretos<sup id="fnref:5"><a href="#fn:5" class="footnote-ref">5</a></sup>.</p>
+<p>PictoNet se inspira en esta tradición, pero la desplaza desde el plano lógico-lingüístico hacia el plano visual, apoyándose en la <strong>teoría del blending conceptual</strong> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref">6</a></sup> para construir imágenes que sintetizan en integran significados dispersos. Diferentes notas musicales pueden sonar como un acorde. En esta metáfora la caja de resonancia es la mente humana. Este sistema no busca ilustrar literalmente una frase, sino de crear una imagen mental que exprese su intención, su foco, y sus relaciones internas. Desde allí, se traduce a una forma visual precisa, limpia y manipulable. Este pequeño detalle hace que la imagen deba ajustarse al contexto cultural donde opera.</p>
 
-<p>¿Será la nueva economía un mercado colaborativo de pequeños modelos de generación de pictogramas? Todos basados en el mismo núcleo abierto. Así es como funcionan la mayoría de los proyectos colaborativos actualmente.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref">6</a></sup> Esta parte todavía es muy incierta pero guardo cierta intuición de que mantener cierta soberanía digital sobre los aspectos que nos contituyen, es fundamental. Además constituye una forma de participación constructiva y menos frágil, más segura y ojalá menos sujeta a la cohersión o manipulación de una autoridad central hostil.</p>
+<p>Este sistema busca ser algo más que una herramienta: una gramática visual compartida, que cada persona pueda adaptar y expandir según su contexto. Un punto de partida para recuperar la soberanía sobre el lenguaje visual en un mundo que, cada vez más, delega la mediación del sentido a sistemas opacos.</p>
 
-<h5 id="qué-hace">Qué hace</h5>
-<p>La plataforma en sí misma incluye un proceso de generación <strong>text-to-SVG</strong> : el usuario ingresa una frase o palabra, se ejecuta un análisis semántico que descompone el texto en sus elementos esenciales, y el sistema genera uno o varios archivos vectoriales con la representación pictográfica. Estos archivos pueden incorporar un metadato que describa las capas, los nodos y la lógica compositiva, lo cual facilita la trazabilidad y la posterior edición o personalización. El objetivo es que cada imagen vectorial sea manipulable, no sólo en su apariencia (grosor de línea, color, dimensiones) sino también en la posibilidad de animaciones básicas o adición de símbolos complementarios. La plataforma incluye un editor visual muy simple y, al mismo tiempo, un editor de código SVG que muestra el dibujo a la derecha, permitiendo un control fino de la estructura a usuarios más experimentados. La idea es que se fusione la sencillez para el usuario genérico con la potencia para desarrolladores o diseñadores interesados en afinar cada pictograma al detalle.</p>
+<h2 id="para-qué-sirve-pictonet">¿Para qué sirve PictoNet?</h2>
 
-<p>En relación con la gobernanza y el modelo de negocio potencial, la propuesta es que el núcleo de PictoNet (su base de datos de pictogramas, los modelos de IA, el motor de generación y edición) sea de acceso libre y abierto, manteniendo licencias que permitan su auditoría y uso irrestricto siempre y cuando se respeten los criterios de acceso universal. Sin embargo, se abre la puerta a que aparezcan servicios de venta o de encargo de submodelos altamente especializados. En ese escenario, quienes contribuyeron al entrenamiento de dichos submodelos con su experiencia o con sus datos recibirían parte de la retribución en forma de créditos o tokens, reforzando así la idea de que la plataforma se sostenga en la economía de reputación y en un criterio de equidad para quienes aportan. De ese modo, PictoNet se ubica en un punto intermedio entre la gratuidad de la base común y la posibilidad de generar un rendimiento económico para grupos o individuos que ofrezcan mejoras o variaciones muy específicas. Esto no sólo busca la sostenibilidad del proyecto a largo plazo, sino también configurar un incentivo real para investigadores, profesionales y creativos que dediquen tiempo a entrenar y perfeccionar submodelos.</p>
-
-<p>La factibilidad técnica descansa (en la ayuda de mis amigos ingenieros) en la adopción de un stack que facilite la escalabilidad y la colaboración distribuida, incluyendo contenedores<sup id="fnref:7"><a href="#fn:7" class="footnote-ref">7</a></sup> para la ejecución del sistema, repositorios de modelos en plataformas como sencillas como Hugging Face, un backend modular (tal vez con FastAPI) y un frontend que privilegie la simplicidad y la capacidad de versionado. En términos de arquitectura, considero una serie de microservicios que se comuniquen entre sí para cubrir las distintas etapas de la generación de pictogramas, mientras que la base de datos (posiblemente MongoDB o similar) almacena tanto los archivos resultantes en SVG como la información de versionado, metadatos semánticos y el histórico de commits que describen cada contribución de la comunidad. Todo esto no está definido.</p>
-
-<p>En la <strong>Figura 1</strong> se representa de manera esquemática cómo la investigación de PictoNet avanza en varias capas: la primera ligada a los pictogramas como facilitadores de la autodeterminación de las personas con necesidades comunicativas; la segunda centrada en la implementación de un modelo generativo que permita la transformación de texto en imágenes vectoriales personalizables; la tercera enfocada en la conformación de una plataforma socio-técnica abierta al aporte colectivo. Esta aproximación progresiva, inspirada en marcos de práctica e iteración, se actualiza permanentemente según la retroalimentación que recibo tanto de usuarios finales como de especialistas.</p>
-
-<p><img src="/assets/uploads/2025/03/3-layers.png" alt="Esquema de 3 capas" /></p>
-<p class="caption"><strong>Figura 1.</strong> Expanding Inquiry in PictoNet. Representación de cómo se articulan los distintos niveles de alcance: desde la base semántica de los pictogramas hasta su integración en un ecosistema colaborativo de alcance global.</p>
-
-<p><br /><br /><br /></p>
+<p>PictoNet se concibe como una herramienta para amplificar la autonomía de personas neurodivergentes y facilitar la comprensión del entorno a través de representaciones visuales generadas dinámicamente. Al ofrecer una traducción visual explícita de acciones, intenciones o instrucciones, PictoNet puede emplearse en múltiples contextos:</p>
 
 <table>
   <thead>
     <tr>
-      <th><strong>Nivel</strong></th>
-      <th><strong>Enfoque</strong></th>
-      <th><strong>Elementos</strong></th>
+      <th>Necesidad comunicativa</th>
+      <th>Ejemplo concreto</th>
+      <th>Cómo ayuda PictoNet</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Nivel 1 – Autodeterminación y AAC pictográfica</strong></td>
-      <td>Examina cómo las herramientas de Comunicación Aumentativa y Alternativa (CAA), en particular los pictogramas, promueven la autodeterminación a través de la volición y la agencia causal.</td>
-      <td>Los pictogramas como facilitadores de la toma de decisiones autónoma; la CAA como refuerzo de comportamientos con poder de agencia; perspectivas de profesionales sobre el rol de la CAA en la promoción de la autodeterminación; evaluación de cómo estas herramientas fortalecen la creencia de control-acción; modalidades de personalización y localización de pictogramas para distintos contextos culturales.</td>
+      <td>Comprender una instrucción</td>
+      <td>“Saca la leche del refrigerador”</td>
+      <td>Traduce la frase en una imagen con acción, objeto y contexto</td>
     </tr>
     <tr>
-      <td><strong>Nivel 2 – Metamodelo Generativo de Pictogramas e IA</strong></td>
-      <td>Centrado en el desarrollo de un meta-modelo y un marco computacional para la generación dinámica de pictogramas.</td>
-      <td>Pipeline de modelo generativo (estructuración de datos, entrenamiento, ajuste fino); reglas de composición visual para la creación modular de pictogramas; editor basado en SVG que habilita interacción y corrección en tiempo real; la IA entendida como “material de diseño” para una representación pictográfica adaptativa.</td>
+      <td>Realizar una tarea secuencial</td>
+      <td>“Poner la tetera y esperar que hierva”</td>
+      <td>Genera pictogramas con temporalidad y pasos diferenciados</td>
     </tr>
     <tr>
-      <td><strong>Nivel 3 – Colaboración Abierta y Aprendizaje Federado</strong></td>
-      <td>Plantea un repositorio descentralizado y gestionado por la comunidad para un aprendizaje y enriquecimiento continuo.</td>
-      <td>Modelos de aprendizaje federado que equilibren personalización y mejoras compartidas; gestión de repositorios y documentación para contribuciones estructuradas; adaptaciones locales (lanzamientos de modelos para distintos contextos culturales); mecanismos curatoriales que definan una gobernanza colaborativa en la estandarización de pictogramas.</td>
+      <td>Formular una pregunta</td>
+      <td>“¿Dónde está mi mochila?”</td>
+      <td>Representa estructura interrogativa y foco de búsqueda</td>
+    </tr>
+    <tr>
+      <td>Comprender una situación social</td>
+      <td>“Están esperando turno en la fila”</td>
+      <td>Visualiza relaciones espaciales y roles sociales</td>
+    </tr>
+    <tr>
+      <td>Expresar una emoción o estado</td>
+      <td>“Estoy confundido”</td>
+      <td>Asocia expresión facial, postura corporal y etiqueta textual</td>
+    </tr>
+    <tr>
+      <td>Comunicar una urgencia</td>
+      <td>“Me duele el estómago”</td>
+      <td>Presenta señal visual clara y alerta diferenciada</td>
+    </tr>
+    <tr>
+      <td>Comprender un proceso institucional</td>
+      <td>“Solicitar hora médica en el centro de salud”</td>
+      <td>Descompone el procedimiento en etapas visuales comprensibles</td>
+    </tr>
+    <tr>
+      <td>Participar en una actividad grupal</td>
+      <td>“Hoy hay reunión de equipo a las 3 PM”</td>
+      <td>Representa la situación, las personas y el tiempo contextual</td>
+    </tr>
+    <tr>
+      <td>Seguir reglas de comportamiento</td>
+      <td>“En el ascensor no se habla fuerte”</td>
+      <td>Representa norma, espacio y modulación de conducta</td>
+    </tr>
+    <tr>
+      <td>Acceder a trámites o servicios</td>
+      <td>“Descargar certificado de nacimiento desde la web”</td>
+      <td>Genera pictograma secuencial con elementos tecnológicos</td>
     </tr>
   </tbody>
 </table>
 
-<p class="caption"><strong>Tabla 1</strong>. Enfoque de investigación en tres niveles donde se resume el enfoque general de la plataforma como proyecto de investigación, asociando cada nivel de trabajo con elementos clave, que van desde la generación de los pictogramas, hasta su implementación técnica y el tejido social que se requiere para garantizar una gobernanza responsable y un continuo perfeccionamiento de la herramienta.</p>
+<p>Cada uno de estos ejemplos podría resolverse mediante imágenes preexistentes. Pero PictoNet no se basa en un repertorio fijo, sino en un <strong>modelo generativo</strong> capaz de producir pictogramas a partir de combinaciones lingüísticas nuevas o específicas. Esto permite adaptarse a contextos cambiantes, a variaciones culturales y a estilos personales de comprensión.</p>
 
-<p>Como toda iniciativa <em>open source</em>, PictoNet requiere de colaboradores y de simpatía en diversos frentes. Invito, en un llamado explícito a investigadores, desarrolladores, artistas y profesionales de la CAA, para que se sumen a la empresa de co-crear una generatriz de lenguaje, de vocación universal o aspiración universalista, pero con la posibilidad de periferia, de particularización<sup id="fnref:8"><a href="#fn:8" class="footnote-ref">8</a></sup> permitiendo la generación y personalización local.</p>
+<p>La salida visual se produce en formato <strong>SVG</strong> (Scalable Vector Graphics), que permite una representación gráfica clara y ajustable a diferentes tamaños, y también contiene una estructura interna que puede ser manipulada programáticamente o manualmente<sup id="fnref:7"><a href="#fn:7" class="footnote-ref">7</a></sup>.</p>
 
-<h4 id="tesis">Tesis</h4>
+<p>PictoNet, por tanto, no entrega una imagen cerrada, sino una <strong>propuesta visual abierta</strong>: comprensible por máquinas, interpretable por humanos y editable según criterios personales, clínicos o culturales.</p>
 
-<p>El objetivo de esta investigación es que, al concluir el periodo doctoral, PictoNet se constituya en una plataforma que trascienda la contribución personal y aporte al campo de la comunicación inclusiva. La tesis fundamentará y validará el enfoque metodológico y conceptual que orienta el desarrollo de la plataforma, de modo que la iniciativa subsista de forma autónoma mediante la participación de una comunidad internacional dedicada a identificar y aplicar usos alternativos. Este espacio experimental integra la práctica docente, la investigación en diseño y el compromiso con una comunicación inclusiva. Se prevé que la interacción social inherente a PictoNet propicie un ciclo recursivo en el que cada aporte contribuya a la actualización del sistema, al registro de mejoras y al fortalecimiento de la trayectoria de quienes participan en el desarrollo de una herramienta orientada a la diversidad comunicativa.</p>
+<h2 id="tres-niveles">Tres niveles</h2>
 
-<p>Se facilitará el acceso a un repositorio que incluya documentación precisa, demostraciones operativas y un espacio colaborativo para orientar a los nuevos participantes. Asimismo, se plantea transformar PictoNet en un modelo cuantificable, considerando que su salida es breve (por ejemplo, en formato SVG) en relación con la capacidad de procesamiento de los modelos actuales de lenguaje. La posibilidad de integrar este modelo en hardware, como componente de sistemas más complejos, se presenta como un elemento central. Durante el primer año de MediaFranca (denominación que aparece en la interfaz y que corresponde al título oficial de la tesis), se desarrollarán escenarios de uso situados en actos comunicativos que abarquen diversos contextos, tales como la comunicación en la infancia, en colectivos con discapacidad y en personas neurodivergentes. Este planteamiento propone concebir la inteligencia artificial como material de diseño, facilitando su incorporación en sistemas que requieran modularidad y adaptabilidad.</p>
+<p>El proyecto global, inscrito en mi tesis doctoral (basada en la práctica) <em>“MediaFranca: A pictogram-based communication tool for self-determination in individuals with complex communication needs (CCN)”</em>  se organiza en tres escalas interconectadas. Cada nivel aborda una dimensión distinta del problema comunicativo, desde la representación visual básica hasta la construcción colectiva del sentido. Estos niveles no se definen desde la técnica sino que expresan posturas epistémicas y éticas sobre el lenguaje, la autonomía y la colaboración.</p>
 
-<p>El propósito fundamental de este trabajo es configurar a PictoNet como una plataforma operativa y accesible para una comunidad internacional, trascendiendo la contribución individual. La tesis doctoral, que se inscribe en el contexto del proyecto MediaFranca, establece el marco metodológico y conceptual, sin ser el fin último de la iniciativa. El proyecto se orienta a generar escenarios de uso situados en actos comunicativos —por ejemplo, en interacciones dirigidas a la infancia, a personas con discapacidad y a individuos neurodivergentes— donde la inteligencia artificial se conciba como material de diseño para la comunicación inclusiva.</p>
+<h3 id="nivel-1-motor-generativo-de-pictogramas-pictonet-texto--svg">Nivel 1: Motor generativo de pictogramas PictoNet (Texto → SVG)</h3>
 
-<p>Dada su especialización y la brevedad de su salida (en formato SVG), es posible optimizar el modelo radicalmente. Esto permite explorar la viabilidad de integrar el sistema en hardware<sup id="fnref:9"><a href="#fn:9" class="footnote-ref">9</a></sup>, para operar como <em>core engine</em> para la comunicación dentro de sistemas de mayor sofisticación. Durante este 2025, se desarrollarán y evaluarán estos escenarios de uso, situando a PictoNet en contextos comunicativos concretos y facilitando su adaptación a distintas aplicaciones prácticas. Ahora debemos pasar a construirla.</p>
+<p>El primer nivel de PictoNet constituye su núcleo operativo. Se trata de un sistema que, dado un texto de entrada (por ejemplo: “regar las plantas”), genera un pictograma vectorial que representa visualmente esa acción. Esta imagen no es una ilustración cualquiera sino un pictograma que busca ser accesible cognitivamente: sigue una sintaxis gráfica explícita y está construida sobre una “espina semántica” que permite identificar y modificar los elementos relevantes, así como establecer una relación (ojalá epiyectiva) con el texto de entrada que lo generó.</p>
+
+<p>La motivación principal en este nivel es facilitar la <strong>autonomía comunicativa</strong> de personas con necesidades complejas de comunicación, permitiendo acceder al mundo simbólico mediante un lenguaje visual comprensible y personalizable. Al mismo tiempo, este nivel inaugura un nuevo campo de exploración: la <strong>composición visual programática</strong> como base para una gramática del diseño universal.</p>
+
+<p>Este motor combina diversas capas de procesamiento semántico y visual, descritas en la siguiente tabla:</p>
+
+<h4 id="pipeline-generativo-de-pictonet">Pipeline generativo de PictoNet</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fase</th>
+      <th>Tipo de modelo</th>
+      <th>Función principal</th>
+      <th>Modelos de referencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1. Clasificación pragmática</strong></td>
+      <td>Clasificador semántico</td>
+      <td>Determina la intención comunicativa (volitivo, asertivo, afectivo, interrogativo, etc.)</td>
+      <td>FLAN-T5, RoBERTa-base<sup id="fnref:8"><a href="#fn:8" class="footnote-ref">8</a></sup></td>
+    </tr>
+    <tr>
+      <td><strong>2. Extracción de entidades visuales</strong></td>
+      <td>NER visual</td>
+      <td>Identifica entidades representables gráficamente (acciones, objetos, lugares)</td>
+      <td>spaCy NER, mT5<sup id="fnref:9"><a href="#fn:9" class="footnote-ref">9</a></sup></td>
+    </tr>
+    <tr>
+      <td><strong>3. Blending conceptual</strong></td>
+      <td>Composición semántica</td>
+      <td>Fusiona elementos en una imagen coherente (ej. “calentar comida en microondas”)</td>
+      <td>ConceptNet, TARS<sup id="fnref:10"><a href="#fn:10" class="footnote-ref">10</a></sup></td>
+    </tr>
+    <tr>
+      <td><strong>4. Selección de foco y layout</strong></td>
+      <td>Estructura discursiva</td>
+      <td>Establece jerarquía entre elementos visuales y su disposición</td>
+      <td>BART, FLAN-T5</td>
+    </tr>
+    <tr>
+      <td><strong>5. Atributos gráficos</strong></td>
+      <td>Mapeo semiótico</td>
+      <td>Asocia propiedades semánticas con atributos visuales (color, animación, forma)</td>
+      <td>Sketch-RNN, CSS generator</td>
+    </tr>
+    <tr>
+      <td><strong>6. Composición SVG</strong></td>
+      <td>Generador gráfico</td>
+      <td>Produce un SVG estructurado con plantilla y grilla coherente</td>
+      <td>CodeT5+, SVG-VAE<sup id="fnref:11"><a href="#fn:11" class="footnote-ref">11</a></sup></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Este pipeline busca hacer que la “caja negra” sea una caja transparente, donde cada módulo pueda ser interpretado, ajustado o reemplazado. La documentación transparente del modelo es una prioridad: se busca que cualquier persona (usuario, ingeniero, terapeuta o diseñador) pueda entender cómo se construye un pictograma, intervenir en su diseño, o contribuir a mejorar el sistema.</p>
+
+<p>Desde el punto de vista teórico, este modelo se inspira en la <strong>teoría del blending conceptual</strong>, que postula que las imágenes mentales emergen de la integración de múltiples espacios conceptuales. PictoNet traduce este proceso al plano visual, generando una imagen que sintetiza estructura, foco e intención de una frase.</p>
+
+<p>Entonces, el objetivo de PictoNet como apuesta técnica y semiótica es crear un <strong>core engine</strong><sup id="fnref:12"><a href="#fn:12" class="footnote-ref">12</a></sup> generativo, modular y abierto que permita representar visualmente el mundo desde el lenguaje, contribuyendo a una comunicación más equitativa, explícita y comprensible.</p>
+
+<h3 id="nivel-2-sistema-personalizable-con-soberanía-semiótica-2026">Nivel 2: Sistema personalizable con soberanía semiótica (2026)</h3>
+
+<p>El segundo nivel de PictoNet responde a una pregunta fundamental: ¿quién decide cómo se ve y qué significa una imagen?</p>
+
+<p>Si el primer nivel provee un modelo funcional para generar pictogramas, este segundo nivel habilita a cada persona o institución a intervenir activamente en ese proceso. A través de una <strong>interfaz editable</strong>, el usuario puede modificar, reinterpretar o refinar los pictogramas generados según su contexto, estilo cognitivo o necesidades culturales. Cada instancia del sistema mantiene un <strong>espacio visual propio</strong>, donde se almacenan preferencias, configuraciones semióticas y variantes gráficas.</p>
+
+<p><img src="/assets/uploads/2025/03/make-the-bed.png" alt="Esquema de interfaz para la edición de pictogramas" /></p>
+<p class="caption">Esquema de interfaz “round trip” donde se puede ajustar tanto el lado izquierdo (orden, estilo, re-prompt del ícono) y el lado derecho a nivel de nodos y dibujo directo.</p>
+
+<p>Esta arquitectura distribuida responde a una motivación ética: restituir a las personas el <strong>control sobre su lenguaje visual</strong>. En lugar de delegar completamente en una infraestructura algorítmica centralizada estándar. PictoNet ofrece una modalidad de trabajo <em>human-in-the-loop</em>, donde cada usuario puede editar, guardar y retroalimentar el sistema<sup id="fnref:13"><a href="#fn:13" class="footnote-ref">13</a></sup>.</p>
+
+<p>Este enfoque se alinea con la idea de <strong>convivencialidad</strong> desarrollada por Ivan Illich<sup id="fnref:14"><a href="#fn:14" class="footnote-ref">14</a></sup>, quien planteaba que las herramientas no deben superar la capacidad de sus usuarios para comprenderlas y gobernarlas. En el contexto actual —dominado por plataformas de suscripción, modelos opacos y algoritmos que operan como cajas negras— PictoNet plantea una alternativa: una <strong>infraestructura semiótica autogestionable</strong>, donde las extensiones cognitivas no se alquilan, se construyen.</p>
+
+<p>A través de este sistema, cada persona puede:</p>
+
+<ul>
+  <li>Generar pictogramas con base en su estilo preferido</li>
+  <li>Definir su repertorio visual, incluyendo variantes culturales o personales</li>
+  <li>Ajustar atributos como color, nivel de detalle, animación o composición</li>
+  <li>Exportar sus pictogramas o reentrenar el modelo localmente con sus ediciones</li>
+</ul>
+
+<p>Estas funciones además de promover la accesibilidad, promueven también la expresión humana. No se trata únicamente de comunicar “lo mínimo necesario”, sino de dar forma visual a formas propias de habitar el mundo.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuración visual</th>
+      <th>Ejemplo de personalización</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nivel de detalle</td>
+      <td>Más esquemático o más descriptivo</td>
+    </tr>
+    <tr>
+      <td>Estilo de trazo</td>
+      <td>Lineal, geométrico, figurativo</td>
+    </tr>
+    <tr>
+      <td>Uso del color</td>
+      <td>Normativo (rojo = peligro), emocional o neutral</td>
+    </tr>
+    <tr>
+      <td>Composición visual</td>
+      <td>Horizontal, vertical, secuencial</td>
+    </tr>
+    <tr>
+      <td>Animación</td>
+      <td>Indicación de repetición, afecto o cambio</td>
+    </tr>
+    <tr>
+      <td>Número de entidades por imagen</td>
+      <td>Síntesis vs. complejidad expresiva</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>El lenguaje visual es aquí entendido como un sistema vivo, que se negocia, se adapta y se transforma. Esta capa propone una forma de soberanía semiótica: que cada quien pueda <strong>editar su gramática visual</strong>, no desde el capricho individual, sino desde la necesidad de construir sentido en sus propios términos.</p>
+
+<p>PictoNet, en este nivel, no es una aplicación. Es una plataforma convivencial: una herramienta que respeta la inteligencia del usuario y amplía su capacidad de decir con imágenes.</p>
+
+<h3 id="nivel-3-plataforma-colaborativa-y-aprendizaje-federado-2027">Nivel 3: Plataforma colaborativa y aprendizaje federado (2027)</h3>
+
+<p>En su tercera capa, PictoNet se proyecta como una <strong>infraestructura distribuida</strong> que articula múltiples instancias del sistema, cada una con su propia configuración visual, pero conectadas a través de un lenguaje técnico común. La motivación aquí no es técnica —ya no se trata de generar imágenes ni de editarlas—, sino de construir una <strong>economía semiótica abierta y colaborativa</strong>, donde las contribuciones de cada usuario puedan fortalecer colectivamente el modelo.</p>
+
+<p>Este nivel se estructura sobre el principio de <strong>aprendizaje federado</strong>, una técnica de inteligencia artificial que permite entrenar modelos compartidos sin necesidad de centralizar los datos<sup id="fnref:15"><a href="#fn:15" class="footnote-ref">15</a></sup>. Cada interacción, cada corrección o variante visual que realiza el usuario puede ser encapsulada como una unidad significativa de ajuste —sin revelar información privada— y luego incorporada, si se valida, al modelo general.</p>
+
+<p>Este enfoque parte de una intuición simple pero potente: <strong>la diversidad de interpretaciones visuales es un recurso, no un problema</strong>. Aprovechar esa diversidad requiere diseñar mecanismos de sincronización, curaduría y control de versiones que no borren las diferencias, sino que las integren de forma coherente.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Componente del sistema</th>
+      <th>Mecanismo propuesto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Perfil pictográfico federado</td>
+      <td>Cada usuario/institución mantiene un stack local</td>
+    </tr>
+    <tr>
+      <td>Sincronización distribuida</td>
+      <td>Cambios locales se empaquetan como instrucciones</td>
+    </tr>
+    <tr>
+      <td>Curaduría distribuida</td>
+      <td>Validación automática, por pares o institucional</td>
+    </tr>
+    <tr>
+      <td>Historial trazable</td>
+      <td>Cada modificación tiene autor, fecha y justificación</td>
+    </tr>
+    <tr>
+      <td>Transparencia algorítmica</td>
+      <td>Código fuente documentado, legible y versionado</td>
+    </tr>
+    <tr>
+      <td>Interoperabilidad semántica</td>
+      <td>Estructuras compartidas usando JSON-LD y ontologías</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Este tipo de plataforma requiere una gobernanza técnica cuidada, donde el “centro” no sea un ente controlador, sino un <strong>nodo de ensamblaje</strong> que ejecuta entrenamientos globales, publica nuevas versiones y conserva todas las variantes locales. Las personas no entregan sus datos: contribuyen con conocimiento generado desde su propia forma de ver.</p>
+
+<p>La ambición de esta capa no es sólo tecnológica. Apunta a imaginar una <strong>nueva economía de las inteligencias artificiales</strong>: una economía basada en colaboración, transparencia y responsabilidad compartida. Frente al modelo tecnofeudal<sup id="fnref:16"><a href="#fn:16" class="footnote-ref">16</a></sup>, donde los usuarios entregan trabajo cognitivo a cambio de servicios opacos, PictoNet propone una economía simbólica descentralizada, donde cada quien conserva el control sobre su lenguaje, su historia y sus contribuciones.</p>
+
+<p>Aquí, la colaboración no es solo posible: es estructural. El código está en GitHub. La documentación es detallada y pormenorizada. El sistema acepta mejoras, pull-requests, reportes de error y extensiones conceptuales. Participar no es un privilegio técnico: es parte de la arquitectura del sistema.</p>
+
+<p>PictoNet, en su forma más plena, es un <strong>común semiótico computacional</strong>: una herramienta pública, culturalmente sensible, gobernada colectivamente por quienes la usan y la hacen evolucionar.</p>
+
+<p>Perfecto. Continuamos con la sección <strong>Ejemplos y funcionamiento interno</strong>, que ofrece una mirada concreta al sistema en acción. Aquí se pone en juego todo lo descrito previamente: la generación automática, la estructura del SVG, y las posibilidades de edición en una interfaz <em>round-trip</em>. Incluyo una descripción detallada del caso “hacer la cama”, basado en el ejemplo que entregaste a los ingenieros.</p>
+
+<h2 id="ejemplos-y-funcionamiento-interno">Ejemplos y funcionamiento interno</h2>
+
+<p>Para ilustrar cómo opera PictoNet, tomemos una frase sencilla: <strong>“hacer la cama”</strong>. Este enunciado activa una secuencia de operaciones dentro del pipeline generativo: se reconoce la intención (acción volitiva), se extraen entidades visuales (persona, cama, sábanas), se define el foco (acción), y se compone una imagen visual esquemática en formato SVG.</p>
+
+<p>El resultado es un pictograma estructurado, con etiquetas que identifican cada elemento: <code class="language-plaintext highlighter-rouge">bed</code>, <code class="language-plaintext highlighter-rouge">pillow</code>, <code class="language-plaintext highlighter-rouge">sheet</code>, <code class="language-plaintext highlighter-rouge">person</code>, <code class="language-plaintext highlighter-rouge">arm</code>, <code class="language-plaintext highlighter-rouge">body</code>, etc. Cada parte está dibujada como un nodo independiente, editable y con estilo definido mediante CSS.</p>
+
+<p><img src="/assets/uploads/2025/03/make-the-bed.svg" title="Make the bed" style="mix-blend-mode: normal; width: 70%; height: auto" /></p>
+
+<div class="language-xml highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="nt">&lt;svg</span> <span class="na">id=</span><span class="s">"pictogram"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">version=</span><span class="s">"1.1"</span> <span class="na">viewBox=</span><span class="s">"0 0 100 100"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!-- Make the bed  --&gt;</span>
+<span class="nt">&lt;defs&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+    .f {
+        fill: #fff;
+        stroke: #000;
+        stroke-linejoin: square;
+    }
+    .k {
+        fill: #000;
+        stroke: #FFF;
+        stroke-linejoin: square;
+    }
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/defs&gt;</span>
+<span class="nt">&lt;g</span> <span class="na">id=</span><span class="s">"bed"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;path</span> <span class="na">id=</span><span class="s">"bed_frame"</span> <span class="na">class=</span><span class="s">"f"</span> <span class="na">d=</span><span class="s">"M86.6,66.1l6.7,10.9v7.1h-5.1v5.1c0,.9-.7,1.6-1.6,1.6h-2.3c-.9,0-1.6-.7-1.6-1.6v-5.1h-38.2v5.1c0,.9-.7,1.6-1.6,1.6h-2.3c-.9,0-1.6-.7-1.6-1.6v-5.1h-5.1v-7.1l6.7-10.9v-18.5c0-1.3,1.1-2.4,2.4-2.4h41.3c1.3,0,2.4,1.1,2.4,2.4v18.5h-.1Z"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;path</span> <span class="na">id=</span><span class="s">"matress"</span> <span class="na">class=</span><span class="s">"f"</span> <span class="na">d=</span><span class="s">"M85.9,78.6h-44.4c-3,0-5.4-2.4-5.4-5.4v-1.9c0-1.5.7-3,1.8-4l7.7-6.8c1-.9,2.3-1.4,3.6-1.4h29c1.3,0,2.6.5,3.6,1.4l7.7,6.8c1.2,1,1.8,2.5,1.8,4v1.9c0,3-2.4,5.4-5.4,5.4Z"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;path</span> <span class="na">id=</span><span class="s">"pillow"</span> <span class="na">class=</span><span class="s">"f"</span> <span class="na">d=</span><span class="s">"M52.2,53.5h22.4c2.3,0,4.1,1.8,4.1,4h0c0,2.2-1.8,4-4.1,4h-22.4c-2.3,0-4.1-1.8-4.1-4h0c0-2.2,1.8-4,4.1-4Z"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;path</span> <span class="na">id=</span><span class="s">"sheet"</span> <span class="na">class=</span><span class="s">"f"</span> <span class="na">d=</span><span class="s">"M50.6,39.6c2.1,1.3,15.3,5.5,15.3,5.5,0,0-1.3,9.6-3.9,12.5-6.3,7.1-17.2,8.3-20.7,10.2s-3.4,9.7.8,10.8c-7.6.3-6.9-8.9-4.2-11.3s7.9-6.7,10.7-11.7c4.1-7.4,2.3-13.8,2-16Z"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/g&gt;</span>
+<span class="nt">&lt;g</span> <span class="na">id=</span><span class="s">"person"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;path</span> <span class="na">id=</span><span class="s">"arm"</span> <span class="na">class=</span><span class="s">"k"</span> <span class="na">d=</span><span class="s">"M29.9,37.5l4.2,7.8,6.7,3.7c1.1.6,1.5,2.1.7,3.2h0c-.6.8-1.7,1.1-2.6.7l-9.1-3.9-4.1-6.4"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;path</span> <span class="na">id=</span><span class="s">"body"</span> <span class="na">class=</span><span class="s">"k"</span> <span class="na">d=</span><span class="s">"M29,90.5l-4.9.2-5-35.6-3,18.9-4.2,17.1h-5l4.3-19.7.6-19.4c.2-2.1.2-3.2.6-5,0,0,.8-3.7,2-6.9s3.5-7.2,5.2-9.3l2.3-2.7c2.4-2.8,6.7-3.1,9.5-.7l2.1,1.8,7.6,9.2c.8.9,1.8,1.6,3,2l10,3c1.4.4,2.2,2,1.6,3.4h0c-.5,1.1-1.7,1.8-2.9,1.5l-13.7-3.3-9.1-7.5-4.9,7.5,4,45.5h0Z"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;circle</span> <span class="na">id=</span><span class="s">"head"</span> <span class="na">class=</span><span class="s">"k"</span> <span class="na">cx=</span><span class="s">"38.9"</span> <span class="na">cy=</span><span class="s">"19.9"</span> <span class="na">r=</span><span class="s">"5.5"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/g&gt;</span>
+<span class="nt">&lt;/svg&gt;</span>
+</code></pre>
+  </div>
+</div>
+
+<p>Este archivo no es una ilustración cerrada. Es un documento visual <strong>estructurado y semántico</strong>: cada parte puede ser reescrita, reposicionada o reemplazada. El usuario puede, por ejemplo:</p>
+
+<ul>
+  <li>Cambiar la posición de las manos para que parezca que estira las sábanas</li>
+  <li>Reescribir el mini-prompt asociado a “bed” con una descripción más detallada</li>
+  <li>Activar una animación leve que represente el movimiento de estirar</li>
+  <li>Guardar esta variante como su forma preferida de expresar la acción</li>
+</ul>
+
+<p>En la interfaz de PictoNet, esto se realiza a través de un sistema <em>round-trip</em>: cada pictograma puede ser examinado desde el lenguaje (orden, estilo, intención) o desde su forma gráfica (nodos, vectores, layout).</p>
+
+<p>Este tipo de interacción ofrece un equilibrio entre autonomía visual y claridad técnica: el usuario no necesita saber código, pero el sistema está construido para que <strong>el código esté siempre disponible, legible y ajustable</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Acción del usuario</th>
+      <th>Resultado en el sistema</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Editar la forma de la cama</td>
+      <td>Actualiza el SVG y registra una nueva variante</td>
+    </tr>
+    <tr>
+      <td>Modificar el estilo del trazo</td>
+      <td>Cambia la configuración visual y afecta futuras generaciones</td>
+    </tr>
+    <tr>
+      <td>Cambiar el mini-prompt</td>
+      <td>Afecta la entrada semántica y reconstruye la imagen</td>
+    </tr>
+    <tr>
+      <td>Calificar el pictograma</td>
+      <td>Introduce feedback para el reentrenamiento</td>
+    </tr>
+    <tr>
+      <td>Compartir una versión</td>
+      <td>Puede ser validada y propuesta como estándar</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Cada pictograma, entonces, no es solo una imagen, sino una <strong>expresión singular de sentido visual</strong> que puede evolucionar, ser refinada, y alimentar el sistema general. PictoNet se convierte así en una cartografía abierta, donde cada imagen generada forma parte de una geografía común del lenguaje.</p>
+
+<p>Y lo más importante: este flujo no se impone como estándar universal, sino que respeta y conserva las formas particulares de representación que cada persona o comunidad define como significativas.</p>
+
+<h2 id="quién-puede-usar-pictonet">¿Quién puede usar PictoNet?</h2>
+
+<p>PictoNet está pensado como una herramienta inclusiva, pero no restringida. Aunque su diseño parte de las necesidades comunicativas de personas neurodivergentes, su arquitectura flexible y su enfoque de diseño universal abren posibilidades para una amplia gama de usuarios.</p>
+
+<p>A continuación, algunos perfiles y formas de uso:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Perfil</th>
+      <th>Uso principal</th>
+      <th>Valor añadido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Adultos autistas o no hablantes</td>
+      <td>Generar imágenes para expresar necesidades o comprender rutinas</td>
+      <td>Comunicación autónoma sin depender de estructuras predefinidas</td>
+    </tr>
+    <tr>
+      <td>Cuidadores, familiares, docentes</td>
+      <td>Apoyar la organización del día, explicar tareas, construir rutinas</td>
+      <td>Personalización del lenguaje visual según la persona que acompaña</td>
+    </tr>
+    <tr>
+      <td>Terapeutas del lenguaje o TO</td>
+      <td>Crear materiales adaptados a objetivos terapéuticos</td>
+      <td>Ajuste de dificultad, foco y estilo para cada intervención</td>
+    </tr>
+    <tr>
+      <td>Diseñadores de servicios públicos</td>
+      <td>Mejorar accesibilidad cognitiva de entornos físicos y digitales</td>
+      <td>Producción de señalética adaptada culturalmente y por nivel cognitivo</td>
+    </tr>
+    <tr>
+      <td>Desarrolladores de software</td>
+      <td>Integrar PictoNet a apps, asistentes o interfaces multimodales</td>
+      <td>Acceso programático al motor generativo de pictogramas</td>
+    </tr>
+    <tr>
+      <td>Investigadores</td>
+      <td>Estudiar la semiótica visual, el blending conceptual o el lenguaje CAA</td>
+      <td>Posibilidad de observar patrones de representación y adaptación</td>
+    </tr>
+    <tr>
+      <td>Comunidades culturales</td>
+      <td>Construir repertorios visuales propios</td>
+      <td>Apropiación simbólica del lenguaje visual según códigos locales</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Lo importante es que PictoNet <strong>no exige conocimientos técnicos</strong>. Su interfaz está diseñada para que cualquier persona —sin escribir una línea de código— pueda generar imágenes, modificarlas y construir su propia “lengua visual”. Al mismo tiempo, quienes quieran intervenir a un nivel más profundo —desde ajustar el pipeline hasta contribuir con código— también pueden hacerlo.</p>
+
+<p>El sistema propone así una doble entrada:</p>
+
+<ul>
+  <li><strong>Para usuarios sin conocimientos técnicos</strong>: una interfaz intuitiva, con edición visual, opciones semióticas y retroalimentación directa.</li>
+  <li><strong>Para usuarios técnicos o institucionales</strong>: acceso al motor generativo, posibilidad de reentrenar modelos, interoperabilidad con otros sistemas.</li>
+</ul>
+
+<p>De este modo, PictoNet puede ser usado tanto por una madre que quiere ayudar a su hijo a estructurar su día, como por una universidad que desea investigar nuevas formas de interacción visual. Lo que se comparte entre ambos casos es la posibilidad de intervenir, ajustar y expandir el sistema según las necesidades y conocimientos propios.</p>
+
+<p>PictoNet no entrega soluciones cerradas. Propone una herramienta abierta para construir soluciones propias, respetando las capacidades, lenguajes y contextos de cada quien.</p>
+
+<h2 id="ética-y-enfoque">Ética y enfoque</h2>
+
+<p>En el centro del proyecto mayor (MediaFranca) está la pregunta por el sentido: <strong>¿cómo se construye sentido cuando no se comparte una lengua común?</strong>.</p>
+
+<p>El proyecto nace de una preocupación concreta —la falta de accesibilidad comunicativa para muchas personas—, pero su alcance es más amplio. Lo que propone es una forma distinta de entender el diseño: no como entrega de soluciones, sino como construcción de condiciones para que cada persona pueda articular su mundo de forma explícita y compartible.</p>
+
+<p>Esto implica una ética. Una que no se basa en proteger usuarios pasivos, sino en <strong>reconocer capacidades y habilitar agencia</strong>. Este proyecto trabaja desde y para el diseño con el sentido de:</p>
+
+<ul>
+  <li>Tratar el lenguaje visual no como un producto, sino como una facultad compartida (patrimonio de la humanidad)</li>
+  <li>Evitar el encierro algorítmico y la dependencia de plataformas cerradas</li>
+  <li>Promover una cultura técnica donde las herramientas puedan ser comprendidas, editadas y compartidas</li>
+</ul>
+
+<p>Este enfoque se opone a las lógicas de extracción de datos y control unidireccional que caracterizan a buena parte de las inteligencias artificiales contemporáneas. Frente a esa deriva tecnofeudal<sup id="fnref:17"><a href="#fn:17" class="footnote-ref">17</a></sup>, <strong>MediaFranca</strong> plantea un ecosistema convivencial y distribuido, donde los usuarios no son datos, sino autores.</p>
+
+<p>En términos proyectuales, esto se traduce en decisiones específicas:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dimensión ética</th>
+      <th>Implementación en PictoNet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Transparencia</td>
+      <td>Código abierto, documentación pormenorizada, trazabilidad de cambios</td>
+    </tr>
+    <tr>
+      <td>Apropiabilidad</td>
+      <td>Edición directa del lenguaje visual, exportación de repertorios</td>
+    </tr>
+    <tr>
+      <td>Pluralismo semiótico</td>
+      <td>Admisión de variantes culturales, estilos y sintaxis visuales</td>
+    </tr>
+    <tr>
+      <td>Colaboración crítica</td>
+      <td>Plataforma abierta a contribuciones, pull requests, forks trazables</td>
+    </tr>
+    <tr>
+      <td>Respeto a la diversidad</td>
+      <td>Personalización semiótica por perfil, sin imponer un estándar universal</td>
+    </tr>
+    <tr>
+      <td>Responsabilidad distribuida</td>
+      <td>Validación descentralizada, historial de edición, curaduría por pares</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>MediaFranca</strong> no impone cómo debe verse el mundo. Al contrario, ofrece herramientas para que <strong>cada quien diga cómo lo ve, cómo lo entiende y cómo desea expresarlo</strong>. Y el sistema, en cuanto andamiaje compartido (y heredero de todo el corpus estadístico) entregará aquello que hemos acordado es lo más entendible. Recordemos que el lenguaje es un fenómeno eminentemente social, inter-humano y que siempre apelará al instante original donde estamos cara a cara.</p>
+
+<p>En esta lógica, el diseño ya no es una disciplina de producción simbólica, sino una práctica de hospitalidad: habilitar que otros habiten sus propios lenguajes con claridad, con poder y con derecho.</p>
+
+<h2 id="participar-y-colaborar">Participar y colaborar</h2>
+
+<p>PictoNet no es un producto terminado. Es una infraestructura en evolución, y necesita colaboradores con distintos saberes: desarrolladores, terapeutas, diseñadores, cuidadores, investigadores, activistas. Cualquiera que crea que el lenguaje —incluso el visual— debe ser <strong>compartido, explícito y editable</strong>.</p>
+
+<p>Hay muchas formas de contribuir:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Forma de colaboración</th>
+      <th>Qué implica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sugerir mejoras al sistema</td>
+      <td>Enviar pull requests o abrir issues en el repositorio</td>
+    </tr>
+    <tr>
+      <td>Evaluar pictogramas generados</td>
+      <td>Comentar, calificar y corregir desde la interfaz visual</td>
+    </tr>
+    <tr>
+      <td>Proponer nuevos módulos</td>
+      <td>Añadir funciones al pipeline o extender ontologías</td>
+    </tr>
+    <tr>
+      <td>Construir repertorios locales</td>
+      <td>Diseñar lenguajes visuales adaptados a culturas o contextos</td>
+    </tr>
+    <tr>
+      <td>Traducir documentación</td>
+      <td>Hacer accesible el proyecto en múltiples lenguas</td>
+    </tr>
+    <tr>
+      <td>Usar PictoNet con propósito</td>
+      <td>Probar el sistema en situaciones reales, dar feedback</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>El código está alojado en GitHub y se publica bajo una licencia Creative Commons Atribución 4.0<sup id="fnref:18"><a href="#fn:18" class="footnote-ref">18</a></sup>, que permite su uso libre, siempre que se reconozca la fuente.</p>
+
+<p>Además del código, se publicará una <strong>documentación extensa</strong>, que explica cómo usar, modificar y contribuir al sistema. Esto incluye:</p>
+
+<ul>
+  <li>Esquemas del pipeline generativo</li>
+  <li>Manuales de estilo visual</li>
+  <li>Especificaciones técnicas del SVG</li>
+  <li>Protocolos de validación semiótica</li>
+  <li>Guías para creación de instancias personalizadas</li>
+</ul>
+
+<p>Todo está pensado para facilitar una <strong>comunidad técnica y semiótica mundial</strong>, donde las diferencias no sean un obstáculo, sino una riqueza compartida.</p>
+
+<p>Si quieres colaborar contáctame directamente.</p>
 
 <div class="footnotes">
   <hr />
 
   <ol>
-<li id="fn:1">Generativa pero estadística, sin conocimiento real. Para un purista, un LLM es un subgrupo menor de la IA. <a href="#fnref:1" class="footnote-back">↩</a></li>
-<li id="fn:2">De existir una agenda paralela, es PictoNet. El doctorado es un <em>mal necesario</em>, en el sentido más trascendente es un sub-producto. Tiendo a pensar que el hecho, <em>la obra</em> es lo que otorga sentido. <a href="#fnref:2" class="footnote-back">↩</a></li>
-<li id="fn:3">Y con mayor intensidad el ámbito de la CAA. Creo que el repositorio extendido, mejor documentado y accesible de forma gratuita es <a href="http://arasaac.org">ARASAAC</a> diseñado e iniciado por <a href="https://www.palao.es/">Sergio Palao</a> de Zaragoza. <a href="#fnref:3" class="footnote-back">↩</a></li>
-<li id="fn:4">Se pueden revisar, a modo de caso emblemático, los juegos pictográficos para representar las disciplinas deportivas de cada olimpíada. <a href="#fnref:4" class="footnote-back">↩</a></li>
-<li id="fn:5">Modelos compilables a nivel de hardware. Pictonet es un traductor mínimo, un <em>core engine</em> gráfico para la comunicación. <a href="#fnref:5" class="footnote-back">↩</a></li>
-<li id="fn:6">Esto es un ejemplo <a href="https://www.herbertspencer.net/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/">del diseño de transición en la era del tecnofeudalismo</a>. <a href="#fnref:6" class="footnote-back">↩</a></li>
-<li id="fn:7">¿Docker? <a href="#fnref:7" class="footnote-back">↩</a></li>
-<li id="fn:8">En términos técnicos, una forma de trascender la hipótesis Sapir-Worf. <a href="#fnref:8" class="footnote-back">↩</a></li>
-<li id="fn:9">Sistemas de visión, sistemas de proyección, CAA para agentes que proyectan, entre otros posibles usos y aplicaciones. Recordemos que la primera cámara fotográfica digital con función de reconocimiento de sonrisas y ojos abiertos apareció en el mercado alrededor de 2007-2008. <a href="#fnref:9" class="footnote-back">↩</a></li>
+<li id="fn:1">Scalable Vector Graphics, un formato editable y estructurado que permite representar imágenes con alta claridad y control semántico <a href="#fnref:1" class="footnote-back">↩</a></li>
+<li id="fn:2">En su sub-rama de <em>máquinas de aprendizaje</em> <a href="#fnref:2" class="footnote-back">↩</a></li>
+<li id="fn:3">Ver Neurath, O. <em>International Picture Language</em>. 1936 <a href="#fnref:3" class="footnote-back">↩</a></li>
+<li id="fn:4">Leibniz, G.W. <em>Characteristica Universalis</em>, Frege, G. <em>Begriffsschrift</em>, 1879 <a href="#fnref:4" class="footnote-back">↩</a></li>
+<li id="fn:5">Wierzbicka, A. (1996). <em>Semantics: Primes and Universals</em>. Oxford University Press <a href="#fnref:5" class="footnote-back">↩</a></li>
+<li id="fn:6">Fauconnier, G. &amp; Turner, M. (2002). <em>The Way We Think: Conceptual Blending and the Mind’s Hidden Complexities</em>. Basic Books <a href="#fnref:6" class="footnote-back">↩</a></li>
+<li id="fn:7">Esto habilita tanto la interoperabilidad con otras plataformas como la posibilidad de ediciones finas por parte del usuario sin pérdida de semántica visual <a href="#fnref:7" class="footnote-back">↩</a></li>
+<li id="fn:8">https://huggingface.co/google/flan-t5-base <a href="#fnref:8" class="footnote-back">↩</a></li>
+<li id="fn:9">https://spacy.io/models <a href="#fnref:9" class="footnote-back">↩</a></li>
+<li id="fn:10">https://huggingface.co/spaces/maartengr/ConceptNet <a href="#fnref:10" class="footnote-back">↩</a></li>
+<li id="fn:11">https://arxiv.org/abs/1908.10603 <a href="#fnref:11" class="footnote-back">↩</a></li>
+<li id="fn:12">Como núcleo de lenguaje permitirá que otros servicios más sofisticados y complejos se apoyen en este motor pictográfico generativo, como por ejemplo interfaces XR, sistemas de proyección, <em>head-up displays</em> o agentes robóticos, entre otros. <a href="#fnref:12" class="footnote-back">↩</a></li>
+<li id="fn:13">La IA no tiene, ni debe tener, la última palabra. Recordemos que se trata de un sistema estadístico que no puede imponer patrones comunicativos, sólo generar propuestas estadísticamente viables. <a href="#fnref:13" class="footnote-back">↩</a></li>
+<li id="fn:14">Illich, I. (1973). <em>Tools for Conviviality</em>. Harper &amp; Row <a href="#fnref:14" class="footnote-back">↩</a></li>
+<li id="fn:15">Kairouz, P. et al. (2021). <em>Advances and Open Problems in Federated Learning</em>. Foundations and Trends® in Machine Learning, 14(1–2), 1–210. <a href="#fnref:15" class="footnote-back">↩</a></li>
+<li id="fn:16">Morozov, E. (2022). <em>It’s time to abandon the myth of Big Tech’s ‘free’ services</em>. The Guardian. <a href="#fnref:16" class="footnote-back">↩</a></li>
+<li id="fn:17">Zuboff, S. (2019). <em>The Age of Surveillance Capitalism</em>. PublicAffairs; Varoufakis, Y. (2024). <em>Technofeudalism: What Killed Capitalism</em>. Vintage. <a href="#fnref:17" class="footnote-back">↩</a></li>
+<li id="fn:18">https://creativecommons.org/licenses/by/4.0/ <a href="#fnref:18" class="footnote-back">↩</a></li>
 </ol>
 </div>
 
@@ -288,7 +769,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 9 April 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 10 April 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
 </body>

@@ -11,7 +11,7 @@ categories:
 tags:
 - "Arquitectura de la Información"
 - experiencia
-- IA
+- comunidad
 - Information Architecture
 - seminario
 image:

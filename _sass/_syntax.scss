@@ -1,0 +1,154 @@
+// === Syntax Highlighting Theme Variables ===
+$syntax-bg:             #f0f0f000;
+$syntax-highlight:      #ffffcc;
+$syntax-comment:        #60a0b0;
+$syntax-error:          #FF0000;
+$syntax-keyword:        #007020;
+$syntax-operator:       #666666;
+$syntax-preproc:        #007020;
+$syntax-special-bg:     #fff0f0;
+$syntax-deleted:        #A00000;
+$syntax-inserted:       #00A000;
+$syntax-output:         #888888;
+$syntax-prompt:         #dc690a;
+$syntax-subheading:     #a102a1;
+$syntax-traceback:      #0044DD;
+$syntax-type:           #902000;
+$syntax-number:         #0dd06e;
+$syntax-string:         #09bcb3;
+$syntax-string-alt:     #70a0d0;
+$syntax-class:          #0e84b5;
+$syntax-function:       #06287e;
+$syntax-label:          #026ffe;
+$syntax-tag:            #062873;
+$syntax-variable:       #bb60d5;
+$syntax-entity:         #d55537;
+$syntax-regex:          #235388;
+$syntax-symbol:         #517918;
+$syntax-white:          #e1dfdf;
+$syntax-heading:        #000080;
+$syntax-id:             #d5c408;
+
+.highlight {
+  background: $syntax-bg;
+  line-height: 90%;
+  font-size: .8em;
+  white-space: pre-wrap;
+
+  .hll { background-color: $syntax-highlight; }
+
+  .c, .ch, .cm, .cpf, .c1 {
+    color: $syntax-comment;
+    font-style: italic;
+  }
+  .cs {
+    color: $syntax-comment;
+    background-color: $syntax-special-bg;
+  }
+
+  .err, .gr {
+    border: 1px solid $syntax-error;
+    color: $syntax-error;
+  }
+
+  .k, .kc, .kd, .kn, .kr, .ow {
+    color: $syntax-keyword;
+    font-weight: bold;
+  }
+  .kp {
+    color: $syntax-keyword;
+  }
+
+  .o { color: $syntax-operator; }
+
+  .cp, .ne { color: $syntax-preproc; }
+
+  .gd { color: $syntax-deleted; }
+  .gi { color: $syntax-inserted; }
+
+  .go { color: $syntax-output; }
+
+  .gp, .sx {
+    color: $syntax-prompt;
+    font-weight: bold;
+  }
+
+  .gu {
+    color: $syntax-subheading;
+    font-weight: bold;
+  }
+
+  .gt { color: $syntax-traceback; }
+  .kt { color: $syntax-type; }
+
+  .m, .mb, .mf, .mh, .mi, .mo, .il {
+    color: $syntax-number;
+  }
+
+  .sa, .sb, .sc, .dl, .s2, .s1, .se, .sh {
+    color: $syntax-string;
+  }
+
+  .s{
+    color: $syntax-operator;
+  }
+
+  .sd {
+    color: $syntax-string;
+    font-style: italic;
+  }
+
+  .se { font-weight: bold; }
+
+  .si {
+    color: $syntax-string-alt;
+    font-style: italic;
+  }
+
+  .sr { color: $syntax-regex; }
+  .ss { color: $syntax-symbol; }
+
+  .na { color: $syntax-string; }
+  .nb, .bp { color: $syntax-keyword; }
+
+  .nc, .nn {
+    color: $syntax-class;
+    font-weight: bold;
+  }
+
+  .nd {
+    color: $syntax-operator;
+    font-weight: bold;
+  }
+
+  .ni {
+    color: $syntax-entity;
+    font-weight: bold;
+  }
+
+  .nf, .fm { color: $syntax-function; }
+
+  .nl {
+    color: $syntax-label;
+    font-weight: bold;
+  }
+
+  .nt {
+    color: $syntax-tag;
+    font-weight: bold;
+  }
+
+  .nv, .vc, .vg, .vi, .vm {
+    color: $syntax-variable;
+  }
+
+  .w { color: $syntax-white; }
+
+  .gh {
+    color: $syntax-heading;
+    font-weight: bold;
+  }
+
+  .ge { font-style: italic; }
+  .gs { font-weight: bold; }
+}
