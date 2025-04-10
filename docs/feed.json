@@ -1,6 +1,22 @@
 [
 
   {
+    "fecha": "2025-04-10T22:03:01+12:00",
+    "titulo": "PictoNet",
+    "categorias": ["notas","research","ideas"],
+    "etiquetas": ["llm","tesis","IA"],
+    "imagen":  
+                  "/assets/uploads/2025/03/make-the-bed.png"
+               ,
+    "url": "/PictoNet",
+    "largo": 29160,
+    "contenido":
+      
+        "PictoNet es un sistema generativo de pictogramas a partir de texto diseñado para la comunicación aumentativa y alternativa."
+      
+  },
+
+  {
     "fecha": "2025-03-31T18:43:22+13:00",
     "titulo": "La Internet que nos robaron",
     "categorias": ["ideas"],
@@ -24,27 +40,11 @@
     "imagen":  
                   "/assets/uploads/2025/02/prologo-pictonet-ia.png"
                ,
-    "url": "/2025/02/prologo-dpara-pictonet/",
+    "url": "/2025/02/prologo-para-pictonet/",
     "largo": 28672,
     "contenido":
       
         "A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunitaria. Diría que ese es el hilo conductor de todo: cierta idea respecto a la “activación social” que determinada plataforma permite o habilita.Podría tratarse de la idea de la “convivencialidad” por aproximación y afinidad. Esto ha estado presente en proyectos como Con§tel (2005-2006) que exploraba la idea de la marginalia compartida dentro del estudio dentro de una escuela de pensamiento. Y la plataforma permitía, a cada uno, ubicarse en un mapa conceptual observado por todos (no relativizado en un timeline subjetivo producto de un algoritmo de recomendación, como ocurre hoy). Otro proyecto significativo en este ámbito es la Wiki Casiopea , donde cada página es editable, mejorable y actualizable; no impone ni determina sino que está abierta y disponible para ser construida y reconstruida.En esta línea, y más espe..."
-      
-  },
-
-  {
-    "fecha": "2025-02-18T23:03:01+13:00",
-    "titulo": "PictoNet",
-    "categorias": ["notas","research","ideas"],
-    "etiquetas": ["llm","tesis","IA"],
-    "imagen":  
-                  "/assets/uploads/2025/03/make-the-bed.png"
-               ,
-    "url": "/PictoNet",
-    "largo": 29160,
-    "contenido":
-      
-        "PictoNet es un sistema generativo de pictogramas a partir de texto diseñado para la comunicación aumentativa y alternativa."
       
   },
 

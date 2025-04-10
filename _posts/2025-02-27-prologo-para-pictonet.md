@@ -1,7 +1,7 @@
 ---
 layout: post
 type: posts
-permalink: /2025/02/prologo-dpara-pictonet/
+permalink: /2025/02/prologo-para-pictonet/
 title: "Prólogo para PictoNet"
 date: 2025-02-27 05:43:22 -0000
 last_modified_at: 2025-03-21 03:00:19 -0000
