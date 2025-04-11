@@ -189,7 +189,7 @@
    }
    
    function draw() {
-    background(242, 240, 228, 40);
+    background(255, 152, 142, 26);
     Engine.update(engine);
     let now = millis();
   
@@ -197,7 +197,7 @@
     let pointerY = touches.length > 0 ? touches[0].y : mouseY;
   
     // draw links
-    blendMode(MULTIPLY);
+    blendMode(SOFT_LIGHT);
     links.forEach(link => {
       if (!link.bodyA || !link.bodyB) return;
       let aActive = activeElements.some(e => e.body.id === link.bodyA.id);
