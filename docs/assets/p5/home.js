@@ -19,8 +19,14 @@
    let boundaries = [];
    let tooltips = {};
    let links = [];
-   let currentStiffness = 0.00001;
-   
+
+
+   // links
+   const currentStiffness = 0.00001;
+   const linkLength = 50;
+   const dampingValue = 0.01;
+
+
    const Engine = Matter.Engine,
          World = Matter.World,
          Bodies = Matter.Bodies,
@@ -141,8 +147,6 @@
    }
    
    function createLinks() {
-     const linkLength = 10;
-     const dampingValue = 0.005;
      links.forEach(link => World.remove(world, link));
      links = [];
    
@@ -200,8 +204,8 @@
       let bActive = activeElements.some(e => e.body.id === link.bodyB.id);
       if (aActive && bActive) {
         
-        let dim = constrain(link.bodyA.mass + link.bodyB.mass, 0, 45);
-        stroke(0, 204, 255, 50 - dim);
+        let dim = constrain(link.bodyA.mass + link.bodyB.mass, 0, 25);
+        stroke(0, 204, 255, 30 - dim);
         strokeWeight(link.bodyA.mass + link.bodyB.mass);
         line(link.bodyA.position.x, link.bodyA.position.y, link.bodyB.position.x, link.bodyB.position.y);
        

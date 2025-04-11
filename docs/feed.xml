@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-11T17:15:55+12:00</updated>
+  <updated>2025-04-11T17:48:34+12:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -576,7 +576,9 @@
 
 &lt;p&gt;No había algoritmo. No había scroll infinito. Había elecciones. A lo más, había recomendaciones de amigos((Recuerdo haberle pedido a &lt;a href=&quot;https://felipe.lavin.blog/&quot;&gt;Felipe Lavín&lt;/a&gt;, en más de alguna ocasión, que me compartiera su feed porque siempre leía (o lee) cosas interesantes. La recomendación curatorial era algo importante. El esquema actual no tiene lugar para eso.))&lt;/p&gt;
 
-&lt;p&gt;La arquitectura de la sindicación era federada: cada quien podía emitir su feed, y cada quien podía consumir los feeds de otros. Esta infraestructura cívica distribuida hacía que cada lector fuese también editor. Las recomendaciones eran de pares, mediante blogrolls, comentarios o enlaces cruzados. Las plataformas no tenían poder para reordenar ni priorizar lo que leías. Nadie te vigilaba. ((Urteaga, E. (2019). &lt;em&gt;Le désenchantement de l’utopie numérique&lt;/em&gt;. Historia y Comunicación Social. &lt;a href=&quot;https://doi.org/10.5209/HICS.64500&quot;&gt;https://doi.org/10.5209/HICS.64500&lt;/a&gt;))&lt;/p&gt;
+&lt;p&gt;La arquitectura de la sindicación era federada: cada quien podía emitir su feed, y cada quien podía consumir los feeds de otros. Esta cultura cívica digital y distribuida hacía que cada lector fuese también editor. Las recomendaciones eran de pares, mediante blogrolls, comentarios o enlaces cruzados. Las plataformas no tenían poder para reordenar ni priorizar lo que leías. Nadie te vigilaba. ((Urteaga, E. (2019). &lt;em&gt;Le désenchantement de l’utopie numérique&lt;/em&gt;. Historia y Comunicación Social. &lt;a href=&quot;https://doi.org/10.5209/HICS.64500&quot;&gt;https://doi.org/10.5209/HICS.64500&lt;/a&gt;)).&lt;/p&gt;
+
+&lt;p&gt;Existe bastante documentación acerca del declive de este modo de construir el paisaje digital((&lt;a href=&quot;https://obs.obercom.pt/index.php/obs/article/view/1879&quot;&gt;Un estudio&lt;/a&gt; sobre la evolución de la comunicación política digital entre 2011 y 2019 evidencia una disminución significativa en el uso de blogs por parte de los candidatos políticos en España. Mientras que en 2011 los blogs eran una herramienta común, para 2019 su uso había prácticamente desaparecido, siendo reemplazados por plataformas como Twitter e Instagram. Además, &lt;a href=&quot;https://arxiv.org/abs/1202.3492?utm_source=chatgpt.com&quot;&gt;un análisis&lt;/a&gt; de acceso a artículos web muestra que la atención hacia las publicaciones en línea disminuye con el tiempo, siguiendo una ley de potencia inversa. Esto sugiere que los blogs, al no contar con mecanismos de promoción continua, pierden visibilidad rápidamente en un paisaje de cultura desechable. &lt;a href=&quot;https://freedomhouse.org/es/article/new-report-election-meddling-and-growing-assault-free-expression-online-led-14th?utm_source=chatgpt.com&quot;&gt;Un informe de Freedom House&lt;/a&gt; destaca que en al menos 43 países se han registrado ataques o asesinatos en represalia por la expresión y activismo en línea. Este entorno restrictivo ha contribuido al declive de la libertad en Internet por decimocuarto año consecutivo, limitando la participación en espacios abiertos y fomentando la autocensura.)).&lt;/p&gt;
 
 &lt;p&gt;Esta etapa representa la posibilidad concreta de una ecología del conocimiento plural, distribuida y no algorítmica. La red era el lugar donde podías construir subjetividad, no donde te la disolvieran.&lt;/p&gt;
 
