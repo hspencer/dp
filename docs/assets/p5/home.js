@@ -6,7 +6,7 @@
 
    const minDiameter = 10;
    const maxDiameter = 100;
-   const MAX_LINKS = 3;
+   const MAX_LINKS = 2;
    const hoverThreshold = 1000;
    const fadeDuration = 500;
    
@@ -189,7 +189,7 @@
    }
    
    function draw() {
-    background(216, 211, 182, 30);
+    background(223, 220, 203, 30);
     Engine.update(engine);
     let now = millis();
   
