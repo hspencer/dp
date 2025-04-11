@@ -11,7 +11,7 @@ image:
 categories:
 - escuela
 tags:
-- "Diseño Gráfico"
+- diseño gráfico
 - Modelos Visuales
 - "notación gráfica"
 - "Observación"

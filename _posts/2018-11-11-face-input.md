@@ -10,13 +10,14 @@ publish: true
 image:
   path: /assets/uploads/2018/11/faces.png
 categories:
-- "investigación"
+- research
 - ideas
 tags:
-- "accesibilidad"
-- "interacción"
-- "pictogramas"
+- accesibilidad
+- interacción
+- pictogramas
 - interfaz
+- research
 ---
 ### Hipótesis: Mapear emociones a través de pictogramas como método de entrada de datos
 

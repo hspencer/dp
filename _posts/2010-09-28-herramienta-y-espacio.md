@@ -10,7 +10,7 @@ image:
   path: /assets/uploads/2010/09/mf-modelo.jpg
 categories:
 - escuela
-- "investigación"
+- research
 tags:
 - "diseño"
 - "diseño de servicios"

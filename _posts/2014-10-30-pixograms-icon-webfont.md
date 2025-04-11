@@ -12,7 +12,7 @@ image:
   path: /assets/uploads/2014/10/pixograms.gif
 categories:
 - imagen
-- "investigación"
+- research
 tags:
 - font
 - icons

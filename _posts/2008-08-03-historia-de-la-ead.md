@@ -7,8 +7,8 @@ date: 2008-08-03 19:06:00 -0000
 last_modified_at: 2008-08-03 19:06:00 -0000
 publish: false
 categories:
-- imagen
-tags: []
+- escuela
+tags: [escuela, historia]
 image:
   path: /assets/uploads/2008/08/prima-escola.png
   sidebar: false

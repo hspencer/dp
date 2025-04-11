@@ -6,9 +6,9 @@ title: "Diseñando una Empresa"
 date: 2014-02-09 13:00:00
 publish: false
 categories:
-- "investigación"
+- research
 - notas
-tags: []
+tags: [citisent, ética, diseño]
 image:
   path: /assets/uploads/2013/10/4-d.006.jpg
 ---

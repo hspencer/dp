@@ -9,9 +9,7 @@ image:
   path: /assets/uploads/2022/10/seminario-70.jpg
 categories:
 - escuela
-- ideas
-- notas
-tags: []
+tags: [texto, poesía, axis mundae, con§tel, casiopea]
 license: "Creative Commons Con Reconocimiento y Compartir Igual 4.0"
 sidebar:
   md: >

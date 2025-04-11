@@ -12,7 +12,7 @@ tags:
 - archivos digitales
 - "diseño de interacción"
 - "Diseño de Interfaz"
-- "Diseño Gráfico"
+- diseño gráfico
 - espacio
 - Internet
 - repositorios digitales

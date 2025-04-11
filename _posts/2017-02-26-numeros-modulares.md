@@ -9,13 +9,13 @@ publish: true
 image:
   path: /assets/uploads/2017/02/Captura-de-pantalla-2018-11-01-a-las-13.50.49.png
 categories:
-- notas
 - code
 tags:
 - modular
 - "multiplicación"
 - "números"
 - "visualización"
+- matemáticas
 ---
 <iframe src="https://herbertspencer.net/modular/" frameborder="0" style="width: 168%;margin: -11% -38%;height:40em;mix-blend-mode: multiply;scale: 70%;overflow: hidden;" ></iframe> 
 Se trata más bien de una curiosidad o _divertimento_ matemático, en el mismo espíritu del [modulador de números](http://herbertspencer.net/2007/11/primes-modulator/) primos: ¿podemos ver patrones en las tablas de multiplicar?

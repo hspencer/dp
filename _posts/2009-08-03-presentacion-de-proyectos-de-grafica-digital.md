@@ -12,7 +12,7 @@ tags:
 - "diseño de interacción"
 - "Diseño de Interfaz"
 - "diseño de servicios"
-- "Diseño Gráfico"
+- diseño gráfico
 - "Gráfica Digital"
 image:
   path: /assets/pintura/05.png

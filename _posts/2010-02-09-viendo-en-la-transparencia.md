@@ -9,7 +9,7 @@ publish: true
 image:
   path: /assets/uploads/2009/04/conical-intersect-19751.jpg
 categories:
-- "investigación"
+- research
 tags:
 - transparencia
 ---

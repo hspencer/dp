@@ -9,7 +9,7 @@ publish: true
 image:
   path: /assets/uploads/2015/05/001210.png
 categories:
-- "investigación"
+- research
 - notas
 tags:
 - "deliberación digital"

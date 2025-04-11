@@ -3,8 +3,8 @@
   {
     "fecha": "2025-04-10T22:03:01+12:00",
     "titulo": "PictoNet",
-    "categorias": ["notas","research","ideas"],
-    "etiquetas": ["llm","tesis","IA"],
+    "categorias": ["research"],
+    "etiquetas": ["llm","tesis","IA","mediafranca","pictonet"],
     "imagen":  
                   "/assets/uploads/2025/03/make-the-bed.png"
                ,
@@ -52,7 +52,7 @@
     "fecha": "2025-02-18T20:49:58+13:00",
     "titulo": "Diseño de transición en la era del tecno feudalismo",
     "categorias": ["ideas","notas"],
-    "etiquetas": ["capital","Diseño para la Democracia","Internet","investigación","social capital","tecnofeudalismo"],
+    "etiquetas": ["capital","Diseño para la Democracia","Internet","research","social capital","tecnofeudalismo"],
     "imagen":  
                   "/assets/uploads/2025/02/tecnofeudalism.png"
                ,
@@ -68,7 +68,7 @@
     "fecha": "2024-09-24T13:14:38+12:00",
     "titulo": "Reflexiones de un migrante inexistente",
     "categorias": ["notas"],
-    "etiquetas": [],
+    "etiquetas": ["procesos","burocracia","trámites","estado"],
     "imagen":  
                   "/assets/uploads/2024/09/los-4.png"
                ,
@@ -83,8 +83,8 @@
   {
     "fecha": "2022-10-15T14:14:38+13:00",
     "titulo": "Singularidades poéticas hacia definiciones políticas: construcciones de escuela a partir del texto",
-    "categorias": ["escuela","ideas","notas"],
-    "etiquetas": [],
+    "categorias": ["escuela"],
+    "etiquetas": ["texto","poesía","axis mundae","con§tel","casiopea"],
     "imagen":  
                   "/assets/uploads/2022/10/seminario-70.jpg"
                ,
@@ -99,8 +99,8 @@
   {
     "fecha": "2018-11-12T09:15:05+13:00",
     "titulo": "HTML input: Pictograma",
-    "categorias": ["investigación","ideas"],
-    "etiquetas": ["accesibilidad","interacción","pictogramas","interfaz"],
+    "categorias": ["research","ideas"],
+    "etiquetas": ["accesibilidad","interacción","pictogramas","interfaz","research"],
     "imagen":  
                   "/assets/uploads/2018/11/faces.png"
                ,
@@ -115,7 +115,7 @@
   {
     "fecha": "2018-11-02T09:15:05+13:00",
     "titulo": "Enseñando Interacción",
-    "categorias": ["escuela","investigación"],
+    "categorias": ["escuela","research"],
     "etiquetas": ["educación","interacción","teoría"],
     "imagen":  
                   "/assets/uploads/2018/11/travesia2016_Montevideo_cseverin-064-small-2681.jpg"
@@ -131,8 +131,8 @@
   {
     "fecha": "2017-02-27T07:00:42+13:00",
     "titulo": "Números Modulares",
-    "categorias": ["notas","code"],
-    "etiquetas": ["modular","multiplicación","números","visualización"],
+    "categorias": ["code"],
+    "etiquetas": ["modular","multiplicación","números","visualización","matemáticas"],
     "imagen":  
                   "/assets/uploads/2017/02/Captura-de-pantalla-2018-11-01-a-las-13.50.49.png"
                ,
@@ -163,7 +163,7 @@
   {
     "fecha": "2015-10-17T02:58:21+13:00",
     "titulo": "Diseño Participativo con PiX: una Aproximación desde la Narrativa",
-    "categorias": ["investigación","ideas"],
+    "categorias": ["research","ideas"],
     "etiquetas": ["brief","codiseño","diseño participativo","metodología de diseño","PiX"],
     "imagen":  
                   "/assets/uploads/2015/10/pix-collab.jpg"
@@ -195,7 +195,7 @@
   {
     "fecha": "2015-07-09T10:51:26+12:00",
     "titulo": "Topologoscopio",
-    "categorias": ["code","escuela","imagen","investigación","notas"],
+    "categorias": ["code","escuela","research"],
     "etiquetas": ["ciudad","escena","espacio","logos","maqueta","mobiliario urbano","scopio","scopium","teatro","topos"],
     "imagen":  
                   "/assets/uploads/2015/07/IMG_7336.jpg"
@@ -211,7 +211,7 @@
   {
     "fecha": "2015-05-19T03:56:46+12:00",
     "titulo": "Diseño del Proceso Constituyente",
-    "categorias": ["investigación","notas"],
+    "categorias": ["research","notas"],
     "etiquetas": ["deliberación digital","Diseño para la Democracia","MediaFranca","Participación Ciudadana","TEP"],
     "imagen":  
                   "/assets/uploads/2015/05/001210.png"
@@ -275,7 +275,7 @@
   {
     "fecha": "2014-10-31T01:00:53+13:00",
     "titulo": "Pixograms Icon Webfont",
-    "categorias": ["imagen","investigación"],
+    "categorias": ["imagen","research"],
     "etiquetas": ["font","icons","opensource","webfont"],
     "imagen":  
                   "/assets/uploads/2014/10/pixograms.gif"
@@ -307,8 +307,8 @@
   {
     "fecha": "2014-02-10T02:00:00+13:00",
     "titulo": "Diseñando una Empresa",
-    "categorias": ["investigación","notas"],
-    "etiquetas": [],
+    "categorias": ["research","notas"],
+    "etiquetas": ["citisent","ética","diseño"],
     "imagen":  
                   "/assets/uploads/2013/10/4-d.006.jpg"
                ,
@@ -323,8 +323,8 @@
   {
     "fecha": "2014-01-29T09:37:47+13:00",
     "titulo": "El arte de saber preguntar",
-    "categorias": ["investigación"],
-    "etiquetas": ["citisent","investigación","modelos mentales","query"],
+    "categorias": ["research"],
+    "etiquetas": ["citisent","modelos mentales","query"],
     "imagen":  
                   "/assets/uploads/2014/01/citisent-harvester.png"
                ,
@@ -340,7 +340,7 @@
     "fecha": "2013-12-13T07:17:02+13:00",
     "titulo": "La Observación en Diseño",
     "categorias": ["escuela"],
-    "etiquetas": ["Diseño Gráfico","Modelos Visuales","notación gráfica","Observación","representación","teoría"],
+    "etiquetas": ["diseño gráfico","Modelos Visuales","notación gráfica","Observación","representación","teoría"],
     "imagen":  
                   "/assets/uploads/2013/12/wet-sheets-1936.jpg"
                ,
@@ -403,8 +403,8 @@
   {
     "fecha": "2011-11-02T23:33:01+13:00",
     "titulo": "De Palomas y Estorninos",
-    "categorias": ["investigación","notas"],
-    "etiquetas": ["chile","diseño de interacción","Diseño para la Democracia","MediaFranca","movimiento estudiantil","social interaction"],
+    "categorias": ["research","notas"],
+    "etiquetas": ["chile","diseño de interacción","diseño para la democracia","mediaFranca","movimiento estudiantil","social interaction"],
     "imagen":  
                   "/assets/uploads/2011/11/palomas-estorninos.png"
                ,
@@ -452,7 +452,7 @@
     "fecha": "2011-06-07T05:41:05+12:00",
     "titulo": "4 orientaciones 4 discursos 4 cabezas 4 corazones",
     "categorias": ["escuela"],
-    "etiquetas": ["diseño","Diseño Gráfico","integración","mapa","metadiseño","modelo"],
+    "etiquetas": ["diseño","diseño gráfico","integración","mapa","metadiseño","modelo"],
     "imagen":  
                   "/assets/pintura/02.jpg"
                ,
@@ -531,7 +531,7 @@
   {
     "fecha": "2010-09-29T14:46:35+13:00",
     "titulo": "Herramienta y Espacio",
-    "categorias": ["escuela","investigación"],
+    "categorias": ["escuela","research"],
     "etiquetas": ["diseño","diseño de servicios","Diseño para la Democracia","interacción","Internet","lo abierto","lo público","MediaFranca","Servicio de Salud"],
     "imagen":  
                   "/assets/uploads/2010/09/mf-modelo.jpg"
@@ -547,8 +547,8 @@
   {
     "fecha": "2010-06-17T06:24:47+12:00",
     "titulo": "Diseñar un Servicio",
-    "categorias": ["escuela"],
-    "etiquetas": ["diseño","diseño de servicios","Diseño Gráfico","lenguaje","Modelos Visuales","Observación","Respresentación","Servicio de Salud"],
+    "categorias": ["notas"],
+    "etiquetas": ["diseño","diseño de servicios","diseño gráfico","lenguaje","Modelos Visuales","Observación","Respresentación","Servicio de Salud","mediafranca"],
     "imagen":  
                   "/assets/pintura/07.png"
                ,
@@ -563,8 +563,8 @@
   {
     "fecha": "2010-03-15T12:28:45+13:00",
     "titulo": "Quadra: Diseño para la Interacción Ciudadana",
-    "categorias": ["escuela","investigación"],
-    "etiquetas": ["ciudad","diseño de interacción","Diseño Gráfico","Diseño para la Democracia","Internet","MediaFranca","Participación Ciudadana"],
+    "categorias": ["escuela"],
+    "etiquetas": ["ciudad","diseño de interacción","diseño gráfico","diseño para la democracia","internet","mediaFranca","participación ciudadana"],
     "imagen":  
                   "/assets/uploads/2010/03/quadraThumbs1.png"
                ,
@@ -579,7 +579,7 @@
   {
     "fecha": "2010-02-10T09:29:14+13:00",
     "titulo": "Viendo en la Transparencia",
-    "categorias": ["investigación"],
+    "categorias": ["research"],
     "etiquetas": ["transparencia"],
     "imagen":  
                   "/assets/uploads/2009/04/conical-intersect-19751.jpg"
@@ -595,7 +595,7 @@
   {
     "fecha": "2010-02-02T16:21:50+13:00",
     "titulo": "La Continuidad de la Experiencia",
-    "categorias": ["investigación","notas"],
+    "categorias": ["ideas"],
     "etiquetas": ["continuidad","experiencia","grafos","lenguajes","UX"],
     "imagen":  
                   "/assets/uploads/2009/05/ixd-scores1.gif"
@@ -628,7 +628,7 @@
     "fecha": "2009-12-19T01:36:03+13:00",
     "titulo": "Galexia: Espacio y Navegación Semántica",
     "categorias": ["escuela"],
-    "etiquetas": ["archivos digitales","diseño de interacción","Diseño de Interfaz","Diseño Gráfico","espacio","Internet","repositorios digitales"],
+    "etiquetas": ["archivos digitales","diseño de interacción","Diseño de Interfaz","diseño gráfico","espacio","Internet","repositorios digitales"],
     "imagen":  
                   "https://wiki-ead.b-cdn.net/images/d/df/Galexia_P%C3%A1gina_001.png"
                ,
@@ -675,7 +675,7 @@
   {
     "fecha": "2009-08-04T16:07:47+12:00",
     "titulo": "Realidad Aumentada en Perspectiva",
-    "categorias": ["notas"],
+    "categorias": ["notas","ideas"],
     "etiquetas": ["ar","perspective","vanishing point"],
     "imagen":  
                   "/assets/uploads/2009/08/flecha1.jpg"
@@ -692,7 +692,7 @@
     "fecha": "2009-08-04T14:02:33+12:00",
     "titulo": "Presentación de Proyectos de Gráfica Digital",
     "categorias": ["escuela"],
-    "etiquetas": ["diseño de interacción","Diseño de Interfaz","diseño de servicios","Diseño Gráfico","Gráfica Digital"],
+    "etiquetas": ["diseño de interacción","Diseño de Interfaz","diseño de servicios","diseño gráfico","Gráfica Digital"],
     "imagen":  
                   "/assets/pintura/05.png"
                ,
@@ -771,8 +771,8 @@
   {
     "fecha": "2008-11-26T11:24:15+13:00",
     "titulo": "Partituras de Interacción",
-    "categorias": ["escuela","imagen","investigación"],
-    "etiquetas": ["diseño de interacción","graphic notation","notación gráfica","visual language"],
+    "categorias": ["research"],
+    "etiquetas": ["diseño de interacción","graphic notation","notación gráfica","visual language","PiX"],
     "imagen":  
                   "/assets/uploads/2008/11/partitura1.png"
                ,
@@ -803,7 +803,7 @@
   {
     "fecha": "2008-10-24T02:30:54+13:00",
     "titulo": "Cómo diseñar democracia en la red",
-    "categorias": ["investigación","notas"],
+    "categorias": ["research","notas"],
     "etiquetas": ["democracia","design for democracy","diseño de interacción","Internet","metadesign","network"],
     "imagen":  
                   "/assets/pintura/12.jpg"
@@ -915,8 +915,8 @@
   {
     "fecha": "2008-08-04T07:06:00+12:00",
     "titulo": "Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV",
-    "categorias": ["imagen"],
-    "etiquetas": [],
+    "categorias": ["escuela"],
+    "etiquetas": ["escuela","historia"],
     "imagen":  
                   "/assets/uploads/2008/08/prima-escola.png"
                ,
@@ -980,7 +980,7 @@
     "fecha": "2008-05-06T00:48:57+12:00",
     "titulo": "Después de Investigar",
     "categorias": ["notas"],
-    "etiquetas": ["user research"],
+    "etiquetas": ["user research","métodos"],
     "imagen":  
                   "/assets/pintura/14.jpg"
                ,
@@ -995,8 +995,8 @@
   {
     "fecha": "2008-03-06T14:17:17+13:00",
     "titulo": "Historias Dirigidas: Interpretando Experiencias",
-    "categorias": ["investigación"],
-    "etiquetas": ["diseño de interacción","investigación","métodos"],
+    "categorias": ["research"],
+    "etiquetas": ["diseño de interacción","research","métodos"],
     "imagen":  
                   "/assets/pintura/09.png"
                ,
@@ -1011,8 +1011,8 @@
   {
     "fecha": "2008-03-01T08:26:58+13:00",
     "titulo": "Teselador",
-    "categorias": ["escuela","code"],
-    "etiquetas": ["unidad discreta","tesela"],
+    "categorias": ["code"],
+    "etiquetas": ["unidad discreta","tesela","travesía"],
     "imagen":  
                   "/assets/uploads/2008/02/teselador1.gif"
                ,
@@ -1027,8 +1027,8 @@
   {
     "fecha": "2008-02-28T16:41:38+13:00",
     "titulo": "Para qué investigamos con usuarios",
-    "categorias": ["investigación"],
-    "etiquetas": ["diseño de interacción","investigación","user research"],
+    "categorias": ["research"],
+    "etiquetas": ["diseño de interacción","research","user research"],
     "imagen":  
                   "/assets/pintura/10.jpg"
                ,
@@ -1043,7 +1043,7 @@
   {
     "fecha": "2008-01-23T01:57:23+13:00",
     "titulo": "Investigación y Diseño",
-    "categorias": ["investigación"],
+    "categorias": ["notas"],
     "etiquetas": ["debate","design research","design thinking"],
     "imagen":  
                   "/assets/pintura/06.png"
@@ -1074,14 +1074,30 @@
 
   {
     "fecha": "2007-11-12T18:27:29+13:00",
+    "titulo": "Buscador de patrones en el caos",
+    "categorias": ["code","imagen"],
+    "etiquetas": ["infovis","math","processing","tool","divertimento"],
+    "imagen":  
+                  " "
+               ,
+    "url": "/2007/11/primes-modulator-full/",
+    "largo": 609,
+    "contenido":
+      
+        "Para controlar la visualización, se elije el valor a modificar usando los triángulos (flechas) de los controles del lado izquierdo. Las variables que se controlan pueden ser continuas o discretas. Para aumentar o disminuir presionar sobre los rectángulos superior (+) e inferior (-). Las variables continuas se pueden modificar en menor o major medida dependiendo de en qué altura del rectángulo se presione. Esto puede resultar muy confuso pero otorga más control.Otras funciones:  s para cambiar de espiral  d y c para aumentar o disminuir el total de números representados  ESPACIO para resetear el espiral"
+      
+  },
+
+  {
+    "fecha": "2007-11-12T18:27:29+13:00",
     "titulo": "Modulador de Números Primos",
-    "categorias": ["code"],
-    "etiquetas": ["infovis","math","processing","tool"],
+    "categorias": ["code","imagen"],
+    "etiquetas": ["infovis","math","processing","tool","divertimento"],
     "imagen":  
                   "/assets/uploads/2007/11/ulams-rose.png"
                ,
     "url": "/2007/11/primes-modulator/",
-    "largo": 1686,
+    "largo": 1861,
     "contenido":
       
         "Los números primos son los diamantes de los números naturales. Todos los demás números pueden construirse desde factorizaciones únicas de números primos; ellos son las piezas clave, los otros números son sólo relleno. No existe modo de anticipar la distribución de estos números como secuencia regular y han existido muchos intentos para predecir su aparición. Nadie ha podido estabalecer un patrón claro para describirlos. En 1963, Stanislaw Ulam, un matemático polaco, decidió disponerlos en una espiral cuadrada como la que muestro en la imagen. Este arreglo consiste en comenzar desde el número 1 al centro del espiral y avanzar girando hacia afuera manteniendo la unidad de distancia entre números constante; los puntos rojos representan números primos. Este arreglo reveló un misterioso patrón de diagonales que se mantení­a sin importar la cantidad de números representados o si se cambiaba el primer número del espiral por otro distinto de 1. Este hallazgo le significó a Ulam aparecer con su diagrama en la porta..."
@@ -1107,8 +1123,8 @@
   {
     "fecha": "2007-05-09T03:48:35+12:00",
     "titulo": "MediaFranca, parte 2",
-    "categorias": ["investigación"],
-    "etiquetas": ["concepto","design for citizenship","design for democracy","diseño de interacción","social interaction"],
+    "categorias": ["research"],
+    "etiquetas": ["concepto","diseño de interacción","investigación","diseño para la democracia"],
     "imagen":  
                   "/assets/pintura/03.jpg"
                ,
@@ -1123,8 +1139,8 @@
   {
     "fecha": "2007-04-08T03:36:56+12:00",
     "titulo": "MediaFranca, parte 1",
-    "categorias": ["investigación"],
-    "etiquetas": ["concepto","diseño de interacción","investigación"],
+    "categorias": ["research"],
+    "etiquetas": ["concepto","diseño de interacción","investigación","diseño para la democracia"],
     "imagen":  
                   "/assets/uploads/2006/12/mf.png"
                ,
@@ -1139,8 +1155,8 @@
   {
     "fecha": "2006-12-18T04:44:54+13:00",
     "titulo": "Filippo 3D ver 0.1",
-    "categorias": ["code","investigación"],
-    "etiquetas": [],
+    "categorias": ["code"],
+    "etiquetas": ["3d","herramienta","dibujo"],
     "imagen":  
                   "https://github.com/hspencer/filippo3d/blob/master/data/drawing-chair.png?raw=true"
                ,
@@ -1155,8 +1171,8 @@
   {
     "fecha": "2006-10-30T04:34:24+13:00",
     "titulo": "2x2x2",
-    "categorias": ["code","investigación"],
-    "etiquetas": [],
+    "categorias": ["research","imagen"],
+    "etiquetas": ["visualización","datos","representación"],
     "imagen":  
                   "/assets/uploads/2006/10/2x2x2.png"
                ,
@@ -1171,8 +1187,8 @@
   {
     "fecha": "2006-10-30T04:22:44+13:00",
     "titulo": "con§tel: sharing marginalia",
-    "categorias": ["escuela"],
-    "etiquetas": ["Diseño Gráfico","interacción"],
+    "categorias": ["escuela","research"],
+    "etiquetas": ["comunidad","marginalia","anotación","estudio"],
     "imagen":  
                   "/assets/uploads/2006/07/constel03.png"
                ,
@@ -1219,8 +1235,8 @@
   {
     "fecha": "2005-08-11T09:24:11+12:00",
     "titulo": "Diseñando con Estrofas",
-    "categorias": ["escuela"],
-    "etiquetas": ["diseño gráfico"],
+    "categorias": ["escuela","code"],
+    "etiquetas": ["diseño gráfico","css"],
     "imagen":  
                   "/assets/uploads/2005/08/estrofas.png"
                ,
@@ -1251,7 +1267,7 @@
   {
     "fecha": "2005-04-30T15:27:45+12:00",
     "titulo": "Evolución y Ocupación del Espacio",
-    "categorias": ["escuela"],
+    "categorias": ["imagen"],
     "etiquetas": ["diseño gráfico"],
     "imagen":  
                   "/assets/uploads/2005/04/gaston-maturana-shulz.png"
@@ -1267,7 +1283,7 @@
   {
     "fecha": "2005-03-18T10:55:43+13:00",
     "titulo": "Con§tel",
-    "categorias": ["research"],
+    "categorias": ["research","escuela"],
     "etiquetas": ["texto","estudio","marginalia","escuela"],
     "imagen":  
                   "/assets/uploads/2006/07/constel02.png"
@@ -1316,7 +1332,7 @@
     "fecha": "2003-07-30T03:32:58+12:00",
     "titulo": "Axis Mundae",
     "categorias": ["escuela"],
-    "etiquetas": ["poesía","acto","lectura"],
+    "etiquetas": ["poesía","acto","lectura","hipertexto","continuidad"],
     "imagen":  
                   "/assets/uploads/2003/07/axis-9.gif"
                ,
@@ -1332,7 +1348,7 @@
     "fecha": "2002-11-04T04:32:58+13:00",
     "titulo": "fijar · un contraste · legible",
     "categorias": ["escuela"],
-    "etiquetas": ["Diseño Gráfico","interacción"],
+    "etiquetas": ["diseño gráfico","interacción"],
     "imagen":  
                   "/assets/uploads/2002/fijar-un-contraste-legible.png"
                ,

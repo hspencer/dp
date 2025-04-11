@@ -10,7 +10,7 @@ image:
   path: /assets/uploads/2024/09/los-4.png
 categories:
 - notas
-tags: []
+tags: [procesos, burocracia, trámites, estado]
 ---
 ##### Lecciones de Kafka, Arendt, Illich y Maturana
 

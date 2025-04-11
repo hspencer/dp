@@ -12,6 +12,8 @@ tags:
 - poesía
 - acto
 - lectura
+- hipertexto
+- continuidad
 image:
   path: /assets/uploads/2003/07/axis-9.gif
   

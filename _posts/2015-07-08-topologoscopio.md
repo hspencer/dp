@@ -13,9 +13,7 @@ image:
 categories:
 - code
 - escuela
-- imagen
-- "investigación"
-- notas
+- research
 tags:
 - ciudad
 - escena

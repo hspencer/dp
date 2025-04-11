@@ -7,13 +7,12 @@ date: 2007-05-08 15:48:35 -0000
 last_modified_at: 2007-05-08 15:48:35 -0000
 publish: true
 categories:
-- "investigación"
+- research
 tags:
 - concepto
-- design for citizenship
-- design for democracy
-- "diseño de interacción"
-- social interaction
+- diseño de interacción
+- investigación
+- diseño para la democracia
 image:
   path: /assets/pintura/03.jpg
 ---

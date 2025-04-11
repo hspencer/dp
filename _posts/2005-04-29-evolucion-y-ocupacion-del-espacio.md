@@ -7,7 +7,7 @@ date: 2005-04-30 03:27:45 -0000
 last_modified_at: 2005-04-30 03:27:45 -0000
 publish: true
 categories:
-- escuela
+- imagen
 tags:
 - diseño gráfico
 image:

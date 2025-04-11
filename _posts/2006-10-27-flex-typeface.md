@@ -9,10 +9,10 @@ publish: true
 categories:
 - code
 tags:
-- "interpolación"
+- interpolación
 - letras
 - processing
-- "tipografía"
+- tipografía
 p5:
   script: /assets/p5/flex.js
 image:

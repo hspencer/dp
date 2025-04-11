@@ -7,14 +7,13 @@ date: 2008-11-25 22:24:15 -0000
 last_modified_at: 2008-11-25 22:24:15 -0000
 publish: true
 categories:
-- escuela
-- imagen
-- "investigación"
+- research
 tags:
 - "diseño de interacción"
 - graphic notation
 - "notación gráfica"
 - visual language
+- PiX
 image:
   path: /assets/uploads/2008/11/partitura1.png
 ---

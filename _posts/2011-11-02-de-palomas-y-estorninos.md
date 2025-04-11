@@ -9,13 +9,13 @@ publish: true
 image:
   path: /assets/uploads/2011/11/palomas-estorninos.png
 categories:
-- "investigación"
+- research
 - notas
 tags:
 - chile
-- "diseño de interacción"
-- "Diseño para la Democracia"
-- MediaFranca
+- diseño de interacción
+- diseño para la democracia
+- mediaFranca
 - movimiento estudiantil
 - social interaction
 ---

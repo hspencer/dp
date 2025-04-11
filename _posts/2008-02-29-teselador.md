@@ -13,11 +13,11 @@ date: 2008-02-29 19:26:58 -0000
 last_modified_at: 2008-02-29 19:26:58 -0000
 publish: true
 categories:
-- escuela
 - code
 tags:
 - unidad discreta
 - tesela
+- travesía
 ---
 
 En el contexto de la [travesía a Purmamarca 2007](http://www.flickr.com/photos/herbert-spencer/sets/72157603195788888/ "Fotos de la Travesía en Flickr"), salió un pequeño programa para dibujar con baldosas triangulares.

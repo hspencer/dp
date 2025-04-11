@@ -10,7 +10,7 @@ publish: true
 categories:
 - escuela
 tags:
-- "Diseño Gráfico"
+- diseño gráfico
 - "interacción"
 image:
   path: /assets/uploads/2002/fijar-un-contraste-legible.png

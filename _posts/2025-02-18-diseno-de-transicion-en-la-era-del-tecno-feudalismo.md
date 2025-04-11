@@ -17,7 +17,7 @@ tags:
 - capital
 - "Diseño para la Democracia"
 - Internet
-- "investigación"
+- research
 - social capital
 - tecnofeudalismo
 p5:

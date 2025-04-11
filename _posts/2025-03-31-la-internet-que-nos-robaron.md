@@ -11,8 +11,8 @@ image:
   alt: Ilustración 
   sidebar: false
 categories:
-- ideas
-tags: [tesis, llm, internet, bien público]
+- notas
+tags: [tesis, llm, internet, bien público, ética, política]
 youtube:
   url: "https://www.youtube.com/embed/Bt3TmUW90B8" 
 sidebar:

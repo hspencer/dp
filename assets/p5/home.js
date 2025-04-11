@@ -192,18 +192,25 @@
     let pointerX = touches.length > 0 ? touches[0].x : mouseX;
     let pointerY = touches.length > 0 ? touches[0].y : mouseY;
   
+    // draw links
+    blendMode(MULTIPLY);
     links.forEach(link => {
       if (!link.bodyA || !link.bodyB) return;
       let aActive = activeElements.some(e => e.body.id === link.bodyA.id);
       let bActive = activeElements.some(e => e.body.id === link.bodyB.id);
       if (aActive && bActive) {
+        
         let dim = constrain(link.bodyA.mass + link.bodyB.mass, 0, 45);
         stroke(0, 204, 255, 50 - dim);
         strokeWeight(link.bodyA.mass + link.bodyB.mass);
         line(link.bodyA.position.x, link.bodyA.position.y, link.bodyB.position.x, link.bodyB.position.y);
+       
       }
     });
-  
+    blendMode(BLEND);
+
+    
+    // draw tooltips
     activeElements.forEach(element => {
       let { body, radius, post, tooltip } = element;
       let pos = body.position;

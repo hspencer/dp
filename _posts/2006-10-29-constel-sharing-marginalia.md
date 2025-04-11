@@ -10,9 +10,12 @@ p5:
   script: /assets/p5/type-field.js
 categories:
 - escuela
+- research
 tags:
-- "Diseño Gráfico"
-- "interacción"
+- comunidad
+- marginalia
+- anotación
+- estudio
 image:
   path: /assets/uploads/2006/07/constel03.png
   sidebar: false

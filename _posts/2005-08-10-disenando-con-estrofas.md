@@ -8,8 +8,10 @@ last_modified_at: 2005-08-10 21:24:11 -0000
 publish: true
 categories:
 - escuela
+- code
 tags:
 - diseño gráfico
+- css
 image:
   path: /assets/uploads/2005/08/estrofas.png
 ---

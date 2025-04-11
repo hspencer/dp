@@ -10,15 +10,14 @@ image:
   path: /assets/uploads/2010/03/quadraThumbs1.png
 categories:
 - escuela
-- "investigación"
 tags:
 - ciudad
-- "diseño de interacción"
-- "Diseño Gráfico"
-- "Diseño para la Democracia"
-- Internet
-- MediaFranca
-- "Participación Ciudadana"
+- diseño de interacción
+- diseño gráfico
+- diseño para la democracia
+- internet
+- mediaFranca
+- participación ciudadana
 ---
 > “El territorio ya no precede al mapa, ni lo sobrevive. De aquí en adelante, es el mapa el que precede al territorio, es el mapa el que engendra el territorio”.
 

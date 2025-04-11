@@ -9,16 +9,17 @@ image:
   path: /assets/pintura/01.png
 publish: true
 categories:
-- escuela
+- notas
 tags:
 - "diseño"
 - "diseño de servicios"
-- "Diseño Gráfico"
+- diseño gráfico
 - lenguaje
 - Modelos Visuales
 - "Observación"
 - "Respresentación"
 - Servicio de Salud
+- mediafranca
 image:
   path: /assets/pintura/07.png
 ---

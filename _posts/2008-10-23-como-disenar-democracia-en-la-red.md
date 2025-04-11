@@ -7,7 +7,7 @@ date: 2008-10-23 13:30:54 -0000
 last_modified_at: 2008-10-23 13:30:54 -0000
 publish: true
 categories:
-- "investigación"
+- research
 - notas
 tags:
 - democracia

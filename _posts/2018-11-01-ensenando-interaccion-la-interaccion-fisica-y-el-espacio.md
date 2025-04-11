@@ -10,7 +10,7 @@ image:
   path: /assets/uploads/2018/11/travesia2016_Montevideo_cseverin-064-small-2681.jpg
 categories:
 - escuela
-- "investigación"
+- research
 tags:
 - "educación"
 - "interacción"

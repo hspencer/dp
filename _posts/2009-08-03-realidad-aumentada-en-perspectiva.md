@@ -10,6 +10,7 @@ image:
   path: /assets/uploads/2009/08/flecha1.jpg
 categories:
 - notas
+- ideas
 tags:
 - ar
 - perspective

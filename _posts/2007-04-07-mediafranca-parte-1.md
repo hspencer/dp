@@ -7,11 +7,12 @@ date: 2007-04-07 15:36:56 -0000
 last_modified_at: 2007-04-07 15:36:56 -0000
 publish: true
 categories:
-- "investigación"
+- research
 tags:
 - concepto
-- "diseño de interacción"
-- "investigación"
+- diseño de interacción
+- investigación
+- diseño para la democracia
 image:
   path: /assets/uploads/2006/12/mf.png
 ---

@@ -10,6 +10,7 @@ categories:
 - notas
 tags:
 - user research
+- métodos
 image:
   path: /assets/pintura/14.jpg
 ---

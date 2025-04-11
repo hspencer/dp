@@ -10,16 +10,15 @@ image:
   path: /assets/uploads/2014/01/citisent-harvester.png
   sidebar: false
 categories:
-- "investigación"
+- research
 tags:
 - citisent
-- "investigación"
 - modelos mentales
 - query
 vimeo:
   url: https://player.vimeo.com/video/61097795
 ---
-En CitiSent estamos permanentemente investigando cómo mejorar nuestro servicio. Uno de los temas centrales para nosotros, en términos de diseño de interacción, es cómo se deben formular las preguntas para configurar los estudios dentro de CitiSent.
+En **CitiSent** estamos permanentemente investigando cómo mejorar nuestro servicio. Uno de los temas centrales para nosotros, en términos de diseño de interacción, es cómo se deben formular las preguntas para configurar los estudios dentro de CitiSent.
 
 Si entendemos que el servicio se divide en **3 fases** : (1) **formulación** de la pregunta, (2) **obtención** de resultados y (3) **visualización** y síntesis; este primer segmento resulta ser crítico, especialmente en el contexto de los grandes datos, o _big data_. Hoy, hablar de _big data_ ya forma parte del léxico común, muchas compañías han incorporado el análisis de grandes volúmenes de información, especialmente los producidos en redes sociales, para poder dar respuesta a los mercados cambiantes o atender mejor a sus clientes. En definitiva, el análisis de grandes datos por medio del software, ya forma parte de la estrategia de supervivencia de las instituciones modernas.
 

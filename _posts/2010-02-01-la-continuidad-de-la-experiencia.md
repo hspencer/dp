@@ -9,8 +9,7 @@ publish: true
 image:
   path: /assets/uploads/2009/05/ixd-scores1.gif
 categories:
-- "investigación"
-- notas
+- ideas
 tags:
 - continuidad
 - experiencia

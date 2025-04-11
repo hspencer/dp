@@ -7,10 +7,10 @@ date: 2008-03-06 01:17:17 -0000
 last_modified_at: 2008-03-06 01:17:17 -0000
 publish: true
 categories:
-- "investigación"
+- research
 tags:
 - "diseño de interacción"
-- "investigación"
+- research
 - "métodos"
 image:
   path: /assets/pintura/09.png

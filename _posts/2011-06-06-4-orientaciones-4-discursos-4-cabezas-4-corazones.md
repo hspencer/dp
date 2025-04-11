@@ -12,7 +12,7 @@ categories:
 - escuela
 tags:
 - "diseño"
-- "Diseño Gráfico"
+- diseño gráfico
 - "integración"
 - mapa
 - "metadiseño"
