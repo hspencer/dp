@@ -212,10 +212,25 @@ header {
             color: vars.$color-title;
         }
 
-        h5 {
+        h4, h5 {
             text-transform: uppercase;
             letter-spacing: 0.08ex;
             font-weight: 500;
+        }
+
+        p > a{
+            position: relative;
+            color: vars.$color-link;
+            text-decoration: none;
+            background-image: linear-gradient(vars.$color-orange, vars.$color-red);
+            background-size: 100% 1px;      
+            background-position: 0 90%;    
+            background-repeat: no-repeat;
+            transition: background-size 0.3s ease;
+            
+            &:hover{
+                background-size: 100% 2px;  
+            }
         }
 
         strong {
@@ -237,7 +252,9 @@ header {
         sup {
             display: inline-block;
             margin-top: -0.5ex;
-            font-weight: bold;
+            font-weight: 600;
+            font-size: .6em;
+            letter-spacing: -.15ex;
         }
 
         img {
@@ -302,11 +319,12 @@ header {
         }
 
         .footnote-ref {
-            font-weight: 300;
+            color: vars.$color-red;
+            
         }
 
         .footnotes {
-            font-size: 0.85em;
+            font-size: 0.80em;
             margin-top: 2rem;
 
             ol {
@@ -315,10 +333,12 @@ header {
 
             a.footnote-ref {
                 text-decoration: none;
+                color: vars.$color-red;
             }
 
             a.footnote-back {
                 margin-left: 0.5rem;
+                color: vars.$color-red;
                 text-decoration: none;
             }
         }
