@@ -218,11 +218,15 @@ header {
             font-weight: 500;
         }
 
-        p > a{
+        /* links en párrafos listas y footnotes */
+        p > a,
+        ul > li > a,
+        ol > li > a,
+        .footnotes > ol > li > a{
             position: relative;
             color: vars.$color-link;
             text-decoration: none;
-            background-image: linear-gradient(vars.$color-orange, vars.$color-red);
+            background-image: linear-gradient(vars.$color-soft-line, vars.$color-text);
             background-size: 100% 1px;      
             background-position: 0 90%;    
             background-repeat: no-repeat;
@@ -230,6 +234,7 @@ header {
             
             &:hover{
                 background-size: 100% 2px;  
+                background-image: linear-gradient(vars.$color-orange, vars.$color-red);
             }
         }
 
@@ -254,7 +259,6 @@ header {
             margin-top: -0.5ex;
             font-weight: 600;
             font-size: .6em;
-            letter-spacing: -.15ex;
         }
 
         img {
@@ -340,6 +344,8 @@ header {
                 margin-left: 0.5rem;
                 color: vars.$color-red;
                 text-decoration: none;
+                background-image: none;
+                &:hover{background-image: none;}
             }
         }
 
@@ -690,6 +696,7 @@ footer {
     height: 0;
     overflow: hidden;
     max-width: 100%;
+    margin: 2em 0;
 
     iframe {
         position: absolute;

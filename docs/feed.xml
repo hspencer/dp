@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-11T13:49:04+12:00</updated>
+  <updated>2025-04-11T17:15:55+12:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -127,42 +127,42 @@
       &lt;td&gt;&lt;strong&gt;1. Clasificación pragmática&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Clasificador semántico&lt;/td&gt;
       &lt;td&gt;Determina la intención comunicativa (volitivo, asertivo, afectivo, interrogativo, etc.)&lt;/td&gt;
-      &lt;td&gt;FLAN-T5, RoBERTa-base((https://huggingface.co/google/flan-t5-base))&lt;/td&gt;
+      &lt;td&gt;JointBERT((&lt;a href=&quot;https://github.com/monologg/JointBERT&quot;&gt;JointBERT&lt;/a&gt;)), RoBERTa-base((&lt;a href=&quot;https://huggingface.co/roberta-base&quot;&gt;RoBERTa-base&lt;/a&gt;))&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;2. Extracción de entidades visuales&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;NER visual&lt;/td&gt;
       &lt;td&gt;Identifica entidades representables gráficamente (acciones, objetos, lugares)&lt;/td&gt;
-      &lt;td&gt;spaCy NER, mT5((https://spacy.io/models))&lt;/td&gt;
+      &lt;td&gt;spaCy NER((&lt;a href=&quot;https://spacy.io/models&quot;&gt;spaCy NER&lt;/a&gt;)), mT5((&lt;a href=&quot;https://huggingface.co/models?search=mt5&quot;&gt;mT5&lt;/a&gt;))&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;3. Blending conceptual&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Composición semántica&lt;/td&gt;
       &lt;td&gt;Fusiona elementos en una imagen coherente (ej. “calentar comida en microondas”)&lt;/td&gt;
-      &lt;td&gt;ConceptNet, TARS((https://huggingface.co/spaces/maartengr/ConceptNet))&lt;/td&gt;
+      &lt;td&gt;ConceptNet((&lt;a href=&quot;https://huggingface.co/spaces/maartengr/ConceptNet&quot;&gt;ConceptNet&lt;/a&gt;)), TARS((&lt;a href=&quot;https://github.com/flairNLP/flair&quot;&gt;TARS&lt;/a&gt;))&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;4. Selección de foco y layout&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Estructura discursiva&lt;/td&gt;
       &lt;td&gt;Establece jerarquía entre elementos visuales y su disposición&lt;/td&gt;
-      &lt;td&gt;BART, FLAN-T5&lt;/td&gt;
+      &lt;td&gt;BART((&lt;a href=&quot;https://huggingface.co/facebook/bart-large&quot;&gt;BART&lt;/a&gt;)), FLAN-T5((&lt;a href=&quot;https://huggingface.co/google/flan-t5-base&quot;&gt;FLAN-T5&lt;/a&gt;))&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;5. Atributos gráficos&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Mapeo semiótico&lt;/td&gt;
       &lt;td&gt;Asocia propiedades semánticas con atributos visuales (color, animación, forma)&lt;/td&gt;
-      &lt;td&gt;Sketch-RNN, CSS generator&lt;/td&gt;
+      &lt;td&gt;Sketch-RNN((&lt;a href=&quot;https://github.com/tensorflow/magenta/tree/main/magenta/models/sketch_rnn&quot;&gt;Sketch-RNN&lt;/a&gt;)), CSS generator((&lt;a href=&quot;https://github.com/angel-rs/css-generator&quot;&gt;CSS generator&lt;/a&gt;))&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;6. Composición SVG&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Generador gráfico&lt;/td&gt;
       &lt;td&gt;Produce un SVG estructurado con plantilla y grilla coherente&lt;/td&gt;
-      &lt;td&gt;CodeT5+, SVG-VAE((https://arxiv.org/abs/1908.10603))&lt;/td&gt;
+      &lt;td&gt;CodeT5+((&lt;a href=&quot;https://huggingface.co/Salesforce/codet5p-110m&quot;&gt;CodeT5+&lt;/a&gt;)), SVG-VAE((&lt;a href=&quot;https://arxiv.org/abs/1908.10603&quot;&gt;SVG-VAE&lt;/a&gt;))&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Este pipeline busca hacer que la “caja negra” sea una caja transparente, donde cada módulo pueda ser interpretado, ajustado o reemplazado. La documentación transparente del modelo es una prioridad: se busca que cualquier persona (usuario, ingeniero, terapeuta o diseñador) pueda entender cómo se construye un pictograma, intervenir en su diseño, o contribuir a mejorar el sistema.&lt;/p&gt;
+&lt;p&gt;Este pipeline (muy tentativo aún) busca hacer que la “caja negra” sea una caja transparente, donde cada módulo pueda ser interpretado, ajustado o reemplazado. La documentación transparente del modelo es una prioridad: se busca que cualquier persona (usuario, ingeniero, terapeuta o diseñador) pueda entender cómo se construye un pictograma, intervenir en su diseño, o contribuir a mejorar el sistema.&lt;/p&gt;
 
 &lt;p&gt;Desde el punto de vista teórico, este modelo se inspira en la &lt;strong&gt;teoría del blending conceptual&lt;/strong&gt;, que postula que las imágenes mentales emergen de la integración de múltiples espacios conceptuales. PictoNet traduce este proceso al plano visual, generando una imagen que sintetiza estructura, foco e intención de una frase.&lt;/p&gt;
 

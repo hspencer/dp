@@ -294,46 +294,46 @@
       <td><strong>1. Clasificación pragmática</strong></td>
       <td>Clasificador semántico</td>
       <td>Determina la intención comunicativa (volitivo, asertivo, afectivo, interrogativo, etc.)</td>
-      <td>FLAN-T5, RoBERTa-base<sup id="fnref:8"><a href="#fn:8" class="footnote-ref">8</a></sup></td>
+      <td>JointBERT<sup id="fnref:8"><a href="#fn:8" class="footnote-ref">8</a></sup>, RoBERTa-base<sup id="fnref:9"><a href="#fn:9" class="footnote-ref">9</a></sup></td>
     </tr>
     <tr>
       <td><strong>2. Extracción de entidades visuales</strong></td>
       <td>NER visual</td>
       <td>Identifica entidades representables gráficamente (acciones, objetos, lugares)</td>
-      <td>spaCy NER, mT5<sup id="fnref:9"><a href="#fn:9" class="footnote-ref">9</a></sup></td>
+      <td>spaCy NER<sup id="fnref:10"><a href="#fn:10" class="footnote-ref">10</a></sup>, mT5<sup id="fnref:11"><a href="#fn:11" class="footnote-ref">11</a></sup></td>
     </tr>
     <tr>
       <td><strong>3. Blending conceptual</strong></td>
       <td>Composición semántica</td>
       <td>Fusiona elementos en una imagen coherente (ej. “calentar comida en microondas”)</td>
-      <td>ConceptNet, TARS<sup id="fnref:10"><a href="#fn:10" class="footnote-ref">10</a></sup></td>
+      <td>ConceptNet<sup id="fnref:12"><a href="#fn:12" class="footnote-ref">12</a></sup>, TARS<sup id="fnref:13"><a href="#fn:13" class="footnote-ref">13</a></sup></td>
     </tr>
     <tr>
       <td><strong>4. Selección de foco y layout</strong></td>
       <td>Estructura discursiva</td>
       <td>Establece jerarquía entre elementos visuales y su disposición</td>
-      <td>BART, FLAN-T5</td>
+      <td>BART<sup id="fnref:14"><a href="#fn:14" class="footnote-ref">14</a></sup>, FLAN-T5<sup id="fnref:15"><a href="#fn:15" class="footnote-ref">15</a></sup></td>
     </tr>
     <tr>
       <td><strong>5. Atributos gráficos</strong></td>
       <td>Mapeo semiótico</td>
       <td>Asocia propiedades semánticas con atributos visuales (color, animación, forma)</td>
-      <td>Sketch-RNN, CSS generator</td>
+      <td>Sketch-RNN<sup id="fnref:16"><a href="#fn:16" class="footnote-ref">16</a></sup>, CSS generator<sup id="fnref:17"><a href="#fn:17" class="footnote-ref">17</a></sup></td>
     </tr>
     <tr>
       <td><strong>6. Composición SVG</strong></td>
       <td>Generador gráfico</td>
       <td>Produce un SVG estructurado con plantilla y grilla coherente</td>
-      <td>CodeT5+, SVG-VAE<sup id="fnref:11"><a href="#fn:11" class="footnote-ref">11</a></sup></td>
+      <td>CodeT5+<sup id="fnref:18"><a href="#fn:18" class="footnote-ref">18</a></sup>, SVG-VAE<sup id="fnref:19"><a href="#fn:19" class="footnote-ref">19</a></sup></td>
     </tr>
   </tbody>
 </table>
 
-<p>Este pipeline busca hacer que la “caja negra” sea una caja transparente, donde cada módulo pueda ser interpretado, ajustado o reemplazado. La documentación transparente del modelo es una prioridad: se busca que cualquier persona (usuario, ingeniero, terapeuta o diseñador) pueda entender cómo se construye un pictograma, intervenir en su diseño, o contribuir a mejorar el sistema.</p>
+<p>Este pipeline (muy tentativo aún) busca hacer que la “caja negra” sea una caja transparente, donde cada módulo pueda ser interpretado, ajustado o reemplazado. La documentación transparente del modelo es una prioridad: se busca que cualquier persona (usuario, ingeniero, terapeuta o diseñador) pueda entender cómo se construye un pictograma, intervenir en su diseño, o contribuir a mejorar el sistema.</p>
 
 <p>Desde el punto de vista teórico, este modelo se inspira en la <strong>teoría del blending conceptual</strong>, que postula que las imágenes mentales emergen de la integración de múltiples espacios conceptuales. PictoNet traduce este proceso al plano visual, generando una imagen que sintetiza estructura, foco e intención de una frase.</p>
 
-<p>Entonces, el objetivo de PictoNet como apuesta técnica y semiótica es crear un <strong>core engine</strong><sup id="fnref:12"><a href="#fn:12" class="footnote-ref">12</a></sup> generativo, modular y abierto que permita representar visualmente el mundo desde el lenguaje, contribuyendo a una comunicación más equitativa, explícita y comprensible.</p>
+<p>Entonces, el objetivo de PictoNet como apuesta técnica y semiótica es crear un <strong>core engine</strong><sup id="fnref:20"><a href="#fn:20" class="footnote-ref">20</a></sup> generativo, modular y abierto que permita representar visualmente el mundo desde el lenguaje, contribuyendo a una comunicación más equitativa, explícita y comprensible.</p>
 
 <h3 id="nivel-2-sistema-personalizable-con-soberanía-semiótica-2026">Nivel 2: Sistema personalizable con soberanía semiótica (2026)</h3>
 
@@ -344,9 +344,9 @@
 <p><img src="/assets/uploads/2025/03/make-the-bed.png" alt="Esquema de interfaz para la edición de pictogramas" /></p>
 <p class="caption">Esquema de interfaz “round trip” donde se puede ajustar tanto el lado izquierdo (orden, estilo, re-prompt del ícono) y el lado derecho a nivel de nodos y dibujo directo.</p>
 
-<p>Esta arquitectura distribuida responde a una motivación ética: restituir a las personas el <strong>control sobre su lenguaje visual</strong>. En lugar de delegar completamente en una infraestructura algorítmica centralizada estándar. PictoNet ofrece una modalidad de trabajo <em>human-in-the-loop</em>, donde cada usuario puede editar, guardar y retroalimentar el sistema<sup id="fnref:13"><a href="#fn:13" class="footnote-ref">13</a></sup>.</p>
+<p>Esta arquitectura distribuida responde a una motivación ética: restituir a las personas el <strong>control sobre su lenguaje visual</strong>. En lugar de delegar completamente en una infraestructura algorítmica centralizada estándar. PictoNet ofrece una modalidad de trabajo <em>human-in-the-loop</em>, donde cada usuario puede editar, guardar y retroalimentar el sistema<sup id="fnref:21"><a href="#fn:21" class="footnote-ref">21</a></sup>.</p>
 
-<p>Este enfoque se alinea con la idea de <strong>convivencialidad</strong> desarrollada por Ivan Illich<sup id="fnref:14"><a href="#fn:14" class="footnote-ref">14</a></sup>, quien planteaba que las herramientas no deben superar la capacidad de sus usuarios para comprenderlas y gobernarlas. En el contexto actual —dominado por plataformas de suscripción, modelos opacos y algoritmos que operan como cajas negras— PictoNet plantea una alternativa: una <strong>infraestructura semiótica autogestionable</strong>, donde las extensiones cognitivas no se alquilan, se construyen.</p>
+<p>Este enfoque se alinea con la idea de <strong>convivencialidad</strong> desarrollada por Ivan Illich<sup id="fnref:22"><a href="#fn:22" class="footnote-ref">22</a></sup>, quien planteaba que las herramientas no deben superar la capacidad de sus usuarios para comprenderlas y gobernarlas. En el contexto actual —dominado por plataformas de suscripción, modelos opacos y algoritmos que operan como cajas negras— PictoNet plantea una alternativa: una <strong>infraestructura semiótica autogestionable</strong>, donde las extensiones cognitivas no se alquilan, se construyen.</p>
 
 <p>A través de este sistema, cada persona puede:</p>
 
@@ -402,7 +402,7 @@
 
 <p>En su tercera capa, PictoNet se proyecta como una <strong>infraestructura distribuida</strong> que articula múltiples instancias del sistema, cada una con su propia configuración visual, pero conectadas a través de un lenguaje técnico común. La motivación aquí no es técnica —ya no se trata de generar imágenes ni de editarlas—, sino de construir una <strong>economía semiótica abierta y colaborativa</strong>, donde las contribuciones de cada usuario puedan fortalecer colectivamente el modelo.</p>
 
-<p>Este nivel se estructura sobre el principio de <strong>aprendizaje federado</strong>, una técnica de inteligencia artificial que permite entrenar modelos compartidos sin necesidad de centralizar los datos<sup id="fnref:15"><a href="#fn:15" class="footnote-ref">15</a></sup>. Cada interacción, cada corrección o variante visual que realiza el usuario puede ser encapsulada como una unidad significativa de ajuste —sin revelar información privada— y luego incorporada, si se valida, al modelo general.</p>
+<p>Este nivel se estructura sobre el principio de <strong>aprendizaje federado</strong>, una técnica de inteligencia artificial que permite entrenar modelos compartidos sin necesidad de centralizar los datos<sup id="fnref:23"><a href="#fn:23" class="footnote-ref">23</a></sup>. Cada interacción, cada corrección o variante visual que realiza el usuario puede ser encapsulada como una unidad significativa de ajuste —sin revelar información privada— y luego incorporada, si se valida, al modelo general.</p>
 
 <p>Este enfoque parte de una intuición simple pero potente: <strong>la diversidad de interpretaciones visuales es un recurso, no un problema</strong>. Aprovechar esa diversidad requiere diseñar mecanismos de sincronización, curaduría y control de versiones que no borren las diferencias, sino que las integren de forma coherente.</p>
 
@@ -443,7 +443,7 @@
 
 <p>Este tipo de plataforma requiere una gobernanza técnica cuidada, donde el “centro” no sea un ente controlador, sino un <strong>nodo de ensamblaje</strong> que ejecuta entrenamientos globales, publica nuevas versiones y conserva todas las variantes locales. Las personas no entregan sus datos: contribuyen con conocimiento generado desde su propia forma de ver.</p>
 
-<p>La ambición de esta capa no es sólo tecnológica. Apunta a imaginar una <strong>nueva economía de las inteligencias artificiales</strong>: una economía basada en colaboración, transparencia y responsabilidad compartida. Frente al modelo tecnofeudal<sup id="fnref:16"><a href="#fn:16" class="footnote-ref">16</a></sup>, donde los usuarios entregan trabajo cognitivo a cambio de servicios opacos, PictoNet propone una economía simbólica descentralizada, donde cada quien conserva el control sobre su lenguaje, su historia y sus contribuciones.</p>
+<p>La ambición de esta capa no es sólo tecnológica. Apunta a imaginar una <strong>nueva economía de las inteligencias artificiales</strong>: una economía basada en colaboración, transparencia y responsabilidad compartida. Frente al modelo tecnofeudal<sup id="fnref:24"><a href="#fn:24" class="footnote-ref">24</a></sup>, donde los usuarios entregan trabajo cognitivo a cambio de servicios opacos, PictoNet propone una economía simbólica descentralizada, donde cada quien conserva el control sobre su lenguaje, su historia y sus contribuciones.</p>
 
 <p>Aquí, la colaboración no es solo posible: es estructural. El código está en GitHub. La documentación es detallada y pormenorizada. El sistema acepta mejoras, pull-requests, reportes de error y extensiones conceptuales. Participar no es un privilegio técnico: es parte de la arquitectura del sistema.</p>
 
@@ -622,7 +622,7 @@
   <li>Promover una cultura técnica donde las herramientas puedan ser comprendidas, editadas y compartidas</li>
 </ul>
 
-<p>Este enfoque se opone a las lógicas de extracción de datos y control unidireccional que caracterizan a buena parte de las inteligencias artificiales contemporáneas. Frente a esa deriva tecnofeudal<sup id="fnref:17"><a href="#fn:17" class="footnote-ref">17</a></sup>, <strong>MediaFranca</strong> plantea un ecosistema convivencial y distribuido, donde los usuarios no son datos, sino autores.</p>
+<p>Este enfoque se opone a las lógicas de extracción de datos y control unidireccional que caracterizan a buena parte de las inteligencias artificiales contemporáneas. Frente a esa deriva tecnofeudal<sup id="fnref:25"><a href="#fn:25" class="footnote-ref">25</a></sup>, <strong>MediaFranca</strong> plantea un ecosistema convivencial y distribuido, donde los usuarios no son datos, sino autores.</p>
 
 <p>En términos proyectuales, esto se traduce en decisiones específicas:</p>
 
@@ -706,7 +706,7 @@
   </tbody>
 </table>
 
-<p>El código está alojado en GitHub y se publica bajo una licencia Creative Commons Atribución 4.0<sup id="fnref:18"><a href="#fn:18" class="footnote-ref">18</a></sup>, que permite su uso libre, siempre que se reconozca la fuente.</p>
+<p>El código está alojado en GitHub y se publica bajo una licencia Creative Commons Atribución 4.0<sup id="fnref:26"><a href="#fn:26" class="footnote-ref">26</a></sup>, que permite su uso libre, siempre que se reconozca la fuente.</p>
 
 <p>Además del código, se publicará una <strong>documentación extensa</strong>, que explica cómo usar, modificar y contribuir al sistema. Esto incluye:</p>
 
@@ -733,17 +733,25 @@
 <li id="fn:5">Wierzbicka, A. (1996). <em>Semantics: Primes and Universals</em>. Oxford University Press <a href="#fnref:5" class="footnote-back">↩</a></li>
 <li id="fn:6">Fauconnier, G. &amp; Turner, M. (2002). <em>The Way We Think: Conceptual Blending and the Mind’s Hidden Complexities</em>. Basic Books <a href="#fnref:6" class="footnote-back">↩</a></li>
 <li id="fn:7">Esto habilita tanto la interoperabilidad con otras plataformas como la posibilidad de ediciones finas por parte del usuario sin pérdida de semántica visual <a href="#fnref:7" class="footnote-back">↩</a></li>
-<li id="fn:8">https://huggingface.co/google/flan-t5-base <a href="#fnref:8" class="footnote-back">↩</a></li>
-<li id="fn:9">https://spacy.io/models <a href="#fnref:9" class="footnote-back">↩</a></li>
-<li id="fn:10">https://huggingface.co/spaces/maartengr/ConceptNet <a href="#fnref:10" class="footnote-back">↩</a></li>
-<li id="fn:11">https://arxiv.org/abs/1908.10603 <a href="#fnref:11" class="footnote-back">↩</a></li>
-<li id="fn:12">Como núcleo de lenguaje permitirá que otros servicios más sofisticados y complejos se apoyen en este motor pictográfico generativo, como por ejemplo interfaces XR, sistemas de proyección, <em>head-up displays</em> o agentes robóticos, entre otros. <a href="#fnref:12" class="footnote-back">↩</a></li>
-<li id="fn:13">La IA no tiene, ni debe tener, la última palabra. Recordemos que se trata de un sistema estadístico que no puede imponer patrones comunicativos, sólo generar propuestas estadísticamente viables. <a href="#fnref:13" class="footnote-back">↩</a></li>
-<li id="fn:14">Illich, I. (1973). <em>Tools for Conviviality</em>. Harper &amp; Row <a href="#fnref:14" class="footnote-back">↩</a></li>
-<li id="fn:15">Kairouz, P. et al. (2021). <em>Advances and Open Problems in Federated Learning</em>. Foundations and Trends® in Machine Learning, 14(1–2), 1–210. <a href="#fnref:15" class="footnote-back">↩</a></li>
-<li id="fn:16">Morozov, E. (2022). <em>It’s time to abandon the myth of Big Tech’s ‘free’ services</em>. The Guardian. <a href="#fnref:16" class="footnote-back">↩</a></li>
-<li id="fn:17">Zuboff, S. (2019). <em>The Age of Surveillance Capitalism</em>. PublicAffairs; Varoufakis, Y. (2024). <em>Technofeudalism: What Killed Capitalism</em>. Vintage. <a href="#fnref:17" class="footnote-back">↩</a></li>
-<li id="fn:18">https://creativecommons.org/licenses/by/4.0/ <a href="#fnref:18" class="footnote-back">↩</a></li>
+<li id="fn:8"><a href="https://github.com/monologg/JointBERT">JointBERT</a> <a href="#fnref:8" class="footnote-back">↩</a></li>
+<li id="fn:9"><a href="https://huggingface.co/roberta-base">RoBERTa-base</a> <a href="#fnref:9" class="footnote-back">↩</a></li>
+<li id="fn:10"><a href="https://spacy.io/models">spaCy NER</a> <a href="#fnref:10" class="footnote-back">↩</a></li>
+<li id="fn:11"><a href="https://huggingface.co/models?search=mt5">mT5</a> <a href="#fnref:11" class="footnote-back">↩</a></li>
+<li id="fn:12"><a href="https://huggingface.co/spaces/maartengr/ConceptNet">ConceptNet</a> <a href="#fnref:12" class="footnote-back">↩</a></li>
+<li id="fn:13"><a href="https://github.com/flairNLP/flair">TARS</a> <a href="#fnref:13" class="footnote-back">↩</a></li>
+<li id="fn:14"><a href="https://huggingface.co/facebook/bart-large">BART</a> <a href="#fnref:14" class="footnote-back">↩</a></li>
+<li id="fn:15"><a href="https://huggingface.co/google/flan-t5-base">FLAN-T5</a> <a href="#fnref:15" class="footnote-back">↩</a></li>
+<li id="fn:16"><a href="https://github.com/tensorflow/magenta/tree/main/magenta/models/sketch_rnn">Sketch-RNN</a> <a href="#fnref:16" class="footnote-back">↩</a></li>
+<li id="fn:17"><a href="https://github.com/angel-rs/css-generator">CSS generator</a> <a href="#fnref:17" class="footnote-back">↩</a></li>
+<li id="fn:18"><a href="https://huggingface.co/Salesforce/codet5p-110m">CodeT5+</a> <a href="#fnref:18" class="footnote-back">↩</a></li>
+<li id="fn:19"><a href="https://arxiv.org/abs/1908.10603">SVG-VAE</a> <a href="#fnref:19" class="footnote-back">↩</a></li>
+<li id="fn:20">Como núcleo de lenguaje permitirá que otros servicios más sofisticados y complejos se apoyen en este motor pictográfico generativo, como por ejemplo interfaces XR, sistemas de proyección, <em>head-up displays</em> o agentes robóticos, entre otros. <a href="#fnref:20" class="footnote-back">↩</a></li>
+<li id="fn:21">La IA no tiene, ni debe tener, la última palabra. Recordemos que se trata de un sistema estadístico que no puede imponer patrones comunicativos, sólo generar propuestas estadísticamente viables. <a href="#fnref:21" class="footnote-back">↩</a></li>
+<li id="fn:22">Illich, I. (1973). <em>Tools for Conviviality</em>. Harper &amp; Row <a href="#fnref:22" class="footnote-back">↩</a></li>
+<li id="fn:23">Kairouz, P. et al. (2021). <em>Advances and Open Problems in Federated Learning</em>. Foundations and Trends® in Machine Learning, 14(1–2), 1–210. <a href="#fnref:23" class="footnote-back">↩</a></li>
+<li id="fn:24">Morozov, E. (2022). <em>It’s time to abandon the myth of Big Tech’s ‘free’ services</em>. The Guardian. <a href="#fnref:24" class="footnote-back">↩</a></li>
+<li id="fn:25">Zuboff, S. (2019). <em>The Age of Surveillance Capitalism</em>. PublicAffairs; Varoufakis, Y. (2024). <em>Technofeudalism: What Killed Capitalism</em>. Vintage. <a href="#fnref:25" class="footnote-back">↩</a></li>
+<li id="fn:26">https://creativecommons.org/licenses/by/4.0/ <a href="#fnref:26" class="footnote-back">↩</a></li>
 </ol>
 </div>
 
