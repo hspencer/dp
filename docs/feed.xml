@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-04-12T01:34:04+12:00</updated>
+  <updated>2025-04-13T12:47:04+12:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -1372,9 +1372,9 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
 
 &lt;/div&gt;
 
-&lt;p&gt;Había una vez una empresa llamada &lt;strong&gt;&lt;a href=&quot;https://vimeo.com/61097795&quot;&gt;CitiSent&lt;/a&gt;&lt;/strong&gt; , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país ((a este servicio lo llamamos &lt;em&gt;CitiPulse&lt;/em&gt;)).&lt;/p&gt;
+&lt;p&gt;Había una vez una empresa llamada &lt;strong&gt;&lt;a href=&quot;https://vimeo.com/61097795&quot;&gt;CitiSent&lt;/a&gt;&lt;/strong&gt; , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país((a este servicio lo llamamos &lt;em&gt;CitiPulse&lt;/em&gt;)).&lt;/p&gt;
 
-&lt;p&gt;Para construir esta visualización desarrollamos un tesauro ((Un tesaurio es un diccionario jerárquico de palabras. En el caso de &lt;strong&gt;Citipulse&lt;/strong&gt; definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras.)) de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (&lt;a href=&quot;https://en.wikipedia.org/wiki/Sentiment_analysis&quot;&gt;sentiment analysis&lt;/a&gt;) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferencias y contrastes entre los datos (las disparidades). Esta modalidad se denomina &lt;em&gt;pequenos múltiples&lt;/em&gt; (&lt;a href=&quot;https://en.wikipedia.org/wiki/Small_multiple&quot;&gt;small multiples&lt;/a&gt;). Esto es similar a las &lt;a href=&quot;https://en.wikipedia.org/wiki/Chernoff_face&quot;&gt;caras de Chernoff&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para construir esta visualización desarrollamos un tesauro((Un tesaurio es un diccionario jerárquico de palabras. En el caso de &lt;strong&gt;Citipulse&lt;/strong&gt; definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras.)) de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (&lt;a href=&quot;https://en.wikipedia.org/wiki/Sentiment_analysis&quot;&gt;sentiment analysis&lt;/a&gt;) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferencias y contrastes entre los datos (las disparidades). Esta modalidad se denomina &lt;em&gt;pequenos múltiples&lt;/em&gt; (&lt;a href=&quot;https://en.wikipedia.org/wiki/Small_multiple&quot;&gt;small multiples&lt;/a&gt;). Esto es similar a las &lt;a href=&quot;https://en.wikipedia.org/wiki/Chernoff_face&quot;&gt;caras de Chernoff&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Este ejemplo de la unidad de visualización puede ser regenerado al presionar &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ESPACIO&lt;/code&gt;, pero es preciso ganar foco sobre el elemento haciendo click sobre él&lt;/p&gt;
 
@@ -1586,7 +1586,7 @@ For more information on the topic, check this &lt;a href=&quot;http://www.flong.
 
 &lt;h3 id=&quot;innovación-y-empresa&quot;&gt;Innovación y Empresa&lt;/h3&gt;
 
-&lt;p&gt;Esta voluntad de acero por llegar a construir algo (una obra) no es otra cosa que el viaje es desde FONDECyT a CORFO, desde la investigación a la innovación y creación de valor. Es sólo bajo estos términos cuando el diseño-hipótesis cobra sentido para el que financia tu proyecto. Ahora me doy cuenta de aquello, de que el &lt;em&gt;loop de valor&lt;/em&gt; , parte escencial de un producto o servicio debe formar parte también de la pregunta inicial. No es por servilismo o por capitalismo, es porque &lt;strong&gt;la obra no está completa&lt;/strong&gt; si se ignora su sustentabilidad económica y su función dentro de la sociedad. Esto, que suena tan obvio, cambia todo. Este es el precio que La lógica del emprendimiento, por otro lado, favorece directamente al diseño en su sentido de &lt;em&gt;creación de valor&lt;/em&gt; , como es entendido tradicionalmente. Claramente el producto o servicio de una empresa no es un proyecto de investigación: no se pueden comunicar los hallazgos, una empresa compite, un investigador colabora; mil diferencias más. Pero muchos aspectos del “organismo empresa” son abiertamente ignorados dentro del ámbito académico del diseño. Uno de ellos, y quizá el más importante, es la visión que articula y orienta a una organización. Cómo un modelo de negocios –fruto de esta visión– puede llegar a constituirse como &lt;em&gt;objeto de diseño&lt;/em&gt; y, yendo más allá, como catalizador de cambio dentro del mercado ((“Game changer” como se dice en inglés. En el sentido de que la nueva dinámica que incorpora al sistema tiene un impacto mayor en el largo plazo, ya sea transformándose en un modelo replicable o insidiendo dentro de un ecosistema “frágil”.)). Con esto, vuelvo a pensar de que el diseño va creciendo en órdenes de complejidad:&lt;/p&gt;
+&lt;p&gt;Esta voluntad de acero por llegar a construir algo (una obra) no es otra cosa que el viaje es desde FONDECyT a CORFO, desde la investigación a la innovación y creación de valor. Es sólo bajo estos términos cuando el diseño-hipótesis cobra sentido para el que financia tu proyecto. Ahora me doy cuenta de aquello, de que el &lt;em&gt;loop de valor&lt;/em&gt; , parte escencial de un producto o servicio debe formar parte también de la pregunta inicial. No es por servilismo o por capitalismo, es porque &lt;strong&gt;la obra no está completa&lt;/strong&gt; si se ignora su sustentabilidad económica y su función dentro de la sociedad. Esto, que suena tan obvio, cambia todo. Este es el precio que La lógica del emprendimiento, por otro lado, favorece directamente al diseño en su sentido de &lt;em&gt;creación de valor&lt;/em&gt; , como es entendido tradicionalmente. Claramente el producto o servicio de una empresa no es un proyecto de investigación: no se pueden comunicar los hallazgos, una empresa compite, un investigador colabora; mil diferencias más. Pero muchos aspectos del “organismo empresa” son abiertamente ignorados dentro del ámbito académico del diseño. Uno de ellos, y quizá el más importante, es la visión que articula y orienta a una organización. Cómo un modelo de negocios –fruto de esta visión– puede llegar a constituirse como &lt;em&gt;objeto de diseño&lt;/em&gt; y, yendo más allá, como catalizador de cambio dentro del mercado ((En el sentido de que la nueva dinámica que incorpora al sistema tiene un impacto mayor en el largo plazo, ya sea transformándose en un modelo replicable o insidiendo dentro de un ecosistema “frágil”.)). Con esto, vuelvo a pensar de que el diseño va creciendo en órdenes de complejidad:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/uploads/2013/10/4-d.006.jpg&quot; alt=&quot;4 órdenes del diseño&quot; /&gt;&lt;/p&gt;
 
@@ -1601,7 +1601,7 @@ For more information on the topic, check this &lt;a href=&quot;http://www.flong.
 
 &lt;h3 id=&quot;citisent&quot;&gt;CitiSent&lt;/h3&gt;
 
-&lt;p&gt;Al estar conciente de que se trata de una aventura que no cesa, CitiSent se plantea como un &lt;em&gt;framework&lt;/em&gt; que permita hacer muchas cosas, una suerte de lenguaje que tenga en su ADN la capacidad de mutar y evolucionar. Mal que mal, esperamos que nos acompañe por mucho tiempo. Tomando la tríada de &lt;a href=&quot;http://www.mediafranca.cl&quot;&gt;MediaFranca&lt;/a&gt;, en CitiSent se construyen &lt;em&gt;estudios&lt;/em&gt; en base a &lt;strong&gt;temas&lt;/strong&gt; , &lt;strong&gt;lugares&lt;/strong&gt; y &lt;strong&gt;personas&lt;/strong&gt;. Se trata, en el fondo, de un lenguaje que les permite a las personas &lt;em&gt;programar Internet&lt;/em&gt; , al modo de &lt;a href=&quot;https://ifttt.com/&quot;&gt;IFTTT&lt;/a&gt; (qué grande es IFTTT). La programación, en este sentido&lt;/p&gt;
+&lt;p&gt;Al estar conciente de que se trata de una aventura que no cesa, CitiSent se plantea como un &lt;em&gt;framework&lt;/em&gt; que permita hacer muchas cosas, una suerte de lenguaje que tenga en su ADN la capacidad de mutar y evolucionar. Mal que mal, esperamos que nos acompañe por mucho tiempo. Tomando la tríada de &lt;a href=&quot;http://www.mediafranca.cl&quot;&gt;MediaFranca&lt;/a&gt;, en CitiSent se construyen &lt;em&gt;estudios&lt;/em&gt; en base a &lt;strong&gt;temas&lt;/strong&gt; , &lt;strong&gt;lugares&lt;/strong&gt; y &lt;strong&gt;personas&lt;/strong&gt;. Se trata, en el fondo, de un lenguaje que les permite a las personas &lt;em&gt;programar Internet&lt;/em&gt; , al modo de &lt;a href=&quot;https://ifttt.com/&quot;&gt;IFTTT&lt;/a&gt; (qué grande es IFTTT).&lt;/p&gt;
 
     </content>
   </entry>
@@ -1691,7 +1691,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
     <updated>2013-05-10T06:23:21+12:00</updated>
     <id>http://0.0.0.0:4000/2013/05/el-diseno-o-el-bucle-infinito</id>
     <content type="html">
-      &lt;p&gt;El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que &lt;em&gt;se basta de sí mismo&lt;/em&gt; porque se construye como una &lt;strong&gt;cifra&lt;/strong&gt; , con sus imágenes, sus letras, su código, su discurso y su tiempo. La superficie contiene todas las claves que condensan y fijan el discurso en una cifra gráfica. Ejemplos de esto se encuentran en todas partes: afiches, revistas, envases, carteles, folletos, revistas, libros; incluso las artes gráficas –incluso la pintura– comparten esta naturaleza unidireccional de lo fijo. Y con “lo fijo” no quiero decir que sea cerrado, o restado en alguna medida. Tan solo quiero argumentar que en esta fianza de lo fijo descansa la potencia que tiene el lenguaje visual de hacer detonar, en el lector, toda la potencia de su discurso. El diseñador recibe un argumento –o lo articula– para luego interpretarlo, darle espacio, darle forma, darle voz gráfica; materializa su palabra y su apariencia, le da un tempo, una &lt;em&gt;demora&lt;/em&gt;. El diseño gráfico es, entonces, unidireccional y fijo, cada vez. &lt;a href=&quot;/assets/uploads/2013/05/partial-loops.png&quot;&gt;&lt;img src=&quot;/assets/uploads/2013/05/partial-loops-470x146.png&quot; alt=&quot;partial-loops&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que &lt;em&gt;se basta de sí mismo&lt;/em&gt; porque se construye como una &lt;strong&gt;cifra&lt;/strong&gt; , con sus imágenes, sus letras, su código, su discurso y su tiempo. La superficie contiene todas las claves que condensan y fijan el discurso en una cifra gráfica. Ejemplos de esto se encuentran en todas partes: afiches, revistas, envases, carteles, folletos, revistas, libros; incluso las artes gráficas –incluso la pintura– comparten esta naturaleza unidireccional de lo fijo. Y con “lo fijo” no quiero decir que sea cerrado, o restado en alguna medida. Tan solo quiero argumentar que en esta fianza de lo fijo descansa la potencia que tiene el lenguaje visual de hacer detonar, en el lector, toda la potencia de su discurso. El diseñador recibe un argumento –o lo articula– para luego interpretarlo, darle espacio, darle forma, darle voz gráfica; materializa su palabra y su apariencia, le da un tempo, una &lt;em&gt;demora&lt;/em&gt;. El diseño gráfico es, entonces, unidireccional y fijo, cada vez.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/uploads/2013/05/partial-loops.png&quot; alt=&quot;partial-loops&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;(1) discurso gráfico de lo fijo (2) diálogo autor-lector / sistema-usuario (3) participación reflexiva de los muchos que hacen emerger nuevos espacios. El autor/diseñador define las reglas de interacción. ¿Determinismo estructural cerrado o libertad abierta en constante expansión?… ¿nos preguntamos eso cuando diseñamos?&lt;/p&gt;
 
@@ -2666,11 +2668,15 @@ En este trance nos damos cuenta de que nuestro espacio es afín a la metáfora d
 &lt;p&gt;Esta es una propuesta de navegación semántica con mútiples cruces de caminos, de ahí su riqueza. El lector va decidiendo, en cada detención o momento (es decir, ante cada artefacto del archivo) qué camino sigue a continuación (el temático, el social, el temporal o el espacial). Se trata de un territorio rico en señalética, que permite al viajero permanecer siempre orientado en un recorrido intensionado.&lt;br /&gt;
 Es el aparente consumo del lector o investigador, normal cliente del archivo, el que ya no más consume, sino que produce. Porque en su mero acto de recorrer va produciendo encadenaciones direccionadas, linealidades rescatadas desde la maraña. Es justamente a partir de esas deambulaciones que los investigadores articulan nuevos discursos y nuevas lecturas de la historia.&lt;/p&gt;
 
+&lt;figure class=&quot;video-container&quot;&gt;
+  &lt;iframe src=&quot;https://player.vimeo.com/video/7975655&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://vimeo.com/7975655&quot;&gt;Galexia&lt;/a&gt; de &lt;a href=&quot;http://vimeo.com/user1028045&quot;&gt;Christian Campos&lt;/a&gt; en &lt;a href=&quot;http://vimeo.com/&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://proyectos.ead.pucv.cl/galexia&quot;&gt;&lt;img src=&quot;http://proyectos.ead.pucv.cl/galexia/images/_aux/logo.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ver: &lt;a href=&quot;http://proyectos.ead.pucv.cl/galexia&quot; title=&quot;Sitio del Proyecto Galexia&quot;&gt;documentación completa en el sitio del proyecto&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ver: &lt;a href=&quot;https://wiki.ead.pucv.cl/Galexia&quot; title=&quot;Galexia en Casiopea&quot;&gt;documentación completa en el sitio del proyecto&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
@@ -3880,7 +3886,13 @@ para que haya pueblo?&lt;/p&gt;
     <updated>2007-05-09T03:48:35+12:00</updated>
     <id>http://0.0.0.0:4000/2007/05/mediafranca-parte-2</id>
     <content type="html">
-      &lt;p&gt;&lt;a href=&quot;http://vimeo.com/1464012&quot;&gt;MediaFranca&lt;/a&gt; de &lt;a href=&quot;http://vimeo.com/hspencer&quot;&gt;Herbert Spencer&lt;/a&gt; en &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;. MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es construir un sistema que conecte a personas con lugares y con temas de interés social (&lt;em&gt;issues&lt;/em&gt;) mediante un diáogo simétrico y democrático. Esta plataforma intenta salvar la distancia entre la conversación mediada digitalmente y la conversación cara a cara, promoviendo el paso de la interacción digital a la fí­sica, desplegando palabra en acción, y constituyendo así­ herramientas para la participación ciudadana. Dentro de las caracterí­sticas más importantes del sistema podemos mencionar:&lt;/p&gt;
+      &lt;figure class=&quot;video-container&quot;&gt;
+  &lt;iframe src=&quot;https://player.vimeo.com/video/1464012&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es construir un sistema que conecte a personas con lugares y con temas de interés social (&lt;em&gt;issues&lt;/em&gt;) mediante un diáogo simétrico y democrático. Esta plataforma intenta salvar la distancia entre la conversación mediada digitalmente y la conversación cara a cara, promoviendo el paso de la interacción digital a la fí­sica, desplegando palabra en acción, y constituyendo así­ herramientas para la participación ciudadana. Dentro de las caracterí­sticas más importantes del sistema podemos mencionar:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Interfaz fotográfica de AR (Augmented Reality) que permite examinar y atachar contenidos al entorno inmediato&lt;/li&gt;
@@ -4425,10 +4437,6 @@ En que el espacio bidimensional de los cuadros, está sometido a un sistema de e
 
 &lt;p&gt;Se busca generar una instancia dentro de Internet que permita a los académicos e investigadores de un tema específico ingresar sus documentos al abrigo de una estructura hipertextual mayor. Se trata de un modo de abordar la complejidad semántica desde metaestructuras, que, al igual que los sistemas vivos deben evitar el equilibrio y la estabilidad para estar en constante transformación, reorganización y adaptación. Con formas de innovación y desarrollo lógico, para ser leído con posterioridad, al modo de una nueva fijación externa del conocimiento, admitiendo la posibilidad de la autosustentación.&lt;/p&gt;
 
-&lt;p&gt;*&lt;/p&gt;
-
-&lt;p&gt;*&lt;/p&gt;
-
 &lt;p&gt;Esto supone que el conocimiento no se trata de un conjunto de ideas (o una sumatoria de ellas) sino más bien, se trata de una sensible configuración de ideas relacionadas entre sí, cuyas relaciones están en constante cambio, actualización y crecimiento.&lt;/p&gt;
 
 &lt;p&gt;El hecho de participar en estructuras colectivas ordenadas de esta forma evita las redundancias de todo tipo y ubica a cada investigador respecto de los otros y respecto de la figura que entre ellos forman, constituyendo un colectivo coherente para ojos externos. Esto significa un modo de validación del contenido en virtud de la complejidad de la estructura que lo alberga (conformando conocimiento), también un modo de avanzar orgánicamente sobre lo conquistado y, sobre todo conformar un modo colectivo de interacción creativa.&lt;/p&gt;
@@ -4443,17 +4451,8 @@ En que el espacio bidimensional de los cuadros, está sometido a un sistema de e
   &lt;p&gt;1. Amereida 1 2. Amereida 2 3. Acerca de la Observación 4. Cuatro Talleres de América 5. Texto Anales de la Universidad de Chile 6. América, Américas mías, Revista Atenea 7. Carta del Errante 8. Texto del ágora del día 7 de Enero de 1971 9. Ciudad Abierta,1984. 10. Actos poéticos de apertura de los terrenos, 1971 11. De la Utopía al espejismo 12. De lo Heteróclito 13. Viaje donde Juan Larrea, 1976 14. El Pacífico Mar Erótico, 1978 15. Elogio de Unidad Discreta 16. Eneida-Amereida 17. Introducción al Primer poema de Amereida 18. Fundamentos de la Escuela de Arquitectura 19. Hay que ser absolutamente moderno 20. Testamento de Rimbaud 21. Hoy me voy a Ocupar de mi Cólera 22. Manifiesto 15 de junio. 1967 23. Capilla Pajaritos. 24. Por qué, cómo y cuándo hay arte 25. Sentido Poético de la Cólera 26. Simetría y Lateralidad en las Artes Plásticas 27. Oda Kappa 28. Tres Salas Gráficas&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Tomamos así 28 “textos fundamentales” de la escuela que serán el modelo inicial de esta red; a través del tiempo se han establecido ciertas relaciones que todavía no están indexadas sino solamente anotadas fuera de un contexto utilizable. Las relaciones que entre estos textos pueden establecerse darán una luz nítida sobre un pensamiento fundacional de una escuela de arquitectura y diseño que ha sabido sostener una tradición. Esta tradición ha de contextualizarse con los procesos complejos que los nuevos medios nos traen, en un primer momento, como un paradigma semántico.&lt;/p&gt;
+&lt;p&gt;Tomamos así 28 “textos fundamentales”((Hoy están el la &lt;a href=&quot;https://wiki.ead.pucv.cl/Biblioteca_Con%C2%A7tel&quot;&gt;Biblioteca Con§tel&lt;/a&gt;)) de la escuela que serán el modelo inicial de esta red; a través del tiempo se han establecido ciertas relaciones que todavía no están indexadas sino solamente anotadas fuera de un contexto utilizable. Las relaciones que entre estos textos pueden establecerse darán una luz nítida sobre un pensamiento fundacional de una escuela de arquitectura y diseño que ha sabido sostener una tradición. Esta tradición ha de contextualizarse con los procesos complejos que los nuevos medios nos traen, en un primer momento, como un paradigma semántico.&lt;/p&gt;
 
-&lt;h3 id=&quot;sitios-relacionados&quot;&gt;Sitios Relacionados&lt;/h3&gt;
-
-&lt;p&gt;amerieda – con§tel&lt;br /&gt;
-&lt;a href=&quot;http://www.amereida.ucv.cl/&quot;&gt;http://www.amereida.ucv.cl/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Blog del proyecto&lt;br /&gt;
-&lt;a href=&quot;http://constel.blogspot.com/&quot;&gt;http://constel.blogspot.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.arquitecturaucv.cl/docs/Constel.pdf&quot;&gt;&lt;img src=&quot;http://www.arquitecturaucv.cl/imag/bot/download.gif&quot; alt=&quot;archivo adjunto&quot; /&gt; informe con§tel 2004*&lt;/a&gt;&lt;/p&gt;
 
     </content>
   </entry>

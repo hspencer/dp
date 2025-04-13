@@ -41,8 +41,8 @@ Y a cada una de ellas la pensamos como una faceta; como una cara de este diamant
 Esta es una propuesta de navegación semántica con mútiples cruces de caminos, de ahí su riqueza. El lector va decidiendo, en cada detención o momento (es decir, ante cada artefacto del archivo) qué camino sigue a continuación (el temático, el social, el temporal o el espacial). Se trata de un territorio rico en señalética, que permite al viajero permanecer siempre orientado en un recorrido intensionado.  
 Es el aparente consumo del lector o investigador, normal cliente del archivo, el que ya no más consume, sino que produce. Porque en su mero acto de recorrer va produciendo encadenaciones direccionadas, linealidades rescatadas desde la maraña. Es justamente a partir de esas deambulaciones que los investigadores articulan nuevos discursos y nuevas lecturas de la historia.
 
+{% include vimeo.html url="https://player.vimeo.com/video/7975655" %}
+
 [Galexia](http://vimeo.com/7975655) de [Christian Campos](http://vimeo.com/user1028045) en [Vimeo](http://vimeo.com/).
 
-[![](http://proyectos.ead.pucv.cl/galexia/images/_aux/logo.png)](http://proyectos.ead.pucv.cl/galexia)
-
-Ver: [documentación completa en el sitio del proyecto](http://proyectos.ead.pucv.cl/galexia "Sitio del Proyecto Galexia").
+Ver: [documentación completa en el sitio del proyecto](https://wiki.ead.pucv.cl/Galexia "Galexia en Casiopea").

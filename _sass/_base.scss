@@ -341,11 +341,13 @@ header {
             }
 
             a.footnote-back {
-                margin-left: 0.5rem;
-                color: vars.$color-red;
+                color: vars.$color-light;
                 text-decoration: none;
                 background-image: none;
-                &:hover{background-image: none;}
+                &:hover{
+                    background-image: none;
+                    color: vars.$color-red;
+                }
             }
         }
 
@@ -479,9 +481,9 @@ header {
             }
 
             input[type="checkbox"]:not(:checked) + span {
-                color: vars.$color-ligher; // Color del texto cuando el checkbox no está seleccionado
+                color: vars.$color-lighter; // Color del texto cuando el checkbox no está seleccionado
                 border-bottom: transparent;
-                border-top: 1px solid vars.$color-ligher;
+                border-top: 1px solid vars.$color-lighter;
             }
 
             span {

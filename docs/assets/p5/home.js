@@ -6,7 +6,7 @@
 
    const minDiameter = 10;
    const maxDiameter = 100;
-   const MAX_LINKS = 2;
+   const MAX_LINKS = 3;
    const hoverThreshold = 1000;
    const fadeDuration = 500;
    
@@ -189,7 +189,7 @@
    }
    
    function draw() {
-    background(223, 220, 203, 30);
+    background(223, 220, 203, 55);
     Engine.update(engine);
     let now = millis();
   
@@ -197,7 +197,7 @@
     let pointerY = touches.length > 0 ? touches[0].y : mouseY;
   
     // draw links
-   // blendMode(SOFT_LIGHT);
+   blendMode(MULTIPLY);
     links.forEach(link => {
       if (!link.bodyA || !link.bodyB) return;
       let aActive = activeElements.some(e => e.body.id === link.bodyA.id);
@@ -211,7 +211,7 @@
        
       }
     });
-   // blendMode(BLEND);
+   blendMode(BLEND);
 
     
     // draw tooltips

@@ -185,10 +185,10 @@
                   "/assets/uploads/2015/08/citipulse-small-multiples.png"
                ,
     "url": "/2015/08/pequenos-multiples/",
-    "largo": 1335,
+    "largo": 1333,
     "contenido":
       
-        "      Había una vez una empresa llamada CitiSent , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país ((a este servicio lo llamamos CitiPulse)).Para construir esta visualización desarrollamos un tesauro ((Un tesaurio es un diccionario jerárquico de palabras. En el caso de Citipulse definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras.)) de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (sentiment analysis) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las difere..."
+        "      Había una vez una empresa llamada CitiSent , donde una de las primeras ideas que tuvimos para ofrecer servicios de visualización se refería a comprender y comparar la calidad de vida de las distintas ciudades del país((a este servicio lo llamamos CitiPulse)).Para construir esta visualización desarrollamos un tesauro((Un tesaurio es un diccionario jerárquico de palabras. En el caso de Citipulse definimos 6 grandes categorías: Medioambiente, Movilidad, Entorno Urbano, Sociabilidad, Gobernanza y Economía Local y Oportunidades. Cada una de ella dividias, a su vez, en otras sub-categorías, hasta completar un vocabulario de alrededor de 500 palabras.)) de 6 grandes temas urbanos que generaban un indicador de percepción a partir del análisis de texto (sentiment analysis) en redes sociales. Cada uno de estos indicadores determina el tamaño de un pétalo, debidamente codificado con un color. La idea es que este sistema de representar (y condensar) la imformación permite comparar muy eficientemente las diferenc..."
       
   },
 
@@ -313,7 +313,7 @@
                   "/assets/uploads/2013/10/4-d.006.jpg"
                ,
     "url": "/2014/02/Diseñando-una-Empresa",
-    "largo": 7408,
+    "largo": 7336,
     "contenido":
       
         "Estos últimos 2 años he estado trabajando en CitiSent. A diferencia de mis proyectos anteriores ((Con§tel (2003-2006) y MediaFranca (2007-2011) )), nacidos en el seno académico y con profundas aspiraciones de construirse, este proyecto es –en realidad– una empresa. El viaje ha sido largo, no exento de complicaciones y desencuentros, pero ha sido una gran experiencia de aprendizaje. En este texto les quiero explicar las cosas que he aprendido y de qué se trata CitiSent.Academia vs. Construir una ObraUn punto importante en la academia es la libertad a la cual uno puede acceder. La academia es un refugio para la investigación y la creación. Esto no es menor. Existe la libertad de cátedra y existe la libertad para preguntarse (y adentrarse) en cualquier terreno. El proyecto Con§tel es fruto de esta libertad especulativa. Este proyecto se preguntaba cómo constuir el acto de del estudio dentro de un universo de textos; cómo, el lector estudioso, que anota, que urde un texto “sobre los hombros de gigantes” en un ..."
@@ -361,7 +361,7 @@
                   "/assets/uploads/2013/05/infinite-loop.png"
                ,
     "url": "/2013/05/el-diseno-o-el-bucle-infinito/",
-    "largo": 5740,
+    "largo": 5739,
     "contenido":
       
         "El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que se basta de sí mismo porque se construye como una cifra , con sus imágenes, sus letras, su código, su discurso y su tiempo. La superficie contiene todas las claves que condensan y fijan el discurso en una cifra gráfica. Ejemplos de esto se encuentran en todas partes: afiches, revistas, envases, carteles, folletos, revistas, libros; incluso las artes gráficas –incluso la pintura– comparten esta naturaleza unidireccional de lo fijo. Y con “lo fijo” no quiero decir que sea cerrado, o restado en alguna medida. Tan solo quiero argumentar que en esta fianza de lo fijo descansa la potencia que tiene el lenguaje visual de hacer detonar, en el lector, toda la potencia de su discurso. El diseñador recibe un argumento –o lo articula– para luego interpretarlo, darle espacio, darle forma, darle voz gráfica; materializa su palabra y su apariencia, le da un tempo, una demora. El diseño gráfico es, ent..."
@@ -633,7 +633,7 @@
                   "https://wiki-ead.b-cdn.net/images/d/df/Galexia_P%C3%A1gina_001.png"
                ,
     "url": "/2009/12/galexia-espacio-y-navegacion-semantica/",
-    "largo": 4120,
+    "largo": 4122,
     "contenido":
       
         "Senderos de la MemoriaEl presente estudio, realizado por Christian Campos, avanza sobre una línea de investigación centrada en lo que llamamos “ palacios de la memoria”. Ellos son los espacios que acopian y ordenan los artefactos del pasado, conocidos como archivos y repositorios digitales. Hacemos un especial énfasis en la dimensión espacial de palacio por sobre el ordenamiento de indexación archivística, porque es precisamente este modo anterior (el espacial) lo que posibilita una mirada escalable e intuitava para los siempre crecientes archivos digitales. Además, la construcción espacial provee al lector de una experiencia de lectura o recorrido más comprensible, ya que en su articulación interna de distancias se revela su logos interno.Antes de seguir adentrándome en el tema del espacio y su modo de recorrerse, debo recordar al lector que este estudio avanza sobre otro anterior: ÅURA; donde se propuso la unificación semántica de archivos digitales por medio de la suite de CONTEXTA, que incluye un integ..."
@@ -1129,10 +1129,10 @@
                   "/assets/pintura/03.jpg"
                ,
     "url": "/2007/05/mediafranca-parte-2/",
-    "largo": 1905,
+    "largo": 1866,
     "contenido":
       
-        "MediaFranca de Herbert Spencer en Vimeo. MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es construir un sistema que conecte a personas con lugares y con temas de interés social (issues) mediante un diáogo simétrico y democrático. Esta plataforma intenta salvar la distancia entre la conversación mediada digitalmente y la conversación cara a cara, promoviendo el paso de la interacción digital a la fí­sica, desplegando palabra en acción, y constituyendo así­ herramientas para la participación ciudadana. Dentro de las caracterí­sticas más importantes del sistema podemos mencionar:  Interfaz fotográfica de AR (Augmented Reality) que permite examinar y atachar contenidos al entorno inmediato  Sistema de notificación por hebras de conversación (conversation threads) suscritas  filtración de información por proximidad o relevancia (dentro de mi red social o lo relevante en el sentido democrático de la palabra),..."
+        "  MediaFranca consiste en una plataforma para dispositivos móbiles que permite a los usuarios postear y atachar contenidos en el espacio fí­sico. La idea es construir un sistema que conecte a personas con lugares y con temas de interés social (issues) mediante un diáogo simétrico y democrático. Esta plataforma intenta salvar la distancia entre la conversación mediada digitalmente y la conversación cara a cara, promoviendo el paso de la interacción digital a la fí­sica, desplegando palabra en acción, y constituyendo así­ herramientas para la participación ciudadana. Dentro de las caracterí­sticas más importantes del sistema podemos mencionar:  Interfaz fotográfica de AR (Augmented Reality) que permite examinar y atachar contenidos al entorno inmediato  Sistema de notificación por hebras de conversación (conversation threads) suscritas  filtración de información por proximidad o relevancia (dentro de mi red social o lo relevante en el sentido democrático de la palabra), esto tiene que ver con la escalabilida..."
       
   },
 
@@ -1289,7 +1289,7 @@
                   "/assets/uploads/2006/07/constel02.png"
                ,
     "url": "/2005/03/constel/",
-    "largo": 5718,
+    "largo": 5623,
     "contenido":
       
         "Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, estudiar y colaborar en este nuevo ámbito semántico-digital; en las nuevas plataformas de gestión y manejo de la información, pero sobre todo, nos preguntamos por la naturaleza visual de las nuevas interfaces que habrán de contener implícitas estas nuevas operatividades y de cómo habrán de instaurarse los nuevos códigos de visualización que necesariamente han de volver legible esta complejidad en ciernes.Ciertamente, nuestra afinidad por el cuidado y Diseño de la interfaz de pantalla nos ha llevado a plantearnos un proyecto que en cierta medida sobrepasa a nuestro oficio en cuanto constructor de este espacio, pues hemos debido incorporar a la dimensión de lectura, la dimensión de uso; un libro tiene abierta esta posibilidad de un modo gratuito en el blanco de sus páginas: un lector realiza una anotación al margen de..."
