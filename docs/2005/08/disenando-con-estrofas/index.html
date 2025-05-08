@@ -14,14 +14,14 @@
     <meta property="og:title" content="Diseñando con Estrofas">
     <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="http://0.0.0.0:4000/2005/08/disenando-con-estrofas/">
-    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+    <meta property="og:url" content="https://herbertspencer.net/2005/08/disenando-con-estrofas/">
+    <meta property="og:image" content="https://herbertspencer.net/android-chrome-512x512.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Diseñando con Estrofas">
     <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+    <meta name="twitter:image" content="https://herbertspencer.net/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -180,7 +180,7 @@
 
 <p>Es por esto, que <a href="http://www.cursos.ucv.cl/arq48300/" title="Gráfica Digital 2005">este año 2005</a>, la asignatura de <a href="http://www.ead.pucv.cl/asignaturas/area-tecnica/grafica-digital/" title="Descripción de la Asignatura">Gráfica Digital</a> se ha adentrado hacia la comprensión de los códigos en juego, específicamente el lenguaje de marcado HTML y el diseño basado en Cascadas de Estilo CSS.</p>
 
-<p>Para esto hemos adherido a la invitación que hace el diseñador <a href="http://www.mezzoblue.com/">Dave Shea</a> en su sitio<a href="http://www.csszengarden.com/" title="El jardín Zen de las CSS">CSSZenGarden</a>. Este sitio renueva permanentemente su lenguaje de aparición, a la manera de un jardín Zen que es transformado por los monjes que construyen su espacio diario de meditación.</p>
+<p>Para esto hemos adherido a la invitación que hace el diseñador <a href="http://www.mezzoblue.com/">Dave Shea</a> en su sitio <a href="http://www.csszengarden.com/" title="El jardín Zen de las CSS">CSSZenGarden</a>. Este sitio renueva permanentemente su lenguaje de aparición, a la manera de un jardín Zen que es transformado por los monjes que construyen su espacio diario de meditación.</p>
 
 <p>Esta metáfora es correcta, pues el diseñador debe renunciar a lo directo de la plástica corriente en términos de insidir visualmente sobre el dibujo de la página. Ahora debe estar por sobre esas particularidades y definir estos atributos visuales desde un texto lateral, al modo de un “manifiesto visual” de la página diseñada. Este camino permite liberar al diseño dejándolo en un plano emancipado del documento. Esto vuelve muchísimo más plástico un sitio en su totalidad y dibuja definitivamente el punto de encuentro entre desarrollo informático y diseño Web: la estructura semántica de marcado.</p>
 
@@ -188,26 +188,39 @@
 
 <h5>*</h5>
 
-<p>&lt;div id=”body”&gt;<br />
-&lt;div id=”encabezado”&gt;<br />
-&lt;div id=”logo”&gt;<br />
-&lt;/div&gt;<br />
-&lt;/div&gt;<br />
-&lt;div id=”contenido”&gt;<br />
-&lt;div id =”menu”&gt;<br />
-&lt;/div&gt;<br />
-&lt;div id=”texto”&gt;<br />
-&lt;div id=”relaciones”&gt;<br />
-&lt;/div&gt;<br />
-&lt;/div&gt;<br />
-&lt;/div&gt;<br />
-&lt;/div&gt;</p>
+<div class="language-html highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">”body”</span><span class="nt">&gt;</span>  
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">”encabezado”</span><span class="nt">&gt;</span>  
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">”logo”</span><span class="nt">&gt;</span>  
+    <span class="nt">&lt;/div&gt;</span>  
+  <span class="nt">&lt;/div&gt;</span>  
+<span class="nt">&lt;/div&gt;</span>  
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">”contenido”</span><span class="nt">&gt;</span>  
+  <span class="nt">&lt;div</span> <span class="na">id =</span><span class="s">”menu”</span><span class="nt">&gt;</span>  
+  <span class="nt">&lt;/div&gt;</span>  
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">”texto”</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span> 
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">”relaciones”</span><span class="nt">&gt;</span> 
+  <span class="nt">&lt;/div&gt;</span> 
+<span class="nt">&lt;/div&gt;</span>  
+</code></pre>
+  </div>
+</div>
 
-<h5 id="mapa-de-divs-o-mapa-de-las-etiquetas-divisiorias-de-un-documentohtml-esta-visualización-permite-comprender-la-estructura-del-documento--es-decir-permite-identificar-las-distintas-partes-que-deben-ser-definidas-en-el-código-css">Mapa de DIVS, o mapa de las etiquetas divisiorias de un documentoHTML. Esta visualización permite comprender la estructura del documento , es decir, permite identificar las distintas partes que deben ser definidas en el código CSS.</h5>
+<p><img src="https://wiki-ead.b-cdn.net/images/0/0d/Mapa_divs_arpa_aura.png" alt="Mapa de Divs" /></p>
 
-<p>Al terminar este curso, cada alumno enviará su proposición de CSS para “re-vestir” el sitio<a href="http://www.csszengarden.com/" title="CSSZenGarden">CSSZenGarden</a>. En este sentido, ententemos el diseño como  <em>la diversión del hábito</em><strong>1</strong>.</p>
+<p class="caption">Mapa de DIVS, o mapa de las etiquetas divisiorias de un documento HTML. Esta visualización permite comprender la estructura del documento, es decir, permite identificar las distintas partes que deben ser definidas en el código CSS y establecer los selectores (cómo especificar cada parte) para poderla diseñar con su estrofa correspondiente.</p>
 
-<p><em>1.- Definición de Diseño acuñada por el profesor José Balcells E.</em></p>
+<p>Al terminar este curso, cada alumno enviará su proposición de CSS para “re-vestir” el sitio <a href="http://www.csszengarden.com/" title="CSSZenGarden">CSSZenGarden</a>. En este sentido, ententemos el diseño como  <em>la diversión del hábito</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>.</p>
+
+<div class="footnotes">
+  <hr />
+
+  <ol>
+<li id="fn:1">Definición de <em>Diseño</em> acuñada por el profesor José Balcells E. <a href="#fnref:1" class="footnote-back">↩</a></li>
+</ol>
+</div>
 
       <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
@@ -231,7 +244,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 17 April 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 8 May 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
   <!-- Google tag (gtag.js) -->
