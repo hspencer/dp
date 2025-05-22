@@ -431,7 +431,7 @@ header {
 
             h3 {
                 font-family: vars.$font-serif !important;
-                color: rgb(187, 31, 3) !important;
+                color: vars.$color-red !important;
             }
 
             .language-plaintext.highlighter-rouge {
@@ -728,4 +728,113 @@ footer {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         transform: translateX(-50%);
       }
+}
+
+/* searchbox */
+
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  position: relative;
+
+  input[type="text"] {
+    flex-grow: 1;
+    padding: .5ex 1em;
+    padding-left: 35px; // Espacio para el icono. Ajusta según el tamaño de tu icono y el margen deseado.
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+
+    &:focus {
+      border-color: vars.$color-text; // Usando tu variable SCSS
+      outline: none;
+    }
+  }
+
+  .search-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    left: 10px; // Distancia desde el borde izquierdo del input
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555; // Color por defecto del icono
+    pointer-events: none; // Permite el clic a través del input
+
+    svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+  }
+
+  // Cambiar el color de la lupa cuando el input está enfocado
+  input[type="text"]:focus + .search-button {
+    color: vars.$color-text; // La lupa se vuelve del color de texto al enfocar
+  }
+}
+
+.search-results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px;
+
+  li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.result-title {
+  a {
+    color: vars.$color-text; // Usando tu variable SCSS
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.result-excerpt {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+.result-meta {
+  font-size: 0.8em;
+  color: #777;
+  display: block;
+  margin-top: 5px;
+}
+
+.no-results-message {
+  padding: 10px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
 }

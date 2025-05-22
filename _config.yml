@@ -6,9 +6,7 @@ locale: es
 baseurl: "" # Deja esto vacío si es tu sitio principal
 url: "https://herbertspencer.net"
 feed:
-  path: "feed.xml" # Esto es opcional; jekyll-feed usa este nombre por defecto
-
-# Habilitar la publicación de posts con fechas futuras
+  path: "feed.xml"
 future: true
 
 # Configuración de construcción

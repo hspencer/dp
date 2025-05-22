@@ -1,42 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-    {% include head.html %}
-    <script>
-        const posts = [
-          {% for post in site.posts %}
-            {
-              title: "{{ post.title | escape }}", 
-              url: "{{ post.url }}",
-              length: {{ post.content | number_of_words }}
-            }{% unless forloop.last %},{% endunless %}
-          {% endfor %}
-        ];
-      </script> 
+{% include head.html %}
+<script>
+  const posts = [{% for post in site.posts %} {
+    title: "{{ post.title | escape }}",
+    url: "{{ post.url }}",
+    length: {
+      {
+        post.content | number_of_words
+      }
+    }
+  } {
+    % unless forloop.last %
+  }, {
+    % endunless %
+  } {
+    % endfor %s
+  }];
+</script> 
+
 <body>{% include header.html %}
-    <main id="dp">
-        <sidebar>
-            <h1 class="title" style="font-weight: 300; font-family: Barlow;">{{ page.title }}</h1>
-           
-           <div id="p5">
-            <div id="p5_loading" class="loading">...</div>
-           </div>
+  <main id="dp">
+    <sidebar>
+      <!DOCTYPE html>
+<html lang="es">
+{% include head.html %}
+<script>
+  const posts = [
+    {% for post in site.posts %}
+    {
+      title: "{{ post.title | escape }}",
+      url: "{{ post.url }}",
+      length: {{ post.content | number_of_words }}
+    }{% unless forloop.last %},{% endunless %}
+    {%<!DOCTYPE html>
+<html lang="es">
+{% include head.html %}
+<script>
+  const posts = [
+    {% for post in site.posts %}
+    {
+      title: "{{ post.title | escape }}",
+      url: "{{ post.url }}",
+      length: {{ post.content | number_of_words }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+</script> 
 
-        </sidebar>
-        
-        <article>
-            {% include last-posts.html %}
-            {{ content }}
-        </article>
-    </main>
-    
-    {% include footer.html %}
+<body>{% include header.html %}
+  <main id="dp">
+    <sidebar>
+      <h1 class="title" style="font-weight: 300; font-family: Barlow;">{{ page.title }}</h1>
+      <div id="p5">
+        <div id="p5_loading" class="loading">...</div>
+      </div>
+    </sidebar>
 
+    <article>
+      {% include last-posts.html %}
+      {{ content }}
+    </article>
+  </main>
 
-    {% if page.p5 %}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
-  
-    <script src="{{ page.p5.script | relative_url }}"></script>
-    {% endif %}
+  {% include footer.html %}
+
+  {% if page.p5 %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+  <script src="{{ page.p5.script | relative_url }}"></script>
+  {% endif %}
 </body>
 {% include google-analytics.html %}
+</html>  endfor %}
+  ];
+</script> 
+
+<body>{% include header.html %}
+  <main id="dp">
+    <sidebar>
+      <h1 class="title" style="font-weight: 300; font-family: Barlow;">{{ page.title }}</h1>
+      <div id="p5">
+        <div id="p5_loading" class="loading">...</div>
+      </div>
+    </sidebar>
+
+    <article>
+      {% include last-posts.html %}
+      {{ content }}
+    </article>
+  </main>
+
+  {% include footer.html %}
+
+  {% if page.p5 %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+  <script src="{{ page.p5.script | relative_url }}"></script>
+  {% endif %}
+</body>
+{% include google-analytics.html %}
+</html> <h1 class="title" style="font-weight: 300; font-family: Barlow;">{{ page.title }}</h1>
+      <div id="p5">
+        <div id="p5_loading" class="loading">...</div>
+      </div>
+
+    </sidebar>
+
+    <article>
+      {% include last-posts.html %}
+      {{ content }}
+    </article>
+  </main>
+
+  {% include footer.html %}
+
+
+  {% if page.p5 %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+
+  <script src="{{ page.p5.script | relative_url }}"></script>
+  {% endif %}
+</body>
+{% include google-analytics.html %}
+
 </html> 

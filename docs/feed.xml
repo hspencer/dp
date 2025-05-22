@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-05-21T19:15:24-04:00</updated>
+  <updated>2025-05-22T15:17:35-04:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -11,15 +11,15 @@
   
   <entry>
     <title>Teoría de la Equivalencia de Complejidad Socio-Técnica</title>
-    <link href="http://0.0.0.0:4000/Theory-of-socio-technical-equivalence"/>
+    <link href="http://0.0.0.0:4000/2025/Theory-of-socio-technical-equivalence"/>
     <updated>2025-05-21T00:00:00-04:00</updated>
-    <id>http://0.0.0.0:4000/Teoria-de-la-equivalencia</id>
+    <id>http://0.0.0.0:4000/2025/Teoria-de-la-equivalencia</id>
     <content type="html">
       &lt;h2 id=&quot;una-propuesta-inacabada&quot;&gt;Una propuesta inacabada&lt;/h2&gt;
 
 &lt;p&gt;Propongo en este borrador la noción de una &lt;em&gt;teoría de la equivalencia de complejidad socio-técnica&lt;/em&gt;, inspirada en la idea de &lt;em&gt;convivencialidad&lt;/em&gt; desarrollada por Ivan Illich((Illich, I. (1973). &lt;em&gt;Tools for Conviviality&lt;/em&gt;. Harper &amp;amp; Row.)), y en parte también por lo que Kevin Kelly llama el &lt;em&gt;technium&lt;/em&gt;: ese ecosistema emergente de tecnologías vivas que crece, evoluciona y se entrelaza con la cultura((Kelly, K. (2010). &lt;em&gt;What Technology Wants&lt;/em&gt;. Viking Penguin.)).&lt;/p&gt;
 
-&lt;p&gt;La tesis es simple: &lt;strong&gt;la humanidad debe crecer en complejidad y agencia en la misma proporción que crecen sus herramientas técnicas.&lt;/strong&gt; Si esta relación se desbalancea, las consecuencias no son neutras: una humanidad incapaz de modular, comprender o deliberar sobre las tecnologías que utiliza termina siendo determinada por ellas.&lt;/p&gt;
+&lt;p&gt;La tesis es simple: &lt;strong&gt;la humanidad debe crecer en complejidad y agencia en la misma proporción que crecen sus herramientas técnicas.&lt;/strong&gt; Si esta relación se desbalancea, las consecuencias no son neutras: una humanidad incapaz de modular, comprender o deliberar sobre las tecnologías que utiliza termina siendo determinada por ellas. El problema de la &lt;em&gt;alineación con la IA&lt;/em&gt; pasa por el grado de sofisticación social y la capacidad que tengamos de trascender los problemas de &lt;em&gt;acción colectiva&lt;/em&gt;, dilemas sociales o “tragedias de los comunes”.&lt;/p&gt;
 
 &lt;h2 id=&quot;la-disonancia-de-las-redes-sociales&quot;&gt;La disonancia de las redes sociales&lt;/h2&gt;
 
@@ -30,6 +30,8 @@
 &lt;h2 id=&quot;tecnología-para-qué&quot;&gt;¿Tecnología para qué?&lt;/h2&gt;
 
 &lt;p&gt;El problema no es la tecnología en sí, sino la forma en que se acopla —o desacopla— de los procesos formativos y comunitarios. Así como el equilibrio ecológico permite la biodiversidad, el equilibrio entre humanidad y técnica permite la &lt;strong&gt;diversidad de pensamiento, la agencia distribuida y la deliberación compleja&lt;/strong&gt;((Don Ihde sostiene que toda tecnología configura un horizonte de posibilidades perceptivas, pero también de restricciones. Ver: Ihde, D. (1990). &lt;em&gt;Technology and the Lifeworld: From Garden to Earth&lt;/em&gt;. Indiana University Press.)).&lt;/p&gt;
+
+&lt;p&gt;La lógica del &lt;em&gt;problem solving&lt;/em&gt;, que ha sido el impulso dominante de la técnica moderna, está mostrando señales de agotamiento. Resolver problemas se ha vuelto el fin en sí mismo, desplazando la pregunta por el sentido de las soluciones. Esta orientación instrumental —alineada con el telos de la eficiencia, la fricción cero y la vida sin obstáculos— anula progresivamente la agencia humana((Ver Illich, &lt;em&gt;La sociedad desescolarizada&lt;/em&gt;, donde critica los sistemas que reemplazan la competencia humana por procedimientos institucionalizados.)). La promesa de una existencia optimizada gana tracción en el mercado por su facilidad de consumo, pero a largo plazo debilita las capacidades deliberativas, reflexivas y comunitarias. Si todo está resuelto, no queda espacio para imaginar. Por eso es urgente pensar la tecnología no solo como herramienta, sino como entorno de posibilidad, como generadora de &lt;em&gt;espacios de sentido&lt;/em&gt;. No se trata de llegar más rápido a donde siempre hemos ido, sino de alcanzar lugares nuevos donde hacer cosas que aún no podemos concebir. El modelo de resolución de problemas, el extractivismo cognitivo del capitalismo digital y la democracia representativa como administración de lo dado han llegado a un límite. El desafío de nuestra época es imaginar y crear otros fines: nuevos imaginarios simbólicos, nuevas prácticas de sentido compartido y formas colectivas de cohabitación planetaria que no se basen en la supresión del conflicto, sino en su elaboración creativa.&lt;/p&gt;
 
 &lt;p&gt;Una tecnología bien diseñada debe estar acompañada por una humanidad bien educada. Un ejemplo es la &lt;em&gt;wiki&lt;/em&gt;, un software convivial por excelencia: sencillo, editable, transparente. Pero requiere una comunidad alfabetizada, comprometida, deliberante. No es casual que donde florecen wikis también florece ciudadanía. En cambio, las plataformas hegemónicas actuales son &lt;em&gt;anti-conviviales&lt;/em&gt;: limitan la agencia, ocultan el código, predicen y condicionan. Su éxito comercial es inversamente proporcional a la profundidad del pensamiento que inducen.&lt;/p&gt;
 
@@ -47,17 +49,18 @@
 
 &lt;h2 id=&quot;cierre-provisorio&quot;&gt;Cierre provisorio&lt;/h2&gt;
 
-&lt;p&gt;La teoría de la equivalencia de complejidad socio-técnica parte del reconocimiento de una verdad básica: &lt;strong&gt;no podemos permitir que la técnica avance más rápido que nuestra humanidad&lt;/strong&gt;. No se trata de ralentizar la innovación, sino de sincronizarla con nuestros procesos éticos, educativos y comunitarios. Solo así evitaremos que las herramientas que diseñamos nos diseñen a nosotros, y en cambio, podamos imaginar tecnologías que expandan lo mejor de lo humano.&lt;/p&gt;
+&lt;p&gt;La teoría de la equivalencia de complejidad socio-técnica no se funda en la necesidad de contener el avance tecnológico, sino en &lt;strong&gt;reconocer el riesgo de abdicar nuestra agencia&lt;/strong&gt; en favor de sistemas que deciden por nosotros. No se trata de ralentizar la innovación, sino de evitar que su promesa de eficiencia derive en complacencia y delegación absoluta: de nuestras decisiones, de nuestras formas de comunicación, incluso de nuestra subjetividad. Una tecnología que amplifica nuestras capacidades no debería conducirnos a la inacción, sino impulsarnos a pensar de nuevo nuestra cultura, ahora dotada de otras potencias.&lt;/p&gt;
 
+&lt;p&gt;La técnica no existe para reemplazarnos, sino para &lt;strong&gt;abrir posibilidades nuevas de acción, creación y convivencia&lt;/strong&gt;. Su velocidad no debería ser excusa para dejar de hacer, sino motor para hacer más y mejor, sin perder de vista nuestras razones fundamentales para actuar en común. Por eso, el verdadero desafío no está en la técnica, sino en lo que hacemos con ella: en cómo educamos nuestras sensibilidades, cómo cultivamos el juicio y cómo nos reconocemos como integrantes activos de un colectivo cada vez más diverso, interdependiente y complejo. El diseño de futuros no es tarea de algoritmos, sino de comunidades lúcidas que se piensan a sí mismas a la altura de su tiempo.&lt;/p&gt;
 
     </content>
   </entry>
   
   <entry>
     <title>PictoNet</title>
-    <link href="http://0.0.0.0:4000/PictoNet"/>
+    <link href="http://0.0.0.0:4000/2025/PictoNet"/>
     <updated>2025-04-10T06:03:01-04:00</updated>
-    <id>http://0.0.0.0:4000/PictoNet</id>
+    <id>http://0.0.0.0:4000/2025/PictoNet</id>
     <content type="html">
       &lt;h2 id=&quot;un-sistema-visual-para-comprender-comunicar-y-construir-sentido&quot;&gt;Un sistema visual para comprender, comunicar y construir sentido&lt;/h2&gt;
 
@@ -4562,7 +4565,9 @@ construirlo en su juego…&lt;/p&gt;
     <updated>2004-11-05T16:12:48-03:00</updated>
     <id>http://0.0.0.0:4000/2004/11/travesia-a-iruya</id>
     <content type="html">
-      &lt;p&gt;&lt;em&gt;nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptible&lt;/em&gt;&lt;/p&gt;
+      &lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptible&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;día-once&quot;&gt;Día Once&lt;/h2&gt;
 

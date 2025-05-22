@@ -14,7 +14,7 @@
     <meta property="og:title" content="Teoría de la Equivalencia de Complejidad Socio-Técnica">
     <meta property="og:description" content="Propongo en este borrador la noción de una teoría de la equivalencia de complejidad socio-técnica: la humanidad debe crecer en complejidad y agencia en la misma proporción que crecen su tecnología.">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="http://0.0.0.0:4000/Theory-of-socio-technical-equivalence">
+    <meta property="og:url" content="http://0.0.0.0:4000/2025/Theory-of-socio-technical-equivalence">
     <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
 
     <!-- Twitter -->
@@ -43,6 +43,142 @@
   <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} · doble página</a></h1>
+        
+        <div class="search-container">
+  <form id="search-form" action="#" method="get" class="search-form">
+      <input type="text" name="query" id="search-input" placeholder="Search..." aria-label="Buscar" autocomplete="off">
+      <button type="submit" aria-label="Submit Search" class="search-button">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-fw">
+          <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 352c-79.5 0-144-64.5-144-144s64.5-144 144-144 144 64.5 144 144-64.5 144-144 144z"></path>
+        </svg>
+      </button>
+  </form>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchForm = document.getElementById("search-form");
+    const searchInput = document.getElementById("search-input");
+    const articleElement = document.querySelector("article");
+    const searchResultsTempDisplay = document.getElementById("search-results-temp-display");
+
+    let originalArticleContent = '';
+    let searchIndex = [];
+
+    // --- Lógica para el placeholder multilingüe ---
+    function setPlaceholderByLanguage() {
+      const userLang = navigator.language || navigator.userLanguage;
+      let placeholderText = "Search..."; // Placeholder por defecto (inglés)
+
+      if (userLang.startsWith('es')) {
+        placeholderText = "Buscar..."; 
+      } else if (userLang.startsWith('en')) {
+        placeholderText = "Search...";
+      } else if (userLang.startsWith('de')) {
+        placeholderText = "Suchen...";
+      }
+      // Añade más idiomas aquí según sea necesario
+
+      searchInput.setAttribute('placeholder', placeholderText);
+      searchInput.setAttribute('aria-label', placeholderText); 
+    }
+
+    setPlaceholderByLanguage(); // Llama a la función para establecer el placeholder inicial
+
+
+    // Cargar el índice de búsqueda (feed.json)
+    fetch("/feed.json")
+      .then(response => response.json())
+      .then(data => {
+        searchIndex = data;
+        console.log("Índice de búsqueda cargado desde feed.json:", searchIndex);
+      })
+      .catch(error => {
+        console.error("Error al cargar el índice de búsqueda desde feed.json:", error);
+        searchResultsTempDisplay.innerHTML = "<p class='no-results-message'>Error al cargar el buscador. Intente de nuevo más tarde.</p>";
+      });
+
+    // Atajo de teclado para enfocar el input de búsqueda (Ctrl + / o Cmd + /)
+    document.addEventListener('keydown', function (e) {
+      if ((e.ctrlKey || e.metaKey) && e.key === '/') {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    });
+
+    function displayResultsInArticle(results) {
+      if (originalArticleContent === '') {
+        originalArticleContent = articleElement.innerHTML;
+      }
+
+      articleElement.innerHTML = '';
+
+      if (results.length > 0) {
+        const resultsList = document.createElement("ul");
+        resultsList.className = "search-results-list";
+        results.forEach(item => {
+          const listItem = document.createElement("li");
+          const formattedDate = new Date(item.fecha).toLocaleDateString(navigator.language || navigator.userLanguage, { year: 'numeric', month: 'long', day: 'numeric' });
+          listItem.innerHTML = `
+            <h3 class="result-title"><a href="${item.url}">${item.titulo}</a></h3>
+            <p class="result-excerpt">${item.contenido.substring(0, 200)}...</p>
+            <small class="result-meta">${formattedDate} ${item.categorias && item.categorias.length > 0 ? ' | Categorías: ' + item.categorias.join(', ') : ''} ${item.etiquetas && item.etiquetas.length > 0 ? ' | Etiquetas: ' + item.etiquetas.join(', ') : ''}</small>
+          `;
+          resultsList.appendChild(listItem);
+        });
+        articleElement.appendChild(resultsList);
+      } else {
+        articleElement.innerHTML = '<p class="no-results-message">No se encontraron resultados para su búsqueda.</p>';
+      }
+    }
+
+    searchForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      performSearch();
+    });
+
+    searchInput.addEventListener("input", function() {
+        if (searchInput.value.length >= 2 || searchInput.value.length === 0) {
+            performSearch();
+        }
+    });
+
+    function performSearch() {
+        const query = searchInput.value.toLowerCase().trim();
+
+        if (query.length === 0) {
+            if (originalArticleContent !== '') {
+              articleElement.innerHTML = originalArticleContent;
+            }
+            return;
+        }
+
+        const filteredResults = searchIndex.filter(item => {
+            const titleMatches = item.titulo && item.titulo.toLowerCase().includes(query);
+            const contentMatches = item.contenido && item.contenido.toLowerCase().includes(query);
+            const categoriesMatches = Array.isArray(item.categorias) && item.categorias.some(cat => cat.toLowerCase().includes(query));
+            const tagsMatches = Array.isArray(item.etiquetas) && item.etiquetas.some(tag => tag.toLowerCase().includes(query));
+            
+            return titleMatches || contentMatches || categoriesMatches || tagsMatches;
+        });
+
+        displayResultsInArticle(filteredResults);
+    }
+
+    document.addEventListener('click', function(event) {
+        if (!searchForm.contains(event.target) && searchInput.value.length === 0 && originalArticleContent !== '' && articleElement.innerHTML !== originalArticleContent) {
+            articleElement.innerHTML = originalArticleContent;
+        }
+    });
+
+    searchInput.addEventListener('focusout', function() {
+        if (searchInput.value.length === 0 && originalArticleContent !== '' && articleElement.innerHTML !== originalArticleContent) {
+            articleElement.innerHTML = originalArticleContent;
+        }
+    });
+  });
+</script>
+        
         <!-- Botón toggle -->
         <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
     </div>
@@ -76,7 +212,6 @@
     </script>
  </header>
 
-
   <main id="dp">
     <sidebar>
       <h1 class="title">Teoría de la Equivalencia de Complejidad Socio-Técnica</h1>
@@ -85,7 +220,7 @@
       
         <figure>
           <img
-            src="/assets/uploads/2025/05/theory-of-equivalence-01.png"
+            src="/assets/uploads/2025/05/theory-of-equivalence-05.png"
             alt=""
             class=""
             style=""
@@ -120,7 +255,7 @@
             <a href="/2008/10/como-disenar-democracia-en-la-red/">Cómo diseñar democracia en la red</a><span class="tag">democracia</span></li><li>
             <a href="/2010/06/disenar-un-servicio/">Diseñar un Servicio</a><span class="tag">mediafranca</span></li><li>
             <a href="/2013/05/el-diseno-o-el-bucle-infinito/">El Diseño, o el bucle infinito</a><span class="tag">democracia</span></li><li>
-            <a href="/PictoNet">PictoNet</a><span class="tag">mediafranca</span></li></ul>
+            <a href="/2025/PictoNet">PictoNet</a><span class="tag">mediafranca</span></li></ul>
     </div>
 
       <!-- Link a la cita -->
@@ -134,19 +269,19 @@
       <h4>APA (7ª edición)</h4>
       <p id="apa-cita">
         Spencer, H. (2025, May 21). <em>Teoría de la Equivalencia de Complejidad Socio-Técnica</em>. 
-        En <em>{dp} · doble página</em>. https://herbertspencer.net/Theory-of-socio-technical-equivalence. Visitado en: <span class="fecha-acceso"></span>
+        En <em>{dp} · doble página</em>. https://herbertspencer.net/2025/Theory-of-socio-technical-equivalence. Visitado en: <span class="fecha-acceso"></span>
       </p>
   
       <h4>MLA</h4>
       <p id="mla-cita">
         Spencer, Herbert. "<em>Teoría de la Equivalencia de Complejidad Socio-Técnica</em>." <em>{dp} · doble página</em>, 21 May 2025, 
-        https://herbertspencer.net/Theory-of-socio-technical-equivalence. Accedido el <span class="fecha-acceso"></span>.
+        https://herbertspencer.net/2025/Theory-of-socio-technical-equivalence. Accedido el <span class="fecha-acceso"></span>.
       </p>
   
       <h4>Chicago</h4>
       <p id="chicago-cita">
         Spencer, Herbert. "<em>Teoría de la Equivalencia de Complejidad Socio-Técnica</em>." {dp} · doble página. Publicado el 21 de May de 2025. 
-        https://herbertspencer.net/Theory-of-socio-technical-equivalence. Consultado el <span class="fecha-acceso"></span>.
+        https://herbertspencer.net/2025/Theory-of-socio-technical-equivalence. Consultado el <span class="fecha-acceso"></span>.
       </p>
     </div>
   </div>
@@ -180,7 +315,7 @@
 
 <p>Propongo en este borrador la noción de una <em>teoría de la equivalencia de complejidad socio-técnica</em>, inspirada en la idea de <em>convivencialidad</em> desarrollada por Ivan Illich<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>, y en parte también por lo que Kevin Kelly llama el <em>technium</em>: ese ecosistema emergente de tecnologías vivas que crece, evoluciona y se entrelaza con la cultura<sup id="fnref:2"><a href="#fn:2" class="footnote-ref">2</a></sup>.</p>
 
-<p>La tesis es simple: <strong>la humanidad debe crecer en complejidad y agencia en la misma proporción que crecen sus herramientas técnicas.</strong> Si esta relación se desbalancea, las consecuencias no son neutras: una humanidad incapaz de modular, comprender o deliberar sobre las tecnologías que utiliza termina siendo determinada por ellas.</p>
+<p>La tesis es simple: <strong>la humanidad debe crecer en complejidad y agencia en la misma proporción que crecen sus herramientas técnicas.</strong> Si esta relación se desbalancea, las consecuencias no son neutras: una humanidad incapaz de modular, comprender o deliberar sobre las tecnologías que utiliza termina siendo determinada por ellas. El problema de la <em>alineación con la IA</em> pasa por el grado de sofisticación social y la capacidad que tengamos de trascender los problemas de <em>acción colectiva</em>, dilemas sociales o “tragedias de los comunes”.</p>
 
 <h2 id="la-disonancia-de-las-redes-sociales">La disonancia de las redes sociales</h2>
 
@@ -191,6 +326,8 @@
 <h2 id="tecnología-para-qué">¿Tecnología para qué?</h2>
 
 <p>El problema no es la tecnología en sí, sino la forma en que se acopla —o desacopla— de los procesos formativos y comunitarios. Así como el equilibrio ecológico permite la biodiversidad, el equilibrio entre humanidad y técnica permite la <strong>diversidad de pensamiento, la agencia distribuida y la deliberación compleja</strong><sup id="fnref:4"><a href="#fn:4" class="footnote-ref">4</a></sup>.</p>
+
+<p>La lógica del <em>problem solving</em>, que ha sido el impulso dominante de la técnica moderna, está mostrando señales de agotamiento. Resolver problemas se ha vuelto el fin en sí mismo, desplazando la pregunta por el sentido de las soluciones. Esta orientación instrumental —alineada con el telos de la eficiencia, la fricción cero y la vida sin obstáculos— anula progresivamente la agencia humana<sup id="fnref:5"><a href="#fn:5" class="footnote-ref">5</a></sup>. La promesa de una existencia optimizada gana tracción en el mercado por su facilidad de consumo, pero a largo plazo debilita las capacidades deliberativas, reflexivas y comunitarias. Si todo está resuelto, no queda espacio para imaginar. Por eso es urgente pensar la tecnología no solo como herramienta, sino como entorno de posibilidad, como generadora de <em>espacios de sentido</em>. No se trata de llegar más rápido a donde siempre hemos ido, sino de alcanzar lugares nuevos donde hacer cosas que aún no podemos concebir. El modelo de resolución de problemas, el extractivismo cognitivo del capitalismo digital y la democracia representativa como administración de lo dado han llegado a un límite. El desafío de nuestra época es imaginar y crear otros fines: nuevos imaginarios simbólicos, nuevas prácticas de sentido compartido y formas colectivas de cohabitación planetaria que no se basen en la supresión del conflicto, sino en su elaboración creativa.</p>
 
 <p>Una tecnología bien diseñada debe estar acompañada por una humanidad bien educada. Un ejemplo es la <em>wiki</em>, un software convivial por excelencia: sencillo, editable, transparente. Pero requiere una comunidad alfabetizada, comprometida, deliberante. No es casual que donde florecen wikis también florece ciudadanía. En cambio, las plataformas hegemónicas actuales son <em>anti-conviviales</em>: limitan la agencia, ocultan el código, predicen y condicionan. Su éxito comercial es inversamente proporcional a la profundidad del pensamiento que inducen.</p>
 
@@ -208,7 +345,9 @@
 
 <h2 id="cierre-provisorio">Cierre provisorio</h2>
 
-<p>La teoría de la equivalencia de complejidad socio-técnica parte del reconocimiento de una verdad básica: <strong>no podemos permitir que la técnica avance más rápido que nuestra humanidad</strong>. No se trata de ralentizar la innovación, sino de sincronizarla con nuestros procesos éticos, educativos y comunitarios. Solo así evitaremos que las herramientas que diseñamos nos diseñen a nosotros, y en cambio, podamos imaginar tecnologías que expandan lo mejor de lo humano.</p>
+<p>La teoría de la equivalencia de complejidad socio-técnica no se funda en la necesidad de contener el avance tecnológico, sino en <strong>reconocer el riesgo de abdicar nuestra agencia</strong> en favor de sistemas que deciden por nosotros. No se trata de ralentizar la innovación, sino de evitar que su promesa de eficiencia derive en complacencia y delegación absoluta: de nuestras decisiones, de nuestras formas de comunicación, incluso de nuestra subjetividad. Una tecnología que amplifica nuestras capacidades no debería conducirnos a la inacción, sino impulsarnos a pensar de nuevo nuestra cultura, ahora dotada de otras potencias.</p>
+
+<p>La técnica no existe para reemplazarnos, sino para <strong>abrir posibilidades nuevas de acción, creación y convivencia</strong>. Su velocidad no debería ser excusa para dejar de hacer, sino motor para hacer más y mejor, sin perder de vista nuestras razones fundamentales para actuar en común. Por eso, el verdadero desafío no está en la técnica, sino en lo que hacemos con ella: en cómo educamos nuestras sensibilidades, cómo cultivamos el juicio y cómo nos reconocemos como integrantes activos de un colectivo cada vez más diverso, interdependiente y complejo. El diseño de futuros no es tarea de algoritmos, sino de comunidades lúcidas que se piensan a sí mismas a la altura de su tiempo.</p>
 
 <div class="footnotes">
   <hr />
@@ -218,6 +357,7 @@
 <li id="fn:2">Kelly, K. (2010). <em>What Technology Wants</em>. Viking Penguin. <a href="#fnref:2" class="footnote-back">↩</a></li>
 <li id="fn:3">Han, B.-C. (2015). <em>La sociedad del cansancio</em>. Herder. <a href="#fnref:3" class="footnote-back">↩</a></li>
 <li id="fn:4">Don Ihde sostiene que toda tecnología configura un horizonte de posibilidades perceptivas, pero también de restricciones. Ver: Ihde, D. (1990). <em>Technology and the Lifeworld: From Garden to Earth</em>. Indiana University Press. <a href="#fnref:4" class="footnote-back">↩</a></li>
+<li id="fn:5">Ver Illich, <em>La sociedad desescolarizada</em>, donde critica los sistemas que reemplazan la competencia humana por procedimientos institucionalizados. <a href="#fnref:5" class="footnote-back">↩</a></li>
 </ol>
 </div>
 
@@ -243,7 +383,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 21 May 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 22 May 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
   <!-- Google tag (gtag.js) -->

@@ -20,7 +20,7 @@ permalink: /feed.json
       {% if post.description %}
         {{ post.description | strip_newlines | jsonify }}
       {% else %}
-        {{ post.content | strip_html | strip_newlines | truncate: 1024 | jsonify }}
+        {{ post.content | strip_html | strip_newlines | truncate: 2048 | jsonify }}
       {% endif %}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}

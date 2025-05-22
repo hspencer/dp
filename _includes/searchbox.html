@@ -1,53 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="author" content="Herbert Spencer">
-    <meta name="copyright" content="(cc) Todos los contenidos bajo Creative Commons BY 4.0">
-    <title>Buscador de patrones en el caos · {dp} · doble página</title>
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:site_name" content="{dp} · doble página">
-    <meta property="og:title" content="Buscador de patrones en el caos">
-    <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://0.0.0.0:4000/2007/11/primes-modulator-full/">
-    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Buscador de patrones en el caos">
-    <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
-  
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-  
-    <!-- Feed -->
-    <link rel="alternate" type="application/atom+xml" title="Feed de Posts" href="/feed.xml">
-
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
-      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script> -->
-    
-  
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-  </head>
-  
-  <body>
-    <header>
-    <div class="navbar">
-        <h1 id="title"><a href="/">{dp} · doble página</a></h1>
-        
-        <div class="search-container">
+<div class="search-container">
   <form id="search-form" action="#" method="get" class="search-form">
       <input type="text" name="query" id="search-input" placeholder="Search..." aria-label="Buscar" autocomplete="off">
       <button type="submit" aria-label="Submit Search" class="search-button">
@@ -90,7 +41,7 @@
 
 
     // Cargar el índice de búsqueda (feed.json)
-    fetch("/feed.json")
+    fetch("{{ '/feed.json' | relative_url }}")
       .then(response => response.json())
       .then(data => {
         searchIndex = data;
@@ -181,82 +132,3 @@
     });
   });
 </script>
-        
-        <!-- Botón toggle -->
-        <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
-    </div>
-    <nav id="main" hidden>
-      <ul>
-        
-        
-          <li>
-            <a class="nav-link" href="/about/herbert-spencer/">Acerca del autor</a>
-          </li>
-        
-          <li>
-            <a class="nav-link" href="/about/doble-pagina/">doble página · {dp}</a>
-          </li>
-        
-      </ul>
-    </nav>
-    <!-- Script de toggle -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const btn = document.getElementById("toggle-nav");
-        const nav = document.getElementById("main");
-        btn.addEventListener("click", function (e) {
-          e.preventDefault();
-          const isHidden = nav.hasAttribute("hidden");
-          nav.toggleAttribute("hidden");
-          btn.textContent = isHidden ? "[–]" : "[+]";
-          btn.setAttribute("aria-expanded", isHidden);
-        });
-      });
-    </script>
- </header>
-
-    <main id="dp-full">
-     <article>
-        <h1 class="title">Buscador de patrones en el caos</h1>
-        
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-        <div id="p5"></div>
-        <script src="/assets/p5/primes-modulator.js"></script>
-        <p>Para controlar la visualización, se elije el valor a modificar usando los triángulos (flechas) de los controles del lado izquierdo. Las variables que se controlan pueden ser continuas o discretas. Para aumentar o disminuir presionar sobre los rectángulos superior (+) e inferior (-). Las variables continuas se pueden modificar en menor o major medida dependiendo de en qué altura del rectángulo se presione. Esto puede resultar muy confuso pero otorga más control.</p>
-
-<p>Otras funciones:</p>
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">s</code> para cambiar de espiral</li>
-  <li><code class="language-plaintext highlighter-rouge">d</code> y <code class="language-plaintext highlighter-rouge">c</code> para aumentar o disminuir el total de números representados</li>
-  <li><code class="language-plaintext highlighter-rouge">ESPACIO</code> para resetear el espiral</li>
-</ul>
-
-     </article>
-    </main>
-    <footer>
-   <p>
-     <a href="/about/doble-pagina">{doble página}</a> es el sitio personal de 
-     <a href="/about/herbert-spencer">Herbert Spencer</a>, iniciado en 2003.  
-     Los contenidos están bajo licencia 
-     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.  
-   </p>
-   <p>
-     El sitio está generado con <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, 
-     el código fuente está en <a href="https://github.com/hspencer/dp" target="_blank" rel="noopener">GitHub</a>, 
-     y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
-   </p>
-   <p>
-     Última actualización: 22 May 2025 - <a href="/feed.xml">Feed RSS</a>.
-   </p>
- </footer>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ML0YZPJS32"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ML0YZPJS32');
-</script>
-  </body>
-</html>

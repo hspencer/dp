@@ -43,6 +43,142 @@
   <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} · doble página</a></h1>
+        
+        <div class="search-container">
+  <form id="search-form" action="#" method="get" class="search-form">
+      <input type="text" name="query" id="search-input" placeholder="Search..." aria-label="Buscar" autocomplete="off">
+      <button type="submit" aria-label="Submit Search" class="search-button">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-fw">
+          <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 352c-79.5 0-144-64.5-144-144s64.5-144 144-144 144 64.5 144 144-64.5 144-144 144z"></path>
+        </svg>
+      </button>
+  </form>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchForm = document.getElementById("search-form");
+    const searchInput = document.getElementById("search-input");
+    const articleElement = document.querySelector("article");
+    const searchResultsTempDisplay = document.getElementById("search-results-temp-display");
+
+    let originalArticleContent = '';
+    let searchIndex = [];
+
+    // --- Lógica para el placeholder multilingüe ---
+    function setPlaceholderByLanguage() {
+      const userLang = navigator.language || navigator.userLanguage;
+      let placeholderText = "Search..."; // Placeholder por defecto (inglés)
+
+      if (userLang.startsWith('es')) {
+        placeholderText = "Buscar..."; 
+      } else if (userLang.startsWith('en')) {
+        placeholderText = "Search...";
+      } else if (userLang.startsWith('de')) {
+        placeholderText = "Suchen...";
+      }
+      // Añade más idiomas aquí según sea necesario
+
+      searchInput.setAttribute('placeholder', placeholderText);
+      searchInput.setAttribute('aria-label', placeholderText); 
+    }
+
+    setPlaceholderByLanguage(); // Llama a la función para establecer el placeholder inicial
+
+
+    // Cargar el índice de búsqueda (feed.json)
+    fetch("/feed.json")
+      .then(response => response.json())
+      .then(data => {
+        searchIndex = data;
+        console.log("Índice de búsqueda cargado desde feed.json:", searchIndex);
+      })
+      .catch(error => {
+        console.error("Error al cargar el índice de búsqueda desde feed.json:", error);
+        searchResultsTempDisplay.innerHTML = "<p class='no-results-message'>Error al cargar el buscador. Intente de nuevo más tarde.</p>";
+      });
+
+    // Atajo de teclado para enfocar el input de búsqueda (Ctrl + / o Cmd + /)
+    document.addEventListener('keydown', function (e) {
+      if ((e.ctrlKey || e.metaKey) && e.key === '/') {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    });
+
+    function displayResultsInArticle(results) {
+      if (originalArticleContent === '') {
+        originalArticleContent = articleElement.innerHTML;
+      }
+
+      articleElement.innerHTML = '';
+
+      if (results.length > 0) {
+        const resultsList = document.createElement("ul");
+        resultsList.className = "search-results-list";
+        results.forEach(item => {
+          const listItem = document.createElement("li");
+          const formattedDate = new Date(item.fecha).toLocaleDateString(navigator.language || navigator.userLanguage, { year: 'numeric', month: 'long', day: 'numeric' });
+          listItem.innerHTML = `
+            <h3 class="result-title"><a href="${item.url}">${item.titulo}</a></h3>
+            <p class="result-excerpt">${item.contenido.substring(0, 200)}...</p>
+            <small class="result-meta">${formattedDate} ${item.categorias && item.categorias.length > 0 ? ' | Categorías: ' + item.categorias.join(', ') : ''} ${item.etiquetas && item.etiquetas.length > 0 ? ' | Etiquetas: ' + item.etiquetas.join(', ') : ''}</small>
+          `;
+          resultsList.appendChild(listItem);
+        });
+        articleElement.appendChild(resultsList);
+      } else {
+        articleElement.innerHTML = '<p class="no-results-message">No se encontraron resultados para su búsqueda.</p>';
+      }
+    }
+
+    searchForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      performSearch();
+    });
+
+    searchInput.addEventListener("input", function() {
+        if (searchInput.value.length >= 2 || searchInput.value.length === 0) {
+            performSearch();
+        }
+    });
+
+    function performSearch() {
+        const query = searchInput.value.toLowerCase().trim();
+
+        if (query.length === 0) {
+            if (originalArticleContent !== '') {
+              articleElement.innerHTML = originalArticleContent;
+            }
+            return;
+        }
+
+        const filteredResults = searchIndex.filter(item => {
+            const titleMatches = item.titulo && item.titulo.toLowerCase().includes(query);
+            const contentMatches = item.contenido && item.contenido.toLowerCase().includes(query);
+            const categoriesMatches = Array.isArray(item.categorias) && item.categorias.some(cat => cat.toLowerCase().includes(query));
+            const tagsMatches = Array.isArray(item.etiquetas) && item.etiquetas.some(tag => tag.toLowerCase().includes(query));
+            
+            return titleMatches || contentMatches || categoriesMatches || tagsMatches;
+        });
+
+        displayResultsInArticle(filteredResults);
+    }
+
+    document.addEventListener('click', function(event) {
+        if (!searchForm.contains(event.target) && searchInput.value.length === 0 && originalArticleContent !== '' && articleElement.innerHTML !== originalArticleContent) {
+            articleElement.innerHTML = originalArticleContent;
+        }
+    });
+
+    searchInput.addEventListener('focusout', function() {
+        if (searchInput.value.length === 0 && originalArticleContent !== '' && articleElement.innerHTML !== originalArticleContent) {
+            articleElement.innerHTML = originalArticleContent;
+        }
+    });
+  });
+</script>
+        
         <!-- Botón toggle -->
         <a href="#" id="toggle-nav" aria-expanded="false">[+]</a>
     </div>
@@ -75,7 +211,6 @@
       });
     </script>
  </header>
-
 
   <main id="dp">
     <sidebar>
@@ -248,7 +383,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 21 May 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 22 May 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
   <!-- Google tag (gtag.js) -->

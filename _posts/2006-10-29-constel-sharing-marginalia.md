@@ -16,6 +16,7 @@ tags:
 - marginalia
 - anotación
 - estudio
+- constel
 image:
   path: /assets/uploads/2006/07/constel03.png
   sidebar: false
