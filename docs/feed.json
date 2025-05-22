@@ -1,6 +1,22 @@
 [
 
   {
+    "fecha": "2025-05-21T00:00:00-04:00",
+    "titulo": "Teoría de la Equivalencia de Complejidad Socio-Técnica",
+    "categorias": ["ideas","notas"],
+    "etiquetas": ["tecnología","convivialidad","democracia","kevin-kelly","illich","idhe","mediafranca"],
+    "imagen":  
+                  "/assets/uploads/2025/05/theory-of-equivalence-01.png"
+               ,
+    "url": "/Theory-of-socio-technical-equivalence",
+    "largo": 5052,
+    "contenido":
+      
+        "Propongo en este borrador la noción de una teoría de la equivalencia de complejidad socio-técnica: la humanidad debe crecer en complejidad y agencia en la misma proporción que crecen su tecnología."
+      
+  },
+
+  {
     "fecha": "2025-04-10T06:03:01-04:00",
     "titulo": "PictoNet",
     "categorias": ["research"],

@@ -134,6 +134,9 @@ GEM
     rexml (3.4.1)
     rouge (4.5.1)
     safe_yaml (1.0.5)
+    sass-embedded (1.86.0)
+      google-protobuf (~> 4.30)
+      rake (>= 13)
     sass-embedded (1.86.0-aarch64-linux-gnu)
       google-protobuf (~> 4.30)
     sass-embedded (1.86.0-aarch64-linux-musl)
@@ -161,7 +164,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
     webrick (1.9.1)
-    zeitwerk (2.7.2)
+    zeitwerk (2.6.18)
 
 PLATFORMS
   aarch64-linux

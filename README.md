@@ -7,7 +7,7 @@ Migré todo a jekyll y lo voy a mantener en Github desde ahora en adelante.
 
 Las publicaciones en md tienen el siguiente frontmatter:
 
----
+---bash
 layout: post
 type: posts
 permalink: /YEAR/01/perma-link
