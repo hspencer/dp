@@ -7,7 +7,8 @@ Migré todo a jekyll y lo voy a mantener en Github desde ahora en adelante.
 
 Las publicaciones en md tienen el siguiente frontmatter:
 
----bash
+```md
+---
 layout: post
 type: posts
 permalink: /YEAR/01/perma-link
@@ -15,7 +16,7 @@ title: "título"
 date: 2025-02-27 05:43:22 -0000
 last_modified_at: 2025-03-21 03:00:19 -0000
 image:
-  path: /assets/uploads/2025/02/prologo-pictonet-ia.png
+  path: /assets/uploads/link.png
   alt: Pictonet SVG editor
   class: "central"
   style: ".text-align:center"
@@ -29,6 +30,7 @@ categories:
 - notas
 tags: [tesis, llm]
 ---
+```
 
 ### Comandos útiles
 

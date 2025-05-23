@@ -16,8 +16,6 @@ tags:
 - continuidad
 image:
   path: /assets/uploads/2003/07/axis-9.gif
-  
-
 ---
 
 **Instrucciones al lector:** Este poema está construído a partir de todas las continuidades posibles en la figura de los nueve puntos y sus 72 conectivas. Para leer se recomienda al lector saltar en la lectura encadenando consecutivamente un número entero y una conectiva. Al término de cada poema (número entero o conectiva) podrá volver al índice con la flecha [↑](#Índice) para elegir el siguiente paso. Cuando el lector decida terminar su recorrido, está invitado a leer el **ø**.

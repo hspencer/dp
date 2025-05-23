@@ -758,13 +758,13 @@ footer {
 
     input[type="text"] {
         font-family: vars.$font-sans;
+        font-size: 0.85rem;
         flex-grow: 1;
         padding: .5ex 1em;
         padding-left: 35px; // Espacio para el icono. Ajusta según el tamaño de tu icono y el margen deseado.
         border: none;
         background-color: transparent;
         border-radius: 4px;
-        font-size: 1rem;
         box-sizing: border-box;
         width: 100%;
         &::placeholder{
