@@ -14,7 +14,8 @@ tags: []
 p5:
   script: /assets/p5/timeline.js
 ---
-<img src='/assets/uploads/2025/03/hspencer-filtro.png' style='width: 70%; margin: 3em auto; filter:opacity(15%)'/>
+<!-- <img src='/assets/uploads/2025/03/hspencer-filtro.png' style='width: 70%; margin: 3em auto; filter:opacity(15%)'/> -->
+![Herbert Spencer](/assets/uploads/2025/05/herbert.jpg)
 
 Soy Herbert Spencer González, diseñador gráfico formado en los albores de la era digital, testigo y partícipe de todas las transformaciones radicales de este soporte sobre el cual Ud. querido lector, lee. 
 
