@@ -1,8 +1,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
-  <link href="https://herbertspencer.net/feed.xml"/>
-  <updated>2025-05-23T15:30:24-04:00</updated>
-  <id>https://herbertspencer.net/feed.xml</id>
+  <link href="http://0.0.0.0:4000/feed.xml"/>
+  <updated>2025-05-23T15:58:07-04:00</updated>
+  <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
   </author>
@@ -11,9 +11,9 @@
   
   <entry>
     <title>Teoría de la Equivalencia de Complejidad Socio-Técnica</title>
-    <link href="https://herbertspencer.net/2025/Theory-of-socio-technical-equivalence"/>
+    <link href="http://0.0.0.0:4000/2025/Theory-of-socio-technical-equivalence"/>
     <updated>2025-05-21T00:00:00-04:00</updated>
-    <id>https://herbertspencer.net/2025/Teoria-de-la-equivalencia</id>
+    <id>http://0.0.0.0:4000/2025/Teoria-de-la-equivalencia</id>
     <content type="html">
       &lt;h2 id=&quot;una-propuesta-inacabada&quot;&gt;Una propuesta inacabada&lt;/h2&gt;
 
@@ -58,9 +58,9 @@
   
   <entry>
     <title>PictoNet</title>
-    <link href="https://herbertspencer.net/2025/PictoNet"/>
+    <link href="http://0.0.0.0:4000/2025/PictoNet"/>
     <updated>2025-04-10T06:03:01-04:00</updated>
-    <id>https://herbertspencer.net/2025/PictoNet</id>
+    <id>http://0.0.0.0:4000/2025/PictoNet</id>
     <content type="html">
       &lt;h2 id=&quot;un-sistema-visual-para-comprender-comunicar-y-construir-sentido&quot;&gt;Un sistema visual para comprender, comunicar y construir sentido&lt;/h2&gt;
 
@@ -603,9 +603,9 @@
   
   <entry>
     <title>La Internet que nos robaron</title>
-    <link href="https://herbertspencer.net/2025/03/la-internet-que-nos-robaron/"/>
+    <link href="http://0.0.0.0:4000/2025/03/la-internet-que-nos-robaron/"/>
     <updated>2025-03-31T02:43:22-03:00</updated>
-    <id>https://herbertspencer.net/2025/03/la-internet-que-nos-robaron</id>
+    <id>http://0.0.0.0:4000/2025/03/la-internet-que-nos-robaron</id>
     <content type="html">
       &lt;h3 id=&quot;i-origen-internet-como-infraestructura-común&quot;&gt;I. Origen: Internet como infraestructura común&lt;/h3&gt;
 
@@ -661,9 +661,9 @@
   
   <entry>
     <title>Prólogo para PictoNet</title>
-    <link href="https://herbertspencer.net/2025/02/prologo-para-pictonet/"/>
+    <link href="http://0.0.0.0:4000/2025/02/prologo-para-pictonet/"/>
     <updated>2025-02-27T02:43:22-03:00</updated>
-    <id>https://herbertspencer.net/2025/02/prologo-para-pictonet</id>
+    <id>http://0.0.0.0:4000/2025/02/prologo-para-pictonet</id>
     <content type="html">
       &lt;p&gt;A lo largo de los años (como diseñador, profesor e investigador) me ha tocado participar en múltiples proyectos que integran tecnología, comunicación y diseño para fomentar la participación comunitaria. Diría que ese es el hilo conductor de todo: cierta idea respecto a la “activación social” que determinada plataforma permite o habilita.&lt;/p&gt;
 
@@ -848,9 +848,9 @@
   
   <entry>
     <title>Diseño de transición en la era del tecno feudalismo</title>
-    <link href="https://herbertspencer.net/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/"/>
+    <link href="http://0.0.0.0:4000/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/"/>
     <updated>2025-02-18T04:49:58-03:00</updated>
-    <id>https://herbertspencer.net/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo</id>
+    <id>http://0.0.0.0:4000/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo</id>
     <content type="html">
       &lt;p&gt;Las profundas y radicales transformaciones contemporáneas en el ámbito económico y tecnológico han generado reflexiones sobre la vigencia de las categorías tradicionales del capitalismo. En diversos análisis, se describe un fenómeno que &lt;a href=&quot;https://bsky.app/profile/yanisvaroufakis.bsky.social&quot;&gt;Yanis Varoufakis&lt;/a&gt; denomina “&lt;a href=&quot;https://www.yanisvaroufakis.eu/2025/02/08/technofeudalism-what-killed-capitalism-on-the-chris-hedges-report/&quot;&gt;tecno feudalismo&lt;/a&gt;”, donde las grandes empresas con infraestructura digital centralizada (Google, Amazon, Meta, Apple, etc.) acumulan volúmenes de información y ejercen modalidades de control que rebasan las lógicas del mercado clásico.&lt;/p&gt;
 
@@ -881,9 +881,9 @@
   
   <entry>
     <title>Reflexiones de un migrante inexistente</title>
-    <link href="https://herbertspencer.net/2024/09/reflexiones-de-un-migrante-inexistente/"/>
+    <link href="http://0.0.0.0:4000/2024/09/reflexiones-de-un-migrante-inexistente/"/>
     <updated>2024-09-23T22:14:38-03:00</updated>
-    <id>https://herbertspencer.net/2024/09/reflexiones-de-un-migrante-inexistente</id>
+    <id>http://0.0.0.0:4000/2024/09/reflexiones-de-un-migrante-inexistente</id>
     <content type="html">
       &lt;h5 id=&quot;lecciones-de-kafka-arendt-illich-y-maturana&quot;&gt;Lecciones de Kafka, Arendt, Illich y Maturana&lt;/h5&gt;
 
@@ -932,9 +932,9 @@
   
   <entry>
     <title>Singularidades poéticas hacia definiciones políticas: construcciones de escuela a partir del texto</title>
-    <link href="https://herbertspencer.net/2022/10/singularidades"/>
+    <link href="http://0.0.0.0:4000/2022/10/singularidades"/>
     <updated>2022-10-14T22:14:38-03:00</updated>
-    <id>https://herbertspencer.net/2022/10/singularidades-poeticas</id>
+    <id>http://0.0.0.0:4000/2022/10/singularidades-poeticas</id>
     <content type="html">
       &lt;div style=&quot;padding: 5em 9em&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/assets/uploads/2022/10/iso-seminario.png&quot; alt=&quot;Seminario Internacional Formación y Oficio en Arquitectura y Diseño&quot; /&gt;&lt;/p&gt;
@@ -1058,9 +1058,9 @@ And I need you to let me go.»&lt;br /&gt;
   
   <entry>
     <title>HTML input: Pictograma</title>
-    <link href="https://herbertspencer.net/2018/11/face-input/"/>
+    <link href="http://0.0.0.0:4000/2018/11/face-input/"/>
     <updated>2018-11-11T17:15:05-03:00</updated>
-    <id>https://herbertspencer.net/2018/11/face-input</id>
+    <id>http://0.0.0.0:4000/2018/11/face-input</id>
     <content type="html">
       &lt;h3 id=&quot;hipótesis-mapear-emociones-a-través-de-pictogramas-como-método-de-entrada-de-datos&quot;&gt;Hipótesis: Mapear emociones a través de pictogramas como método de entrada de datos&lt;/h3&gt;
 
@@ -1115,9 +1115,9 @@ And I need you to let me go.»&lt;br /&gt;
   
   <entry>
     <title>Enseñando Interacción</title>
-    <link href="https://herbertspencer.net/2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio/"/>
+    <link href="http://0.0.0.0:4000/2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio/"/>
     <updated>2018-11-01T17:15:05-03:00</updated>
-    <id>https://herbertspencer.net/2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio</id>
+    <id>http://0.0.0.0:4000/2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio</id>
     <content type="html">
       &lt;p&gt;Este texto explora el espesor entre arte y tecnología, y cómo el pensamiento técnico es clave en la formación del Diseño(( Esta publicación está dedicada a mis colegas profesores y se parece más a un paper que a un post. Acá profundizo lo tratado en el post de &lt;a href=&quot;/2017/02/tecnica-y-diseno/&quot;&gt;Técnica y Diseño&lt;/a&gt;. La complejidad y sofisticación que alcanzamos en estos talleres fue gracias a la increíble participación del profesor &lt;a href=&quot;https://wiki.ead.pucv.cl/Pedro_Garret%C3%B3n&quot;&gt;Pedro Garretón&lt;/a&gt;.)).&lt;/p&gt;
 
@@ -1259,9 +1259,9 @@ And I need you to let me go.»&lt;br /&gt;
   
   <entry>
     <title>Números Modulares</title>
-    <link href="https://herbertspencer.net/2017/02/numeros-modulares/"/>
+    <link href="http://0.0.0.0:4000/2017/02/numeros-modulares/"/>
     <updated>2017-02-26T15:00:42-03:00</updated>
-    <id>https://herbertspencer.net/2017/02/numeros-modulares</id>
+    <id>http://0.0.0.0:4000/2017/02/numeros-modulares</id>
     <content type="html">
       &lt;iframe src=&quot;https://herbertspencer.net/modular/&quot; frameborder=&quot;0&quot; style=&quot;width: 168%;margin: -11% -38%;height:40em;mix-blend-mode: multiply;scale: 70%;overflow: hidden;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;Se trata más bien de una curiosidad o &lt;em&gt;divertimento&lt;/em&gt; matemático, en el mismo espíritu del &lt;a href=&quot;http://herbertspencer.net/2007/11/primes-modulator/&quot;&gt;modulador de números&lt;/a&gt; primos: ¿podemos ver patrones en las tablas de multiplicar?&lt;/p&gt;
@@ -1297,9 +1297,9 @@ And I need you to let me go.»&lt;br /&gt;
   
   <entry>
     <title>Técnica y Diseño</title>
-    <link href="https://herbertspencer.net/2017/02/tecnica-y-diseno/"/>
+    <link href="http://0.0.0.0:4000/2017/02/tecnica-y-diseno/"/>
     <updated>2017-02-22T14:44:57-03:00</updated>
-    <id>https://herbertspencer.net/2017/02/tecnica-y-diseno</id>
+    <id>http://0.0.0.0:4000/2017/02/tecnica-y-diseno</id>
     <content type="html">
       &lt;p&gt;Desde un origen nos ha parecido evidente que el proceso de enseñanza del diseño se constituye desde la experiencia en proximidad con una obra. Este modo sostiene que el aprendizaje se encarna en un constante diálogo de iteración y refinamiento entre la materia en juego y la voluntad de prefiguración del diseñador, avanzando hacia el encuentro de lo previsto con lo construído. En este sentido la obra es garantía de un total ((Garantiza un total independiente de nuestra capacidad de reconocerlo. Todo aquello que ignoramos (que no somos capaces de ver) comparecerá de igual modo como una resultante.))&lt;/p&gt;
 
@@ -1359,9 +1359,9 @@ Fig. C&lt;/p&gt;
   
   <entry>
     <title>Diseño Participativo con PiX: una Aproximación desde la Narrativa</title>
-    <link href="https://herbertspencer.net/2015/10/diseno-participativo-con-pix/"/>
+    <link href="http://0.0.0.0:4000/2015/10/diseno-participativo-con-pix/"/>
     <updated>2015-10-16T10:58:21-03:00</updated>
-    <id>https://herbertspencer.net/2015/10/diseno-participativo-con-pix</id>
+    <id>http://0.0.0.0:4000/2015/10/diseno-participativo-con-pix</id>
     <content type="html">
       &lt;p&gt;El co-diseño y el diseño participativo, son metodologías poderosas al minuto de buscar generar y validar en forma simultánea nuevos conceptos de diseño. Ciertamente una de las mayores dificultades en la creación productos o servicios (o su rediseño) consiste en identificar correctamente las necesidades de los usuarios finales. Pero no se trata solamente de enforcarse y en lo negativo, como lo son las necesidades desatendidas y las subsecuentes frustraciones; sino ir más allá para poder construir experiencias potentes, fluidas y significativas para las personas en su relación con los servicios. Más allá de una mera reparación de las transacciones fallidas el diseño viene a resignificar los diálogos entre las personas y los servicios (y sus respectivas marcas). No hay que partir de los problemas, mejor partamos desde los sueños.&lt;/p&gt;
 
@@ -1407,9 +1407,9 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
   
   <entry>
     <title>Pequeños Múltiples</title>
-    <link href="https://herbertspencer.net/2015/08/pequenos-multiples/"/>
+    <link href="http://0.0.0.0:4000/2015/08/pequenos-multiples/"/>
     <updated>2015-08-02T20:48:30-03:00</updated>
-    <id>https://herbertspencer.net/2015/08/pequenos-multiples</id>
+    <id>http://0.0.0.0:4000/2015/08/pequenos-multiples</id>
     <content type="html">
       &lt;div id=&quot;p5&quot; class=&quot;p5-sketch-container&quot; style=&quot;text-align: center;&quot;&gt;
   &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js&quot;&gt;&lt;/script&gt;
@@ -1430,9 +1430,9 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
   
   <entry>
     <title>Topologoscopio</title>
-    <link href="https://herbertspencer.net/2015/07/topologoscopio/"/>
+    <link href="http://0.0.0.0:4000/2015/07/topologoscopio/"/>
     <updated>2015-07-08T19:51:26-03:00</updated>
-    <id>https://herbertspencer.net/2015/07/topologoscopio</id>
+    <id>http://0.0.0.0:4000/2015/07/topologoscopio</id>
     <content type="html">
       &lt;p&gt;En la utopía de la ciudad cívica (en ese espíritu de &lt;em&gt;&lt;a href=&quot;http://herbertspencer.net/2007/05/mediafranca-parte-2/&quot;&gt;MediaFranca&lt;/a&gt;&lt;/em&gt;) más allá del espacio comprendido como la permanente y odiosa disputa, el espacio público se presenta como un símbolo, en la representación permanente de la escena pública (en el sentido teatral).&lt;/p&gt;
 
@@ -1462,9 +1462,9 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
   
   <entry>
     <title>Diseño del Proceso Constituyente</title>
-    <link href="https://herbertspencer.net/2015/05/diseno-del-proceso-constituyente/"/>
+    <link href="http://0.0.0.0:4000/2015/05/diseno-del-proceso-constituyente/"/>
     <updated>2015-05-18T12:56:46-03:00</updated>
-    <id>https://herbertspencer.net/2015/05/diseno-del-proceso-constituyente</id>
+    <id>http://0.0.0.0:4000/2015/05/diseno-del-proceso-constituyente</id>
     <content type="html">
       &lt;p&gt;El proceso constituyente, que ha prometido ser altamente inclusivo y participativo, no puede pensarse hoy omitiendo la realidad que impone una sociedad en red, mediada por el software social viviendo bajo los códigos estéticos y performáticos del diseño de interacción.&lt;/p&gt;
 
@@ -1506,9 +1506,9 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
   
   <entry>
     <title>La guía del joven aprendiz a la disciplina</title>
-    <link href="https://herbertspencer.net/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina"/>
+    <link href="http://0.0.0.0:4000/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina"/>
     <updated>2015-04-06T23:34:30-03:00</updated>
-    <id>https://herbertspencer.net/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina</id>
+    <id>http://0.0.0.0:4000/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina</id>
     <content type="html">
       &lt;ol&gt;
   &lt;li&gt;Haz una sola cosa a la vez&lt;/li&gt;
@@ -1520,9 +1520,9 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
   
   <entry>
     <title>GridSpace</title>
-    <link href="https://herbertspencer.net/2014/12/gridspace/"/>
+    <link href="http://0.0.0.0:4000/2014/12/gridspace/"/>
     <updated>2014-12-11T19:02:55-03:00</updated>
-    <id>https://herbertspencer.net/2014/12/gridspace</id>
+    <id>http://0.0.0.0:4000/2014/12/gridspace</id>
     <content type="html">
       &lt;p&gt;GridSpace is a very small program developed in &lt;a href=&quot;http://www.processing.org&quot; title=&quot;Processing Project Website&quot;&gt;Processing&lt;/a&gt; that creates grid-based compositions. It was first developed back in 2008 and today I’m updating and releasing the code. This program allows you to export bitmaps and PDFs.&lt;/p&gt;
 
@@ -1544,9 +1544,9 @@ Pienso que la partitura, en su sentido narrativo, posee la capacidad natural de 
   
   <entry>
     <title>Sideways: Slitscan for Urban Travellers</title>
-    <link href="https://herbertspencer.net/2014/11/slitscan-sideways/"/>
+    <link href="http://0.0.0.0:4000/2014/11/slitscan-sideways/"/>
     <updated>2014-11-12T16:33:42-03:00</updated>
-    <id>https://herbertspencer.net/2014/11/slitscan-sideways</id>
+    <id>http://0.0.0.0:4000/2014/11/slitscan-sideways</id>
     <content type="html">
       &lt;p&gt;&lt;strong&gt;Sideways&lt;/strong&gt; is a very small program created with &lt;a href=&quot;http://www.processing.org&quot;&gt;Processing&lt;/a&gt; that creates 2 &lt;a href=&quot;http://en.wikipedia.org/wiki/Slit-scan_photography&quot;&gt;slitscan&lt;/a&gt; bitmaps from a single video. The video must be a first-person road shoot so both sides (left &amp;amp; right) are created from the edges.&lt;/p&gt;
 
@@ -1581,9 +1581,9 @@ For more information on the topic, check this &lt;a href=&quot;http://www.flong.
   
   <entry>
     <title>Pixograms Icon Webfont</title>
-    <link href="https://herbertspencer.net/2014/10/pixograms-icon-webfont/"/>
+    <link href="http://0.0.0.0:4000/2014/10/pixograms-icon-webfont/"/>
     <updated>2014-10-30T09:00:53-03:00</updated>
-    <id>https://herbertspencer.net/2014/10/pixograms-icon-webfont</id>
+    <id>http://0.0.0.0:4000/2014/10/pixograms-icon-webfont</id>
     <content type="html">
       &lt;p&gt;Las &lt;a href=&quot;http://herbertspencer.net/2008/11/partituras-de-interaccion-2/&quot; title=&quot;Partituras de Interacción&quot;&gt;partituras de interacción&lt;/a&gt;, introducidas el 2008 como un sistema de notación gráfica para el diseño de experiencia, han sido adoptadas por muchos profesionales y equipos de diseño sobre todo en el contexto nacional. Este año, hemos decidido darles un ajuste construyendo una herramienta que facilite su creación. Una de las mayores dificultades para ser adoptadas dentro de las metodologías de trabajo, y su posterior consolidación en el tiempo, radica en el tiempo que involucra crearlas ya que actualmente sólo disponemos de plantillas para Illustrator y Omnigraffle.&lt;/p&gt;
 
@@ -1600,9 +1600,9 @@ For more information on the topic, check this &lt;a href=&quot;http://www.flong.
   
   <entry>
     <title>Árbol Pitagórico</title>
-    <link href="https://herbertspencer.net/2014/04/arbol-pitagorico/"/>
+    <link href="http://0.0.0.0:4000/2014/04/arbol-pitagorico/"/>
     <updated>2014-04-16T13:42:41-03:00</updated>
-    <id>https://herbertspencer.net/2014/04/arbol-pitagorico</id>
+    <id>http://0.0.0.0:4000/2014/04/arbol-pitagorico</id>
     <content type="html">
       &lt;p&gt;En Febrero recién pasado tuve el honor de formar parte del primer programa de maestría en diseño de interacción((A este programa me invitó &lt;a href=&quot;https://www.ciid.dk/community/ana-domb&quot;&gt;Ana Domb&lt;/a&gt;, la mente y visión detrás de este programa, el primero en latinoamérica. Lamentablemente duró 2 años, 2014-2015, y lo cerraron por motivos que desconozco. Económicos seguramente.)), en Costa Rica.&lt;/p&gt;
 
@@ -1616,9 +1616,9 @@ For more information on the topic, check this &lt;a href=&quot;http://www.flong.
   
   <entry>
     <title>Diseñando una Empresa</title>
-    <link href="https://herbertspencer.net/2014/02/Diseñando-una-Empresa"/>
+    <link href="http://0.0.0.0:4000/2014/02/Diseñando-una-Empresa"/>
     <updated>2014-02-09T10:00:00-03:00</updated>
-    <id>https://herbertspencer.net/2014/02/disenando-una-empresa</id>
+    <id>http://0.0.0.0:4000/2014/02/disenando-una-empresa</id>
     <content type="html">
       &lt;p&gt;Estos últimos 2 años he estado trabajando en &lt;a href=&quot;http://www.citisent.com&quot;&gt;CitiSent&lt;/a&gt;. A diferencia de mis proyectos anteriores ((&lt;a href=&quot;http://wiki.ead.pucv.cl/index.php/Con%C2%A7tel,_Red_Abierta_de_Conocimiento_Acad%C3%A9mico&quot;&gt;Con§tel&lt;/a&gt; (2003-2006) y &lt;a href=&quot;http://wiki.ead.pucv.cl/index.php/MediaFranca&quot;&gt;MediaFranca&lt;/a&gt; (2007-2011) )), nacidos en el seno académico y con profundas aspiraciones de construirse, este proyecto es –en realidad– una empresa. El viaje ha sido largo, no exento de complicaciones y desencuentros, pero ha sido una gran experiencia de aprendizaje. En este texto les quiero explicar las cosas que he aprendido y de qué se trata CitiSent.&lt;/p&gt;
 
@@ -1655,9 +1655,9 @@ For more information on the topic, check this &lt;a href=&quot;http://www.flong.
   
   <entry>
     <title>El arte de saber preguntar</title>
-    <link href="https://herbertspencer.net/2014/01/el-arte-de-saber-preguntar/"/>
+    <link href="http://0.0.0.0:4000/2014/01/el-arte-de-saber-preguntar/"/>
     <updated>2014-01-28T17:37:47-03:00</updated>
-    <id>https://herbertspencer.net/2014/01/el-arte-de-saber-preguntar</id>
+    <id>http://0.0.0.0:4000/2014/01/el-arte-de-saber-preguntar</id>
     <content type="html">
       &lt;p&gt;En &lt;strong&gt;CitiSent&lt;/strong&gt; estamos permanentemente investigando cómo mejorar nuestro servicio. Uno de los temas centrales para nosotros, en términos de diseño de interacción, es cómo se deben formular las preguntas para configurar los estudios dentro de CitiSent.&lt;/p&gt;
 
@@ -1692,9 +1692,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>La Observación en Diseño</title>
-    <link href="https://herbertspencer.net/2013/12/la-observacion-en-diseno/"/>
+    <link href="http://0.0.0.0:4000/2013/12/la-observacion-en-diseno/"/>
     <updated>2013-12-12T15:17:02-03:00</updated>
-    <id>https://herbertspencer.net/2013/12/la-observacion-en-diseno</id>
+    <id>http://0.0.0.0:4000/2013/12/la-observacion-en-diseno</id>
     <content type="html">
       &lt;h3 id=&quot;exámen-del-taller-de-7ª-etapa&quot;&gt;Exámen del Taller de 7ª Etapa&lt;/h3&gt;
 
@@ -1734,9 +1734,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>El Diseño, o el bucle infinito</title>
-    <link href="https://herbertspencer.net/2013/05/el-diseno-o-el-bucle-infinito/"/>
+    <link href="http://0.0.0.0:4000/2013/05/el-diseno-o-el-bucle-infinito/"/>
     <updated>2013-05-09T14:23:21-04:00</updated>
-    <id>https://herbertspencer.net/2013/05/el-diseno-o-el-bucle-infinito</id>
+    <id>http://0.0.0.0:4000/2013/05/el-diseno-o-el-bucle-infinito</id>
     <content type="html">
       &lt;p&gt;El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que &lt;em&gt;se basta de sí mismo&lt;/em&gt; porque se construye como una &lt;strong&gt;cifra&lt;/strong&gt; , con sus imágenes, sus letras, su código, su discurso y su tiempo. La superficie contiene todas las claves que condensan y fijan el discurso en una cifra gráfica. Ejemplos de esto se encuentran en todas partes: afiches, revistas, envases, carteles, folletos, revistas, libros; incluso las artes gráficas –incluso la pintura– comparten esta naturaleza unidireccional de lo fijo. Y con “lo fijo” no quiero decir que sea cerrado, o restado en alguna medida. Tan solo quiero argumentar que en esta fianza de lo fijo descansa la potencia que tiene el lenguaje visual de hacer detonar, en el lector, toda la potencia de su discurso. El diseñador recibe un argumento –o lo articula– para luego interpretarlo, darle espacio, darle forma, darle voz gráfica; materializa su palabra y su apariencia, le da un tempo, una &lt;em&gt;demora&lt;/em&gt;. El diseño gráfico es, entonces, unidireccional y fijo, cada vez.&lt;/p&gt;
 
@@ -1764,9 +1764,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>Pizarra</title>
-    <link href="https://herbertspencer.net/2012/05/pizarra/"/>
+    <link href="http://0.0.0.0:4000/2012/05/pizarra/"/>
     <updated>2012-05-15T10:37:23-04:00</updated>
-    <id>https://herbertspencer.net/2012/05/pizarra</id>
+    <id>http://0.0.0.0:4000/2012/05/pizarra</id>
     <content type="html">
       &lt;p&gt;Uno de los problemas más frecuentes con que me topo al momento de hacer clases es la incompatibilidad entre el proyector y la pizarra. Cada día, y con más frecuencia, se requiere de un proyector (datashow) para presentar, demostrar código, traer referentes, indicar procedimientos, revisar casos, etc. El proyector ya es –digámoslo así– un commodity indispensable y que se echa de menos con facilidad.&lt;/p&gt;
 
@@ -1794,9 +1794,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>Música de las Matemáticas</title>
-    <link href="https://herbertspencer.net/2012/04/musica-de-las-matematicas/"/>
+    <link href="http://0.0.0.0:4000/2012/04/musica-de-las-matematicas/"/>
     <updated>2012-04-23T17:22:25-03:00</updated>
-    <id>https://herbertspencer.net/2012/04/musica-de-las-matematicas</id>
+    <id>http://0.0.0.0:4000/2012/04/musica-de-las-matematicas</id>
     <content type="html">
       &lt;p&gt;Les voy a contar una historia hoy día: Bajo la superficie del mundo yacen las reglas descritas por la ciencia. O, al menos, el mundo avanza como si así fuera. Pero bajo todas estas reglas, existen reglas más profundas, una matriz abstracta de matemática pura que permite el lenguaje capaz de explicar las reglas que –a su vez la ciencia– explican la naturaleza, el mundo, el universo. Estas reglas se constituyen como el último orden, el último juego de certidumbres, de fundamentos, que nos permiten urdir nuestro entendimiento y nuestras verdades. Este primer orden es lo que llamamos “música de las matemáticas”.&lt;/p&gt;
 
@@ -1843,9 +1843,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>De Palomas y Estorninos</title>
-    <link href="https://herbertspencer.net/2011/11/de-palomas-y-estorninos/"/>
+    <link href="http://0.0.0.0:4000/2011/11/de-palomas-y-estorninos/"/>
     <updated>2011-11-02T07:33:01-03:00</updated>
-    <id>https://herbertspencer.net/2011/11/de-palomas-y-estorninos</id>
+    <id>http://0.0.0.0:4000/2011/11/de-palomas-y-estorninos</id>
     <content type="html">
       &lt;p&gt;Las recientes movilizaciones ciudadanas en Chile y en el mundo, en su transversalidad y convocatoria, han puesto en cuestión el esquema de conversación social aportándonos con experiencias muchas veces directas (desde dentro, digamos) y rectificadoras de algunas premisas teóricas que teníamos equivocadas. Entre ellas, el supuesto deterioro del capital social –que pensábamos– se concentraba entre los más jóvenes. La aparente apatía juvenil, observada por diversos estudios durante los últimos años, no resultó ser otra cosa que una profunda desesperanza e impotencia producto de la desconfianza hacia un sistema sin canales viables para la participación, manifestándose este año en oleadas sucesivas de movilizaciones que han girado en torno a temas-eje ((Son temas como las causas medioambiental, temas más genéricos como la antiglobalización o el capitalismo o temas puntuales como la educación.)), activado a la esfera pública de una forma inédita. Hemos sido testigos de cómo los temas configuran públicos en torno a ellos (y no al revés) de forma veloz y altamente volátil, en términos de la energía que pueden desplegar en corto tiempo.  Este “estado de movilización” es transversal en muchas sociedades modernas y ha llegado para quedarse. Ejemplo de esto son: el 15M, la primavera árabe, el movimiento de los indignados, el movimiento estudiantil en Chile, los recientes desórdenes en Londres, las diferentes instancias de los actos &lt;em&gt;#Occupy&lt;/em&gt; --, sólo por nombrar algunos. La hebra común que los vincula en muchos casos se refiere al descontento social, con una insuficiente o nula canalización de los anhelos civiles hacia las políticas públicas imperantes o un gran anhelo de vida democrática de calidad con formas concretas de aportar y de ser reconocido. Esto se ha reflejado en la fuerte voluntad de participación directa de la ciudadanía, ahora empoderada por las herramientas digitales, fundamentalmente a través del uso de las redes sociales que, aunque pueden en ocasiones banalizar los procesos de debate y participación, se han constituido en un nueva ágora pública, desestimando los canales de participación tradicionales y abogando por un modo más transparente y reversible para el diálogo ciudadano. El co-diseño, o diseño participativo se ha instalado como un modo válido para enfrentar este problema. Este post, entonces, describe las dinámicas y procesos observados durante el desarrollo de las movilizaciones sociales iniciadas por los estudiantes chilenos y secundadas por distintos actores y sectores políticos. He querido establecer medidas de eficacia constructiva, identificando los riesgos y oportunidades implícitos en la naturaleza volátil y compleja de estas dinámicas; mi interés radica en identificar patrones de interacción social y de colaboración para traducirlos en un modelo mayor que permita aportar a la comunidad de diseñadores y desarrolladores de plataformas de gobierno electrónico. Diseñar para la inclusión y el involucramiento ciudadano de los jóvenes es de vital importancia, pues han sido históricamente los protagonistas de los cambios sociales y culturales. En el último tiempo han estado a la vanguardia del uso y (re)creación de la web 2.0. Sin embargo, diseñar para favorecer la deliberación —etapa necesaria para un proceso democrático— es el paso que falta en esta sostenida tendencia hacia el empoderamiento del usuario/ciudadano precisamente porque tenemos extrema facilidad para la divergencia (entiendida desde el valor del pluralismo) pero extremas dificultades para converger o entrar en una dinámica propositiva. No existen ni los canales ni los mecanismos para una deliberación ciudadana donde se revisen con seriedad los eventuales traslapes de propuestas y se integre a los participantes en un proyecto común.&lt;/p&gt;
 
@@ -1974,9 +1974,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>Forma Digital</title>
-    <link href="https://herbertspencer.net/2011/10/forma-digital/"/>
+    <link href="http://0.0.0.0:4000/2011/10/forma-digital/"/>
     <updated>2011-10-30T20:15:02-03:00</updated>
-    <id>https://herbertspencer.net/2011/10/forma-digital</id>
+    <id>http://0.0.0.0:4000/2011/10/forma-digital</id>
     <content type="html">
       &lt;p&gt;La calculadora mecánica Curta, inventada por Curt Herzstark fue introducida al mercado en 1948. Este diseño corresponde a la última generación de artefactos tecnológicos cuya forma mantenía una correspondencia directa entre su funcionamiento y su gestualidad. Este objeto puede leerse y entenderse desde su forma mecánica. Con posterioridad a eso, gracias al transistor y posteriormente al circuito integrado, la forma gestual asociada a su función quedó completamente desarticulada de su forma física. Se trató del comienzo de una época de las “formas en libertad”, ya que se dejaba de estar determinado por su estructura mecánica del objeto para diseñarlo su comporamiento. La afirmación: “los computadores pueden ser transformados en cualquier cosa”, a propósito del divorcio entre forma y función, es un tanto confusa. La naturaleza de la función abarca muchas esferas prácticas y una traducción literal alegórica-simbólica se hace imposible en situaciones que carecen de antecedentes. Si bien las formas tecnológicas han alcanzado cierto reposo en su permanente mutabilidad ((La forma convensional de los computadores portátiles se ha mantenido estructuralmente incólume desde su insersión en el mercado en 1988, siguendo el esquema de la máquina de escribir usando el espacio para la hoja de papel con la pantalla.)), creo que se debe, en gran medida a que se ha alcazado una penetración cultural mayor que exige una mayor inercia pero, sobre todo observamos una postura funcionalista, especialmente determinada por los requierimientos energéticos, performativos y ergonómicos.&lt;/p&gt;
 
@@ -1993,9 +1993,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>Un Buen Diseño</title>
-    <link href="https://herbertspencer.net/2011/10/un-buen-diseno/"/>
+    <link href="http://0.0.0.0:4000/2011/10/un-buen-diseno/"/>
     <updated>2011-10-28T19:52:56-03:00</updated>
-    <id>https://herbertspencer.net/2011/10/un-buen-diseno</id>
+    <id>http://0.0.0.0:4000/2011/10/un-buen-diseno</id>
     <content type="html">
       &lt;p&gt;Un buen diseño corresponde a un trabajo profundo de integración y equilibrio de diversos factores para finalmente cifrarlos y materializarlos en una forma, ya sea física o etérea, atomizada o distribuida y compleja (como lo es un sistema). Entiendo la noción de “estética” como un &lt;em&gt;modo de ser&lt;/em&gt; de la forma y su expresión, y como tal –modo de ser– sujeto a un contexto cultural: es a partir de un modo de ser que se puede leer su caracter estético. En diseño, la relación diseñador-contexto es completamente asimétrica y desequilibrada: el contexto pesa muchísimo más que el diseñador. El “buen diseño” interpreta completamente su entorno y suprime al autor o “genio” que firma el trabajo, más común en el campo arte. Es decir, es preciso conocer &lt;strong&gt;la imagen que el mundo tiene de la cosa&lt;/strong&gt; que se va a diseñar, es necesario conocer dónde y cómo se inserta, qué connotaciones tiene y cuales son los códigos culturales que la gobiernan, así como las fuerzas culturales que allí la situaron de antemano. Solamente a partir de una mirada conciente de esto (ya sea por medio del descubrimiento o la interpretación justa) el diseñador podrá desplazar esa imagen de su centro –sólo ligeramente, que tiene mayor inercia mientras mayor tradición cultural exista– para originar &lt;em&gt;verdadera innovación&lt;/em&gt;. El buen diseño, en ese sentido, corresponde a una buena forma de interpretar el presente e imaginar el futuro desde un &lt;strong&gt;lenguaje propio&lt;/strong&gt; , en cuanto apropiable y apropiado. &lt;a href=&quot;/assets/uploads/2011/10/image021.jpg&quot;&gt;&lt;img src=&quot;/assets/uploads/2011/10/image021-453x340.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; El caso del movimiento muralista mejicano ofrece un ejemplo de una proposición de imagen de mundo que reconstruye el imaginario colectivo, instaurando con esto un lenguage (o un género) discursivo abundante y rico, con su propia gramática y su propia narrativa, y, además, dando respuesta desde el arte a un movimiento social originado años antes, desde la revolución zapatista. &lt;a href=&quot;/assets/uploads/2011/10/image011.jpg&quot;&gt;&lt;img src=&quot;/assets/uploads/2011/10/image011-453x340.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; El desplazamiento de lo conocido a la desconocido forma un &lt;strong&gt;vector de cambio&lt;/strong&gt; que apunta hacia donde el diseño quiere ir. Este “hacia dónde” es definido por la estrategia del modelo de negocios (o nueva imagen de mundo) que tenga el diseñador o su mandante. Este sentido le imprime un profundo carácter ético al trabajo del diseño ya que es responsable –no siempre se toma el peso de esto, ni se piensa– de las consecuencias del mundo que construye. El diseño no solamende debe ser bello; debe ser además verdadero y bueno (además de útil, deseable, usable, apropiable, y un largo etc). El lenguaje del diseño, entendido como el &lt;strong&gt;modo de ser&lt;/strong&gt; constituye lo que se entiende por estética del diseño, ya que vuelve el hecho intelectual en experiencia. Al hablar de estética del diseño, se lo adcribe tácitamente a un determinado &lt;strong&gt;linaje cultural&lt;/strong&gt;. Frecuentemente este lenguaje es rebalsado hacia las narrativas que trata, cuando la imágen del mundo que presenta es lo suficientemente consistente y fuerte; de este modo la forma y la narrativa se pueden entender como sucesos intercambiables ((“El medio es el mensaje”, según M. McLuhan.)). [caption id=”attachment_1165” align=”alignnone” width=”470” caption=”El caso de Black &amp;amp; Decker constituye un claro ejemplo de la consolidación de una estética como un lenguaje transversal a sus productos industriales.”]&lt;a href=&quot;/assets/uploads/2011/10/image001.jpg&quot;&gt;&lt;img src=&quot;/assets/uploads/2011/10/image001-470x261.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;[/caption]   Justamente, es esta comunión entre lenguaje y contenido (forma y palabra / espacio y tiempo) la que permite transversalizar el trabajo para pensar los sistemas. Se requiere de un lenguaje, por ejemplo, para abordar el diseño de una imagen corporativa. No se trata simplemente de la producción de una imagen y tratarla como un patrón que recorra los diversos géneros discursivos en los que la institución habla, sino que es un modo de volver la experiencia de esa organización algo consistente a través de los múltiples puntos de contacto que provee. Ahora, para responder certeramente la pregunta (¿Qué es buen diseño?), el origen de esta estética alude necesariamente a la visión del mundo “por venir” que propone el régimen corporativo (en este caso) como una forma de estrategia para comunicar un anhelo, encarnados en la cultura interna y sus valores. La estética, aquí entendida como la cualidad de la experiencia proyectada, debe ser un atisbo que insinúa un total mayor, una nueva imagen de mundo. El buen diseño, entonces, se plantea como un pequeño fragmento de algo mayor, de un propósito que tiene una imagen del hombre, de su cultura y del mundo donde se inscribe. Un buen diseño es un buen propósito materializado en pequeños fragmentos consistentes entre sí.&lt;/p&gt;
 
@@ -2004,15 +2004,19 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>4 orientaciones 4 discursos 4 cabezas 4 corazones</title>
-    <link href="https://herbertspencer.net/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/"/>
+    <link href="http://0.0.0.0:4000/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/"/>
     <updated>2011-06-06T13:41:05-04:00</updated>
-    <id>https://herbertspencer.net/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones</id>
+    <id>http://0.0.0.0:4000/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones</id>
     <content type="html">
       &lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt; : Este texto se surge a partir del trabajo realizado en el taller de &lt;a href=&quot;http://wiki.ead.pucv.cl/index.php/4%C2%BA_DG_2011&quot; title=&quot;Documentación del taller en Casiopea&quot;&gt;4º año de Diseño Gráfico durante el primer trimestre del año 2011&lt;/a&gt;. Como acto de exámen, explico esta figura y el recorrido por ella que hizo el taller. El presente texto corresponde a una adaptación para no transcribir una situación pensada para un contexto oral.&lt;/p&gt;
 
 &lt;h2 id=&quot;espacio-del-diseño&quot;&gt;Espacio del Diseño&lt;/h2&gt;
 
-&lt;p&gt;El metadiseño es aquel diseño que se diseña a sí mismo. Requiere concebir de una figura total de sí mismo, para que el diseñador pueda saberse inserto en un espacio y estar orientado con un punto de vista. Esta forma del diseño redefine y sinergiza las infraestructuras sociales y técnicas en un sentido colaborativo y co-adaptivo (dialéctico). Y ésta a sido la ocupación del taller de cuardo año de diseño gráfico durante esta primera parte del 2011. La realidad de un espacio contenedor posibilita al grupo de diseñadores avanzar en el acuerdo de una figura, que construye un punto de vista colectivo, construye un “nosotros”. Este mapa, que funciona como objeto fronterizo, alimenta la creatividad que juega dentro de esa figura: porque el diseño piensa en figuras. También, como partimos de una figura común, cada cual elabora y madura su propia figura, &lt;a href=&quot;http://wiki.ead.pucv.cl/index.php/Modelos_Visuales_del_Dise%C3%B1o_%282011%29&quot; title=&quot;las figuras de todos&quot;&gt;su propia concepción del oficio&lt;/a&gt; que encarna. &lt;a href=&quot;/assets/uploads/2011/06/mapa-cruz.jpg&quot;&gt;&lt;img src=&quot;/assets/uploads/2011/06/mapa-cruz.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; Desde el punto de vista formativo, la experiencia del taller busca dibujar un recorrido por esta figura, reconociendo que cada punta tiene su propia verdad y su propio modo. El diseñador debe integrar en sí mismo estos 4 sentidos, para darle sentido a su trabajo. El taller sostiene que el diseño no se juega solamente en la vieja disputa ciencia-arte; ni tampoco se trata &lt;em&gt;solamente&lt;/em&gt; de un arte. La figura es más compleja y es lo que se propone dilusidar aquí:&lt;/p&gt;
+&lt;p&gt;El metadiseño es aquel diseño que se diseña a sí mismo. Requiere concebir de una figura total de sí mismo, para que el diseñador pueda saberse inserto en un espacio y estar orientado con un punto de vista. Esta forma del diseño redefine y sinergiza las infraestructuras sociales y técnicas en un sentido colaborativo y co-adaptivo (dialéctico). Y ésta a sido la ocupación del taller de cuardo año de diseño gráfico durante esta primera parte del 2011. La realidad de un espacio contenedor posibilita al grupo de diseñadores avanzar en el acuerdo de una figura, que construye un punto de vista colectivo, construye un “nosotros”. Este mapa, que funciona como objeto fronterizo, alimenta la creatividad que juega dentro de esa figura: porque el diseño piensa en figuras. También, como partimos de una figura común, cada cual elabora y madura su propia figura, &lt;a href=&quot;http://wiki.ead.pucv.cl/index.php/Modelos_Visuales_del_Dise%C3%B1o_%282011%29&quot; title=&quot;las figuras de todos&quot;&gt;su propia concepción del oficio&lt;/a&gt; que encarna.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/uploads/2011/06/mapa-cruz.jpg&quot; alt=&quot;Mapa Cruz&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Desde el punto de vista formativo, la experiencia del taller busca dibujar un recorrido por esta figura, reconociendo que cada punta tiene su propia verdad y su propio modo. El diseñador debe integrar en sí mismo estos 4 sentidos, para darle sentido a su trabajo. El taller sostiene que el diseño no se juega solamente en la vieja disputa ciencia-arte; ni tampoco se trata &lt;em&gt;solamente&lt;/em&gt; de un arte. La figura es más compleja y es lo que se propone dilusidar aquí:&lt;/p&gt;
 
 &lt;h3 id=&quot;las-4-aperturas&quot;&gt;Las 4 aperturas&lt;/h3&gt;
 
@@ -2037,9 +2041,9 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   
   <entry>
     <title>Seminario Ciudad Abierta</title>
-    <link href="https://herbertspencer.net/2011/01/seminario-ciudad-abierta/"/>
+    <link href="http://0.0.0.0:4000/2011/01/seminario-ciudad-abierta/"/>
     <updated>2011-01-17T17:24:38-03:00</updated>
-    <id>https://herbertspencer.net/2011/01/seminario-ciudad-abierta</id>
+    <id>http://0.0.0.0:4000/2011/01/seminario-ciudad-abierta</id>
     <content type="html">
       &lt;p&gt;&lt;a href=&quot;http://www.ead.pucv.cl/wp-content/archivos/2011/01/taller-amereida.jpg&quot; title=&quot;CL ame 10 - taller amereida trimestre 1 - 289&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2011/01/taller-amereida-605x403.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 El cuestionamiento por la forma constituye el centro mismo de los oficios –arquitectura y diseño– por ser ésta la pregunta poética del aparecer. Esta pregunta, un tanto elusiva en sus múltiples respuestas, queremos expandirla y presentarla desde diversos puntos de vista (los más posibles).&lt;/p&gt;
@@ -2051,9 +2055,9 @@ El cuestionamiento por la forma constituye el centro mismo de los oficios –arq
   
   <entry>
     <title>Travesía Tubul, Arauco</title>
-    <link href="https://herbertspencer.net/2011/01/travesia-tubul-arauco/"/>
+    <link href="http://0.0.0.0:4000/2011/01/travesia-tubul-arauco/"/>
     <updated>2011-01-07T10:32:32-03:00</updated>
-    <id>https://herbertspencer.net/2011/01/travesia-tubul-arauco</id>
+    <id>http://0.0.0.0:4000/2011/01/travesia-tubul-arauco</id>
     <content type="html">
       &lt;h2 id=&quot;travesía-tubul&quot;&gt;&lt;a href=&quot;http://wiki.ead.pucv.cl/Traves%C3%ADa_Tubul&quot;&gt;Travesía Tubul&lt;/a&gt;&lt;/h2&gt;
 
@@ -2187,9 +2191,9 @@ En el taller leemos  el proceso creativo de originar como mirar en la realidad 
   
   <entry>
     <title>Mesh Network</title>
-    <link href="https://herbertspencer.net/2010/11/mesh-network/"/>
+    <link href="http://0.0.0.0:4000/2010/11/mesh-network/"/>
     <updated>2010-11-30T18:42:19-03:00</updated>
-    <id>https://herbertspencer.net/2010/11/mesh-network</id>
+    <id>http://0.0.0.0:4000/2010/11/mesh-network</id>
     <content type="html">
       &lt;!-- &lt;iframe src=&quot;https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015&quot; frameborder=no width=&apos;100%&apos; height=&apos;500&apos;&gt;&lt;/iframe&gt; --&gt;
 
@@ -2209,9 +2213,9 @@ En el taller leemos  el proceso creativo de originar como mirar en la realidad 
   
   <entry>
     <title>Internet como Bien Público</title>
-    <link href="https://herbertspencer.net/2010/10/internet-como-bien-publico/"/>
+    <link href="http://0.0.0.0:4000/2010/10/internet-como-bien-publico/"/>
     <updated>2010-10-12T02:34:41-03:00</updated>
-    <id>https://herbertspencer.net/2010/10/internet-como-bien-publico</id>
+    <id>http://0.0.0.0:4000/2010/10/internet-como-bien-publico</id>
     <content type="html">
       &lt;p&gt;&lt;a href=&quot;/assets/uploads/2010/10/mesh-network1.jpg&quot;&gt;&lt;img src=&quot;/assets/uploads/2010/10/mesh-network1-655x610.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2238,9 +2242,9 @@ En el taller leemos  el proceso creativo de originar como mirar en la realidad 
   
   <entry>
     <title>Herramienta y Espacio</title>
-    <link href="https://herbertspencer.net/2010/09/herramienta-y-espacio/"/>
+    <link href="http://0.0.0.0:4000/2010/09/herramienta-y-espacio/"/>
     <updated>2010-09-28T21:46:35-04:00</updated>
-    <id>https://herbertspencer.net/2010/09/herramienta-y-espacio</id>
+    <id>http://0.0.0.0:4000/2010/09/herramienta-y-espacio</id>
     <content type="html">
       &lt;p&gt;&lt;em&gt;Nota: texto preparado como exámen para los proyectos de título de Diseño Gráfico de Dámaris Sepúlveda y Cristóbal Severin.&lt;/em&gt;&lt;/p&gt;
 
@@ -2293,9 +2297,9 @@ El proyecto &lt;a href=&quot;http://wiki.ead.pucv.cl/MediaFranca&quot; title=&qu
   
   <entry>
     <title>Diseñar un Servicio</title>
-    <link href="https://herbertspencer.net/2010/06/disenar-un-servicio/"/>
+    <link href="http://0.0.0.0:4000/2010/06/disenar-un-servicio/"/>
     <updated>2010-06-16T14:24:47-04:00</updated>
-    <id>https://herbertspencer.net/2010/06/disenar-un-servicio</id>
+    <id>http://0.0.0.0:4000/2010/06/disenar-un-servicio</id>
     <content type="html">
       &lt;p&gt;&lt;strong&gt;Jueves 10 de Junio de 2010 Exámen de los talleres de 6ª y 7ª Etapa de Diseño Gráfico, Cuarto año.&lt;/strong&gt; Este taller aborda un campo de diseño llamado “diseño de servicios”. En este campo, la atención se pone en la relación de los objetos de diseño; cómo, siendo reunidos y orquestados a la luz de un servicio, construyen como tiempo y una experiencia para las personas que los viven. Es decir, trata la misma materia (editorial, señalética, interfaz, etc) pero construye una mirada distinta sobre ella, pues se trata de un diseño de segundo orden. Al enfocarse en el diseño de una sistema es preciso enfocarse en aspectos más inmateriales y emergentes (como la comunicación dentro y fuera de él, la transparencia de sus procesos, la hospitalidad de su lenguaje, el tono de su lenguaje, sus relaciones, las percepciones y lecturas que desde él emergen, etc.), cuidando siempre de construir, directa o indirectamente, la experiencia de las personas que lo viven y padecen cuando lo recorren.&lt;/p&gt;
 
@@ -2336,9 +2340,9 @@ El proyecto &lt;a href=&quot;http://wiki.ead.pucv.cl/MediaFranca&quot; title=&qu
   
   <entry>
     <title>Quadra: Diseño para la Interacción Ciudadana</title>
-    <link href="https://herbertspencer.net/2010/03/quadra-diseno-para-la-interaccion-ciudadana/"/>
+    <link href="http://0.0.0.0:4000/2010/03/quadra-diseno-para-la-interaccion-ciudadana/"/>
     <updated>2010-03-14T20:28:45-03:00</updated>
-    <id>https://herbertspencer.net/2010/03/quadra-diseno-para-la-interaccion-ciudadana</id>
+    <id>http://0.0.0.0:4000/2010/03/quadra-diseno-para-la-interaccion-ciudadana</id>
     <content type="html">
       &lt;blockquote&gt;
   &lt;p&gt;“El territorio ya no precede al mapa, ni lo sobrevive. De aquí en adelante, es el mapa el que precede al territorio, es el mapa el que engendra el territorio”.&lt;/p&gt;
@@ -2382,9 +2386,9 @@ A perfect and absolute blank!”&lt;/p&gt;
   
   <entry>
     <title>Viendo en la Transparencia</title>
-    <link href="https://herbertspencer.net/2010/02/viendo-en-la-transparencia/"/>
+    <link href="http://0.0.0.0:4000/2010/02/viendo-en-la-transparencia/"/>
     <updated>2010-02-09T17:29:14-03:00</updated>
-    <id>https://herbertspencer.net/2010/02/viendo-en-la-transparencia</id>
+    <id>http://0.0.0.0:4000/2010/02/viendo-en-la-transparencia</id>
     <content type="html">
       &lt;p&gt;A comienzos del 2007 tuve el inmenso privilegio de asistir a un curso único: Visualización de Información enseñado por &lt;a href=&quot;http://www.benfry.com/&quot; title=&quot;Página personal de Ben Fry&quot;&gt;Ben Fry&lt;/a&gt; (creador de Processing) y &lt;a href=&quot;http://www.flong.com/&quot; title=&quot;Página personal de Golan Levin&quot;&gt;Golan Levin&lt;/a&gt;, reconocido artista digital. Este curso (único e irrepetible en su especie), se centró en el proceso de generar visualizaciones a partir de grandes cuerpos de datos. El énfasis no estaba puesto en el despliegue técnico —o la proeza del código— sino la capacidad de poder &lt;em&gt;urdir narrativas interesantes&lt;/em&gt; a partir de un montón amorfo de data. La metodología de trabajo fue la siguiente, siguiendo la propuesta por Ben Fry en su &lt;a href=&quot;http://benfry.com/phd/dissertation-050312b-acrobat.pdf&quot; title=&quot;Tesis completa en PDF&quot;&gt;tesis doctoral&lt;/a&gt;, &lt;em&gt;Computational Information Design&lt;/em&gt;.&lt;/p&gt;
 
@@ -2405,9 +2409,9 @@ A perfect and absolute blank!”&lt;/p&gt;
   
   <entry>
     <title>La Continuidad de la Experiencia</title>
-    <link href="https://herbertspencer.net/2010/02/la-continuidad-de-la-experiencia/"/>
+    <link href="http://0.0.0.0:4000/2010/02/la-continuidad-de-la-experiencia/"/>
     <updated>2010-02-02T00:21:50-03:00</updated>
-    <id>https://herbertspencer.net/2010/02/la-continuidad-de-la-experiencia</id>
+    <id>http://0.0.0.0:4000/2010/02/la-continuidad-de-la-experiencia</id>
     <content type="html">
       &lt;h2 id=&quot;ser-y-tiempo&quot;&gt;Ser y Tiempo&lt;/h2&gt;
 
@@ -2615,9 +2619,9 @@ A perfect and absolute blank!”&lt;/p&gt;
   
   <entry>
     <title>La Experiencia del Taller de Primer Año de Diseño</title>
-    <link href="https://herbertspencer.net/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/"/>
+    <link href="http://0.0.0.0:4000/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/"/>
     <updated>2009-12-29T13:15:35-03:00</updated>
-    <id>https://herbertspencer.net/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno</id>
+    <id>http://0.0.0.0:4000/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno</id>
     <content type="html">
       &lt;p&gt;Al taller de primer año se le pide constituirse como la construcción de una experiencia de entrada al Oficio del Diseño.&lt;br /&gt;
 Si nos remitimos a las etimologías, la pablabra &lt;strong&gt;Diseño&lt;/strong&gt; , que es tanto sustantivo como verbo, significa dibujo (o boceto, croquis), en un sentido de &lt;em&gt;designio&lt;/em&gt; , de dibujo anticipatorio. Se trata, entonces, &lt;strong&gt;del oficio de dibujar los dibujos que anticipan aquello que todavía no es&lt;/strong&gt;.&lt;/p&gt;
@@ -2688,9 +2692,9 @@ para hacernos camino&lt;/em&gt;&lt;/p&gt;
   
   <entry>
     <title>Galexia: Espacio y Navegación Semántica</title>
-    <link href="https://herbertspencer.net/2009/12/galexia-espacio-y-navegacion-semantica/"/>
+    <link href="http://0.0.0.0:4000/2009/12/galexia-espacio-y-navegacion-semantica/"/>
     <updated>2009-12-18T09:36:03-03:00</updated>
-    <id>https://herbertspencer.net/2009/12/galexia-espacio-y-navegacion-semantica</id>
+    <id>http://0.0.0.0:4000/2009/12/galexia-espacio-y-navegacion-semantica</id>
     <content type="html">
       &lt;h3 id=&quot;senderos-de-la-memoria&quot;&gt;Senderos de la Memoria&lt;/h3&gt;
 
@@ -2730,9 +2734,9 @@ Es el aparente consumo del lector o investigador, normal cliente del archivo, el
   
   <entry>
     <title>Personas, no Usuarios</title>
-    <link href="https://herbertspencer.net/2009/11/personas-no-usuarios/"/>
+    <link href="http://0.0.0.0:4000/2009/11/personas-no-usuarios/"/>
     <updated>2009-11-04T16:08:58-03:00</updated>
-    <id>https://herbertspencer.net/2009/11/personas-no-usuarios</id>
+    <id>http://0.0.0.0:4000/2009/11/personas-no-usuarios</id>
     <content type="html">
       &lt;p&gt;&lt;a href=&quot;http://www.ead.pucv.cl/wp-content/archivos/2009/10/estorninos.jpg&quot; title=&quot;Bandada de estorninos&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2009/10/estorninos.jpg&quot; alt=&quot;Bandada de estorninos&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2751,9 +2755,9 @@ Es el aparente consumo del lector o investigador, normal cliente del archivo, el
   
   <entry>
     <title>Ética 2.0</title>
-    <link href="https://herbertspencer.net/2009/09/etica-2-0/"/>
+    <link href="http://0.0.0.0:4000/2009/09/etica-2-0/"/>
     <updated>2009-09-07T18:21:52-04:00</updated>
-    <id>https://herbertspencer.net/2009/09/etica-2-0</id>
+    <id>http://0.0.0.0:4000/2009/09/etica-2-0</id>
     <content type="html">
       &lt;p&gt;Hoy rechacé un trabajo bastante prometedor. Hice esto porque no comulgo políticamente con la institución que lo encargaba. Cuando conversaba con la persona que me ofrecía el trabajo me decía:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -2767,9 +2771,9 @@ Es el aparente consumo del lector o investigador, normal cliente del archivo, el
   
   <entry>
     <title>Realidad Aumentada en Perspectiva</title>
-    <link href="https://herbertspencer.net/2009/08/realidad-aumentada-en-perspectiva/"/>
+    <link href="http://0.0.0.0:4000/2009/08/realidad-aumentada-en-perspectiva/"/>
     <updated>2009-08-04T00:07:47-04:00</updated>
-    <id>https://herbertspencer.net/2009/08/realidad-aumentada-en-perspectiva</id>
+    <id>http://0.0.0.0:4000/2009/08/realidad-aumentada-en-perspectiva</id>
     <content type="html">
       &lt;p&gt;Cada época de la historia tiene su propio modo de ver el mundo. Esa particular &lt;em&gt;visión de mundo&lt;/em&gt; es la invención de un suelo que sostiene y celebra su época; nunca hay que olvidar que &lt;strong&gt;se trata de una invención&lt;/strong&gt;. En este sentido, resultan particularmente significativas las &lt;strong&gt;artes visuales&lt;/strong&gt; como manifestaciones concretas y transparentes de una particular mirada cultural. Asimismo, la evolución de ella nos muestra las profundas mutaciones en la comprensión de mundo de una determinada cultura. La realidad aumentada, como toda invención de la mirada, trae un ver cultural específico para aprehender y construir el mundo. Y el salto desde nuestro estado anterior (hipertexto), a este nuevo modo (capaz de integrar lo digital con lo físico) es tan grande y significativo que resulta difícil caer en la cuenta de la magnitud del hecho. Si bien últimamente nuestra historia se ha acelerado de forma exponencial ((O tal vez, siempre lo ha hecho. Lo que ocurre es que ahora empezamos a notarlo.)) los cambios de este tipo implican giros profundos en nuestra cultura, como comprensión y co-creación del mundo.&lt;/p&gt;
 
@@ -2825,9 +2829,9 @@ Es el aparente consumo del lector o investigador, normal cliente del archivo, el
   
   <entry>
     <title>Presentación de Proyectos de Gráfica Digital</title>
-    <link href="https://herbertspencer.net/2009/08/presentacion-de-proyectos-de-grafica-digital/"/>
+    <link href="http://0.0.0.0:4000/2009/08/presentacion-de-proyectos-de-grafica-digital/"/>
     <updated>2009-08-03T22:02:33-04:00</updated>
-    <id>https://herbertspencer.net/2009/08/presentacion-de-proyectos-de-grafica-digital</id>
+    <id>http://0.0.0.0:4000/2009/08/presentacion-de-proyectos-de-grafica-digital</id>
     <content type="html">
       &lt;p&gt;&lt;a href=&quot;http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250.png&quot; title=&quot;Imagen Afiche Expo - Proyectos de Gráfica Digital 2009&quot;&gt;&lt;img src=&quot;http://www.ead.pucv.cl/wp-content/archivos/2009/08/dg0003250-260x260.png&quot; alt=&quot;Imagen Afiche Expo&quot; /&gt;&lt;/a&gt;El curso de &lt;strong&gt;Gráfica Digital&lt;/strong&gt; busca identificar oportunidades para el diseño de nuevas instancias de interacción a partir de necesidades y escenarios cotidianos. Al finalizar esta etapa, el curso ha diseñado 6 espacios de interacción en la forma de servicios digitales, los cuales serán presentados el día &lt;strong&gt;lunes 17 de Agosto&lt;/strong&gt; en la Sala de primer año de Arquitectura.&lt;/p&gt;
 
@@ -2861,9 +2865,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Espirales</title>
-    <link href="https://herbertspencer.net/2009/07/espirales/"/>
+    <link href="http://0.0.0.0:4000/2009/07/espirales/"/>
     <updated>2009-07-08T23:35:23-04:00</updated>
-    <id>https://herbertspencer.net/2009/07/espirales</id>
+    <id>http://0.0.0.0:4000/2009/07/espirales</id>
     <content type="html">
       &lt;p&gt;Estos días no he hecho nada porque me la he pasado en puras reuniones. Mientras escucho, dibujo espirales en mi cuaderno y veo como los pequeños errores, engrosamientos y disminuciones de los espacios se acumulan, amplifican o suavizan.&lt;/p&gt;
 
@@ -2876,9 +2880,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Haciendo Trampa</title>
-    <link href="https://herbertspencer.net/2009/07/haciendo-trampa/"/>
+    <link href="http://0.0.0.0:4000/2009/07/haciendo-trampa/"/>
     <updated>2009-07-05T21:11:40-04:00</updated>
-    <id>https://herbertspencer.net/2009/07/haciendo-trampa</id>
+    <id>http://0.0.0.0:4000/2009/07/haciendo-trampa</id>
     <content type="html">
       &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;γνοστι τε αυτϖν&lt;/strong&gt; (nosce te ipsum) Esta inscripción, puesta por los siete sabios en el frontispicio del templo de Delfos, es clásica en el pensamiento griego. Muchos pensadores la han adoptado al igual que Sócrates y Platón, como uno de los principios de sus enseñanzas: “&lt;em&gt;Cuando conoces a las personas, te vuelves inteligente; cuando te conoces a tí mismo, te vuelves un iluminado&lt;/em&gt; “&lt;/p&gt;
@@ -2901,9 +2905,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Inicio del Primer Año de Diseño</title>
-    <link href="https://herbertspencer.net/2009/07/inicio-del-primer-ano-de-diseno/"/>
+    <link href="http://0.0.0.0:4000/2009/07/inicio-del-primer-ano-de-diseno/"/>
     <updated>2009-07-05T15:18:07-04:00</updated>
-    <id>https://herbertspencer.net/2009/07/inicio-del-primer-ano-de-diseno</id>
+    <id>http://0.0.0.0:4000/2009/07/inicio-del-primer-ano-de-diseno</id>
     <content type="html">
       &lt;h1 id=&quot;al-diseño-año-1-etapa-i&quot;&gt;Al diseño: Año 1, Etapa I&lt;/h1&gt;
 
@@ -3175,9 +3179,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Transparencia Radical</title>
-    <link href="https://herbertspencer.net/2009/04/transparencia-radical/"/>
+    <link href="http://0.0.0.0:4000/2009/04/transparencia-radical/"/>
     <updated>2009-04-21T19:44:25-04:00</updated>
-    <id>https://herbertspencer.net/2009/04/transparencia-radical</id>
+    <id>http://0.0.0.0:4000/2009/04/transparencia-radical</id>
     <content type="html">
       &lt;p&gt;Roberto Matta imaginaba a un ser que tenía el poder de volver las cosas transparentes y que permitiesen al resto &lt;em&gt;ver&lt;/em&gt;. Lo llamaba &lt;em&gt;el ver-tor (o virteur)&lt;/em&gt; , el Gran Transparente. Es la imagen del artista como vidente ((ver también: Arthur Rimabaud, Cartas del Vidente)) que desde su mirada pura es capaz de revelar a los demás las estructuras subyacentes (a veces insoportables, crudas y avasalladoras), los grandes &lt;em&gt;totems&lt;/em&gt; de la sociedad ocultados tras las apariencias. Cada época tiene su propia poética, una espiritualidad especial y precisa que le permite comprender y reapasionar al mundo. Según Wassily Kandisky ((De lo Espiritual en el Arte, &lt;em&gt;Über das Geistige in der Kunst&lt;/em&gt; , 1952)) esta espiritualidad tiene forma de un triángulo apoyado en su base. El triángulo avanza lentamente hacia arriba y hacia adelante, tirado por una élite espiritual (los artistas). Al cabo de algún tiempo, lo que era comprendido y valorado por una minoría, pasa a ser patrimonio de todo el resto de nosotros; nos apropiamos de los códigos, hacemos nuestra esa visión y expresión. Creo que eso es lo que ha pasado con la transparencia, como concepto y como valor artístico. Ha sido absorbida (para bien, espero) en su totalidad por la sociedad. Como diría Kandinsky, ha llegado a la base del triángulo y hoy es moneda de cambio, casi un &lt;em&gt;commodity&lt;/em&gt;. La transparencia ha llegado a la vida diaria como valor que perseguir y construir, al estado como exigencia, a la política como un deber ético y a la &lt;a href=&quot;http://en.wikipedia.org/wiki/Radical_transparency&quot; title=&quot;Concepto ya reconocido en inglés, ver definición de Wikipedia&quot;&gt;administración&lt;/a&gt; en general como una estrategia de sostenibilidad. Ahora la transparencia es algo exijible a los organismos públicos (casi un commodity, como decía antes, expresado en el “sticker” de “gobierno transparente” en cada sitio del estado). Sin embargo, me preocupa qué es lo que se entiende por transparencia y hacia dónde apunta esta iniciativa. Como concepto, es potentísimo y eso nos indica que vivimos en tiempos extraordinarios, casi épicos. Por eso debemos construir —entre todos, ojalá— el sentido de la transparencia.&lt;/p&gt;
 
@@ -3186,9 +3190,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Partituras de Interacción</title>
-    <link href="https://herbertspencer.net/2008/11/partituras-de-interaccion/"/>
+    <link href="http://0.0.0.0:4000/2008/11/partituras-de-interaccion/"/>
     <updated>2008-11-25T19:24:15-03:00</updated>
-    <id>https://herbertspencer.net/2008/11/partituras-de-interaccion</id>
+    <id>http://0.0.0.0:4000/2008/11/partituras-de-interaccion</id>
     <content type="html">
       &lt;p&gt;Este lenguaje visual propone((El artículo original no fue publicado en su momento pero se encuentra disponible &lt;a href=&quot;https://www.researchgate.net/publication/387997690_PiX_Language_Proposal_Interaction_Notation_for_Digital_Systems_Design&quot;&gt;acá&lt;/a&gt;.)) un sistema de notación gráfica para formalizar los flujos de interacción en una plataforma o servicio digital.&lt;/p&gt;
 
@@ -3246,9 +3250,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Processing 1.0</title>
-    <link href="https://herbertspencer.net/2008/11/processing-1/"/>
+    <link href="http://0.0.0.0:4000/2008/11/processing-1/"/>
     <updated>2008-11-25T15:47:02-03:00</updated>
-    <id>https://herbertspencer.net/2008/11/processing-1</id>
+    <id>http://0.0.0.0:4000/2008/11/processing-1</id>
     <content type="html">
       &lt;p&gt;&lt;a href=&quot;http://www.processing.org/&quot; title=&quot;Sitio web del proyecto&quot;&gt;Processing&lt;/a&gt; ha dejado de ser un beta. Lo era desde que partió este proyecto el año 2001 en el MediaLab del MIT de la mano de &lt;a href=&quot;http://reas.com/&quot;&gt;Casey Reas&lt;/a&gt; y &lt;a href=&quot;http://benfry.com/&quot;&gt;Ben Fry&lt;/a&gt;. Esta aplicación, o más bien, este entorno de desarrollo nos ha permitido acercarnos a la computación desde un punto de vista artístico y creativo. Ha causado un gran impacto en la comunidad de educadores y formadores de artistas y diseñadores. Sin ir más lejos, el año 2005 (cuando aún era un beta) recibió el Golden Nica en Ars Electrónica. Personalmente creo que Processing cumple un rol fundamental en la formación del diseñador, especialmente por la capacidad de estimular el pensamiento abstracto - matemático necesario para la concepción de formas digitales. Concretamente existe un ramo en la &lt;a href=&quot;http://www.ead.pucv.cl&quot;&gt;e[ad]&lt;/a&gt; llamado &lt;a href=&quot;http://www.ead.pucv.cl/2008/dibujos-generativos/&quot; title=&quot;artículo de los trabajos realizados en este ramo&quot;&gt;Lenguaje Computacional Cero&lt;/a&gt; (o LC0) dentro del Taller de Diseño para el Primer Año. Este curso es una introducción a la computación como una herramienta de expresión plástica, donde el objetivo es el diseño pero el medio es el software. Los estudiantes se familiarizan con algoritmos básicos, geometría computacional y simulación cinemática. La alfabetización digital, entendida en la mayoría de los casos como la capacidación para el uso de programas, sólo resuleve la mitad del problema: el saber &lt;em&gt;leer&lt;/em&gt;. Saber &lt;em&gt;escribir&lt;/em&gt; , tiene implicancias mucho más profundas, porque significa ser capaz de expresar y llevar adelante las ideas propias. Para un diseñador este distingo es fundamental ya que debe comprender el lenguaje &lt;strong&gt;desde ambos lados&lt;/strong&gt; para poder construir y diseñar; y el medio digital permite esa maleabilidad.&lt;/p&gt;
 
@@ -3257,9 +3261,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Cómo diseñar democracia en la red</title>
-    <link href="https://herbertspencer.net/2008/10/como-disenar-democracia-en-la-red/"/>
+    <link href="http://0.0.0.0:4000/2008/10/como-disenar-democracia-en-la-red/"/>
     <updated>2008-10-23T10:30:54-03:00</updated>
-    <id>https://herbertspencer.net/2008/10/como-disenar-democracia-en-la-red</id>
+    <id>http://0.0.0.0:4000/2008/10/como-disenar-democracia-en-la-red</id>
     <content type="html">
       &lt;p&gt;Escribo este post porque veo que ya están ocurriendo cosas en este ámbito y hablar de esto ahora deja de ser sólo teoría. Mi amigo &lt;a href=&quot;http://www.politicastereo.tv/debates.php&quot; title=&quot;Debates de Política Stereo&quot;&gt;Jorge planteó esta pregunta en políticaestero.tv&lt;/a&gt; (una nueva plataforma para la conversación política en Chile), respecto de cómo la política chilena puede recibir al espacio digital y veo con bastante expectación cómo comienza a configurarse una mirada más propositiva y constructiva en torno a la potencia de este medio como soporte para la democracia.&lt;/p&gt;
 
@@ -3306,9 +3310,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Todo depende del cristal con que se mire</title>
-    <link href="https://herbertspencer.net/2008/09/todo-depende-del-cristal-con-que-se-mire/"/>
+    <link href="http://0.0.0.0:4000/2008/09/todo-depende-del-cristal-con-que-se-mire/"/>
     <updated>2008-09-30T10:42:50-04:00</updated>
-    <id>https://herbertspencer.net/2008/09/todo-depende-del-cristal-con-que-se-mire</id>
+    <id>http://0.0.0.0:4000/2008/09/todo-depende-del-cristal-con-que-se-mire</id>
     <content type="html">
       &lt;p&gt;Cuando se preguntan por la realidad, los filósofos piensan en un conejo. ¿Cómo tomo al conejo? ¿Con mis manos o por la orejas? Es decir, es la realidad algo que efectivamente existe &lt;em&gt;a priori&lt;/em&gt; y a pesar mío (por las orejas) ¿o se trata efectivamente de una construcción, de un artificio cognitivo que hago para articular el flujo de estímulos incoherentes? Si llevamos esta pregunta al contexto de diseño para Internet podremos ver una gran cantidad de extensiones y de &lt;a href=&quot;http://userscripts.org/&quot; title=&quot;Repositorio de scripts&quot;&gt;scripts&lt;/a&gt; para que el browser (Greasemonkey para Firefox) se comporte y despliegue la realidad de maneras especiales, filtradas, retocadas, hackeadas, etc:&lt;/p&gt;
 
@@ -3336,9 +3340,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>La Naturaleza de la Información</title>
-    <link href="https://herbertspencer.net/2008/09/la-naturaleza-de-la-informacion/"/>
+    <link href="http://0.0.0.0:4000/2008/09/la-naturaleza-de-la-informacion/"/>
     <updated>2008-09-10T09:40:59-04:00</updated>
-    <id>https://herbertspencer.net/2008/09/la-naturaleza-de-la-informacion</id>
+    <id>http://0.0.0.0:4000/2008/09/la-naturaleza-de-la-informacion</id>
     <content type="html">
       &lt;p&gt;El concepto de información es bastante abstracto y elusivo pero lo usamos con tanta familiaridad y tan cotidianamente que ni siquiera nos tomamos la molestia en definirla. Al menos sabemos 2 cosas básicas (o creemos 2 mitos básicos): que se constituye como el &lt;strong&gt;contenido&lt;/strong&gt; del acto comunicativo y que es algo &lt;strong&gt;inmaterial&lt;/strong&gt; (tal vez por la facilidad con que transita desde la boca al oído). La información emerge como contenido, como una especie de “cosa” u “objeto” pero con cualidades especiales: facilidad de reproducción, amplificación y propagación; pero a la vez intangible y volátil. Si tuviésemos que ponerle fecha de inicio, la Era de la Información comenzó el año 1948, poco tiempo después de finalizar la Segunda Guerra Mundial cuando Claude Shannon publicó el trabajo “&lt;strong&gt;Una Teoría Matemática de la Comunicación&lt;/strong&gt; “ ((C.E. Shannon, “&lt;a href=&quot;http://plan9.bell-labs.com/cm/ms/what/shannonday/shannon1948.pdf&quot; title=&quot;http://plan9.bell-labs.com/cm/ms/what/shannonday/shannon1948.pdf&quot;&gt;A Mathematical Theory of Communication&lt;/a&gt;”, &lt;em&gt;&lt;a href=&quot;http://www.alcatel-lucent.com/wps/portal/!ut/p/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKLd4w3MTfVL8h2VAQAYbZ-ZQ!!?LMSG_CABINET=Bell_Labs&amp;amp;LMSG_CONTENT_FILE=Resources/Bell_Labs_Technical_Journal.xml&quot; title=&quot;Bell System Technical Journal&quot;&gt;Bell System Technical Journal&lt;/a&gt;&lt;/em&gt; , vol. 27, pp. 379-423, 623-656, July, October, 1948.)) . &lt;a href=&quot;/assets/uploads/2008/09/esquema-informacion1.png&quot;&gt;&lt;img src=&quot;/assets/uploads/2008/09/esquema-informacion1.png&quot; alt=&quot;Diagrama esquemático general de los sistemas de comunicación (copiado sin permiso) de Claude Shannon, 1948.&quot; /&gt;&lt;/a&gt; En este trabajo, Shannon define la información a partir de la relación entre &lt;strong&gt;señal&lt;/strong&gt; y &lt;strong&gt;ruido&lt;/strong&gt; ; &lt;em&gt;la información es una medida estadística de la incertidumbre del sistema&lt;/em&gt;(dentro de un sistema entrópico). La información implica una relación &lt;strong&gt;no-lineal&lt;/strong&gt; y &lt;strong&gt;no-determinista&lt;/strong&gt; entre los niveles micro y macroscópicos del sistema físico.&lt;/p&gt;
 
@@ -3359,9 +3363,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>IV Seminario Chileno de AI</title>
-    <link href="https://herbertspencer.net/2008/08/iv-seminario-chileno-de-ai/"/>
+    <link href="http://0.0.0.0:4000/2008/08/iv-seminario-chileno-de-ai/"/>
     <updated>2008-08-24T20:57:01-04:00</updated>
-    <id>https://herbertspencer.net/2008/08/iv-seminario-chileno-de-ai</id>
+    <id>http://0.0.0.0:4000/2008/08/iv-seminario-chileno-de-ai</id>
     <content type="html">
       &lt;p&gt;En esta &lt;a href=&quot;http://www.aichile.org/seminario-2008/iv-seminario-chileno-de-arquitectura-de-la-informacion/&quot; title=&quot;IV Seminario Chileno de Arquitetura de la Información&quot;&gt;cuarta versión del seminario&lt;/a&gt; de Arquitectura de la Información, nuestro amigo &lt;a href=&quot;http://www.usando.info/blog/&quot; title=&quot;blog de Juan Carlos: usando.info&quot;&gt;Juan Carlos Camus&lt;/a&gt; ha sugerido darle el nombre de “&lt;em&gt;viviendo la experiencia del usuario&lt;/em&gt; “ para generar la discusión en torno a este concepto. En Chile, el concepto de &lt;strong&gt;Arquitectura de la Información&lt;/strong&gt; nos ha servido como referencia y pretexto para juntarnos y construir &lt;a href=&quot;http://www.aichile.org/&quot; title=&quot;aiChile.org&quot;&gt;una comunidad de interés&lt;/a&gt;, ha sido el &lt;strong&gt;catalizador de la discusión&lt;/strong&gt; en torno al diseño de plataformas y servicios web, nos ha servido para &lt;strong&gt;elevar el nivel&lt;/strong&gt; de la discusión y para &lt;strong&gt;evangelizar y educar&lt;/strong&gt; —en lo posible— a las empresas de la necesidad de tomar con seriedad el tema. Es cierto que la &lt;strong&gt;AI&lt;/strong&gt; y la &lt;strong&gt;Experiencia del Usuario&lt;/strong&gt; son temas distintos ((Hago esta aclaración a propósito del poco afortunado comentario hecho en relación al nombre y sentido del sentido del seminario, &lt;a href=&quot;http://www.aichile.org/seminario-2008/iv-seminario-chileno-de-arquitectura-de-la-informacion/&quot; title=&quot;ver comentario de: anonimo&quot;&gt;ver post original&lt;/a&gt;.)). En realidad son 2 aproximaciones metodológicas para acceder al mismo problema:&lt;/p&gt;
 
@@ -3378,9 +3382,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Ecosistemas de Información</title>
-    <link href="https://herbertspencer.net/2008/08/ecosistemas-de-informacion/"/>
+    <link href="http://0.0.0.0:4000/2008/08/ecosistemas-de-informacion/"/>
     <updated>2008-08-10T19:06:15-04:00</updated>
-    <id>https://herbertspencer.net/2008/08/ecosistemas-de-informacion</id>
+    <id>http://0.0.0.0:4000/2008/08/ecosistemas-de-informacion</id>
     <content type="html">
       &lt;p&gt;Una de las grandes dificultades que existe al momento de plantear la estrategia de un proyecto de comunicación a través de Internet, radica en las implicancias que esta &lt;em&gt;punta del iceberg&lt;/em&gt; —la interfaz Web— tiene en la cultura interna de la organización, porque no se trata de un cambio “cosmético” sino que tiene que &lt;strong&gt;reflejar transparentemente&lt;/strong&gt; el modo de ser de la organización o empresa. Conocida es la frase que dice: “La arquitectura de la información es la cola que mueve al perro”, de Louis Rosenfeld. Plantear un proyecto Web como un &lt;strong&gt;cambio cultural dentro de la organización&lt;/strong&gt; es políticamente torpe y kamikaze. Nadie va a querer cambiar su cultura interna, menos si es alguien externo quien lo dice (el consultor de diseño).&lt;/p&gt;
 
@@ -3435,9 +3439,9 @@ Para más información de estos proyectos, &lt;a href=&quot;http://ead.pucv.cl/w
   
   <entry>
     <title>Pasaje Paralelo</title>
-    <link href="https://herbertspencer.net/2008/08/pasaje-paralelo"/>
+    <link href="http://0.0.0.0:4000/2008/08/pasaje-paralelo"/>
     <updated>2008-08-08T12:41:34-04:00</updated>
-    <id>https://herbertspencer.net/2008/08/pasaje-paralelo-final-creadits</id>
+    <id>http://0.0.0.0:4000/2008/08/pasaje-paralelo-final-creadits</id>
     <content type="html">
       &lt;p&gt;Mi amigo Ronald Smith me pidió (hace muchos años, por ahí por 1999) que le hiciera los créditos para el comienzo de su programa de televisión dedicado a la música: Pasaje Paralelo.&lt;/p&gt;
 
@@ -3456,9 +3460,9 @@ La idea era que la escenografía sería también generada en 3D y Ronald estarí
   
   <entry>
     <title>Cortometraje</title>
-    <link href="https://herbertspencer.net/2008/08/cortometraje"/>
+    <link href="http://0.0.0.0:4000/2008/08/cortometraje"/>
     <updated>2008-08-04T06:58:28-04:00</updated>
-    <id>https://herbertspencer.net/2008/08/cortometraje</id>
+    <id>http://0.0.0.0:4000/2008/08/cortometraje</id>
     <content type="html">
       &lt;p&gt;Este pequeño cortometraje fue realizado en 1998 a pedido de Carlos Sánchez para la realización de su tesis: “La percepción según Carlito”.&lt;/p&gt;
 
@@ -3469,9 +3473,9 @@ La idea era que la escenografía sería también generada en 3D y Ronald estarí
   
   <entry>
     <title>Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV</title>
-    <link href="https://herbertspencer.net/2008/08/historia-de-la-ead"/>
+    <link href="http://0.0.0.0:4000/2008/08/historia-de-la-ead"/>
     <updated>2008-08-03T15:06:00-04:00</updated>
-    <id>https://herbertspencer.net/2008/08/historia-de-la-ead</id>
+    <id>http://0.0.0.0:4000/2008/08/historia-de-la-ead</id>
     <content type="html">
       &lt;p&gt;Este video fue realizado en 2003 con motivo del lanzamiento del libro “Escuela de Valparaíso - Ciudad Abierta” por editorial Tanais. Este libro presenta la historia de la e[ad] Escuela de Arquitectura y Diseño PUCV, también conocida como “Escuela de Valparaíso” (&lt;a href=&quot;http://www.ead.pucv.cl/&quot;&gt;ead.pucv.cl&lt;/a&gt;).&lt;br /&gt;
 La secuencia fotográfica y pequeños videos ilustran la historia de la escuela desde su fundación en 1952, el perído del instituto de arquitectura, la bottega, la travesía de amereida, la fundación de la Ciudad Abierta, los torneos y juegos, entre otros hitos.&lt;/p&gt;
@@ -3485,9 +3489,9 @@ La secuencia fotográfica y pequeños videos ilustran la historia de la escuela 
   
   <entry>
     <title>Manejando la Complejidad</title>
-    <link href="https://herbertspencer.net/2008/07/manejando-la-complejidad/"/>
+    <link href="http://0.0.0.0:4000/2008/07/manejando-la-complejidad/"/>
     <updated>2008-07-28T08:26:45-04:00</updated>
-    <id>https://herbertspencer.net/2008/07/manejando-la-complejidad</id>
+    <id>http://0.0.0.0:4000/2008/07/manejando-la-complejidad</id>
     <content type="html">
       &lt;p&gt;Entre Ciencia y Arte hay un puente que está hecho por el Diseño. Desde la poética de la creación a la retórica de la razón. Sin embargo, ese paso nunca se nos ha mostrado claramente ni se pueden dividir las aguas para proponer un Diseño “más artístico” o “más científico”. Por lo menos, no de un modo en que siga siendo buen Diseño. Desde un punto de vista bastante peculiar, el diseñador &lt;a href=&quot;http://www.interaction.rca.ac.uk/people/staff/anthony-dunne.html&quot;&gt;Tony Dunne&lt;/a&gt; profesor de &lt;a href=&quot;http://www.interaction.rca.ac.uk/&quot;&gt;Design Interactions at the RCA&lt;/a&gt;, aborda la pedagogía del Diseño desde una postura comprometida con la responsabilidad social. Pero no lo hace un el sentido convensional sino más bien instaura el diseño como la &lt;strong&gt;materialización de un tema para el debate&lt;/strong&gt;. Se trata de intervenir en problemáticas o insterticios —normalmente asociados a tecnologías futuras— que resultan difíciles de plantear y discutir, debido a la complejidad de los mismos. Él “va río arriba” en términos especulativos y genera productos hipotéticos basados en tecnologías (biología sintética, manipulación genética o similares) para &lt;strong&gt;volver tangibles los problemas&lt;/strong&gt; y generar el debate antes de que estos productos existan efectivamente, o —como él lo pone— que “pasen del laboratorio al mercado”; para saber si realmente queremos cosas así o no. Si las cosas son tangibles, entonces son debatibles; volviendo concreto lo fragmentado y extañamente efímero. Se trata de pensar un Diseño que palntee preguntas y no sólo respuestas, como estamos acostumbrados. Para más detalles de &lt;a href=&quot;http://www.interaction.rca.ac.uk/briefs/designForDebate.html&quot;&gt;design for debate&lt;/a&gt;, basta mirar algunas notas de la conferencia del año pasado &lt;a href=&quot;http://interface.fh-potsdam.de/innoforum/index.php&quot;&gt;Innovationsforum Interaktionsdesign&lt;/a&gt; efectuada en Potsdam:  &lt;a href=&quot;http://www.vimeo.com/734763?pg=embed&amp;amp;sec=734763&quot;&gt;Anthony Dunne // Dunne &amp;amp; Raby&lt;/a&gt; from &lt;a href=&quot;http://www.vimeo.com/user378630?pg=embed&amp;amp;sec=734763&quot;&gt;Innovationsforum&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com?pg=embed&amp;amp;sec=734763&quot;&gt;Vimeo&lt;/a&gt;. La idea de que el Diseño puede jugar un rol crucial en el manejo de estas situaciones complejas es difícilmente novedoso pero podemos ver un gran potencial en la idea de diseñar “objetos controversiales” que sean absolutamente verosímiles, que aborden necesidades reales, que sean productivamente viables y que a la vez, sean capaces de generar un debate en temas cruciales y de interés público. Me gusta este punto de vista porque, además, &lt;strong&gt;revierte la dinámica tradicional del tecnodeterminismo&lt;/strong&gt; donde el diseño se ocupa de construir aplicaciones a tecnologías ya desarrolladas y no tiene voz ni voto en decidir si se trata realmente de algo que queremos o no.&lt;/p&gt;
 
@@ -3496,9 +3500,9 @@ La secuencia fotográfica y pequeños videos ilustran la historia de la escuela 
   
   <entry>
     <title>Crono-anamorfosis</title>
-    <link href="https://herbertspencer.net/2008/07/crono-anamorfosis/"/>
+    <link href="http://0.0.0.0:4000/2008/07/crono-anamorfosis/"/>
     <updated>2008-07-08T18:34:03-04:00</updated>
-    <id>https://herbertspencer.net/2008/07/crono-anamorfosis</id>
+    <id>http://0.0.0.0:4000/2008/07/crono-anamorfosis</id>
     <content type="html">
       &lt;p&gt;&lt;img src=&quot;/assets/uploads/2008/07/timescan-normal1.png&quot; alt=&quot;secuencia&quot; /&gt;&lt;/p&gt;
 
@@ -3524,9 +3528,9 @@ La secuencia fotográfica y pequeños videos ilustran la historia de la escuela 
   
   <entry>
     <title>Del Suelo a la Tesela</title>
-    <link href="https://herbertspencer.net/2008/06/del-suelo-a-la-tesela/"/>
+    <link href="http://0.0.0.0:4000/2008/06/del-suelo-a-la-tesela/"/>
     <updated>2008-06-18T09:03:08-04:00</updated>
-    <id>https://herbertspencer.net/2008/06/del-suelo-a-la-tesela</id>
+    <id>http://0.0.0.0:4000/2008/06/del-suelo-a-la-tesela</id>
     <content type="html">
       &lt;p&gt;Este taller comienza definiendo su campo de acción: en esta ocasión nos ocupamos de suelo, el horizonte del pie.&lt;/p&gt;
 
@@ -3601,9 +3605,9 @@ Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel mo
   
   <entry>
     <title>Después de Investigar</title>
-    <link href="https://herbertspencer.net/2008/05/despues-de-investigar/"/>
+    <link href="http://0.0.0.0:4000/2008/05/despues-de-investigar/"/>
     <updated>2008-05-05T08:48:57-04:00</updated>
-    <id>https://herbertspencer.net/2008/05/despues-de-investigar</id>
+    <id>http://0.0.0.0:4000/2008/05/despues-de-investigar</id>
     <content type="html">
       &lt;p&gt;Está claro que la &lt;strong&gt;investigación exploratoria&lt;/strong&gt; con usuarios adquiere cada vez más valor en los proyectos (aunque todavía, para los ojos del cliente, sea muy difícil justificarla y formalizarla dentro de una Gantt). Esta investigación preliminar nos permite definir el territorio de acción y comprender los &lt;a href=&quot;http://www.darcy.cl/usabilidad/%c2%bfque-son-los-modelos-mentales/&quot; title=&quot;Lo que Darcy dice&quot;&gt;modelos mentales&lt;/a&gt; de las personas involucradas. Sólo desde ahí podremos avanzar en definiciones de valor para el diseño. Dentro de una oficina de diseño —como &lt;a href=&quot;http://www.ayerviernes.com&quot; title=&quot;AyerViernes S.A.&quot;&gt;AyerViernes&lt;/a&gt;— el proceso de investigación se instala cada vez más como una pieza clave dentro del proceso creativo; cada vez se hace más patente el valor que trae un agudo conocimiento de las personas para construir diseños eficaces, apropiables y queribles. El desafío entonces no radica en elegir una metodología de investigación adecuada, sino más bien en cómo leemos en la información obtenida &lt;strong&gt;implicancias para el diseño&lt;/strong&gt;.&lt;/p&gt;
 
@@ -3631,9 +3635,9 @@ Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel mo
   
   <entry>
     <title>Historias Dirigidas: Interpretando Experiencias</title>
-    <link href="https://herbertspencer.net/2008/03/historias-dirigidas/"/>
+    <link href="http://0.0.0.0:4000/2008/03/historias-dirigidas/"/>
     <updated>2008-03-05T22:17:17-03:00</updated>
-    <id>https://herbertspencer.net/2008/03/historias-dirigidas</id>
+    <id>http://0.0.0.0:4000/2008/03/historias-dirigidas</id>
     <content type="html">
       &lt;p&gt;El diseño se ocupa de la construcción del significado. Pero más específicamente, los diseñadores proveemos a las personas de los elementos para construir sus propios significados. Pero ¿cómo los diseñadores podemos distinguir los elementos y artefactos detonantes de significado para otra persona? ¿cómo y a partir de qué discriminamos para cada caso? En la historia del diseño la respuesta a esta interrogante siempre ha venido de dos vertientes aparentemente opuestas: desde la &lt;strong&gt;investigación&lt;/strong&gt; dura o desde la &lt;strong&gt;intuición&lt;/strong&gt; basada en la experiencia personal. En este último caso, el diseñador funciona como una especie de caja negra (genial, por lo demás) capaz discriminar los elementos, el lenguaje y tono precisos. El problema surge cuando el encargo nos lleva a un campo en el que no estamos familiarizados y no tenemos experiencia previa. En este caso la mera intuición carece de respaldo para actuar. Si reconocemos a nuestro oficio como aquel capaz de construir puentes de comunicación (como dice &lt;a href=&quot;http://www.jbarahona.com/2007/04/17/celestial-mechanics/&quot; title=&quot;cuando habla de Tufte&quot;&gt;Jorge&lt;/a&gt;) en un contexto en el cual somos foráneos, requeriremos —necesariamente— de herramientas que nos permitan distinguir los códigos y los artefactos más significantes para el contexto específico; algo que nos permita comprender los &lt;a href=&quot;http://www.darcy.cl/usabilidad/%c2%bfque-son-los-modelos-mentales/&quot; title=&quot;lo que dice Darcy al respecto&quot;&gt;modelos mentales&lt;/a&gt; de los usuarios. &lt;a href=&quot;http://www.design.cmu.edu/show_person.php?t=f&amp;amp;id=ShelleyEvenson&quot; title=&quot;Shelley Evenson, School of Design, CMU&quot;&gt;Shelley Evenson&lt;/a&gt; adaptó algunas metodologías de investigación etnográfica a un contexto de diseño, inventando el concepto de “&lt;strong&gt;historias dirigidas&lt;/strong&gt; ” (o &lt;em&gt;directed storytelling&lt;/em&gt;) como una herramienta de indagación para estos escenarios. Esta metodología corresponde a un tipo de entrevista en la cual se les pide a los participantes que reconstruyan una tarea específica, idealmente la central en su trabajo y que sea aquella que estemos re-diseñando o modificando a partir de un nuevo sistema. Este recorrido a lo largo de una tarea debe realizarse en el mismo espacio donde ocurre y utilizando las mismas herramientas. Puesto que el objetivo es comprender el acto en un nivel más íntimo (emocional) este método es muy suelto e informal. Dentro de las consideraciones para la documentación del proceso están:&lt;/p&gt;
 
@@ -3667,9 +3671,9 @@ Si uno se remite al principio, a su propia infancia, reconocerá en sí aquel mo
   
   <entry>
     <title>Teselador</title>
-    <link href="https://herbertspencer.net/2008/02/teselador/"/>
+    <link href="http://0.0.0.0:4000/2008/02/teselador/"/>
     <updated>2008-02-29T16:26:58-03:00</updated>
-    <id>https://herbertspencer.net/2008/02/teselador</id>
+    <id>http://0.0.0.0:4000/2008/02/teselador</id>
     <content type="html">
       &lt;p&gt;En el contexto de la &lt;a href=&quot;http://www.flickr.com/photos/herbert-spencer/sets/72157603195788888/&quot; title=&quot;Fotos de la Travesía en Flickr&quot;&gt;travesía a Purmamarca 2007&lt;/a&gt;, salió un pequeño programa para dibujar con baldosas triangulares.&lt;/p&gt;
 
@@ -3775,9 +3779,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>Para qué investigamos con usuarios</title>
-    <link href="https://herbertspencer.net/2008/02/para-que-investigamos-con-usuarios/"/>
+    <link href="http://0.0.0.0:4000/2008/02/para-que-investigamos-con-usuarios/"/>
     <updated>2008-02-28T00:41:38-03:00</updated>
-    <id>https://herbertspencer.net/2008/02/para-que-investigamos-con-usuarios</id>
+    <id>http://0.0.0.0:4000/2008/02/para-que-investigamos-con-usuarios</id>
     <content type="html">
       &lt;p&gt;En términos generales, en todo proceso de diseño podemos distinguir 3 momentos o fases características:&lt;/p&gt;
 &lt;ol&gt;
@@ -3822,9 +3826,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>Investigación y Diseño</title>
-    <link href="https://herbertspencer.net/2008/01/investigacion-y-diseno/"/>
+    <link href="http://0.0.0.0:4000/2008/01/investigacion-y-diseno/"/>
     <updated>2008-01-22T09:57:23-03:00</updated>
-    <id>https://herbertspencer.net/2008/01/investigacion-y-diseno</id>
+    <id>http://0.0.0.0:4000/2008/01/investigacion-y-diseno</id>
     <content type="html">
       &lt;p&gt;Hace ya bastante tiempo que vengo viendo cómo la Ciencia adquiere más y más fuerza por sobre el Arte en términos de validación del discurso. No quiero caer en el fome y manoseado debate entre el Arte y la Ciencia para definir un espacio para el Diseño, sino tratar de comprender el sentido de esta tendencia. Llama la atención ver cómo el Diseño, cuando quiere formalizar y divulgar su conociemiento, ya sea por medio de publicaciones o seminarios, adopta una postura cientí­fica para validarse. En el mundo académico el conocimiento se comparte en un formato estándar. Dicha &lt;em&gt;modularización&lt;/em&gt; (los “ladrillos”) obliga a construir argumentos en un formato tipo, idealmente que sea fácil de leer y hojear; de escanear rápidamente con la mirada, que permita extraerle lo de valor con un simple vistazo y que ofrezca capas diseñadas para las distintas velocidades de lectores. Lo ideal, y lo que se mide, es el &lt;strong&gt;factor de impacto&lt;/strong&gt; de cada uno de estos ladrillos. Esta practicidad reduce a un la lí­nea discursiva:&lt;/p&gt;
 
@@ -3852,9 +3856,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>Paradigmas del Diseño de Interacción</title>
-    <link href="https://herbertspencer.net/2007/12/paradigmas-ixd/"/>
+    <link href="http://0.0.0.0:4000/2007/12/paradigmas-ixd/"/>
     <updated>2007-12-10T09:54:04-03:00</updated>
-    <id>https://herbertspencer.net/2007/12/paradigmas-ixd</id>
+    <id>http://0.0.0.0:4000/2007/12/paradigmas-ixd</id>
     <content type="html">
       &lt;p&gt;Así­ como la tecnologí­a tiene una flecha histórica, el Diseño de Interacción por su lado, en estos pocos años, está marcando un sentido evolutivo:&lt;/p&gt;
 
@@ -3883,9 +3887,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>Buscador de patrones en el caos</title>
-    <link href="https://herbertspencer.net/2007/11/primes-modulator-full/"/>
+    <link href="http://0.0.0.0:4000/2007/11/primes-modulator-full/"/>
     <updated>2007-11-12T02:27:29-03:00</updated>
-    <id>https://herbertspencer.net/2007/11/primes-modulator-full</id>
+    <id>http://0.0.0.0:4000/2007/11/primes-modulator-full</id>
     <content type="html">
       &lt;p&gt;Para controlar la visualización, se elije el valor a modificar usando los triángulos (flechas) de los controles del lado izquierdo. Las variables que se controlan pueden ser continuas o discretas. Para aumentar o disminuir presionar sobre los rectángulos superior (+) e inferior (-). Las variables continuas se pueden modificar en menor o major medida dependiendo de en qué altura del rectángulo se presione. Esto puede resultar muy confuso pero otorga más control.&lt;/p&gt;
 
@@ -3901,9 +3905,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>Modulador de Números Primos</title>
-    <link href="https://herbertspencer.net/2007/11/primes-modulator/"/>
+    <link href="http://0.0.0.0:4000/2007/11/primes-modulator/"/>
     <updated>2007-11-12T02:27:29-03:00</updated>
-    <id>https://herbertspencer.net/2007/11/primes-modulator</id>
+    <id>http://0.0.0.0:4000/2007/11/primes-modulator</id>
     <content type="html">
       &lt;p&gt;Los números primos son los diamantes de los números naturales. Todos los demás números pueden construirse desde factorizaciones únicas de números primos; ellos son las piezas clave, los otros números son sólo relleno. No existe modo de anticipar la distribución de estos números como secuencia regular y han existido muchos intentos para predecir su aparición. Nadie ha podido estabalecer un patrón claro para describirlos. En 1963, &lt;a href=&quot;http://en.wikipedia.org/wiki/Stanislaw_Ulam&quot;&gt;Stanislaw Ulam&lt;/a&gt;, un matemático polaco, decidió disponerlos en una espiral cuadrada como la que muestro en la imagen. Este arreglo consiste en comenzar desde el número 1 al centro del espiral y avanzar girando hacia afuera manteniendo la unidad de distancia entre números constante; los puntos rojos representan números primos. Este arreglo reveló un misterioso patrón de diagonales que se mantení­a sin importar la cantidad de números representados o si se cambiaba el primer número del espiral por otro distinto de 1. Este hallazgo le significó a Ulam aparecer con su diagrama en la portada de la revista &lt;a href=&quot;http://www.sciam.com/&quot;&gt;Scientific American&lt;/a&gt;. Con la idea de poder encontrar patrones ocultos en los números primos hice un pequeño programa para modular distintos tipos de espirales, partiendo del famoso espiral de Ulam. Se trata de una herramienta de visualización para descubrir algo que nadie haya visto. Tal vez puedas descubrir un patrón oculto y tener un espiral con tu nombre.&lt;/p&gt;
 
@@ -3918,9 +3922,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>Civilscope</title>
-    <link href="https://herbertspencer.net/2007/05/civilscope/"/>
+    <link href="http://0.0.0.0:4000/2007/05/civilscope/"/>
     <updated>2007-05-29T11:32:59-04:00</updated>
-    <id>https://herbertspencer.net/2007/05/civilscope</id>
+    <id>http://0.0.0.0:4000/2007/05/civilscope</id>
     <content type="html">
       &lt;p&gt;La idea de &lt;a href=&quot;http://www.civilscope.org/&quot;&gt;este proyecto&lt;/a&gt; es mostrar de manera fácil y ní­tida las capas y fronteras cí­vicas en las cuales estamos inmersos. Civilscope es un servicio web que, a partir de una dirección determinada, mapea todas las divisiones, distritos y circunscripciones que la rigen. Este servicio funciona solamente para la gente de Chicago porque opera sobre la API de &lt;a href=&quot;http://www.civicfootprint.org/&quot;&gt;Civic Footprint&lt;/a&gt;, una iniciativa del &lt;a href=&quot;http://www.cnt.org/&quot;&gt;Center for Neighborhood Technology&lt;/a&gt; de Chicago. Pienso que tener algo así­ en Chile serí­a buení­simo para poder transparentar en algo las oscuras y arcanas fronteras polí­ticas que nos gobiernan. En parte por eso me entusiasmé cuando &lt;a href=&quot;http://www.currentform.com/&quot;&gt;Simon&lt;/a&gt; me propuso la idea; para poderlo mostrar como ejemplo y poder desarrollar algo así­ para nosotros. De hecho, nuestra estructura es bastante más sencilla, con menos capas y jerarquí­as traslapadas. Particularmente en Chicago existen distritos verdaderamente extraí±os en cuanto figura. Esto se debe a una práctica de distritage llamada “gerrymandering”. En el sistema norteamericano los votantes son divididos por distritos. Lo que cuenta al final no es la cantidad total de votos sino la cantidad de distritos en los que tal o cual candidato ha ganado. Esto lleva a practicar estrategias de “pack &amp;amp; crack”, es decir, agrupar a la oposición y concentrarla lo más posible en un distrito para que arrase, pero para que pierda por poco en todas las demás. Esta práctica de redibujar los distritos ocurre cada vez que hay alternancia en el poder, para perjudicar a la opsición. Cada dí­a esta operación se vuelve más sofisticada ya que se ocupan programas computacionales para redibujar los distritos basados en los registros de votantes. Es por eso que herramientas como esta permiten transparentar en algo estas prácticas. &lt;a href=&quot;http://www.civilscope.org/&quot;&gt;http://www.civilscope.org/&lt;/a&gt;&lt;/p&gt;
 
@@ -3929,9 +3933,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>MediaFranca, parte 2</title>
-    <link href="https://herbertspencer.net/2007/05/mediafranca-parte-2/"/>
+    <link href="http://0.0.0.0:4000/2007/05/mediafranca-parte-2/"/>
     <updated>2007-05-08T11:48:35-04:00</updated>
-    <id>https://herbertspencer.net/2007/05/mediafranca-parte-2</id>
+    <id>http://0.0.0.0:4000/2007/05/mediafranca-parte-2</id>
     <content type="html">
       &lt;figure class=&quot;video-container&quot;&gt;
   &lt;iframe src=&quot;https://player.vimeo.com/video/1464012&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -3955,9 +3959,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>MediaFranca, parte 1</title>
-    <link href="https://herbertspencer.net/2007/04/mediafranca-parte-1/"/>
+    <link href="http://0.0.0.0:4000/2007/04/mediafranca-parte-1/"/>
     <updated>2007-04-07T11:36:56-04:00</updated>
-    <id>https://herbertspencer.net/2007/04/mediafranca-parte-1</id>
+    <id>http://0.0.0.0:4000/2007/04/mediafranca-parte-1</id>
     <content type="html">
       &lt;p&gt;&lt;strong&gt;MediaFranca&lt;/strong&gt;((Este proyecto lamentablemente ya no está en línea, pero se puede ver &lt;a href=&quot;https://web.archive.org/web/20100105082332/http://www.herbertspencer.net/thesis/index.php?title=Main_Page#expand&quot;&gt;aquí&lt;/a&gt;. Esta wiki fue la partida para &lt;a href=&quot;http://wiki.ead.pucv.cl&quot;&gt;Casiopea&lt;/a&gt; por el sentido de la documentación viva, expuesta y colaborativa de un proyecto.)) es el projecto de investigación que realizo como parte del programa &lt;a href=&quot;http://www.design.cmu.edu/show_program.php?s=2&amp;amp;t=3&quot;&gt;MDes Interaction Design en CMU&lt;/a&gt;. Este projecto consta de dos partes: una tesis escrita y un proyecto de investigación y desarrollo (hasta la fase de prototipo) los cuales he decidio coordinar bajo una sola pregunta. La pregunta que inicia este proyecto que surge de la siguiente paradoja:&lt;/p&gt;
 
@@ -3970,9 +3974,9 @@ para que haya pueblo?&lt;/p&gt;
   
   <entry>
     <title>Filippo 3D ver 0.1</title>
-    <link href="https://herbertspencer.net/2006/12/filippo-3d-ver-01/"/>
+    <link href="http://0.0.0.0:4000/2006/12/filippo-3d-ver-01/"/>
     <updated>2006-12-17T12:44:54-03:00</updated>
-    <id>https://herbertspencer.net/2006/12/filippo-3d-ver-01</id>
+    <id>http://0.0.0.0:4000/2006/12/filippo-3d-ver-01</id>
     <content type="html">
       &lt;p&gt;Filippo 3D is my final project for &lt;a href=&quot;http://www.flong.com/&quot;&gt;Golan&lt;/a&gt;’s class, the &lt;a href=&quot;http://artscool.cfa.cmu.edu/~levin/courses/dmc/iig_06f/index.php&quot;&gt;Interactive Image&lt;/a&gt;. This project is inspired by the idea of drawing in a 3D canvas. After seeing &lt;a href=&quot;http://www.pitaru.com/&quot;&gt;Amit Pitaru&lt;/a&gt;’s work, the famous &lt;a href=&quot;http://pitaru.com/sonicWireSculptor/framed/index.htm&quot;&gt;sonic sculptor&lt;/a&gt; or the &lt;a href=&quot;http://www.theremediproject.com/projects/issue12/systemisgesture/&quot;&gt;gesture machines&lt;/a&gt; from &lt;a href=&quot;http://www.thesystemis.com/&quot;&gt;Zack Lieberman&lt;/a&gt;, I decided to create a small application that allowed to transfer 2D hand strokes into a 3D space.&lt;/p&gt;
 
@@ -4060,9 +4064,9 @@ Multiplicación de Matrices:
   
   <entry>
     <title>2x2x2</title>
-    <link href="https://herbertspencer.net/2006/10/2x2x2/"/>
+    <link href="http://0.0.0.0:4000/2006/10/2x2x2/"/>
     <updated>2006-10-29T12:34:24-03:00</updated>
-    <id>https://herbertspencer.net/2006/10/2x2x2</id>
+    <id>http://0.0.0.0:4000/2006/10/2x2x2</id>
     <content type="html">
       &lt;p&gt;Los arreglos &lt;strong&gt;2x2&lt;/strong&gt; son utilizados para visualizar relaciones entre dos conceptos. Por ejemplo, el eje &lt;strong&gt;X&lt;/strong&gt; puede representar ‘lo privado’ (-x) y ‘lo público’ (+x) y el eje &lt;strong&gt;Y&lt;/strong&gt; puede referirse a la relación ‘adquirir/consumir’ (-y) ‘crear/generar’(+y). Lo potente de esta representación es que admite todos los puntos intermedios entre los conceptos asignados a cada eje, las llamadas “áreas grises”.&lt;/p&gt;
 
@@ -4076,9 +4080,9 @@ Multiplicación de Matrices:
   
   <entry>
     <title>con§tel: sharing marginalia</title>
-    <link href="https://herbertspencer.net/2006/10/constel-sharing-marginalia/"/>
+    <link href="http://0.0.0.0:4000/2006/10/constel-sharing-marginalia/"/>
     <updated>2006-10-29T12:22:44-03:00</updated>
-    <id>https://herbertspencer.net/2006/10/constel-sharing-marginalia</id>
+    <id>http://0.0.0.0:4000/2006/10/constel-sharing-marginalia</id>
     <content type="html">
       &lt;h5 id=&quot;contel-an-environment-to-support-creativity-through-shared-marginalia&quot;&gt;con§tel: an environment to support creativity through shared marginalia&lt;/h5&gt;
 
@@ -4251,9 +4255,9 @@ deforman y engañan?&lt;/em&gt;((“the earth so overcome / is there not exposed
   
   <entry>
     <title>Flex Typeface</title>
-    <link href="https://herbertspencer.net/2006/10/flex-typeface/"/>
+    <link href="http://0.0.0.0:4000/2006/10/flex-typeface/"/>
     <updated>2006-10-27T23:32:23-03:00</updated>
-    <id>https://herbertspencer.net/2006/10/flex-typeface</id>
+    <id>http://0.0.0.0:4000/2006/10/flex-typeface</id>
     <content type="html">
       &lt;p&gt;Tipografía &lt;strong&gt;Tubular Flex&lt;/strong&gt;((Graciosamente existe una variación de esta tipografía que fue realizada en la &lt;a href=&quot;https://wiki.ead.pucv.cl/Traves%C3%ADa_Tubul&quot;&gt;Travesía a Tubul&lt;/a&gt;)) realizada en 2006. El principio de diseño de esta fuente es mantener los mismos elementos constitutivos (trazos básicos) para todas las letras, siendo lo único que varía es la disposición de estos elementos. Esto permite animar la interpolación entre las letras, lo que se logra presionando las teclas, desde la “a” a la “z” (sólo minúsculas).&lt;/p&gt;
 
@@ -4264,9 +4268,9 @@ deforman y engañan?&lt;/em&gt;((“the earth so overcome / is there not exposed
   
   <entry>
     <title>Honeydew Agent</title>
-    <link href="https://herbertspencer.net/2006/08/honeydew-agent/"/>
+    <link href="http://0.0.0.0:4000/2006/08/honeydew-agent/"/>
     <updated>2006-08-22T12:42:13-04:00</updated>
-    <id>https://herbertspencer.net/2006/08/honeydew-agent</id>
+    <id>http://0.0.0.0:4000/2006/08/honeydew-agent</id>
     <content type="html">
       &lt;p&gt;&lt;img src=&quot;/assets/uploads/2006/08/honeydew_logo_small1.png&quot; alt=&quot;Logo HoneyDew&quot; /&gt;&lt;/p&gt;
 
@@ -4312,9 +4316,9 @@ Este encargo fue realizado por &lt;a href=&quot;http://web.archive.org/web/20061
   
   <entry>
     <title>Diseñando con Estrofas</title>
-    <link href="https://herbertspencer.net/2005/08/disenando-con-estrofas/"/>
+    <link href="http://0.0.0.0:4000/2005/08/disenando-con-estrofas/"/>
     <updated>2005-08-10T17:24:11-04:00</updated>
-    <id>https://herbertspencer.net/2005/08/disenando-con-estrofas</id>
+    <id>http://0.0.0.0:4000/2005/08/disenando-con-estrofas</id>
     <content type="html">
       &lt;p&gt;La realidad de Internet corresponde a un cúmulo anárquico y ecléctico de artefactos diversos. Esta “selva”, de sitios, documentos y recursos es merodeada permanentemente por los robots indexadores de los incontables buscadores existentes. La visibilidad y por tanto la disponibilidad de lo publicado estará en directa relación con la trasparencia estructural de las páginas o documentos. Estas condiciones estimulan a diseñadores a obedecer y diseñar respetando los estándares sugeridos por el &lt;a href=&quot;http://www.w3c.org/&quot; title=&quot;World Wide Web Consortium&quot;&gt;W3C&lt;/a&gt; (World Wide Web Consortium) para poder definitivamente asentar las directrices de este medio que comienza a ordenarse.&lt;/p&gt;
 
@@ -4356,9 +4360,9 @@ Este encargo fue realizado por &lt;a href=&quot;http://web.archive.org/web/20061
   
   <entry>
     <title>Exámen del Taller de Cuarto Año</title>
-    <link href="https://herbertspencer.net/2005/06/examen-del-taller-de-cuarto-ano/"/>
+    <link href="http://0.0.0.0:4000/2005/06/examen-del-taller-de-cuarto-ano/"/>
     <updated>2005-06-09T16:39:55-04:00</updated>
-    <id>https://herbertspencer.net/2005/06/examen-del-taller-de-cuarto-ano</id>
+    <id>http://0.0.0.0:4000/2005/06/examen-del-taller-de-cuarto-ano</id>
     <content type="html">
       &lt;h3 id=&quot;1-de-lo-simultáneo-y-lo-continuo&quot;&gt;1. De lo simultáneo y lo continuo&lt;/h3&gt;
 
@@ -4436,9 +4440,9 @@ Este encargo fue realizado por &lt;a href=&quot;http://web.archive.org/web/20061
   
   <entry>
     <title>Evolución y Ocupación del Espacio</title>
-    <link href="https://herbertspencer.net/2005/04/evolucion-y-ocupacion-del-espacio/"/>
+    <link href="http://0.0.0.0:4000/2005/04/evolucion-y-ocupacion-del-espacio/"/>
     <updated>2005-04-29T23:27:45-04:00</updated>
-    <id>https://herbertspencer.net/2005/04/evolucion-y-ocupacion-del-espacio</id>
+    <id>http://0.0.0.0:4000/2005/04/evolucion-y-ocupacion-del-espacio</id>
     <content type="html">
       &lt;p&gt;&lt;em&gt;{Texto introductorio, guía para el lector que quiera adentrarse en las láminas}&lt;/em&gt;&lt;/p&gt;
 
@@ -4476,9 +4480,9 @@ En que el espacio bidimensional de los cuadros, está sometido a un sistema de e
   
   <entry>
     <title>Con§tel</title>
-    <link href="https://herbertspencer.net/2005/03/constel/"/>
+    <link href="http://0.0.0.0:4000/2005/03/constel/"/>
     <updated>2005-03-17T17:55:43-04:00</updated>
-    <id>https://herbertspencer.net/2005/03/constel</id>
+    <id>http://0.0.0.0:4000/2005/03/constel</id>
     <content type="html">
       &lt;p&gt;Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, estudiar y colaborar en este nuevo ámbito semántico-digital; en las nuevas plataformas de gestión y manejo de la información, pero sobre todo, nos preguntamos por la naturaleza visual de las nuevas interfaces que habrán de contener implícitas estas nuevas operatividades y de cómo habrán de instaurarse los nuevos códigos de visualización que necesariamente han de volver legible esta complejidad en ciernes.&lt;/p&gt;
 
@@ -4508,9 +4512,9 @@ En que el espacio bidimensional de los cuadros, está sometido a un sistema de e
   
   <entry>
     <title>De cómo una cosa se junta con otra</title>
-    <link href="https://herbertspencer.net/2005/01/de-como-una-cosa-se-junta-con-otra/"/>
+    <link href="http://0.0.0.0:4000/2005/01/de-como-una-cosa-se-junta-con-otra/"/>
     <updated>2005-01-10T16:15:56-03:00</updated>
-    <id>https://herbertspencer.net/2005/01/de-como-una-cosa-se-junta-con-otra</id>
+    <id>http://0.0.0.0:4000/2005/01/de-como-una-cosa-se-junta-con-otra</id>
     <content type="html">
       &lt;h4 id=&quot;exámen-de-primer-año-diseño--15-de-diciembre-de-2004&quot;&gt;Exámen de Primer Año Diseño – 15 de diciembre de 2004&lt;/h4&gt;
 
@@ -4561,9 +4565,9 @@ construirlo en su juego…&lt;/p&gt;
   
   <entry>
     <title>Travesía a Iruya</title>
-    <link href="https://herbertspencer.net/2004/11/travesia-a-iruya/"/>
+    <link href="http://0.0.0.0:4000/2004/11/travesia-a-iruya/"/>
     <updated>2004-11-05T16:12:48-03:00</updated>
-    <id>https://herbertspencer.net/2004/11/travesia-a-iruya</id>
+    <id>http://0.0.0.0:4000/2004/11/travesia-a-iruya</id>
     <content type="html">
       &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;nosotros amamos en primer término al árbol que se basta a sí mismo para retener como luz y contraluz en cada hoja un cielo para retener como rumor de su follaje húmedo toda lejana brisa imperceptible&lt;/em&gt;&lt;/p&gt;
@@ -4584,9 +4588,9 @@ construirlo en su juego…&lt;/p&gt;
   
   <entry>
     <title>Axis Mundae</title>
-    <link href="https://herbertspencer.net/2003/07/axis-mundae/"/>
+    <link href="http://0.0.0.0:4000/2003/07/axis-mundae/"/>
     <updated>2003-07-29T11:32:58-04:00</updated>
-    <id>https://herbertspencer.net/2003/07/axis-mundae</id>
+    <id>http://0.0.0.0:4000/2003/07/axis-mundae</id>
     <content type="html">
       &lt;p&gt;&lt;strong&gt;Instrucciones al lector:&lt;/strong&gt; Este poema está construído a partir de todas las continuidades posibles en la figura de los nueve puntos y sus 72 conectivas. Para leer se recomienda al lector saltar en la lectura encadenando consecutivamente un número entero y una conectiva. Al término de cada poema (número entero o conectiva) podrá volver al índice con la flecha &lt;a href=&quot;#Índice&quot;&gt;↑&lt;/a&gt; para elegir el siguiente paso. Cuando el lector decida terminar su recorrido, está invitado a leer el &lt;strong&gt;ø&lt;/strong&gt;.&lt;/p&gt;
 
@@ -6072,9 +6076,9 @@ vacías; y hacen del cero la diferencia.
   
   <entry>
     <title>fijar · un contraste · legible</title>
-    <link href="https://herbertspencer.net/2002/11/03/fijar-un-contraste-legible"/>
+    <link href="http://0.0.0.0:4000/2002/11/03/fijar-un-contraste-legible"/>
     <updated>2002-11-03T12:32:58-03:00</updated>
-    <id>https://herbertspencer.net/2002/11/03/fijar-un-contraste-legible</id>
+    <id>http://0.0.0.0:4000/2002/11/03/fijar-un-contraste-legible</id>
     <content type="html">
       &lt;p&gt;&lt;img src=&quot;/assets/uploads/2002/fijar-un-contraste-legible.png&quot; alt=&quot;3 láminas&quot; /&gt;&lt;/p&gt;
 

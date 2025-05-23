@@ -14,14 +14,14 @@
     <meta property="og:title" content="Historias Dirigidas: Interpretando Experiencias">
     <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://herbertspencer.net/2008/03/historias-dirigidas/">
-    <meta property="og:image" content="https://herbertspencer.net/android-chrome-512x512.png">
+    <meta property="og:url" content="http://0.0.0.0:4000/2008/03/historias-dirigidas/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Historias Dirigidas: Interpretando Experiencias">
     <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="twitter:image" content="https://herbertspencer.net/android-chrome-512x512.png">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -70,11 +70,11 @@
       let placeholderText = "Search..."; // Placeholder por defecto (inglés)
 
       if (userLang.startsWith('es')) {
-        placeholderText = "Buscar: Ctrl + . o Cmd + ."; 
+        placeholderText = "Buscar: Ctrl + B o Cmd + B"; 
       } else if (userLang.startsWith('en')) {
-        placeholderText = "Search: Ctrl + . o Cmd + .";
+        placeholderText = "Search: Ctrl + B o Cmd + B";
       } else if (userLang.startsWith('de')) {
-        placeholderText = "Suchen: Ctrl + . o Cmd + .";
+        placeholderText = "Suchen: Ctrl + B o Cmd + B";
       }
       // Añade más idiomas aquí según sea necesario
 
@@ -99,7 +99,7 @@
 
     // Atajo de teclado para enfocar el input de búsqueda (Ctrl + . o Cmd + .)
     document.addEventListener('keydown', function (e) {
-      if ((e.ctrlKey || e.metaKey) && e.key === '.') {
+      if ((e.ctrlKey || e.metaKey) && ((e.key === 'b') || (e.key === 'B'))) {
         e.preventDefault();
         searchInput.focus();
       }

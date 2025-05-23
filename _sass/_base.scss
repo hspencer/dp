@@ -519,6 +519,7 @@ header {
     #dp {
         display: block;
         background: vars.$color-dp-bg;
+        padding: 1em;
     }
 }
 
@@ -767,7 +768,7 @@ footer {
         box-sizing: border-box;
         width: 100%;
         &::placeholder{
-            color: vars.$color-lighter
+            color: vars.$color-light
         }
         &:focus {
             outline: none;

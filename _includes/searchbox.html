@@ -24,11 +24,11 @@
       let placeholderText = "Search..."; // Placeholder por defecto (inglés)
 
       if (userLang.startsWith('es')) {
-        placeholderText = "Buscar: Ctrl + . o Cmd + ."; 
+        placeholderText = "Buscar: Ctrl + B o Cmd + B"; 
       } else if (userLang.startsWith('en')) {
-        placeholderText = "Search: Ctrl + . o Cmd + .";
+        placeholderText = "Search: Ctrl + B o Cmd + B";
       } else if (userLang.startsWith('de')) {
-        placeholderText = "Suchen: Ctrl + . o Cmd + .";
+        placeholderText = "Suchen: Ctrl + B o Cmd + B";
       }
       // Añade más idiomas aquí según sea necesario
 
@@ -53,7 +53,7 @@
 
     // Atajo de teclado para enfocar el input de búsqueda (Ctrl + . o Cmd + .)
     document.addEventListener('keydown', function (e) {
-      if ((e.ctrlKey || e.metaKey) && e.key === '.') {
+      if ((e.ctrlKey || e.metaKey) && ((e.key === 'b') || (e.key === 'B'))) {
         e.preventDefault();
         searchInput.focus();
       }

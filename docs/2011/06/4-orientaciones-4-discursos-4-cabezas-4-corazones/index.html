@@ -14,14 +14,14 @@
     <meta property="og:title" content="4 orientaciones 4 discursos 4 cabezas 4 corazones">
     <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://herbertspencer.net/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/">
-    <meta property="og:image" content="https://herbertspencer.net/android-chrome-512x512.png">
+    <meta property="og:url" content="http://0.0.0.0:4000/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/">
+    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="4 orientaciones 4 discursos 4 cabezas 4 corazones">
     <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="twitter:image" content="https://herbertspencer.net/android-chrome-512x512.png">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -70,11 +70,11 @@
       let placeholderText = "Search..."; // Placeholder por defecto (inglés)
 
       if (userLang.startsWith('es')) {
-        placeholderText = "Buscar: Ctrl + . o Cmd + ."; 
+        placeholderText = "Buscar: Ctrl + B o Cmd + B"; 
       } else if (userLang.startsWith('en')) {
-        placeholderText = "Search: Ctrl + . o Cmd + .";
+        placeholderText = "Search: Ctrl + B o Cmd + B";
       } else if (userLang.startsWith('de')) {
-        placeholderText = "Suchen: Ctrl + . o Cmd + .";
+        placeholderText = "Suchen: Ctrl + B o Cmd + B";
       }
       // Añade más idiomas aquí según sea necesario
 
@@ -99,7 +99,7 @@
 
     // Atajo de teclado para enfocar el input de búsqueda (Ctrl + . o Cmd + .)
     document.addEventListener('keydown', function (e) {
-      if ((e.ctrlKey || e.metaKey) && e.key === '.') {
+      if ((e.ctrlKey || e.metaKey) && ((e.key === 'b') || (e.key === 'B'))) {
         e.preventDefault();
         searchInput.focus();
       }
@@ -316,7 +316,11 @@
 
 <h2 id="espacio-del-diseño">Espacio del Diseño</h2>
 
-<p>El metadiseño es aquel diseño que se diseña a sí mismo. Requiere concebir de una figura total de sí mismo, para que el diseñador pueda saberse inserto en un espacio y estar orientado con un punto de vista. Esta forma del diseño redefine y sinergiza las infraestructuras sociales y técnicas en un sentido colaborativo y co-adaptivo (dialéctico). Y ésta a sido la ocupación del taller de cuardo año de diseño gráfico durante esta primera parte del 2011. La realidad de un espacio contenedor posibilita al grupo de diseñadores avanzar en el acuerdo de una figura, que construye un punto de vista colectivo, construye un “nosotros”. Este mapa, que funciona como objeto fronterizo, alimenta la creatividad que juega dentro de esa figura: porque el diseño piensa en figuras. También, como partimos de una figura común, cada cual elabora y madura su propia figura, <a href="http://wiki.ead.pucv.cl/index.php/Modelos_Visuales_del_Dise%C3%B1o_%282011%29" title="las figuras de todos">su propia concepción del oficio</a> que encarna. <a href="/assets/uploads/2011/06/mapa-cruz.jpg"><img src="/assets/uploads/2011/06/mapa-cruz.jpg" alt="" /></a> Desde el punto de vista formativo, la experiencia del taller busca dibujar un recorrido por esta figura, reconociendo que cada punta tiene su propia verdad y su propio modo. El diseñador debe integrar en sí mismo estos 4 sentidos, para darle sentido a su trabajo. El taller sostiene que el diseño no se juega solamente en la vieja disputa ciencia-arte; ni tampoco se trata <em>solamente</em> de un arte. La figura es más compleja y es lo que se propone dilusidar aquí:</p>
+<p>El metadiseño es aquel diseño que se diseña a sí mismo. Requiere concebir de una figura total de sí mismo, para que el diseñador pueda saberse inserto en un espacio y estar orientado con un punto de vista. Esta forma del diseño redefine y sinergiza las infraestructuras sociales y técnicas en un sentido colaborativo y co-adaptivo (dialéctico). Y ésta a sido la ocupación del taller de cuardo año de diseño gráfico durante esta primera parte del 2011. La realidad de un espacio contenedor posibilita al grupo de diseñadores avanzar en el acuerdo de una figura, que construye un punto de vista colectivo, construye un “nosotros”. Este mapa, que funciona como objeto fronterizo, alimenta la creatividad que juega dentro de esa figura: porque el diseño piensa en figuras. También, como partimos de una figura común, cada cual elabora y madura su propia figura, <a href="http://wiki.ead.pucv.cl/index.php/Modelos_Visuales_del_Dise%C3%B1o_%282011%29" title="las figuras de todos">su propia concepción del oficio</a> que encarna.</p>
+
+<p><img src="/assets/uploads/2011/06/mapa-cruz.jpg" alt="Mapa Cruz" /></p>
+
+<p>Desde el punto de vista formativo, la experiencia del taller busca dibujar un recorrido por esta figura, reconociendo que cada punta tiene su propia verdad y su propio modo. El diseñador debe integrar en sí mismo estos 4 sentidos, para darle sentido a su trabajo. El taller sostiene que el diseño no se juega solamente en la vieja disputa ciencia-arte; ni tampoco se trata <em>solamente</em> de un arte. La figura es más compleja y es lo que se propone dilusidar aquí:</p>
 
 <h3 id="las-4-aperturas">Las 4 aperturas</h3>
 
