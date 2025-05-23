@@ -14,14 +14,14 @@
     <meta property="og:title" content="SCARAMANGA">
     <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://0.0.0.0:4000/">
-    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+    <meta property="og:url" content="https://herbertspencer.net/">
+    <meta property="og:image" content="https://herbertspencer.net/android-chrome-512x512.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SCARAMANGA">
     <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+    <meta name="twitter:image" content="https://herbertspencer.net/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -43,40 +43,541 @@
   </head>
   
 <script>
-  const posts = [{
-    %
-    for post in site.posts %
-  } {
-    title: "",
-    url: "",
-    length: {
-      {
-        post.content | number_of_words
-      }
+  const posts = [
+    
+    {
+      title: "Teoría de la Equivalencia de Complejidad Socio-Técnica",
+      url: "/2025/Theory-of-socio-technical-equivalence",
+      length: 1124
+    },
+    
+    {
+      title: "PictoNet",
+      url: "/2025/PictoNet",
+      length: 4087
+    },
+    
+    {
+      title: "La Internet que nos robaron",
+      url: "/2025/03/la-internet-que-nos-robaron/",
+      length: 1686
+    },
+    
+    {
+      title: "Prólogo para PictoNet",
+      url: "/2025/02/prologo-para-pictonet/",
+      length: 4231
+    },
+    
+    {
+      title: "Diseño de transición en la era del tecno feudalismo",
+      url: "/2025/02/diseno-de-transicion-en-la-era-del-tecno-feudalismo/",
+      length: 1130
+    },
+    
+    {
+      title: "Reflexiones de un migrante inexistente",
+      url: "/2024/09/reflexiones-de-un-migrante-inexistente/",
+      length: 1446
+    },
+    
+    {
+      title: "Singularidades poéticas hacia definiciones políticas: construcciones de escuela a partir del texto",
+      url: "/2022/10/singularidades",
+      length: 1492
+    },
+    
+    {
+      title: "HTML input: Pictograma",
+      url: "/2018/11/face-input/",
+      length: 796
+    },
+    
+    {
+      title: "Enseñando Interacción",
+      url: "/2018/11/ensenando-interaccion-la-interaccion-fisica-y-el-espacio/",
+      length: 2611
+    },
+    
+    {
+      title: "Números Modulares",
+      url: "/2017/02/numeros-modulares/",
+      length: 487
+    },
+    
+    {
+      title: "Técnica y Diseño",
+      url: "/2017/02/tecnica-y-diseno/",
+      length: 1612
+    },
+    
+    {
+      title: "Diseño Participativo con PiX: una Aproximación desde la Narrativa",
+      url: "/2015/10/diseno-participativo-con-pix/",
+      length: 952
+    },
+    
+    {
+      title: "Pequeños Múltiples",
+      url: "/2015/08/pequenos-multiples/",
+      length: 220
+    },
+    
+    {
+      title: "Topologoscopio",
+      url: "/2015/07/topologoscopio/",
+      length: 373
+    },
+    
+    {
+      title: "Diseño del Proceso Constituyente",
+      url: "/2015/05/diseno-del-proceso-constituyente/",
+      length: 758
+    },
+    
+    {
+      title: "La guía del joven aprendiz a la disciplina",
+      url: "/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina",
+      length: 10
+    },
+    
+    {
+      title: "GridSpace",
+      url: "/2014/12/gridspace/",
+      length: 146
+    },
+    
+    {
+      title: "Sideways: Slitscan for Urban Travellers",
+      url: "/2014/11/slitscan-sideways/",
+      length: 161
+    },
+    
+    {
+      title: "Pixograms Icon Webfont",
+      url: "/2014/10/pixograms-icon-webfont/",
+      length: 363
+    },
+    
+    {
+      title: "Árbol Pitagórico",
+      url: "/2014/04/arbol-pitagorico/",
+      length: 123
+    },
+    
+    {
+      title: "Diseñando una Empresa",
+      url: "/2014/02/Diseñando-una-Empresa",
+      length: 1210
+    },
+    
+    {
+      title: "El arte de saber preguntar",
+      url: "/2014/01/el-arte-de-saber-preguntar/",
+      length: 783
+    },
+    
+    {
+      title: "La Observación en Diseño",
+      url: "/2013/12/la-observacion-en-diseno/",
+      length: 834
+    },
+    
+    {
+      title: "El Diseño, o el bucle infinito",
+      url: "/2013/05/el-diseno-o-el-bucle-infinito/",
+      length: 933
+    },
+    
+    {
+      title: "Pizarra",
+      url: "/2012/05/pizarra/",
+      length: 305
+    },
+    
+    {
+      title: "Música de las Matemáticas",
+      url: "/2012/04/musica-de-las-matematicas/",
+      length: 1731
+    },
+    
+    {
+      title: "De Palomas y Estorninos",
+      url: "/2011/11/de-palomas-y-estorninos/",
+      length: 3837
+    },
+    
+    {
+      title: "Forma Digital",
+      url: "/2011/10/forma-digital/",
+      length: 641
+    },
+    
+    {
+      title: "Un Buen Diseño",
+      url: "/2011/10/un-buen-diseno/",
+      length: 744
+    },
+    
+    {
+      title: "4 orientaciones 4 discursos 4 cabezas 4 corazones",
+      url: "/2011/06/4-orientaciones-4-discursos-4-cabezas-4-corazones/",
+      length: 546
+    },
+    
+    {
+      title: "Seminario Ciudad Abierta",
+      url: "/2011/01/seminario-ciudad-abierta/",
+      length: 125
+    },
+    
+    {
+      title: "Travesía Tubul, Arauco",
+      url: "/2011/01/travesia-tubul-arauco/",
+      length: 2447
+    },
+    
+    {
+      title: "Mesh Network",
+      url: "/2010/11/mesh-network/",
+      length: 112
+    },
+    
+    {
+      title: "Internet como Bien Público",
+      url: "/2010/10/internet-como-bien-publico/",
+      length: 886
+    },
+    
+    {
+      title: "Herramienta y Espacio",
+      url: "/2010/09/herramienta-y-espacio/",
+      length: 973
+    },
+    
+    {
+      title: "Diseñar un Servicio",
+      url: "/2010/06/disenar-un-servicio/",
+      length: 1434
+    },
+    
+    {
+      title: "Quadra: Diseño para la Interacción Ciudadana",
+      url: "/2010/03/quadra-diseno-para-la-interaccion-ciudadana/",
+      length: 616
+    },
+    
+    {
+      title: "Viendo en la Transparencia",
+      url: "/2010/02/viendo-en-la-transparencia/",
+      length: 275
+    },
+    
+    {
+      title: "La Continuidad de la Experiencia",
+      url: "/2010/02/la-continuidad-de-la-experiencia/",
+      length: 1192
+    },
+    
+    {
+      title: "La Experiencia del Taller de Primer Año de Diseño",
+      url: "/2009/12/la-experiencia-del-taller-de-primer-ano-de-diseno/",
+      length: 1067
+    },
+    
+    {
+      title: "Galexia: Espacio y Navegación Semántica",
+      url: "/2009/12/galexia-espacio-y-navegacion-semantica/",
+      length: 686
+    },
+    
+    {
+      title: "Personas, no Usuarios",
+      url: "/2009/11/personas-no-usuarios/",
+      length: 210
+    },
+    
+    {
+      title: "Ética 2.0",
+      url: "/2009/09/etica-2-0/",
+      length: 382
+    },
+    
+    {
+      title: "Realidad Aumentada en Perspectiva",
+      url: "/2009/08/realidad-aumentada-en-perspectiva/",
+      length: 783
+    },
+    
+    {
+      title: "Presentación de Proyectos de Gráfica Digital",
+      url: "/2009/08/presentacion-de-proyectos-de-grafica-digital/",
+      length: 205
+    },
+    
+    {
+      title: "Espirales",
+      url: "/2009/07/espirales/",
+      length: 74
+    },
+    
+    {
+      title: "Haciendo Trampa",
+      url: "/2009/07/haciendo-trampa/",
+      length: 797
+    },
+    
+    {
+      title: "Inicio del Primer Año de Diseño",
+      url: "/2009/07/inicio-del-primer-ano-de-diseno/",
+      length: 1657
+    },
+    
+    {
+      title: "Transparencia Radical",
+      url: "/2009/04/transparencia-radical/",
+      length: 341
+    },
+    
+    {
+      title: "Partituras de Interacción",
+      url: "/2008/11/partituras-de-interaccion/",
+      length: 523
+    },
+    
+    {
+      title: "Processing 1.0",
+      url: "/2008/11/processing-1/",
+      length: 273
+    },
+    
+    {
+      title: "Cómo diseñar democracia en la red",
+      url: "/2008/10/como-disenar-democracia-en-la-red/",
+      length: 725
+    },
+    
+    {
+      title: "Todo depende del cristal con que se mire",
+      url: "/2008/09/todo-depende-del-cristal-con-que-se-mire/",
+      length: 289
+    },
+    
+    {
+      title: "La Naturaleza de la Información",
+      url: "/2008/09/la-naturaleza-de-la-informacion/",
+      length: 1071
+    },
+    
+    {
+      title: "IV Seminario Chileno de AI",
+      url: "/2008/08/iv-seminario-chileno-de-ai/",
+      length: 458
+    },
+    
+    {
+      title: "Ecosistemas de Información",
+      url: "/2008/08/ecosistemas-de-informacion/",
+      length: 1142
+    },
+    
+    {
+      title: "Pasaje Paralelo",
+      url: "/2008/08/pasaje-paralelo",
+      length: 112
+    },
+    
+    {
+      title: "Cortometraje",
+      url: "/2008/08/cortometraje",
+      length: 55
+    },
+    
+    {
+      title: "Historia de la e[ad] Escuela de Arquitectura y Diseño PUCV",
+      url: "/2008/08/historia-de-la-ead",
+      length: 103
+    },
+    
+    {
+      title: "Manejando la Complejidad",
+      url: "/2008/07/manejando-la-complejidad/",
+      length: 378
+    },
+    
+    {
+      title: "Crono-anamorfosis",
+      url: "/2008/07/crono-anamorfosis/",
+      length: 344
+    },
+    
+    {
+      title: "Del Suelo a la Tesela",
+      url: "/2008/06/del-suelo-a-la-tesela/",
+      length: 1204
+    },
+    
+    {
+      title: "Después de Investigar",
+      url: "/2008/05/despues-de-investigar/",
+      length: 686
+    },
+    
+    {
+      title: "Historias Dirigidas: Interpretando Experiencias",
+      url: "/2008/03/historias-dirigidas/",
+      length: 599
+    },
+    
+    {
+      title: "Teselador",
+      url: "/2008/02/teselador/",
+      length: 1624
+    },
+    
+    {
+      title: "Para qué investigamos con usuarios",
+      url: "/2008/02/para-que-investigamos-con-usuarios/",
+      length: 361
+    },
+    
+    {
+      title: "Investigación y Diseño",
+      url: "/2008/01/investigacion-y-diseno/",
+      length: 528
+    },
+    
+    {
+      title: "Paradigmas del Diseño de Interacción",
+      url: "/2007/12/paradigmas-ixd/",
+      length: 726
+    },
+    
+    {
+      title: "Buscador de patrones en el caos",
+      url: "/2007/11/primes-modulator-full/",
+      length: 106
+    },
+    
+    {
+      title: "Modulador de Números Primos",
+      url: "/2007/11/primes-modulator/",
+      length: 301
+    },
+    
+    {
+      title: "Civilscope",
+      url: "/2007/05/civilscope/",
+      length: 286
+    },
+    
+    {
+      title: "MediaFranca, parte 2",
+      url: "/2007/05/mediafranca-parte-2/",
+      length: 298
+    },
+    
+    {
+      title: "MediaFranca, parte 1",
+      url: "/2007/04/mediafranca-parte-1/",
+      length: 348
+    },
+    
+    {
+      title: "Filippo 3D ver 0.1",
+      url: "/2006/12/filippo-3d-ver-01/",
+      length: 882
+    },
+    
+    {
+      title: "2x2x2",
+      url: "/2006/10/2x2x2/",
+      length: 438
+    },
+    
+    {
+      title: "con§tel: sharing marginalia",
+      url: "/2006/10/constel-sharing-marginalia/",
+      length: 4660
+    },
+    
+    {
+      title: "Flex Typeface",
+      url: "/2006/10/flex-typeface/",
+      length: 160
+    },
+    
+    {
+      title: "Honeydew Agent",
+      url: "/2006/08/honeydew-agent/",
+      length: 857
+    },
+    
+    {
+      title: "Diseñando con Estrofas",
+      url: "/2005/08/disenando-con-estrofas/",
+      length: 493
+    },
+    
+    {
+      title: "Exámen del Taller de Cuarto Año",
+      url: "/2005/06/examen-del-taller-de-cuarto-ano/",
+      length: 1399
+    },
+    
+    {
+      title: "Evolución y Ocupación del Espacio",
+      url: "/2005/04/evolucion-y-ocupacion-del-espacio/",
+      length: 1189
+    },
+    
+    {
+      title: "Con§tel",
+      url: "/2005/03/constel/",
+      length: 902
+    },
+    
+    {
+      title: "De cómo una cosa se junta con otra",
+      url: "/2005/01/de-como-una-cosa-se-junta-con-otra/",
+      length: 916
+    },
+    
+    {
+      title: "Travesía a Iruya",
+      url: "/2004/11/travesia-a-iruya/",
+      length: 239
+    },
+    
+    {
+      title: "Axis Mundae",
+      url: "/2003/07/axis-mundae/",
+      length: 4652
+    },
+    
+    {
+      title: "fijar · un contraste · legible",
+      url: "/2002/11/03/fijar-un-contraste-legible",
+      length: 5
     }
-  } {
-    % unless forloop.last %
-  }, {
-    % endunless %
-  } {
-    % endfor %
-  }];
-</script> 
+    
+  ];
+</script>
 
-<body><header>
+<body>
+  <header>
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} · doble página</a></h1>
         
-        <div class="search-container">
-  <form id="search-form" action="#" method="get" class="search-form">
-      <input type="text" name="query" id="search-input" placeholder="Search..." aria-label="Buscar" autocomplete="off">
-      <button type="submit" aria-label="Submit Search" class="search-button">
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-fw">
-          <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 352c-79.5 0-144-64.5-144-144s64.5-144 144-144 144 64.5 144 144-64.5 144-144 144z"></path>
-        </svg>
-      </button>
-  </form>
-</div>
+        
+<form id="search-form" action="#" method="get" class="search-form">
+    <input type="text" name="query" id="search-input" placeholder="Search..." aria-label="Buscar" autocomplete="off">
+    <button type="submit" aria-label="Submit Search" class="search-button">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-fw">
+        <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 352c-79.5 0-144-64.5-144-144s64.5-144 144-144 144 64.5 144 144-64.5 144-144 144z"></path>
+      </svg>
+    </button>
+</form>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -94,11 +595,11 @@
       let placeholderText = "Search..."; // Placeholder por defecto (inglés)
 
       if (userLang.startsWith('es')) {
-        placeholderText = "Buscar..."; 
+        placeholderText = "Buscar: Ctrl + . o Cmd + ."; 
       } else if (userLang.startsWith('en')) {
-        placeholderText = "Search...";
+        placeholderText = "Search: Ctrl + . o Cmd + .";
       } else if (userLang.startsWith('de')) {
-        placeholderText = "Suchen...";
+        placeholderText = "Suchen: Ctrl + . o Cmd + .";
       }
       // Añade más idiomas aquí según sea necesario
 
@@ -121,9 +622,9 @@
         searchResultsTempDisplay.innerHTML = "<p class='no-results-message'>Error al cargar el buscador. Intente de nuevo más tarde.</p>";
       });
 
-    // Atajo de teclado para enfocar el input de búsqueda (Ctrl + / o Cmd + /)
+    // Atajo de teclado para enfocar el input de búsqueda (Ctrl + . o Cmd + .)
     document.addEventListener('keydown', function (e) {
-      if ((e.ctrlKey || e.metaKey) && e.key === '/') {
+      if ((e.ctrlKey || e.metaKey) && e.key === '.') {
         e.preventDefault();
         searchInput.focus();
       }
@@ -143,9 +644,11 @@
           const listItem = document.createElement("li");
           const formattedDate = new Date(item.fecha).toLocaleDateString(navigator.language || navigator.userLanguage, { year: 'numeric', month: 'long', day: 'numeric' });
           listItem.innerHTML = `
-            <h3 class="result-title"><a href="${item.url}">${item.titulo}</a></h3>
+            <a href="${item.url}" class="result-link">
+              <h3 class="result-title">${item.titulo}</h3>
             <p class="result-excerpt">${item.contenido.substring(0, 200)}...</p>
             <small class="result-meta">${formattedDate} ${item.categorias && item.categorias.length > 0 ? ' | Categorías: ' + item.categorias.join(', ') : ''} ${item.etiquetas && item.etiquetas.length > 0 ? ' | Etiquetas: ' + item.etiquetas.join(', ') : ''}</small>
+            </a>
           `;
           resultsList.appendChild(listItem);
         });
@@ -241,7 +744,6 @@
       <div id="p5">
         <div id="p5_loading" class="loading">...</div>
       </div>
-
     </sidebar>
 
     <article>
@@ -393,14 +895,12 @@ loadPosts();
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 22 May 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 23 May 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
 
-
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
-
   <script src="/assets/p5/home.js"></script>
   
 </body>
@@ -413,5 +913,4 @@ loadPosts();
 
   gtag('config', 'G-ML0YZPJS32');
 </script>
-
-</html> 
+</html>

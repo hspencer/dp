@@ -287,7 +287,7 @@
         if (element.post.url) window.location.href = element.post.url;
       }
     });
-    return false;
+    return true;
   }
   
   function touchStarted() {

@@ -14,14 +14,14 @@
     <meta property="og:title" content="Después de Investigar">
     <meta property="og:description" content="Un espacio para la experimentación y la reflexión">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="http://0.0.0.0:4000/2008/05/despues-de-investigar/">
-    <meta property="og:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+    <meta property="og:url" content="https://herbertspencer.net/2008/05/despues-de-investigar/">
+    <meta property="og:image" content="https://herbertspencer.net/android-chrome-512x512.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Después de Investigar">
     <meta name="twitter:description" content="Un espacio para la experimentación y la reflexión">
-    <meta name="twitter:image" content="http://0.0.0.0:4000/android-chrome-512x512.png">
+    <meta name="twitter:image" content="https://herbertspencer.net/android-chrome-512x512.png">
   
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -44,16 +44,15 @@
     <div class="navbar">
         <h1 id="title"><a href="/">{dp} · doble página</a></h1>
         
-        <div class="search-container">
-  <form id="search-form" action="#" method="get" class="search-form">
-      <input type="text" name="query" id="search-input" placeholder="Search..." aria-label="Buscar" autocomplete="off">
-      <button type="submit" aria-label="Submit Search" class="search-button">
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-fw">
-          <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 352c-79.5 0-144-64.5-144-144s64.5-144 144-144 144 64.5 144 144-64.5 144-144 144z"></path>
-        </svg>
-      </button>
-  </form>
-</div>
+        
+<form id="search-form" action="#" method="get" class="search-form">
+    <input type="text" name="query" id="search-input" placeholder="Search..." aria-label="Buscar" autocomplete="off">
+    <button type="submit" aria-label="Submit Search" class="search-button">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-fw">
+        <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 352c-79.5 0-144-64.5-144-144s64.5-144 144-144 144 64.5 144 144-64.5 144-144 144z"></path>
+      </svg>
+    </button>
+</form>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -71,11 +70,11 @@
       let placeholderText = "Search..."; // Placeholder por defecto (inglés)
 
       if (userLang.startsWith('es')) {
-        placeholderText = "Buscar..."; 
+        placeholderText = "Buscar: Ctrl + . o Cmd + ."; 
       } else if (userLang.startsWith('en')) {
-        placeholderText = "Search...";
+        placeholderText = "Search: Ctrl + . o Cmd + .";
       } else if (userLang.startsWith('de')) {
-        placeholderText = "Suchen...";
+        placeholderText = "Suchen: Ctrl + . o Cmd + .";
       }
       // Añade más idiomas aquí según sea necesario
 
@@ -98,9 +97,9 @@
         searchResultsTempDisplay.innerHTML = "<p class='no-results-message'>Error al cargar el buscador. Intente de nuevo más tarde.</p>";
       });
 
-    // Atajo de teclado para enfocar el input de búsqueda (Ctrl + / o Cmd + /)
+    // Atajo de teclado para enfocar el input de búsqueda (Ctrl + . o Cmd + .)
     document.addEventListener('keydown', function (e) {
-      if ((e.ctrlKey || e.metaKey) && e.key === '/') {
+      if ((e.ctrlKey || e.metaKey) && e.key === '.') {
         e.preventDefault();
         searchInput.focus();
       }
@@ -120,9 +119,11 @@
           const listItem = document.createElement("li");
           const formattedDate = new Date(item.fecha).toLocaleDateString(navigator.language || navigator.userLanguage, { year: 'numeric', month: 'long', day: 'numeric' });
           listItem.innerHTML = `
-            <h3 class="result-title"><a href="${item.url}">${item.titulo}</a></h3>
+            <a href="${item.url}" class="result-link">
+              <h3 class="result-title">${item.titulo}</h3>
             <p class="result-excerpt">${item.contenido.substring(0, 200)}...</p>
             <small class="result-meta">${formattedDate} ${item.categorias && item.categorias.length > 0 ? ' | Categorías: ' + item.categorias.join(', ') : ''} ${item.etiquetas && item.etiquetas.length > 0 ? ' | Etiquetas: ' + item.etiquetas.join(', ') : ''}</small>
+            </a>
           `;
           resultsList.appendChild(listItem);
         });
@@ -351,7 +352,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 22 May 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 23 May 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
   <!-- Google tag (gtag.js) -->

@@ -1,4 +1,4 @@
-@use "variables" as vars;
+@use "variables"as vars;
 
 body {
     background-color: vars.$color-body-bg;
@@ -87,11 +87,11 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
-    padding: 1.52em;
+    padding: 3em;
     border-radius: 0.78ex;
     box-shadow: 0 0 10px #00000022;
 
-    > * {
+    >* {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
         // outline: 1px dashed vars.$color-soft-line;
@@ -151,6 +151,7 @@ header {
         .related-posts {
             text-align: right;
             margin-top: 2em;
+
             h4 {
                 font-family: Barlow;
                 color: vars.$color-red;
@@ -158,16 +159,19 @@ header {
                 text-transform: uppercase;
                 font-weight: 600;
             }
+
             ul {
                 li {
                     position: relative;
                     list-style-type: none;
+
                     a {
                         position: relative;
                         transition: all 1s ease;
                         font-size: 0.8em;
                         display: block;
                         margin: 0 0 -2ex 0;
+
                         &::after {
                             position: relative;
                             transition: all 1s ease;
@@ -177,14 +181,17 @@ header {
                             top: 0.7ex;
                             left: 1ex;
                         }
+
                         &:hover {
                             color: vars.$color-red;
                             margin: 0 -2ex -2ex 0;
+
                             &::after {
                                 color: vars.$color-red;
                             }
                         }
                     }
+
                     .tag {
                         display: inline-block;
                         text-transform: uppercase;
@@ -212,28 +219,29 @@ header {
             color: vars.$color-title;
         }
 
-        h4, h5 {
+        h4,
+        h5 {
             text-transform: uppercase;
             letter-spacing: 0.08ex;
             font-weight: 500;
         }
 
         /* links en párrafos listas y footnotes */
-        p > a,
-        ul > li > a,
-        ol > li > a,
-        .footnotes > ol > li > a{
+        p>a,
+        ul>li>a,
+        ol>li>a,
+        .footnotes>ol>li>a {
             position: relative;
             color: vars.$color-link;
             text-decoration: none;
             background-image: linear-gradient(vars.$color-soft-line, vars.$color-text);
-            background-size: 100% 1px;      
-            background-position: 0 90%;    
+            background-size: 100% 1px;
+            background-position: 0 90%;
             background-repeat: no-repeat;
             transition: background-size 0.3s ease;
-            
-            &:hover{
-                background-size: 100% 2px;  
+
+            &:hover {
+                background-size: 100% 2px;
                 background-image: linear-gradient(vars.$color-orange, vars.$color-red);
             }
         }
@@ -282,7 +290,7 @@ header {
                 }
             }
 
-            > img:only-child {
+            >img:only-child {
                 display: block;
                 margin: 0 auto;
             }
@@ -324,7 +332,7 @@ header {
 
         .footnote-ref {
             color: vars.$color-red;
-            
+
         }
 
         .footnotes {
@@ -344,7 +352,8 @@ header {
                 color: vars.$color-light;
                 text-decoration: none;
                 background-image: none;
-                &:hover{
+
+                &:hover {
                     background-image: none;
                     color: vars.$color-red;
                 }
@@ -368,6 +377,7 @@ header {
                     transition: height 1s ease;
                     height: 10em;
                     overflow: hidden;
+
                     .image-overlay {
                         position: absolute;
                         bottom: 0;
@@ -389,6 +399,7 @@ header {
                     border-radius: 0.5ex;
                     background-color: rgba(255, 255, 255, 0.729);
                     outline: 1ex solid rgba(255, 255, 255, 0.729);
+
                     .image-overlay {
                         background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
                     }
@@ -420,6 +431,7 @@ header {
         }
 
         .center-poem {
+
             h2,
             h3 {
                 text-align: center;
@@ -474,13 +486,13 @@ header {
                 border: 1px solid transparent;
             }
 
-            input[type="checkbox"]:checked + span {
+            input[type="checkbox"]:checked+span {
                 color: vars.$color-strong;
                 border-top: transparent;
                 border-bottom: 1px solid vars.$color-text;
             }
 
-            input[type="checkbox"]:not(:checked) + span {
+            input[type="checkbox"]:not(:checked)+span {
                 color: vars.$color-lighter; // Color del texto cuando el checkbox no está seleccionado
                 border-bottom: transparent;
                 border-top: 1px solid vars.$color-lighter;
@@ -494,7 +506,8 @@ header {
                 padding: 1ex 1em;
                 border-radius: 2ex;
                 margin-bottom: 1em;
-                &:hover{
+
+                &:hover {
                     background-color: #ffffff88;
                 }
             }
@@ -547,6 +560,7 @@ header {
     .mt-header {
         font-size: 65%;
     }
+
     .mt-header,
     .mt-footer {
         display: none; // oculta avatar, fecha, botones, etc.
@@ -608,9 +622,11 @@ footer {
         color: #000;
         cursor: pointer;
     }
+
     a:hover {
         background: #999;
     }
+
     .actual {
         background: #333;
         color: #fff;
@@ -711,6 +727,7 @@ footer {
 
 #p5 {
     text-align: center;
+
     .tooltip {
         position: absolute;
         display: none;
@@ -727,114 +744,108 @@ footer {
         white-space: nowrap;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         transform: translateX(-50%);
-      }
+    }
 }
 
 /* searchbox */
 
 .search-form {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 10px;
-  position: relative;
-
-  input[type="text"] {
-    flex-grow: 1;
-    padding: .5ex 1em;
-    padding-left: 35px; // Espacio para el icono. Ajusta según el tamaño de tu icono y el margen deseado.
-    border: 1px solid transparent;
-    background-color: transparent;
-    border-radius: 4px;
-    font-size: 1rem;
-    box-sizing: border-box;
-    width: 100%;
-
-    &:focus {
-      border-color: vars.$color-text; // Usando tu variable SCSS
-      outline: none;
-    }
-  }
-
-  .search-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-    position: absolute;
-    left: 10px; // Distancia desde el borde izquierdo del input
-    top: 50%;
-    transform: translateY(-50%);
-    color: #555; // Color por defecto del icono
-    pointer-events: none; // Permite el clic a través del input
+    gap: 5px;
+    position: relative;
 
-    svg {
-      width: 18px;
-      height: 18px;
-      fill: currentColor;
+    input[type="text"] {
+        font-family: vars.$font-sans;
+        flex-grow: 1;
+        padding: .5ex 1em;
+        padding-left: 35px; // Espacio para el icono. Ajusta según el tamaño de tu icono y el margen deseado.
+        border: none;
+        background-color: transparent;
+        border-radius: 4px;
+        font-size: 1rem;
+        box-sizing: border-box;
+        width: 100%;
+        &::placeholder{
+            color: vars.$color-lighter
+        }
+        &:focus {
+            outline: none;
+        }
     }
-  }
 
-  // Cambiar el color de la lupa cuando el input está enfocado
-  input[type="text"]:focus + .search-button {
-    color: vars.$color-text; // La lupa se vuelve del color de texto al enfocar
-  }
-}
+    .search-button {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 10px; // Distancia desde el borde izquierdo del input
+        top: 50%;
+        transform: translateY(-50%);
+        color: vars.$color-lighter; // Color por defecto del icono
+        pointer-events: none; // Permite el clic a través del input
 
-.search-results-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  padding: 10px;
-
-  li {
-    padding: 10px 0;
-    border-bottom: 1px dashed #eee;
-
-    &:last-child {
-      border-bottom: none;
+        svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
     }
-  }
-}
 
-.result-title {
-  a {
-    color: vars.$color-text; // Usando tu variable SCSS
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: bold;
-
-    &:hover {
-      text-decoration: underline;
+    // Cambiar el color de la lupa cuando el input está enfocado
+    input[type="text"]:focus+.search-button {
+        color: vars.$color-red; // La lupa se vuelve del color de texto al enfocar
     }
-  }
 }
 
-.result-excerpt {
-  font-size: 0.9em;
-  color: #555;
-  margin-top: 5px;
-  line-height: 1.4;
-}
+ul.search-results-list {
+    list-style: none;
+    margin: 3em 0 0 0;
 
-.result-meta {
-  font-size: 0.8em;
-  color: #777;
-  display: block;
-  margin-top: 5px;
+    li {
+        margin: 0 0 2em 0;
+        transition: all .5s ease;
+
+        &:hover {
+            a.result-link {
+                h3.result-title {color: vars.$color-red !important}
+                .result-excerpt {color: vars.$color-strong}
+            }     
+        }
+
+        a.result-link {
+            
+            h3.result-title {
+                margin: 0;
+                font-weight: 150;
+                text-transform: uppercase;
+            }
+
+            .result-excerpt {
+                font-size: 0.9em;
+                color: vars.$color-text;
+                margin-top: 1ex;
+                line-height: 1.4;
+            }
+
+            .result-meta {
+                font-style: italic;
+                font-size: 0.7em;
+                font-weight: 350;
+                display: block;
+            }
+
+        }
+    }
 }
 
 .no-results-message {
-  padding: 10px;
-  text-align: center;
-  color: #666;
-  font-style: italic;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
 }
