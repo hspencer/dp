@@ -515,14 +515,6 @@ header {
     }
 }
 
-@media (max-width: 768px) {
-    #dp {
-        display: block;
-        background: vars.$color-dp-bg;
-        padding: 1em;
-    }
-}
-
 #dp-full {
     a {
         text-decoration: none;
@@ -849,4 +841,34 @@ ul.search-results-list {
     text-align: center;
     color: #666;
     font-style: italic;
+}
+
+/* responsive part */
+
+@media (max-width: 768px) {
+
+    form#search-form{
+        display: none;
+    }
+
+    #dp {
+        display: block;
+        background: vars.$color-dp-bg;
+        padding: 1em;
+
+        sidebar{
+            .title{
+                font-size: 2.5rem;
+            }
+        } 
+
+        article{
+
+            img,
+            table{
+                margin: 0 -1.5em;
+                border-radius: 0;
+            }
+        }
+    }
 }
