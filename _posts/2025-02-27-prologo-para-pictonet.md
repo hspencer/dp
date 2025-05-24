@@ -9,6 +9,8 @@ publish: true
 image:
   path: /assets/uploads/2025/02/prologo-pictonet-ia.png
   alt: Pictonet SVG editor
+youtube:
+  url: "https://www.youtube.com/embed/Zv6jx1lQmQY?si=xxWH_3H6RNzcwiWb"
 categories:
 - notas
 - research

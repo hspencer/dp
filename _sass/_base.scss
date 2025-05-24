@@ -1,4 +1,4 @@
-@use "variables"as vars;
+@use "variables" as vars;
 
 body {
     background-color: vars.$color-body-bg;
@@ -91,7 +91,7 @@ header {
     border-radius: 0.78ex;
     box-shadow: 0 0 10px #00000022;
 
-    >* {
+    > * {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
         // outline: 1px dashed vars.$color-soft-line;
@@ -227,10 +227,10 @@ header {
         }
 
         /* links en párrafos listas y footnotes */
-        p>a,
-        ul>li>a,
-        ol>li>a,
-        .footnotes>ol>li>a {
+        p > a,
+        ul > li > a,
+        ol > li > a,
+        .footnotes > ol > li > a {
             position: relative;
             color: vars.$color-link;
             text-decoration: none;
@@ -266,7 +266,7 @@ header {
             display: inline-block;
             margin-top: -0.5ex;
             font-weight: 600;
-            font-size: .6em;
+            font-size: 0.6em;
         }
 
         img {
@@ -290,7 +290,7 @@ header {
                 }
             }
 
-            >img:only-child {
+            > img:only-child {
                 display: block;
                 margin: 0 auto;
             }
@@ -332,11 +332,10 @@ header {
 
         .footnote-ref {
             color: vars.$color-red;
-
         }
 
         .footnotes {
-            font-size: 0.80em;
+            font-size: 0.8em;
             margin-top: 2rem;
 
             ol {
@@ -369,13 +368,13 @@ header {
             a.post-item {
                 position: relative;
                 display: inline-block;
-                transition: all 1s ease;
+                transition: all 2s ease;
                 outline: 0.111ex solid rgba(255, 255, 255, 0);
 
                 .image-container {
                     position: relative;
-                    transition: height 1s ease;
-                    height: 10em;
+                    transition: max-height 2s ease; 
+                    max-height: 7em; 
                     overflow: hidden;
 
                     .image-overlay {
@@ -384,14 +383,14 @@ header {
                         left: 0;
                         width: 100%;
                         height: 100%;
-                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 85%, vars.$color-dp-bg);
+                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 55%, vars.$color-dp-bg);
                     }
 
                     img {
                         border-radius: 3px;
                         display: block;
                         width: 100%;
-                        height: auto;
+                        height: auto; 
                     }
                 }
 
@@ -405,8 +404,8 @@ header {
                     }
 
                     .image-container {
-                        transition: all 1s ease;
-                        height: 12em;
+                        transition: all 2s ease; 
+                        max-height: 20em; 
                     }
                 }
             }
@@ -431,7 +430,6 @@ header {
         }
 
         .center-poem {
-
             h2,
             h3 {
                 text-align: center;
@@ -486,13 +484,13 @@ header {
                 border: 1px solid transparent;
             }
 
-            input[type="checkbox"]:checked+span {
+            input[type="checkbox"]:checked + span {
                 color: vars.$color-strong;
                 border-top: transparent;
                 border-bottom: 1px solid vars.$color-text;
             }
 
-            input[type="checkbox"]:not(:checked)+span {
+            input[type="checkbox"]:not(:checked) + span {
                 color: vars.$color-lighter; // Color del texto cuando el checkbox no está seleccionado
                 border-bottom: transparent;
                 border-top: 1px solid vars.$color-lighter;
@@ -728,7 +726,7 @@ footer {
         z-index: 10;
         background-color: rgba(255, 255, 255, 0.85);
         color: #333;
-        font-family: 'Barlow', sans-serif;
+        font-family: "Barlow", sans-serif;
         font-size: 11px;
         text-align: center;
         text-transform: uppercase;
@@ -752,15 +750,15 @@ footer {
         font-family: vars.$font-sans;
         font-size: 0.85rem;
         flex-grow: 1;
-        padding: .5ex 1em;
+        padding: 0.5ex 1em;
         padding-left: 35px; // Espacio para el icono. Ajusta según el tamaño de tu icono y el margen deseado.
         border: none;
         background-color: transparent;
         border-radius: 4px;
         box-sizing: border-box;
         width: 100%;
-        &::placeholder{
-            color: vars.$color-light
+        &::placeholder {
+            color: vars.$color-light;
         }
         &:focus {
             outline: none;
@@ -790,7 +788,7 @@ footer {
     }
 
     // Cambiar el color de la lupa cuando el input está enfocado
-    input[type="text"]:focus+.search-button {
+    input[type="text"]:focus + .search-button {
         color: vars.$color-red; // La lupa se vuelve del color de texto al enfocar
     }
 }
@@ -801,17 +799,20 @@ ul.search-results-list {
 
     li {
         margin: 0 0 2em 0;
-        transition: all .5s ease;
+        transition: all 0.5s ease;
 
         &:hover {
             a.result-link {
-                h3.result-title {color: vars.$color-red !important}
-                .result-excerpt {color: vars.$color-strong}
-            }     
+                h3.result-title {
+                    color: vars.$color-red !important;
+                }
+                .result-excerpt {
+                    color: vars.$color-strong;
+                }
+            }
         }
 
         a.result-link {
-            
             h3.result-title {
                 margin: 0;
                 font-weight: 150;
@@ -831,7 +832,6 @@ ul.search-results-list {
                 font-weight: 350;
                 display: block;
             }
-
         }
     }
 }
@@ -846,8 +846,7 @@ ul.search-results-list {
 /* responsive part */
 
 @media (max-width: 768px) {
-
-    form#search-form{
+    form#search-form {
         display: none;
     }
 
@@ -856,16 +855,15 @@ ul.search-results-list {
         background: vars.$color-dp-bg;
         padding: 1em;
 
-        sidebar{
-            .title{
+        sidebar {
+            .title {
                 font-size: 2.5rem;
             }
-        } 
+        }
 
-        article{
-
+        article {
             img,
-            table{
+            table {
                 margin: 0 -1.5em;
                 border-radius: 0;
             }
